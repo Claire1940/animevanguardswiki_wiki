@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Anime Vanguards Wiki - Codes, Tier List & Units",
+      "description": "Anime Vanguards Wiki covers codes, tier list, units, traits, evolutions, stages, raids, update notes, and beginner guides for Roblox players.",
+      "keywords": "anime vanguards, roblox, codes, tier list, units, traits, evolutions, raids",
+      "ogTitle": "Anime Vanguards Wiki - Codes, Tier List & Units",
+      "ogDescription": "Anime Vanguards Wiki covers codes, tier list, units, traits, evolutions, stages, raids, update notes, and beginner guides for Roblox players.",
+      "twitterTitle": "Anime Vanguards Wiki - Codes, Tier List & Units",
+      "twitterDescription": "Anime Vanguards Wiki covers codes, tier list, units, traits, evolutions, stages, raids, update notes, and beginner guides for Roblox players."
     }
   },
   "nav": {
@@ -34,27 +34,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Anime Tower Defense",
+    "title": "Anime Vanguards Wiki",
+    "description": "Summon anime-inspired units, upgrade and evolve your team, clear story stages, raids, boss events, and limited modes in this Roblox tower defense game.",
+    "keywords": "Anime Vanguards, Roblox, codes, tier list, units, traits, evolutions, raids",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "1.94B+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "44K+",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "96.77%",
+        "label": "User Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "340K",
+        "label": "Peak CCU"
       }
     }
   },
@@ -785,26 +786,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Anime Vanguards?",
+    "description": "Join the Anime Vanguards community for codes, tier lists, unit guides, and the latest Roblox update news!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Anime Vanguards Wiki",
+    "description": "Your complete resource hub for Anime Vanguards codes, tier list, units, traits, evolutions, raids, and update guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "youtube": "YouTube",
+    "roblox": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Anime Vanguards Wiki. Not affiliated with the developers of Anime Vanguards.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
