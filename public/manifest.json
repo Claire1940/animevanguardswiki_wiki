@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Anime Vanguards Wiki - Codes, Tier List & Units",
+  "short_name": "Anime Vanguards",
+  "description": "Anime Vanguards Wiki covers codes, tier list, units, traits, evolutions, stages, raids, update notes, and beginner guides for Roblox players.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#8b35ff",
   "background_color": "#0a0a0a",
   "icons": [
     {

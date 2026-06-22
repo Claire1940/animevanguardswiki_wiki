@@ -158,13 +158,13 @@ export default function HomePageClient({
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Anime Vanguards | RELEASE TRAILER",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
+          "Official Anime Vanguards release trailer showcasing gameplay, units, and tower defense action for Roblox.",
         uploadDate: "2026-03-12",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/XzCZRIRCuJ0",
+        url: "https://www.youtube.com/watch?v=XzCZRIRCuJ0",
       },
     ],
   };
@@ -279,8 +279,8 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="XzCZRIRCuJ0"
+              title="Anime Vanguards | RELEASE TRAILER"
             />
           </div>
         </div>
