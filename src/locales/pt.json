@@ -1,1 +1,1151 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Anime Vanguards Wiki - Códigos, Tier List & Unidades",
+      "description": "A Anime Vanguards Wiki cobre códigos, tier list, unidades, traits, evoluções, fases, raids, notas de atualização e guias de iniciantes para jogadores de Roblox.",
+      "keywords": "anime vanguards, roblox, códigos, tier list, unidades, traits, evoluções, raids",
+      "ogTitle": "Anime Vanguards Wiki - Códigos, Tier List & Unidades",
+      "ogDescription": "A Anime Vanguards Wiki cobre códigos, tier list, unidades, traits, evoluções, fases, raids, notas de atualização e guias de iniciantes para jogadores de Roblox.",
+      "twitterTitle": "Anime Vanguards Wiki - Códigos, Tier List & Unidades",
+      "twitterDescription": "A Anime Vanguards Wiki cobre códigos, tier list, unidades, traits, evoluções, fases, raids, notas de atualização e guias de iniciantes para jogadores de Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "tier": "Tier",
+    "units": "Unidades",
+    "values": "Valores",
+    "evolution": "Evolução",
+    "guide": "Guia",
+    "items": "Itens"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Tower Defense de Anime no Roblox",
+    "title": "Anime Vanguards Wiki",
+    "description": "Invoque unidades inspiradas em anime, melhore e evolua sua equipe, conclua fases da história, raids, eventos de chefe e modos limitados neste jogo de tower defense do Roblox.",
+    "keywords": "Anime Vanguards, Roblox, códigos, tier list, unidades, traits, evoluções, raids",
+    "getFreeCodesCTA": "Obter Códigos Grátis",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "1.94B+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "44K+",
+        "label": "Jogadores Online"
+      },
+      "stat3": {
+        "value": "96.77%",
+        "label": "Avaliação dos Usuários"
+      },
+      "stat4": {
+        "value": "340K",
+        "label": "Pico de CCU"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Anime Vanguards",
+    "description": "Invoque unidades inspiradas em anime, rerole traits, evolua seu elenco e defenda-se contra ondas de inimigos em estágios de história, raids e eventos por tempo limitado no Roblox."
+  },
+  "tools": {
+    "title": "Anime Vanguards",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para dominar Anime Vanguards: códigos, tier lists, unidades, traits, evoluções, modos e as últimas atualizações.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos",
+        "description": "Códigos de Anime Vanguards ativos e expirados, recompensas e passos seguros para resgate."
+      },
+      {
+        "icon": "Compass",
+        "title": "Guia para Iniciantes",
+        "description": "O caminho da primeira sessão para novos jogadores de Anime Vanguards."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Unidades",
+        "description": "Rankings atuais de tiers de Anime Vanguards para meta cores e suportes."
+      },
+      {
+        "icon": "Users",
+        "title": "Guia de Unidades",
+        "description": "Raridades de unidades de Anime Vanguards, caminhos de obtenção, funções e notas de investimento."
+      },
+      {
+        "icon": "Dna",
+        "title": "Guia de Traits",
+        "description": "Rerolls de traits, prioridade e adequação de funções para unidades de Anime Vanguards."
+      },
+      {
+        "icon": "Zap",
+        "title": "Guia de Evoluções",
+        "description": "Rotas de evolução, materiais e tempo para unidades de Anime Vanguards."
+      },
+      {
+        "icon": "Map",
+        "title": "Guia de Modos de Jogo",
+        "description": "História, raids, rifts e eventos em Anime Vanguards."
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Atualizações e Eventos",
+        "description": "Últimos patches, novas unidades e eventos sazonais de Anime Vanguards."
+      }
+    ]
+  },
+  "modules": {
+    "animeVanguardsCodes": {
+      "title": "Códigos de Anime Vanguards",
+      "displayType": "code-cards",
+      "intro": "Resgate os códigos mais recentes de Anime Vanguards para Trait Rerolls, Memoria Shards, Iced Teas, Gems, Gold, Stat Chips e materiais de evento. Copie códigos ativos, verifique códigos expirados recentemente e siga o caminho seguro de resgate no menu Perfil.",
+      "lastChecked": "Última verificação para Eternal Adversaries Update 13.5",
+      "activeCodes": [
+        {
+          "code": "13.5",
+          "rewards": "50 Trait Rerolls, 5.000 Iced Teas",
+          "requirement": "Nível 30",
+          "status": "Ativo",
+          "update": "Eternal Adversaries Update 13.5"
+        },
+        {
+          "code": "EternalAdversaries",
+          "rewards": "50 Memoria Shards, 5.000 Iced Teas",
+          "requirement": "Nível 30",
+          "status": "Ativo",
+          "update": "Eternal Adversaries Update 13.5"
+        },
+        {
+          "code": "Gambler",
+          "rewards": "50 Trait Rerolls, 50 Memoria Shards, 5 Rainbow Essence Stones",
+          "requirement": "Nível 30",
+          "status": "Ativo",
+          "update": "Eternal Adversaries Update 13.5"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "DMCAFree",
+          "rewards": "1.500 Trait Rerolls",
+          "status": "Expirado"
+        },
+        {
+          "code": "Liberation",
+          "rewards": "50 Memoria Shards, 5 Rainbow Essence Stones",
+          "status": "Expirado"
+        },
+        {
+          "code": "223",
+          "rewards": "50 Trait Rerolls, 50 Green Essence Stones",
+          "status": "Expirado"
+        },
+        {
+          "code": "Cog5th",
+          "rewards": "50 Trait Rerolls, 50 Memoria Shards",
+          "status": "Expirado"
+        },
+        {
+          "code": "Spring26",
+          "rewards": "40.000 Flowers, 20.000 Gems, 50 Stat Chips",
+          "status": "Expirado"
+        },
+        {
+          "code": "Shinobi",
+          "rewards": "20 Trait Rerolls, 2.000 Gems",
+          "status": "Expirado"
+        }
+      ],
+      "redeemSteps": [
+        {
+          "title": "Entre e progrida",
+          "description": "Entre no Anime Vanguards no Roblox e progrida até que o resgate de códigos esteja disponível."
+        },
+        {
+          "title": "Alcance o limite de nível",
+          "description": "Alcance o Nível 10 para o menu de códigos básico; códigos mais recentes, como o conjunto Eternal Adversaries, exigem o Nível 30."
+        },
+        {
+          "title": "Abra o menu de Perfil",
+          "description": "Toque no botão azul de Perfil no lado direito da tela."
+        },
+        {
+          "title": "Selecione a opção de Códigos",
+          "description": "Escolha a opção roxa de Códigos dentro da janela de Perfil."
+        },
+        {
+          "title": "Cole e resgate",
+          "description": "Cole o código exatamente como escrito, depois pressione Resgatar para receber as recompensas."
+        }
+      ],
+      "rewardTypes": [
+        {
+          "name": "Trait Rerolls",
+          "description": "Role novamente os atributos da unidade para obter configurações de dano, utilidade ou suporte mais fortes."
+        },
+        {
+          "name": "Memoria Shards",
+          "description": "Progresso em direção a upgrades de Memoria e sistemas de eventos."
+        },
+        {
+          "name": "Iced Teas",
+          "description": "Gaste em recompensas do evento de verão Eternal Adversaries."
+        },
+        {
+          "name": "Gemas",
+          "description": "Invoque novas unidades dos banners."
+        },
+        {
+          "name": "Stat Chips",
+          "description": "Melhore os stat rolls das unidades antes de comprometer recursos de longo prazo."
+        },
+        {
+          "name": "Ouro",
+          "description": "Pague por upgrades, lojas e custos de progressão."
+        }
+      ]
+    },
+    "animeVanguardsBeginnerGuide": {
+      "title": "Guia de Iniciantes de Anime Vanguards",
+      "displayType": "passo a passo",
+      "intro": "Comece com a experiência correta do Roblox, conclua a progressão inicial, desbloqueie o resgate de códigos e monte uma equipe baseada em invocações, upgrades e eventos no Anime Vanguards.",
+      "steps": [
+        {
+          "title": "Entre no Jogo Correto",
+          "description": "Abra Anime Vanguards: Eternal Adversaries no Roblox por Kitawari com o ID de jogo 16146832113."
+        },
+        {
+          "title": "Entenda o Ciclo Principal",
+          "description": "Invoque unidades para se defender dos inimigos, suba o nível delas, evolua para versões mais fortes e vença batalhas mais difíceis ao longo do tempo."
+        },
+        {
+          "title": "Progrida até Desbloquear os Códigos",
+          "description": "Alcance o Nível 10 antes de tentar usar as listas de códigos. Algumas recompensas mais recentes exigem níveis de conta mais altos, incluindo os códigos de nível 30 de Eternal Adversaries."
+        },
+        {
+          "title": "Use as Recompensas Iniciais em Unidades Primeiro",
+          "description": "Gaste Gemas e recursos de reroll apenas depois de saber qual unidade você está desenvolvendo. Economize recursos premium para unidades que planeja usar além das conclusões iniciais da história."
+        },
+        {
+          "title": "Monte uma Equipe Inicial Equilibrada",
+          "description": "Combine dano, controle de grupo, suporte e economia em vez de acumular apenas unidades de dano."
+        },
+        {
+          "title": "Resgate Recompensas Gratuitas Recorrentes",
+          "description": "Recompensas diárias, conquistas, missões diárias, missões semanais e tarefas de eventos fornecem Gemas, Trait Rerolls e materiais de progressão."
+        },
+        {
+          "title": "Avance da História para os Eventos",
+          "description": "Depois de montar sua primeira equipe estável, passe para as tarefas de eventos e conteúdos rotativos, como as recompensas de Eternal Adversaries, Summer Portals e modos de evento de verão."
+        },
+        {
+          "title": "Acompanhe as Atualizações Oficiais",
+          "description": "Use o changelog oficial, o Discord, a conta do X e o canal do YouTube antes de gastar materiais raros, para que seu planejamento de recursos siga o patch atual."
+        }
+      ],
+      "quickTips": [
+        "Priorize um carry principal antes de espalhar recursos por muitas unidades.",
+        "Economize Trait Rerolls e Stat Chips para unidades com uma função clara de longo prazo.",
+        "Conclua missões diárias e semanais para obter um ganho constante de Gemas e rerolls.",
+        "Verifique o changelog oficial antes de investir em pulls de banner."
+      ]
+    },
+    "animeVanguardsUnitTierList": {
+      "title": "Tier List de Unidades de Anime Vanguards",
+      "displayType": "tier-grid",
+      "intro": "Uma tier grid prática para a montagem de equipes atual no Anime Vanguards, cobrindo meta cores, fortes peças de suporte, unidades de progressão e novas unidades de Eternal Adversaries. Priorize primeiro um carry principal, uma unidade de controle ou suporte e um espaço de utilidade ou economia.",
+      "tierLabel": "Tier",
+      "tiers": [
+        {
+          "tier": "SS",
+          "tierLabel": "Meta Cores",
+          "description": "Unidades de alta prioridade que ancoram equipes de fim de jogo (late-game) através de dano, controle de grupo, economia, invocações ou pressão sustentada.",
+          "units": [
+            {
+              "name": "Demon Leader (Controle)",
+              "rarity": "Secreto",
+              "note": "Reduz custos de posicionamento e fortalece aliados Demon Hunter."
+            },
+            {
+              "name": "God (Acima do Céu)",
+              "rarity": "Secreto",
+              "note": "Combina grande dano em área com uma janela de controle estilo congelamento."
+            },
+            {
+              "name": "Song Jinwu e Igros",
+              "rarity": "Vanguarda",
+              "note": "Invoca soldados de sombra sem consumir espaços normais de posicionamento."
+            },
+            {
+              "name": "Gujo (Infinito)",
+              "rarity": "Secreto",
+              "note": "Usa controle de ampla área para segurar inimigos enquanto os carries causam dano."
+            },
+            {
+              "name": "Rogita (Super 4)",
+              "rarity": "Vanguarda",
+              "note": "Uma das escolhas de dano de alvo único mais fortes no meta atual."
+            }
+          ]
+        },
+        {
+          "tier": "S+",
+          "tierLabel": "Suportes e Carries de Endgame",
+          "description": "Unidades de alto valor que se adaptam a conteúdos difíceis e combinam bem com cores de tier SS.",
+          "units": [
+            {
+              "name": "Demon Hybrid (Motosserra)",
+              "rarity": "Secreto",
+              "note": "DPS de burst para equipes Demon Hunter e detonação de sangramento."
+            },
+            {
+              "name": "Brolzi Super (Enraivecido)",
+              "rarity": "Vanguarda",
+              "note": "DPS para fases difíceis que se encaixa no slot de carry."
+            },
+            {
+              "name": "Divalo (Requiem)",
+              "rarity": "Vanguarda",
+              "note": "Controle de velocidade de inimigos para waves de chefes e segurança da lane."
+            },
+            {
+              "name": "Teacher (Final Stand)",
+              "rarity": "Secreto",
+              "note": "Suporte de utilidade de equipe para conteúdo difícil."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "tierLabel": "Fortes Escolhas Gerais",
+          "description": "Unidades confiáveis para jogadores que estão progredindo para conteúdos mais difíceis sem um elenco completo de tier SS.",
+          "units": [
+            {
+              "name": "Iscanur (Orgulho)",
+              "rarity": "Vanguarda",
+              "note": "Carry de dano para conclusões gerais e fases de evento."
+            },
+            {
+              "name": "Okorun (Turbo)",
+              "rarity": "Exclusivo",
+              "note": "Dano rápido para speed clears e equipes de evento."
+            },
+            {
+              "name": "Savior (Sem Lua)",
+              "rarity": "Vanguarda",
+              "note": "Carry para progressão na história e builds de late-game."
+            },
+            {
+              "name": "Explosive Demon (Bomb)",
+              "rarity": "Mítico",
+              "note": "Dano AoE para ondas lotadas e times econômicos."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "tierLabel": "Progressão e Valor Econômico",
+          "description": "Unidades úteis para jogadores montando um time funcional antes que unidades premium Secret, Vanguard e Exclusive estejam prontas.",
+          "units": [
+            {
+              "name": "Deceiver (Monster)",
+              "rarity": "Secret",
+              "note": "Carry alternativo para progressão e limpezas de história."
+            },
+            {
+              "name": "Fastest Shinobi (Flash)",
+              "rarity": "Vanguard",
+              "note": "DPS rápido para limpezas focadas em velocidade e controle de rota."
+            },
+            {
+              "name": "Saber (Black Tyrant)",
+              "rarity": "Limitado",
+              "note": "Carry de progressão servindo de ponte entre times iniciantes e mid-game."
+            }
+          ]
+        },
+        {
+          "tier": "13.5",
+          "tierLabel": "Novas Unidades de Eternal Adversaries",
+          "description": "Unidades mais recentes do conteúdo Eternal Adversaries que valem a pena avaliar antes de gastar materiais de evento e recursos de reroll.",
+          "units": [
+            {
+              "name": "O Mais Forte de Hoje vs O Mais Forte da História",
+              "rarity": "Vanguard",
+              "note": "Alvo do Banner Sazonal Summer 26."
+            },
+            {
+              "name": "Raging Oni vs Wrath God",
+              "rarity": "Secret",
+              "note": "Alvo de conteúdo Worldlines."
+            },
+            {
+              "name": "Envoy of Destruction (Resistance)",
+              "rarity": "Exclusive",
+              "note": "Unidade de Passe de Evento."
+            }
+          ]
+        }
+      ]
+    },
+    "animeVanguardsUnitsGuide": {
+      "title": "Guia de Unidades de Anime Vanguards",
+      "displayType": "card-list",
+      "intro": "Aprenda funções das unidades, raridades, caminhos de obtenção, escolhas iniciais, unidades limitadas e o que verificar antes de gastar recursos escassos em Anime Vanguards.",
+      "cards": [
+        {
+          "title": "Escolha de Unidade Inicial",
+          "category": "Starter",
+          "units": "Luffo, Narutu, Ichiga",
+          "howToGet": "Escolha uma das três unidades iniciais durante a progressão inicial.",
+          "investmentNote": "Use starters para limpar as primeiras fases, depois direcione os recursos para unidades invocadas mais fortes, de evento, Secret, Vanguard ou Exclusive."
+        },
+        {
+          "title": "Unidades de Banner de Invocação",
+          "category": "Summon",
+          "units": "God (Above Heaven), Gujo (Infinity), Demon Leader (Control), Rogita (Super 4), Ice Queen (Release), Alocard (Vampire King)",
+          "howToGet": "Use Gems e pulls de banner quando a unidade desejada estiver disponível.",
+          "investmentNote": "Priorize unidades que preencham um papel claro: carry damage, crowd control, suporte de economia ou boss killing."
+        },
+        {
+          "title": "Alvo do Banner de Eternal Adversaries",
+          "category": "Update 13.5",
+          "units": "Today's Strongest vs History's Strongest",
+          "rarity": "Vanguard",
+          "howToGet": "Banner Sazonal Summer 26",
+          "investmentNote": "Trate unidades de banner de raridade Vanguard como alvos de alto custo de recursos e verifique traits, stats e Memoria antes de fazer reroll pesado."
+        },
+        {
+          "title": "Unidade Worldlines de Eternal Adversaries",
+          "category": "Update 13.5",
+          "units": "Raging Oni vs Wrath God",
+          "rarity": "Secret",
+          "howToGet": "Conteúdo de Worldlines",
+          "investmentNote": "Unidades Secret são candidatas de longo prazo quando seu papel se encaixa no seu time principal e nos objetivos do evento atual."
+        },
+        {
+          "title": "Unidade do Passe de Evento de Eternal Adversaries",
+          "category": "Update 13.5",
+          "units": "Envoy of Destruction (Resistance)",
+          "rarity": "Exclusive",
+          "howToGet": "Passe de Evento",
+          "investmentNote": "Unidades de Passe de Evento são valiosas para coleção e caminhos de progressão específicos da atualização."
+        },
+        {
+          "title": "Unidades do Battlepass de Godly Ascension",
+          "category": "Update 13.0",
+          "units": "Cat God, Reasonable Person",
+          "rarity": "Exclusive",
+          "howToGet": "Battlepass Season 13",
+          "investmentNote": "Unidades de Battlepass são alvos de progressão limitada; verifique suas formas evoluídas e links de Memoria antes de gastar rerolls premium."
+        },
+        {
+          "title": "Unidades Piratas de Godly Ascension",
+          "category": "Update 13.0",
+          "units": "Elastic Captain (Cog 5th), Bounty Hunter (King of Hell), Beast Pirate (Half-Dragon), Scrap Pirate (Metal)",
+          "howToGet": "Evolution Quests, gameplay de Rift e conteúdo de Godly Ascension",
+          "investmentNote": "Use unidades Piratas para caminhos de progressão do Update 13, como Pirate Dynasty, recompensas de Rift e sequências de missões de evolução."
+        },
+        {
+          "title": "Antes de Investir",
+          "category": "Checklist",
+          "units": "Raridade, Caminho de obtenção, Papel no time, Valor de Trait, Stat rolls, Materiais de evolução, Links de Memoria, Utilidade na atualização atual",
+          "howToGet": "Revise este checklist toda vez que considerar gastar recursos premium.",
+          "investmentNote": "Gaste Trait Rerolls e Stat Chips apenas depois que a unidade tiver uma função clara no seu time."
+        }
+      ]
+    },
+    "animeVanguardsTraitsGuide": {
+      "title": "Guia de Traits e Rerolls de Anime Vanguards",
+      "displayType": "accordion",
+      "intro": "Traits são modificadores permanentes de unidades que melhoram atributos de combate como Dano, SPA e Alcance. Aprenda como Trait Rerolls funcionam, quais traits valem a pena manter e onde gastar recursos raros de reroll primeiro em Anime Vanguards.",
+      "labels": {
+        "keyPoints": "Pontos principais",
+        "trait": "Trait",
+        "chance": "Chance de drop",
+        "role": "Melhor uso",
+        "pity": "Alvo de pity",
+        "priority": "Prioridade de Reroll",
+        "roleMatch": "Função da unidade",
+        "bestTraits": "Melhores traits",
+        "reason": "Por que se encaixa"
+      },
+      "items": [
+        {
+          "heading": "Como Trait Rerolls funcionam",
+          "content": "Um Trait Reroll altera a trait de uma unidade selecionada. Cada tentativa consome um Trait Reroll, e o novo resultado substitui a trait anterior nessa unidade.",
+          "keyPoints": [
+            "Traits podem aparecer ao invocar unidades ou ser alteradas posteriormente com Trait Rerolls.",
+            "Trait Rerolls são gastos no NPC Mandra Traits.",
+            "O menu Trait Index rastreia o pity mítico separadamente para cada unidade.",
+            "Evolution, Normalizing e Stat Transfers não resetam o pity de trait de uma unidade."
+          ]
+        },
+        {
+          "heading": "Pool de Trait Roll",
+          "content": "O pool de traits atual inclui traits de atributos comuns, traits de farm e traits míticas raras reservadas para unidades de endgame.",
+          "traits": [
+            {
+              "name": "Vigor",
+              "chance": "26%",
+              "role": "Bônus de dano para unidades de DPS iniciais e de preenchimento"
+            },
+            {
+              "name": "Range",
+              "chance": "26%",
+              "role": "Cobertura extra para unidades que precisam de melhor alcance de posicionamento"
+            },
+            {
+              "name": "Swift",
+              "chance": "26%",
+              "role": "Melhoria de SPA para unidades de ataque mais rápido"
+            },
+            {
+              "name": "Scholar",
+              "chance": "10%",
+              "role": "Útil ao subir o nível das unidades"
+            },
+            {
+              "name": "Marksman",
+              "chance": "6.5%",
+              "role": "Upgrade de Range para unidades com forte cobertura de área"
+            },
+            {
+              "name": "Fortune",
+              "chance": "2.5%",
+              "role": "Trait de economia para farm e valor de suporte"
+            },
+            {
+              "name": "Blitz",
+              "chance": "1.85%",
+              "role": "Trait de SPA de alto valor para unidades de dano"
+            },
+            {
+              "name": "Solar",
+              "chance": "0.5%",
+              "role": "Trait mítica com forte valor de dano e Range"
+            },
+            {
+              "name": "Deadeye",
+              "chance": "0.375%",
+              "role": "Trait Mítica para boss focado em crítico e dano infinito"
+            },
+            {
+              "name": "Ethereal",
+              "chance": "0.175%",
+              "role": "Melhor Trait Mítica de dano para as principais unidades carry"
+            },
+            {
+              "name": "Monarch",
+              "chance": "0.1%",
+              "role": "Trait Mítica de maior valor para unidades carry premium"
+            }
+          ]
+        },
+        {
+          "heading": "Alvos de Pity Mítico",
+          "content": "Traits Míticas têm limites de pity que ajudam você a planejar sessões de reroll em vez de clicar até que os recursos acabem.",
+          "pity": [
+            {
+              "trait": "Solar",
+              "pity": "300"
+            },
+            {
+              "trait": "Deadeye",
+              "pity": "400"
+            },
+            {
+              "trait": "Ethereal",
+              "pity": "858"
+            },
+            {
+              "trait": "Monarch",
+              "pity": "1500"
+            }
+          ]
+        },
+        {
+          "heading": "Melhor Prioridade de Reroll",
+          "content": "Os Rerolls devem ir para unidades que continuam úteis após a evolução, planejamento de ascensão e farm de endgame atual.",
+          "priorityOrder": [
+            "DPS principal evoluído usado em equipes de Story, Legend, Raid, Rift, Odyssey e Boss Rush",
+            "Unidades Vanguard, Secret e Mythic de alto valor com kits fortes de longo prazo",
+            "Boss killers com alto escalonamento de dano, valor de crítico ou habilidades ativas poderosas",
+            "Unidades de suporte principais apenas quando sua Trait melhora diretamente sua função",
+            "Unidades temporárias de nivelamento apenas depois que a equipe principal já tiver Traits utilizáveis"
+          ]
+        },
+        {
+          "heading": "Combinação de Traits por Função",
+          "content": "A melhor Trait depende do que a unidade realmente faz dentro de uma equipe.",
+          "roleMatches": [
+            {
+              "role": "Carry de posicionamento único ou baixo posicionamento",
+              "bestTraits": "Monarch, Ethereal, Deadeye",
+              "reason": "Essas unidades se beneficiam muito de grandes ganhos de atributos porque cada posicionamento importa."
+            },
+            {
+              "role": "DPS de ataque rápido",
+              "bestTraits": "Deadeye, Blitz, Ethereal",
+              "reason": "Traits focadas em SPA e crítico melhoram a produção de dano repetido."
+            },
+            {
+              "role": "Unidade AoE de amplo alcance",
+              "bestTraits": "Monarch, Solar, Marksman, Range",
+              "reason": "Alcance e dano juntos melhoram a cobertura do mapa e a limpeza de waves."
+            },
+            {
+              "role": "Unidade de farm ou economia",
+              "bestTraits": "Fortune, Swift",
+              "reason": "Unidades de economia se importam mais com o tempo de renda e utilidade do que com dano bruto."
+            },
+            {
+              "role": "Filler de early-game",
+              "bestTraits": "Vigor, Alcance, Swift",
+              "reason": "Traits comuns são aceitáveis até que a unidade seja substituída."
+            }
+          ]
+        }
+      ]
+    },
+    "animeVanguardsEvolutionsGuide": {
+      "title": "Guia de Evolução e Ascensão de Anime Vanguards",
+      "displayType": "passo a passo",
+      "intro": "A Evolução transforma uma unidade em uma forma mais forte com atributos, ataques, passivos ou caminhos de melhoria aprimorados em Anime Vanguards. A Ascensão é uma melhoria de longo prazo separada para unidades Mythic, então o caminho mais seguro é evoluir as unidades principais primeiro e, em seguida, ascender apenas as unidades que permanecerão em suas equipes principais.",
+      "labels": {
+        "checklist": "Lista de verificação",
+        "examples": "Exemplos",
+        "result": "Resultado",
+        "resourceNotes": "Notas sobre recursos",
+        "ascensionBonuses": "Bônus de Ascensão",
+        "safetyRule": "Regra de segurança",
+        "bestUse": "Melhor uso"
+      },
+      "steps": [
+        {
+          "title": "Escolha a Unidade Final Antes de Farmar",
+          "description": "Comece com unidades que já compõem suas equipes de Story, Legend, Raid, Rift, Odyssey, Worldlines ou Boss Rush.",
+          "checklist": [
+            "Verifique se a unidade possui uma forma evoluída.",
+            "Verifique se a forma evoluída altera seu padrão de ataque, passiva ou valor de melhoria.",
+            "Priorize unidades que continuam úteis em vários modos."
+          ]
+        },
+        {
+          "title": "Farme a Rota de Evolução Necessária",
+          "description": "Os requisitos de evolução variam de acordo com a unidade. Algumas unidades precisam de itens de evolução específicos, enquanto outras também exigem Evolution Quests.",
+          "checklist": [
+            "Farme o estágio, raid, rift, loja de eventos ou modo vinculado ao item necessário.",
+            "Guarde essence stones, ouro e materiais específicos da unidade até que o requisito total esteja pronto.",
+            "Evite investimento parcial em unidades que não fazem parte da equipe final."
+          ]
+        },
+        {
+          "title": "Complete Evolution Quests Quando Necessário",
+          "description": "Algumas unidades importantes usam Evolution Quests como parte de seu caminho de melhoria. Essas missões são tarefas de várias etapas que devem ser concluídas antes que a evolução possa ser finalizada.",
+          "examples": [
+            "Rota de evolução de Elastic Captain",
+            "Rota de evolução de Bounty Hunter",
+            "Eventos de recompensa de evolução baseados em atualizações"
+          ]
+        },
+        {
+          "title": "Evolua a Unidade na Área de Melhoria",
+          "description": "Use a estação Evolve na área Upgrades assim que a unidade, os materiais, o ouro e os requisitos da missão estiverem prontos.",
+          "result": "Uma evolução bem-sucedida pode adicionar atributos mais fortes, novos ataques, novas passivas, mais níveis de melhoria ou uma função final mais forte."
+        },
+        {
+          "title": "Use as Regras Atuais de Memoria",
+          "description": "A Update 13.5 mudou a progressão de Memoria. As evoluções de Memoria foram removidas, todas as Memoria são evoluídas por padrão e as evoluções de unidades agora concedem suas Memoria designadas.",
+          "resourceNotes": [
+            "A reciclagem de Memoria transforma Memoria indesejadas em Memoria Scrap baseada na raridade.",
+            "Memoria Leveling Tickets podem elevar instantaneamente a Memoria ao Nível 60.",
+            "O suporte à transferência de atributos de Memoria ajuda a proteger o investimento ao atualizar builds."
+          ]
+        },
+        {
+          "title": "Ascenda Apenas Unidades Mythic de Longo Prazo",
+          "description": "A Ascensão é feita através do NPC Kokashi e se aplica apenas a unidades Mythic. Ela oferece três melhorias de atributos em três níveis de ascensão.",
+          "ascensionBonuses": [
+            {
+              "level": "Ascensão I",
+              "bonus": "Dano +3%"
+            },
+            {
+              "level": "Ascensão II",
+              "bonus": "Alcance +5%"
+            },
+            {
+              "level": "Ascensão III",
+              "bonus": "Dano +7%"
+            }
+          ]
+        },
+        {
+          "title": "Prepare os Custos de Duplicatas e Materiais",
+          "description": "Um plano de ascensão completo requer a unidade alvo, cópias extras não evoluídas, desbloqueadas e não shiny, e materiais específicos da unidade.",
+          "safetyRule": "Não gaste cópias duplicadas em uma unidade a menos que essa unidade vá permanecer no plano da sua conta."
+        },
+        {
+          "title": "Proteja a Ascensão Antes da Evolução que Altera a Raridade",
+          "description": "Quando uma unidade Mythic evolui para a raridade Secret ou Vanguard, suas ascensões são removidas e não são transferidas para a nova forma.",
+          "bestUse": "Finalize as decisões de evolução que alteram a raridade primeiro, depois use os recursos de ascensão na forma da unidade que permanecerá na sua equipe."
+        }
+      ]
+    },
+    "animeVanguardsGameModesGuide": {
+      "title": "Guia de Modos de Jogo de Anime Vanguards",
+      "displayType": "table",
+      "intro": "Anime Vanguards é estruturado em torno de progressão repetitiva de tower defense, mas cada modo foca em um objetivo diferente: desbloqueios de história, drops raros, moedas de evento, itens de evolução, rerolls, recursos de Memoria ou farming focado em chefes. Use esta visão geral para escolher o modo certo para o seu objetivo atual.",
+      "modeLabel": "Modo",
+      "labels": {
+        "type": "Tipo",
+        "purpose": "Propósito",
+        "whatPlayersDo": "O que os jogadores fazem",
+        "teamFocus": "Foco do time",
+        "keyRewards": "Recompensas principais",
+        "farmWhen": "Farmar quando"
+      },
+      "modes": [
+        {
+          "name": "Modo História",
+          "type": "Progressão",
+          "purpose": "Progressão da campanha principal",
+          "description": "Conclua atos em mundos temáticos nos modos Normal e Nightmare.",
+          "teamFocus": "AoE inicial barato, um DPS de chefe confiável, uma unidade de farm ou suporte e melhorias estáveis.",
+          "keyRewards": "Gemas, Ouro, progressão do jogador, drops de fase e acesso a conteúdos posteriores.",
+          "farmWhen": "Use isso primeiro para desbloquear mundos, preparar materiais e construir a base da conta."
+        },
+        {
+          "name": "Legend Stages",
+          "type": "História Mais Difícil",
+          "purpose": "Farming baseado em história mais difícil",
+          "description": "Conclua versões mais fortes dos mapas de história com modificadores e caminhos de recompensa exclusivos.",
+          "teamFocus": "Carry de alto dano, forte cobertura AoE, lentidão ou controle, e unidades melhoradas.",
+          "keyRewards": "Materiais de evolução, drops raros de fase, progresso de pity de drop de unidade e progressão da conta.",
+          "farmWhen": "Farme depois que a equipe principal conseguir concluir o Modo História de forma consistente."
+        },
+        {
+          "name": "Raids",
+          "type": "Endgame",
+          "purpose": "Farming de chefes e materiais de alta dificuldade",
+          "description": "Enfrente fases mais difíceis com várias ondas e confrontos contra chefes para obter recompensas exclusivas.",
+          "teamFocus": "DPS de chefe, wave clear, suporte, lentidão e posicionamento cooperativo coordenado.",
+          "keyRewards": "Unidades raras, itens de evolução, moedas de evento e recompensas exclusivas de raid.",
+          "farmWhen": "Farme quando a equipe tiver carries evoluídos e suporte suficiente para sobreviver à pressão dos chefes."
+        },
+        {
+          "name": "Rifts",
+          "type": "Rotativo",
+          "purpose": "Farm de encontros raros",
+          "description": "Entre em encontros de Rifts com inimigos perigosos e janelas de recompensa limitadas.",
+          "teamFocus": "Velocidade de limpeza rápida, dano forte contra chefes e unidades que aguentam pressão repentina.",
+          "keyRewards": "Recompensas raras, unidades de Rifts, itens de evento e drops baseados em atualizações.",
+          "farmWhen": "Farme quando uma atualização atual colocar unidades ou materiais essenciais atrás da jogabilidade de Rifts."
+        },
+        {
+          "name": "Boss Rush e Eventos de Chefes",
+          "type": "Desafio de Chefe",
+          "purpose": "Farm de desafios focados em chefes",
+          "description": "Lute contra ondas cheias de chefes e encontros de chefes rotativos para recompensas de evento e progressão.",
+          "teamFocus": "Dano de alvo único, suporte de status, habilidades de burst e escalonamento confiável para ondas finais.",
+          "keyRewards": "Recompensas de chefes, moeda de evento, drops de unidades e recursos de progressão.",
+          "farmWhen": "Farme quando a conta precisar de drops exclusivos de chefes ou moedas da loja de evento."
+        },
+        {
+          "name": "Odyssey",
+          "type": "Repetível",
+          "purpose": "Farm repetível de recursos em corridas longas",
+          "description": "Progrida através de corridas de Odyssey usando poderes, cartas, personagens e escolhas de escalonamento específicos do modo.",
+          "teamFocus": "Unidades carry duráveis, escalonamento de longa duração, melhorias eficientes em recursos e suporte flexível.",
+          "keyRewards": "Trait Rerolls, Memoria Shards, recursos do modo e recompensas de Odyssey baseadas em atualizações.",
+          "farmWhen": "Farme quando a conta precisar de rerolls, recursos de Memoria ou progressão de endgame repetível."
+        },
+        {
+          "name": "Worldlines",
+          "type": "Subida de Andares",
+          "purpose": "Progressão baseada em andares e farm de recompensas sazonais",
+          "description": "Limpe andares com dificuldade crescente, desafios de mapa únicos e resets de recompensas sazonais.",
+          "teamFocus": "Controle de ondas consistente, dano contra chefes e unidades que lidam com inimigos que escalam.",
+          "keyRewards": "Recompensas de andar, Trait Rerolls, Memoria Shards, Stat Chips, essence stones e unidades sazonais.",
+          "farmWhen": "Farme a cada ciclo de reset para resgatar marcos de andar e novas recompensas sazonais."
+        },
+        {
+          "name": "Modo de Jogo de Verão",
+          "type": "Evento",
+          "purpose": "Farm de evento da Atualização 13.5",
+          "description": "Lute contra ondas infinitas estilo zumbi com tema de Verão, poderes únicos e escolhas de unidades específicas do modo.",
+          "teamFocus": "Resistência, controle de ondas, melhorias rápidas e unidades que escalam durante corridas longas de sobrevivência.",
+          "keyRewards": "Iced Tea, itens de evento de Verão, recompensas de Verão e progresso do Passe de Evento.",
+          "farmWhen": "Farme durante a Atualização 13.5 enquanto as recompensas de Eternal Adversaries e Iced Tea Festival estiverem ativas."
+        },
+        {
+          "name": "Portais de Verão",
+          "type": "Evento",
+          "purpose": "Farm de recompensas de portal da Atualização 13.5",
+          "description": "Limpe o conteúdo dos Portais de Verão para recompensas exclusivas de portal.",
+          "teamFocus": "Dano de burst forte, ampla cobertura de suporte e limpezas de onda constantes contra modificadores de portal.",
+          "keyRewards": "Vanguard Familiars, recompensas de Verão e prêmios de portal exclusivos.",
+          "farmWhen": "Farme ao montar unidades de Verão ou ao buscar novos upgrades de Vanguard Familiar."
+        }
+      ]
+    },
+    "animeVanguardsUpdates": {
+      "title": "Rastreador de Atualizações e Eventos de Anime Vanguards",
+      "displayType": "linha do tempo",
+      "intro": "As atualizações de Anime Vanguards geralmente adicionam novas unidades, modos de evento, moedas, banners, rotas de evolução, mudanças de Memoria e trilhas de recompensas por tempo limitado. Este rastreador organiza as mudanças mais importantes por atualização para que os jogadores que estão retornando possam entrar rapidamente na rota de farm certa.",
+      "labels": {
+        "version": "Versão",
+        "type": "Tipo",
+        "highlights": "Destaques",
+        "newUnits": "Novas unidades",
+        "activeEvents": "Eventos ativos",
+        "playerFocus": "Foco do jogador"
+      },
+      "entries": [
+        {
+          "date": "2026-06-21",
+          "version": "Update 13.5",
+          "title": "Eternal Adversaries (Update 13.5)",
+          "type": "Atualização principal atual",
+          "highlights": [
+            "6 novas unidades",
+            "7 novas Memoria",
+            "7 Vanguard Familiars",
+            "Modo de Jogo de Verão e Portais de Verão",
+            "Banner de Verão e Passe de Evento",
+            "Reformulação do Sistema de Cosméticos",
+            "Reciclagem de Memoria e Loja Exclusiva",
+            "Social Hub, 3 remodelações de unidade, 4 novos cosméticos, 34 mudanças de qualidade de vida e 356 correções de bugs"
+          ],
+          "newUnits": [
+            "Today's Strongest vs History's Strongest",
+            "Lord (Fairy)",
+            "Reaper (Scissors)",
+            "Cursed Doctor (Healer)",
+            "Raging Oni vs Wrath God",
+            "Envoy of Destruction (Resistance)"
+          ],
+          "activeEvents": [
+            "Eternal Adversaries",
+            "Iced Tea Festival",
+            "Evolution Madness",
+            "Odyssey Outrage",
+            "Familial Folly",
+            "Recurring Decadence",
+            "Something's Shiny"
+          ],
+          "playerFocus": "Farme Iced Tea, avance no Passe de Evento, teste os Portais de Verão para obter recompensas de Vanguard Familiar, recicle Memoria duplicadas e revise as builds das unidades após as mudanças no sistema de Memoria."
+        },
+        {
+          "date": "2026-05-31",
+          "version": "Update 13.0",
+          "title": "Godly Ascension (Update 13.0)",
+          "type": "Grande atualização de conteúdo",
+          "highlights": [
+            "Ciclo de evento Godly Ascension",
+            "6 novas unidades",
+            "Novo conteúdo de história",
+            "Nova Rift e unidade de Rift",
+            "Passe de Batalha Temporada 13",
+            "Modo de jogo Pirate Dynasty",
+            "Boss Rush",
+            "Mudanças no Odyssey e novos eventos especiais"
+          ],
+          "newUnits": [
+            "Elastic Captain",
+            "Bounty Hunter",
+            "Beast Pirate",
+            "Scrap Pirate",
+            "Cat God",
+            "Reasonable Person"
+          ],
+          "activeEvents": [
+            "Godly Ascension",
+            "Crowning The King",
+            "The Power Of Youth"
+          ],
+          "playerFocus": "Trabalhe nas novas rotas de evolução, resgate as recompensas do Pirate Dynasty, desafie o Boss Rush e farme o novo caminho da Rift para itens específicos da atualização."
+        },
+        {
+          "date": "09/05/2026",
+          "version": "Atualização 12.5",
+          "title": "Turning Tides (Atualização 12.5)",
+          "type": "Atualização de sistema e progressão",
+          "highlights": [
+            "6 novas unidades",
+            "Reformulação do modo Odyssey",
+            "Árvore de Habilidades da Elemental Tower",
+            "Reformulação do Sistema de Guildas",
+            "Grande rodada de correção de bugs"
+          ],
+          "newUnits": [],
+          "activeEvents": [],
+          "playerFocus": "Use a reformulação do Odyssey para farm de recursos repetível, reconstrua o progresso da Elemental Tower e verifique os recursos da guilda antes de focar apenas em invocações."
+        },
+        {
+          "date": "27/02/2026",
+          "version": "Atualização 11.0",
+          "title": "Demonic Rampage (Atualização 11.0)",
+          "type": "Atualização de história e Memoria",
+          "highlights": [
+            "7 novas unidades",
+            "Estágio de história Hill of Swords",
+            "5 novos inimigos e 8 chefes",
+            "Mecânica de inimigo Dispersal",
+            "Nova Unit Memoria e Banner de Memoria Padrão"
+          ],
+          "newUnits": [
+            "Demon Hybrid",
+            "Demon Leader",
+            "Demon Hunter",
+            "Explosive Demon",
+            "Delusional Demon",
+            "Manipulator",
+            "Arbiter"
+          ],
+          "activeEvents": [],
+          "playerFocus": "Conclua o progresso de Hill of Swords, aprenda o comportamento de inimigo Dispersal e foque em upgrades de Memoria para unidades que voltaram a ter maior utilidade."
+        },
+        {
+          "date": "2026-02-01",
+          "version": "Atualização 10.5",
+          "title": "Frozen Solitude (Atualização 10.5)",
+          "type": "Atualização de evento sazonal",
+          "highlights": [
+            "6 novas unidades",
+            "Modo de Jogo de Inverno e Lobby de Inverno",
+            "Winter Shop e Legacy Event Shop",
+            "Winter Banner",
+            "Reset de Worldlines e novos eventos limitados"
+          ],
+          "newUnits": [
+            "Ice Queen (Lançamento)",
+            "Company Captain (Híbrido)",
+            "Armored Mage",
+            "Rabbit Hero",
+            "Ice Manipulator",
+            "Trash Gamer"
+          ],
+          "activeEvents": [
+            "Presentes de Inverno",
+            "Conjunto do evento Frozen Solitude"
+          ],
+          "playerFocus": "Use as lojas sazonais para itens de evolução, resgate as recompensas de andar de Worldlines e colete unidades do Winter Banner ou Memoria antes que o conteúdo rotativo mude."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre o Anime Vanguards",
+    "questions": [
+      {
+        "question": "O que é o Anime Vanguards?",
+        "answer": "O Anime Vanguards é um jogo de tower defense de anime no Roblox criado pela Kitawari, onde os jogadores invocam unidades, sobem de nível, as evoluem e completam fases da história, raids e eventos por tempo limitado."
+      },
+      {
+        "question": "Como resgatar códigos do Anime Vanguards?",
+        "answer": "Alcance o Nível 10, abra o botão azul Profile, selecione a opção roxa Codes, cole o código e pressione Redeem. Códigos mais novos do Eternal Adversaries exigem o Nível 30."
+      },
+      {
+        "question": "Onde posso jogar Anime Vanguards?",
+        "answer": "O Anime Vanguards pode ser jogado no Roblox para PC e celular. Junte-se à experiência oficial da Kitawari com o ID de jogo 16146832113."
+      },
+      {
+        "question": "Como conseguir unidades mais fortes no Anime Vanguards?",
+        "answer": "Use Gemas para invocações de banner, depois faça melhorias, reroll de traits, melhore os status e evolua unidades que tenham um papel claro na sua equipe."
+      },
+      {
+        "question": "Quais são os melhores recursos para economizar no Anime Vanguards?",
+        "answer": "Economize Trait Rerolls e Stat Chips para unidades Secret, Vanguard e Exclusive. Gaste Gemas em banners que se alinhem aos objetivos da sua equipe."
+      },
+      {
+        "question": "Onde posso acompanhar as atualizações do Anime Vanguards?",
+        "answer": "Siga o Discord oficial do Anime Vanguards, o canal do YouTube, a conta do X e o changelog do vanguards.gg para obter as últimas notas de atualização, novas unidades e detalhes dos eventos."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para jogar Anime Vanguards?",
+    "description": "Junte-se à comunidade de Anime Vanguards para códigos, tier lists, guias de unidades e as últimas notícias de atualização do Roblox!",
+    "joinCommunity": "Junte-se ao Discord",
+    "joinGame": "Jogue no Roblox"
+  },
+  "footer": {
+    "title": "Anime Vanguards Wiki",
+    "description": "Seu centro de recursos completo para códigos, tier list, unidades, traits, evoluções, raids e guias de atualização de Anime Vanguards.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "roblox": "Jogue no Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Anime Vanguards Wiki. Não afiliado aos desenvolvedores de Anime Vanguards.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Anime Vanguards",
+      "description": "Códigos ativos e expirados, tipos de recompensa e passos seguros de resgate para jogadores de Anime Vanguards.",
+      "metaTitle": "Códigos de Anime Vanguards - Códigos de Resgate Ativos e Expirados",
+      "metaDescription": "Resgate os códigos mais recentes de Anime Vanguards para Trait Rerolls, Gems, Memoria Shards e materiais de evento. Códigos ativos e expirados atualizados para o patch atual.",
+      "categoryLabel": "CÓDIGOS",
+      "whatIs": "O que são códigos?",
+      "whatIsDescription": "Códigos são sequências resgatáveis que concedem recompensas gratuitas como Trait Rerolls, Gems, Memoria Shards, Stat Chips e materiais de evento.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "Recursos Gratuitos",
+        "step1Description": "Obtenha Trait Rerolls, Gems e moedas de evento sem gastar",
+        "step2Title": "Progressão Mais Rápida",
+        "step2Description": "Use as recompensas dos códigos para invocar unidades e melhorar sua equipe",
+        "step3Title": "Recompensas de Evento",
+        "step3Description": "Acesse materiais de eventos sazonais como Iced Teas"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Códigos"
+    },
+    "tier": {
+      "title": "Tier List de Anime Vanguards",
+      "description": "Classificações de unidades por dano, suporte, farming e valor no final do jogo para o patch atual de Anime Vanguards.",
+      "metaTitle": "Tier List de Anime Vanguards - Melhores Unidades Classificadas",
+      "metaDescription": "Tier list atual de unidades de Anime Vanguards cobrindo meta cores, suportes de endgame, unidades de progressão e novas unidades de Eternal Adversaries.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "O que é a tier list?",
+      "whatIsDescription": "Um ranking de unidades por valor prático em dano, suporte, farming, utilidade e utilidade no late-game para o patch atual.",
+      "why": "Por que usar uma tier list?",
+      "whySteps": {
+        "step1Title": "Invista com Sabedoria",
+        "step1Description": "Foque recursos escassos em unidades que ancoram seu time",
+        "step2Title": "Monte Times Equilibrados",
+        "step2Description": "Combine unidades de carry, controle, suporte e economia",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Siga o meta do patch mais recente antes de dar pull"
+      },
+      "featured": "Destaques & Essenciais",
+      "all": "Todos os Guias de Tier List"
+    },
+    "units": {
+      "title": "Unidades de Anime Vanguards",
+      "description": "Funções de unidades, raridades, caminhos de obtenção, escolhas iniciais e notas de investimento para Anime Vanguards.",
+      "metaTitle": "Unidades de Anime Vanguards - Funções, Raridades & Obtenção",
+      "metaDescription": "Guia completo de unidades de Anime Vanguards cobrindo raridades, caminhos de obtenção, funções, escolhas iniciais e o que verificar antes de investir recursos.",
+      "categoryLabel": "UNIDADES",
+      "whatIs": "O que são unidades?",
+      "whatIsDescription": "Unidades são os personagens que você invoca, melhora, evolui, faz reroll e em torno dos quais monta times no Anime Vanguards.",
+      "why": "Por que estudar as unidades?",
+      "whySteps": {
+        "step1Title": "Entenda as Funções",
+        "step1Description": "Combine unidades de carry, controle, suporte e economia ao seu time",
+        "step2Title": "Escolha Caminhos de Obtenção",
+        "step2Description": "Saiba onde encontrar unidades de banner, evento e passe",
+        "step3Title": "Invista com Segurança",
+        "step3Description": "Verifique a raridade e a função antes de gastar recursos premium"
+      },
+      "featured": "Destaques & Essenciais",
+      "all": "Todas as Unidades"
+    },
+    "values": {
+      "title": "Valor de Troca no Anime Vanguards",
+      "description": "Valores de troca para unidades, traits e itens para que você possa trocar de forma justa e evitar ofertas baixas no Anime Vanguards.",
+      "metaTitle": "Valor de Troca no Anime Vanguards - Lista de Valores de Troca & Calculadora",
+      "metaDescription": "Verifique os valores de troca, demanda e tiers de raridade do Anime Vanguards antes de trocar unidades, traits e itens. Lista de valores atualizada e calculadora para trocas justas.",
+      "categoryLabel": "VALORES DE TROCA",
+      "whatIs": "O que é valor de troca?",
+      "whatIsDescription": "O valor de troca estima quanto uma unidade, trait ou item vale em trocas entre jogadores, com base na raridade, demanda e força no meta.",
+      "why": "Por que verificar os valores de troca?",
+      "whySteps": {
+        "step1Title": "Troque de Forma Justa",
+        "step1Description": "Saiba quanto valem suas unidades antes de aceitar ofertas",
+        "step2Title": "Identifique a Demanda",
+        "step2Description": "Veja quais unidades os jogadores querem ativamente agora",
+        "step3Title": "Evite Ofertas Baixas",
+        "step3Description": "Rejeite trocas subvalorizadas com confiança"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Valor"
+    },
+    "evolution": {
+      "title": "Evoluções de Anime Vanguards",
+      "description": "Caminhos de evolução, custos de materiais, etapas de missões e melhorias pós-evolução para unidades de Anime Vanguards.",
+      "metaTitle": "Evoluções de Anime Vanguards - Materiais, Missões e Caminhos de Evolução",
+      "metaDescription": "Evolua unidades de Anime Vanguards com listas completas de materiais, passo a passo de missões e notas de melhoria para cada caminho de evolução.",
+      "categoryLabel": "EVOLUÇÕES",
+      "whatIs": "O que são evoluções?",
+      "whatIsDescription": "Evoluções melhoram uma unidade para uma forma mais forte, geralmente exigindo materiais específicos, conclusão de missões e, às vezes, moeda.",
+      "why": "Por que evoluir unidades?",
+      "whySteps": {
+        "step1Title": "Desbloqueie o Poder Total",
+        "step1Description": "Evoluções aumentam o dano, o alcance e as habilidades",
+        "step2Title": "Planeje os Materiais",
+        "step2Description": "Cultive os fragmentos e itens exatos que cada evolução precisa",
+        "step3Title": "Siga as Missões",
+        "step3Description": "Complete missões de evolução como a sequência do Elastic Captain"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Evolução"
+    },
+    "guide": {
+      "title": "Guias de Anime Vanguards",
+      "description": "Noções básicas para iniciantes, caminhos de progressão e estratégias avançadas para jogadores de Anime Vanguards.",
+      "metaTitle": "Guias de Anime Vanguards - Estratégias de Iniciante a Avançado",
+      "metaDescription": "Guias completos de Anime Vanguards cobrindo dicas para iniciantes, progressão, montagem de equipe e táticas avançadas para jogadores de Roblox.",
+      "categoryLabel": "GUIAS DE JOGO",
+      "whatIs": "O que são guias?",
+      "whatIsDescription": "Guias abrangentes cobrindo mecânicas de jogo, progressão e montagem de equipe para Anime Vanguards.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Aprenda as Mecânicas Principais",
+        "step1Description": "Entenda convocações, traits e evoluções",
+        "step2Title": "Progressão Rápida",
+        "step2Description": "Siga caminhos comprovados para montar equipes fortes",
+        "step3Title": "Domine Estratégias",
+        "step3Description": "Desenvolva táticas avançadas para raids e eventos"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "items": {
+      "title": "Itens de Anime Vanguards",
+      "description": "Moedas e materiais em Anime Vanguards: Gems, Gold, Essence, Stat Chips e Memoria Shards explicados.",
+      "metaTitle": "Itens de Anime Vanguards - Guia de Gems, Essence e Memoria",
+      "metaDescription": "Aprenda sobre cada moeda e material de Anime Vanguards: Gems, Gold, Essence Stones, Stat Chips e Memoria Shards, além de onde obtê-los e gastá-los.",
+      "categoryLabel": "ITENS",
+      "whatIs": "O que são itens?",
+      "whatIsDescription": "Itens são as moedas e materiais que você ganha e gasta, incluindo Gemas, Ouro, Essence, Stat Chips e Memoria Shards.",
+      "why": "Por que aprender sobre os itens?",
+      "whySteps": {
+        "step1Title": "Gaste com Sabedoria",
+        "step1Description": "Priorize Gemas e materiais nas suas melhores unidades",
+        "step2Title": "Farme com Eficiência",
+        "step2Description": "Saiba quais fases dropam cada material",
+        "step3Title": "Use Memoria",
+        "step3Description": "Gaste Memoria Shards em melhorias permanentes"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Itens"
+    }
+  }
+}

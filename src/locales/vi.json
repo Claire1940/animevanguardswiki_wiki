@@ -1,1 +1,1151 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki Anime Vanguards - Code, Bảng xếp hạng & Đơn vị",
+      "description": "Anime Vanguards Wiki cung cấp codes, tier list, units, traits, evolutions, stages, raids, ghi chú cập nhật và hướng dẫn tân thủ cho người chơi Roblox.",
+      "keywords": "anime vanguards, roblox, codes, tier list, units, traits, evolutions, raids",
+      "ogTitle": "Anime Vanguards Wiki - Codes, Tier List & Units",
+      "ogDescription": "Anime Vanguards Wiki cung cấp codes, tier list, units, traits, evolutions, stages, raids, ghi chú cập nhật và hướng dẫn tân thủ cho người chơi Roblox.",
+      "twitterTitle": "Anime Vanguards Wiki - Codes, Tier List & Units",
+      "twitterDescription": "Anime Vanguards Wiki cung cấp codes, tier list, units, traits, evolutions, stages, raids, ghi chú cập nhật và hướng dẫn tân thủ cho người chơi Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Codes",
+    "tier": "Tier",
+    "units": "Units",
+    "values": "Giá trị",
+    "evolution": "Evolution",
+    "guide": "Hướng dẫn",
+    "items": "Vật phẩm"
+  },
+  "common": {
+    "home": "Trang chủ",
+    "more": "Thêm",
+    "playNow": "Chơi trên Roblox",
+    "switchLanguage": "Chuyển đổi ngôn ngữ",
+    "switchTheme": "Chuyển đổi giao diện",
+    "lightMode": "Chế độ sáng",
+    "darkMode": "Chế độ tối",
+    "notFound": "Không tìm thấy trang",
+    "notFoundDescription": "Trang bạn đang tìm kiếm không tồn tại.",
+    "backToHome": "Quay lại Trang chủ",
+    "relatedArticles": "Bài viết liên quan",
+    "readMore": "Đọc thêm",
+    "articlesComingSoon": "Bài viết sắp ra mắt"
+  },
+  "hero": {
+    "badge": "Roblox Thủ Thành Anime",
+    "title": "Anime Vanguards Wiki",
+    "description": "Triệu hồi các units lấy cảm hứng từ anime, nâng cấp và evolve đội hình của bạn, vượt qua story stages, raids, boss events và các chế độ giới hạn trong trò chơi tower defense trên Roblox này.",
+    "keywords": "Anime Vanguards, Roblox, codes, tier list, units, traits, evolutions, raids",
+    "getFreeCodesCTA": "Nhận Codes miễn phí",
+    "playOnRobloxCTA": "Chơi trên Roblox",
+    "stats": {
+      "stat1": {
+        "value": "1.94B+",
+        "label": "Tổng lượt truy cập"
+      },
+      "stat2": {
+        "value": "44K+",
+        "label": "Người chơi trực tuyến"
+      },
+      "stat3": {
+        "value": "96.77%",
+        "label": "Đánh giá của người dùng"
+      },
+      "stat4": {
+        "value": "340K",
+        "label": "CCU đỉnh điểm"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Lối chơi Anime Vanguards",
+    "description": "Triệu hồi các đơn vị lấy cảm hứng từ anime, quay lại chỉ số (reroll traits), nâng cấp đội hình của bạn và phòng thủ trước các đợt kẻ thù trong các màn chơi cốt truyện, đột kích (raids) và các sự kiện giới hạn thời gian trên Roblox."
+  },
+  "tools": {
+    "title": "Anime Vanguards",
+    "titleHighlight": "Tài nguyên",
+    "subtitle": "Mọi thứ bạn cần để làm chủ Anime Vanguards: mã code, bảng xếp hạng, đơn vị, chỉ số, tiến hóa, chế độ chơi và các bản cập nhật mới nhất.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Mã code",
+        "description": "Các mã code Anime Vanguards đang hoạt động và đã hết hạn, phần thưởng và các bước đổi mã an toàn."
+      },
+      {
+        "icon": "Compass",
+        "title": "Hướng dẫn cho người mới",
+        "description": "Lộ trình trải nghiệm đầu tiên cho người chơi mới của Anime Vanguards."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Bảng xếp hạng đơn vị",
+        "description": "Xếp hạng bậc hiện tại của các đơn vị meta và hỗ trợ trong Anime Vanguards."
+      },
+      {
+        "icon": "Users",
+        "title": "Hướng dẫn đơn vị",
+        "description": "Độ hiếm, cách nhận, vai trò và ghi chú đầu tư cho các đơn vị trong Anime Vanguards."
+      },
+      {
+        "icon": "Dna",
+        "title": "Hướng dẫn chỉ số (Traits)",
+        "description": "Quay lại chỉ số (Trait rerolls), độ ưu tiên và vai trò phù hợp cho các đơn vị Anime Vanguards."
+      },
+      {
+        "icon": "Zap",
+        "title": "Hướng dẫn tiến hóa",
+        "description": "Các lộ trình tiến hóa, nguyên liệu và thời điểm cho các đơn vị Anime Vanguards."
+      },
+      {
+        "icon": "Map",
+        "title": "Hướng dẫn chế độ chơi",
+        "description": "Cốt truyện, đột kích (raids), rifts và các sự kiện trong Anime Vanguards."
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Cập nhật & Sự kiện",
+        "description": "Các bản vá, đơn vị mới và sự kiện theo mùa mới nhất của Anime Vanguards."
+      }
+    ]
+  },
+  "modules": {
+    "animeVanguardsCodes": {
+      "title": "Mã code Anime Vanguards",
+      "displayType": "code-cards",
+      "intro": "Đổi các mã code Anime Vanguards mới nhất để nhận Trait Rerolls, Memoria Shards, Iced Teas, Gems, Gold, Stat Chips và nguyên liệu sự kiện. Sao chép các mã đang hoạt động, kiểm tra các mã vừa hết hạn và làm theo lộ trình đổi mã an toàn từ menu Profile.",
+      "lastChecked": "Lần kiểm tra cuối cho Eternal Adversaries Update 13.5",
+      "activeCodes": [
+        {
+          "code": "13.5",
+          "rewards": "50 Trait Rerolls, 5,000 Iced Teas",
+          "requirement": "Cấp độ 30",
+          "status": "Đang hoạt động",
+          "update": "Eternal Adversaries Update 13.5"
+        },
+        {
+          "code": "EternalAdversaries",
+          "rewards": "50 Memoria Shards, 5,000 Iced Teas",
+          "requirement": "Cấp độ 30",
+          "status": "Đang hoạt động",
+          "update": "Eternal Adversaries Update 13.5"
+        },
+        {
+          "code": "Gambler",
+          "rewards": "50 Trait Rerolls, 50 Memoria Shards, 5 Rainbow Essence Stones",
+          "requirement": "Cấp độ 30",
+          "status": "Đang hoạt động",
+          "update": "Eternal Adversaries Update 13.5"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "DMCAFree",
+          "rewards": "1,500 Trait Rerolls",
+          "status": "Đã hết hạn"
+        },
+        {
+          "code": "Liberation",
+          "rewards": "50 Memoria Shards, 5 Rainbow Essence Stones",
+          "status": "Đã hết hạn"
+        },
+        {
+          "code": "223",
+          "rewards": "50 Trait Rerolls, 50 Green Essence Stones",
+          "status": "Đã hết hạn"
+        },
+        {
+          "code": "Cog5th",
+          "rewards": "50 Trait Rerolls, 50 Memoria Shards",
+          "status": "Đã hết hạn"
+        },
+        {
+          "code": "Spring26",
+          "rewards": "40,000 Flowers, 20,000 Gems, 50 Stat Chips",
+          "status": "Đã hết hạn"
+        },
+        {
+          "code": "Shinobi",
+          "rewards": "20 Trait Rerolls, 2,000 Gems",
+          "status": "Đã hết hạn"
+        }
+      ],
+      "redeemSteps": [
+        {
+          "title": "Tham gia và trải nghiệm",
+          "description": "Tham gia Anime Vanguards trên Roblox và chơi cho đến khi tính năng nhập mã khả dụng."
+        },
+        {
+          "title": "Đạt ngưỡng cấp độ",
+          "description": "Đạt cấp độ 10 để mở menu mã cơ bản; các mã mới hơn như bộ Eternal Adversaries yêu cầu cấp độ 30."
+        },
+        {
+          "title": "Mở menu Hồ sơ",
+          "description": "Nhấn vào nút Hồ sơ màu xanh lam ở phía bên phải màn hình."
+        },
+        {
+          "title": "Chọn tùy chọn Mã",
+          "description": "Chọn tùy chọn Mã màu tím bên trong cửa sổ Hồ sơ."
+        },
+        {
+          "title": "Dán và Đổi thưởng",
+          "description": "Dán mã chính xác như đã viết, sau đó nhấn Đổi thưởng để nhận quà."
+        }
+      ],
+      "rewardTypes": [
+        {
+          "name": "Trait Rerolls",
+          "description": "Quay lại các đặc tính của đơn vị để có sát thương, tiện ích hoặc thiết lập hỗ trợ mạnh hơn."
+        },
+        {
+          "name": "Memoria Shards",
+          "description": "Tiến trình nâng cấp Memoria và các hệ thống sự kiện."
+        },
+        {
+          "name": "Iced Teas",
+          "description": "Chi tiêu cho các phần thưởng sự kiện mùa hè Eternal Adversaries."
+        },
+        {
+          "name": "Gems",
+          "description": "Triệu hồi các đơn vị mới từ các banner."
+        },
+        {
+          "name": "Stat Chips",
+          "description": "Cải thiện chỉ số đơn vị trước khi đầu tư các tài nguyên dài hạn."
+        },
+        {
+          "name": "Gold",
+          "description": "Thanh toán cho việc nâng cấp, mua sắm và chi phí tiến trình."
+        }
+      ]
+    },
+    "animeVanguardsBeginnerGuide": {
+      "title": "Hướng dẫn cho người mới chơi Anime Vanguards",
+      "displayType": "từng bước một",
+      "intro": "Bắt đầu với trải nghiệm Roblox chính xác, hoàn thành tiến trình sớm, mở khóa đổi mã code và xây dựng đội hình xoay quanh việc triệu hồi, nâng cấp và các sự kiện trong Anime Vanguards.",
+      "steps": [
+        {
+          "title": "Tham gia đúng trò chơi",
+          "description": "Mở Anime Vanguards: Eternal Adversaries trên Roblox bởi Kitawari với ID trò chơi 16146832113."
+        },
+        {
+          "title": "Hiểu vòng lặp cốt lõi",
+          "description": "Triệu hồi các đơn vị để phòng thủ trước kẻ thù, tăng cấp cho chúng, tiến hóa thành các phiên bản mạnh hơn và vượt qua các trận chiến khó hơn theo thời gian."
+        },
+        {
+          "title": "Tiến trình cho đến khi mở khóa mã code",
+          "description": "Đạt cấp độ 10 trước khi sử dụng các danh sách mã code. Một số phần thưởng mới hơn yêu cầu cấp độ tài khoản cao hơn, bao gồm các mã code Eternal Adversaries cấp độ 30."
+        },
+        {
+          "title": "Ưu tiên sử dụng phần thưởng sớm cho các đơn vị trước",
+          "description": "Chỉ chi tiêu Gems và tài nguyên reroll sau khi bạn biết mình đang xây dựng đơn vị nào. Hãy tiết kiệm các tài nguyên cao cấp cho những đơn vị bạn dự định sử dụng lâu dài sau khi vượt qua các màn chơi cốt truyện đầu."
+        },
+        {
+          "title": "Xây dựng đội hình khởi đầu cân bằng",
+          "description": "Kết hợp sát thương, kiểm soát đám đông, hỗ trợ và kinh tế thay vì chỉ tập trung vào các đơn vị sát thương."
+        },
+        {
+          "title": "Nhận thu nhập miễn phí đáng tin cậy",
+          "description": "Phần thưởng hàng ngày, thành tựu, nhiệm vụ hàng ngày, nhiệm vụ hàng tuần và nhiệm vụ sự kiện cung cấp Gems, Trait Rerolls và các vật phẩm tiến trình."
+        },
+        {
+          "title": "Chuyển từ cốt truyện sang các sự kiện",
+          "description": "Sau khi đội hình ổn định đầu tiên được xây dựng, hãy chuyển sang các nhiệm vụ sự kiện và nội dung xoay vòng như phần thưởng Eternal Adversaries, Summer Portals và các chế độ sự kiện mùa hè."
+        },
+        {
+          "title": "Theo dõi các bản cập nhật chính thức",
+          "description": "Sử dụng nhật ký thay đổi chính thức, Discord, tài khoản X và kênh YouTube trước khi chi tiêu các vật phẩm hiếm để việc lập kế hoạch tài nguyên phù hợp với bản cập nhật hiện tại."
+        }
+      ],
+      "quickTips": [
+        "Ưu tiên một đơn vị chủ lực trước khi dàn trải tài nguyên cho nhiều đơn vị.",
+        "Tiết kiệm Trait Rerolls và Stat Chips cho các đơn vị có vai trò rõ ràng trong dài hạn.",
+        "Hoàn thành các nhiệm vụ hàng ngày và hàng tuần để có thu nhập Gems và reroll ổn định.",
+        "Kiểm tra nhật ký thay đổi chính thức trước khi đầu tư vào việc quay banner."
+      ]
+    },
+    "animeVanguardsUnitTierList": {
+      "title": "Bảng xếp hạng đơn vị Anime Vanguards",
+      "displayType": "tier-grid",
+      "intro": "Một bảng xếp hạng thực tế cho việc xây dựng đội hình Anime Vanguards hiện tại, bao gồm các đơn vị meta cốt lõi, các đơn vị hỗ trợ mạnh, các đơn vị tiến trình và các đơn vị mới trong Eternal Adversaries. Hãy ưu tiên một đơn vị chủ lực, một đơn vị kiểm soát hoặc hỗ trợ, và một vị trí kinh tế hoặc tiện ích trước.",
+      "tierLabel": "Tier",
+      "tiers": [
+        {
+          "tier": "SS",
+          "tierLabel": "Meta Cores",
+          "description": "Các đơn vị ưu tiên hàng đầu làm trụ cột cho các đội hình cuối game thông qua sát thương, kiểm soát đám đông, kinh tế, triệu hồi hoặc áp lực duy trì.",
+          "units": [
+            {
+              "name": "Demon Leader (Control)",
+              "rarity": "Bí mật",
+              "note": "Giảm chi phí triển khai và tăng sức mạnh cho các đồng minh Demon Hunter."
+            },
+            {
+              "name": "God (Above Heaven)",
+              "rarity": "Bí mật",
+              "note": "Kết hợp sát thương diện rộng lớn với khả năng khống chế kiểu đóng băng."
+            },
+            {
+              "name": "Song Jinwu và Igros",
+              "rarity": "Vanguard",
+              "note": "Triệu hồi các chiến binh bóng tối mà không tốn vị trí đặt đơn vị thông thường."
+            },
+            {
+              "name": "Gujo (Infinity)",
+              "rarity": "Bí mật",
+              "note": "Sử dụng khả năng khống chế diện rộng để giữ chân kẻ địch trong khi các đơn vị chủ lực gây sát thương."
+            },
+            {
+              "name": "Rogita (Super 4)",
+              "rarity": "Vanguard",
+              "note": "Một trong những lựa chọn gây sát thương đơn mục tiêu mạnh nhất trong meta hiện tại."
+            }
+          ]
+        },
+        {
+          "tier": "S+",
+          "tierLabel": "Hỗ trợ và Chủ lực giai đoạn cuối game",
+          "description": "Các đơn vị giá trị cao phù hợp với nội dung khó và kết hợp tốt với các lõi cấp SS.",
+          "units": [
+            {
+              "name": "Demon Hybrid (Chainsaw)",
+              "rarity": "Bí mật",
+              "note": "DPS bùng nổ cho các đội hình Demon Hunter và kích nổ hiệu ứng chảy máu."
+            },
+            {
+              "name": "Brolzi Super (Wrathful)",
+              "rarity": "Vanguard",
+              "note": "DPS cho các màn chơi khó, phù hợp với vị trí chủ lực."
+            },
+            {
+              "name": "Divalo (Requiem)",
+              "rarity": "Vanguard",
+              "note": "Kiểm soát tốc độ kẻ địch cho các đợt sóng boss và đảm bảo an toàn cho đường đi."
+            },
+            {
+              "name": "Teacher (Final Stand)",
+              "rarity": "Bí mật",
+              "note": "Hỗ trợ tiện ích cho đội hình trong các nội dung khó."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "tierLabel": "Lựa chọn chung mạnh mẽ",
+          "description": "Các đơn vị đáng tin cậy cho người chơi đang xây dựng đội hình hướng tới nội dung khó hơn mà chưa có dàn đơn vị cấp SS hoàn chỉnh.",
+          "units": [
+            {
+              "name": "Iscanur (Pride)",
+              "rarity": "Vanguard",
+              "note": "Chủ lực sát thương cho các màn chơi thông thường và các màn sự kiện."
+            },
+            {
+              "name": "Okorun (Turbo)",
+              "rarity": "Độc quyền",
+              "note": "Sát thương nhanh cho các màn chơi cần tốc độ và các đội hình sự kiện."
+            },
+            {
+              "name": "Savior (Moonless)",
+              "rarity": "Vanguard",
+              "note": "Carry cho tiến trình cốt truyện và các đội hình late-game."
+            },
+            {
+              "name": "Explosive Demon (Bomb)",
+              "rarity": "Mythic",
+              "note": "Sát thương AoE cho các đợt quái đông và đội hình giá rẻ."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "tierLabel": "Tiến trình và Giá trị Tiết kiệm",
+          "description": "Các đơn vị hữu ích cho người chơi lấp đầy đội hình trước khi các đơn vị Secret, Vanguard, và Exclusive cao cấp sẵn sàng.",
+          "units": [
+            {
+              "name": "Deceiver (Monster)",
+              "rarity": "Secret",
+              "note": "Carry dự phòng cho tiến trình và vượt ải cốt truyện."
+            },
+            {
+              "name": "Fastest Shinobi (Flash)",
+              "rarity": "Vanguard",
+              "note": "DPS nhanh cho việc vượt ải tập trung vào tốc độ và kiểm soát lane."
+            },
+            {
+              "name": "Saber (Black Tyrant)",
+              "rarity": "Limited",
+              "note": "Carry tiến trình kết nối đội hình beginner với mid-game."
+            }
+          ]
+        },
+        {
+          "tier": "13.5",
+          "tierLabel": "Đơn vị mới của Eternal Adversaries",
+          "description": "Các đơn vị mới nhất từ nội dung Eternal Adversaries đáng để đánh giá trước khi chi tiêu nguyên liệu sự kiện và tài nguyên reroll.",
+          "units": [
+            {
+              "name": "Today's Strongest vs History's Strongest",
+              "rarity": "Vanguard",
+              "note": "Mục tiêu Banner mùa giải Summer 26."
+            },
+            {
+              "name": "Raging Oni vs Wrath God",
+              "rarity": "Secret",
+              "note": "Mục tiêu nội dung Worldlines."
+            },
+            {
+              "name": "Envoy of Destruction (Resistance)",
+              "rarity": "Exclusive",
+              "note": "Đơn vị Event Pass."
+            }
+          ]
+        }
+      ]
+    },
+    "animeVanguardsUnitsGuide": {
+      "title": "Hướng dẫn đơn vị Anime Vanguards",
+      "displayType": "card-list",
+      "intro": "Tìm hiểu vai trò đơn vị, độ hiếm, cách sở hữu, lựa chọn Starter, các đơn vị Limited, và những điều cần kiểm tra trước khi chi tiêu tài nguyên khan hiếm trong Anime Vanguards.",
+      "cards": [
+        {
+          "title": "Lựa chọn đơn vị Starter",
+          "category": "Starter",
+          "units": "Luffo, Narutu, Ichiga",
+          "howToGet": "Chọn một trong ba đơn vị Starter trong quá trình tiến triển ban đầu.",
+          "investmentNote": "Sử dụng Starter để vượt các màn đầu tiên, sau đó chuyển tài nguyên sang các đơn vị Summon, sự kiện, Secret, Vanguard, hoặc Exclusive mạnh hơn."
+        },
+        {
+          "title": "Đơn vị Summon Banner",
+          "category": "Summon",
+          "units": "God (Above Heaven), Gujo (Infinity), Demon Leader (Control), Rogita (Super 4), Ice Queen (Release), Alocard (Vampire King)",
+          "howToGet": "Sử dụng Gems và lượt quay banner khi đơn vị mục tiêu có sẵn.",
+          "investmentNote": "Ưu tiên các unit đảm nhận vai trò rõ ràng: gánh sát thương (carry damage), khống chế (crowd control), hỗ trợ kinh tế (economy support), hoặc tiêu diệt boss (boss killing)."
+        },
+        {
+          "title": "Mục tiêu Banner Eternal Adversaries",
+          "category": "Update 13.5",
+          "units": "Kẻ Mạnh Nhất Hiện Tại vs Kẻ Mạnh Nhất Lịch Sử",
+          "rarity": "Vanguard",
+          "howToGet": "Banner mùa giải Summer 26",
+          "investmentNote": "Hãy coi các unit banner độ hiếm Vanguard là mục tiêu tiêu tốn nhiều tài nguyên và hãy kiểm tra traits, stats, và Memoria trước khi reroll mạnh tay."
+        },
+        {
+          "title": "Unit Worldlines Eternal Adversaries",
+          "category": "Update 13.5",
+          "units": "Raging Oni vs Wrath God",
+          "rarity": "Secret",
+          "howToGet": "Nội dung Worldlines",
+          "investmentNote": "Các unit Secret là những ứng cử viên lâu dài khi vai trò của chúng phù hợp với đội hình chính và mục tiêu sự kiện hiện tại của bạn."
+        },
+        {
+          "title": "Unit Event Pass Eternal Adversaries",
+          "category": "Update 13.5",
+          "units": "Envoy of Destruction (Resistance)",
+          "rarity": "Exclusive",
+          "howToGet": "Event Pass",
+          "investmentNote": "Các unit Event Pass rất có giá trị cho việc sưu tầm và các lộ trình tiến trình riêng của từng bản cập nhật."
+        },
+        {
+          "title": "Các unit Battlepass Godly Ascension",
+          "category": "Update 13.0",
+          "units": "Cat God, Reasonable Person",
+          "rarity": "Exclusive",
+          "howToGet": "Battlepass Season 13",
+          "investmentNote": "Các unit Battlepass là những mục tiêu tiến trình giới hạn; hãy kiểm tra các dạng tiến hóa và liên kết Memoria của chúng trước khi chi tiêu các lượt reroll cao cấp."
+        },
+        {
+          "title": "Các unit Pirate Godly Ascension",
+          "category": "Update 13.0",
+          "units": "Elastic Captain (Cog 5th), Bounty Hunter (King of Hell), Beast Pirate (Half-Dragon), Scrap Pirate (Metal)",
+          "howToGet": "Nhiệm vụ Tiến hóa (Evolution Quests), lối chơi Rift, và nội dung Godly Ascension",
+          "investmentNote": "Sử dụng các unit Pirate cho các lộ trình tiến trình của Update 13 như Pirate Dynasty, phần thưởng Rift, và chuỗi nhiệm vụ tiến hóa."
+        },
+        {
+          "title": "Trước khi bạn đầu tư",
+          "category": "Danh sách kiểm tra",
+          "units": "Độ hiếm, Cách sở hữu, Vai trò trong đội hình, Giá trị Trait, Chỉ số Stat rolls, Nguyên liệu tiến hóa, Liên kết Memoria, Độ hữu dụng trong bản cập nhật hiện tại",
+          "howToGet": "Hãy xem lại danh sách kiểm tra này mỗi khi bạn cân nhắc chi tiêu các tài nguyên cao cấp.",
+          "investmentNote": "Chỉ sử dụng Trait Rerolls và Stat Chips sau khi unit đó đã có một vai trò rõ ràng trong đội hình của bạn."
+        }
+      ]
+    },
+    "animeVanguardsTraitsGuide": {
+      "title": "Hướng dẫn về Trait và Reroll trong Anime Vanguards",
+      "displayType": "accordion",
+      "intro": "Trait là các chỉ số bổ trợ vĩnh viễn cho unit giúp cải thiện các chỉ số chiến đấu như Sát thương (Damage), SPA, và Tầm đánh (Range). Tìm hiểu cách hoạt động của Trait Rerolls, những trait nào đáng giữ lại, và nơi nên ưu tiên chi tiêu các tài nguyên reroll hiếm trong Anime Vanguards.",
+      "labels": {
+        "keyPoints": "Các điểm chính",
+        "trait": "Trait",
+        "chance": "Tỷ lệ rơi",
+        "role": "Cách dùng tốt nhất",
+        "pity": "Mục tiêu bảo hiểm",
+        "priority": "Ưu tiên reroll",
+        "roleMatch": "Vai trò unit",
+        "bestTraits": "Trait tốt nhất",
+        "reason": "Tại sao nó phù hợp"
+      },
+      "items": [
+        {
+          "heading": "Cách hoạt động của Trait Rerolls",
+          "content": "Một Trait Reroll thay đổi trait trên một unit được chọn. Mỗi lần thử tiêu tốn một Trait Reroll, và kết quả mới sẽ thay thế trait trước đó trên unit đó.",
+          "keyPoints": [
+            "Trait có thể xuất hiện khi triệu hồi unit hoặc thay đổi sau đó bằng Trait Rerolls.",
+            "Trait Rerolls được sử dụng tại NPC Mandra Traits.",
+            "Menu Trait Index theo dõi bảo hiểm mythic riêng biệt cho từng unit.",
+            "Evolution, Normalizing, và Stat Transfers không reset bảo hiểm trait của unit."
+          ]
+        },
+        {
+          "heading": "Bể quay Trait",
+          "content": "Bể trait hiện tại bao gồm các trait chỉ số thường, trait farm, và các trait mythic hiếm dành riêng cho các unit endgame.",
+          "traits": [
+            {
+              "name": "Vigor",
+              "chance": "26%",
+              "role": "Tăng sát thương cho các unit DPS đầu trận và unit phụ trợ"
+            },
+            {
+              "name": "Range",
+              "chance": "26%",
+              "role": "Thêm phạm vi bao phủ cho các unit cần tầm đặt tốt hơn"
+            },
+            {
+              "name": "Swift",
+              "chance": "26%",
+              "role": "Cải thiện SPA cho các unit tấn công nhanh hơn"
+            },
+            {
+              "name": "Scholar",
+              "chance": "10%",
+              "role": "Hữu ích khi nâng cấp độ cho unit"
+            },
+            {
+              "name": "Marksman",
+              "chance": "6.5%",
+              "role": "Nâng cấp tầm đánh cho các unit có phạm vi bao phủ diện rộng tốt"
+            },
+            {
+              "name": "Fortune",
+              "chance": "2.5%",
+              "role": "Trait kinh tế mang lại giá trị farm tiền và hỗ trợ"
+            },
+            {
+              "name": "Blitz",
+              "chance": "1.85%",
+              "role": "Trait SPA giá trị cao cho các unit gây sát thương"
+            },
+            {
+              "name": "Solar",
+              "chance": "0.5%",
+              "role": "Trait Mythic mang lại giá trị sát thương và tầm đánh lớn"
+            },
+            {
+              "name": "Deadeye",
+              "chance": "0.375%",
+              "role": "Trait Mythic dành cho boss thiên về chí mạng và sát thương vô hạn"
+            },
+            {
+              "name": "Ethereal",
+              "chance": "0.175%",
+              "role": "Trait sát thương Mythic hàng đầu cho các unit carry chủ lực"
+            },
+            {
+              "name": "Monarch",
+              "chance": "0.1%",
+              "role": "Trait Mythic có giá trị cao nhất cho các unit carry cao cấp"
+            }
+          ]
+        },
+        {
+          "heading": "Mục tiêu Pity Mythic",
+          "content": "Các trait Mythic có mốc bảo hiểm (pity) giúp bạn lên kế hoạch cho các phiên reroll thay vì click liên tục cho đến khi cạn kiệt tài nguyên.",
+          "pity": [
+            {
+              "trait": "Solar",
+              "pity": "300"
+            },
+            {
+              "trait": "Deadeye",
+              "pity": "400"
+            },
+            {
+              "trait": "Ethereal",
+              "pity": "858"
+            },
+            {
+              "trait": "Monarch",
+              "pity": "1500"
+            }
+          ]
+        },
+        {
+          "heading": "Thứ tự ưu tiên Reroll tốt nhất",
+          "content": "Nên ưu tiên reroll cho các unit vẫn hữu dụng sau khi tiến hóa, lập kế hoạch thức tỉnh (ascension) và farm endgame hiện tại.",
+          "priorityOrder": [
+            "DPS tiến hóa chủ lực được sử dụng trong các đội hình Story, Legend, Raid, Rift, Odyssey và Boss Rush",
+            "Các unit Vanguard, Secret và Mythic giá trị cao sở hữu bộ kỹ năng mạnh mẽ về lâu dài",
+            "Các unit diệt Boss với tỷ lệ tăng tiến sát thương cao, chỉ số chí mạng tốt hoặc kỹ năng kích hoạt mạnh mẽ",
+            "Các unit hỗ trợ cốt lõi chỉ khi trait của chúng trực tiếp cải thiện vai trò của mình",
+            "Các unit dùng tạm để leo cấp chỉ sau khi đội hình chính đã có các trait dùng được"
+          ]
+        },
+        {
+          "heading": "Phối hợp Trait theo vai trò",
+          "content": "Trait tốt nhất phụ thuộc vào vai trò thực tế của unit đó trong đội hình.",
+          "roleMatches": [
+            {
+              "role": "Unit carry giới hạn đặt 1 hoặc đặt ít",
+              "bestTraits": "Monarch, Ethereal, Deadeye",
+              "reason": "Các unit này được hưởng lợi lớn từ việc gia tăng chỉ số mạnh mẽ vì mỗi lượt đặt đều vô cùng quan trọng."
+            },
+            {
+              "role": "DPS tấn công nhanh",
+              "bestTraits": "Deadeye, Blitz, Ethereal",
+              "reason": "Các trait tập trung vào SPA và chí mạng giúp cải thiện lượng sát thương đầu ra liên tục."
+            },
+            {
+              "role": "Unit AoE phạm vi rộng",
+              "bestTraits": "Monarch, Solar, Marksman, Range",
+              "reason": "Tầm đánh và sát thương kết hợp giúp cải thiện khả năng bao quát bản đồ và dọn quái (wave)."
+            },
+            {
+              "role": "Unit farm tiền hoặc kinh tế",
+              "bestTraits": "Fortune, Swift",
+              "reason": "Các unit kinh tế quan tâm nhiều hơn đến thời điểm nhận thu nhập và tính đa dụng hơn là sát thương thuần túy."
+            },
+            {
+              "role": "Unit lấp chỗ trống đầu game",
+              "bestTraits": "Vigor, Range, Swift",
+              "reason": "Các trait phổ thông có thể chấp nhận được cho đến khi đơn vị được thay thế."
+            }
+          ]
+        }
+      ]
+    },
+    "animeVanguardsEvolutionsGuide": {
+      "title": "Hướng dẫn Tiến hóa và Thăng cấp trong Anime Vanguards",
+      "displayType": "từng bước một",
+      "intro": "Tiến hóa biến đổi một đơn vị thành dạng mạnh hơn với chỉ số, đòn tấn công, kỹ năng bị động hoặc lộ trình nâng cấp được cải thiện trong Anime Vanguards. Thăng cấp là một bản nâng cấp dài hạn riêng biệt dành cho các đơn vị Mythic, vì vậy lộ trình an toàn nhất là tiến hóa các đơn vị chủ chốt trước, sau đó chỉ thăng cấp những đơn vị sẽ ở lại trong đội hình chính của bạn.",
+      "labels": {
+        "checklist": "Danh sách kiểm tra",
+        "examples": "Ví dụ",
+        "result": "Kết quả",
+        "resourceNotes": "Ghi chú về tài nguyên",
+        "ascensionBonuses": "Phần thưởng thăng cấp",
+        "safetyRule": "Quy tắc an toàn",
+        "bestUse": "Cách sử dụng tốt nhất"
+      },
+      "steps": [
+        {
+          "title": "Chọn đơn vị cuối cùng trước khi cày cuốc",
+          "description": "Bắt đầu với các đơn vị đã có trong đội hình Story, Legend, Raid, Rift, Odyssey, Worldlines hoặc Boss Rush của bạn.",
+          "checklist": [
+            "Kiểm tra xem đơn vị đó có dạng tiến hóa hay không.",
+            "Kiểm tra xem dạng tiến hóa có thay đổi kiểu tấn công, kỹ năng bị động hoặc giá trị nâng cấp hay không.",
+            "Ưu tiên các đơn vị vẫn hữu ích trong nhiều chế độ chơi."
+          ]
+        },
+        {
+          "title": "Cày cuốc theo lộ trình tiến hóa yêu cầu",
+          "description": "Yêu cầu tiến hóa thay đổi tùy theo từng đơn vị. Một số đơn vị cần các vật phẩm tiến hóa cụ thể, trong khi những đơn vị khác yêu cầu thêm các Evolution Quests.",
+          "checklist": [
+            "Cày cuốc tại màn chơi, raid, rift, cửa hàng sự kiện hoặc chế độ gắn liền với vật phẩm yêu cầu.",
+            "Tiết kiệm essence stones, vàng và các nguyên liệu dành riêng cho đơn vị cho đến khi đủ yêu cầu.",
+            "Tránh đầu tư dàn trải vào các đơn vị không thuộc đội hình cuối cùng."
+          ]
+        },
+        {
+          "title": "Hoàn thành Evolution Quests khi được yêu cầu",
+          "description": "Một số đơn vị quan trọng sử dụng Evolution Quests như một phần của lộ trình nâng cấp. Những nhiệm vụ này là các tác vụ nhiều bước cần phải hoàn thành trước khi quá trình tiến hóa có thể thực hiện.",
+          "examples": [
+            "Lộ trình tiến hóa Elastic Captain",
+            "Lộ trình tiến hóa Bounty Hunter",
+            "Các sự kiện phần thưởng tiến hóa dựa trên cập nhật"
+          ]
+        },
+        {
+          "title": "Tiến hóa đơn vị tại khu vực nâng cấp",
+          "description": "Sử dụng trạm Evolve trong khu vực Upgrades khi đơn vị, nguyên liệu, vàng và yêu cầu nhiệm vụ đã sẵn sàng.",
+          "result": "Một quá trình tiến hóa thành công có thể mang lại chỉ số mạnh hơn, đòn tấn công mới, kỹ năng bị động mới, thêm cấp độ nâng cấp hoặc vai trò cuối cùng mạnh mẽ hơn."
+        },
+        {
+          "title": "Sử dụng các quy tắc Memoria hiện tại",
+          "description": "Bản cập nhật 13.5 đã thay đổi tiến trình Memoria. Các tiến hóa Memoria đã bị loại bỏ, tất cả Memoria đều được tiến hóa mặc định và các lần tiến hóa đơn vị hiện cấp Memoria tương ứng của chúng.",
+          "resourceNotes": [
+            "Memoria Recycling chuyển đổi các Memoria không mong muốn thành Memoria Scrap dựa trên độ hiếm.",
+            "Memoria Leveling Tickets có thể nâng cấp Memoria lên thẳng Cấp 60.",
+            "Hỗ trợ chuyển đổi chỉ số Memoria giúp bảo vệ khoản đầu tư khi nâng cấp các bản dựng."
+          ]
+        },
+        {
+          "title": "Chỉ thăng cấp các đơn vị Mythic dài hạn",
+          "description": "Thăng cấp được thực hiện thông qua NPC Kokashi và chỉ áp dụng cho các đơn vị Mythic. Nó cung cấp ba bản nâng cấp chỉ số qua ba cấp độ thăng cấp.",
+          "ascensionBonuses": [
+            {
+              "level": "Thăng cấp I",
+              "bonus": "Sát thương +3%"
+            },
+            {
+              "level": "Thăng cấp II",
+              "bonus": "Tầm đánh +5%"
+            },
+            {
+              "level": "Đột Phá III",
+              "bonus": "Sát thương +7%"
+            }
+          ]
+        },
+        {
+          "title": "Chuẩn bị bản sao và chi phí nguyên liệu",
+          "description": "Một kế hoạch đột phá hoàn chỉnh yêu cầu đơn vị mục tiêu, các bản sao dự phòng chưa tiến hóa, đã mở khóa và không phải shiny, cùng các nguyên liệu đặc trưng của đơn vị đó.",
+          "safetyRule": "Không sử dụng các bản sao cho một đơn vị trừ khi đơn vị đó nằm trong kế hoạch lâu dài cho tài khoản của bạn."
+        },
+        {
+          "title": "Bảo vệ Đột Phá trước khi Tiến Hóa thay đổi độ hiếm",
+          "description": "Khi một đơn vị Mythic tiến hóa lên độ hiếm Secret hoặc Vanguard, các cấp đột phá của nó sẽ bị xóa và không chuyển sang dạng mới.",
+          "bestUse": "Hãy hoàn thành các quyết định tiến hóa thay đổi độ hiếm trước, sau đó mới sử dụng tài nguyên đột phá cho dạng đơn vị sẽ ở lại trong đội hình của bạn."
+        }
+      ]
+    },
+    "animeVanguardsGameModesGuide": {
+      "title": "Hướng dẫn các chế độ chơi trong Anime Vanguards",
+      "displayType": "table",
+      "intro": "Anime Vanguards được xây dựng xoay quanh quá trình thăng tiến thủ tháp lặp đi lặp lại, nhưng mỗi chế độ lại hướng tới một mục tiêu khác nhau: mở khóa cốt truyện, vật phẩm rơi hiếm, tiền tệ sự kiện, vật phẩm tiến hóa, reroll, tài nguyên Memoria, hoặc cày cuốc tập trung vào boss. Hãy sử dụng phần tổng quan này để chọn chế độ phù hợp với mục tiêu hiện tại của bạn.",
+      "modeLabel": "Chế độ",
+      "labels": {
+        "type": "Loại",
+        "purpose": "Mục đích",
+        "whatPlayersDo": "Người chơi cần làm gì",
+        "teamFocus": "Trọng tâm đội hình",
+        "keyRewards": "Phần thưởng chính",
+        "farmWhen": "Cày khi nào"
+      },
+      "modes": [
+        {
+          "name": "Story Mode",
+          "type": "Tiến trình",
+          "purpose": "Tiến trình chiến dịch chính",
+          "description": "Vượt qua các màn (act) trong các thế giới theo chủ đề ở chế độ Normal và Nightmare.",
+          "teamFocus": "Đơn vị AoE đầu trận giá rẻ, một DPS diệt boss đáng tin cậy, một đơn vị farm tiền hoặc hỗ trợ, và các nâng cấp ổn định.",
+          "keyRewards": "Gems, Gold, tiến trình người chơi, vật phẩm rơi từ màn chơi, và quyền truy cập vào các nội dung sau.",
+          "farmWhen": "Sử dụng chế độ này đầu tiên để mở khóa các thế giới, chuẩn bị nguyên liệu và xây dựng nền tảng cho tài khoản."
+        },
+        {
+          "name": "Legend Stages",
+          "type": "Cốt truyện khó hơn",
+          "purpose": "Cày cuốc dựa trên cốt truyện khó hơn",
+          "description": "Vượt qua các phiên bản mạnh hơn của bản đồ cốt truyện với các hiệu ứng sửa đổi (modifiers) và lộ trình phần thưởng độc quyền.",
+          "teamFocus": "Đơn vị gánh team (carry) sát thương cao, tầm phủ AoE mạnh, làm chậm hoặc khống chế, và các đơn vị đã được nâng cấp.",
+          "keyRewards": "Nguyên liệu tiến hóa, vật phẩm rơi hiếm từ màn chơi, tiến trình bảo hiểm (pity) rơi đơn vị, và tiến trình tài khoản.",
+          "farmWhen": "Cày sau khi đội hình cốt lõi có thể vượt qua Story một cách ổn định."
+        },
+        {
+          "name": "Raids",
+          "type": "Endgame",
+          "purpose": "Cày boss và nguyên liệu độ khó cao",
+          "description": "Chiến đấu trong các màn chơi nhiều đợt quái (multi-wave) khó hơn và chạm trán boss để nhận phần thưởng độc quyền.",
+          "teamFocus": "Boss DPS, dọn đợt quái (wave clear), hỗ trợ, làm chậm, và phối hợp đặt đơn vị khi chơi co-op.",
+          "keyRewards": "Các đơn vị hiếm, vật phẩm tiến hóa, tiền tệ sự kiện, và phần thưởng độc quyền từ raid.",
+          "farmWhen": "Cày khi đội hình đã có các carry tiến hóa và đủ hỗ trợ để chống chịu áp lực từ boss."
+        },
+        {
+          "name": "Rifts",
+          "type": "Luân phiên",
+          "purpose": "Cày cuốc các cuộc chạm trán hiếm",
+          "description": "Tham gia các cuộc chạm trán rift với kẻ thù nguy hiểm và thời gian nhận thưởng giới hạn.",
+          "teamFocus": "Tốc độ dọn dẹp nhanh, sát thương boss mạnh và các đơn vị có khả năng xử lý áp lực bất ngờ.",
+          "keyRewards": "Phần thưởng hiếm, đơn vị rift, vật phẩm sự kiện và các vật phẩm rơi ra theo bản cập nhật.",
+          "farmWhen": "Cày cuốc khi bản cập nhật hiện tại đặt các đơn vị hoặc nguyên liệu quan trọng sau lối chơi rift."
+        },
+        {
+          "name": "Boss Rush và Boss Events",
+          "type": "Boss Challenge",
+          "purpose": "Cày cuốc thử thách tập trung vào boss",
+          "description": "Chiến đấu với các đợt sóng đầy boss và các cuộc chạm trán boss luân phiên để nhận phần thưởng sự kiện và tiến trình.",
+          "teamFocus": "Sát thương đơn mục tiêu, hỗ trợ trạng thái, kỹ năng bùng nổ và khả năng tăng tiến ổn định ở giai đoạn cuối đợt.",
+          "keyRewards": "Phần thưởng boss, tiền tệ sự kiện, đơn vị rơi ra và tài nguyên tiến trình.",
+          "farmWhen": "Cày cuốc khi tài khoản cần các vật phẩm rơi ra độc quyền từ boss hoặc tiền tệ cửa hàng sự kiện."
+        },
+        {
+          "name": "Odyssey",
+          "type": "Có thể lặp lại",
+          "purpose": "Cày cuốc tài nguyên dài hạn có thể lặp lại",
+          "description": "Tiến triển qua các lượt chơi Odyssey bằng cách sử dụng sức mạnh, thẻ bài, nhân vật và các lựa chọn tăng tiến đặc thù của chế độ.",
+          "teamFocus": "Đơn vị gánh team bền bỉ, khả năng tăng tiến dài hạn, nâng cấp tiết kiệm tài nguyên và hỗ trợ linh hoạt.",
+          "keyRewards": "Trait Rerolls, Memoria Shards, tài nguyên chế độ và phần thưởng Odyssey theo bản cập nhật.",
+          "farmWhen": "Cày cuốc khi tài khoản cần reroll, tài nguyên Memoria hoặc tiến trình endgame có thể lặp lại."
+        },
+        {
+          "name": "Worldlines",
+          "type": "Leo tầng",
+          "purpose": "Tiến trình dựa trên tầng và cày cuốc phần thưởng theo mùa",
+          "description": "Dọn dẹp các tầng với độ khó tăng dần, thử thách bản đồ độc đáo và phần thưởng theo mùa được đặt lại.",
+          "teamFocus": "Kiểm soát đợt sóng ổn định, sát thương boss và các đơn vị xử lý kẻ thù tăng tiến.",
+          "keyRewards": "Phần thưởng tầng, Trait Rerolls, Memoria Shards, Stat Chips, đá tinh hoa và các đơn vị theo mùa.",
+          "farmWhen": "Cày cuốc mỗi chu kỳ đặt lại để nhận các cột mốc tầng và phần thưởng theo mùa mới."
+        },
+        {
+          "name": "Summer Gamemode",
+          "type": "Sự kiện",
+          "purpose": "Cày cuốc sự kiện Update 13.5",
+          "description": "Chiến đấu với các đợt sóng kiểu zombie vô tận với chủ đề Mùa hè, sức mạnh độc đáo và các lựa chọn đơn vị đặc thù của chế độ.",
+          "teamFocus": "Độ bền, kiểm soát đợt sóng, nâng cấp nhanh và các đơn vị tăng tiến trong các lượt sinh tồn dài.",
+          "keyRewards": "Iced Tea, vật phẩm sự kiện Mùa hè, phần thưởng Mùa hè và tiến trình Event Pass.",
+          "farmWhen": "Cày cuốc trong Update 13.5 khi Eternal Adversaries và phần thưởng Iced Tea Festival đang hoạt động."
+        },
+        {
+          "name": "Summer Portals",
+          "type": "Sự kiện",
+          "purpose": "Cày cuốc phần thưởng portal Update 13.5",
+          "description": "Dọn dẹp nội dung Summer Portal để nhận phần thưởng portal độc quyền.",
+          "teamFocus": "Sát thương bùng nổ mạnh, phạm vi hỗ trợ rộng và dọn dẹp đợt sóng ổn định trước các sửa đổi portal.",
+          "keyRewards": "Vanguard Familiars, phần thưởng mùa hè và giải thưởng cổng độc quyền.",
+          "farmWhen": "Cày cuốc khi xây dựng các đơn vị mùa hè hoặc săn lùng các nâng cấp Vanguard Familiar mới."
+        }
+      ]
+    },
+    "animeVanguardsUpdates": {
+      "title": "Trình theo dõi cập nhật và sự kiện Anime Vanguards",
+      "displayType": "dòng thời gian",
+      "intro": "Các bản cập nhật Anime Vanguards thường bổ sung đơn vị mới, chế độ sự kiện, tiền tệ, banner, lộ trình tiến hóa, thay đổi Memoria và các lộ trình phần thưởng giới hạn thời gian. Trình theo dõi này sắp xếp các thay đổi quan trọng nhất theo bản cập nhật để người chơi quay lại có thể nhanh chóng bắt kịp lộ trình cày cuốc phù hợp.",
+      "labels": {
+        "version": "Phiên bản",
+        "type": "Loại",
+        "highlights": "Điểm nổi bật",
+        "newUnits": "Đơn vị mới",
+        "activeEvents": "Sự kiện đang diễn ra",
+        "playerFocus": "Trọng tâm người chơi"
+      },
+      "entries": [
+        {
+          "date": "2026-06-21",
+          "version": "Cập nhật 13.5",
+          "title": "Eternal Adversaries (Cập nhật 13.5)",
+          "type": "Bản cập nhật lớn hiện tại",
+          "highlights": [
+            "6 đơn vị mới",
+            "7 Memoria mới",
+            "7 Vanguard Familiars",
+            "Chế độ chơi mùa hè và Cổng mùa hè",
+            "Banner mùa hè và Event Pass",
+            "Làm lại hệ thống trang trí",
+            "Tái chế Memoria và Cửa hàng độc quyền",
+            "Trung tâm xã hội, 3 mô hình đơn vị được làm lại, 4 vật phẩm trang trí mới, 34 thay đổi cải thiện trải nghiệm và 356 bản sửa lỗi"
+          ],
+          "newUnits": [
+            "Kẻ mạnh nhất hôm nay đấu với Kẻ mạnh nhất lịch sử",
+            "Lord (Fairy)",
+            "Reaper (Scissors)",
+            "Cursed Doctor (Healer)",
+            "Raging Oni đấu với Wrath God",
+            "Envoy of Destruction (Resistance)"
+          ],
+          "activeEvents": [
+            "Eternal Adversaries",
+            "Iced Tea Festival",
+            "Evolution Madness",
+            "Odyssey Outrage",
+            "Familial Folly",
+            "Recurring Decadence",
+            "Something's Shiny"
+          ],
+          "playerFocus": "Cày Iced Tea, tiến triển Event Pass, thử nghiệm Cổng mùa hè để nhận phần thưởng Vanguard Familiar, tái chế Memoria trùng lặp và xem xét cách xây dựng đơn vị sau những thay đổi của hệ thống Memoria."
+        },
+        {
+          "date": "2026-05-31",
+          "version": "Cập nhật 13.0",
+          "title": "Godly Ascension (Cập nhật 13.0)",
+          "type": "Bản cập nhật nội dung lớn",
+          "highlights": [
+            "Chu kỳ sự kiện Godly Ascension",
+            "6 đơn vị mới",
+            "Nội dung cốt truyện mới",
+            "Rift mới và đơn vị Rift mới",
+            "Battle Pass Mùa 13",
+            "Chế độ chơi Pirate Dynasty",
+            "Boss Rush",
+            "Thay đổi Odyssey và các sự kiện đặc biệt mới"
+          ],
+          "newUnits": [
+            "Elastic Captain",
+            "Bounty Hunter",
+            "Beast Pirate",
+            "Scrap Pirate",
+            "Cat God",
+            "Reasonable Person"
+          ],
+          "activeEvents": [
+            "Godly Ascension",
+            "Crowning The King",
+            "The Power Of Youth"
+          ],
+          "playerFocus": "Hãy làm việc trên các lộ trình tiến hóa mới, nhận phần thưởng Pirate Dynasty, thử thách Boss Rush và cày cuốc đường Rift mới để nhận các vật phẩm rơi ra riêng cho bản cập nhật."
+        },
+        {
+          "date": "2026-05-09",
+          "version": "Cập nhật 12.5",
+          "title": "Turning Tides (Cập nhật 12.5)",
+          "type": "Cập nhật hệ thống và tiến trình",
+          "highlights": [
+            "6 đơn vị mới",
+            "Làm lại chế độ Odyssey",
+            "Cây kỹ năng Elemental Tower",
+            "Đại tu hệ thống Guild",
+            "Đợt sửa lỗi lớn"
+          ],
+          "newUnits": [],
+          "activeEvents": [],
+          "playerFocus": "Sử dụng bản làm lại Odyssey để cày tài nguyên lặp lại, xây dựng lại tiến trình Elemental Tower và kiểm tra các tính năng của guild trước khi chỉ tập trung vào việc triệu hồi."
+        },
+        {
+          "date": "2026-02-27",
+          "version": "Cập nhật 11.0",
+          "title": "Demonic Rampage (Cập nhật 11.0)",
+          "type": "Cập nhật cốt truyện và Memoria",
+          "highlights": [
+            "7 đơn vị mới",
+            "Màn chơi cốt truyện Hill of Swords",
+            "5 kẻ địch mới và 8 boss",
+            "Cơ chế kẻ địch Dispersal",
+            "Unit Memoria mới và Banner Memoria tiêu chuẩn"
+          ],
+          "newUnits": [
+            "Demon Hybrid",
+            "Demon Leader",
+            "Thợ Săn Quỷ",
+            "Quỷ Bộc Phá",
+            "Quỷ Hoang Tưởng",
+            "Kẻ Thao Túng",
+            "Trọng Tài"
+          ],
+          "activeEvents": [],
+          "playerFocus": "Hoàn thành tiến trình Clear Hill of Swords, tìm hiểu hành vi kẻ địch Dispersal và tập trung nâng cấp Memoria cho các đơn vị đã trở lại với sức mạnh lớn hơn."
+        },
+        {
+          "date": "2026-02-01",
+          "version": "Bản cập nhật 10.5",
+          "title": "Frozen Solitude (Bản cập nhật 10.5)",
+          "type": "Bản cập nhật sự kiện theo mùa",
+          "highlights": [
+            "6 đơn vị mới",
+            "Chế độ chơi Mùa đông và Sảnh Mùa đông",
+            "Cửa hàng Mùa đông và Cửa hàng sự kiện Legacy",
+            "Banner Mùa đông",
+            "Đặt lại Worldlines và các sự kiện giới hạn mới"
+          ],
+          "newUnits": [
+            "Ice Queen (Ra mắt)",
+            "Company Captain (Hybrid)",
+            "Armored Mage",
+            "Rabbit Hero",
+            "Ice Manipulator",
+            "Trash Gamer"
+          ],
+          "activeEvents": [
+            "Quà tặng Mùa đông",
+            "Bộ sự kiện Frozen Solitude"
+          ],
+          "playerFocus": "Sử dụng các cửa hàng theo mùa để lấy vật phẩm tiến hóa, nhận phần thưởng tầng Worldlines và thu thập các đơn vị từ Banner Mùa đông hoặc Memoria trước khi nội dung xoay vòng thay đổi."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Câu hỏi",
+    "titleHighlight": "Thường gặp",
+    "subtitle": "Mọi thứ bạn cần biết về Anime Vanguards",
+    "questions": [
+      {
+        "question": "Anime Vanguards là gì?",
+        "answer": "Anime Vanguards là một trò chơi thủ thành anime trên Roblox của Kitawari, nơi người chơi triệu hồi các đơn vị, nâng cấp và tiến hóa chúng, đồng thời vượt qua các màn chơi cốt truyện, đột kích và các sự kiện giới hạn thời gian."
+      },
+      {
+        "question": "Làm thế nào để đổi mã code Anime Vanguards?",
+        "answer": "Đạt cấp 10, mở nút Hồ sơ màu xanh dương, chọn tùy chọn Mã code màu tím, dán mã và nhấn Redeem. Các mã code Eternal Adversaries mới hơn yêu cầu Cấp 30."
+      },
+      {
+        "question": "Tôi có thể chơi Anime Vanguards ở đâu?",
+        "answer": "Anime Vanguards có thể chơi trên Roblox trên PC và thiết bị di động. Tham gia trải nghiệm chính thức bởi Kitawari với ID trò chơi 16146832113."
+      },
+      {
+        "question": "Làm thế nào để có được các đơn vị mạnh hơn trong Anime Vanguards?",
+        "answer": "Sử dụng Gems để triệu hồi từ banner, sau đó nâng cấp, đổi thuộc tính (reroll traits), cải thiện chỉ số và tiến hóa các đơn vị có vai trò rõ ràng trong đội hình của bạn."
+      },
+      {
+        "question": "Những tài nguyên nào tốt nhất để tiết kiệm trong Anime Vanguards?",
+        "answer": "Tiết kiệm Trait Rerolls và Stat Chips cho các đơn vị Secret, Vanguard và Exclusive. Sử dụng Gems cho các banner phù hợp với mục tiêu đội hình của bạn."
+      },
+      {
+        "question": "Tôi có thể theo dõi các bản cập nhật Anime Vanguards ở đâu?",
+        "answer": "Theo dõi Discord chính thức, kênh YouTube, tài khoản X của Anime Vanguards và trang nhật ký thay đổi vanguards.gg để biết các ghi chú bản vá mới nhất, đơn vị mới và chi tiết sự kiện."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sẵn sàng chơi Anime Vanguards chưa?",
+    "description": "Tham gia cộng đồng Anime Vanguards để nhận mã code, xem bảng xếp hạng, hướng dẫn đơn vị và tin tức cập nhật mới nhất từ Roblox!",
+    "joinCommunity": "Tham gia Discord",
+    "joinGame": "Chơi trên Roblox"
+  },
+  "footer": {
+    "title": "Anime Vanguards Wiki",
+    "description": "Trung tâm tài nguyên hoàn chỉnh của bạn về mã code, bảng xếp hạng, đơn vị, trait, tiến hóa, raid và hướng dẫn cập nhật cho Anime Vanguards.",
+    "resources": "Tài nguyên",
+    "community": "Cộng đồng",
+    "legal": "Pháp lý",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "roblox": "Chơi trên Roblox",
+    "about": "Giới thiệu",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "copyrightNotice": "Bản quyền",
+    "copyright": "© 2026 Anime Vanguards Wiki. Không liên kết với các nhà phát triển của Anime Vanguards.",
+    "disclaimer": "Trang web tài nguyên không chính thức do người hâm mộ tạo ra."
+  },
+  "pages": {
+    "codes": {
+      "title": "Mã code Anime Vanguards",
+      "description": "Các mã code đang hoạt động và đã hết hạn, loại phần thưởng và các bước đổi mã an toàn cho người chơi Anime Vanguards.",
+      "metaTitle": "Mã code Anime Vanguards - Mã đổi thưởng đang hoạt động & đã hết hạn",
+      "metaDescription": "Đổi các mã code Anime Vanguards mới nhất để nhận Trait Rerolls, Gems, Memoria Shards và nguyên liệu sự kiện. Các mã đang hoạt động và đã hết hạn được cập nhật cho bản vá hiện tại.",
+      "categoryLabel": "MÃ CODE",
+      "whatIs": "Mã code là gì?",
+      "whatIsDescription": "Mã code là các chuỗi ký tự có thể đổi để nhận phần thưởng miễn phí như Trait Rerolls, Gems, Memoria Shards, Stat Chips và nguyên liệu sự kiện.",
+      "why": "Tại sao nên đổi mã code?",
+      "whySteps": {
+        "step1Title": "Tài nguyên miễn phí",
+        "step1Description": "Nhận Trait Rerolls, Gems và tiền tệ sự kiện mà không cần chi tiêu",
+        "step2Title": "Tiến trình nhanh hơn",
+        "step2Description": "Sử dụng phần thưởng từ mã code để triệu hồi đơn vị và nâng cấp đội hình của bạn",
+        "step3Title": "Phần thưởng sự kiện",
+        "step3Description": "Nhận các nguyên liệu sự kiện theo mùa như Iced Teas"
+      },
+      "featured": "Nổi bật & Thiết yếu",
+      "all": "Tất cả mã code"
+    },
+    "tier": {
+      "title": "Bảng xếp hạng Anime Vanguards",
+      "description": "Xếp hạng đơn vị theo sát thương, hỗ trợ, cày cuốc và giá trị giai đoạn cuối game cho bản vá Anime Vanguards hiện tại.",
+      "metaTitle": "Bảng xếp hạng Anime Vanguards - Xếp hạng các đơn vị tốt nhất",
+      "metaDescription": "Bảng xếp hạng đơn vị Anime Vanguards hiện tại bao gồm các meta core, hỗ trợ endgame, đơn vị hỗ trợ tiến trình và các đơn vị mới từ Eternal Adversaries.",
+      "categoryLabel": "BẢNG XẾP HẠNG",
+      "whatIs": "Bảng xếp hạng là gì?",
+      "whatIsDescription": "Bảng xếp hạng các unit theo giá trị thực tế về sát thương, hỗ trợ, farm tiền, đa dụng và độ hữu dụng ở late-game cho bản cập nhật hiện tại.",
+      "why": "Tại sao nên sử dụng tier list?",
+      "whySteps": {
+        "step1Title": "Đầu tư khôn ngoan",
+        "step1Description": "Tập trung tài nguyên khan hiếm vào các unit đóng vai trò chủ chốt trong đội hình của bạn",
+        "step2Title": "Xây dựng đội hình cân bằng",
+        "step2Description": "Kết hợp các unit carry, khống chế, hỗ trợ và kinh tế",
+        "step3Title": "Luôn cập nhật xu hướng",
+        "step3Description": "Theo dõi meta của bản cập nhật mới nhất trước khi triệu hồi"
+      },
+      "featured": "Nổi bật & Thiết yếu",
+      "all": "Tất cả hướng dẫn Tier List"
+    },
+    "units": {
+      "title": "Các unit trong Anime Vanguards",
+      "description": "Vai trò, độ hiếm, cách sở hữu, lựa chọn khởi đầu và lưu ý đầu tư của các unit trong Anime Vanguards.",
+      "metaTitle": "Các unit trong Anime Vanguards - Vai trò, Độ hiếm & Cách sở hữu",
+      "metaDescription": "Hướng dẫn chi tiết về các unit trong Anime Vanguards bao gồm độ hiếm, cách sở hữu, vai trò, lựa chọn khởi đầu và những điều cần kiểm tra trước khi đầu tư tài nguyên.",
+      "categoryLabel": "UNIT",
+      "whatIs": "Unit là gì?",
+      "whatIsDescription": "Unit là các nhân vật mà bạn triệu hồi, nâng cấp, tiến hóa, reroll và xây dựng đội hình xung quanh trong Anime Vanguards.",
+      "why": "Tại sao cần tìm hiểu về các unit?",
+      "whySteps": {
+        "step1Title": "Hiểu rõ vai trò",
+        "step1Description": "Phối hợp các unit carry, khống chế, hỗ trợ và kinh tế vào đội hình của bạn",
+        "step2Title": "Biết cách sở hữu",
+        "step2Description": "Biết nơi tìm các unit từ banner, sự kiện và pass",
+        "step3Title": "Đầu tư an toàn",
+        "step3Description": "Kiểm tra độ hiếm và vai trò trước khi tiêu tốn các tài nguyên cao cấp"
+      },
+      "featured": "Nổi bật & Thiết yếu",
+      "all": "Tất cả Unit"
+    },
+    "values": {
+      "title": "Giá trị giao dịch trong Anime Vanguards",
+      "description": "Giá trị giao dịch của các unit, trait và vật phẩm giúp bạn trao đổi công bằng và tránh bị ép giá trong Anime Vanguards.",
+      "metaTitle": "Giá trị giao dịch trong Anime Vanguards - Bảng giá trị & Công cụ tính toán giao dịch",
+      "metaDescription": "Kiểm tra giá trị giao dịch, nhu cầu và bậc độ hiếm trong Anime Vanguards trước khi giao dịch unit, trait và vật phẩm. Cập nhật bảng giá trị và công cụ tính toán để giao dịch công bằng.",
+      "categoryLabel": "GIÁ TRỊ GIAO DỊCH",
+      "whatIs": "Giá trị giao dịch là gì?",
+      "whatIsDescription": "Giá trị giao dịch ước tính giá trị của một unit, trait hoặc vật phẩm trong các giao dịch giữa người chơi với nhau, dựa trên độ hiếm, nhu cầu và sức mạnh meta.",
+      "why": "Tại sao nên kiểm tra giá trị giao dịch?",
+      "whySteps": {
+        "step1Title": "Giao dịch công bằng",
+        "step1Description": "Biết rõ giá trị các unit của bạn trước khi chấp nhận lời đề nghị",
+        "step2Title": "Nắm bắt nhu cầu",
+        "step2Description": "Xem những unit nào đang được người chơi săn đón nhiều nhất hiện nay",
+        "step3Title": "Tránh bị ép giá",
+        "step3Description": "Tự tin từ chối các giao dịch bị định giá thấp"
+      },
+      "featured": "Nổi bật & Thiết yếu",
+      "all": "Tất cả hướng dẫn giá trị"
+    },
+    "evolution": {
+      "title": "Tiến hóa Anime Vanguards",
+      "description": "Các lộ trình tiến hóa, chi phí nguyên liệu, các bước làm nhiệm vụ và nâng cấp sau tiến hóa cho các đơn vị trong Anime Vanguards.",
+      "metaTitle": "Tiến hóa Anime Vanguards - Nguyên liệu, Nhiệm vụ & Lộ trình tiến hóa",
+      "metaDescription": "Tiến hóa các đơn vị Anime Vanguards với danh sách nguyên liệu đầy đủ, hướng dẫn làm nhiệm vụ và ghi chú nâng cấp cho mọi lộ trình tiến hóa.",
+      "categoryLabel": "TIẾN HÓA",
+      "whatIs": "Tiến hóa là gì?",
+      "whatIsDescription": "Tiến hóa nâng cấp đơn vị thành dạng mạnh hơn, thường yêu cầu các nguyên liệu cụ thể, hoàn thành nhiệm vụ và đôi khi là tiền tệ.",
+      "why": "Tại sao phải tiến hóa đơn vị?",
+      "whySteps": {
+        "step1Title": "Mở khóa toàn bộ sức mạnh",
+        "step1Description": "Tiến hóa tăng sát thương, tầm đánh và các kỹ năng",
+        "step2Title": "Lên kế hoạch nguyên liệu",
+        "step2Description": "Farm chính xác các mảnh và vật phẩm mà mỗi lần tiến hóa cần",
+        "step3Title": "Làm theo nhiệm vụ",
+        "step3Description": "Hoàn thành các nhiệm vụ tiến hóa như chuỗi nhiệm vụ Elastic Captain"
+      },
+      "featured": "Nổi bật & Thiết yếu",
+      "all": "Tất cả hướng dẫn tiến hóa"
+    },
+    "guide": {
+      "title": "Hướng dẫn Anime Vanguards",
+      "description": "Những kiến thức cơ bản cho người mới, lộ trình phát triển và chiến thuật nâng cao cho người chơi Anime Vanguards.",
+      "metaTitle": "Hướng dẫn Anime Vanguards - Chiến thuật từ cơ bản đến nâng cao",
+      "metaDescription": "Hướng dẫn toàn diện về Anime Vanguards bao gồm mẹo cho người mới, lộ trình phát triển, xây dựng đội hình và chiến thuật nâng cao cho người chơi Roblox.",
+      "categoryLabel": "HƯỚNG DẪN TRÒ CHƠI",
+      "whatIs": "Hướng dẫn là gì?",
+      "whatIsDescription": "Hướng dẫn toàn diện bao gồm cơ chế trò chơi, lộ trình phát triển và xây dựng đội hình cho Anime Vanguards.",
+      "why": "Tại sao nên đọc hướng dẫn?",
+      "whySteps": {
+        "step1Title": "Tìm hiểu cơ chế cốt lõi",
+        "step1Description": "Hiểu về triệu hồi, trait và tiến hóa",
+        "step2Title": "Phát triển nhanh chóng",
+        "step2Description": "Làm theo các lộ trình đã được kiểm chứng để xây dựng đội hình mạnh",
+        "step3Title": "Làm chủ chiến thuật",
+        "step3Description": "Phát triển các chiến thuật nâng cao cho các đợt raid và sự kiện"
+      },
+      "featured": "Nổi bật & Thiết yếu",
+      "all": "Tất cả hướng dẫn"
+    },
+    "items": {
+      "title": "Vật phẩm Anime Vanguards",
+      "description": "Tiền tệ và nguyên liệu trong Anime Vanguards: Giải thích về Gems, Gold, Essence, Stat Chips và Memoria Shards.",
+      "metaTitle": "Vật phẩm Anime Vanguards - Hướng dẫn về Gems, Essence & Memoria",
+      "metaDescription": "Tìm hiểu mọi loại tiền tệ và nguyên liệu trong Anime Vanguards: Gems, Gold, Essence Stones, Stat Chips và Memoria Shards, cùng với nơi nhận và cách sử dụng chúng.",
+      "categoryLabel": "VẬT PHẨM",
+      "whatIs": "Vật phẩm là gì?",
+      "whatIsDescription": "Vật phẩm là các loại tiền tệ và nguyên liệu bạn kiếm được và chi tiêu, bao gồm Gems, Gold, Essence, Stat Chips, và Memoria Shards.",
+      "why": "Tại sao nên tìm hiểu về vật phẩm?",
+      "whySteps": {
+        "step1Title": "Chi tiêu thông minh",
+        "step1Description": "Ưu tiên Gems và nguyên liệu cho các unit tốt nhất của bạn",
+        "step2Title": "Farm hiệu quả",
+        "step2Description": "Biết màn chơi nào rơi ra từng loại nguyên liệu",
+        "step3Title": "Sử dụng Memoria",
+        "step3Description": "Chi tiêu Memoria Shards cho các nâng cấp vĩnh viễn"
+      },
+      "featured": "Nổi bật & Thiết yếu",
+      "all": "Tất cả hướng dẫn về vật phẩm"
+    }
+  }
+}
