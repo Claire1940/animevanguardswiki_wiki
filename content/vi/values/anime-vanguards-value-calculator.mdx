@@ -1,0 +1,204 @@
+import { Sparkles, Trophy, Target, Shield, Map, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Công cụ tính giá trị Anime Vanguards: Hướng dẫn giá giao dịch nhân vật",
+  description: "Tìm hiểu cách sử dụng công cụ tính giá trị Anime Vanguards. Xem giá giao dịch hiện tại, giá trị vật phẩm và các phương thức giao dịch an toàn cho Bản cập nhật 13.5.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/581c87/fff?text=Anime+Vanguards+Value+Calculator",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Công cụ tính giá trị**: Ước tính giá trị giao dịch tương đối dựa trên nhu cầu, độ hiếm, thiên phú (traits) và trạng thái tiến hóa.
+- **Nhân vật giao dịch hàng đầu**: Các nhân vật độ hiếm Secret (Bí ẩn) và Vanguard (Tiên phong) có giá trị thị trường cao nhất.
+- **Điều chỉnh thiên phú**: Các thiên phú Thần thoại (Mythic) như Monarch (Quân vương) và Ethereal (Vô thực) giúp tăng đáng kể giá trị giao dịch của nhân vật.
+- **Tiêu chuẩn tiêu hao**: Vé đổi thiên phú (Trait Reroll), Chip chỉ số (Stat Chip) và tiền tệ sự kiện đóng vai trò là vật phẩm phụ để cân bằng giao dịch.
+- **Biến động thị trường**: Giá cả thay đổi nhanh chóng theo các bản cập nhật cân bằng mới và sự thay đổi của sự kiện.
+</Callout>
+
+<Section icon={Sparkles} title="Cách công cụ tính giá trị Anime Vanguards xác định giá giao dịch">
+
+Hiểu rõ nền kinh tế giao dịch là điều tối quan trọng để tối đa hóa tiến trình chơi, và việc sử dụng một **công cụ tính giá trị Anime Vanguards** đáng tin cậy giúp người chơi đánh giá các giao dịch công bằng. Giá trị của bất kỳ nhân vật nào cũng không cố định; nó được quyết định bởi sự kết hợp giữa nguồn cung hiện tại, độ hữu dụng trong lối chơi, thiên phú sở hữu và tiến trình tiến hóa. 
+
+Khi việc giao dịch giữa người chơi diễn ra tại Social Hub, thị trường sẽ liên tục điều chỉnh dựa trên mức độ phù hợp với meta của các nhân vật. Một nhân vật có thể dễ dàng vượt qua các nội dung khó như Legend Stages (Ải Huyền thoại), Worldlines (Dòng thế giới) hoặc Raids (Phó bản) sẽ luôn giữ được giá trị cao hơn so với những nhân vật chỉ giới hạn ở tiến trình cốt truyện ban đầu.
+
+| Yếu tố giao dịch | Tác động thị trường | Mô tả |
+| :--- | :--- | :--- |
+| **Độ phù hợp Meta** | Cao | Các nhân vật xuất sắc trong các chế độ độ khó cao sẽ có giá trị giao dịch hàng đầu. |
+| **Độ hiếm khi nhận** | Cao | Nhân vật Secret và Vanguard có tỷ lệ quay trúng thấp, giữ cho nguồn cung luôn ở mức thấp. |
+| **Trạng thái tiến hóa** | Trung bình | Các dạng tiến hóa đòi hỏi quá trình cày cuốc nguyên liệu nặng nề, trực tiếp cộng thêm giá trị. |
+| **Sự kết hợp Thiên phú** | Trung bình | Các thiên phú bậc S như Monarch hoặc Ethereal giúp tăng đáng kể giá trị cơ bản. |
+| **Trạng thái Shiny** | Cao | Các biến thể thuần thẩm mỹ mang lại giá trị sưu tầm cực kỳ lớn. |
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Đừng bao giờ giao dịch một nhân vật Secret đang được săn đón để lấy một gói vật phẩm dễ dàng cày cuốc. Đá tinh hoa tiêu chuẩn và vàng cơ bản rất dễ kiếm, trong khi việc triệu hồi các nhân vật định hình meta đòi hỏi rất nhiều may mắn hoặc đá quý.
+</Callout>
+
+Trước khi vào sảnh giao dịch, hãy đánh giá xem nhân vật bạn đang cung cấp hiện tại có thể nhận được hay đã bị giới hạn (retired). Các nhân vật trong biểu ngữ đã đóng tự động có giá trị cao hơn do không còn nguồn cung mới.
+
+</Section>
+
+<Section icon={Trophy} title="Bảng xếp hạng giá trị giao dịch nhân vật">
+
+Thị trường giao dịch phân loại các nhân vật thành các bậc (tier) rõ rệt. Các nhân vật giá trị cao thường có khả năng khống chế đám đông mạnh mẽ, sát thương đơn mục tiêu tăng tiến cao hoặc cơ chế triệu hồi độc đáo. Các nhân vật như God (Above Heaven) hoặc Demon Leader (Control) vẫn duy trì ở đỉnh cao thị trường nhờ tính hữu dụng của chúng trong các chế độ cuối game.
+
+Các bảng dưới đây phác thảo giá trị giao dịch tương đối ước tính. Những ước tính này đóng vai trò là điểm tham chiếu cho các cuộc thương lượng giao dịch.
+
+| Tên nhân vật | Độ hiếm | Giá trị ước tính | Yếu tố thúc đẩy giao dịch chính |
+| :--- | :--- | :--- | :--- |
+| **Demon Leader (Control)** | Secret | **Rất cao** | Nhu cầu cao nhờ khả năng giảm chi phí trong đội hình Demon Hunter |
+| **God (Above Heaven)** | Secret | **Rất cao** | Khả năng ngưng đọng thời gian và lượng sát thương diện rộng (AoE) khổng lồ |
+| **Song Jinwu & Igros** | Vanguard | **Cao** | Triệu hồi bóng tối tiết kiệm ô chứa giúp phòng thủ đường dài |
+| **Gujo (Infinity)** | Secret | **Cao** | Khống chế đám đông xuất sắc và phạm vi làm choáng rộng |
+| **Rogita (Super 4)** | Vanguard | **Trung bình - Cao** | Khả năng diệt boss đơn mục tiêu cao cấp |
+| **Alocard (Vampire King)** | Vanguard | **Trung bình - Cao** | Sát thương duy trì (DPS) cộng dồn hiệu ứng chảy máu, hữu ích trong các bản đồ nhiều đường |
+
+Đối với các nhân vật độc quyền, giới hạn hoặc dành riêng cho sự kiện, giá trị sẽ thay đổi tùy thuộc vào tính khả dụng của sự kiện. Các nhân vật Chế độ Mùa hè và phần thưởng Vé Sự kiện hoạt động rất sôi nổi trong các chu kỳ cập nhật hiện tại.
+
+| Nhân vật sự kiện | Nguồn | Xu hướng giá trị | Lưu ý giao dịch |
+| :--- | :--- | :--- | :--- |
+| **Today's Strongest vs History's Strongest** | Biểu ngữ Mùa hè | **Đang tăng** | Mục tiêu biểu ngữ Vanguard; rất được thèm muốn trong meta sát thương |
+| **Raging Oni vs Wrath God** | Worldlines | **Ổn định** | Mục tiêu Secret; giới hạn trong tiến trình Worldlines |
+| **Envoy of Destruction (Resistance)** | Vé Sự kiện | **Đang tăng** | Độ hiếm độc quyền; giá trị tăng dần sau sự kiện |
+| **Lord (Fairy)** | Chế độ Mùa hè | **Trung bình** | Nhân vật Thần thoại theo mùa; hữu ích cho người chơi giai đoạn giữa game |
+| **Reaper (Scissors)** | Chế độ Mùa hè | **Trung bình** | Nhân vật Thần thoại dành riêng cho sự kiện; hoạt động sôi nổi trong các bản cập nhật mùa hè |
+
+<Callout type="info" title="Cảnh báo sự kiện">
+Các nhân vật sự kiện thường giảm nhẹ giá trị vào giữa sự kiện do nguồn cung tăng lên. Giá trị giao dịch của chúng thường hồi phục và tăng lên sau khi cửa hàng sự kiện theo mùa đóng cửa và nhân vật không thể nhận được nữa.
+</Callout>
+
+Nếu bạn đang giao dịch một nhân vật vẫn đang hoạt động trên biểu ngữ mùa hiện tại, hãy cân nhắc chờ đợi cho đến khi kết thúc chu kỳ cập nhật để hoàn tất các giao dịch giá trị cao, vì lúc đó tổng nguồn cung sẽ ở mức đỉnh điểm.
+
+</Section>
+
+<Section icon={Target} title="Quy trình từng bước định giá giao dịch">
+
+Để đảm bảo bạn không bị lỗ trong các giao dịch, hãy làm theo quy trình xác minh có cấu trúc. Việc tiêu chuẩn hóa đánh giá giúp bạn dễ dàng phát hiện các đề nghị giao dịch không cân xứng.
+
+<Steps>
+  <Step num="1" title="Xác định nhóm giá trị cơ bản">
+    Tra cứu giá trị cơ bản của nhân vật trên biểu đồ giao dịch hiện tại. Xác định xem nhân vật đó thuộc bậc gánh đội (meta carry), bậc tiến trình (progression) hay bậc sưu tầm (collector).
+  </Step>
+  <Step num="2" title="Kiểm tra thiên phú và chỉ số của nhân vật">
+    Kiểm tra thiên phú đang hoạt động tại cửa sổ giao dịch. Một nhân vật có thiên phú Thần thoại như Monarch hoặc Ethereal sẽ có giá trị lớn hơn đáng kể so với nhân vật có thiên phú thông thường như Vigor hoặc Range.
+  </Step>
+  <Step num="3" title="Đánh giá chi phí tiến hóa và nguyên liệu">
+    Tính toán chi phí tài nguyên tiết kiệm được khi giao dịch một nhân vật đã tiến hóa. Tính cả đá tinh hoa, vàng và các vật phẩm tiến hóa cần thiết để nâng cấp nhân vật đó.
+  </Step>
+  <Step num="4" title="Thêm vật phẩm phụ để cân bằng">
+    Nếu giá trị cơ bản không hoàn toàn khớp nhau, hãy sử dụng các vật phẩm có tính thanh khoản cao như Vé đổi thiên phú, Chip chỉ số hoặc tiền tệ sự kiện theo mùa để bù đắp khoảng chênh lệch.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cảnh báo bảo hiểm (Pity)">
+Giao dịch một nhân vật sẽ đặt lại trình theo dõi bảo hiểm thiên phú cá nhân của nhân vật đó. Nếu bạn đã tích lũy số lần quay bảo hiểm cao cho một thiên phú Thần thoại trên một nhân vật cụ thể, việc giao dịch nhân vật đó đi sẽ khiến bạn mất hoàn toàn tiến trình đó.
+</Callout>
+
+Luôn kiểm tra kỹ để đảm bảo bạn đang giao dịch đúng phiên bản của nhân vật. Các dạng tiến hóa trông khác biệt trong menu giao dịch, vì vậy hãy kiểm tra kỹ tên gọi để xác nhận bạn đang nhận được biến thể đã nâng cấp hoàn chỉnh.
+
+</Section>
+
+<Section icon={Shield} title="Chỉ số giá trị thiên phú và vật phẩm tiêu hao">
+
+Thiên phú tạo thêm một lớp giá trị thứ hai cho bất kỳ nhân vật nào. Một thiên phú meta hoàn hảo có thể biến một giao dịch trung bình thành một giao dịch cực kỳ có lời. Người chơi muốn tối ưu hóa nhân vật gánh đội của mình sẽ sẵn sàng trả một khoản phí lớn cho các nhân vật đã sở hữu các chỉ số bổ trợ cấp cao.
+
+<CardGrid cols={2}>
+  <Card title="Monarch (Giá trị cao nhất)">
+    - **0.1% Tỷ lệ quay trúng**
+    - Cung cấp mức khuếch đại chỉ số tối đa cho các nhân vật gánh đội đặt đơn lẻ.
+    - Giá trị giao dịch cộng thêm cao nhất.
+  </Card>
+  <Card title="Ethereal (Sát thương gánh đội hàng đầu)">
+    - **0.175% Tỷ lệ quay trúng**
+    - Thiên phú tăng tiến sát thương cao phù hợp cho các nhân vật gánh đội cuối game.
+    - Rất được săn đón bởi những người chơi giai đoạn cuối game.
+  </Card>
+  <Card title="Solar & Deadeye (Diệt Boss)">
+    - **Tỷ lệ 0.5% và 0.375%**
+    - Cải thiện tầm đánh, sát thương và tỷ lệ bạo kích cho các sự kiện boss.
+    - Giá trị giao dịch cộng thêm từ trung bình đến cao.
+  </Card>
+  <Card title="Vật phẩm phụ tiêu hao (Giá trị thanh khoản)">
+    - Bao gồm Vé đổi thiên phú, Chip chỉ số và Mảnh ký ức (Memoria Shard).
+    - Được sử dụng để lấp đầy khoảng cách giá trị trong các giao dịch cấp cao.
+    - Tài sản giao dịch ít rủi ro.
+  </Card>
+</CardGrid>
+
+Bản thân các vật phẩm có một giá trị giao dịch tiêu chuẩn được quy đổi tương đương ra Vé đổi thiên phú hoặc vàng. Bảng dưới đây thể hiện các giá trị tương đối hiện tại để cân bằng giao dịch.
+
+| Vật phẩm tiêu hao | Chức năng giao dịch | Nhóm giá trị tương đối |
+| :--- | :--- | :--- |
+| **Vé đổi thiên phú** | Đổi lại thiên phú nhân vật tại NPC Mandra | **Tài sản thanh khoản tiêu chuẩn** |
+| **Chip chỉ số** | Tinh chỉnh tỷ lệ phần trăm chỉ số của từng nhân vật | **Tài sản thanh khoản trung bình** |
+| **Mảnh ký ức** | Dùng cho tiến trình Ký ức của nhân vật | **Nhu cầu ổn định** |
+| **Đá tinh hoa cầu vồng** | Nguyên liệu tiến hóa cấp cao | **Nhu cầu đều đặn** |
+| **Trà đá** | Tiền tệ cửa hàng sự kiện mùa hè | **Nhu cầu theo mùa** |
+
+<Callout type="success" title="Giao dịch thành công">
+Sử dụng Vé đổi thiên phú làm tiền tệ là một phương pháp cực kỳ ổn định. Vé đổi thiên phú luôn giữ nguyên giá trị qua các bản cập nhật vì người chơi luôn cần quay các thiên phú mới cho các nhân vật meta mới ra mắt.
+</Callout>
+
+Khi bạn chuẩn bị hoàn tất một giao dịch, việc đổi các nguyên liệu tiến hóa dư thừa lấy Vé đổi thiên phú là một cách an toàn để tích trữ giá trị cho các bản cập nhật trong tương lai.
+
+</Section>
+
+<Section icon={Map} title="Danh sách kiểm tra giao dịch an toàn">
+
+Phòng giao dịch có thể diễn ra với tốc độ rất nhanh, điều này khiến bạn dễ mắc phải những sai lầm đơn giản. Hãy sử dụng danh sách kiểm tra này để xác minh mọi giao dịch trước khi nhấp vào nút chấp nhận cuối cùng.
+
+<Checklist
+  id="trading-safety"
+  title="Xác minh giao dịch cuối cùng:"
+  items={[
+    "Xác minh chính xác tên, độ hiếm và cấp độ của nhân vật trong ô giao dịch.",
+    "Kiểm tra thiên phú đang hoạt động của nhân vật để xác nhận nó khớp với giao dịch đã hứa.",
+    "Đếm chính xác số lượng Vé đổi thiên phú hoặc Chip chỉ số trong lời đề nghị.",
+    "Xác nhận trạng thái tiến hóa của nhân vật là chính xác.",
+    "Đảm bảo túi đồ của bạn có đủ dung lượng ô chứa để nhận các vật phẩm được giao dịch."
+  ]}
+/>
+
+<Callout type="tip" title="Phép lịch sự khi giao dịch">
+Tránh việc nhấn chấp nhận và hủy liên tục. Hành vi này thường liên quan đến các chiêu trò tráo đổi giao dịch gian lận. Hãy giữ cho cửa sổ giao dịch rõ ràng và xác nhận tất cả giá trị bằng lời nói trong khung trò chuyện trước.
+</Callout>
+
+Một khi giao dịch đã hoàn tất, đội ngũ hỗ trợ sẽ không thể hoàn tác. Dành thêm ba giây để xem lại cửa sổ xác nhận sẽ bảo vệ tiến trình cày cuốc vất vả của bạn.
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp về giao dịch">
+
+Xem qua các câu hỏi thường gặp về giao dịch này để hiểu rõ hơn về cách tính giá trị trong bản vá hiện tại.
+
+<FAQ items={[
+  {
+    question: "Làm cách nào để tính giá trị giao dịch của một nhân vật Shiny?",
+    answer: "Nhân vật Shiny là các biến thể thẩm mỹ hiếm gặp. Giá trị của chúng được quyết định bởi nhu cầu của người sưu tầm và thường cao gấp ba đến năm lần so với giá trị của nhân vật cơ bản, tùy thuộc vào mức độ hữu dụng của nhân vật đó trong meta hiện tại."
+  },
+  {
+    question: "Cấp độ của nhân vật có ảnh hưởng đến giá trị của nó trong công cụ tính không?",
+    answer: "Cấp độ nhân vật có tác động rất nhỏ đến giá trị. Hầu hết các thương nhân cao cấp chỉ quan tâm đến độ hiếm cơ bản, trạng thái tiến hóa và các thiên phú đã quay được, vì việc nâng cấp độ nhân vật có thể dễ dàng hoàn thành thông qua quá trình chơi thông thường."
+  },
+  {
+    question: "Tại sao một số nhân vật Secret lỗi thời vẫn giữ được giá trị giao dịch?",
+    answer: "Các nhân vật Secret lỗi thời giữ giá trị chủ yếu dành cho những người sưu tầm hoặc nếu chúng nhận được một đợt làm lại hoặc con đường tiến hóa mới trong các bản cập nhật gần đây. Hãy để ý các ghi chú bản vá để xem liệu các nhân vật cũ có quay trở lại meta hay không."
+  },
+  {
+    question: "Tôi có thể giao dịch trực tiếp vàng và đá quý cơ bản không?",
+    answer: "Đá quý không thể giao dịch trực tiếp giữa các người chơi. Các công cụ tính giá trị sử dụng vàng, Vé đổi thiên phú và các nhân vật cấp cao làm tiền tệ quy đổi tiêu chuẩn trong quá trình thương lượng giao dịch."
+  }
+]} />
+
+<Callout type="info" title="Lưu ý cuối cùng">
+Các giá trị thị trường được liệt kê trong hướng dẫn này là ước tính dựa trên hoạt động giao dịch thực tế của người chơi. Hãy luôn kiểm tra các kênh chợ giao dịch trên Discord chính thức để xem các lời chào mua và bán trực tiếp trước khi thực hiện các giao dịch lớn.
+</Callout>
+
+</Section>

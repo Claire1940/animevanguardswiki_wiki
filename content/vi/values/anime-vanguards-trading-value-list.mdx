@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Bảng Giá Trị Giao Dịch Anime Vanguards: Xếp Hạng Đơn Vị & Vật Phẩm",
+  description: "Cập nhật bảng giá trị giao dịch Anime Vanguards mới nhất. Xem giá trị thị trường hiện tại của các đơn vị Secret, Vanguard, và Exclusive, thiên phú và vật phẩm.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Trading+Value+List",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards",
+  keywords: "anime vanguards, giao dịch, bảng giá trị, vật phẩm, secret, vanguard"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Tiêu chuẩn thị trường**: Trait Rerolls đóng vai trò là đơn vị tiền tệ tương đương chính trong meta giao dịch.
+- **Nhu cầu cao nhất**: Các đơn vị có độ hiếm Secret và Vanguard có giá trị cao nhất, đặc biệt là các biến thể đã tiến hóa.
+- **Meta Bản cập nhật 13.5**: Các đơn vị Mùa hè theo mùa và các vật phẩm rơi ra từ Worldlines mới có giá trị rất biến động và cao cấp.
+- **Hệ số Shiny**: Danh hiệu Shiny thường nhân giá trị giao dịch cơ bản của một đơn vị lên gấp 5 đến 10 lần.
+- **An toàn giao dịch**: Luôn xác minh cấp độ của người chơi và tiêu chí đủ điều kiện giao dịch trước khi đề xuất các tài sản có giá trị cao.
+</Callout>
+
+<Section icon={Map} title="Hiểu về Hệ Thống Bảng Giá Trị Giao Dịch Anime Vanguards">
+
+Nền kinh tế giao dịch trong Anime Vanguards xoay quanh cung, cầu và tính thực dụng. Không giống như các hệ thống tiến trình tĩnh, thị trường giao dịch thay đổi nhanh chóng sau các bản cập nhật lớn. Trong Bản cập nhật 13.5 hiện tại (Kẻ thù vĩnh cửu), người chơi tụ tập tại Social Hub (Trung tâm Xã hội) để trao đổi các bản sao, nguyên liệu và vật phẩm sự kiện giới hạn. 
+
+Để tham gia hiệu quả, bạn phải hiểu điều gì làm nên giá trị của một tài sản. Độ hiếm, trạng thái tiến hóa, các thiên phú hiện có và mức độ liên quan đến meta hiện tại đều xác định vị trí của một đơn vị trên thị trường. Các đơn vị thống trị các chế độ chơi cuối game như Worldlines, Odyssey hoặc các chế độ Raid cấp cao đương nhiên sẽ có giá trị cao hơn. Trong khi đó, các lượt quay banner thông thường giữ giá trị giao dịch tối thiểu.
+
+<Callout type="warning" title="Hạn Chế Giao Dịch">
+Bạn phải đạt Cấp 10 để truy cập các chức năng giao dịch cơ bản trong Social Hub. Các vật phẩm cấp cao, chẳng hạn như đơn vị Secret hoặc nguyên liệu tiến hóa cụ thể, có thể yêu cầu cấp độ tài khoản cao hơn (Cấp 30+) để giao dịch. Luôn xác minh cấp độ của người nhận trước khi lên kế hoạch cho các giao dịch phức tạp nhiều giai đoạn.
+</Callout>
+
+Trước khi bắt đầu giao dịch, hãy tham khảo khung điều kiện để tránh các giao dịch không hợp lệ:
+
+| Danh Mục Vật Phẩm | Trạng Thái Giao Dịch | Yêu Cầu Cấp Độ | Ghi Chú |
+| :--- | :--- | :--- | :--- |
+| Đơn Vị Có Thể Giao Dịch | Có | Cấp 10 | Các lượt quay banner không phải khởi đầu và vật phẩm rơi từ sự kiện |
+| Đơn Vị Không Thể Giao Dịch | Không | N/A | Các đơn vị khởi đầu và vật phẩm rơi từ cốt truyện giai đoạn đầu |
+| Đơn Vị Sự Kiện Đặc Biệt | Có | Cấp 30 | Các nhân vật Secret và Vanguard có giá trị cao |
+| Nguyên Liệu Tiêu Chuẩn | Có | Cấp 10 | Trait Rerolls, Stat Chips và Đá Tinh Hoa (Essence Stones) |
+| Tiền Tệ Theo Mùa | Có | Cấp 10 | Trà Đá Mùa Hè và các vật phẩm sự kiện giới hạn |
+
+</Section>
+
+<Section icon={Swords} title="Giá Trị Giao Dịch Đơn Vị Độ Hiếm Secret và Vanguard">
+
+Các đơn vị Secret và Vanguard là cốt lõi của thị trường cao cấp. Tiến hóa các đơn vị này đòi hỏi một lượng thời gian đầu tư khổng lồ, điều này làm tăng đáng kể giá trị của chúng so với các dạng cơ bản. Ví dụ, một **Demon Leader (Control)** hoặc **Song Jinwu & Igros** đã tiến hóa hoàn toàn có giá trị lớn hơn nhiều so với các phiên bản gốc chưa tiến hóa vì chúng giúp người mua tiết kiệm hàng giờ cày cuốc nguyên liệu.
+
+Các đơn vị sở hữu tính thực dụng chiến đấu hàng đầu, chẳng hạn như cơ chế đóng băng hoặc sát thương diện rộng khổng lồ, luôn đứng đầu trong **bảng giá trị giao dịch anime vanguards**. Nếu một đơn vị cũng sở hữu một thiên phú Mythic hàng đầu (như Monarch hoặc Ethereal), giá trị của nó sẽ tăng vọt, biến nó thành mục tiêu của những người sưu tầm cuối game.
+
+<Callout type="tip" title="Mẹo Bảo Toàn Giá Trị">
+Không chuyển đổi chỉ số hoặc tiến hóa đơn vị Secret trừ khi bạn có kế hoạch giữ lại hoặc giao dịch nó cho một mục tiêu có giá trị cao cụ thể. Người mua thường trả nhiều tiền hơn cho các đơn vị "sạch" (chưa nâng cấp) để họ tự chọn thiên phú và lộ trình phân bổ chỉ số của riêng mình.
+</Callout>
+
+Dưới đây là giá trị ước tính của các đơn vị Secret và Vanguard được săn lùng nhiều nhất trong cộng đồng giao dịch, được tính bằng đơn vị tương đương Trait Reroll:
+
+| Tên Đơn Vị | Độ Hiếm | Giá Trị (Rerolls) | Mức Độ Nhu Cầu |
+| :--- | :--- | :--- | :--- |
+| **Demon Leader (Control)** | Secret | **800 - 1000** | Cao |
+| **God (Above Heaven)** | Secret | **750 - 900** | Cao |
+| **Song Jinwu & Igros** | Vanguard | **600 - 800** | Cao |
+| **Gujo (Infinity)** | Secret | **700 - 850** | Cao |
+| **Lich King (Ruler)** | Vanguard | **450 - 550** | Trung Bình - Cao |
+| **Rogita (Super 4)** | Vanguard | **500 - 650** | Cao |
+| **Ice Queen (Release)** | Vanguard | **450 - 550** | Trung Bình - Cao |
+| **Alocard (Vampire King)** | Vanguard | **400 - 500** | Trung Bình |
+
+</Section>
+
+<Section icon={Sparkles} title="Giá Trị Giao Dịch Đơn Vị Độc Quyền và Sự Kiện Theo Mùa">
+
+Các đơn vị độc quyền từ Battlepass và các sự kiện theo mùa, chẳng hạn như Chế độ Mùa hè của Bản cập nhật 13.5, đại diện cho một phân khúc độc đáo của thị trường. Vì các đơn vị này chỉ có thể nhận được trong một thời gian giới hạn, giá trị của chúng thường tăng lên sau khi sự kiện kết thúc và các banner nguồn của chúng biến mất.
+
+Trong thời gian sự kiện diễn ra, giá trị vẫn rất biến động. Việc giới thiệu các đơn vị Chế độ Mùa hè như **Today's Strongest vs History's Strongest** và **Raging Oni vs Wrath God** đã tạo ra một làn sóng tăng vọt về khối lượng giao dịch. Người chơi muốn hoàn thiện đội hình sự kiện của mình sẽ giao dịch các nguyên liệu dư thừa hoặc các đơn vị Mythic cũ hơn để đảm bảo có được những nhân vật mới có tính thực dụng cao này.
+
+<Callout type="info" title="Sự Thay Đổi Giá Trị Thẻ Sự Kiện">
+Các đơn vị Thẻ Sự Kiện như **Envoy of Destruction (Resistance)** bắt đầu với giá trị vừa phải do nguồn cung ban đầu cao. Tuy nhiên, một khi Thẻ Sự Kiện hết hạn, hệ số khan hiếm của chúng sẽ bắt đầu có hiệu lực. Hãy giữ những đơn vị này trong kho của bạn nếu bạn muốn giao dịch chúng để kiếm lời trong các bản cập nhật sau.
+</Callout>
+
+Phân tích định giá giao dịch của các đơn vị phiên bản giới hạn này để lên kế hoạch cho các đề xuất của bạn:
+
+| Tên Đơn Vị | Danh Mục | Giá Trị (Rerolls) | Mức Độ Nhu Cầu |
+| :--- | :--- | :--- | :--- |
+| **Raging Oni vs Wrath God** | Secret Worldlines Bản cập nhật 13.5 | **850 - 1100** | Cao |
+| **Today's Strongest vs History's Strongest** | Vanguard Mùa Hè Bản cập nhật 13.5 | **700 - 900** | Cao |
+| **Envoy of Destruction (Resistance)** | Độc Quyền Thẻ Sự Kiện | **300 - 450** | Trung Bình - Cao |
+| **Cat God** | Battlepass Mùa 13 | **250 - 350** | Trung Bình |
+| **Reasonable Person** | Battlepass Mùa 13 | **200 - 300** | Trung Bình |
+| **Lord (Fairy)** | Mythic Chế Độ Mùa Hè | **40 - 60** | Thấp - Trung Bình |
+| **Reaper (Scissors)** | Mythic Chế Độ Mùa Hè | **35 - 50** | Thấp - Trung Bình |
+| **Cursed Doctor (Healer)** | Mythic Chế Độ Mùa Hè | **30 - 45** | Thấp |
+
+</Section>
+
+<Section icon={Target} title="Giá Trị Giao Dịch Nguyên Liệu và Tiền Tệ">
+
+Mặc dù các đơn vị là tài sản thú vị nhất để giao dịch, nhưng nguyên liệu mới là huyết mạch của nền kinh tế Anime Vanguards. Trait Rerolls được hầu hết mọi nhà giao dịch chấp nhận vì chúng hữu ích cho việc tối ưu hóa. Stat Chips (Chip Chỉ số), Mảnh Memoria và Đá Tinh Hoa (Essence Stones) cũng giữ giá trị ổn định do vai trò của chúng trong việc tiến hóa và tinh luyện các đơn vị cuối game.
+
+Trong Bản cập nhật 13.5, việc giới thiệu tính năng Tái chế Memoria và Vanguard Familiars (Linh thú Vanguard) đã thay đổi cách người chơi đánh giá nguyên liệu. Memoria không mong muốn có thể được tái chế thành phế liệu, nghĩa là ngay cả Memoria cấp thấp hiện nay cũng giữ giá trị giao dịch như vật phẩm quy đổi.
+
+<Callout type="success" title="Kiểm Tra Tính Thanh Khoản Của Nguyên Liệu">
+Nếu bạn không thể tìm thấy người mua cho một đơn vị cụ thể, hãy thử chuyển đổi nó thành Trait Rerolls hoặc Đá Tinh Hoa Cầu Vồng (Rainbow Essence Stones) trước. Nguyên liệu có tốc độ giao dịch nhanh hơn nhiều và có thể dễ dàng trao đổi sau đó để lấy chính xác các đơn vị bạn cần.
+</Callout>
+
+Tham khảo bảng giá trị nguyên liệu này khi xây dựng các đề xuất hoặc cân bằng cửa sổ giao dịch:
+
+| Tên Nguyên Liệu | Giá Trị Cơ Bản (Gems) | Tương Đương Reroll | Tính Thanh Khoản Thị Trường |
+| :--- | :--- | :--- | :--- |
+| **Trait Reroll** | **100** | **1.0 (Tiêu chuẩn Cơ bản)** | Cao |
+| **Rainbow Essence Stone** | **500** | **5.0** | Cao |
+| **Green Essence Stone** | **100** | **1.0** | Trung Bình |
+| **Stat Chip** | **50** | **0.5** | Trung Bình |
+| **Memoria Shard** | **20** | **0.2** | Thấp - Trung Bình |
+| **1,000 Trà Đá** | **200** | **2.0** | Cao (Chỉ Theo Mùa) |
+
+Để thực hiện giao dịch an toàn cho nguyên liệu hoặc đơn vị, hãy làm theo các bước tuần tự sau:
+
+<Steps>
+  <Step num="1" title="Vào Social Hub">
+    Di chuyển đến sảnh Social Hub từ menu chính và tìm khu vực giao dịch đang hoạt động.
+  </Step>
+  <Step num="2" title="Chọn Đối Tác Giao Dịch">
+    Tương tác với một người chơi để gửi yêu cầu giao dịch, đảm bảo cấp độ tài khoản của họ đủ điều kiện cho các vật phẩm bạn muốn trao đổi.
+  </Step>
+  <Step num="3" title="Kiểm Tra Thuộc Tính Vật Phẩm">
+    Kiểm tra kỹ cấp độ đơn vị, trạng thái shiny và các thiên phú đang hoạt động trong cửa sổ đề xuất trước khi cam kết tài nguyên của bạn.
+  </Step>
+  <Step num="4" title="Xác Nhận và Hoàn Tất">
+    Nhấn nút xác nhận và đợi hệ thống xử lý giao dịch. Tránh hủy vào giây cuối cùng để ngăn ngừa tình trạng lag giao dịch.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Lời Khuyên Giao Dịch Chiến Lược và Bảo Mật">
+
+Để tối đa hóa sức mạnh giao dịch của bạn, bạn phải sử dụng các chiến lược thị trường đa dạng. Việc chỉ bám vào một phong cách giao dịch duy nhất sẽ giới hạn biên lợi nhuận của bạn. Thay dổi vào đó, hãy chia tài sản của bạn thành các danh mục khác nhau để phòng ngừa các thay đổi cân bằng meta đột ngột.
+
+Sử dụng cách tiếp cận chiến lược giúp bảo vệ các nguyên liệu khó khăn mới kiếm được của bạn. Người chơi mới thường lãng phí các lượt reroll hiếm cho các đơn vị yếu, điều này làm hạn chế nghiêm trọng tốc độ tiến trình của họ. Bằng cách giao dịch các nguyên liệu dư thừa đó để lấy các đơn vị gánh đội được xây dựng sẵn, bạn sẽ bỏ qua hoàn toàn yếu tố may rủi ngẫu nhiên.
+
+<Callout type="warning" title="Cảnh Báo Thao Túng Thị Trường">
+Hãy cảnh giác với những người chơi cố gắng thổi phồng giá trị của các đơn vị mới phát hành một cách nhân tạo. Xác minh giá trị so với một số đề xuất giao dịch trong Social Hub trước khi chấp nhận giao dịch chi phí cao.
+</Callout>
+
+Chọn chiến lược giao dịch phù hợp nhất với mục tiêu kho đồ hiện tại của bạn:
+
+<CardGrid cols={3}>
+  <Card title="Đầu Tư Giá Trị">
+    - **Giữ các đơn vị sự kiện giới hạn**
+    - Bán sau khi banner biến mất
+    - Tập trung vào sự khan hiếm dài hạn
+  </Card>
+  <Card title="Trao Đổi Nguyên Liệu">
+    - **Chuyển đổi các đơn vị không mong muốn thành Rerolls**
+    - Mua Đá Tinh Hoa còn thiếu
+    - Tối đa hóa tiến trình tài khoản
+  </Card>
+  <Card title="Giao Dịch Chênh Lệch Giá">
+    - **Mua các đơn vị cơ bản bị định giá thấp**
+    - Tiến hóa và bán lại với giá cao hơn
+    - Yêu cầu dự trữ vàng ban đầu lớn
+  </Card>
+</CardGrid>
+
+Luôn thực hiện các bước kiểm tra an toàn trước khi hoàn tất bất kỳ giao dịch nào trong Social Hub:
+
+<Checklist
+  id="trading-security"
+  title="Các Quy Tắc Bảo Mật Giao Dịch Thiết Yếu:"
+  items={[
+    "Xác minh tên người dùng khớp với đối tác giao dịch dự kiến của bạn",
+    "Kiểm tra trang chi tiết đơn vị để xác nhận đó không phải là một bản sao cơ bản",
+    "Tính toán tổng giá trị tương đương Reroll trong cửa sổ giao dịch",
+    "Từ chối các giao dịch yêu cầu thanh toán bên ngoài hoặc các thỏa thuận dựa trên sự tin tưởng"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Câu Hỏi Thường Gặp Về Bảng Giá Trị Giao Dịch Anime Vanguards">
+
+<FAQ items={[
+  {
+    question: "Bảng giá trị giao dịch anime vanguards được cập nhật thường xuyên như thế nào?",
+    answer: "Bảng giá trị giao dịch anime vanguards được cập nhật liên tục sau các bản cập nhật lớn, xoay tua banner và các thay đổi cân bằng nhân vật. Giá trị thị trường thường ổn định sau hai tuần kể từ khi một bản cập nhật nội dung lớn được phát hành."
+  },
+  {
+    question: "Đơn vị tiền tệ tương đương chính trong meta giao dịch là gì?",
+    answer: "Trait Rerolls là tiêu chuẩn tiền tệ được chấp nhận rộng rãi nhất. Hầu hết người chơi tính toán giá trị đơn vị dựa trên số lượng Trait Rerolls tương đương để đơn giản hóa giao dịch."
+  },
+  {
+    question: "Tôi có thể giao dịch trực tiếp các đơn vị đã tiến hóa cho người chơi khác không?",
+    answer: "Có, các đơn vị đã tiến hóa hoàn toàn có thể giao dịch được miễn là cả hai người chơi đều đáp ứng yêu cầu tối thiểu là Cấp 10. Các đơn vị đã tiến hóa được định giá cao hơn vì chúng giúp người mua tiết kiệm nguyên liệu tiến hóa và vàng."
+  },
+  {
+    question: "Các thiên phú trên một đơn vị có ảnh hưởng đến giá trị giao dịch của nó không?",
+    answer: "Có, các đơn vị có thiên phú Mythic giá trị cao như Monarch, Ethereal hoặc Solar mang lại giá trị gia tăng khổng lồ. Các đơn vị sạch với thiên phú tiêu chuẩn có giá trị bằng với mức cơ bản được liệt kê trong hướng dẫn."
+  }
+]} />
+
+<Callout type="info" title="Lưu Ý Cuối Cùng">
+Các giá trị được cung cấp trong hướng dẫn này phản ánh mức giá giao dịch trung bình được ghi nhận trong Social Hub. Luôn chừa chỗ cho việc thương lượng tùy thuộc vào nhu cầu tức thời của đối tác giao dịch của bạn.
+</Callout>
+
+</Section>

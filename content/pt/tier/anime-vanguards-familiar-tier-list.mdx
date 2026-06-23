@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tier List de Familiares de Anime Vanguards: Melhores Pets Ranqueados",
+  description: "Descubra os melhores companheiros na Atualização 13.5 de Anime Vanguards. Esta tier list classifica todos os familiares, detalha seus atributos e guia você pelo farm de portais.",
+  category: "Guia",
+  image: "https://placeholder.co/800x400/2b1b54/fff?text=Familiar+Tier+List",
+  date: "2026-06-23",
+  author: "Equipe da Wiki de Anime Vanguards",
+  keywords: "tier list, familiares, pets, anime vanguards, guia, atualização 13.5"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ranking principal**: Use este guia para encontrar os melhores bônus de companheiros para suas composições de endgame.
+- **Pets Tier SS**: Mini Gujo e Frost Wisp dominam o meta atual devido à sua utilidade.
+- **Rota de obtenção**: Farme Portais de Verão repetidamente para garantir drops raros de familiares.
+- **Sinergia chave**: Combine familiares que aumentam dano com seus carries principais, como o Today's Strongest.
+</Callout>
+
+<Section icon={Sparkles} title="Introdução aos Familiares de Vanguard">
+
+Na mais recente Atualização 13.5 (Adversários Eternos), Kitawari introduziu uma mecânica de companheiros que mudou o jogo: os Familiares de Vanguard. Navegar por este novo sistema requer um entendimento claro de quais pets oferecem os melhores bônus de atributos, tornando uma **tier list de familiares de anime vanguards** confiável essencial para a otimização.
+
+Esses pets equipáveis seguem seu personagem no lobby e fornecem bônus passivos para todo o seu esquadrão durante as fases ativas. Com 7 Familiares únicos adicionados na atualização de verão, escolher o companheiro certo pode reduzir significativamente seus tempos de conclusão em Raids, Odyssey e no recém-adicionado Modo de Jogo de Verão.
+
+<Callout type="info" title="Noções Básicas do Sistema">
+Os familiares são equipados através do menu de Perfil. Ao contrário dos cosméticos de unidade, os Familiares carregam modificadores funcionais e passivos que alteram atributos como SPA (Segundos Por Ataque), Alcance e Chance de Acerto Crítico para suas unidades implantadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de Familiares de Anime Vanguards: Tabela de Rankings">
+
+Os rankings a seguir avaliam todos os 7 Familiares de Vanguard com base em sua utilidade, bônus de atributos e compatibilidade com os carries do meta atual. O meta favorece fortemente a redução de recarga (cooldown) e extensões de controle de grupo em vez de ajustes simples de dano.
+
+| Tier | Nome do Familiar | Tipo de Bônus Base | Nível de Utilidade | Fonte de Obtenção |
+|------|---------------|----------------|----------------|-------------------|
+| SS | Mini Gujo | Redução de SPA e Crítico | 5/5 | Portais Épicos/Lendários |
+| SS | Frost Wisp | Duração de Congelamento e Lentidão | 5/5 | Portais de Verão Nightmare |
+| S | Mini Igros | Redução de Custo de Posicionamento | 4/5 | Drop de Portal Secreto |
+| S | Aqua Sprite | Aumento de Alcance e Renda por Onda | 4/5 | Conclusão de Portal de Verão |
+| A | Flame Drake | Multiplicador de Queimadura | 3.5/5 | Portais Tier 4+ |
+| A | Shadow Beast | Modificador de Dano de Sangramento | 3.5/5 | Portais Tier 3+ |
+| B | Gold Slime | Ouro Extra por Onda | 3/5 | Portal de Verão Padrão |
+
+<CardGrid cols={3}>
+  <Card title="Mini Gujo (Tier SS)">
+    - **Impulsionador de DPS de alto nível**
+    - Reduz o SPA em 4%
+    - Adiciona +5% de Chance de Acerto Crítico
+  </Card>
+  <Card title="Frost Wisp (Tier SS)">
+    - **Essencial para controle de grupo**
+    - Estende atordoamentos e congelamentos
+    - Crucial para Portais Nightmare
+  </Card>
+  <Card title="Mini Igros (Tier S)">
+    - **Ótimo para setups de economia**
+    - Diminui custos de melhoria de carry
+    - Simplifica a defesa nas ondas iniciais
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Análise do Meta">
+O Mini Gujo é atualmente o Familiar ofensivo mais forte. A redução de 4% no SPA acumula-se multiplicativamente com traços de unidade focados em velocidade, como Blitz e Monarch, oferecendo um aumento significativo de DPS para carries de fim de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Funções dos Familiares e Análise de Atributos">
+
+Cada Familiar desempenha uma função específica. Entender como suas porcentagens interagem com suas unidades é a chave para escolher o pet correto. Por exemplo, bônus de dano fixo são benéficos, mas atributos escaláveis como alcance e velocidade de ataque rendem melhores resultados em modos de jogo infinitos.
+
+| Nome do Familiar | Aumento de Alcance (%) | Redução de SPA (%) | Modificador de Dano (%) | Vantagem Especial |
+|---------------|-----------------|-------------------|---------------------|--------------|
+| Mini Gujo | +5% | -4% | +8% Dano | Adiciona +5% de Chance de Crítico |
+| Frost Wisp | +3% | Nenhum | +5% Dano | Estende efeitos de Congelamento/Lentidão em 1s |
+| Mini Igros | Nenhum | -3% | +6% Dano | Reduz custos de melhoria de carry em 5% |
+| Aqua Sprite | +8% | Nenhum | Nenhum | Aumenta renda de unidades de farm em 4% |
+| Flame Drake | Nenhum | Nenhum | +10% Dano de Queimadura | Incendeia inimigos com dano residual |
+| Shadow Beast | +2% | Nenhum | +10% Dano de Sangramento | Aciona explosões de sangramento mais cedo |
+| Gold Slime | Nenhum | Nenhum | Nenhum | Gera +8% de Ouro extra por onda |
+
+A principal diferença entre os companheiros de Tier A e Tier SS reside no seu potencial de escalonamento. Embora o Flame Drake aumente o dano de unidades focadas em queimadura, como Renguko, ele não auxilia no controle de grupo ou na frequência de ataque.
+
+<Callout type="tip" title="Dica de Cálculo de Atributos">
+Os aumentos de alcance dos Familiares aplicam-se ao alcance base da unidade antes que os multiplicadores de traços sejam calculados. Isso torna o Aqua Sprite altamente eficaz para suportes de área ampla, como Gujo (Infinity) ou Demon Leader.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Obter e Evoluir Familiares">
+
+Os familiares são recompensas de drop exclusivas dos Portais de Verão. Esses portais são obtidos ao concluir fases no Modo de Jogo de Verão ou comprando-os na Loja do Evento durante o ciclo da Atualização 13.5.
+
+| Nível do Portal | Taxa de Drop do Familiar | Multiplicador de HP do Inimigo | Nível de Equipe Recomendado |
+|--------------|--------------------|---------------------|------------------------|
+| Tier 1-2 | 0.5% - 1.5% | 1.0x | Nível 30 - 45 |
+| Tier 3-4 | 2.0% - 3.5% | 1.5x | Nível 45 - 60 |
+| Tier 5-6 | 5.0% - 7.5% | 2.2x | Nível 60 - 80 |
+| Nightmare | 10.0% | 3.5x | Nível 80+ / Equipe Pré-montada |
+
+<Steps>
+  <Step num="1" title="Obtenha Portais de Verão">
+    Conclua fases padrão do Modo de Verão para ganhar portais de nível baixo.
+  </Step>
+  <Step num="2" title="Melhore seus Portais">
+    Use Chaves de Portal para melhorar seu inventário para portais de Tier 5 ou Nightmare.
+  </Step>
+  <Step num="3" title="Prepare sua Equipe">
+    Selecione uma equipe equilibrada com DPS de alvo único forte e unidades de lentidão.
+  </Step>
+  <Step num="4" title="Conclua dentro do Limite de Tempo">
+    Derrote todas as ondas antes que o tempo acabe para garantir o drop.
+  </Step>
+</Steps>
+
+<Checklist
+  id="portal-prep"
+  title="Checklist para Farm de Portais:"
+  items={[
+    "Certifique-se de ter pelo menos uma unidade carry de nível 80",
+    "Traga uma unidade de suporte de congelamento como Ice Queen (Release)",
+    "Coordene com membros da equipe para compartilhar os custos de hospedagem do portal",
+    "Limpe espaços no inventário para possíveis drops de Familiares"
+  ]}
+/>
+
+<Callout type="warning" title="Mecânicas de Drop">
+Os drops de Familiares são baseados em RNG. Hospedar um portal oferece uma taxa de drop ligeiramente maior do que entrar no lobby de outro jogador, portanto, guardar suas Chaves de Portal para rodadas de nível alto como host é altamente recomendado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Combinações de Equipe e Estratégias de Setup">
+
+Para maximizar os benefícios de seus Familiares, combine-os com unidades que complementem seus bônus passivos. Um setup incompatível pode desperdiçar atributos valiosos.
+
+| Familiar | Melhor Unidade Evoluída | Razão da Sinergia | Tier de Desempenho |
+|----------|-------------------|----------------|------------------|
+| Mini Gujo | Today's Strongest | Amplifica dano em área bruto e acertos críticos | 5/5 |
+| Frost Wisp | Ice Queen (Release) | Maximiza o controle de congelamento em ondas rápidas | 4.5/5 |
+| Mini Igros | Song Jinwu e Igros | Maximiza a eficiência de custo de posicionamento | 4.5/5 |
+| Aqua Sprite | Demon Leader | Expande o alcance do bônus de economia por lanes adjacentes | 4/5 |
+
+Ao se preparar para o Boss Rush ou progressão de andares em Worldlines, a abordagem ideal é equipar o Frost Wisp se sua equipe depender de mecanismos de lentidão, ou o Mini Gujo se você precisar otimizar o dano do seu carry principal.
+
+<Callout type="tip" title="Coordenação Cooperativa">
+Em modos de jogo cooperativos, os bônus dos Familiares não se acumulam se vários jogadores equiparem o mesmo companheiro. Coordene com sua equipe para que um jogador use Aqua Sprite para economia, enquanto outros usam pets ofensivos como Mini Gujo ou Frost Wisp.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso equipar mais de um familiar ao mesmo tempo?",
+    answer: "Não, os jogadores só podem equipar um familiar em seu slot de inventário ativo para apoiar seu esquadrão."
+  },
+  {
+    question: "Os familiares funcionam em todas as unidades do meu esquadrão?",
+    answer: "Sim, os bônus passivos fornecidos pelos familiares aplicam-se globalmente a todas as unidades implantadas no campo."
+  },
+  {
+    question: "Como a tier list de familiares de anime vanguards determina os rankings?",
+    answer: "Os rankings são baseados em utilidade, atributos de escalonamento (como redução de SPA) e quão bem os pets sinergizam com unidades do meta em conteúdos de alta dificuldade."
+  },
+  {
+    question: "Os familiares podem ser trocados entre jogadores?",
+    answer: "Não, os familiares estão vinculados à sua conta e devem ser farmados diretamente nos Portais de Verão."
+  }
+]} />
+
+<Callout type="info" title="Atualizações Futuras">
+Verifique regularmente o changelog oficial em vanguards.gg. Os sistemas de companheiros estão sujeitos a atualizações de balanceamento que podem alterar as porcentagens de atributos ou introduzir novos tiers de familiares.
+</Callout>
+
+</Section>
