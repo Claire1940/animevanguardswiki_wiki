@@ -1,1 +1,542 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "anime-vanguards-codes",
+        "file": "anime-vanguards-codes"
+      }
+    ],
+    "evolution": [
+      {
+        "slug": "anime-vanguards-elastic-captain-evo-quest",
+        "file": "anime-vanguards-elastic-captain-evo-quest"
+      },
+      {
+        "slug": "anime-vanguards-how-to-evolve-gear-5-luffy",
+        "file": "anime-vanguards-how-to-evolve-gear-5-luffy"
+      },
+      {
+        "slug": "anime-vanguards-how-to-evolve-luffy",
+        "file": "anime-vanguards-how-to-evolve-luffy"
+      },
+      {
+        "slug": "anime-vanguards-how-to-evolve-zoro",
+        "file": "anime-vanguards-how-to-evolve-zoro"
+      },
+      {
+        "slug": "anime-vanguards-material-evo-minato",
+        "file": "anime-vanguards-material-evo-minato"
+      },
+      {
+        "slug": "anime-vanguards-zoro-evo",
+        "file": "anime-vanguards-zoro-evo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-vanguards-beginner-guide",
+        "file": "anime-vanguards-beginner-guide"
+      },
+      {
+        "slug": "anime-vanguards-best-stage-to-farm",
+        "file": "anime-vanguards-best-stage-to-farm"
+      },
+      {
+        "slug": "anime-vanguards-best-team",
+        "file": "anime-vanguards-best-team"
+      },
+      {
+        "slug": "anime-vanguards-best-units",
+        "file": "anime-vanguards-best-units"
+      },
+      {
+        "slug": "anime-vanguards-best-way-to-get-gems",
+        "file": "anime-vanguards-best-way-to-get-gems"
+      },
+      {
+        "slug": "anime-vanguards-fastest-way-to-level-up",
+        "file": "anime-vanguards-fastest-way-to-level-up"
+      },
+      {
+        "slug": "anime-vanguards-guide",
+        "file": "anime-vanguards-guide"
+      },
+      {
+        "slug": "anime-vanguards-progression-guide",
+        "file": "anime-vanguards-progression-guide"
+      },
+      {
+        "slug": "anime-vanguards-update-log",
+        "file": "anime-vanguards-update-log"
+      }
+    ],
+    "items": [
+      {
+        "slug": "anime-vanguards-memoria",
+        "file": "anime-vanguards-memoria"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "anime-vanguards-familiar-tier-list",
+        "file": "anime-vanguards-familiar-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-farm-units-tier-list",
+        "file": "anime-vanguards-farm-units-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-meta",
+        "file": "anime-vanguards-meta"
+      },
+      {
+        "slug": "anime-vanguards-tier-list",
+        "file": "anime-vanguards-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-unit-tier-list",
+        "file": "anime-vanguards-unit-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-value-tier-list",
+        "file": "anime-vanguards-value-tier-list"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-vanguards-alucard",
+        "file": "anime-vanguards-alucard"
+      },
+      {
+        "slug": "anime-vanguards-broly",
+        "file": "anime-vanguards-broly"
+      },
+      {
+        "slug": "anime-vanguards-gojo",
+        "file": "anime-vanguards-gojo"
+      },
+      {
+        "slug": "anime-vanguards-ichigo",
+        "file": "anime-vanguards-ichigo"
+      },
+      {
+        "slug": "anime-vanguards-kaido",
+        "file": "anime-vanguards-kaido"
+      },
+      {
+        "slug": "anime-vanguards-kurumi",
+        "file": "anime-vanguards-kurumi"
+      },
+      {
+        "slug": "anime-vanguards-luffy-gear-5",
+        "file": "anime-vanguards-luffy-gear-5"
+      },
+      {
+        "slug": "anime-vanguards-luffy",
+        "file": "anime-vanguards-luffy"
+      },
+      {
+        "slug": "anime-vanguards-madara",
+        "file": "anime-vanguards-madara"
+      },
+      {
+        "slug": "anime-vanguards-makima",
+        "file": "anime-vanguards-makima"
+      },
+      {
+        "slug": "anime-vanguards-sukuna",
+        "file": "anime-vanguards-sukuna"
+      },
+      {
+        "slug": "anime-vanguards-yamamoto",
+        "file": "anime-vanguards-yamamoto"
+      },
+      {
+        "slug": "anime-vanguards-zoro",
+        "file": "anime-vanguards-zoro"
+      }
+    ],
+    "values": [
+      {
+        "slug": "anime-vanguards-trade-value",
+        "file": "anime-vanguards-trade-value"
+      },
+      {
+        "slug": "anime-vanguards-trading-value-list",
+        "file": "anime-vanguards-trading-value-list"
+      },
+      {
+        "slug": "anime-vanguards-value-calculator",
+        "file": "anime-vanguards-value-calculator"
+      },
+      {
+        "slug": "anime-vanguards-value-list",
+        "file": "anime-vanguards-value-list"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "anime-vanguards-codes",
+        "file": "anime-vanguards-codes"
+      }
+    ],
+    "evolution": [
+      {
+        "slug": "anime-vanguards-elastic-captain-evo-quest",
+        "file": "anime-vanguards-elastic-captain-evo-quest"
+      },
+      {
+        "slug": "anime-vanguards-how-to-evolve-luffy",
+        "file": "anime-vanguards-how-to-evolve-luffy"
+      },
+      {
+        "slug": "anime-vanguards-how-to-evolve-zoro",
+        "file": "anime-vanguards-how-to-evolve-zoro"
+      },
+      {
+        "slug": "anime-vanguards-zoro-evo",
+        "file": "anime-vanguards-zoro-evo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-vanguards-best-team",
+        "file": "anime-vanguards-best-team"
+      },
+      {
+        "slug": "anime-vanguards-best-units",
+        "file": "anime-vanguards-best-units"
+      },
+      {
+        "slug": "anime-vanguards-best-way-to-get-gems",
+        "file": "anime-vanguards-best-way-to-get-gems"
+      },
+      {
+        "slug": "anime-vanguards-guide",
+        "file": "anime-vanguards-guide"
+      },
+      {
+        "slug": "anime-vanguards-progression-guide",
+        "file": "anime-vanguards-progression-guide"
+      },
+      {
+        "slug": "anime-vanguards-update-log",
+        "file": "anime-vanguards-update-log"
+      }
+    ],
+    "items": [
+      {
+        "slug": "anime-vanguards-memoria",
+        "file": "anime-vanguards-memoria"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "anime-vanguards-value-tier-list",
+        "file": "anime-vanguards-value-tier-list"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-vanguards-alucard",
+        "file": "anime-vanguards-alucard"
+      },
+      {
+        "slug": "anime-vanguards-broly",
+        "file": "anime-vanguards-broly"
+      },
+      {
+        "slug": "anime-vanguards-gojo",
+        "file": "anime-vanguards-gojo"
+      },
+      {
+        "slug": "anime-vanguards-ichigo",
+        "file": "anime-vanguards-ichigo"
+      },
+      {
+        "slug": "anime-vanguards-kaido",
+        "file": "anime-vanguards-kaido"
+      },
+      {
+        "slug": "anime-vanguards-kurumi",
+        "file": "anime-vanguards-kurumi"
+      },
+      {
+        "slug": "anime-vanguards-luffy-gear-5",
+        "file": "anime-vanguards-luffy-gear-5"
+      },
+      {
+        "slug": "anime-vanguards-luffy",
+        "file": "anime-vanguards-luffy"
+      },
+      {
+        "slug": "anime-vanguards-madara",
+        "file": "anime-vanguards-madara"
+      },
+      {
+        "slug": "anime-vanguards-makima",
+        "file": "anime-vanguards-makima"
+      },
+      {
+        "slug": "anime-vanguards-sukuna",
+        "file": "anime-vanguards-sukuna"
+      },
+      {
+        "slug": "anime-vanguards-yamamoto",
+        "file": "anime-vanguards-yamamoto"
+      },
+      {
+        "slug": "anime-vanguards-zoro",
+        "file": "anime-vanguards-zoro"
+      }
+    ]
+  },
+  "pt": {
+    "evolution": [
+      {
+        "slug": "anime-vanguards-elastic-captain-evo-quest",
+        "file": "anime-vanguards-elastic-captain-evo-quest"
+      },
+      {
+        "slug": "anime-vanguards-how-to-evolve-gear-5-luffy",
+        "file": "anime-vanguards-how-to-evolve-gear-5-luffy"
+      },
+      {
+        "slug": "anime-vanguards-how-to-evolve-luffy",
+        "file": "anime-vanguards-how-to-evolve-luffy"
+      },
+      {
+        "slug": "anime-vanguards-zoro-evo",
+        "file": "anime-vanguards-zoro-evo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-vanguards-beginner-guide",
+        "file": "anime-vanguards-beginner-guide"
+      },
+      {
+        "slug": "anime-vanguards-best-stage-to-farm",
+        "file": "anime-vanguards-best-stage-to-farm"
+      },
+      {
+        "slug": "anime-vanguards-best-team",
+        "file": "anime-vanguards-best-team"
+      },
+      {
+        "slug": "anime-vanguards-best-units",
+        "file": "anime-vanguards-best-units"
+      },
+      {
+        "slug": "anime-vanguards-best-way-to-get-gems",
+        "file": "anime-vanguards-best-way-to-get-gems"
+      },
+      {
+        "slug": "anime-vanguards-fastest-way-to-level-up",
+        "file": "anime-vanguards-fastest-way-to-level-up"
+      },
+      {
+        "slug": "anime-vanguards-guide",
+        "file": "anime-vanguards-guide"
+      },
+      {
+        "slug": "anime-vanguards-progression-guide",
+        "file": "anime-vanguards-progression-guide"
+      },
+      {
+        "slug": "anime-vanguards-update-log",
+        "file": "anime-vanguards-update-log"
+      }
+    ],
+    "items": [
+      {
+        "slug": "anime-vanguards-memoria",
+        "file": "anime-vanguards-memoria"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "anime-vanguards-value-tier-list",
+        "file": "anime-vanguards-value-tier-list"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-vanguards-alucard",
+        "file": "anime-vanguards-alucard"
+      },
+      {
+        "slug": "anime-vanguards-broly",
+        "file": "anime-vanguards-broly"
+      },
+      {
+        "slug": "anime-vanguards-gojo",
+        "file": "anime-vanguards-gojo"
+      },
+      {
+        "slug": "anime-vanguards-ichigo",
+        "file": "anime-vanguards-ichigo"
+      },
+      {
+        "slug": "anime-vanguards-kaido",
+        "file": "anime-vanguards-kaido"
+      },
+      {
+        "slug": "anime-vanguards-kurumi",
+        "file": "anime-vanguards-kurumi"
+      },
+      {
+        "slug": "anime-vanguards-luffy-gear-5",
+        "file": "anime-vanguards-luffy-gear-5"
+      },
+      {
+        "slug": "anime-vanguards-luffy",
+        "file": "anime-vanguards-luffy"
+      },
+      {
+        "slug": "anime-vanguards-madara",
+        "file": "anime-vanguards-madara"
+      },
+      {
+        "slug": "anime-vanguards-makima",
+        "file": "anime-vanguards-makima"
+      },
+      {
+        "slug": "anime-vanguards-sukuna",
+        "file": "anime-vanguards-sukuna"
+      },
+      {
+        "slug": "anime-vanguards-yamamoto",
+        "file": "anime-vanguards-yamamoto"
+      },
+      {
+        "slug": "anime-vanguards-zoro",
+        "file": "anime-vanguards-zoro"
+      }
+    ]
+  },
+  "vi": {
+    "codes": [
+      {
+        "slug": "anime-vanguards-codes",
+        "file": "anime-vanguards-codes"
+      }
+    ],
+    "evolution": [
+      {
+        "slug": "anime-vanguards-how-to-evolve-gear-5-luffy",
+        "file": "anime-vanguards-how-to-evolve-gear-5-luffy"
+      },
+      {
+        "slug": "anime-vanguards-how-to-evolve-luffy",
+        "file": "anime-vanguards-how-to-evolve-luffy"
+      },
+      {
+        "slug": "anime-vanguards-material-evo-minato",
+        "file": "anime-vanguards-material-evo-minato"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-vanguards-beginner-guide",
+        "file": "anime-vanguards-beginner-guide"
+      },
+      {
+        "slug": "anime-vanguards-best-stage-to-farm",
+        "file": "anime-vanguards-best-stage-to-farm"
+      },
+      {
+        "slug": "anime-vanguards-best-team",
+        "file": "anime-vanguards-best-team"
+      },
+      {
+        "slug": "anime-vanguards-best-units",
+        "file": "anime-vanguards-best-units"
+      },
+      {
+        "slug": "anime-vanguards-best-way-to-get-gems",
+        "file": "anime-vanguards-best-way-to-get-gems"
+      },
+      {
+        "slug": "anime-vanguards-fastest-way-to-level-up",
+        "file": "anime-vanguards-fastest-way-to-level-up"
+      },
+      {
+        "slug": "anime-vanguards-guide",
+        "file": "anime-vanguards-guide"
+      },
+      {
+        "slug": "anime-vanguards-progression-guide",
+        "file": "anime-vanguards-progression-guide"
+      },
+      {
+        "slug": "anime-vanguards-update-log",
+        "file": "anime-vanguards-update-log"
+      }
+    ],
+    "items": [
+      {
+        "slug": "anime-vanguards-memoria",
+        "file": "anime-vanguards-memoria"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "anime-vanguards-value-tier-list",
+        "file": "anime-vanguards-value-tier-list"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-vanguards-alucard",
+        "file": "anime-vanguards-alucard"
+      },
+      {
+        "slug": "anime-vanguards-broly",
+        "file": "anime-vanguards-broly"
+      },
+      {
+        "slug": "anime-vanguards-gojo",
+        "file": "anime-vanguards-gojo"
+      },
+      {
+        "slug": "anime-vanguards-ichigo",
+        "file": "anime-vanguards-ichigo"
+      },
+      {
+        "slug": "anime-vanguards-kaido",
+        "file": "anime-vanguards-kaido"
+      },
+      {
+        "slug": "anime-vanguards-kurumi",
+        "file": "anime-vanguards-kurumi"
+      },
+      {
+        "slug": "anime-vanguards-luffy-gear-5",
+        "file": "anime-vanguards-luffy-gear-5"
+      },
+      {
+        "slug": "anime-vanguards-luffy",
+        "file": "anime-vanguards-luffy"
+      },
+      {
+        "slug": "anime-vanguards-madara",
+        "file": "anime-vanguards-madara"
+      },
+      {
+        "slug": "anime-vanguards-makima",
+        "file": "anime-vanguards-makima"
+      },
+      {
+        "slug": "anime-vanguards-sukuna",
+        "file": "anime-vanguards-sukuna"
+      },
+      {
+        "slug": "anime-vanguards-zoro",
+        "file": "anime-vanguards-zoro"
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Yamamoto no Anime Vanguards: Estatísticas da Unidade e Rankings do Meta",
+  description: "Analise o papel de Yamamoto no Anime Vanguards, incluindo estatísticas da unidade, melhores características e sinergia de equipe para a progressão do meta de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Yamamoto+Unit+Guide",
+  date: "2026-06-23",
+  author: "Equipe do Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Yamamoto no Anime Vanguards** serve como uma unidade especializada no meta atual.
+- A **seleção correta de características (traits)** é essencial para maximizar a quantidade de dano causado e a utilidade.
+- O **posicionamento estratégico da equipe** permite que esta unidade ancore o controle de hordas com eficácia.
+- Sempre verifique as **notas de atualização mais recentes** para garantir que as estatísticas estejam alinhadas com os patches de balanceamento atuais.
+</Callout>
+
+<Section icon={Swords} title="Visão Geral da Unidade Yamamoto">
+
+Yamamoto funciona como uma unidade de alto impacto no Anime Vanguards, projetada para fornecer pressão consistente durante fases intensas. Compreender as mecânicas básicas da unidade é o primeiro passo para uma integração eficaz na equipe. Os jogadores devem focar em equilibrar a velocidade de ataque e a área de cobertura para garantir a máxima eficiência contra a densidade de inimigos.
+
+<Callout type="tip" title="Dica de Profissional">
+Sempre priorize a melhoria de unidades que fornecem controle de grupo (crowd control) consistente junto com dano, pois isso minimiza o risco de inimigos passarem em fases de maior dificuldade.
+</Callout>
+
+| Atributo | Significado | Impacto |
+| :--- | :--- | :--- |
+| **Tipo de Dano** | Área de Efeito (AoE) | Alto para limpeza de hordas |
+| **Função Principal** | Controle de Grupo | Essencial para atrasar inimigos |
+| **Custo de Implantação** | Moderado | Eficiente para o meio de jogo |
+| **Potencial de Escalonamento** | Alto | Escala bem com bônus (buffs) |
+
+</Section>
+
+<Section icon={Target} title="Implantação Estratégica e Progressão">
+
+Implantar Yamamoto de forma eficaz requer a compreensão das mecânicas das rotas. Ao posicionar a unidade perto de pontos de afunilamento (chokepoints), você pode aproveitar o dano em área para lidar com vários caminhos de inimigos simultaneamente.
+
+<Steps>
+  <Step num="1" title="Posicionamento">
+    Identifique rotas de alto tráfego onde a densidade de inimigos está no limite.
+  </Step>
+  <Step num="2" title="Melhoria Inicial">
+    Invista em melhorias iniciais para aumentar o dano base antes de focar no alcance.
+  </Step>
+  <Step num="3" title="Sinergia de Suporte">
+    Combine com unidades focadas em economia para manter o fluxo de ouro durante a fase de implantação.
+  </Step>
+  <Step num="4" title="Otimização de Características">
+    Aplique rerolls para obter características de combate de alto nível assim que a unidade estiver no nível máximo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Posicionamento">
+Evite posicionar esta unidade muito perto do final do caminho, pois o tempo de preparação (wind-up) para certos ataques pode fazer com que você perca inimigos rápidos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rankings de Prioridade de Características">
+
+As características (traits) alteram significativamente o desempenho de Yamamoto no Anime Vanguards. A seleção da característica correta depende se você está usando a unidade como carregador principal (Carry DPS) ou como um controlador focado em suporte.
+
+| Característica | Função Alvo | Eficiência |
+| :--- | :--- | :--- |
+| **Monarch** | Carry DPS | ★★★★★ |
+| **Ethereal** | Dano de Explosão | ★★★★☆ |
+| **Deadeye** | Foco Crítico | ★★★★☆ |
+| **Fortune** | Suporte de Economia | ★★★☆☆ |
+
+<Callout type="success" title="Visão do Meta">
+Para jogadores que buscam completar as incursões (raids) mais recentes, a característica **Monarch** fornece o teto de atributos necessário para lidar com as barras de vida de nível de chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos de Evolução e Materiais">
+
+A evolução é o método principal para desbloquear o verdadeiro potencial de suas unidades. Certifique-se de ter farmado os materiais necessários nos modos de jogo relevantes antes de tentar evoluir Yamamoto para evitar o desperdício de recursos.
+
+| Estágio | Requisito | Recompensa |
+| :--- | :--- | :--- |
+| **Forma Base** | Nível 30 | Estatísticas iniciais |
+| **Forma Evoluída** | 50 Fragmentos de Memória | Alcance aumentado |
+| **Ascensão I** | 100 Pedras de Essência | +3% de Dano |
+| **Ascensão II** | 200 Pedras de Essência | +5% de Alcance |
+
+<Checklist
+  id="evo-checklist"
+  title="Preparação para Evolução:"
+  items={[
+    "Farme Pedras de Essência suficientes no Modo História",
+    "Colete os Fragmentos de Memória necessários nos eventos atuais",
+    "Certifique-se de que a unidade esteja no nível máximo antes de evoluir",
+    "Verifique o balanceamento do patch atual para ajustes de estatísticas"
+  ]}
+/>
+
+<Callout type="info" title="Gerenciamento de Recursos">
+Sempre mantenha uma reserva de ouro e materiais para lidar com atualizações inesperadas de unidades ou mudanças de balanceamento que ocorrem durante grandes eventos sazonais.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Yamamoto do Anime Vanguards é bom para iniciantes?",
+    answer: "O Yamamoto é uma unidade sólida que oferece grande valor por meio do controle de hordas, tornando-se uma escolha confiável para jogadores que estão montando sua equipe de início de jogo."
+  },
+  {
+    question: "Qual modo de jogo é o melhor para farmar materiais para esta unidade?",
+    answer: "As Fases de Lenda (Legend Stages) e Incursões (Raids) são as fontes mais eficientes para obter os materiais de evolução e fragmentos de memória necessários para esta unidade."
+  },
+  {
+    question: "O sistema de pity de características se aplica ao Yamamoto?",
+    answer: "Sim, o sistema de pity mítico se aplica a todas as unidades, permitindo que você acompanhe seu progresso em direção a características garantidas de alto nível de forma consistente."
+  }
+]} />
+
+</Section>

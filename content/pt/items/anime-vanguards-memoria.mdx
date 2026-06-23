@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Memoria de Anime Vanguards: Guia de Progressão e Reciclagem",
+  description: "Aprenda como funciona o sistema de Memoria de Anime Vanguards em 2026. Descubra como farmar fragmentos, reciclar Memoria duplicadas, transferir estatísticas e otimizar sua equipe.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Memoria+Progression+Guide",
+  date: "2026-06-23",
+  author: "Equipe da Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Sistema Primário**: O sistema de **Memoria de Anime Vanguards** aumenta os atributos das unidades e oferece bônus de sinergia dedicados.
+- **Grande Mudança**: A Atualização 13.5 removeu a evolução de Memoria; todas as Memoria agora já vêm evoluídas por padrão e são obtidas através da evolução de unidades.
+- **Farm de Fragmentos**: Colete fragmentos através de rodadas de Odyssey, progressão em Worldlines e códigos promocionais ativos.
+- **Ciclo de Reciclagem**: Desmonte Memoria duplicadas indesejadas para ganhar Sucata de Memoria para subir de nível e aprimorar itens.
+- **Proteção de Investimento**: Use tickets de Transferência de Atributos para preservar rolagens de alto nível ao mover builds para novos carries do meta.
+</Callout>
+
+<Section icon={Sparkles} title="O Sistema de Memoria na Atualização 13.5">
+
+O lançamento da Atualização 13.5, "Eternal Adversaries", reformulou completamente o sistema de **Memoria de Anime Vanguards**, otimizando a forma como os jogadores aprimoram suas unidades e gerenciam a progressão no final do jogo. A Memoria funciona como um sistema de modificadores baseados em equipamentos que aumenta diretamente o desempenho da unidade através de bônus de dano base, melhorias de alcance e redução de tempo de recarga.
+
+Em versões anteriores, os jogadores precisavam farmar materiais para evoluir a Memoria manualmente. Com as mudanças recentes da Atualização 13.5, a evolução de Memoria foi removida por completo. Todas as Memoria agora são obtidas em suas formas evoluídas por padrão. Quando você evolui uma unidade com sucesso, o jogo concede automaticamente a ela a Memoria designada.
+
+| Funcionalidade | Sistema Pré-Atualização 13.5 | Sistema Pós-Atualização 13.5 |
+|--- |--- |--- |
+| **Status de Evolução** | Exigia farm manual e evolução | Evoluída por padrão ao adquirir |
+| **Rota de Aquisição** | Banners padrão e criação de itens | Concedida automaticamente via evolução de unidade |
+| **Manuseio de Duplicadas** | Ficavam no inventário ou eram desperdiçadas | Desmontadas via Reciclagem de Memoria |
+| **Capacidade de Nível Máx.** | Evoluía lentamente com itens de comida padrão | Pode ser elevada instantaneamente ao Nível 60 com tickets |
+
+<Callout type="tip" title="Mudança de Equilíbrio dos Desenvolvedores">
+Esta mudança na progressão reduz significativamente a rotina diária de recursos. Em vez de passar horas farmando catalisadores de evolução especificamente para acessórios, os jogadores podem focar sua atenção em ascensões de unidades, rolagens de atributos e no farm de cosméticos exclusivos de eventos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Farmar Fragmentos de Memoria em Anime Vanguards">
+
+Adquirir Fragmentos de Memoria é essencial para comprar tickets de aprimoramento e manter sua progressão no final do jogo. O meta atual oferece vários caminhos de farm, que variam de modos repetíveis padrão a escadas de desafio sazonais.
+
+### Modos de Farm Primários
+
+1. **Modo Odyssey**: Este é o caminho mais consistente para farm repetível. Ganhar cartas de alto nível e completar longas rodadas de Odyssey premia com um fluxo constante de Fragmentos de Memoria, além de Rerolls de Atributos e moedas de eventos locais.
+2. **Worldlines**: Uma escada de desafio baseada em andares. Cada ciclo de reinicialização permite que os jogadores superem ondas difíceis e escaláveis para ganhar recompensas de marcos, incluindo grandes pacotes de fragmentos, Chips de Atributos e pedras de essência.
+3. **Códigos Promocionais Ativos**: Kitawari libera regularmente códigos de servidor durante grandes marcos. Ganhar moeda de progressão gratuita através de códigos é o atalho mais rápido tanto para jogadores novos quanto para os que estão retornando.
+
+| Modo de Jogo | Rendimento de Recursos | Nível de Dificuldade | Público-Alvo |
+|--- |--- |--- |--- |
+| **Rodadas de Odyssey** | Fragmentos moderados, Rerolls de Atributos | Médio | Contas com farm ativo |
+| **Escada Worldlines** | Muitos Fragmentos, Chips de Atributos | Muito Alto | Equipes de meta de final de jogo |
+| **Códigos Promocionais** | 50 a 100 Fragmentos instantâneos | Nenhum | Todas as contas |
+| **Modo de Verão** | Recompensas limitadas de evento, Fragmentos | Médio | Jogadores focados no passe de evento |
+
+<Steps>
+  <Step num="1" title="Alcance os Requisitos de Nível">
+    Certifique-se de que sua conta Roblox tenha pelo menos o Nível 30. Códigos mais recentes contendo itens de alto valor, como Fragmentos de Memoria e Rerolls de Atributos, exigem o Nível 30 para evitar o abuso por bots.
+  </Step>
+  <Step num="2" title="Acesse o Menu de Perfil">
+    Inicie o jogo no Roblox, aguarde o hub carregar e localize o ícone azul de Perfil no lado direito da tela.
+  </Step>
+  <Step num="3" title="Insira Códigos Ativos">
+    Abra a opção roxa de Códigos dentro da janela de Perfil. Copie e cole os códigos exatamente como escritos para evitar erros. Use os códigos ativos da Atualização 13.5: `EternalAdversaries` para 50 Fragmentos, ou `Gambler` para 50 Fragmentos e 50 Rerolls de Atributos.
+  </Step>
+  <Step num="4" title="Colete Recompensas no Correio">
+    Verifique a mensagem de sucesso da transação. Abra sua caixa de correio dentro do jogo para resgatar as recompensas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Limites de Nível">
+Se você tentar resgatar códigos premium antes de atingir o Nível 30, o sistema rejeitará o código. Foque em completar os atos do Modo História e os estágios de Pesadelo para aumentar rapidamente o nível da sua conta primeiro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Reciclagem de Memoria e Tickets de Nível">
+
+A Atualização 13.5 introduziu o recurso de Reciclagem de Memoria para limpar os inventários dos jogadores e converter itens duplicados em materiais de progressão valiosos. Memoria indesejadas podem ser desmontadas no terminal de reciclagem dentro do hub social principal.
+
+### Valores de Retorno da Reciclagem
+
+Desmontar um item de Memoria rende Sucata de Memoria. O volume e a raridade da sucata retornada dependem diretamente da raridade do item desmontado. Essa sucata pode então ser gasta na loja exclusiva para comprar Tickets de Nível de Memoria, que elevam instantaneamente qualquer Memoria equipada para o Nível 60.
+
+| Raridade do Item Desmontado | Tipo de Sucata Retornada | Valor em Tickets de Nível |
+|--- |--- |--- |
+| **Memoria Mítica** | Sucata Padrão | Baixo (exige múltiplas desmontagens) |
+| **Memoria Secreta** | Sucata Rara | Médio (troca por 1-2 tickets) |
+| **Memoria Vanguard** | Sucata Pristina | Alto (troca por 5+ tickets) |
+
+<Checklist
+  id="memoria-management"
+  title="Lista de Verificação de Gerenciamento Semanal:"
+  items={[
+    "Bloqueie pelo menos uma cópia de cada Memoria única para evitar a reciclagem acidental.",
+    "Desmonte todas as Memoria Míticas duplicadas para criar um estoque de Sucata de Memoria.",
+    "Troque sucata na loja do hub para comprar Tickets de Nível para seus carries principais.",
+    "Verifique as recompensas semanais de Worldlines para garantir que você não perca os marcos de fragmentos."
+  ]}
+/>
+
+<Callout type="success" title="Estratégia de Nivelamento Instantâneo">
+O uso de Tickets de Nível ignora o custo de ouro e materiais do nivelamento padrão. Reserve esses tickets para Memoria de raridade Vanguard vinculadas a núcleos do meta, como Rogita (Super 4) ou Song Jinwu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Transferência de Atributos de Memoria e Estratégia de Otimização">
+
+Ao transitar entre as temporadas do meta, preservar seu investimento é crítico. O sistema de **Memoria de Anime Vanguards** suporta transferências de atributos, permitindo que os jogadores movam atributos com rolagens altas de um item antigo para uma peça recém-adquirida sem perder o progresso.
+
+### Alinhamento de Atributos e Traits
+
+Para maximizar o dano da equipe, alinhe os atributos da sua Memoria com as funções das suas unidades e seus traits rolados. Unidades com traits míticos como Monarch, Ethereal ou Deadeye se beneficiam exponencialmente de aumentos planos de dano e reduções de tempo de recarga.
+
+<CardGrid cols={3}>
+  <Card title="Configuração de Carry DPS">
+    - **Atributo Primário**: Dano Plano %
+    - **Atributo Secundário**: Chance de Crítico
+    - **Traits Recomendados**: Monarch ou Ethereal
+  </Card>
+  <Card title="Configuração de Controle de Grupo">
+    - **Atributo Primário**: Aumento de Alcance
+    - **Atributo Secundário**: Velocidade de Ataque (SPA)
+    - **Traits Recomendados**: Solar ou Blitz
+  </Card>
+  <Card title="Configuração de Suporte Econômico">
+    - **Atributo Primário**: Redução de Custo
+    - **Atributo Secundário**: Alcance
+    - **Traits Recomendados**: Fortune ou Swift
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Ascensão">
+Não confunda a ascensão da unidade com o nivelamento da Memoria. Quando uma unidade Mítica passa por uma evolução que altera a raridade para uma unidade Secreta ou Vanguard, suas ascensões de unidade são apagadas. No entanto, os atributos da Memoria vinculada são protegidos e podem ser transferidos com segurança usando a interface de transferência do NPC Kokashi. Evolua suas unidades primeiro e, em seguida, aplique suas ascensões.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como obtenho Memoria na Atualização 13.5 de Anime Vanguards?",
+    answer: "As Memoria agora são evoluídas por padrão e concedidas automaticamente quando você evolui suas respectivas unidades. Você não precisa mais evoluir itens de Memoria manualmente."
+  },
+  {
+    question: "Qual é o requisito de nível para resgatar códigos de Fragmentos de Memoria?",
+    answer: "A maioria dos códigos contendo Fragmentos de Memoria ou Rerolls de Atributos na atualização Eternal Adversaries exige que sua conta seja pelo menos Nível 30."
+  },
+  {
+    question: "O que devo fazer com minhas Memoria duplicadas?",
+    answer: "Use o terminal de Reciclagem de Memoria no hub social para desmontar duplicadas em Sucata de Memoria, que pode ser trocada por Tickets de Nível."
+  },
+  {
+    question: "Os atributos da Memoria são transferidos quando evoluo minhas unidades?",
+    answer: "Sim, os atributos da Memoria permanecem seguros e o jogo suporta transferências diretas de atributos para ajudar a proteger seu investimento ao atualizar as builds de suas unidades."
+  }
+]} />
+
+<Callout type="info" title="Suporte da Comunidade">
+Para discussões ativas, builds estratégicas e alertas em tempo real sobre novos códigos, verifique a comunidade oficial do Roblox ou entre no servidor oficial do Discord. Evite usar sites de terceiros que exijam credenciais de conta para resgatar recompensas.
+</Callout>
+
+</Section>

@@ -10,7 +10,15 @@
       "twitterDescription": "Anime Vanguards Wiki covers codes, tier list, units, traits, evolutions, stages, raids, update notes, and beginner guides for Roblox players."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "tier": "Tier",
+    "units": "Units",
+    "values": "Values",
+    "evolution": "Evolution",
+    "guide": "Guide",
+    "items": "Items"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -493,27 +501,83 @@
           "heading": "Trait Roll Pool",
           "content": "The current trait pool includes common stat traits, farming traits, and rare mythic traits reserved for endgame units.",
           "traits": [
-            { "name": "Vigor", "chance": "26%", "role": "Damage boost for early and filler DPS units" },
-            { "name": "Range", "chance": "26%", "role": "Extra coverage for units that need better placement reach" },
-            { "name": "Swift", "chance": "26%", "role": "SPA improvement for faster attacking units" },
-            { "name": "Scholar", "chance": "10%", "role": "Useful while leveling units" },
-            { "name": "Marksman", "chance": "6.5%", "role": "Range upgrade for units with strong area coverage" },
-            { "name": "Fortune", "chance": "2.5%", "role": "Economy trait for farming and support value" },
-            { "name": "Blitz", "chance": "1.85%", "role": "High-value SPA trait for damage units" },
-            { "name": "Solar", "chance": "0.5%", "role": "Mythic trait with strong damage and range value" },
-            { "name": "Deadeye", "chance": "0.375%", "role": "Mythic trait for crit-focused boss and infinite damage" },
-            { "name": "Ethereal", "chance": "0.175%", "role": "Top mythic damage trait for major carry units" },
-            { "name": "Monarch", "chance": "0.1%", "role": "Highest-value mythic trait for premium carry units" }
+            {
+              "name": "Vigor",
+              "chance": "26%",
+              "role": "Damage boost for early and filler DPS units"
+            },
+            {
+              "name": "Range",
+              "chance": "26%",
+              "role": "Extra coverage for units that need better placement reach"
+            },
+            {
+              "name": "Swift",
+              "chance": "26%",
+              "role": "SPA improvement for faster attacking units"
+            },
+            {
+              "name": "Scholar",
+              "chance": "10%",
+              "role": "Useful while leveling units"
+            },
+            {
+              "name": "Marksman",
+              "chance": "6.5%",
+              "role": "Range upgrade for units with strong area coverage"
+            },
+            {
+              "name": "Fortune",
+              "chance": "2.5%",
+              "role": "Economy trait for farming and support value"
+            },
+            {
+              "name": "Blitz",
+              "chance": "1.85%",
+              "role": "High-value SPA trait for damage units"
+            },
+            {
+              "name": "Solar",
+              "chance": "0.5%",
+              "role": "Mythic trait with strong damage and range value"
+            },
+            {
+              "name": "Deadeye",
+              "chance": "0.375%",
+              "role": "Mythic trait for crit-focused boss and infinite damage"
+            },
+            {
+              "name": "Ethereal",
+              "chance": "0.175%",
+              "role": "Top mythic damage trait for major carry units"
+            },
+            {
+              "name": "Monarch",
+              "chance": "0.1%",
+              "role": "Highest-value mythic trait for premium carry units"
+            }
           ]
         },
         {
           "heading": "Mythic Pity Targets",
           "content": "Mythic traits have pity thresholds that help you plan reroll sessions instead of clicking until resources run out.",
           "pity": [
-            { "trait": "Solar", "pity": "300" },
-            { "trait": "Deadeye", "pity": "400" },
-            { "trait": "Ethereal", "pity": "858" },
-            { "trait": "Monarch", "pity": "1500" }
+            {
+              "trait": "Solar",
+              "pity": "300"
+            },
+            {
+              "trait": "Deadeye",
+              "pity": "400"
+            },
+            {
+              "trait": "Ethereal",
+              "pity": "858"
+            },
+            {
+              "trait": "Monarch",
+              "pity": "1500"
+            }
           ]
         },
         {
@@ -619,9 +683,18 @@
           "title": "Ascend Only Long-Term Mythic Units",
           "description": "Ascension is handled through the Kokashi NPC and applies only to Mythic units. It gives three stat upgrades across three ascension levels.",
           "ascensionBonuses": [
-            { "level": "Ascension I", "bonus": "Damage +3%" },
-            { "level": "Ascension II", "bonus": "Range +5%" },
-            { "level": "Ascension III", "bonus": "Damage +7%" }
+            {
+              "level": "Ascension I",
+              "bonus": "Damage +3%"
+            },
+            {
+              "level": "Ascension II",
+              "bonus": "Range +5%"
+            },
+            {
+              "level": "Ascension III",
+              "bonus": "Damage +7%"
+            }
           ]
         },
         {
@@ -954,7 +1027,7 @@
       "featured": "Featured & Essential",
       "all": "All Codes"
     },
-    "tier-list": {
+    "tier": {
       "title": "Anime Vanguards Tier List",
       "description": "Unit tier rankings by damage, support, farming, and late-game value for the current Anime Vanguards patch.",
       "metaTitle": "Anime Vanguards Tier List - Best Units Ranked",
@@ -994,47 +1067,47 @@
       "featured": "Featured & Essential",
       "all": "All Units"
     },
-    "traits": {
-      "title": "Anime Vanguards Traits",
-      "description": "Trait effects, reroll priority, and role fits for Anime Vanguards units.",
-      "metaTitle": "Anime Vanguards Traits - Rerolls & Best Traits Guide",
-      "metaDescription": "Learn Anime Vanguards traits, Trait Reroll priority, and which traits fit damage, support, and economy units.",
-      "categoryLabel": "TRAITS",
-      "whatIs": "What are traits?",
-      "whatIsDescription": "Traits are stat modifiers that shape how each unit performs, and Trait Rerolls change which trait a unit holds.",
-      "why": "Why manage traits?",
+    "values": {
+      "title": "Anime Vanguards Trade Value",
+      "description": "Trade values for units, traits, and items so you can swap fairly and avoid lowball offers in Anime Vanguards.",
+      "metaTitle": "Anime Vanguards Trade Value - Trading Value List & Calculator",
+      "metaDescription": "Check Anime Vanguards trade values, demand, and rarity tiers before trading units, traits, and items. Updated value list and calculator for fair trades.",
+      "categoryLabel": "TRADE VALUES",
+      "whatIs": "What is trade value?",
+      "whatIsDescription": "Trade value estimates how much a unit, trait, or item is worth in player-to-player trades, based on rarity, demand, and meta strength.",
+      "why": "Why check trade values?",
       "whySteps": {
-        "step1Title": "Boost Performance",
-        "step1Description": "Improve damage, range, or economy per unit",
-        "step2Title": "Match Roles",
-        "step2Description": "Pair traits with the right unit role",
-        "step3Title": "Save Resources",
-        "step3Description": "Reroll only units you plan to keep"
+        "step1Title": "Trade Fairly",
+        "step1Description": "Know what your units are worth before accepting offers",
+        "step2Title": "Spot Demand",
+        "step2Description": "See which units players actively want right now",
+        "step3Title": "Avoid Lowballs",
+        "step3Description": "Reject undervalued trades with confidence"
       },
       "featured": "Featured & Essential",
-      "all": "All Traits Guides"
+      "all": "All Value Guides"
     },
-    "updates": {
-      "title": "Anime Vanguards Updates",
-      "description": "Latest patch notes, new units, seasonal events, and battle pass changes for Anime Vanguards.",
-      "metaTitle": "Anime Vanguards Updates - Patch Notes & Events",
-      "metaDescription": "Track Anime Vanguards updates, seasonal events, battle pass changes, new units, and mode additions for each patch.",
-      "categoryLabel": "UPDATES",
-      "whatIs": "What are updates?",
-      "whatIsDescription": "Updates add new units, codes, modes, events, and balance changes that shift the current Anime Vanguards meta.",
-      "why": "Why follow updates?",
+    "evolution": {
+      "title": "Anime Vanguards Evolutions",
+      "description": "Evolution paths, material costs, quest steps, and post-evolution upgrades for Anime Vanguards units.",
+      "metaTitle": "Anime Vanguards Evolutions - Materials, Quests & Evo Paths",
+      "metaDescription": "Evolve Anime Vanguards units with full material lists, quest walkthroughs, and upgrade notes for every evolution path.",
+      "categoryLabel": "EVOLUTIONS",
+      "whatIs": "What are evolutions?",
+      "whatIsDescription": "Evolutions upgrade a unit into a stronger form, usually requiring specific materials, quest completion, and sometimes currency.",
+      "why": "Why evolve units?",
       "whySteps": {
-        "step1Title": "Plan Resources",
-        "step1Description": "Spend materials based on the current patch",
-        "step2Title": "Catch New Units",
-        "step2Description": "Find banner and event unit targets early",
-        "step3Title": "Returning Players",
-        "step3Description": "Quickly see what changed since you last played"
+        "step1Title": "Unlock Full Power",
+        "step1Description": "Evolutions raise damage, range, and abilities",
+        "step2Title": "Plan Materials",
+        "step2Description": "Farm the exact shards and items each evolution needs",
+        "step3Title": "Follow Quests",
+        "step3Description": "Complete evo quests like the Elastic Captain chain"
       },
       "featured": "Featured & Essential",
-      "all": "All Updates"
+      "all": "All Evolution Guides"
     },
-    "guides": {
+    "guide": {
       "title": "Anime Vanguards Guides",
       "description": "Beginner basics, progression paths, and advanced strategies for Anime Vanguards players.",
       "metaTitle": "Anime Vanguards Guides - Beginner to Advanced Strategies",
@@ -1053,6 +1126,26 @@
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
+    },
+    "items": {
+      "title": "Anime Vanguards Items",
+      "description": "Currencies and materials in Anime Vanguards: Gems, Gold, Essence, Stat Chips, and Memoria Shards explained.",
+      "metaTitle": "Anime Vanguards Items - Gems, Essence & Memoria Guide",
+      "metaDescription": "Learn every Anime Vanguards currency and material: Gems, Gold, Essence Stones, Stat Chips, and Memoria Shards, plus where to get and spend them.",
+      "categoryLabel": "ITEMS",
+      "whatIs": "What are items?",
+      "whatIsDescription": "Items are the currencies and materials you earn and spend, including Gems, Gold, Essence, Stat Chips, and Memoria Shards.",
+      "why": "Why learn items?",
+      "whySteps": {
+        "step1Title": "Spend Smart",
+        "step1Description": "Prioritize Gems and materials on your best units",
+        "step2Title": "Farm Efficiently",
+        "step2Description": "Know which stages drop each material",
+        "step3Title": "Use Memoria",
+        "step3Description": "Spend Memoria Shards on permanent upgrades"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Item Guides"
     }
   }
 }

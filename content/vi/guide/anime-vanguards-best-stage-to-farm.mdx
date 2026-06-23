@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Phụ bản cày cuốc tốt nhất trong Anime Vanguards: Lộ trình tài nguyên toàn diện",
+  description: "Khám phá phụ bản cày cuốc tốt nhất trong Anime Vanguards để kiếm Đá quý, Vàng, Lượt tẩy Thiên phú và Trà đá sự kiện trong meta Cập nhật 13.5 Kẻ thù vĩnh cửu.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/8b35ff/fff?text=Best+Farming+Stages",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mục tiêu cày cuốc**: Xác định các phụ bản tốt nhất để kiếm Đá quý, Vàng, Tinh hoa và nguyên liệu sự kiện theo mùa.
+- **Phụ bản Đá quý tốt nhất**: Ải 3 độ khó Ác mộng (Nightmare) mang lại sản lượng trung bình cao nhất so với thời gian hoàn thành.
+- **Tiền tệ sự kiện**: Chạy các đợt sinh tồn kiểu thây ma trong Chế độ Hè để tích lũy Trà đá một cách hiệu quả.
+- **Cơ chế cốt lõi**: Luôn triển khai các đơn vị gánh đội (carry) có thiên phú Nhanh nhẹn (Swift) hoặc Vận may (Fortune) để tối ưu hóa tốc độ chạy và sản lượng cày cuốc.
+- **Hộ vệ Vanguard**: Cày các Cổng dịch chuyển mùa Hè mới trong Bản cập nhật 13.5 để nhận các phần rơi đồng hành độc quyền.
+</Callout>
+
+<Section icon={Map} title="Phụ bản cày cuốc tốt nhất trong Anime Vanguards: Tổng quan Meta hiện tại">
+
+Trong thế giới thủ thành của [Anime Vanguards trên Roblox](https://www.roblox.com/games/16146832113/Anime-Vanguards-Eternal-Adversaries), tiến trình của bạn phụ thuộc hoàn toàn vào nền kinh tế tài nguyên. Để triệu hồi các đơn vị meta hàng đầu, tiến hóa đội hình và tẩy các thiên phú ưu tú, việc tìm ra **phụ bản cày cuốc tốt nhất trong Anime Vanguards** là vô cùng thiết yếu. Trò chơi có nhiều chế độ khác nhau, mỗi chế độ phục vụ một mục tiêu tiến trình riêng biệt, từ các Ải Cốt truyện tiêu chuẩn đến Phụ bản Truyền thuyết (Legend Stages), Đột kích (Raids), Rạn nứt (Rifts) và nội dung mùa Hè mới nhất trong Bản cập nhật 13.5.
+
+Hiệu suất được tính bằng cách chia tổng phần thưởng cho thời gian hoàn thành các đợt quái (wave). Chạy sai phụ bản có thể làm tăng gấp đôi thời gian vượt ải trong khi mang lại lợi nhuận thấp hơn. 
+
+<Callout type="tip" title="Mẹo cày cuốc">
+Trước khi dành hàng giờ cho một lộ trình cày cuốc, hãy đảm bảo cấp độ tài khoản của bạn đủ cao để hưởng lợi từ các hệ số rơi đồ tối đa. Một số phụ bản nhất định sẽ rơi thêm phần thưởng dựa trên cấp độ tiến trình của người chơi.
+</Callout>
+
+| Chế độ | Phần thưởng chính | Độ khó | Thời gian / Hiệu suất | Khuyến nghị |
+|:---|:---|:---|:---|:---|
+| **Chế độ Cốt truyện** | Đá quý, Vàng, XP | Thấp | Nhanh / Cao | Tốt nhất cho tiến trình đầu game và các lượt chạy kiếm tiền nhanh |
+| **Phụ bản Truyền thuyết** | Vật phẩm tiến hóa, Đồ rơi | Trung bình | Trung bình / Vừa phải | Cày khi nhắm tới các yêu cầu tiến hóa đơn vị cụ thể |
+| **Đột kích (Raids)** | Đơn vị, Xu Cửa hàng Đột kích | Cao | Chậm / Chiến thuật | Thiết yếu cho tiến trình cuối game và các vật phẩm độc quyền |
+| **Odyssey** | Lượt tẩy Thiên phú, Mảnh Memoria | Cao | Dài / Biến động | Chạy hàng tuần để dọn sạch kho cửa hàng và các vật phẩm hiếm |
+| **Worldlines** | Phần thưởng tầng, Đá quý | Thang đo | Nhanh / Cao | Vượt ải ngay sau khi đặt lại để nhận phần thưởng tức thì |
+| **Chế độ Hè** | Trà đá, XP Vé Sự kiện | Trung bình | Cao / Bền bỉ | Trọng tâm cốt lõi trong thời gian diễn ra sự kiện Bản cập nhật 13.5 |
+
+<CardGrid cols={3}>
+  <Card title="Đội hình cày tốc độ">
+    Triển khai các đơn vị AoE nhanh như **Song Jinwu** hoặc **Alocard** để dọn dẹp các đợt quái đầu. Điều này giúp giảm thời gian chạy đi vài phút.
+  </Card>
+  <Card title="Đội hình cày nguyên liệu vô tận">
+    Tập trung vào khả năng phòng thủ thăng tiến sức mạnh với các đơn vị khống chế như **Ice Queen** hoặc **Gujo** để trì hoãn kẻ địch mạnh trong môi trường đột kích.
+  </Card>
+  <Card title="Đội hình Cổng sự kiện">
+    Phối hợp vị trí đặt quân trong **Cổng dịch chuyển mùa Hè** với đồng đội để xử lý các thuộc tính bổ trợ nguyên tố đầy thử thách.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Lộ trình cày cuốc mục tiêu cho Đá quý, Vàng và Tinh hoa">
+
+Cày các tài nguyên cụ thể đòi hỏi các cách tiếp cận chiến thuật khác nhau. Đá quý cần thiết cho các lượt triệu hồi biểu ngữ (banner), Vàng chi trả cho chi phí nâng cấp cơ bản, và Đá Tinh hoa cần thiết để chế tạo nguyên liệu tại trạm tiến hóa. Việc phụ thuộc vào mã code để nhận tài nguyên là không bền vững; các lộ trình chơi game tích cực là vô cùng cần thiết. Bạn có thể theo dõi các bản cập nhật trò chơi và thay đổi bản vá trên [Nhật ký thay đổi Anime Vanguards](https://vanguards.gg/changelog) chính thức để theo dõi các thay đổi về tỷ lệ rơi đồ.
+
+<Callout type="warning" title="Cảnh báo tài nguyên">
+Đừng lãng phí các lượt tẩy Thiên phú quý giá hoặc Chip Chỉ số cho các đơn vị tầm trung. Hãy tiết kiệm tài nguyên cày được cho các đơn vị Bí mật (Secret), Tiên phong (Vanguard) hoặc Độc quyền Sự kiện để tạo nên đội hình cốt lõi cuối game của bạn.
+</Callout>
+
+### Tối ưu hóa Đá quý và Vàng
+
+Để kiếm Đá quý và Vàng một cách hiệu quả, hãy tập trung vào các Ải Chế độ Cốt truyện ở độ khó Ác mộng (Nightmare). Các bản đồ này có đường đi và cấu trúc đợt quái dễ đoán, khiến chúng trở nên lý tưởng cho các đội hình cày cuốc bán tự động.
+
+| Tên ải | Độ khó | Thời gian trung bình | Sản lượng Đá quý | Sản lượng Vàng |
+|:---|:---|:---|:---|:---|
+| **Hành tinh Nam Ải 3** | Ác mộng | 6.5 Phút | Trung bình | Cao |
+| **Hầm ngục kép Ải 1** | Thường | 5.2 Phút | Thấp | Trung bình |
+| **Làng Cát Ải 4** | Ác mộng | 7.0 Phút | Cao | Cao |
+| **Đồi Kiếm Ải 2** | Ác mộng | 8.5 Phút | Rất cao | Cao |
+
+### Nguyên liệu Chế tạo và Tiến hóa
+
+Tiến hóa đòi hỏi các vật phẩm chuyên dụng. Phụ bản Truyền thuyết và Rạn nứt là những nguồn chính cho các vật phẩm rơi này. Hãy chọn mục tiêu cày cuốc dựa trên lộ trình tiến hóa cụ thể của các đơn vị gánh đội chính của bạn.
+
+| Tài nguyên mục tiêu | Nguồn rơi chính | Xác suất rơi | Đơn vị gánh đội tốt nhất |
+|:---|:---|:---|:---|
+| **Đá Tinh hoa Xanh lá** | Phụ bản Truyền thuyết (Rừng) | Trung bình | Gujo (Vô hạn), Song Jinwu |
+| **Đá Tinh hoa Cầu vồng** | Đột kích cấp cao / Cửa hàng | Thấp | Demon Hybrid, Rogita (Siêu 4) |
+| **Mảnh Memoria** | Lượt chạy Odyssey, Worldlines | Cao (Mốc) | Lich King, God Above Heaven |
+| **Hộ vệ Vanguard** | Cổng dịch chuyển mùa Hè | Hiếm | Kẻ mạnh nhất hôm nay (Today's Strongest), Raging Oni |
+
+</Section>
+
+<Section icon={Target} title="Cách tối ưu hóa đội hình cày cuốc của bạn">
+
+Toàn bộ phần thưởng cày cuốc sẽ được tối đa hóa nếu bạn tối ưu hóa trang bị đội hình và thứ tự ưu tiên nâng cấp. Việc chỉ phụ thuộc vào các đơn vị sát thương cao mà thiếu đi các đơn vị tiện ích có thể khiến lượt chạy thất bại ở các đợt quái cuối, gây lãng phí thời gian.
+
+**Tóm tắt điểm nhấn Video**:
+- **Cốt lõi kinh tế**: Luôn triển khai một đơn vị kinh tế trước để tài trợ cho các vị trí gánh đội sớm.
+- **Thao túng đợt quái**: Sử dụng cơ chế đóng băng và làm chậm để gom kẻ địch lại cho các đòn quét AoE.
+- **Điểm đặt quân chiến lược**: Đặt các tướng gánh đội có tầm đánh xa tại các giao lộ để nhân đôi lượng sát thương đầu ra.
+
+<Steps>
+  <Step num="1" title="Đảm bảo cốt lõi kinh tế của bạn">
+    Triển khai các đơn vị kinh tế như **Demon Leader** hoặc một đơn vị có thiên phú **Vận may (Fortune)** trong hai đợt quái đầu tiên. Điều này cung cấp lượng tiền cần thiết để đặt các tướng gánh đội chi phí cao trước khi các đợt boss xuất hiện.
+  </Step>
+  <Step num="2" title="Thiết lập phạm vi bao phủ đơn mục tiêu và AoE">
+    Kết hợp các đơn vị sát thương AoE diện rộng như **God (Above Heaven)** hoặc **Song Jinwu** với các sát thủ diệt boss đơn mục tiêu DPS cao như **Rogita (Siêu 4)**. Đội hình này xử lý tốt cả các đợt quái đông đảo lẫn các cuộc chạm trán boss trên một làn đường đơn lẻ.
+  </Step>
+  <Step num="3" title="Lựa chọn thuộc tính bổ trợ bản đồ một cách khôn ngoan">
+    Khi cày Phụ bản Truyền thuyết hoặc Cổng dịch chuyển, hãy xem xét các thuộc tính bổ trợ đang hoạt động. Tránh các thiết lập vô hiệu hóa nguyên tố của tướng gánh đội chính của bạn, vì điều này sẽ làm tăng thời gian vượt ải.
+  </Step>
+  <Step num="4" title="Thực hiện đặt vị trí chuẩn xác">
+    Đặt các đơn vị khống chế gần điểm xuất hiện của quái để gom kẻ địch lại, cho phép các đơn vị DPS của bạn tối đa hóa lượng sát thương gây ra mỗi giây.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Thực thi thành công">
+Sử dụng một đội hình cân bằng gồm một đơn vị kinh tế, một đơn vị đóng băng và hai tướng gánh đội DPS có thể giảm thời gian vượt Phụ bản Truyền thuyết trung bình lên tới 90 giây.
+</Callout>
+
+| Đơn vị cày cuốc | Độ hiếm | Vai trò chính | Thiên phú tối ưu | Ưu tiên đặt quân |
+|:---|:---|:---|:---|:---|
+| **Demon Leader** | Bí mật | Hỗ trợ kinh tế | Fortune | Cao (Triển khai Đợt 1) |
+| **Song Jinwu** | Tiên phong | Gánh đội triệu hồi | Monarch | Cao (Triển khai Đợt 3) |
+| **Gujo (Infinity)** | Bí mật | Kiểm soát đám đông | Swift | Trung bình (Triển khai Đợt 5) |
+| **Alocard** | Tiên phong | DPS gây chảy máu | Ethereal | Trung bình (Triển khai Đợt 4) |
+
+</Section>
+
+<Section icon={Sparkles} title="Cày sự kiện: Trà đá và Cổng dịch chuyển Bản cập nhật 13.5">
+
+Bản cập nhật 13.5 mang tên *Kẻ thù vĩnh cửu* đã giới thiệu các hệ thống cày sự kiện mùa hè. Người chơi có thể cày **Trà đá** để mua các vật phẩm từ cửa hàng theo mùa và vượt **Cổng dịch chuyển mùa Hè** để mở khóa Hộ vệ Vanguard và các đơn vị độc quyền.
+
+Chế độ chơi mùa Hè có các đợt sinh tồn vô tận theo phong cách thây ma. Đội hình đội phải ưu tiên khả năng sống sót lâu dài và sát thương bền bỉ hơn là khả năng dồn sát thương nhanh trong thời gian ngắn.
+
+<Callout type="info" title="Lưu ý Sự kiện Bản cập nhật 13.5">
+Phần thưởng sự kiện Lễ hội Trà đá bao gồm các lượt tẩy Thiên phú cao cấp, Vé nâng cấp Memoria và các trang phục theo mùa. Hãy ưu tiên mua các vật phẩm tiến trình có số lượng giới hạn từ cửa hàng sự kiện trước.
+</Callout>
+
+| Ải sự kiện | Tài nguyên mục tiêu | Kẻ địch chính | Đội hình khuyến nghị |
+|:---|:---|:---|:---|
+| **Sinh tồn mùa Hè** | Trà đá | Thây ma nhanh | Ice Queen, Song Jinwu, Alocard |
+| **Cổng mùa Hè (T1-T4)** | Hộ vệ Vanguard | Boss đột biến | Rogita, Demon Hybrid, Gujo |
+| **Nhiệm vụ Vé sự kiện** | XP Vé sự kiện | Các đợt quái hỗn hợp | Đội hình cày cốt truyện tiêu chuẩn cân bằng |
+
+</Section>
+
+<Section icon={Shield} title="Danh sách kiểm tra tiến trình và Câu hỏi thường gặp">
+
+Hiệu suất cày cuốc được xây dựng dựa trên sự kiên trì. Hãy thiết lập một thói quen hàng ngày để dọn sạch các phần thưởng mốc trước khi chạy các phụ bản tiêu chuẩn.
+
+<Checklist
+  id="daily-farming-routine"
+  title="Mục tiêu cày cuốc hàng ngày:"
+  items={[
+    "Hoàn thành tất cả các Nhiệm vụ Hàng ngày và Hàng tuần đang hoạt động để nhận Đá quý và Lượt tẩy",
+    "Chạy 3 Phụ bản Truyền thuyết phù hợp với nhu cầu tài nguyên tiến hóa hiện tại của bạn",
+    "Vượt các lượt chạy Odyssey để tích lũy Mảnh Memoria và phế liệu tái chế",
+    "Sử dụng chìa khóa sự kiện vào Cổng dịch chuyển mùa Hè để tìm kiếm Hộ vệ Vanguard",
+    "Kiểm tra Cửa hàng Sự kiện để tìm các vật phẩm giảm giá làm mới hàng ngày"
+  ]}
+/>
+
+<Callout type="tip" title="Mẹo tiến trình">
+Nếu bạn đang gặp khó khăn khi đi đơn lẻ các Phụ bản Truyền thuyết hoặc Cổng dịch chuyển cấp cao, hãy phối hợp với những người chơi khác trong cộng đồng Discord chính thức. Chơi theo nhóm giúp chia sẻ áp lực từ các đợt quái trong khi vẫn giữ nguyên tỷ lệ rơi đồ cho tất cả những người tham gia.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Phụ bản nào tốt nhất trong Anime Vanguards để cày Đá quý thô?",
+    answer: "Phụ bản tốt nhất để kiếm Đá quý thô là Hành tinh Nam Ải 3 ở độ khó Ác mộng (Nightmare). Nó mang lại sự cân bằng tuyệt vời giữa thời gian hoàn thành ngắn, đường đi đơn giản và lượng Đá quý cơ bản rơi ra cao trên mỗi lượt chạy."
+  },
+  {
+    question: "Làm thế nào để cày Trà đá hiệu quả trong Bản cập nhật 13.5?",
+    answer: "Hãy chạy các đợt sinh tồn trong Chế độ Hè. Việc tích lũy các đợt quái vượt quá mốc 30 mang lại lượng Trà đá cao nhất mỗi phút, đặc biệt là khi sử dụng các đơn vị kinh tế như Demon Leader để tài trợ cho hệ thống phòng thủ cuối game."
+  },
+  {
+    question: "Tôi nên cày Phụ bản Truyền thuyết hay các Ải Cốt truyện tiêu chuẩn?",
+    answer: "Hãy cày các Ải Cốt truyện tiêu chuẩn nếu bạn chỉ cần Đá quý hoặc Vàng. Việc chuyển sang Phụ bản Truyền thuyết được khuyến nghị khi bạn nhắm tới các vật phẩm tiến hóa cụ thể, vì các ải tiêu chuẩn không rơi ra đá tinh hoa cấp cao."
+  },
+  {
+    question: "Những thiên phú nào tốt nhất cho các đơn vị cày cuốc?",
+    answer: "Vận may (Fortune) là thiên phú tốt nhất cho các đơn vị kinh tế chuyên dụng, vì nó trực tiếp tăng thu nhập từ các đợt quái. Đối với các đơn vị gánh đội gây sát thương, hãy tập trung vào Quân chủ (Monarch) hoặc Vô thực (Ethereal) để dọn dẹp các đợt quái nhanh hơn, giúp giảm tổng thời gian chạy."
+  }
+]} />
+
+</Section>

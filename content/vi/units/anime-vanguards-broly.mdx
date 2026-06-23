@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hướng dẫn xây dựng Anime Vanguards Broly: Brolzi Super (Wrathful)",
+  description: "Làm chủ Anime Vanguards Broly (Brolzi Super Wrathful). Khám phá các trait, lộ trình tiến hóa, chỉ số và đội hình tốt nhất trong Bản cập nhật 13.5.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Brolzi+Super+Wrathful+Guide",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards",
+  keywords: "Anime Vanguards Broly, Brolzi Super Wrathful, hướng dẫn, bản cập nhật 13.5, build, trait, tiến hóa"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **anime vanguards broly**: Được biết đến trong game với cái tên **Brolzi Super (Wrathful)**, đơn vị có độ hiếm Vanguard mạnh mẽ này là một trong những đơn vị DPS vật lý hàng đầu trong game.
+- **Xếp hạng**: Được xếp vững chắc ở **Bậc S+** với tư cách là đơn vị tiêu diệt boss và gánh team (carry) ưu tú.
+- **Trait tốt nhất**: **Monarch** hoặc **Ethereal** là những lựa chọn tốt nhất để tối đa hóa sát thương cơ bản khổng lồ của anh ấy.
+- **Chiến thuật chính**: Hãy kết hợp anh ấy với các đơn vị hỗ trợ giảm chi phí như **Demon Leader** để bù đắp cho chi phí triển khai cao.
+- **Trạng thái tiến hóa**: Rất khuyến khích tiến hóa sớm để mở khóa tiềm năng tăng trưởng tối đa trong các chế độ cuối game như Boss Rush và Worldlines.
+</Callout>
+
+<Section icon={Swords} title="Xếp hạng Meta và Tổng quan về Anime Vanguards Broly">
+
+Nếu bạn đang tìm kiếm huyền thoại **anime vanguards broly**, bạn sẽ thấy anh ấy xuất hiện trong game với tên gọi chính thức sau DMCA: **Brolzi Super (Wrathful)**. Là một đơn vị độ hiếm Vanguard, Brolzi Super chiếm một vị trí rất được khao khát trong meta. Anh ấy được thiết kế đặc biệt để tiêu diệt các mục tiêu có HP cao, khiến anh ấy trở thành tài sản không thể thiếu cho các nội dung cuối game đầy thử thách như Boss Rush, Raids và Worldlines tầng cao.
+
+Trong meta Bản cập nhật 13.5 hiện tại, sát thương đơn mục tiêu thuần túy và khả năng tiêu diệt boss được đánh giá rất cao. Brolzi Super vượt trội trong các lĩnh vực này nhờ khả năng tăng trưởng chỉ số mạnh mẽ và phạm vi ảnh hưởng (AoE) rộng lớn ở các nâng cấp sau. Mặc dù thiếu khả năng kiểm soát đám đông của các đơn vị như Gujo (Infinity) hay Ice Queen, nhưng sức mạnh hủy diệt thuần túy của anh ấy dễ dàng đưa anh ấy lên vị trí đầu của bậc S+.
+
+| Tên đơn vị | Độ hiếm | Bậc | Vai trò chính | Sức mạnh chính |
+|---|---|---|---|---|
+| **Brolzi Super (Wrathful)** | Vanguard | S+ | Diệt Boss / Gánh team | Sát thương vật lý đơn mục tiêu và AoE tăng trưởng mạnh |
+| **Rogita (Super 4)** | Vanguard | SS | Diệt Boss | Khả năng dồn sát thương đơn mục tiêu chưa từng có |
+| **Demon Hybrid (Chainsaw)** | Secret | S+ | Burst DPS | Cơ chế gây sát thương chảy máu (bleed) cực mạnh |
+| **Alocard (Vampire King)** | Vanguard | SS | Bleed DPS | Phạm vi bao phủ đa làn đặc biệt với sát thương chảy máu cộng dồn |
+| **Savior (Moonless)** | Vanguard | S | Gánh team chung | Dọn dẹp làn sóng kẻ địch cực kỳ đáng tin cậy cho cốt truyện |
+
+<Callout type="tip" title="Chiến lược vị trí">
+Vì Brolzi Super (Wrathful) có bán kính tấn công lớn nhưng chi phí triển khai cao, hãy đặt anh ấy tại các giao lộ hoặc vòng lặp quan trọng trên đường đi. Điều này đảm bảo các đòn tấn công vật lý hạng nặng của anh ấy bao phủ khu vực đường đi lớn nhất có thể, cho phép anh ấy tấn công cả boss dẫn đầu và lính theo sau cùng một lúc.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Trait tốt nhất và Chiến lược Reroll">
+
+Để mở khóa tiềm năng tối đa cho bản build **anime vanguards broly** của bạn, việc sở hữu trait chính xác là điều cần thiết. Trait đóng vai trò là hệ số nhân vĩnh viễn cho hiệu suất chiến đấu của đơn vị. Vì Brolzi Super (Wrathful) là một đơn vị gánh team có chi phí cao và sát thương lớn, bạn nên ưu tiên các trait giúp khuếch đại sức mạnh Tấn công (ATK) và Phạm vi thay vì các trait tiện ích hoặc kinh tế.
+
+NPC Mandra Traits là nơi bạn sẽ tiêu tốn các lượt Reroll Trait quý giá của mình. Khi roll cho Brolzi Super, mục tiêu cuối cùng của bạn là đạt được một Mythic trait. Nếu bạn thiếu tài nguyên reroll, các trait phổ biến hoặc hiếm có giá trị cao như Blitz hoặc Vigor có thể đóng vai trò là những lựa chọn thay thế tạm thời tuyệt vời.
+
+| Tên Trait | Tỷ lệ Roll | Đánh giá bậc | Tác động chỉ số | Tại sao hiệu quả với Brolzi |
+|---|---|---|---|---|
+| **Monarch** | 0.1% | SS | DMG & Phạm vi khổng lồ | Hệ số nhân tốt nhất cho các đơn vị gánh team cần ít vị trí đặt nhưng sát thương lớn |
+| **Ethereal** | 0.175% | S+ | Tăng trưởng DMG cao | Tăng đáng kể sát thương vật lý cơ bản cho các giai đoạn diệt boss |
+| **Deadeye** | 0.375% | S | Tăng trưởng tập trung vào Crit | Hoàn hảo cho các trận chiến kéo dài trong Boss Rush và Worldlines |
+| **Blitz** | 1.85% | A | Giảm SPA | Tăng tốc độ tấn công, giúp anh ấy dọn dẹp các làn sóng kẻ địch dày đặc nhanh hơn |
+| **Vigor** | 26.0% | B | Tăng DMG phẳng | Một lựa chọn ngân sách đáng tin cậy trong khi tích lũy reroll |
+
+<Callout type="warning" title="Quản lý Pity thông minh">
+Đừng bao giờ tiêu tốn lượt Reroll Trait một cách vô nghĩa. Menu Trait Index theo dõi pity mythic riêng cho từng đơn vị và pity này được bảo toàn qua quá trình Tiến hóa và Thăng hoa. Hãy đảm bảo bạn có đủ lượt reroll để đạt các ngưỡng quan trọng: Solar pity ở mức 300 lần, Deadeye ở 400, Ethereal ở 858 và Monarch ở 1500.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn Tiến hóa & Thăng hoa từng bước">
+
+Việc nâng cấp **anime vanguards broly** của bạn từ dạng cơ bản thành một Vanguard mạnh mẽ đòi hỏi một lộ trình rõ ràng. Tiến hóa giúp tăng đáng kể chỉ số cơ bản, thay đổi mô hình tấn công và mở khóa các cấp độ nâng cấp sâu hơn. Sau khi tiến hóa, bạn có thể đẩy giới hạn sức mạnh của anh ấy lên cao hơn nữa thông qua hệ thống Thăng hoa (Ascension) tại NPC Kokashi.
+
+Hãy làm theo các bước chính xác này để tiến hóa và thăng hoa đơn vị Brolzi Super (Wrathful) của bạn mà không lãng phí tài nguyên quý giá.
+
+<Steps>
+  <Step num="1" title="Sở hữu đơn vị cơ bản">
+    Triệu hồi Brolzi Super (Wrathful) từ các banner đang hoạt động hoặc nhận từ các phần thưởng sự kiện đặc biệt. Hãy đảm bảo khóa đơn vị trong kho ngay lập tức để tránh việc vô tình bán hoặc tái chế.
+  </Step>
+  <Step num="2" title="Thu thập nguyên liệu tiến hóa">
+    Thu thập các viên đá tinh hoa (essence stones), vàng và vật phẩm tiến hóa dành riêng cho đơn vị bằng cách cày các Legend Stages, Raids hoặc mua từ Event Shop. Đừng đầu tư một phần tài nguyên vào các đơn vị tạm thời khác trong khi hoàn thành bước này.
+  </Step>
+  <Step num="3" title="Thực hiện tiến hóa">
+    Đưa Brolzi Super đã đạt cấp tối đa của bạn đến trạm Evolve trong khu vực Upgrades. Xác nhận tiến hóa để mở khóa dạng cao cấp, với khả năng tăng trưởng sát thương vật lý và phạm vi tấn công được mở rộng.
+  </Step>
+  <Step num="4" title="Thực hiện các bước Thăng hoa">
+    Ghé thăm NPC Kokashi để bắt đầu quá trình Thăng hoa. Bạn sẽ cần các bản sao trùng lặp, không phải shiny, đã mở khóa của Brolzi Super cùng với các nguyên liệu cụ thể để hoàn thành mỗi trong ba cấp độ Thăng hoa.
+  </Step>
+</Steps>
+
+| Cấp độ Thăng hoa | Chi phí yêu cầu | Phần thưởng chỉ số | Ưu tiên nâng cấp |
+|---|---|---|---|
+| **Thăng hoa I** | Bản sao trùng lặp + Vàng | Sát thương +3% | Cao |
+| **Thăng hoa II** | Bản sao trùng lặp + Vàng | Phạm vi +5% | Trung bình |
+| **Thăng hoa III** | Bản sao trùng lặp + Vàng | Sát thương +7% | Cao |
+
+<Callout type="success" title="Quy tắc an toàn khi Thăng hoa">
+Vì Brolzi Super (Wrathful) đã ở độ hiếm Vanguard, bạn không cần lo lắng về việc tiến hóa thay đổi độ hiếm làm mất đi tiến trình thăng hoa. Bất kỳ cấp độ thăng hoa nào bạn áp dụng cho anh ấy tại NPC Kokashi đều là vĩnh viễn và sẽ mang lại lợi ích đầy đủ cho các đội hình cuối game của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Sự kết hợp Đội hình và Hiệu suất Chế độ">
+
+Brolzi Super (Wrathful) là một thế lực tàn khốc khi đứng một mình, nhưng anh ấy thực sự tỏa sáng khi được tích hợp vào một đội hình gắn kết và cân bằng. Để tối đa hóa hiệu quả của bản build **anime vanguards broly**, bạn phải kết hợp anh ấy với các đơn vị bù đắp chi phí triển khai cao và khai thác sản lượng sát thương vật lý khổng lồ của anh ấy.
+
+Một đội hình meta tiêu chuẩn nên có Brolzi làm đơn vị gánh team chính, cùng với các đơn vị kiểm soát đám đông chuyên dụng, bộ đệm sát thương và hỗ trợ kinh tế.
+
+<CardGrid cols={3}>
+  <Card title="Cốt lõi Kiểm soát Chi phí">
+    - **Demon Leader (Control)** giảm chi phí triển khai tổng thể.
+    - Cho phép bạn đặt Brolzi Super sớm hơn nhiều trong trận đấu.
+    - Tăng đáng kể giới hạn sát thương toàn đội.
+  </Card>
+  <Card title="Cốt lõi Đóng băng & Cầm chân">
+    - **Ice Queen (Release)** khóa các làn sóng kẻ địch lớn tại chỗ.
+    - Giữ các mục tiêu tập trung bên trong vùng tấn công hạng nặng của Brolzi.
+    - Thiết yếu để sống sót qua các giai đoạn boss Raid khó.
+  </Card>
+  <Card title="Cốt lõi Triệu hồi Bóng tối">
+    - **Song Jinwu & Igros** cung cấp sự xao nhãng ở tiền tuyến.
+    - Triệu hồi binh lính bóng tối mà không tốn vị trí triển khai.
+    - Hấp thụ các đòn tấn công của boss trong khi Brolzi tăng trưởng sát thương.
+  </Card>
+</CardGrid>
+
+Để giúp bạn quyết định nơi triển khai Brolzi Super, hãy xem xét hiệu suất của anh ấy qua các chế độ chính trong Bản cập nhật 13.5:
+
+| Chế độ game | Đánh giá hiệu suất | Vai trò tốt nhất | Cách tiếp cận chiến thuật khuyến nghị |
+|---|---|---|---|
+| **Story & Legend** | Xuất sắc | Gánh team chính | Triển khai hỗ trợ sớm trước, sau đó thả Brolzi để solo các đợt boss cuối. |
+| **Boss Rush** | Tuyệt vời | DPS chính | Tích lũy các trait tăng sát thương và tập trung tất cả buff vào Brolzi. |
+| **Worldlines** | Tuyệt vời | Trụ làn | Đặt anh ấy tại các điểm nghẽn quan trọng để làm tan chảy kẻ địch có HP cao. |
+| **Chế độ Mùa hè** | Tốt | Dọn dẹp đám đông | Kết hợp với các đơn vị làm chậm/choáng để nhóm zombie lại cho các đòn tấn công vật lý của anh ấy. |
+| **Odyssey Runs** | Xuất sắc | Gánh team tăng trưởng | Chọn các thẻ tăng sát thương vật lý và phạm vi để khai thác chỉ số cơ bản cao của anh ấy. |
+
+<Callout type="info" title="Sự kết hợp Memoria Bản cập nhật 13.5">
+Với bản làm lại 13.5, việc tiến hóa Brolzi Super (Wrathful) sẽ tự động cấp Memoria được chỉ định của anh ấy. Hãy trang bị Memoria độc quyền và sử dụng Vé nâng cấp Memoria để tăng ngay lập tức lên cấp 60, mang lại cho Brolzi một cú hích chỉ số thụ động khổng lồ.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra để tối đa hóa Brolzi Super">
+
+Để đảm bảo Brolzi Super (Wrathful) của bạn hoạt động với hiệu suất cao nhất cho nội dung Bản cập nhật 13.5, hãy hoàn thành danh sách kiểm tra tối ưu hóa này.
+
+<Checklist
+  id="broly-optimization"
+  title="Các bước tối ưu hóa Brolzi Super:"
+  items={[
+    "Đưa đơn vị Brolzi Super (Wrathful) cơ bản lên cấp 60 bằng vé nâng cấp.",
+    "Cày các viên đá tinh hoa và vàng cần thiết để hoàn thành quá trình tiến hóa Vanguard.",
+    "Roll một trait sát thương bậc cao (lý tưởng là Monarch, Ethereal hoặc Deadeye) bằng NPC Mandra Traits.",
+    "Trang bị và nâng cấp tối đa Memoria đơn vị được chỉ định lên cấp 60.",
+    "Sở hữu ít nhất một bản sao trùng lặp để mở khóa Thăng hoa I cho mức tăng sát thương vĩnh viễn 3%.",
+    "Kết hợp với Demon Leader trong đội hình hoạt động để quản lý chi phí triển khai cao."
+  ]}
+/>
+
+<Callout type="tip" title="Bảo vệ tài nguyên">
+Nếu bạn là người chơi miễn phí, đừng vội vàng reroll. Hãy tiết kiệm các lượt Reroll Trait từ mã code và phần thưởng hàng ngày cho đến khi bạn có thể đảm bảo đạt ngưỡng pity. Một Brolzi được tối ưu hóa một nửa với trait Vigor tạm thời vẫn đủ mạnh để vượt qua hầu hết các màn Nightmare Story.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Broly trong Anime Vanguards là ai?",
+    answer: "Broly được thể hiện trong game là Brolzi Super (Wrathful). Việc thay đổi tên này được thực hiện như một phần của các công cụ chuyển đổi DMCA của trò chơi trong Bản cập nhật 13.0."
+  },
+  {
+    question: "Trait tốt nhất cho đơn vị anime vanguards broly là gì?",
+    answer: "Các trait tốt nhất tuyệt đối cho Brolzi Super (Wrathful) là Monarch và Ethereal. Những trait này tăng đáng kể sát thương vật lý cơ bản khổng lồ và mở rộng phạm vi tấn công của anh ấy, biến anh ấy thành một đơn vị diệt boss hàng đầu."
+  },
+  {
+    question: "Làm thế nào để tiến hóa Brolzi Super (Wrathful)?",
+    answer: "Bạn có thể tiến hóa Brolzi Super bằng cách tăng cấp tối đa cho anh ấy, thu thập các viên đá tinh hoa, vàng và nguyên liệu tiến hóa cụ thể, sau đó đến trạm Evolve trong khu vực Upgrades."
+  },
+  {
+    question: "Brolzi Super (Wrathful) có tốt cho Chế độ Mùa hè Bản cập nhật 13.5 không?",
+    answer: "Có, Brolzi Super cực kỳ hiệu quả trong Chế độ Mùa hè. Khi kết hợp với các đơn vị kiểm soát đám đông như Ice Queen, sát thương vật lý khổng lồ của anh ấy dễ dàng dọn dẹp các đợt zombie lớn và boss sự kiện."
+  }
+]} />
+
+</Section>

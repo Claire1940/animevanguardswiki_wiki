@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Ichigo: Hướng dẫn Chiến thuật Khởi đầu & Tiến hóa",
+  description: "Tối ưu hóa lối lên đồ cho Ichigo (Ichiga) trong Anime Vanguards. Tìm hiểu so sánh nhân vật khởi đầu, yêu cầu tiến hóa, nhánh nâng cấp và thiên phú tốt nhất cho năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Anime+Vanguards+Ichigo+Guide",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Lựa chọn khởi đầu**: Ichigo (tên trong game là Ichiga) đóng vai trò là một nguồn sát thương vật lý đáng tin cậy để vượt qua giai đoạn đầu game.
+- **Cơ chế cốt lõi**: Sự cân bằng giữa sát thương đơn mục tiêu và các đòn quét diện rộng (AoE) nhỏ giúp việc dọn dẹp các chương đầu trở nên dễ dàng.
+- **Chiến thuật tốt nhất**: Reroll thiên phú (trait) để lấy các tùy chọn giá rẻ như Swift (Nhanh nhẹn) hoặc Vigor (Sinh lực) ở giai đoạn đầu, tiết kiệm lượt reroll cao cấp cho các đơn vị Secret ở giai đoạn sau.
+- **Nhánh tiến hóa**: Cày Đá Tinh Hoa (Essence Stone) tiêu chuẩn trong Chế độ Cốt truyện Ác mộng (Nightmare Story Mode) hoặc các Ải Truyền thuyết (Legend Stages) để nâng cấp chủ lực khởi đầu của bạn.
+- **Lựa chọn hàng đầu**: Lựa chọn khởi đầu lý tưởng nếu bạn thích sát thương vật lý, tốc độ tấn công nhanh và là bước đệm thăng tiến trực tiếp lên các độ hiếm cao hơn.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về Nhân vật Khởi đầu Ichigo trong Anime Vanguards">
+
+Chọn nhân vật khởi đầu trong tựa game thủ thành của Kitawari là một quyết định quan trọng, và việc phân tích đơn vị **anime vanguards ichigo** (tên trong game: Ichiga) là điều cần thiết để có một trải nghiệm thăng cấp mượt mà. Đơn vị này đại diện cho một chủ lực vật lý cực kỳ dễ tiếp cận, tiết kiệm chi phí, được thiết kế để xử lý các đợt quái đầu và cơ chế của boss. Không giống như Luffo hay Narutu, những nhân vật tập trung vào các dạng phạm vi tấn công khác nhau, đơn vị này mang lại sự kết hợp cân bằng giữa áp lực đơn mục tiêu và các nhát chém diện rộng (AoE) cục bộ.
+
+Hiểu được vị trí của đơn vị này trong meta cho phép bạn phân bổ ngân sách vàng, đá quý (gems) và nguyên liệu một cách hiệu quả. Trong các chương đầu của Chế độ Cốt truyện, bạn sẽ phụ thuộc rất nhiều vào chi phí đặt quân và hiệu quả nâng cấp để vượt ải trước khi mở khóa các tùy chọn Banner Triệu hồi cấp cao.
+
+| Nhân vật | Sát thương Cơ bản | Kiểu Tấn công | Tốt nhất cho | Đánh giá |
+|---|---|---|---|---|
+| Ichiga (Ichigo) | Trung bình | Chém Đơn/AoE | Boss đầu game, một đường | Chủ lực vật lý cân bằng |
+| Narutu | Trung bình | AoE nhiều nhịp | Đợt quái đông, giữ chân | Kiểm soát đám đông mạnh |
+| Luffo | Trung bình | AoE đường thẳng | Đường thẳng, điểm nghẽn | Phòng thủ định hướng mạnh |
+
+<Callout type="tip" title="Lựa chọn Khởi đầu">
+Nếu bạn đã chọn một nhân vật khởi đầu khác trong lần chơi đầu tiên, đừng lo lắng. Mặc dù bạn không thể thay đổi lựa chọn ban đầu của mình, bạn vẫn có thể triệu hồi các đơn vị Secret và Vanguard vượt trội từ các banner ngay khi tích lũy đủ Đá quý từ quá trình tiến trình ban đầu.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chỉ số và Khả năng Tăng tiến Sức mạnh trong Trận đấu">
+
+Để tối đa hóa hiệu suất của đơn vị này, bạn phải hiểu rõ chi phí đặt quân và mức độ tăng tiến khi nâng cấp. Nhân vật này hoạt động như một hậu vệ tiền tuyến, nghĩa là bạn nên đặt nó gần các góc cua hoặc điểm nghẽn nơi các nhát chém của nó có thể trúng nhiều mục tiêu. 
+
+Nâng cấp đơn vị này trong trận đấu sẽ tăng lượng sát thương đầu ra, giảm thời gian giãn cách giữa các đòn tấn công (SPA) và mở rộng phạm vi tấn công. Trong các đợt quái đầu tiên, việc ưu tiên nâng cấp tối đa một đơn vị duy nhất thường hiệu quả hơn so với việc đặt nhiều bản sao chưa nâng cấp. Chiến thuật này đảm bảo bạn tiêu diệt được những kẻ địch di chuyển nhanh trước khi chúng lọt qua hàng phòng thủ.
+
+| Cấp Nâng cấp | Chi phí | Sát thương | SPA (Tốc đánh) | Tầm đánh | DPS |
+|---|---|---|---|---|---|
+| Đặt quân Ban đầu | 400 | 120 | 6.0s | 15.0 | 20.0 |
+| Nâng cấp 1 | 250 | 210 | 6.0s | 16.0 | 35.0 |
+| Nâng cấp 2 | 450 | 380 | 5.5s | 18.0 | 69.1 |
+| Nâng cấp 3 | 700 | 640 | 5.5s | 20.0 | 116.4 |
+| Nâng cấp 4 | 1000 | 1100 | 5.0s | 22.0 | 220.0 |
+
+<Callout type="warning" title="Lưu ý về Chi phí Đặt quân">
+Luôn tính toán trước chi phí đặt quân 400 vàng ban đầu. Việc tích lũy các đơn vị kinh tế hoặc cày thiên phú sớm trong đợt quái cho phép bạn nâng cấp nhanh hơn, đây là chìa khóa để xử lý các mức độ khó cao hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chiến thuật Reroll & Chọn Thiên phú Tối ưu">
+
+Thiên phú (Traits) hoạt động như các chỉ số bổ trợ vĩnh viễn có thể thay đổi đáng kể hiệu quả chiến đấu của một đơn vị. Vì đây chủ yếu là một nhân vật khởi đầu, việc chi tiêu các lượt Reroll Thiên phú cao cấp cho nó không được khuyến khích về lâu dài. Tuy nhiên, roll các thiên phú cơ bản có thể giúp quá trình chuyển đổi sang nội dung giữa game diễn ra mượt mà hơn.
+
+Khi đến gặp NPC Mandra Traits, hãy nhắm vào các thiên phú giúp khuếch đại sát thương thuần hoặc tốc độ tấn công. Tránh lãng ý điểm bảo hiểm (pity counter) hoặc tài nguyên quý hiếm cho các đơn vị khởi đầu, vì những tài nguyên đó nên được dành riêng cho các nhân vật có giá trị cao như Demon Leader hoặc Gujo.
+
+<CardGrid cols={3}>
+  <Card title="Tùy chọn 1: Swift">
+    - **Giảm SPA (Tăng tốc đánh)**
+    - Nhận sát thương nhanh hơn
+    - Tuyệt vời để bào giáp/khiên
+  </Card>
+  <Card title="Tùy chọn 2: Vigor">
+    - **Tăng sát thương thuần**
+    - Tăng tiến sức mạnh cao trên mỗi cấp nâng cấp
+    - Lý tưởng cho các màn đấu boss
+  </Card>
+  <Card title="Tùy chọn 3: Range">
+    - **Phạm vi bao phủ rộng**
+    - Tiếp cận các góc cua tốt hơn
+    - Lựa chọn đặt quân linh hoạt hơn
+  </Card>
+</CardGrid>
+
+| Loại Thiên phú | Tỷ lệ | Chỉ số Thay đổi | Độ Ưu tiên cho Nhân vật Khởi đầu |
+|---|---|---|---|
+| Monarch | 0.1% | Sát thương cực đại / Tầm đánh | Thấp (Tiết kiệm cho Secret) |
+| Ethereal | 0.175% | Chí mạng cao / Sát thương | Thấp (Tiết kiệm cho Secret) |
+| Swift | 26.0% | Giảm SPA | Cao (Tiết kiệm chi phí) |
+| Vigor | 26.0% | Tăng sát thương cơ bản | Cao (Tiết kiệm chi phí) |
+
+<Callout type="success" title="Quy tắc Bảo hiểm Bảo toàn">
+Theo quy tắc hệ thống hiện tại, việc tiến hóa hoặc nâng cấp các đơn vị của bạn sẽ không đặt lại số lần đếm bảo hiểm thiên phú (trait pity). Điều này cho phép bạn an tâm thử nghiệm các thiên phú giá rẻ ở giai đoạn đầu mà không mất đi giá trị tích lũy lâu dài.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hướng quan Tiến hóa Từng bước">
+
+Tiến hóa các đơn vị của bạn sẽ mở khóa giới hạn cấp độ cao hơn, các mô hình tấn công mới và cải thiện chỉ số cơ bản. Mặc dù tiến hóa một đơn vị khởi đầu yêu cầu ít nguyên liệu hơn một đơn vị Secret, nó vẫn đòi hỏi một kế hoạch cày cuốc có cấu trúc. Hãy làm theo lộ trình tiến trình này để thu thập các nguyên liệu cần thiết mà không lãng phí thể lực (stamina).
+
+<Steps>
+  <Step num="1" title="Đánh giá Yêu cầu Tài nguyên">
+    Đảm bảo bạn đã đạt đến cấp độ tối thiểu và tích lũy đủ Vàng trước khi cày các bản đồ cụ thể. Tiến hóa nhân vật khởi đầu của bạn yêu cầu Đá Tinh Hoa Xanh lá (Green Essence Stones) và một lượng Vàng dự trữ cơ bản.
+  </Step>
+  <Step num="2" title="Cày Tinh hoa trong Ải Truyền thuyết">
+    Vào Chế độ Cốt truyện Ác mộng hoặc các Ải Truyền thuyết để cày Đá Tinh Hoa yêu cầu. Các phòng chờ Co-op có thể tăng tốc các lượt đi này đáng kể.
+  </Step>
+  <Step num="3" title="Gặp Trạm Nâng cấp">
+    Di chuyển đến trạm Tiến hóa (Evolve) ở sảnh trung tâm. Chọn đơn vị của bạn, xác nhận rằng bạn đã mở khóa và hủy trang bị cho nhân vật mục tiêu, sau đó thực hiện tiến hóa.
+  </Step>
+</Steps>
+
+| Nguyên liệu | Số lượng Yêu cầu | Nguồn chính | Chế độ Khuyên dùng |
+|---|---|---|---|
+| Tinh hoa Xanh lá | 10 | Ải Cốt truyện, Vết nứt (Rifts) | Độ khó Ác mộng |
+| Vàng | 5,000 | Thử thách, Nhiệm vụ Hàng ngày | Thử thách Gold Rush |
+| Tinh hoa Xanh dương | 5 | Ải Truyền thuyết, Phụ bản (Raids) | Cày Chế độ Truyền thuyết |
+
+<Callout type="warning" title="Yêu cầu Mở khóa">
+Trước khi cố gắng tiến hóa, hãy đảm bảo đơn vị đã được mở khóa và xóa khỏi tất cả các đội hình thiết lập sẵn đang hoạt động. Các đơn vị bị khóa sẽ không xuất hiện trong bảng lựa chọn giao diện tiến hóa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách Kiểm tra để Chuyển đổi Nhân vật Khởi đầu">
+
+Khi bạn tiến sâu vào các Phụ bản (Raids), Vết nứt (Rifts) và Worldlines độ khó cao, các đơn vị khởi đầu cuối cùng sẽ bị áp đảo bởi các lượt triệu hồi banner Secret và Vanguard. Quản lý quá trình chuyển đổi này một cách suôn sẻ sẽ ngăn ngừa tình trạng nghẽn tài nguyên. Sử dụng danh sách kiểm tra dưới đây để theo dõi các cột mốc tài khoản của bạn.
+
+<Checklist
+  id="starter-milestones"
+  title="Mục tiêu Tiến trình Chuyển đổi:"
+  items={[
+    "Hoàn thành ba thế giới Cốt truyện đầu tiên bằng chủ lực khởi đầu của bạn.",
+    "Tích lũy ít nhất 5.000 Đá quý cho các lượt quay Banner giới hạn thời gian.",
+    "Sở hữu đơn vị DPS độ hiếm Mythic hoặc Secret đầu tiên từ banner.",
+    "Trang bị cho chủ lực chính của bạn một thiên phú hỗ trợ như Swift hoặc Vigor.",
+    "Chuyển đổi thể lực cày cuốc hàng ngày của bạn sang các nguyên liệu Tiến hóa cấp cao."
+  ]}
+/>
+
+<Callout type="info" title="Mẹo Phân bổ Tài nguyên">
+Một khi bạn triệu hồi được một chủ lực gánh đội hợp meta như Brolzi Super hoặc Ice Queen, hãy ngay lập tức dừng các khoản đầu tư lớn vào nhân vật khởi đầu của bạn. Sự khác biệt về chỉ số trong nội dung cuối game làm cho các đơn vị độ hiếm cao hơn khả thi hơn rất nhiều.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi Thường gặp">
+
+<FAQ items={[
+  {
+    question: "Nhân vật khởi đầu Ichigo trong Anime Vanguards có khả thi cho nội dung cuối game không?",
+    answer: "Nhân vật này rất tuyệt vời cho tiến trình đầu đến giữa game, nhưng sẽ gặp khó khăn trong các Phụ bản (Raids), Vết nứt (Rifts) cấp cao và các tầng Worldlines cuối. Bạn nên chuyển sang các đơn vị Secret hoặc Vanguard ngay khi chúng có sẵn."
+  },
+  {
+    question: "Tôi có nên chi tiêu các lượt Reroll Thiên phú cho đơn vị này không?",
+    answer: "Chỉ sử dụng các lượt reroll cơ bản để có được một thiên phú giá rẻ hữu dụng như Swift hoặc Vigor. Hãy tiết kiệm điểm bảo hiểm mythic và các lượt reroll cao cấp cho các chủ lực cuối game của bạn."
+  },
+  {
+    question: "Tôi có thể cày các nguyên liệu tiến hóa cho nhân vật khởi đầu ở đâu?",
+    answer: "Bạn có thể cày Đá Tinh Hoa Xanh lá và Xanh dương bằng cách vượt các ải cốt truyện chế độ Ác mộng, tham gia Vết nứt (Rifts) hoặc hoàn thành các Ải Truyền thuyết."
+  },
+  {
+    question: "Tiến hóa đơn vị khởi đầu có đặt lại thiên phú hiện tại của nó không?",
+    answer: "Không, việc tiến hóa một đơn vị sẽ bảo toàn thiên phú hiện tại của nó và không đặt lại chỉ số bảo hiểm thiên phú chung của bạn."
+  }
+]} />
+
+<Callout type="tip" title="Đánh giá Cuối cùng">
+Đối với những người chơi muốn nhanh chóng có chỗ đứng trong Chế độ Cốt truyện, đơn vị khởi đầu cung cấp một tùy chọn sát thương đáng tin cậy với chi phí thấp, xử lý hiệu quả các cơ chế của boss. Hãy đầu tư khôn ngoan và chuyển đổi tài sản của bạn sang các lượt triệu hồi banner cấp cao khi bạn bước vào giai đoạn giữa game.
+</Callout>
+
+</Section>

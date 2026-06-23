@@ -1,46 +1,77 @@
 {
   "categories": [
     {
-      "category": "指南",
+      "category": "兑换码",
       "keywords": [
-        "lucid blocks 指南"
+        "anime vanguards 兑换码"
       ]
     },
     {
-      "category": "合成",
+      "category": "排行榜",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "anime vanguards 排行榜",
+        "anime vanguards 强度榜",
+        "anime vanguards 单位排行",
+        "anime vanguards 熟人排行",
+        "anime vanguards 刷取单位排行",
+        "anime vanguards 价值排行"
+      ]
+    },
+    {
+      "category": "交易价值",
+      "keywords": [
+        "anime vanguards 价值表",
+        "anime vanguards 交易价值",
+        "anime vanguards 交易价值表",
+        "anime vanguards 价值计算器"
+      ]
+    },
+    {
+      "category": "指南",
+      "keywords": [
+        "anime vanguards 指南",
+        "anime vanguards 新手指南",
+        "anime vanguards 进阶指南",
+        "anime vanguards 最佳队伍",
+        "anime vanguards 最佳单位",
+        "anime vanguards 快速升级",
+        "anime vanguards 获取宝石",
+        "anime vanguards 刷图攻略",
+        "anime vanguards 更新日志"
+      ]
+    },
+    {
+      "category": "单位",
+      "keywords": [
+        "anime vanguards 路飞",
+        "anime vanguards 路飞五档",
+        "anime vanguards 五条悟",
+        "anime vanguards 宿傩",
+        "anime vanguards 斑",
+        "anime vanguards 索隆",
+        "anime vanguards 一护",
+        "anime vanguards 山本",
+        "anime vanguards 阿鲁卡德",
+        "anime vanguards 布罗利",
+        "anime vanguards 玛琪玛",
+        "anime vanguards 狂三",
+        "anime vanguards 凯多"
+      ]
+    },
+    {
+      "category": "进化",
+      "keywords": [
+        "anime vanguards 索隆进化",
+        "anime vanguards 路飞进化",
+        "anime vanguards 路飞五档进化",
+        "anime vanguards 弹性船长进化任务",
+        "anime vanguards 材料进化水门"
       ]
     },
     {
       "category": "物品",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
-      ]
-    },
-    {
-      "category": "生物群系",
-      "keywords": [
-        "lucid blocks 提亚玛纳地脉"
-      ]
-    },
-    {
-      "category": "建造",
-      "keywords": [
-        "lucid blocks 感质空间"
-      ]
-    },
-    {
-      "category": "技术支持",
-      "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "anime vanguards 记忆碎片"
       ]
     }
   ]

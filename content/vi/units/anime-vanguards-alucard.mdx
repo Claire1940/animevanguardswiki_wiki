@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Alucard: Hướng dẫn Build, Chỉ số & Tiến hóa tốt nhất",
+  description: "Tìm hiểu cách build, tiến hóa và sử dụng Anime Vanguards Alucard (Alocard). Làm chủ các chiến thuật gây sát thương Chảy máu (Bleed) tối thượng, trait và sự phối hợp đội hình.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Alucard+Vampire+King+Build",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Trọng tâm chính**: Đơn vị **anime vanguards alucard** (trong game gọi là Alocard) đóng vai trò là chủ lực gây sát thương Chảy máu (Bleed) đa đường hàng đầu.
+- **Cơ chế chính**: Tích tụ lượng sát thương theo thời gian (DoT) từ hiệu ứng Chảy máu, bỏ qua các lớp phòng thủ tiêu chuẩn trên những mục tiêu có lượng máu cao.
+- **Chiến thuật tốt nhất**: Đặt ở các nút thắt hoặc góc cua nơi kẻ địch đi qua phạm vi của anh ta nhiều lần để tối đa hóa các cộng dồn Chảy máu.
+- **Trait hàng đầu**: Monarch vẫn là đỉnh cao tuyệt đối cho việc tăng quy mô sát thương thuần, trong khi Ethereal tối ưu hóa tốc độ tấn công.
+- **Vai trò trong Meta**: Tốc độ dọn dẹp cấp cao cho các màn chơi cốt truyện đa đường, chế độ Vô tận và các cuộc đột kích (raid) độ khó cao.
+</Callout>
+
+<Section icon={Map} title="Tổng quan và Cách sở hữu Anime Vanguards Alucard">
+
+Nhân vật **anime vanguards alucard**, tên chính thức trong game là Alocard (Vampire King), là đơn vị độ hiếm Vanguard hoạt động như một chủ lực gây sát thương Chảy máu chuyên biệt. Trong meta hiện tại, người chơi dựa vào đơn vị này để xử lý các đợt quái dày đặc và các bản đồ chia đường nhờ phạm vi bao phủ đặc biệt và sát thương trạng thái theo nhịp. Việc hiểu cách sở hữu và triển khai đơn vị này là rất quan trọng để vượt qua nội dung cuối game trong Bản cập nhật Kẻ thù vĩnh cửu.
+
+Không giống như các đơn vị tiêu chuẩn dựa vào các đòn tấn công vật lý cơ bản, đơn vị này sử dụng các hệ số nhân Chảy máu theo quy mô. Mỗi đòn đánh áp dụng một cộng dồn sát thương trạng thái giúp rút cạn thanh máu của kẻ địch theo thời gian. Điều này làm cho anh ta đặc biệt nguy hiểm đối với các mục tiêu bọc thép và trùm có chỉ số giảm sát thương cao.
+
+| Thông số | Giá trị cơ bản | Ý nghĩa chiến thuật |
+| :--- | :--- | :--- |
+| **Độ hiếm** | Vanguard | Đơn vị tinh nhuệ đòi hỏi tài nguyên nâng cấp đáng kể |
+| **Vai trò chính** | Chủ lực sát thương Chảy máu | Sát thương duy trì theo thời gian trên nhiều đường |
+| **Phạm vi cơ bản** | 22 đơn vị | Tầm xa ban đầu trung bình, mở rộng mạnh sau khi tiến hóa |
+| **Giới hạn đặt** | Tối đa 3 đơn vị | Cần phân bổ đường đi cẩn thận để tránh lỗ hổng bao phủ |
+| **Cách triệu hồi** | Xoay vòng Banner | Yêu cầu Đá quý để quay trong các chu kỳ banner cụ thể |
+
+<Callout type="warning" title="Sự sẵn có của Banner">
+Các banner độ hiếm Vanguard xoay vòng thường xuyên. Luôn tiết kiệm ít nhất 10.000 đến 15.000 Đá quý trước khi cố gắng triệu hồi đơn vị này để đảm bảo đạt được cột mốc bảo hiểm trong các cửa sổ xoay vòng hoạt động.
+</Callout>
+
+Để triệu hồi anh ta, bạn phải theo dõi các chu kỳ banner đang hoạt động trong sảnh chính. Mặc dù tỷ lệ rơi của các đơn vị độ hiếm Vanguard là thấp, việc sử dụng các lọ may mắn và triệu hồi theo nhóm có thể tối ưu hóa cơ hội của bạn đôi chút. Sau khi sở hữu, anh ta phải được tăng cấp ngay lập tức thông qua việc vượt màn cốt truyện hoặc sử dụng thức ăn XP trước khi bạn thực hiện chuỗi nhiệm vụ tiến hóa của anh ta.
+
+</Section>
+
+<Section icon={Swords} title="Chỉ số cơ bản và Tăng trưởng sát thương">
+
+Để đánh giá giá trị thực của đơn vị **anime vanguards alucard**, người chơi phải phân tích cách các chỉ số của anh ta tăng quy mô từ dạng cơ bản sang trạng thái Vampire King đã tiến hóa. Tiến trình sát thương của anh ta không phải là tuyến tính; thay vào đó, nó nhận được các hệ số nhân khổng lồ trong các lần nâng cấp cuối cùng, ảnh hưởng trực tiếp đến hiệu lực của sát thương Chảy máu.
+
+Các tính toán sát thương Chảy máu dựa trực tiếp vào chỉ số sát thương cơ bản của đơn vị tại thời điểm đòn đánh được ghi nhận. Do đó, việc tăng cấp đơn vị và sử dụng các chuyển đổi chỉ số phần trăm cao là rất quan trọng. Bảng dưới đây phác thảo các mốc tiến trình của anh ta.
+
+| Giai đoạn đơn vị | Sát thương cơ bản | SPA tấn công | Giá trị phạm vi | Loại hình tấn công |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dạng cơ bản** | 1,200 | 6.5s | 22 | Chém tuyến tính nhắm vào kẻ địch phía trước |
+| **Nâng cấp giữa** | 2,800 | 5.8s | 26 | Kiểu chém hình nón rộng |
+| **Dạng tiến hóa** | 4,800 | 5.2s | 32 | AoE hình tròn toàn diện với các nhịp Chảy máu liên tục |
+
+<Callout type="success" title="Cơ chế cộng dồn Chảy máu">
+Sát thương Chảy máu bỏ qua các khiên giảm sát thương tiêu chuẩn của kẻ địch. Nếu một con trùm có khả năng kháng vật lý cao, việc cộng dồn Chảy máu với đơn vị này là một trong những cách đáng tin cậy nhất để rút cạn thanh máu của chúng.
+</Callout>
+
+Trong chiến đấu thực tế, ưu tiên đặt vị trí của anh ta nên tập trung vào một phần ba đầu tiên của bản đồ. Đặt anh ta quá xa về phía sau sẽ ngăn cản các cộng dồn Chảy máu của anh ta đạt được hiệu quả tối đa trước khi kẻ địch thoát khỏi phạm vi của anh ta. Các đội hình nên luôn có các hỗ trợ làm chậm hoặc đóng băng để giữ kẻ địch bị mắc kẹt bên trong vùng sát thương của anh ta càng lâu càng tốt.
+
+</Section>
+
+<Section icon={Sparkles} title="Hướng dẫn Tiến hóa từng bước và Nguyên liệu">
+
+Tiến hóa đơn vị của bạn thành dạng thực sự sẽ mở khóa phạm vi tối đa và nâng cấp hồ sơ tấn công của anh ta để áp dụng trạng thái Chảy máu Vampire King huyền thoại. Lộ trình tiến hóa yêu cầu các nguyên liệu cụ thể phải được farm từ các màn Legend, cuộc đột kích và các cửa hàng sự kiện đang hoạt động.
+
+Để chuẩn bị cho việc nâng cấp này, bạn phải thu thập nhiều loại Đá tinh hoa (Essence Stones) và các vật phẩm rơi từ trùm chuyên biệt. Dưới đây là trình tự được đề xuất để hoàn thành quá trình tiến hóa mà không lãng phí tài nguyên vào các bản build chưa hoàn thiện.
+
+<Steps>
+  <Step num="1" title="Tăng cấp đơn vị lên tối đa">
+    Đảm bảo đơn vị cơ bản của bạn đã được tăng cấp đầy đủ. Cho ăn các đơn vị trùng lặp hoặc sử dụng thức ăn XP cấp cao là cách nhanh nhất để chuẩn bị cho trạm Tiến hóa.
+  </Step>
+  <Step num="2" title="Thu thập Đá tinh hoa">
+    Farm các thử thách hàng ngày và các màn rift để đảm bảo có được Đá tinh hoa Đỏ, Tím và Cầu vồng. Chúng đóng vai trò là nền tảng nguyên tố cho tất cả các quá trình tiến hóa Vanguard.
+  </Step>
+  <Step num="3" title="Sở hữu Vampire Relic">
+    Hoàn thành các màn Legend theo chủ đề để nhận vật phẩm tiến hóa độc đáo liên quan đến chủ đề ma cà rồng. Những vật phẩm này có tỷ lệ rơi cố định và có thể yêu cầu nhiều lần chạy.
+  </Step>
+  <Step num="4" title="Ghé thăm trạm Tiến hóa">
+    Di chuyển đến khu vực nâng cấp trong sảnh, đặt đơn vị vào, trả phí Vàng cần thiết và hoàn tất quá trình chuyển đổi để mở khóa biến thể Vampire King đã tiến hóa.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Cập nhật hệ thống Memoria">
+Theo các quy tắc hiện tại của Bản cập nhật 13.5, việc tiến hóa đơn vị này sẽ tự động cấp Unit Memoria được chỉ định cho anh ta. Bạn không còn cần phải thực hiện các tiến hóa Memoria riêng biệt, giúp bảo toàn các mảnh vụn quý hiếm của bạn.
+</Callout>
+
+Hãy nhớ rằng khi bạn tiến hóa đơn vị, các chỉ số cơ bản của anh ta sẽ nhận được một hệ số nhân khổng lồ, nhưng ngưỡng bảo hiểm trait của anh ta vẫn được giữ nguyên. Điều này có nghĩa là bạn không phải lo lắng về việc mất tiến trình hướng tới một trait thần thoại được đảm bảo khi nâng cấp anh ta.
+
+</Section>
+
+<Section icon={Target} title="Các Trait tốt nhất & Quy tắc ưu tiên quay lại">
+
+Việc chọn đúng trait có thể nâng tầm đơn vị **anime vanguards alucard** từ một người giữ đường tiêu chuẩn thành một chủ lực meta tuyệt đối. Vì nguồn sát thương chính của anh ta là hiệu ứng Chảy máu theo nhịp, các trait tăng giá trị tấn công thuần và tần suất tấn công được ưu tiên cao.
+
+Khi ghé thăm NPC Mandra Traits, bạn nên nhắm mục tiêu vào các trait thần thoại cụ thể dựa trên nguồn tài nguyên hiện tại của mình. Bảng dưới đây liệt kê các trait tối ưu cho đơn vị này và hiệu quả chiến đấu tương đối của chúng.
+
+| Tên Trait | Xác suất quay | Điều chỉnh chỉ số | Đánh giá Meta |
+| :--- | :--- | :--- | :--- |
+| **Monarch** | 0.1% | Sát thương +50%, SPA -10%, Giới hạn đặt giảm | Tuyệt vời cho các nút thắt một đường |
+| **Ethereal** | 0.175% | Tốc độ tấn công +15%, Phạm vi +10%, Tăng sát thương | Trait chung tốt nhất cho bản đồ chia đường |
+| **Deadeye** | 0.375% | Tỷ lệ chí mạng +20%, Sát thương chí mạng +35% | Trần sát thương cao cho các cuộc chạm trán trùm |
+| **Blitz** | 1.85% | SPA cải thiện 12% | Lựa chọn ngân sách mạnh mẽ để áp dụng cộng dồn nhanh hơn |
+
+<CardGrid cols={2}>
+  <Card title="Chiến thuật Monarch">
+    Sử dụng Monarch nếu bạn chạy một cấu hình đội hình hỗ trợ một chủ lực hyper-carry duy nhất. Sự gia tăng sát thương khổng lồ giúp tăng trực tiếp sát thương của mỗi nhịp Chảy máu lên mức cực hạn.
+  </Card>
+  <Card title="Chiến thuật Ethereal">
+    Chọn Ethereal nếu bạn cần sự bao phủ nhất quán trên các bản đồ đa đường. Phạm vi thêm đảm bảo đơn vị có thể bao phủ hai đường cùng lúc trong khi tích tụ Chảy máu nhanh chóng.
+  </Card>
+  <Card title="Build ngân sách Blitz">
+    Nếu bạn thiếu Trait Reroll, Blitz là một lựa chọn thay thế rất chấp nhận được. Tốc độ tấn công tăng cho phép đơn vị áp dụng các cộng dồn Chảy máu nhanh hơn trước khi kẻ địch thoát ra.
+  </Card>
+  <Card title="Sát thủ trùm Deadeye">
+    Hoàn hảo cho các chế độ raid và boss rush. Khi kết hợp với các buff tỷ lệ chí mạng từ các đơn vị hỗ trợ, Deadeye làm tan chảy các thanh máu của trùm trong vài giây.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Quy tắc bảo hiểm Trait">
+Các trait thần thoại có các ngưỡng bảo hiểm cố định (chẳng hạn như 1500 lần quay cho Monarch). Hãy lập kế hoạch cho các phiên quay trait của bạn xung quanh những con số này để đảm bảo bạn không cạn kiệt tài nguyên ngay trước khi đạt được đợt rơi được đảm bảo.
+</Callout>
+
+Tránh quay các trait tiện ích chuyên biệt như Fortune trên đơn vị này. Chi phí triển khai của anh ta rất cao và chức năng chính của anh ta là sát thương thuần; các trait kinh tế phù hợp hơn nhiều cho các đơn vị hỗ trợ chuyên dụng.
+
+</Section>
+
+<Section icon={Shield} title="Sự phối hợp đội hình Meta & Quy tắc đặt vị trí">
+
+Để tối đa hóa hiệu suất của đơn vị **anime vanguards alucard** trong nội dung cấp cao, bạn phải ghép anh ta với các đơn vị bổ sung cho lối chơi sát thương theo thời gian của anh ta. Vì sát thương Chảy máu cần thời gian để phát huy, các debuff làm chậm, đóng băng và gây tổn thương (vulnerability) là cực kỳ hiệu quả.
+
+Vị trí cũng rất quan trọng. Đặt đơn vị này trên một đường thẳng sẽ giảm thiểu tiện ích của anh ta, trong khi đặt anh ta ở các khúc cua chữ U hoặc giao lộ cho phép các đòn tấn công AoE hình tròn của anh ta đánh trúng cùng một kẻ địch nhiều lần.
+
+| Đơn vị bổ sung | Vai trò | Tương tác chiến thuật |
+| :--- | :--- | :--- |
+| **Ice Queen (Release)** | Kiểm soát đóng băng | Giữ kẻ địch tại chỗ bên trong các vùng Chảy máu hoạt động |
+| **Demon Leader (Control)** | Kinh tế & Giảm chi phí | Giảm chi phí đặt, cho phép triển khai sớm |
+| **Gujo (Infinity)** | Kiểm soát đám đông / Làm chậm | Giảm tốc độ kẻ địch, kéo dài thời gian duy trì các nhịp Chảy máu |
+| **Song Jinwu** | Triệu hồi bóng tối | Hoạt động như một rào cản tiền tuyến để chặn các đợt quái di chuyển nhanh |
+
+<Callout type="warning" title="Hạn chế vị trí">
+Đừng chồng tất cả ba vị trí đặt của bạn vào cùng một vị trí. Hãy rải chúng ra một chút dọc theo con đường để đảm bảo rằng những kẻ địch đang trốn thoát ngay lập tức bị áp lại các cộng dồn Chảy máu mới.
+</Callout>
+
+Khi chơi hợp tác, hãy phối hợp với đồng đội của bạn để họ xử lý các đơn vị kinh tế đầu game trong khi bạn tiết kiệm để thả chủ lực chính của mình. Điều này giúp bạn không bị rò rỉ quái trong quá trình chuyển đổi từ đầu game sang giữa game.
+
+<Checklist
+  id="alucard-optimization"
+  title="Danh sách kiểm tra tối ưu hóa:"
+  items={[
+    "Đạt cấp độ đơn vị tối đa để tăng các giá trị sát thương cơ bản",
+    "Tiến hóa lên dạng Vampire King để mở khóa đòn tấn công AoE hình tròn",
+    "Quay lại các trait Monarch, Ethereal hoặc Blitz tại Mandra",
+    "Ghép với ít nhất một đơn vị hỗ trợ tiện ích làm chậm hoặc đóng băng",
+    "Đặt đơn vị tại các đường cong hoặc giao lộ để đạt độ bao phủ tối đa"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Các câu hỏi thường gặp">
+
+Sử dụng phần FAQ này để nhanh chóng giải quyết các thắc mắc phổ biến về lộ trình build, cơ chế và các bản cập nhật cho chủ lực Vanguard này.
+
+<FAQ items={[
+  {
+    question: "Cơ chế Chảy máu hoạt động như thế nào đối với anime vanguards alucard?",
+    answer: "Mỗi đòn đánh áp dụng một cộng dồn Chảy máu gây ra một tỷ lệ phần trăm sát thương cơ bản của đơn vị trong một khoảng thời gian nhất định. Sát thương này nhịp liên tục và bỏ qua các khiên phòng thủ vật lý."
+  },
+  {
+    question: "Tôi có thể chuyển chỉ số sang phiên bản đã tiến hóa của đơn vị này không?",
+    answer: "Có, bạn có thể chuyển chỉ số trước hoặc sau khi tiến hóa. Trạm Tiến hóa bảo tồn các cấp chỉ số của bạn, nhưng thường khuyến khích tối ưu hóa chỉ số sớm."
+  },
+  {
+    question: "Tại sao đơn vị này được gọi là Alocard trong giao diện game?",
+    answer: "Trò chơi sử dụng các tên an toàn về bản quyền như Alocard (Vampire King) để tuân thủ các nguyên tắc của nền tảng, nhưng nó đề cập đến cùng một nhân vật mang tính biểu tượng."
+  },
+  {
+    question: "Chế độ chơi nào tốt nhất để farm nguyên liệu tiến hóa của anh ta?",
+    answer: "Các màn Legend và các rift hàng ngày cụ thể cung cấp tỷ lệ rơi cao nhất cho Đá tinh hoa và các vật phẩm độc đáo cần thiết cho các tiến hóa Vanguard."
+  }
+]} />
+
+</Section>

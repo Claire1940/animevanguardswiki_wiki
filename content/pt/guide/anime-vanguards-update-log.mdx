@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Registro de Atualizações do Anime Vanguards: Todas as Notas de Patch e Eventos",
+  description: "Acompanhe as mudanças mais recentes no registro de atualizações do Anime Vanguards. Veja notas de patch, novas unidades e eventos ativos para a Atualização 13.5: Adversários Eternos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a0f30/fff?text=Update+Log+Tracker",
+  date: "2026-06-23",
+  author: "Equipe da Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Rastreador de Changelog**: O **registro de atualizações oficial do Anime Vanguards** documenta ajustes de sistema, novas unidades e patches de grandes eventos até a Atualização 13.5.
+- **Foco em Adversários Eternos**: A Atualização 13.5 apresenta o Modo de Jogo de Verão, Portais de Verão, o Festival de Chá Gelado e uma grande reformulação na progressão de Memória.
+- **Ajustes no Sistema de Memória**: As evoluções de Memória foram removidas; todas as Memórias já vêm evoluídas por padrão e são obtidas automaticamente ao evoluir as unidades.
+- **Planejamento de Ascensão**: Ascenda unidades Míticas apenas após a evolução final, pois a transição para o status Secreto ou Vanguarda remove as ascensões anteriores.
+</Callout>
+
+<Section icon={Map} title="Acompanhando o Registro de Atualizações do Anime Vanguards">
+
+Manter-se atualizado com as mudanças do jogo é fundamental para otimizar as composições de equipe e gerenciar recursos raros. A equipe de desenvolvimento da Kitawari implementa rotineiramente pequenos patches de balanceamento, atualizações de conteúdo e grandes reformulações sazonais. O banco de dados principal para essas mudanças continua sendo a página oficial do [Anime Vanguards no Roblox](https://www.roblox.com/games/16146832113/Anime-Vanguards), além da documentação hospedada no site principal em [Vanguards Changelog](https://vanguards.gg/).
+
+Ao monitorar as mudanças no histórico de versões do jogo, os jogadores podem antecipar mudanças no meta, planejar invocações e identificar quais unidades receberam melhorias ou ajustes. O registro de versões reflete uma progressão constante, desde os primeiros lobbies sazonais até desafios profundos de endgame, reformulações de sistema e o ciclo atual do evento de Verão 26.
+
+| Versão | Data de Lançamento | Tema Principal | Adição Central |
+|---|---|---|---|
+| Atualização 13.5 | 21/06/2026 | Adversários Eternos | Modo Verão, reformulação de Memória, Portais |
+| Atualização 13.0 | 31/05/2026 | Ascensão Divina | Dinastia Pirata, Boss Rush, Ascensão |
+| Atualização 12.5 | 09/05/2026 | Marés de Mudança | Reformulação da Odisseia, guilda, árvore de habilidades |
+| Atualização 11.0 | 27/02/2026 | Fúria Demoníaca | Mapa Colina das Espadas, mecânicas de dispersão |
+| Atualização 10.5 | 01/02/2026 | Solidão Congelada | Modo de Jogo de Inverno, loja sazonal e banner |
+
+<Callout type="tip" title="Dica de Recurso">
+Sempre faça referência cruzada dos códigos ativos com os registros de atualização mais recentes. Lançamentos de versões principais frequentemente introduzem códigos de recompensa temporários que concedem Re-rolagens de Traços, Fragmentos de Memória ou moeda de evento.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Visão Geral do Patch Mais Recente: Atualização 13.5 (Adversários Eternos)">
+
+Lançada em 21 de junho de 2026, a atualização **Adversários Eternos** representa a mais recente grande adição de conteúdo. Este patch foca fortemente em conteúdo de sobrevivência temático de verão, novas unidades e ajustes de qualidade de vida nos sistemas de progressão. As atividades centrais do evento giram em torno do Modo de Jogo de Verão, onde os jogadores enfrentam ondas infinitas de inimigos para ganhar Chás Gelados, que podem ser gastos na loja sazonal.
+
+Seis novas unidades entraram no elenco, divididas entre invocações de banner, metas do Passe de Evento e recompensas de progressão de Linhas Mundiais. O patch também introduz os Portais de Verão, permitindo que os jogadores cultivem recompensas exclusivas, incluindo Familiares Vanguarda.
+
+| Nome da Unidade | Raridade | Caminho de Obtenção | Função Principal |
+|---|---|---|---|
+| O Mais Forte de Hoje vs O Mais Forte da História | Vanguarda | Banner de Verão | Carregador Premium |
+| Oni Enfurecido vs Deus da Ira | Secreto | Linhas Mundiais | Núcleo de Dano Alto |
+| Enviado da Destruição (Resistência) | Exclusivo | Passe de Evento | Utilidade de Suporte |
+| Lorde (Fada) | Mítico | Modo Verão | DPS de Progressão |
+| Ceifador (Tesouras) | Mítico | Modo Verão | Controle de Grupo |
+| Doutor Amaldiçoado (Curandeiro) | Mítico | Modo Verão | Curandeiro de Suporte |
+
+<Checklist
+  id="update-13-5-checklist"
+  title="Itens de Ação da Atualização 13.5:"
+  items={[
+    "Desbloqueie e avance no Passe de Evento de Verão para cosméticos e unidades exclusivas",
+    "Cultive o Modo de Jogo de Verão infinito para acumular Chás Gelados para recompensas de evento",
+    "Limpe os Portais de Verão para obter Familiares Vanguarda e materiais de melhoria",
+    "Recicle Memórias duplicadas no hub social para adquirir Sucata de Memória",
+    "Foque no Banner Sazonal de Verão 26 para invocar novos carregadores de raridade Vanguarda"
+  ]}
+/>
+
+<Callout type="warning" title="Duração do Evento">
+Moedas específicas de eventos, como os Chás Gelados, não são transferidas para patches futuros. Gaste seus saldos de evento na loja sazonal antes que a janela do evento Adversários Eternos se feche.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Destaques de Patches Históricos: Atualizações 10.5 a 13.0">
+
+Examinar versões anteriores dentro do **registro de atualizações do Anime Vanguards** ajuda os jogadores que estão retornando a entender como os sistemas atuais evoluíram. Grandes adições como o modo Odisseia, guildas e mecânicas de invocação especializadas foram introduzidas ao longo de vários meses em 2026.
+
+<CardGrid cols={2}>
+  <Card title="Atualização 13.0: Ascensão Divina">
+    - **Caminhos de Ascensão**: Adicionado o NPC Kokashi para melhorar unidades Míticas.
+    - **Dinastia Pirata**: Introduziu novos estágios de Fenda e missões evolutivas temáticas de piratas.
+    - **Boss Rush**: Adicionado um modo focado em chefes para itens de progressão de alto nível.
+  </Card>
+  <Card title="Atualização 12.5: Marés de Mudança">
+    - **Reformulação da Odisseia**: Ajustou a escala de recompensas e introduziu modificadores de rodada selecionáveis.
+    - **Torre Elemental**: Implementou uma árvore de habilidades abrangente para bônus de status passivos.
+    - **Reformulação de Guilda**: Adicionou missões semanais de guilda, nivelamento e uma loja de guilda dedicada.
+  </Card>
+  <Card title="Atualização 11.0: Fúria Demoníaca">
+    - **Expansão da História**: Desbloqueou os estágios da campanha Colina das Espadas.
+    - **Mecânicas de Dispersão**: Introduziu inimigos que se dividem em alvos menores ao serem derrotados.
+    - **Memória de Unidade**: Lançou o sistema padrão de invocação de Memória.
+  </Card>
+  <Card title="Atualização 10.5: Solidão Congelada">
+    - **Evento de Inverno**: Adicionou o Lobby de Inverno, Modo de Jogo de Inverno e banner de evento.
+    - **Reinicialização de Linhas Mundiais**: Atualizou as recompensas de progressão por andar e limites de marcos.
+    - **Troca de Legado**: Adicionou uma opção de loja para trocar itens de eventos passados.
+  </Card>
+</CardGrid>
+
+Esses patches históricos mudaram o meta ao introduzir desafios de jogabilidade específicos. Por exemplo, a mecânica de Dispersão adicionada na Atualização 11.0 aumentou a demanda por unidades de área (AoE) de ataque rápido, enquanto o sistema de Ascensão na Atualização 13.0 tornou valiosas as invocações de Míticos duplicados.
+
+| Versão da Atualização | Modo Principal | Mecânica Central de Progressão | Cenário Principal da História |
+|---|---|---|---|
+| Atualização 13.0 | Boss Rush | Ascensão Kokashi | Fendas da Dinastia Pirata |
+| Atualização 12.5 | Reformulação da Odisseia | Árvore de Habilidades Elemental | Mapas de Reformulação de Guilda |
+| Atualização 11.0 | Colina das Espadas | Invocação de Memória Padrão | Postos Avançados Demoníacos |
+| Atualização 10.5 | Sobrevivência de Inverno | Trocas em Loja de Legado | Estágios do Lobby Congelado |
+
+<Callout type="info" title="Legado do Sistema">
+Recursos introduzidos em atualizações históricas, como os ciclos de reinicialização da Odisseia e Linhas Mundiais, permanecem ativos. Jogadores que estão retornando devem concluir sua progressão básica da história antes de entrar nesses modos especializados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sistemas Centrais de Jogabilidade Alterados pelas Atualizações">
+
+Vários sistemas centrais foram alterados para otimizar a progressão. A mudança mais notável na Atualização 13.5 é a reformulação do sistema de Memória. Anteriormente, os jogadores tinham que evoluir a Memória manualmente, o que exigia um esforço considerável. Agora, todas as Memórias são evoluídas por padrão, e evoluir uma unidade recompensa você automaticamente com sua Memória designada.
+
+Memórias duplicadas podem ser decompostas usando a nova mecânica de Reciclagem de Memória para ganhar Sucata de Memória, que pode ser gasta na Loja Exclusiva. Além disso, os Tickets de Nivelamento de Memória permitem que os jogadores aumentem instantaneamente o nível de uma Memória para 60.
+
+<Steps>
+  <Step num="1" title="Evolua as Unidades Base Primeiro">
+    Invoque unidades base Míticas, Secretas ou Vanguarda. Evolua-as usando materiais coletados em Estágios de Lenda, Raides ou Lojas de Evento. Este processo agora concede automaticamente a Memória evoluída padrão da unidade.
+  </Step>
+  <Step num="2" title="Gerencie o Inventário de Memória">
+    Equipe sua Memória recém-adquirida. Leve quaisquer duplicatas indesejadas ao hub social, recicle-as por Sucata de Memória e troque a sucata por itens de progressão de alto valor na Loja Exclusiva.
+  </Step>
+  <Step num="3" title="Otimize os Traços das Unidades">
+    Visite o NPC de Traços Mandra para rolar por traços de alto nível como Monarca, Etéreo ou Olhar Mortífero. Evolução, normalização e transferências de status não redefinem sua contagem de piedade de traços.
+  </Step>
+  <Step num="4" title="Execute os Passos de Ascensão">
+    Para unidades Míticas que você planeja manter a longo prazo, leve cópias duplicadas desbloqueadas e não brilhantes ao NPC Kokashi para aplicar níveis de Ascensão para melhorias permanentes de status.
+  </Step>
+</Steps>
+
+O sistema de Ascensão continua sendo uma mecânica chave de escala de endgame. No entanto, os jogadores devem planejar suas melhorias com cuidado, pois evoluir uma unidade Mítica para uma forma de raridade Secreta ou Vanguarda redefine todas as ascensões ativas. Evolua a unidade primeiro, depois aplique as melhorias de ascensão.
+
+| Nível de Ascensão | Tipo de Buff de Status | Bônus de Dano | Bônus de Alcance | Custo de Cópia |
+|---|---|---|---|---|
+| Ascensão I | Dano Base | +3% de Dano | Nenhum | 1 Duplicata |
+| Ascensão II | Alcance de Ataque | Nenhum | +5% de Alcance | 1 Duplicata |
+| Ascensão III | Dano Evoluído | +7% de Dano | Nenhum | 1 Duplicata |
+
+<Callout type="success" title="Dica de Progressão">
+Use os Tickets de Nivelamento de Memória para melhorar rapidamente as Memórias recém-adquiridas. Levar sua Memória equipada ao Nível 60 fornece escala de status imediata sem forçá-lo a cultivar estágios de nível inferior.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde posso encontrar o registro oficial de atualizações do Anime Vanguards?",
+    answer: "As mudanças oficiais são publicadas diretamente no site vanguards.gg sob a categoria de changelog, bem como no canal de anúncios do servidor oficial do Discord do Anime Vanguards."
+  },
+  {
+    question: "O que acontece com minha Memória antiga após a reformulação da Atualização 13.5?",
+    answer: "Sob o novo sistema, todas as Memórias são evoluídas por padrão. Evoluir suas unidades concede automaticamente sua Memória padrão, e Memórias duplicadas podem ser recicladas no hub social por Sucata de Memória."
+  },
+  {
+    question: "Meus níveis de Ascensão são transferidos quando evoluo uma unidade Mítica?",
+    answer: "Não. Evoluir uma unidade Mítica para uma raridade Secreta ou Vanguarda remove suas ascensões atuais. Para evitar desperdício de recursos, termine o caminho de evolução antes de aplicar ascensões no NPC Kokashi."
+  },
+  {
+    question: "Como ganho Chás Gelados no evento da Atualização 13.5?",
+    answer: "Os Chás Gelados são ganhos jogando o Modo de Jogo de Verão infinito, limpando Portais de Verão e completando desafios diários ou semanais do Passe de Evento durante a janela do evento Adversários Eternos."
+  }
+]} />
+
+<Callout type="info" title="Mantenha-se Conectado">
+Para atualizações ao vivo e discussões da comunidade, junte-se ao [Grupo do Roblox da Kitawari](https://www.roblox.com/communities/17219742/Kitawari) e siga os avisos dos desenvolvedores na conta oficial do X [Kitawari_](https://x.com/Kitawari_).
+</Callout>
+
+</Section>

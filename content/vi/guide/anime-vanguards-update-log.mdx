@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Nhật ký cập nhật Anime Vanguards: Tất cả ghi chú bản vá & Sự kiện trò chơi",
+  description: "Theo dõi những thay đổi mới nhất trong nhật ký cập nhật Anime Vanguards. Xem ghi chú bản vá, đơn vị mới và các sự kiện đang diễn ra cho bản cập nhật 13.5: Kẻ thù vĩnh cửu.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1a0f30/fff?text=Update+Log+Tracker",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Trình theo dõi nhật ký thay đổi**: **Nhật ký cập nhật Anime Vanguards** chính thức ghi lại các điều chỉnh hệ thống, đơn vị mới và các bản vá sự kiện lớn cho đến bản cập nhật 13.5.
+- **Tiêu điểm Kẻ thù vĩnh cửu**: Bản cập nhật 13.5 bao gồm Chế độ mùa hè, Cổng mùa hè, Lễ hội trà đá và sự thay đổi lớn trong quá trình tiến hóa Memoria.
+- **Điều chỉnh hệ thống Memoria**: Các tiến hóa Memoria đã bị loại bỏ; tất cả Memoria đều được tiến hóa mặc định và tự động nhận được khi bạn tiến hóa đơn vị.
+- **Lập kế hoạch thăng cấp (Ascension)**: Chỉ thăng cấp các đơn vị Mythic sau khi chúng đạt tiến hóa cuối cùng, vì việc chuyển đổi sang trạng thái Secret hoặc Vanguard sẽ xóa bỏ các lần thăng cấp trước đó.
+</Callout>
+
+<Section icon={Map} title="Theo dõi nhật ký cập nhật Anime Vanguards">
+
+Việc cập nhật các thay đổi trong trò chơi là rất quan trọng để tối ưu hóa đội hình và quản lý tài nguyên quý hiếm. Đội ngũ phát triển tại Kitawari thường xuyên triển khai các bản vá cân bằng nhỏ, cập nhật nội dung và những đợt đại tu theo mùa cho trò chơi. Cơ sở dữ liệu chính cho những thay đổi này vẫn là trang [Anime Vanguards trên Roblox](https://www.roblox.com/games/16146832113/Anime-Vanguards) chính thức, cùng với tài liệu được lưu trữ trên trang web chính tại [Vanguards Changelog](https://vanguards.gg/).
+
+Bằng cách theo dõi các thay đổi trong lịch sử phiên bản trò chơi, người chơi có thể dự đoán những thay đổi của meta, lập kế hoạch triệu hồi và xác định đơn vị nào đã được nâng cấp hoặc điều chỉnh. Nhật ký phiên bản phản ánh sự tiến triển ổn định từ các sảnh đợi theo mùa ban đầu đến các thử thách cuối game sâu sắc, đại tu hệ thống và chu kỳ sự kiện Mùa hè 26 hiện tại.
+
+| Phiên bản | Ngày phát hành | Chủ đề chính | Nội dung bổ sung cốt lõi |
+|---|---|---|---|
+| Cập nhật 13.5 | 2026-06-21 | Kẻ thù vĩnh cửu | Chế độ mùa hè, đại tu Memoria, Cổng |
+| Cập nhật 13.0 | 2026-05-31 | Thăng cấp thần thánh | Triều đại cướp biển, Boss Rush, Thăng cấp |
+| Cập nhật 12.5 | 2026-05-09 | Thủy triều thay đổi | Đại tu Odyssey, đại tu Guild, Cây kỹ năng |
+| Cập nhật 11.0 | 2026-02-27 | Cơn thịnh nộ quỷ dữ | Bản đồ Hill of Swords, cơ chế phân tán |
+| Cập nhật 10.5 | 2026-02-01 | Cô độc băng giá | Chế độ mùa đông, cửa hàng và biểu ngữ theo mùa |
+
+<Callout type="tip" title="Mẹo tài nguyên">
+Luôn kiểm tra chéo các mã hoạt động với các nhật ký cập nhật mới nhất. Các bản phát hành phiên bản lớn thường giới thiệu các mã phần thưởng tạm thời cung cấp Reroll chỉ số (Trait Rerolls), Mảnh Memoria hoặc tiền sự kiện.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tổng quan bản vá mới nhất: Cập nhật 13.5 (Kẻ thù vĩnh cửu)">
+
+Ra mắt vào ngày 21 tháng 6 năm 2026, bản cập nhật **Kẻ thù vĩnh cửu** là đợt cập nhật nội dung lớn mới nhất. Bản vá này tập trung mạnh vào nội dung sinh tồn theo chủ đề mùa hè, các đơn vị mới và các điều chỉnh chất lượng cuộc sống cho hệ thống tiến trình. Các hoạt động sự kiện chính xoay quanh Chế độ mùa hè, nơi người chơi chiến đấu với những đợt kẻ thù vô tận để kiếm Trà đá, sau đó có thể dùng để mua sắm tại cửa hàng theo mùa.
+
+Sáu đơn vị mới đã gia nhập danh sách, được chia giữa triệu hồi biểu ngữ, mục tiêu Thẻ sự kiện và phần thưởng tiến trình Worldlines. Bản vá cũng giới thiệu Cổng mùa hè, cho phép người chơi cày cuốc các phần thưởng độc quyền, bao gồm cả Vanguard Familiars.
+
+| Tên đơn vị | Độ hiếm | Cách nhận | Vai trò chính |
+|---|---|---|---|
+| Today's Strongest vs History's Strongest | Vanguard | Biểu ngữ mùa hè | Sát thương chủ lực (Carry) |
+| Raging Oni vs Wrath God | Secret | Worldlines | Sát thương nòng cốt cao |
+| Envoy of Destruction (Resistance) | Exclusive | Thẻ sự kiện | Hỗ trợ tiện ích |
+| Lord (Fairy) | Mythic | Chế độ mùa hè | DPS tiến trình |
+| Reaper (Scissors) | Mythic | Chế độ mùa hè | Kiểm soát đám đông |
+| Cursed Doctor (Healer) | Mythic | Chế độ mùa hè | Hỗ trợ hồi máu |
+
+<Checklist
+  id="update-13-5-checklist"
+  title="Các mục cần làm trong bản cập nhật 13.5:"
+  items={[
+    "Mở khóa và tiến hành Thẻ sự kiện mùa hè để nhận vật phẩm trang trí và đơn vị độc quyền",
+    "Cày cuốc Chế độ mùa hè vô tận để tích trữ Trà đá cho phần thưởng sự kiện",
+    "Vượt Cổng mùa hè để nhận Vanguard Familiars và vật liệu nâng cấp",
+    "Tái chế Memoria trùng lặp tại trung tâm xã hội để nhận Memoria Scrap",
+    "Nhắm tới Biểu ngữ mùa hè 26 để triệu hồi các đơn vị carry độ hiếm Vanguard mới"
+  ]}
+/>
+
+<Callout type="warning" title="Thời gian sự kiện">
+Các loại tiền tệ dành riêng cho sự kiện như Trà đá sẽ không được chuyển sang các bản vá trong tương lai. Hãy tiêu số dư sự kiện của bạn trong cửa hàng theo mùa trước khi thời gian sự kiện Kẻ thù vĩnh cửu kết thúc.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Điểm nhấn các bản vá lịch sử: Cập nhật 10.5 đến 13.0">
+
+Việc xem xét các phiên bản trước trong **nhật ký cập nhật anime vanguards** giúp người chơi quay trở lại hiểu cách các hệ thống hiện tại đã phát triển. Các bổ sung lớn như chế độ Odyssey, bang hội và cơ chế triệu hồi chuyên biệt đã được giới thiệu trong vài tháng của năm 2026.
+
+<CardGrid cols={2}>
+  <Card title="Cập nhật 13.0: Thăng cấp thần thánh">
+    - **Lộ trình thăng cấp**: Thêm NPC Kokashi để nâng cấp các đơn vị Mythic.
+    - **Triều đại cướp biển**: Giới thiệu các giai đoạn Rift mới và nhiệm vụ tiến hóa theo chủ đề cướp biển.
+    - **Boss Rush**: Thêm chế độ tập trung vào boss để nhận các vật phẩm tiến trình cấp cao.
+  </Card>
+  <Card title="Cập nhật 12.5: Thủy triều thay đổi">
+    - **Đại tu Odyssey**: Điều chỉnh thang đo phần thưởng và giới thiệu các sửa đổi lượt chơi có thể chọn.
+    - **Tháp nguyên tố**: Triển khai cây kỹ năng toàn diện cho các chỉ số thụ động.
+    - **Đại tu Guild**: Thêm nhiệm vụ guild hàng tuần, hệ thống cấp độ và cửa hàng guild chuyên dụng.
+  </Card>
+  <Card title="Cập nhật 11.0: Cơn thịnh nộ quỷ dữ">
+    - **Mở rộng cốt truyện**: Mở khóa các giai đoạn chiến dịch Hill of Swords.
+    - **Cơ chế phân tán**: Giới thiệu kẻ thù chia nhỏ thành các mục tiêu nhỏ hơn khi bị đánh bại.
+    - **Đơn vị Memoria**: Ra mắt hệ thống triệu hồi Memoria tiêu chuẩn.
+  </Card>
+  <Card title="Cập nhật 10.5: Cô độc băng giá">
+    - **Sự kiện mùa đông**: Thêm Sảnh mùa đông, Chế độ mùa đông và biểu ngữ sự kiện.
+    - **Đặt lại Worldlines**: Làm mới phần thưởng tiến trình theo tầng và giới hạn cột mốc.
+    - **Trao đổi di sản**: Thêm tùy chọn cửa hàng để trao đổi các vật phẩm sự kiện cũ.
+  </Card>
+</CardGrid>
+
+Những bản vá lịch sử này đã thay đổi meta bằng cách giới thiệu các thử thách lối chơi cụ thể. Ví dụ, cơ chế Phân tán được thêm vào trong bản cập nhật 11.0 đã làm tăng nhu cầu về các đơn vị AoE tấn công nhanh, trong khi hệ thống Thăng cấp trong bản cập nhật 13.0 đã làm cho các lần triệu hồi Mythic trùng lặp trở nên có giá trị.
+
+| Phiên bản cập nhật | Chế độ chính | Cơ chế tiến trình cốt lõi | Bối cảnh cốt truyện chính |
+|---|---|---|---|
+| Cập nhật 13.0 | Boss Rush | Thăng cấp Kokashi | Rifts Triều đại cướp biển |
+| Cập nhật 12.5 | Đại tu Odyssey | Cây kỹ năng nguyên tố | Bản đồ Đại tu Guild |
+| Cập nhật 11.0 | Hill of Swords | Triệu hồi Memoria tiêu chuẩn | Tiền đồn quỷ dữ |
+| Cập nhật 10.5 | Sinh tồn mùa đông | Trao đổi cửa hàng di sản | Các giai đoạn Sảnh băng giá |
+
+<Callout type="info" title="Di sản hệ thống">
+Các tính năng được giới thiệu trong các bản cập nhật lịch sử, chẳng hạn như chu kỳ đặt lại Odyssey và Worldlines, vẫn hoạt động. Người chơi quay trở lại nên hoàn thành tiến trình cốt truyện cơ bản trước khi tham gia vào các chế độ chuyên biệt này.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hệ thống lối chơi cốt lõi thay đổi theo cập nhật">
+
+Nhiều hệ thống cốt lõi đã thay đổi để hợp lý hóa tiến trình. Thay đổi đáng chú ý nhất trong bản cập nhật 13.5 là việc đại tu hệ thống Memoria. Trước đây, người chơi phải tiến hóa Memoria thủ công, đòi hỏi phải cày cuốc rất nhiều. Giờ đây, tất cả Memoria đều được tiến hóa mặc định và việc tiến hóa một đơn vị sẽ tự động thưởng cho bạn Memoria được chỉ định của nó.
+
+Memoria trùng lặp có thể được phân tách bằng cơ chế Tái chế Memoria mới để kiếm Memoria Scrap, có thể chi tiêu trong Cửa hàng độc quyền. Ngoài ra, Vé nâng cấp Memoria cho phép người chơi tăng ngay cấp độ của Memoria lên 60.
+
+<Steps>
+  <Step num="1" title="Tiến hóa đơn vị cơ bản trước">
+    Triệu hồi các đơn vị Mythic, Secret hoặc Vanguard cơ bản. Tiến hóa chúng bằng các vật liệu thu thập được từ các giai đoạn Huyền thoại, Đột kích hoặc Cửa hàng sự kiện. Quá trình này hiện tự động trao tặng Memoria đã tiến hóa mặc định của đơn vị.
+  </Step>
+  <Step num="2" title="Quản lý kho Memoria">
+    Trang bị Memoria mới nhận được của bạn. Mang bất kỳ bản sao không mong muốn nào đến trung tâm xã hội, tái chế chúng để lấy Memoria Scrap và đổi scrap lấy các vật phẩm tiến trình giá trị cao trong Cửa hàng độc quyền.
+  </Step>
+  <Step num="3" title="Tối ưu hóa các chỉ số (Traits)">
+    Ghé thăm NPC Mandra Traits để quay các chỉ số cấp cao như Monarch, Ethereal hoặc Deadeye. Việc tiến hóa, chuẩn hóa và chuyển đổi chỉ số không đặt lại số lần quay chỉ số (pity count) của bạn.
+  </Step>
+  <Step num="4" title="Thực hiện các bước thăng cấp">
+    Đối với các đơn vị Mythic mà bạn dự định giữ lâu dài, hãy mang các bản sao trùng lặp đã mở khóa, không phải bản shiny đến NPC Kokashi để áp dụng các cấp Thăng cấp nhằm nâng cấp chỉ số vĩnh viễn.
+  </Step>
+</Steps>
+
+Hệ thống Thăng cấp vẫn là một cơ chế mở rộng cuối game quan trọng. Tuy nhiên, người chơi phải lập kế hoạch nâng cấp cẩn thận vì việc tiến hóa một đơn vị Mythic thành dạng độ hiếm Secret hoặc Vanguard sẽ đặt lại tất cả các lần thăng cấp đang hoạt động. Hãy tiến hóa đơn vị trước, sau đó mới áp dụng nâng cấp thăng cấp.
+
+| Cấp thăng cấp | Loại buff chỉ số | Thưởng sát thương | Thưởng phạm vi | Chi phí bản sao |
+|---|---|---|---|---|
+| Thăng cấp I | Sát thương cơ bản | +3% Sát thương | Không có | 1 bản sao |
+| Thăng cấp II | Phạm vi tấn công | Không có | +5% Phạm vi | 1 bản sao |
+| Thăng cấp III | Sát thương tiến hóa | +7% Sát thương | Không có | 1 bản sao |
+
+<Callout type="success" title="Mẹo tiến trình">
+Sử dụng Vé nâng cấp Memoria để nâng cấp nhanh Memoria mới nhận được. Đưa Memoria được trang bị của bạn lên Cấp 60 cung cấp khả năng tăng chỉ số tức thì mà không buộc bạn phải cày cuốc các giai đoạn cấp thấp hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Tôi có thể tìm nhật ký cập nhật anime vanguards chính thức ở đâu?",
+    answer: "Các thay đổi chính thức được đăng trực tiếp lên trang web vanguards.gg trong danh mục nhật ký thay đổi, cũng như trong kênh thông báo của máy chủ Discord chính thức của Anime Vanguards."
+  },
+  {
+    question: "Chuyện gì xảy ra với Memoria cũ của tôi sau khi đại tu bản cập nhật 13.5?",
+    answer: "Theo hệ thống mới, tất cả Memoria đều được tiến hóa mặc định. Việc tiến hóa các đơn vị của bạn sẽ tự động cấp Memoria mặc định của chúng, và các Memoria trùng lặp có thể được tái chế tại trung tâm xã hội để lấy Memoria Scrap."
+  },
+  {
+    question: "Các cấp Thăng cấp của tôi có chuyển sang khi tôi tiến hóa đơn vị Mythic không?",
+    answer: "Không. Việc tiến hóa một đơn vị Mythic lên độ hiếm Secret hoặc Vanguard sẽ xóa bỏ các lần thăng cấp hiện tại của nó. Để tránh lãng phí tài nguyên, hãy hoàn thành lộ trình tiến hóa trước khi áp dụng thăng cấp tại NPC Kokashi."
+  },
+  {
+    question: "Làm thế nào để kiếm Trà đá trong sự kiện cập nhật 13.5?",
+    answer: "Trà đá kiếm được bằng cách chơi Chế độ mùa hè vô tận, vượt Cổng mùa hè và hoàn thành các thử thách Thẻ sự kiện hàng ngày hoặc hàng tuần trong thời gian sự kiện Kẻ thù vĩnh cửu."
+  }
+]} />
+
+<Callout type="info" title="Kết nối">
+Để cập nhật trực tiếp và thảo luận cộng đồng, hãy tham gia [Nhóm Roblox Kitawari](https://www.roblox.com/communities/17219742/Kitawari) và theo dõi các thông báo của nhà phát triển trên tài khoản X chính thức [Kitawari_](https://x.com/Kitawari_).
+</Callout>
+
+</Section>

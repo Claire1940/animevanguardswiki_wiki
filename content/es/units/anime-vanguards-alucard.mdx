@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Alucard: Guía de Mejor Build, Estadísticas y Evolución",
+  description: "Aprende a construir, evolucionar y jugar con Alucard (Alocard) en Anime Vanguards. Domina las mejores estrategias de DPS de Sangrado, rasgos y sinergias de equipo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Alucard+Vampire+King+Build",
+  date: "2026-06-23",
+  author: "Equipo de la Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal**: La unidad **Anime Vanguards Alucard** (conocida en el juego como Alocard) funciona como un DPS de Sangrado de primer nivel para múltiples carriles.
+- **Mecánica Clave**: Acumula un fuerte daño por sangrado en el tiempo, ignorando las defensas estándar en objetivos con mucha salud.
+- **Mejor Estrategia**: Colócalo en puntos de estrangulamiento o esquinas donde los enemigos pasen por su rango varias veces para maximizar las acumulaciones de sangrado.
+- **Mejor Rasgo**: Monarch sigue siendo la cima absoluta para el escalado de daño bruto, mientras que Ethereal optimiza la velocidad de ataque.
+- **Rol en el Meta**: Limpieza rápida de alto nivel para etapas de historia de múltiples carriles, modos Infinitos y raids de alta dificultad.
+</Callout>
+
+<Section icon={Map} title="Descripción general y obtención de Alucard en Anime Vanguards">
+
+El personaje **Anime Vanguards Alucard**, designado oficialmente como Alocard (Rey Vampiro), es una unidad de rareza Vanguard que funciona como un DPS de Sangrado altamente especializado. En el meta actual, los jugadores dependen de esta unidad para manejar oleadas densas y mapas de carriles divididos debido a su cobertura excepcional y daño por estado basado en ticks. Comprender cómo adquirir y desplegar esta unidad es esencial para superar el contenido de final de juego en la actualización Eternal Adversaries.
+
+A diferencia de las unidades estándar que dependen de ataques físicos básicos, esta unidad utiliza multiplicadores de Sangrado escalables. Cada golpe aplica una acumulación de daño por estado que agota las barras de salud del enemigo con el tiempo. Esto lo hace particularmente letal contra objetivos blindados y jefes con altas estadísticas de reducción de daño.
+
+| Parámetro | Valor Base | Importancia Táctica |
+| :--- | :--- | :--- |
+| **Rareza** | Vanguard | Unidad de élite que requiere recursos de mejora sustanciales |
+| **Rol Principal** | DPS de Sangrado | Daño sostenido en el tiempo a través de múltiples rutas |
+| **Rango Base** | 22 unidades | Alcance inicial medio, que se expande enormemente tras la evolución |
+| **Límite de Colocación** | 3 unidades máx. | Requiere una cuidadosa asignación de carril para evitar brechas de cobertura |
+| **Método de Invocación** | Rotación de Banner | Requiere Gemas para invocar durante ciclos de banner específicos |
+
+<Callout type="warning" title="Disponibilidad en Banners">
+Los banners de rareza Vanguard rotan con frecuencia. Asegúrate siempre de guardar al menos de 10,000 a 15,000 Gemas antes de intentar invocar a esta unidad para garantizar alcanzar el hito de piedad durante las ventanas de rotación activa.
+</Callout>
+
+Para invocarlo, debes monitorear los ciclos de banner activos en el lobby principal. Aunque la tasa de caída de las unidades de rareza Vanguard es baja, utilizar pociones de suerte e invocar en grupos puede optimizar ligeramente tus posibilidades. Una vez adquirido, debe ser subido de nivel inmediatamente a través de limpiezas de historia o comida de XP antes de intentar su cadena de misiones de evolución.
+
+</Section>
+
+<Section icon={Swords} title="Estadísticas base y escalado de daño">
+
+Para evaluar el verdadero valor de la unidad **Anime Vanguards Alucard**, los jugadores deben analizar cómo escalan sus estadísticas desde su forma básica hasta su estado evolucionado de Rey Vampiro. Su progresión de daño no es lineal; en cambio, obtiene multiplicadores masivos durante sus mejoras finales, lo que afecta directamente la potencia de su daño por Sangrado.
+
+Los cálculos de daño por Sangrado se basan directamente en la estadística de daño base activa de la unidad en el momento en que se registra el golpe. Por lo tanto, subir de nivel a la unidad y utilizar transferencias de estadísticas de alto porcentaje es crucial. La siguiente tabla describe sus marcadores de progresión.
+
+| Fase de la Unidad | Daño Base | SPA de Ataque | Valor de Rango | Tipo de Patrón de Ataque |
+| :--- | :--- | :--- | :--- | :--- |
+| **Forma Base** | 1,200 | 6.5s | 22 | Tajo lineal apuntando al enemigo frontal |
+| **Mejora Intermedia** | 2,800 | 5.8s | 26 | Patrón de tajo en cono ancho |
+| **Forma Evolucionada** | 4,800 | 5.2s | 32 | AoE circular completo con ticks de Sangrado continuos |
+
+<Callout type="success" title="Mecánicas de acumulación de Sangrado">
+El daño por Sangrado ignora los escudos de reducción de daño estándar del enemigo. Si un jefe tiene una alta resistencia física, acumular Sangrado con esta unidad es una de las formas más fiables de agotar su reserva de salud.
+</Callout>
+
+Durante el combate activo, su prioridad de colocación debe centrarse en el primer tercio del mapa. Colocarlo demasiado atrás evita que sus acumulaciones de Sangrado alcancen su máximo potencial antes de que los enemigos salgan de su rango. Las configuraciones de equipo siempre deben contar con soportes de ralentización o congelación para mantener a los enemigos atrapados dentro de su zona de daño el mayor tiempo posible.
+
+</Section>
+
+<Section icon={Sparkles} title="Guía paso a paso de evolución y materiales">
+
+Evolucionar a tu unidad a su verdadera forma desbloquea su rango máximo y mejora su perfil de ataque para aplicar el legendario estado de sangrado del Rey Vampiro. La ruta de evolución requiere materiales específicos que deben ser cultivados en etapas de Leyenda, raids y tiendas de eventos activos.
+
+Para prepararte para esta mejora, debes recolectar una variedad de Piedras de Esencia y objetos de jefe especializados. Aquí está la secuencia recomendada para completar el proceso de evolución sin desperdiciar recursos en construcciones incompletas.
+
+<Steps>
+  <Step num="1" title="Lleva la unidad al nivel máximo">
+    Asegúrate de que tu unidad base esté completamente subida de nivel. Alimentar con unidades duplicadas o usar comida de XP de alto nivel es la forma más rápida de prepararlo para la estación de Evolución.
+  </Step>
+  <Step num="2" title="Reúne Piedras de Esencia">
+    Cultiva los desafíos diarios y las etapas de grieta para asegurar Piedras de Esencia Rojas, Púrpuras y Arcoíris. Estas actúan como la base elemental para todas las evoluciones de Vanguard.
+  </Step>
+  <Step num="3" title="Adquiere la Reliquia Vampírica">
+    Completa las etapas de Leyenda temáticas para obtener el objeto de evolución único asociado con el tema de vampiros. Estos objetos tienen una tasa de caída fija y pueden requerir múltiples intentos.
+  </Step>
+  <Step num="4" title="Visita la Estación de Evolución">
+    Navega al área de mejora en el lobby, inserta la unidad, paga la tarifa de Oro requerida y completa la transformación para desbloquear la variante evolucionada del Rey Vampiro.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Actualizaciones del sistema de Memoria">
+Bajo las reglas actuales de la Actualización 13.5, evolucionar esta unidad otorga automáticamente su Memoria de Unidad designada. Ya no necesitas ejecutar evoluciones de Memoria por separado, preservando tus valiosos restos.
+</Callout>
+
+Ten en cuenta que cuando evolucionas a la unidad, sus estadísticas base recibirán un multiplicador masivo, pero su umbral de piedad de rasgos permanece intacto. Esto significa que no tienes que preocuparte por perder tu progreso hacia un rasgo mítico garantizado al actualizarlo.
+
+</Section>
+
+<Section icon={Target} title="Mejores rasgos y reglas de prioridad de reroll">
+
+Seleccionar el rasgo correcto puede elevar la unidad **Anime Vanguards Alucard** de un simple defensor de carril a un carry absoluto del meta. Dado que su principal fuente de daño es el efecto de Sangrado, los rasgos que aumentan su valor de ataque bruto y frecuencia de ataque son altamente priorizados.
+
+Al visitar al NPC de Rasgos de Mandra, debes apuntar a rasgos míticos específicos basados en tu reserva de recursos actual. La siguiente tabla enumera los rasgos óptimos para esta unidad y su efectividad de combate relativa.
+
+| Nombre del Rasgo | Probabilidad de Obtención | Ajustes de Estadísticas | Evaluación del Meta |
+| :--- | :--- | :--- | :--- |
+| **Monarch** | 0.1% | Daño +50%, SPA -10%, Límite de colocación reducido | Excelente para puntos de estrangulamiento de un solo carril |
+| **Ethereal** | 0.175% | Velocidad de Ataque +15%, Rango +10%, Aumento de daño | Mejor rasgo general para mapas de carriles divididos |
+| **Deadeye** | 0.375% | Tasa Crítica +20%, Daño Crítico +35% | Alto techo de daño para encuentros con jefes |
+| **Blitz** | 1.85% | SPA mejorado en 12% | Fuerte opción económica para una aplicación de acumulaciones más rápida |
+
+<CardGrid cols={2}>
+  <Card title="Estrategia Monarch">
+    Utiliza Monarch si ejecutas una configuración de equipo que respalda a un solo hiper-carry. El aumento masivo de daño escala directamente el daño de cada tick de Sangrado a niveles extremos.
+  </Card>
+  <Card title="Estrategia Ethereal">
+    Selecciona Ethereal si necesitas una cobertura constante en mapas de múltiples carriles. El rango adicional asegura que la unidad pueda cubrir dos carriles simultáneamente mientras acumula sangrado rápidamente.
+  </Card>
+  <Card title="Build económica Blitz">
+    Si tienes pocos Rerolls de Rasgos, Blitz es una solución provisional altamente aceptable. La mayor velocidad de ataque permite a la unidad aplicar acumulaciones de Sangrado más rápido antes de que los enemigos escapen.
+  </Card>
+  <Card title="Asesino de Jefes Deadeye">
+    Perfecto para raids y modos de jefe. Cuando se combina con buffs de tasa crítica de unidades de soporte, Deadeye derrite las barras de salud de los jefes en segundos.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Reglas de piedad de rasgos">
+Los rasgos míticos tienen umbrales de piedad establecidos (como 1500 tiradas para Monarch). Planifica tus sesiones de reroll en torno a estos números para asegurarte de no quedarte sin recursos justo antes de obtener una caída garantizada.
+</Callout>
+
+Evita buscar rasgos de utilidad especializados como Fortune en esta unidad. Su costo de despliegue es alto y su función principal es el ataque bruto; los rasgos de economía son mucho más adecuados para unidades de soporte dedicadas.
+
+</Section>
+
+<Section icon={Shield} title="Sinergia de equipo en el meta y reglas de colocación">
+
+Para maximizar el rendimiento de la unidad **Anime Vanguards Alucard** en contenido de alto nivel, debes emparejarlo con unidades que complementen su estilo de juego de daño en el tiempo. Debido a que el daño por Sangrado requiere tiempo para reducir la salud, las desventajas de ralentización, congelación y vulnerabilidad son altamente efectivas.
+
+El posicionamiento también es crítico. Colocar esta unidad en un carril recto minimiza su utilidad, mientras que colocarlo en curvas en U o intersecciones permite que sus ataques AoE circulares golpeen a los mismos enemigos varias veces.
+
+| Unidad Complementaria | Rol | Interacción Táctica |
+| :--- | :--- | :--- |
+| **Ice Queen (Release)** | Control de Congelación | Mantiene a los enemigos en su lugar dentro de las zonas de sangrado activas |
+| **Demon Leader (Control)** | Economía y reducción de costo | Reduce el costo de colocación, permitiendo un despliegue temprano |
+| **Gujo (Infinity)** | Control de Masas / Ralentización | Reduce la velocidad del enemigo, extendiendo la duración de los ticks de sangrado |
+| **Song Jinwu** | Invocaciones de Sombra | Actúa como una barrera de primera línea para detener oleadas rápidas |
+
+<Callout type="warning" title="Limitaciones de colocación">
+No apiles tus tres espacios de colocación en la misma ubicación. Espárcelos ligeramente a lo largo del camino para asegurar que los enemigos que escapen sean inmediatamente re-afectados con nuevas acumulaciones de Sangrado.
+</Callout>
+
+Cuando juegues de forma cooperativa, coordínate con tus compañeros de equipo para que ellos manejen las unidades de economía de juego temprano mientras tú ahorras para desplegar a tu carry principal. Esto evita que pierdas oleadas durante la transición del juego temprano al medio.
+
+<Checklist
+  id="alucard-optimization"
+  title="Lista de verificación de optimización:"
+  items={[
+    "Alcanza el nivel máximo de la unidad para escalar los valores de daño base",
+    "Evoluciona a la forma de Rey Vampiro para desbloquear el ataque AoE circular",
+    "Busca los rasgos Monarch, Ethereal o Blitz en Mandra",
+    "Empareja con al menos una unidad de soporte de utilidad de congelación o ralentización",
+    "Posiciona la unidad en curvas o intersecciones de carril para obtener la máxima cobertura"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+Usa esta sección de preguntas frecuentes para resolver rápidamente dudas comunes sobre las rutas de construcción, mecánicas y actualizaciones para este carry Vanguard.
+
+<FAQ items={[
+  {
+    question: "¿Cómo funciona la mecánica de Sangrado para Alucard en Anime Vanguards?",
+    answer: "Cada golpe aplica una acumulación de Sangrado que inflige un porcentaje del daño base de la unidad durante una duración determinada. Este daño se aplica continuamente e ignora los escudos de defensa física."
+  },
+  {
+    question: "¿Puedo transferir estadísticas a la versión evolucionada de esta unidad?",
+    answer: "Sí, puedes transferir estadísticas antes o después de la evolución. La estación de Evolución preserva tus grados de estadística, pero generalmente se recomienda optimizar las estadísticas desde el principio."
+  },
+  {
+    question: "¿Por qué la unidad se llama Alocard en la interfaz del juego?",
+    answer: "El juego utiliza nombres seguros para los derechos de autor como Alocard (Rey Vampiro) para cumplir con las pautas de la plataforma, pero se refiere a la misma construcción icónica del personaje."
+  },
+  {
+    question: "¿Qué modo de juego es mejor para cultivar sus materiales de evolución?",
+    answer: "Las etapas de Leyenda y las grietas diarias específicas ofrecen las tasas de caída más altas para las Piedras de Esencia y los objetos únicos necesarios para las evoluciones de Vanguard."
+  }
+]} />
+
+</Section>

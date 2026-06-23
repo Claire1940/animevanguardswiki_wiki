@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "El mejor equipo de Anime Vanguards: Alineaciones meta y guía de configuración",
+  description: "Construye el mejor equipo de Anime Vanguards con nuestra guía sobre núcleos meta, unidades de soporte, configuraciones de progresión y estrategias de la Actualización 13.5 Adversarios Eternos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/270091/fff?text=Anime+Vanguards+Best+Team+Guide",
+  date: "2026-06-23",
+  author: "Equipo de la Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Configuración principal**: Construir el **mejor equipo de Anime Vanguards** requiere un equilibrio de DPS puro, control de masas (CC) y soporte económico.
+- **Unidad de daño principal (Carry)**: Rogita (Súper 4) sigue siendo el mejor cazador de jefes, mientras que Alocard (Rey Vampiro) destaca en daño por sangrado en múltiples carriles.
+- **Unidades de utilidad principales**: Dios (Sobre el Cielo) y Gujo (Infinito) ofrecen un control inigualable de detención del tiempo y aturdimiento para mantener los carriles.
+- **Núcleo económico**: Líder Demonio (Control) es esencial para reducir los costos de despliegue y potenciar a los equipos de Cazadores de Demonios.
+- **Enfoque de la Actualización 13.5**: Incorpora nuevas unidades de temporada como El Más Fuerte de Hoy vs El Más Fuerte de la Historia para dominar el Modo de Juego de Verano.
+</Callout>
+
+<Section icon={Target} title="Principios básicos para la creación de equipos">
+
+Construir un equipo confiable en Vanguardias de Anime no se trata simplemente de acumular las unidades Secretas o Vanguardias más llamativas. Un equipo funcional necesita sinergia, gestión de costos y control de carriles. Los jugadores deben tener en cuenta la defensa en las primeras oleadas, la generación constante de ingresos, el control de masas (CC) y un alto daño contra jefes. 
+
+Sin una unidad de economía, los jugadores tendrán dificultades para pagar las costosas mejoras de las unidades de daño meta durante las oleadas de mitad de partida. Del mismo modo, descuidar el control de masas hará que los enemigos rápidos se filtren a través de las defensas en las dificultades Pesadilla más difíciles. La eficiencia de los espacios también es un factor importante, razón por la cual las unidades basadas en invocaciones como Song Jinwu e Igros son muy valoradas. Estas crean unidades de bloqueo adicionales en el camino sin ocupar los espacios estándar de colocación de unidades.
+
+| Rol | Funciones clave | Unidades óptimas |
+| :--- | :--- | :--- |
+| **Economía / Granja** | Genera oro, reduce los costos de despliegue, estabiliza las mejoras | Líder Demonio (Control), unidades de granja con rasgo Fortuna |
+| **DPS principal** | Limpia oleadas densas, derrota jefes, aplica daño en el tiempo | Rogita (Súper 4), Alocard (Rey Vampiro), Híbrido Demonio |
+| **Control de masas** | Aturde, ralentiza, congela o retiene los carriles enemigos | Dios (Sobre el Cielo), Gujo (Infinito), Reina de Hielo (Liberación) |
+| **Soporte de invocación** | Crea bloqueadores adicionales, controla carriles, ahorra espacios de colocación | Song Jinwu e Igros, Rey Lich (Gobernante) |
+
+<Callout type="info" title="Nota sobre eficiencia de espacios">
+Las unidades de Vanguardia como Song Jinwu y el Rey Lich generan soldados de sombra directamente en el camino. Estas invocaciones atraen el aggro de los enemigos y causan daño continuo, lo que te permite defender múltiples carriles sin exceder los límites de colocación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Las mejores configuraciones de equipo en Anime Vanguards">
+
+El contenido de juego tardío exige equipos especializados adaptados a los desafíos de mapas específicos. Ya sea que te enfrentes al Modo Infinito, a las Fases de Leyenda o a las salas de Incursión (Raid), las composiciones del **mejor equipo de Anime Vanguards** utilizan combinaciones de unidades altamente sinérgicas. El meta actual se centra en la detonación de sangrado, la presión de invocación y las estrategias de congelación absoluta.
+
+A continuación se presentan tres plantillas especializadas diseñadas para manejar diferentes entornos de alta dificultad.
+
+<CardGrid cols={3}>
+  <Card title="Configuración de Sangrado y Detonación">
+    - **Daño principal (Carry)**: Híbrido Demonio (Motosierra)
+    - **Potenciador / Economía**: Líder Demonio (Control)
+    - **CC**: Gujo (Infinito)
+    - Se enfoca en acumular efectos de sangrado y detonarlos para un daño explosivo masivo.
+  </Card>
+  <Card title="Presión de carril con invocadores">
+    - **Daño principal (Carry)**: Song Jinwu e Igros
+    - **Soporte / Daño**: Rey Lich (Gobernante)
+    - **CC**: Dios (Sobre el Cielo)
+    - Domina carriles largos llenando el camino con unidades de sombra persistentes.
+  </Card>
+  <Card title="Bloqueo de congelación absoluta">
+    - **Daño principal (Carry)**: Rogita (Súper 4)
+    - **Soporte de CC**: Reina de Hielo (Liberación)
+    - **Utilidad**: Divalo (Réquiem)
+    - Congela grandes oleadas en su lugar mientras los atacantes de un solo objetivo eliminan a los jefes.
+  </Card>
+</CardGrid>
+
+| Tipo de alineación | Unidades activas | Sinergias clave |
+| :--- | :--- | :--- |
+| **Meta de Cazador de Demonios** | Híbrido Demonio, Líder Demonio, Gujo (Infinito), Okorun | Líder Demonio reduce drásticamente los costos del equipo y aumenta el daño del Cazador de Demonios, maximizando la velocidad de sangrado. |
+| **Meta de spam de invocaciones** | Song Jinwu, Rey Lich (Gobernante), Alocard, Skele King | Llena el campo de batalla con unidades autónomas para detener las embestidas rápidas de los enemigos en mapas de múltiples carriles. |
+| **Meta de Boss Rush** | Rogita (Súper 4), Dios (Sobre el Cielo), Divalo, Teacher | Dios ralentiza y detiene el tiempo, mientras que Rogita aplica un daño crítico masivo a un solo objetivo. |
+
+<Callout type="tip" title="Maximización de sinergias">
+Siempre empareja a Híbrido Demonio con Líder Demonio. La reducción del costo de despliegue que proporciona Líder Demonio te permite establecer tu defensa mucho antes en los modos Pesadilla e Incursiones.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progresión de equipos económicos y a mitad de juego">
+
+Los jugadores nuevos no pueden invocar de inmediato unidades de Vanguardia o Secretas. La transición de unidades iniciales básicas a equipos meta de alto nivel requiere un plan de mejora paso a paso. El enfoque durante la progresión temprana es completar las fases del Modo Historia para farmear gemas y oro, que luego se utilizan para invocar unidades más fuertes.
+
+Evita invertir mucho en personajes temporales. En su lugar, enfócate en asegurar unidades Míticas económicas que ofrezcan un excelente valor por su costo.
+
+<Steps>
+  <Step num="1" title="Usa las unidades iniciales de manera eficiente">
+    Comienza con Ichiga, Narutu o Luffo para limpiar los primeros mundos. No gastes giros de rasgos (Trait Rerolls) ni fichas de estadísticas (Stat Chips) en estos personajes iniciales; guarda tus recursos para los miembros permanentes del equipo.
+  </Step>
+  <Step num="2" title="Asegura una unidad de área (AoE) económica">
+    Invoca unidades Míticas como Demonio Explosivo (Bomba) o Shinobi Maldito (Llamas Negras). Su daño de quemadura en área de efecto (AoE) ayuda a limpiar oleadas densas en los primeros capítulos de la historia.
+  </Step>
+  <Step num="3" title="Añade utilidad para la mitad del juego">
+    Incorpora a Saber (Tirano Negro) o al Rey Esqueleto (Rock) para cerrar la brecha. Estas unidades ofrecen un daño respetable y una buena escala de progresión sin requerir una cantidad excesiva de oro para mejoras.
+  </Step>
+  <Step num="4" title="Transición a unidades Secretas y de Vanguardia">
+    Una vez que acumules gemas de las recompensas diarias, misiones y códigos activos, apunta a los banners de invocación que incluyan atacantes meta como Rogita (Súper 4) o Gujo (Infinito).
+  </Step>
+</Steps>
+
+| Etapa | Unidades recomendadas | Enfoque estratégico |
+| :--- | :--- | :--- |
+| **Historia temprana** | Unidad inicial, Saber (Tirano Negro), Slime (King) | Mantén las mejoras baratas, enfócate en limpiar oleadas rápido con DPS de área básico. |
+| **Fases de Leyenda** | Demonio Explosivo, Shinobi Maldito, Skele King (Rock) | Introduce mecánicas de quemadura y daño de utilidad para desgastar las barras de salud más altas. |
+| **Puente a mitad de juego** | Salvador (Sin Luna), Okorun (Turbo), Villano Rosa | Mejora a unidades Secretas/Exclusivas accesibles para un farmeo de recursos más rápido. |
+
+<Callout type="success" title="Canjea códigos activos">
+Antes de invocar, busca códigos activos como `13.5` o `Gambler` para reclamar giros de rasgos, fragmentos de memoria (Memoria Shards) y gemas gratis. Asegúrate de que tu cuenta sea al menos de nivel 30 para reclamar las recompensas de códigos de nivel superior.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Giros de rasgos y optimización de sinergias de equipo">
+
+Los rasgos son modificadores permanentes de unidades que mejoran significativamente el rendimiento en combate. Al obtener los rasgos correctos, los jugadores pueden elevar un equipo estándar al nivel del **mejor equipo de Anime Vanguards**. Los giros de rasgos se realizan en el NPC Mandra Traits en el lobby. 
+
+Debido a que los giros de rasgos son un recurso escaso, prioriza primero tus unidades de daño principales. Nunca desperdicies giros premium en unidades de progresión temporal.
+
+<Checklist
+  id="trait-prioritization"
+  title="Antes de cambiar los rasgos de tu equipo:"
+  items={[
+    "Asegúrate de que la unidad objetivo esté evolucionada para preservar el valor de los recursos a largo plazo",
+    "Identifica si la unidad es un atacante principal (necesita Monarca/Etéreo) o soporte (necesita Veloz/Fortuna)",
+    "Verifica tu estado de piedad (pity); el Índice de Rasgos rastrea la piedad mítica individualmente por unidad",
+    "Guarda al menos más de 100 giros de rasgos antes de intentar buscar rasgos Míticos raros"
+  ]}
+/>
+
+| Rasgo | Rareza / Probabilidad | Rol ideal | Beneficios en combate |
+| :--- | :--- | :--- | :--- |
+| **Monarca** | Mítico / 0.1% | Atacante de colocación baja | Aumenta drásticamente el daño, el rango y la velocidad de ataque para unidades de colocación única. |
+| **Etéreo** | Mítico / 0.175% | Atacante principal | Aumenta sustancialmente el daño puro, ideal para los limpiadores principales de oleadas. |
+| **Tirador Preciso** | Mítico / 0.375% | DPS rápido / Cazador de jefes | Aumenta significativamente la tasa de golpes críticos y la escala de daño crítico. |
+| **Solar** | Mítico / 0.5% | DPS de área amplia | Combina una fuerte escala de daño con cobertura de rango adicional. |
+| **Fortuna** | Raro / 2.5% | Economía / Soporte | Incrementa la generación de dinero, crucial para las configuraciones iniciales. |
+| **Veloz** | Común / 26% | Soporte / CC | Reduce los segundos por ataque (SPA), permitiendo aturdimientos/congelaciones más rápidas. |
+
+<Callout type="warning" title="Advertencia de rareza de ascensión">
+Al mejorar unidades Míticas, recuerda que las ascensiones realizadas en el NPC Kokashi no se transfieren si la unidad experimenta una evolución que cambie su rareza (por ejemplo, de Mítica a Secreta/Vanguardia). Siempre evoluciona tu unidad primero, luego aplica las ascensiones.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ajustes de equipo específicos para cada modo">
+
+Ninguna configuración de equipo única sobresale en todos los modos de juego. Los jugadores deben cambiar unidades para manejar modificadores de fase únicos, comportamientos de jefes y mecánicas de farmeo. La Actualización 13.5 (Adversarios Eternos) introdujo el Modo de Juego de Verano y los Portales de Verano, que requieren un control de carril duradero y mejoras rápidas.
+
+| Modo | Desafío clave | Mejores ajustes | Recompensas principales |
+| :--- | :--- | :--- | :--- |
+| **Historia / Leyenda** | Diversas rutas de enemigos, oro inicial limitado | Comienza con unidades de área baratas, despliega una unidad de granja temprano, mejora gradualmente. | Gemas, Oro, Botines de fase |
+| **Incursiones (Raids)** | Jefes con mucha vida, presión de carril en múltiples oleadas | Coordina aturdimientos con Gujo, despliega a Rogita para daño de un solo objetivo contra jefes. | Objetos de evolución, unidades de incursión |
+| **Odisea** | Cartas de poder aleatorias, largas partidas de resistencia | Enfócate en invocaciones eficientes en espacios como Song Jinwu y un DPS altamente versátil. | Giros de rasgos, fragmentos de memoria |
+| **Supervivencia de Verano** | Oleadas infinitas, enemigos con escala de poder | Acumula ralentizaciones (Divalo) y congelaciones (Reina de Hielo) para manejar grandes oleadas de zombis. | Té helado, progreso del pase de evento |
+| **Portales de Verano** | Modificadores de portal, intensas peleas contra jefes | Lleva el máximo daño explosivo a un solo objetivo (Rogita) y soportes que reduzcan costos. | Familiares de Vanguardia, objetos de verano |
+
+<Callout type="info" title="Consejo sobre el sistema de Memorias">
+Bajo la Actualización 13.5, las evoluciones de unidades otorgan automáticamente su Memoria designada. Usa el Reciclaje de Memorias para desmantelar Memorias duplicadas en Chatarra, y usa Tickets de Nivel para aumentar las estadísticas de Memoria de tu equipo principal al nivel 60.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre el mejor equipo de Anime Vanguards">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es actualmente el mejor equipo de Anime Vanguards para el Modo Infinito?",
+    answer: "La alineación óptima cuenta con Líder Demonio (Control) e Híbrido Demonio (Motosierra) para la reducción de costos y daño por sangrado, emparejados con Song Jinwu e Igros para el control de carril mediante invocaciones, Gujo (Infinito) para aturdimientos, Dios (Sobre el Cielo) para detenciones del tiempo y una unidad económica de alto rendimiento para financiar las mejoras."
+  },
+  {
+    question: "¿Debería priorizar el daño o el control de masas en mi equipo?",
+    answer: "Ambos son esenciales. Sin daño, no puedes limpiar las oleadas antes de que lleguen a la salida. Sin control de masas (como Gujo o la Reina de Hielo), los jefes rápidos se filtrarán. Apunta a una proporción de una unidad de economía, una unidad de CC y de tres a cuatro atacantes de daño (carries)."
+  },
+  {
+    question: "¿Cómo encajan las nuevas unidades de la Actualización 13.5 en el meta?",
+    answer: "Las unidades como El Más Fuerte de Hoy vs El Más Fuerte de la Historia (Vanguardia) y Oni Furioso vs Dios de la Ira (Secreta) tienen estadísticas base altas y mecánicas únicas que las convierten en excelentes adiciones para las configuraciones de Incursión y Portales de Verano de alta dificultad."
+  },
+  {
+    question: "¿Se restablecen los rasgos cuando evoluciono una unidad?",
+    answer: "No. Evolucionar una unidad, realizar una transferencia de estadísticas o normalizar no restablece su rasgo ni su piedad mítica. Puedes buscar rasgos de forma segura en tus unidades base antes de evolucionarlas."
+  }
+]} />
+
+<Callout type="success" title="Consejo final">
+Completa de manera constante tus misiones diarias y semanales, y participa en las limpiezas de pisos de Líneas Temporales (Worldlines) para adquirir los giros de rasgos y fichas de estadísticas necesarios para optimizar las estadísticas de tu equipo.
+</Callout>
+
+</Section>

@@ -1,0 +1,130 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Yamamoto: Unit Stats & Meta Rankings",
+  description: "Analyze the role of Yamamoto in Anime Vanguards, including unit stats, best traits, and team synergy for 2026 meta progression.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Yamamoto+Unit+Guide",
+  date: "2026-06-23",
+  author: "anime vanguards Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Anime Vanguards Yamamoto** serves as a specialized unit in the current meta.
+- Proper **trait selection** is essential to maximize damage output and utility.
+- Strategic **team placement** allows this unit to anchor wave control effectively.
+- Always check the **latest update logs** to ensure stats align with current balance patches.
+</Callout>
+
+<Section icon={Swords} title="Yamamoto Unit Overview">
+
+Yamamoto functions as a high-impact unit within Anime Vanguards, designed to provide consistent pressure during intense stages. Understanding the unit's base mechanics is the first step toward effective team integration. Players should focus on balancing attack speed and area coverage to ensure maximum efficiency against mob density.
+
+<Callout type="tip" title="Pro Tip">
+Always prioritize upgrading units that provide consistent crowd control alongside damage, as this minimizes the risk of enemy leaks on higher-difficulty stages.
+</Callout>
+
+| Attribute | Significance | Impact |
+| :--- | :--- | :--- |
+| **Damage Type** | Area of Effect | High for wave clear |
+| **Primary Role** | Crowd Control | Essential for stalling |
+| **Deployment Cost** | Moderate | Efficient for mid-game |
+| **Scaling Potential** | High | Scales well with buffs |
+
+</Section>
+
+<Section icon={Target} title="Strategic Deployment and Progression">
+
+Deploying Yamamoto effectively requires an understanding of lane mechanics. By placing the unit near chokepoints, you can leverage the area-of-effect damage to handle multiple enemy paths simultaneously. 
+
+<Steps>
+  <Step num="1" title="Positioning">
+    Identify high-traffic lanes where enemy density is at its peak.
+  </Step>
+  <Step num="2" title="Initial Upgrade">
+    Invest in early upgrades to boost base damage before focusing on range.
+  </Step>
+  <Step num="3" title="Support Synergy">
+    Pair with economy-focused units to maintain gold flow during the deployment phase.
+  </Step>
+  <Step num="4" title="Trait Optimization">
+    Apply rerolls to obtain high-tier combat traits once the unit is fully leveled.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Placement Warning">
+Avoid placing this unit too close to the end of the track, as the wind-up time for certain attacks may cause you to miss fast-moving enemies.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Trait Priority Rankings">
+
+Traits significantly alter the performance of Anime Vanguards Yamamoto. Selecting the right trait depends on whether you are using the unit as a primary carry or a support-heavy controller.
+
+| Trait | Target Role | Efficiency |
+| :--- | :--- | :--- |
+| **Monarch** | Carry DPS | ★★★★★ |
+| **Ethereal** | Burst Damage | ★★★★☆ |
+| **Deadeye** | Critical Focus | ★★★★☆ |
+| **Fortune** | Economy Support | ★★★☆☆ |
+
+<Callout type="success" title="Meta Insight">
+For players aiming to clear the latest raids, the **Monarch** trait provides the necessary stat ceiling to handle boss-level health pools.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Evolution and Material Requirements">
+
+Evolution is the primary method to unlock the true potential of your units. Ensure you have the necessary materials farmed from the relevant game modes before attempting to evolve Yamamoto to avoid wasting resources.
+
+| Stage | Requirement | Reward |
+| :--- | :--- | :--- |
+| **Base Form** | Level 30 | Initial stats |
+| **Evolved Form** | 50 Memoria Shards | Increased Range |
+| **Ascension I** | 100 Essence Stones | +3% Damage |
+| **Ascension II** | 200 Essence Stones | +5% Range |
+
+<Checklist
+  id="evo-checklist"
+  title="Evolution Preparation:"
+  items={[
+    "Farm sufficient Essence Stones from Story Mode",
+    "Collect required Memoria Shards from current events",
+    "Ensure unit is at the maximum level before evolution",
+    "Verify current patch balance for stat adjustments"
+  ]}
+/>
+
+<Callout type="info" title="Resource Management">
+Always keep a reserve of gold and materials to handle unexpected unit updates or balance changes that occur during major seasonal events.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Anime Vanguards Yamamoto good for beginners?",
+    answer: "Yamamoto is a solid unit that provides great value through wave control, making it a reliable pick for players building their early-game team."
+  },
+  {
+    question: "Which game mode is best to farm materials for this unit?",
+    answer: "Legend Stages and Raids are the most efficient sources for the evolution materials and Memoria shards required for this unit."
+  },
+  {
+    question: "Does the trait pity system apply to Yamamoto?",
+    answer: "Yes, the mythic pity system applies to all units, allowing you to track your progress toward guaranteed high-tier traits consistently."
+  }
+]} />
+
+</Section>

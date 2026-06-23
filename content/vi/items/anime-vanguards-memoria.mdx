@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Memoria: Hướng dẫn Tiến trình & Tái chế",
+  description: "Tìm hiểu cách hệ thống anime vanguards memoria hoạt động vào năm 2026. Khám phá cách cày mảnh, tái chế Memoria trùng lặp, chuyển chỉ số và tối ưu hóa đội hình của bạn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Memoria+Progression+Guide",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Hệ thống chính**: Hệ thống **anime vanguards memoria** giúp tăng chỉ số cho nhân vật và mang lại các hiệu ứng cộng hưởng chuyên biệt.
+- **Đại tu lớn**: Bản cập nhật 13.5 đã loại bỏ tính năng tiến hóa Memoria; tất cả Memoria giờ đây đều được tiến hóa mặc định và nhận được thông qua tiến hóa nhân vật.
+- **Cày mảnh**: Thu thập các mảnh (shards) thông qua các lượt đi Odyssey, tiến trình Worldlines và các mã code khuyến mãi đang hoạt động.
+- **Vòng lặp tái chế**: Phân rã các Memoria trùng lặp không mong muốn để nhận Mảnh vụn Memoria (Memoria Scrap) dùng cho việc tăng cấp và nâng cấp.
+- **Bảo toàn đầu tư**: Sử dụng vé Chuyển chỉ số (Stat Transfer) để giữ lại các dòng chỉ số cao khi chuyển đổi lối xây dựng sang các nhân vật gánh đội (carry) meta mới.
+</Callout>
+
+<Section icon={Sparkles} title="Hệ thống Memoria trong Bản cập nhật 13.5">
+
+Việc ra mắt Bản cập nhật 13.5: Eternal Adversaries (Kẻ thù vĩnh cửu) đã đại tu hoàn toàn hệ thống **anime vanguards memoria**, hợp lý hóa cách người chơi nâng cấp nhân vật và quản lý tiến trình chơi ở giai đoạn cuối. Memoria đóng vai trò là một hệ thống bổ trợ dựa trên trang bị, trực tiếp nâng cao hiệu suất của nhân vật thông qua việc tăng sát thương cơ bản, cải thiện tầm đánh và giảm thời gian hồi chiêu. 
+
+Trong các phiên bản trước, người chơi phải cày nguyên liệu để tiến hóa Memoria một cách thủ công. Với những thay đổi gần đây trong Bản cập nhật 13.5, tính năng tiến hóa Memoria đã bị loại bỏ hoàn toàn. Tất cả Memoria giờ đây mặc định sẽ nhận được ở dạng đã tiến hóa. Khi bạn tiến hóa thành công một nhân vật, trò chơi sẽ tự động trao cho nhân vật đó Memoria được chỉ định của họ.
+
+| Tính năng | Hệ thống trước Bản cập nhật 13.5 | Hệ thống sau Bản cập nhật 13.5 |
+|--- |--- |--- |
+| **Trạng thái Tiến hóa** | Yêu cầu cày cuốc và tiến hóa thủ công | Mặc định đã tiến hóa khi nhận được |
+| **Cách thức sở hữu** | Banner tiêu chuẩn và chế tạo vật phẩm | Tự động nhận được thông qua tiến hóa nhân vật |
+| **Xử lý trùng lặp** | Nằm trong kho đồ hoặc bị lãng phí | Phân rã thông qua Tái chế Memoria |
+| **Giới hạn cấp độ tối đa** | Tăng chậm bằng các vật phẩm nâng cấp tiêu chuẩn | Có thể tăng ngay lên Cấp 60 bằng vé nâng cấp |
+
+<Callout type="tip" title="Thay đổi cân bằng từ Nhà phát triển">
+Sự thay đổi trong tiến trình này giúp giảm đáng kể thời gian cày cuốc tài nguyên hàng ngày. Thay vì dành hàng giờ để cày các chất xúc tác tiến hóa dành riêng cho phụ kiện, người chơi có thể tập trung sự chú ý của mình vào việc thức tỉnh nhân vật (ascension), quay thiên phú (trait roll) và cày các vật phẩm trang trí độc quyền của sự kiện.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cách cày Mảnh Memoria trong Anime Vanguards">
+
+Sở hữu Mảnh Memoria (Memoria Shards) là điều cần thiết để mua vé nâng cấp và duy trì tiến trình chơi game ở giai đoạn cuối. Meta hiện tại cung cấp nhiều con đường cày cuốc khác nhau, từ các chế độ lặp lại tiêu chuẩn đến các bảng xếp hạng thử thách theo mùa.
+
+### Các chế độ cày cuốc chính
+
+1. **Chế độ Odyssey**: Đây là con đường ổn định nhất để cày cuốc lặp lại. Kiếm được các thẻ bài cấp cao và hoàn thành các lượt đi Odyssey dài sẽ mang lại nguồn Mảnh Memoria ổn định, cùng với Vé quay lại Thiên phú (Trait Rerolls) và tiền tệ sự kiện địa phương.
+2. **Worldlines**: Một bảng xếp hạng thử thách theo tầng. Mỗi chu kỳ đặt lại cho phép người chơi vượt qua các đợt quái có độ khó tăng dần để kiếm phần thưởng mốc, bao gồm các gói mảnh lớn, Chip Chỉ số (Stat Chips) và đá tinh hoa (essence stones).
+3. **Mã Code Khuyến Mãi Đang Hoạt Động**: Kitawari thường xuyên phát hành các mã code máy chủ trong các cột mốc quan trọng. Nhận tiền tệ tiến trình miễn phí thông qua mã code là lối tắt nhanh nhất cho cả người chơi mới và người chơi cũ quay lại.
+
+| Chế độ chơi | Sản lượng tài nguyên | Đánh giá độ khó | Đối tượng người chơi hướng tới |
+|--- |--- |--- |--- |
+| **Lượt đi Odyssey** | Mảnh vừa phải, Vé quay lại Thiên phú | Trung bình | Các tài khoản cày cuốc tích cực |
+| **Bảng xếp hạng Worldlines** | Nhiều Mảnh, Chip Chỉ số | Rất cao | Đội hình meta cuối game |
+| **Mã code đang hoạt động** | Nhận ngay 50 đến 100 Mảnh | Không có | Tất cả tài khoản |
+| **Chế độ chơi Mùa hè** | Phần thưởng sự kiện giới hạn, Mảnh | Trung bình | Người chơi cày Battle Pass sự kiện |
+
+<Steps>
+  <Step num="1" title="Đạt yêu cầu về cấp độ">
+    Đảm bảo tài khoản Roblox của bạn đạt ít nhất Cấp 30. Các mã code mới hơn chứa các vật phẩm giá trị cao như Mảnh Memoria và Vé quay lại Thiên phú yêu cầu Cấp 30 để ngăn chặn việc lạm dụng bot.
+  </Step>
+  <Step num="2" title="Truy cập Menu Hồ sơ">
+    Khởi chạy trò chơi trên Roblox, đợi sảnh tải xong và tìm biểu tượng Hồ sơ (Profile) màu xanh lam ở phía bên phải màn hình của bạn.
+  </Step>
+  <Step num="3" title="Nhập các mã code đang hoạt động">
+    Mở tùy chọn Mã code (Codes) màu tím trong cửa sổ Hồ sơ. Sao chép và dán mã code chính xác như được viết để tránh lỗi. Sử dụng các mã code đang hoạt động của Bản cập nhật 13.5: `EternalAdversaries` để nhận 50 Mảnh, hoặc `Gambler` để nhận 50 Mảnh và 50 Vé quay lại Thiên phú.
+  </Step>
+  <Step num="4" title="Nhận phần thưởng trong Hộp thư">
+    Xác minh thông báo giao dịch thành công. Mở hộp thư trong trò chơi của bạn để nhận phần thưởng.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Giới hạn cấp độ">
+Nếu bạn cố gắng đổi các mã code cao cấp trước khi đạt Cấp 30, hệ thống sẽ từ chối mã đó. Hãy tập trung vào việc vượt qua các chương trong Chế độ Cốt truyện (Story Mode) và các màn Ác mộng (Nightmare) để nhanh chóng tăng cấp tài khoản của bạn trước.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tái chế Memoria và Vé tăng cấp">
+
+Bản cập nhật 13.5 đã giới thiệu tính năng Tái chế Memoria để dọn dẹp kho đồ của người chơi và chuyển đổi các vật phẩm trùng lặp thành các nguyên liệu tiến trình có giá trị. Những Memoria không mong muốn có thể được phân rã tại thiết bị tái chế bên trong sảnh chung.
+
+### Giá trị tài nguyên thu hồi từ tái chế
+
+Việc phân rã một vật phẩm Memoria sẽ mang lại Mảnh vụn Memoria (Memoria Scrap). Số lượng và độ hiếm của mảnh vụn nhận lại phụ thuộc trực tiếp vào độ hiếm của vật phẩm bị phân rã. Mảnh vụn này sau đó có thể được chi tiêu tại cửa hàng độc quyền để mua Vé tăng cấp Memoria (Memoria Leveling Tickets), giúp tăng ngay lập tức bất kỳ Memoria nào đang trang bị lên Cấp 60.
+
+| Độ hiếm của vật phẩm bị phân rã | Loại Mảnh vụn nhận lại | Giá trị Vé tăng cấp đổi được |
+|--- |--- |--- |
+| **Memoria Thần thoại (Mythic)** | Mảnh vụn tiêu chuẩn | Thấp (yêu cầu phân rã nhiều lần) |
+| **Memoria Bí ẩn (Secret)** | Mảnh vụn quý hiếm | Trung bình (đổi được 1-2 vé) |
+| **Memoria Tiên phong (Vanguard)** | Mảnh vụn nguyên bản | Cao (đổi được từ 5 vé trở lên) |
+
+<Checklist
+  id="memoria-management"
+  title="Danh sách việc cần làm quản lý hàng tuần:"
+  items={[
+    "Khóa ít nhất một bản sao của mỗi Memoria duy nhất để tránh vô tình tái chế.",
+    "Phân rã tất cả các vật phẩm Thần thoại (Mythic) trùng lặp để tích lũy Mảnh vụn Memoria.",
+    "Đổi mảnh vụn tại cửa hàng ở sảnh để mua Vé tăng cấp cho các nhân vật gánh đội chính của bạn.",
+    "Kiểm tra phần thưởng Worldlines hàng tuần để đảm bảo bạn không bỏ lỡ các mốc mảnh Memoria."
+  ]}
+/>
+
+<Callout type="success" title="Chiến lược tăng cấp tức thì">
+Sử dụng Vé tăng cấp giúp bỏ qua chi phí vàng và nguyên liệu của việc tăng cấp thông thường. Hãy để dành những chiếc vé này cho các Memoria độ hiếm Vanguard được liên kết với các nhân vật cốt lõi trong meta như Rogita (Super 4) hoặc Song Jinwu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Chiến lược chuyển chỉ số & tối ưu hóa Memoria">
+
+Khi chuyển giao giữa các mùa meta, việc bảo toàn khoản đầu tư của bạn là vô cùng quan trọng. Hệ thống **anime vanguards memoria** hỗ trợ chuyển đổi chỉ số, cho phép người chơi di chuyển các chỉ số có thuộc tính cao từ một vật phẩm cũ sang một vật phẩm mới nhận được mà không làm mất điểm bảo hiểm (pity) hoặc tiến trình nâng cấp.
+
+### Căn chỉnh Thiên phú và Chỉ số
+
+Để tối đa hóa lượng sát thương đầu ra của đội hình, hãy căn chỉnh các chỉ số Memoria phù hợp với vai trò của nhân vật và các thiên phú đã quay của họ. Các nhân vật sở hữu thiên phú thần thoại như Monarch, Ethereal hoặc Deadeye sẽ được hưởng lợi cực kỳ lớn từ việc tăng sát thương trực tiếp và giảm thời gian hồi chiêu.
+
+<CardGrid cols={3}>
+  <Card title="Cấu hình DPS gánh đội">
+    - **Chỉ số chính**: % Sát thương trực tiếp
+    - **Chỉ số phụ**: Tỷ lệ chí mạng
+    - **Thiên phú khuyên dùng**: Monarch hoặc Ethereal
+  </Card>
+  <Card title="Cấu hình khống chế đám đông">
+    - **Chỉ số chính**: Tăng tầm đánh
+    - **Chỉ số phụ**: Tốc độ đánh (SPA)
+    - **Thiên phú khuyên dùng**: Solar hoặc Blitz
+  </Card>
+  <Card title="Cấu hình hỗ trợ kinh tế">
+    - **Chỉ số chính**: Giảm chi phí đặt
+    - **Chỉ số phụ**: Tầm đánh
+    - **Thiên phú khuyên dùng**: Fortune hoặc Swift
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cảnh báo về Thức tỉnh">
+Đừng nhầm lẫn giữa thức tỉnh nhân vật (unit ascension) và tăng cấp Memoria. Khi một nhân vật Thần thoại (Mythic) trải qua quá trình tiến hóa thay đổi độ hiếm thành nhân vật Bí ẩn (Secret) hoặc Tiên phong (Vanguard), các cấp độ thức tỉnh của nhân vật đó sẽ bị xóa sạch. Tuy nhiên, các chỉ số Memoria liên kết của họ được bảo vệ và có thể được chuyển đổi an toàn bằng giao diện chuyển đổi của NPC Kokashi. Hãy tiến hóa nhân vật của bạn trước, sau đó mới áp dụng các cấp độ thức tỉnh.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để sở hữu Memoria trong Bản cập nhật 13.5 của Anime Vanguards?",
+    answer: "Memoria giờ đây mặc định đã được tiến hóa và tự động trao cho bạn khi bạn tiến hóa các nhân vật tương ứng. Bạn không còn cần phải tiến hóa các vật phẩm Memoria một cách thủ công nữa."
+  },
+  {
+    question: "Yêu cầu cấp độ để đổi mã code lấy Mảnh Memoria là gì?",
+    answer: "Hầu hết các mã code chứa Mảnh Memoria hoặc Vé quay lại Thiên phú trong bản cập nhật Eternal Adversaries yêu cầu tài khoản của bạn phải đạt ít nhất Cấp 30."
+  },
+  {
+    question: "Tôi nên làm gì với những Memoria trùng lặp của mình?",
+    answer: "Sử dụng thiết bị Tái chế Memoria ở sảnh chung để phân rã các vật phẩm trùng lặp thành Mảnh vụn Memoria, sau đó có thể dùng để đổi lấy Vé tăng cấp."
+  },
+  {
+    question: "Các chỉ số Memoria có được chuyển giao khi tôi tiến hóa nhân vật không?",
+    answer: "Có, các chỉ số Memoria vẫn được giữ an toàn và trò chơi hỗ trợ chuyển đổi chỉ số trực tiếp để giúp bảo vệ khoản đầu tư của bạn khi nâng cấp các lối xây dựng nhân vật."
+  }
+]} />
+
+<Callout type="info" title="Hỗ trợ cộng đồng">
+Để tham gia thảo luận sôi nổi, tìm hiểu các lối xây dựng chiến thuật và nhận cảnh báo thời gian thực về các mã code mới, hãy truy cập cộng đồng Roblox chính thức hoặc tham gia máy chủ Discord chính thức. Tránh sử dụng các trang web bên thứ ba yêu cầu thông tin đăng nhập tài khoản để nhận phần thưởng.
+</Callout>
+
+</Section>

@@ -1,0 +1,130 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Yamamoto de Anime Vanguards: Estadísticas de la unidad y Meta Rankings",
+  description: "Analiza el papel de Yamamoto en Anime Vanguards, incluyendo estadísticas de unidad, mejores rasgos y sinergia de equipo para el progreso del meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Yamamoto+Unit+Guide",
+  date: "2026-06-23",
+  author: "Equipo de la Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Yamamoto de Anime Vanguards** funciona como una unidad especializada en el meta actual.
+- Una **selección de rasgos** adecuada es esencial para maximizar el daño y la utilidad.
+- El **posicionamiento estratégico del equipo** permite que esta unidad controle las oleadas de manera efectiva.
+- Consulta siempre los **registros de actualización más recientes** para asegurar que las estadísticas coincidan con los parches de equilibrio actuales.
+</Callout>
+
+<Section icon={Swords} title="Descripción general de la unidad Yamamoto">
+
+Yamamoto funciona como una unidad de alto impacto dentro de Anime Vanguards, diseñada para proporcionar presión constante durante las etapas intensas. Comprender las mecánicas base de la unidad es el primer paso hacia una integración efectiva en el equipo. Los jugadores deben centrarse en equilibrar la velocidad de ataque y el área de cobertura para garantizar la máxima eficiencia contra la densidad de enemigos.
+
+<Callout type="tip" title="Consejo profesional">
+Prioriza siempre mejorar las unidades que ofrecen un control de masas constante junto con daño, ya que esto minimiza el riesgo de que los enemigos se escapen en etapas de mayor dificultad.
+</Callout>
+
+| Atributo | Importancia | Impacto |
+| :--- | :--- | :--- |
+| **Tipo de daño** | Área de efecto | Alto para limpiar oleadas |
+| **Rol principal** | Control de masas | Esencial para ralentizar |
+| **Costo de despliegue** | Moderado | Eficiente para el juego medio |
+| **Potencial de escalado** | Alto | Escala bien con mejoras |
+
+</Section>
+
+<Section icon={Target} title="Despliegue estratégico y progresión">
+
+Desplegar a Yamamoto de manera efectiva requiere comprender las mecánicas de carril. Al colocar la unidad cerca de puntos de estrangulamiento, puedes aprovechar el daño de área para manejar múltiples rutas enemigas simultáneamente.
+
+<Steps>
+  <Step num="1" title="Posicionamiento">
+    Identifica los carriles de alto tráfico donde la densidad enemiga es máxima.
+  </Step>
+  <Step num="2" title="Mejora inicial">
+    Invierte en mejoras tempranas para aumentar el daño base antes de enfocarte en el alcance.
+  </Step>
+  <Step num="3" title="Sinergia de apoyo">
+    Combínalo con unidades enfocadas en la economía para mantener el flujo de oro durante la fase de despliegue.
+  </Step>
+  <Step num="4" title="Optimización de rasgos">
+    Aplica rerolls para obtener rasgos de combate de alto nivel una vez que la unidad esté completamente nivelada.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de colocación">
+Evita colocar esta unidad demasiado cerca del final del camino, ya que el tiempo de carga de ciertos ataques puede hacer que pierdas a los enemigos que se mueven rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Clasificación de prioridad de rasgos">
+
+Los rasgos alteran significativamente el rendimiento de Yamamoto en Anime Vanguards. Seleccionar el rasgo correcto depende de si estás usando la unidad como un atacante principal (carry) o como un controlador de apoyo.
+
+| Rasgo | Rol objetivo | Eficiencia |
+| :--- | :--- | :--- |
+| **Monarch** | Carry DPS | ★★★★★ |
+| **Ethereal** | Daño explosivo | ★★★★☆ |
+| **Deadeye** | Enfoque crítico | ★★★★☆ |
+| **Fortune** | Apoyo económico | ★★★☆☆ |
+
+<Callout type="success" title="Perspectiva del meta">
+Para los jugadores que buscan completar las incursiones (raids) más recientes, el rasgo **Monarch** proporciona el límite de estadísticas necesario para manejar las reservas de salud de los jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Evolución y requisitos de materiales">
+
+La evolución es el método principal para desbloquear el verdadero potencial de tus unidades. Asegúrate de haber cultivado (farmear) los materiales necesarios en los modos de juego relevantes antes de intentar evolucionar a Yamamoto para evitar desperdiciar recursos.
+
+| Etapa | Requisito | Recompensa |
+| :--- | :--- | :--- |
+| **Forma base** | Nivel 30 | Estadísticas iniciales |
+| **Forma evolucionada** | 50 Memoria Shards | Alcance aumentado |
+| **Ascensión I** | 100 Essence Stones | +3% Daño |
+| **Ascension II** | 200 Essence Stones | +5% Alcance |
+
+<Checklist
+  id="evo-checklist"
+  title="Preparación para la evolución:"
+  items={[
+    "Cultiva suficientes Essence Stones en el modo historia",
+    "Recolecta las Memoria Shards requeridas de los eventos actuales",
+    "Asegúrate de que la unidad esté en el nivel máximo antes de la evolución",
+    "Verifica el equilibrio actual del parche para ajustes de estadísticas"
+  ]}
+/>
+
+<Callout type="info" title="Gestión de recursos">
+Mantén siempre una reserva de oro y materiales para manejar actualizaciones de unidades inesperadas o cambios de equilibrio que ocurran durante eventos estacionales importantes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Yamamoto de Anime Vanguards bueno para principiantes?",
+    answer: "Yamamoto es una unidad sólida que ofrece un gran valor mediante el control de oleadas, lo que la convierte en una opción confiable para los jugadores que están construyendo su equipo inicial."
+  },
+  {
+    question: "¿Qué modo de juego es mejor para farmear materiales para esta unidad?",
+    answer: "Las Legend Stages y las Raids son las fuentes más eficientes para obtener los materiales de evolución y las Memoria Shards requeridos para esta unidad."
+  },
+  {
+    question: "¿El sistema de piedad (pity) de rasgos se aplica a Yamamoto?",
+    answer: "Sí, el sistema de piedad mítico se aplica a todas las unidades, permitiéndote seguir tu progreso hacia rasgos de alto nivel garantizados de manera consistente."
+  }
+]} />
+
+</Section>

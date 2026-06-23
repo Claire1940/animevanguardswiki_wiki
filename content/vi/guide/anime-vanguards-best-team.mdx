@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Đội hình mạnh nhất Anime Vanguards: Đội hình Meta & Hướng dẫn thiết lập",
+  description: "Xây dựng đội hình mạnh nhất trong Anime Vanguards với hướng dẫn của chúng tôi về các nhân vật cốt lõi meta, đơn vị hỗ trợ, thiết lập tiến trình và chiến thuật Bản cập nhật 13.5 Kẻ thù vĩnh cửu (Eternal Adversaries).",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/270091/fff?text=Anime+Vanguards+Best+Team+Guide",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Thiết lập chính**: Việc xây dựng **đội hình mạnh nhất Anime Vanguards** đòi hỏi sự cân bằng giữa sát thương (DPS) thuần túy, khống chế đám đông (CC) và hỗ trợ kinh tế.
+- **Đơn vị gánh team (Carry) hàng đầu**: Rogita (Super 4) vẫn là kẻ diệt boss hàng đầu, trong khi Alocard (Vampire King) vượt trội về sát thương chảy máu trên nhiều làn đường.
+- **Đơn vị đa dụng hàng đầu**: God (Above Heaven) và Gujo (Infinity) mang lại khả năng dừng thời gian và làm choáng vô song để giữ đường.
+- **Cốt lõi kinh tế**: Demon Leader (Control) là đơn vị thiết yếu giúp giảm chi phí triển khai và tăng sức mạnh cho các đội hình Thợ săn Quỷ (Demon Hunter).
+- **Trọng tâm Bản cập nhật 13.5**: Kết hợp các đơn vị mùa giải mới như Kẻ mạnh nhất hôm nay vs Kẻ mạnh nhất lịch sử (Today's Strongest vs History's Strongest) để thống trị Chế độ chơi Mùa hè (Summer Gamemode).
+</Callout>
+
+<Section icon={Target} title="Nguyên tắc xây dựng đội hình cốt lõi">
+
+Xây dựng một đội hình đáng tin cậy trong Anime Vanguards không chỉ đơn giản là xếp chồng các đơn vị Bí ẩn (Secret) hoặc Tiên phong (Vanguard) hào nhoáng nhất. Một đội hình hoạt động hiệu quả cần có sự phối hợp (synergy), quản lý chi phí và kiểm soát làn đường. Người chơi phải tính đến việc phòng thủ ở các đợt lính (wave) đầu game, tạo thu nhập ổn định, khống chế đám đông (CC) và gây sát thương lớn lên boss. 
+
+Nếu không có một đơn vị kinh tế, người chơi sẽ gặp khó khăn trong việc chi trả cho các nhánh nâng cấp đắt đỏ của các đơn vị gánh team meta trong các đợt lính giữa trận. Tương tự, việc bỏ qua khống chế đám đông sẽ khiến những kẻ địch di chuyển nhanh lọt qua hàng phòng thủ ở các độ khó Ác mộng (Nightmare) cao hơn. Hiệu quả sử dụng ô đặt quân (slot efficiency) cũng là một yếu tố quan trọng, đó là lý do tại sao các đơn vị triệu hồi như Song Jinwu và Igros được đánh giá rất cao. Họ tạo ra các đơn vị chặn đường bổ sung trên bản đồ mà không chiếm các ô đặt quân tiêu chuẩn.
+
+| Vai trò | Chức năng chính | Đơn vị tối ưu |
+| :--- | :--- | :--- |
+| **Kinh tế / Farm** | Tạo vàng, giảm chi phí triển khai, ổn định nâng cấp | Demon Leader (Control), các đơn vị farm có thiên phú Fortune (Vận may) |
+| **Sát thương chính (DPS)** | Dọn các đợt lính đông đảo, tiêu diệt boss, gây sát thương theo thời gian | Rogita (Super 4), Alocard (Vampire King), Demon Hybrid |
+| **Khống chế đám đông (CC)** | Làm choáng, làm chậm, đóng băng hoặc giữ chân các làn đường của kẻ địch | God (Above Heaven), Gujo (Infinity), Ice Queen (Release) |
+| **Hỗ trợ triệu hồi** | Tạo thêm quân chặn đường, kiểm soát làn đường, tiết kiệm ô đặt quân | Song Jinwu và Igros, Lich King (Ruler) |
+
+<Callout type="info" title="Lưu ý về hiệu quả ô đặt quân">
+Các đơn vị Tiên phong như Song Jinwu và Lich King tạo ra các lính bóng tối trực tiếp trên đường đi. Những triệu hồi này thu hút sự chú ý (aggro) của kẻ địch và gây sát thương liên tục, cho phép bạn phòng thủ nhiều làn đường mà không vượt quá giới hạn đặt quân.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các thiết lập đội hình mạnh nhất trong Anime Vanguards">
+
+Nội dung cuối game (endgame) đòi hỏi các đội hình chuyên biệt được điều chỉnh phù hợp với thử thách của từng bản đồ cụ thể. Cho dù bạn đang chinh phục Chế độ Vô tận (Infinite Mode), Các màn Ải Huyền thoại (Legend Stages) hay sảnh Đột kích (Raid), các cấu trúc **đội hình mạnh nhất Anime Vanguards** đều tận dụng sự kết hợp các đơn vị có tính phối hợp cực cao. Meta hiện tại xoay quanh các chiến thuật kích nổ chảy máu (bleed detonation), áp lực triệu hồi và khóa đóng băng tuyệt đối (freeze-lock).
+
+Dưới đây là ba bản thiết kế chuyên biệt được thiết kế để xử lý các môi trường có độ khó cao khác nhau.
+
+<CardGrid cols={3}>
+  <Card title="Thiết lập Chảy máu & Kích nổ">
+    - **Gánh team cốt lõi**: Demon Hybrid (Chainsaw)
+    - **Buff / Kinh tế**: Demon Leader (Control)
+    - **Khống chế (CC)**: Gujo (Infinity)
+    - Tập trung vào việc cộng dồn hiệu ứng chảy máu và kích nổ chúng để gây sát thương bộc phát khổng lồ.
+  </Card>
+  <Card title="Áp lực làn đường từ Triệu hồi sư">
+    - **Gánh team cốt lõi**: Song Jinwu và Igros
+    - **Gánh team hỗ trợ**: Lich King (Ruler)
+    - **Khống chế (CC)**: God (Above Heaven)
+    - Thống trị các làn đường dài bằng cách lấp đầy đường đi bằng các đơn vị bóng tối bền bỉ.
+  </Card>
+  <Card title="Khóa đóng băng tuyệt đối">
+    - **Gánh team cốt lõi**: Rogita (Super 4)
+    - **Hỗ trợ khống chế**: Ice Queen (Release)
+    - **Đa dụng**: Divalo (Requiem)
+    - Đóng băng các đợt lính lớn tại chỗ trong khi các đơn vị gánh team đơn mục tiêu dồn sát thương kết liễu boss.
+  </Card>
+</CardGrid>
+
+| Loại đội hình | Đơn vị hoạt động | Sự phối hợp cốt lõi |
+| :--- | :--- | :--- |
+| **Meta Thợ săn Quỷ** | Demon Hybrid, Demon Leader, Gujo (Infinity), Okorun | Demon Leader giảm mạnh chi phí của đội và tăng sát thương cho Thợ săn Quỷ, tối đa hóa tốc độ chảy máu. |
+| **Meta Spam Triệu hồi** | Song Jinwu, Lich King (Ruler), Alocard, Skele King | Lấp đầy chiến trường bằng các đơn vị tự trị để ngăn chặn các đợt lao nhanh của kẻ địch trên bản đồ nhiều làn đường. |
+| **Meta Diệt Boss Nhanh** | Rogita (Super 4), God (Above Heaven), Divalo, Teacher | God làm chậm và dừng thời gian, trong khi Rogita gây sát thương chí mạng đơn mục tiêu khổng lồ. |
+
+<Callout type="tip" title="Tối đa hóa sự phối hợp">
+Luôn ghép cặp Demon Hybrid với Demon Leader. Việc giảm chi phí triển khai do Demon Leader cung cấp cho phép bạn thiết lập hàng phòng thủ sớm hơn nhiều trong các chế độ Ác mộng và Đột kích.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tiến trình đội hình giữa game và Đội hình giá rẻ">
+
+Người chơi mới không thể ngay lập tức triệu hồi các đơn vị Tiên phong (Vanguard) hoặc Bí ẩn (Secret). Việc chuyển đổi từ các đơn vị khởi đầu cơ bản sang các đội hình meta cấp cao đòi hỏi một kế hoạch nâng cấp từng bước. Trọng tâm trong quá trình tiến trình ban đầu là vượt các màn Chế độ Cốt truyện (Story Mode) để farm Đá quý (Gem) và Vàng, sau đó dùng chúng để triệu hồi các đơn vị mạnh hơn.
+
+Tránh đầu tư quá nhiều vào các nhân vật tạm thời. Thay vào đó, hãy tập trung vào việc sở hữu các đơn vị Thần thoại (Mythic) giá rẻ nhưng mang lại giá trị tuyệt vời so với chi phí bỏ ra.
+
+<Steps>
+  <Step num="1" title="Sử dụng các đơn vị khởi đầu hiệu quả">
+    Bắt đầu với Ichiga, Narutu hoặc Luffo để vượt các thế giới đầu tiên. Đừng lãng phí Lượt quay lại Thiên phú (Trait Reroll) hoặc Chip Chỉ số (Stat Chip) cho những nhân vật khởi đầu này; hãy tiết kiệm tài nguyên cho các thành viên đội hình vĩnh viễn.
+  </Step>
+  <Step num="2" title="Sở hữu một đơn vị sát thương diện rộng (AoE) giá rẻ">
+    Triệu hồi các đơn vị Thần thoại như Explosive Demon (Bomb) hoặc Cursed Shinobi (Black Flames). Sát thương thiêu đốt diện rộng (AoE) của họ giúp dọn dẹp các đợt quái đông đúc trong các chương cốt truyện đầu tiên.
+  </Step>
+  <Step num="3" title="Thêm các đơn vị đa dụng giữa game">
+    Đưa Saber (Black Tyrant) hoặc Skele King (Rock) vào để lấp đầy khoảng trống. Những đơn vị này mang lại lượng sát thương khá tốt và khả năng thăng tiến sức mạnh mà không đòi hỏi quá nhiều vàng nâng cấp.
+  </Step>
+  <Step num="4" title="Chuyển sang các đơn vị Bí ẩn & Tiên phong">
+    Khi bạn đã tích lũy đủ Đá quý từ phần thưởng hàng ngày, nhiệm vụ và mã code hoạt động, hãy nhắm vào các banner triệu hồi có các đơn vị gánh team meta như Rogita (Super 4) hoặc Gujo (Infinity).
+  </Step>
+</Steps>
+
+| Giai đoạn | Đơn vị khuyên dùng | Trọng tâm chiến thuật |
+| :--- | :--- | :--- |
+| **Cốt truyện đầu game** | Đơn vị khởi đầu, Saber (Black Tyrant), Slime (King) | Giữ chi phí nâng cấp rẻ, tập trung dọn các đợt lính nhanh bằng sát thương AoE cơ bản. |
+| **Ải Huyền thoại** | Explosive Demon, Cursed Shinobi, Skele King (Rock) | Áp dụng cơ chế thiêu đốt và sát thương đa dụng để cấu rỉa lượng máu (HP) lớn của kẻ địch. |
+| **Cầu nối giữa game** | Savior (Moonless), Okorun (Turbo), Pink Villain | Nâng cấp lên các đơn vị Bí ẩn/Độc quyền (Secret/Exclusive) giá cả phải chăng để farm tài nguyên nhanh hơn. |
+
+<Callout type="success" title="Đổi mã Code hoạt động">
+Trước khi triệu hồi, hãy kiểm tra các mã code đang hoạt động như `13.5` hoặc `Gambler` để nhận miễn phí Lượt quay lại Thiên phú (Trait Reroll), Mảnh Memoria và Đá quý. Đảm bảo tài khoản của bạn đạt ít nhất Cấp 30 để nhận phần thưởng mã code cấp cao hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Quay lại Thiên phú và Tối ưu hóa sự phối hợp đội hình">
+
+Thiên phú (Trait) là các chỉ số sửa đổi vĩnh viễn cho đơn vị giúp tăng cường đáng kể hiệu suất chiến đấu. Bằng cách quay được các thiên phú chính xác, người chơi có thể nâng tầm một đội hình tiêu chuẩn lên cấp độ **đội hình mạnh nhất Anime Vanguards**. Việc quay lại thiên phú được thực hiện tại NPC Mandra Traits trong sảnh chờ (lobby). 
+
+Vì Lượt quay lại Thiên phú là một tài nguyên khan hiếm, hãy ưu tiên các đơn vị gánh team chính của bạn trước. Đừng bao giờ lãng phí các lượt quay cao cấp cho các đơn vị tiến trình tạm thời.
+
+<Checklist
+  id="trait-prioritization"
+  title="Trước khi quay lại Thiên phú cho đội hình của bạn:"
+  items={[
+    "Đảm bảo đơn vị mục tiêu đã được tiến hóa để bảo toàn giá trị tài nguyên lâu dài",
+    "Xác định xem đơn vị đó là Gánh team (cần Monarch/Ethereal) hay Hỗ trợ (cần Swift/Fortune)",
+    "Kiểm tra trạng thái bảo hiểm (pity) của bạn; Chỉ số Thiên phú (Trait Index) theo dõi bảo hiểm thần thoại riêng biệt cho từng đơn vị",
+    "Tiết kiệm ít nhất hơn 100 Lượt quay lại Thiên phú trước khi cố gắng quay các thiên phú Thần thoại hiếm"
+  ]}
+/>
+
+| Thiên phú | Độ hiếm / Tỷ lệ | Vai trò lý tưởng | Lợi ích chiến đấu |
+| :--- | :--- | :--- | :--- |
+| **Monarch** | Thần thoại / 0.1% | Gánh team giới hạn đặt quân thấp | Tăng mạnh sát thương, tầm đánh và tốc độ đánh cho các đơn vị giới hạn đặt quân chỉ 1. |
+| **Ethereal** | Thần thoại / 0.175% | Gánh team chính | Tăng đáng kể lượng sát thương thuần túy đầu ra, lý tưởng cho các đơn vị dọn đợt lính chính. |
+| **Deadeye** | Thần thoại / 0.375% | DPS nhanh / Kẻ diệt Boss | Tăng đáng kể tỷ lệ chí mạng và tỷ lệ sát thương chí mạng. |
+| **Solar** | Thần thoại / 0.5% | DPS diện rộng (AoE) | Kết hợp khả năng tăng sát thương mạnh mẽ với phạm vi bao phủ tầm đánh rộng hơn. |
+| **Fortune** | Hiếm / 2.5% | Kinh tế / Hỗ trợ | Tăng khả năng tạo tiền, cực kỳ quan trọng cho các thiết lập đầu game. |
+| **Swift** | Thường / 26% | Hỗ trợ / CC | Giảm số giây mỗi đòn đánh (SPA), cho phép làm choáng/đóng băng nhanh hơn. |
+
+<Callout type="warning" title="Cảnh báo về độ hiếm khi Đột phá">
+Khi nâng cấp các đơn vị Thần thoại (Mythic), hãy nhớ rằng các đột phá (ascension) được thực hiện tại NPC Kokashi sẽ không được chuyển giao nếu đơn vị đó trải qua quá trình tiến hóa thay đổi độ hiếm (ví dụ: từ Thần thoại sang Bí ẩn/Tiên phong). Luôn tiến hóa đơn vị của bạn trước, sau đó mới áp dụng đột phá.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Điều chỉnh đội hình theo từng chế độ cụ thể">
+
+Không có một cấu hình đội hình đơn lẻ nào vượt trội trong mọi chế độ chơi. Người chơi phải hoán đổi các đơn vị để xử lý các sửa đổi màn chơi độc đáo, hành vi của boss và cơ chế farm. Bản cập nhật 13.5 (Kẻ thù vĩnh cửu - Eternal Adversaries) đã giới thiệu Chế độ chơi Mùa hè (Summer Gamemode) và Cổng Mùa hè (Summer Portals), đòi hỏi khả năng kiểm soát làn đường bền bỉ và nâng cấp nhanh chóng.
+
+| Chế độ | Thử thách chính | Điều chỉnh tốt nhất | Phần thưởng chính |
+| :--- | :--- | :--- | :--- |
+| **Cốt truyện / Huyền thoại** | Đường đi của kẻ địch đa dạng, vàng khởi đầu hạn chế | Bắt đầu với các đơn vị AoE giá rẻ, triển khai một đơn vị farm sớm, nâng cấp dần dần. | Đá quý, Vàng, Vật phẩm rơi trong màn |
+| **Đột kích (Raid)** | Boss lượng máu cao, áp lực làn đường nhiều đợt lính | Phối hợp làm choáng với Gujo, triển khai Rogita để gây sát thương boss đơn mục tiêu. | Vật phẩm tiến hóa, Đơn vị Đột kích |
+| **Odyssey** | Thẻ sức mạnh ngẫu nhiên, các lượt chạy bền bỉ dài | Tập trung vào các triệu hồi tiết kiệm ô đặt quân như Song Jinwu và DPS cực kỳ linh hoạt. | Lượt quay lại Thiên phú, Mảnh Memoria |
+| **Sinh tồn Mùa hè** | Các đợt lính vô tận, kẻ địch tăng tiến sức mạnh theo thời gian | Cộng dồn làm chậm (Divalo) và đóng băng (Ice Queen) để kiểm soát các đợt zombie lớn. | Trà đá (Iced Tea), Tiến trình Thẻ Sự kiện (Event Pass) |
+| **Cổng Mùa hè** | Các chỉ số sửa đổi của Cổng, các trận chiến boss căng thẳng | Mang theo lượng sát thương bộc phát đơn mục tiêu tối đa (Rogita) và các hỗ trợ giảm chi phí. | Linh thú Tiên phong (Vanguard Familiars), Vật phẩm Mùa hè |
+
+<Callout type="info" title="Mẹo về Hệ thống Memoria">
+Trong Bản cập nhật 13.5, các tiến hóa đơn vị sẽ tự động cung cấp Memoria được chỉ định của họ. Sử dụng Tái chế Memoria (Memoria Recycling) để phân rã các Memoria trùng lặp thành Phế liệu (Scrap), và sử dụng Vé Nâng cấp (Leveling Ticket) để tăng chỉ số Memoria của đội hình chính lên Cấp 60.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Câu hỏi thường gặp về Đội hình mạnh nhất Anime Vanguards">
+
+<FAQ items={[
+  {
+    question: "Đội hình mạnh nhất Anime Vanguards hiện tại cho Chế độ Vô tận là gì?",
+    answer: "Đội hình tối ưu bao gồm Demon Leader (Control) và Demon Hybrid (Chainsaw) để giảm chi phí và gây sát thương chảy máu, kết hợp với Song Jinwu và Igros để kiểm soát làn đường bằng triệu hồi, Gujo (Infinity) để làm choáng, God (Above Heaven) để dừng thời gian, và một đơn vị kinh tế hiệu suất cao để tài trợ cho các nâng cấp."
+  },
+  {
+    question: "Tôi nên ưu tiên sát thương hay khống chế đám đông trong đội hình của mình?",
+    answer: "Cả hai đều thiết yếu. Nếu không có sát thương, bạn không thể dọn sạch các đợt lính trước khi chúng đến lối thoát. Nếu không có khống chế đám đông (như Gujo hoặc Ice Queen), các boss di chuyển nhanh sẽ lọt qua. Hãy hướng tới tỷ lệ một đơn vị kinh tế, một đơn vị CC và ba đến bốn đơn vị gánh sát thương."
+  },
+  {
+    question: "Các đơn vị mới trong Bản cập nhật 13.5 phù hợp với meta như thế nào?",
+    answer: "Các đơn vị như Kẻ mạnh nhất hôm nay vs Kẻ mạnh nhất lịch sử (Vanguard) và Raging Oni vs Wrath God (Secret) có chỉ số cơ bản cao và cơ chế độc đáo giúp chúng trở thành những bổ sung tuyệt vời cho các thiết lập Đột kích và Cổng Mùa hè có độ khó cao."
+  },
+  {
+    question: "Thiên phú có bị reset khi tôi tiến hóa một đơn vị không?",
+    answer: "Không. Việc tiến hóa một đơn vị, thực hiện chuyển giao chỉ số hoặc chuẩn hóa không làm reset thiên phú hoặc bảo hiểm thần thoại của đơn vị đó. Bạn có thể an tâm quay thiên phú trên các đơn vị cơ bản của mình trước khi tiến hóa chúng."
+  }
+]} />
+
+<Callout type="success" title="Mẹo cuối cùng">
+Hãy kiên trì hoàn thành các nhiệm vụ hàng ngày và hàng tuần của bạn, đồng thời tham gia vượt tầng Worldlines để kiếm các Lượt quay lại Thiên phú và Chip Chỉ số cần thiết nhằm tối ưu hóa chỉ số cho đội hình của bạn.
+</Callout>
+
+</Section>

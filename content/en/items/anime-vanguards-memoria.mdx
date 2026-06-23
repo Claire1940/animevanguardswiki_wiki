@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "anime vanguards memoria: Progression & Recycling Guide",
+  description: "Learn how the anime vanguards memoria system works in 2026. Discover how to farm shards, recycle duplicate Memoria, transfer stats, and optimize your team.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Memoria+Progression+Guide",
+  date: "2026-06-23",
+  author: "anime vanguards Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary System**: The **anime vanguards memoria** system boosts unit stats and offers dedicated synergy bonuses.
+- **Major Overhaul**: Update 13.5 removed Memoria evolution; all Memoria are now evolved by default and obtained via unit evolution.
+- **Shard Farming**: Gather shards through Odyssey runs, Worldlines progression, and active promo codes.
+- **Recycling Loop**: Scrap unwanted duplicate Memoria to earn Memoria Scrap for leveling and upgrading.
+- **Investment Protection**: Use Stat Transfer tickets to preserve high-tier rolls when moving builds to new meta carries.
+</Callout>
+
+<Section icon={Sparkles} title="The Memoria System in Update 13.5">
+
+The launch of the Eternal Adversaries Update 13.5 has completely overhauled the **anime vanguards memoria** system, streamlining how players upgrade their units and manage late-game progression. Memoria serves as an equipment-based modifier system that directly enhances unit performance through baseline damage boosts, range improvements, and cooldown reduction. 
+
+In previous versions, players had to farm materials to manually evolve Memoria. With the recent Update 13.5 changes, Memoria evolution has been removed entirely. All Memoria are now obtained in their evolved forms by default. When you successfully evolve a unit, the game automatically grants the unit its designated Memoria.
+
+| Feature | Pre-Update 13.5 System | Post-Update 13.5 System |
+|--- |--- |--- |
+| **Evolution Status** | Required manual farming and evolution | Evolved by default upon acquisition |
+| **Acquisition Route** | Standard banners and item crafting | Granted automatically via unit evolution |
+| **Duplicates Handling** | Sat in inventory or wasted | Dismantled via Memoria Recycling |
+| **Max Level Capacity** | Scaled slowly with standard food items | Instantly boostable to Level 60 with tickets |
+
+<Callout type="tip" title="Developer Balance Shift">
+This progression change significantly reduces the daily resource grind. Instead of spending hours farming evolution catalysts specifically for accessories, players can focus their attention on unit ascensions, trait rolls, and farming event-exclusive cosmetics.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="How to Farm Anime Vanguards Memoria Shards">
+
+Acquiring Memoria Shards is essential for purchasing upgrade tickets and maintaining your late-game progression. The current meta offers multiple farming avenues, ranging from standard repeatable modes to seasonal challenge ladders.
+
+### Primary Farming Modes
+
+1. **Odyssey Mode**: This is the most consistent path for repeatable farming. Earning high-tier cards and completing long Odyssey runs awards a steady flow of Memoria Shards, along with Trait Rerolls and local event currencies.
+2. **Worldlines**: A floor-based challenge ladder. Each reset cycle permits players to clear difficult scaling waves to earn milestone rewards, including large bundles of shards, Stat Chips, and essence stones.
+3. **Active Promo Codes**: Kitawari regularly issues server codes during major milestones. Earning free progression currency through codes is the fastest shortcut for both new and returning players.
+
+| Game Mode | Resource Yield | Difficulty Rating | Target Player Base |
+|--- |--- |--- |--- |
+| **Odyssey Runs** | Moderate Shards, Trait Rerolls | Medium | Active farming accounts |
+| **Worldlines Ladder** | High Shards, Stat Chips | Very High | Late-game meta teams |
+| **Active Promo Codes** | Instant 50 to 100 Shards | None | All accounts |
+| **Summer Gamemode** | Limited Event Rewards, Shards | Medium | Event-pass grinders |
+
+<Steps>
+  <Step num="1" title="Reach Level Requirements">
+    Ensure your Roblox account is at least Level 30. Newer codes containing high-value items like Memoria Shards and Trait Rerolls require Level 30 to prevent bot abuse.
+  </Step>
+  <Step num="2" title="Access the Profile Menu">
+    Launch the game on Roblox, wait for the hub to load, and locate the blue Profile icon on the right-hand side of your screen.
+  </Step>
+  <Step num="3" title="Input Active Codes">
+    Open the purple Codes option within the Profile window. Copy and paste codes exactly as written to avoid errors. Use the active Update 13.5 codes: `EternalAdversaries` for 50 Shards, or `Gambler` for 50 Shards and 50 Trait Rerolls.
+  </Step>
+  <Step num="4" title="Collect Mailbox Rewards">
+    Verify the transaction success message. Open your in-game mailbox to claim the rewards.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Level Limits">
+If you attempt to redeem premium codes before reaching Level 30, the system will reject the code. Focus on clearing Story Mode acts and Nightmare stages to quickly boost your account level first.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Memoria Recycling and Leveling Tickets">
+
+Update 13.5 introduced the Memoria Recycling feature to clean up player inventories and convert duplicate items into valuable progression materials. Unwanted Memoria can be dismantled at the recycling terminal inside the main social hub.
+
+### Recycling Output Values
+
+Dismantling a Memoria item yields Memoria Scrap. The volume and rarity of the returned scrap depend directly on the rarity of the dismantled item. This scrap can then be spent at the exclusive shop to buy Memoria Leveling Tickets, which instantly raise any equipped Memoria to Level 60.
+
+| Dismantled Item Rarity | Scrap Type Returned | Leveling Ticket Value |
+|--- |--- |--- |
+| **Mythic Memoria** | Standard Scrap | Low (requires multiple dints) |
+| **Secret Memoria** | Rare Scrap | Medium (exchanges for 1-2 tickets) |
+| **Vanguard Memoria** | Pristine Scrap | High (exchanges for 5+ tickets) |
+
+<Checklist
+  id="memoria-management"
+  title="Weekly Management Checklist:"
+  items={[
+    "Lock at least one copy of each unique Memoria to prevent accidental recycling.",
+    "Dismantle all duplicate Mythic items to build a stockpile of Memoria Scrap.",
+    "Exchange scrap at the hub shop to buy Leveling Tickets for your primary carries.",
+    "Check the weekly Worldlines rewards to ensure you do not miss shard milestones."
+  ]}
+/>
+
+<Callout type="success" title="Instant Leveling Strategy">
+Using Leveling Tickets bypasses the gold and material cost of standard leveling. Reserve these tickets for Vanguard-rarity Memoria linked to meta cores like Rogita (Super 4) or Song Jinwu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Memoria Stat Transfer & Optimization Strategy">
+
+When transitioning between meta seasons, preserving your investment is critical. The **anime vanguards memoria** system supports stat transfers, allowing players to move highly-rolled stats from an old item to a newly acquired piece without losing pity or progression.
+
+### Trait and Stat Alignment
+
+To maximize team damage output, align your Memoria stats with your unit roles and their rolled traits. Units carrying mythic traits like Monarch, Ethereal, or Deadeye benefit exponentially from flat damage increases and cooldown reductions.
+
+<CardGrid cols={3}>
+  <Card title="DPS Carry Configuration">
+    - **Primary Stat**: Flat Damage %
+    - **Secondary Stat**: Crit Chance
+    - **Recommended Traits**: Monarch or Ethereal
+  </Card>
+  <Card title="Crowd Control Configuration">
+    - **Primary Stat**: Range Boost
+    - **Secondary Stat**: Attack Speed (SPA)
+    - **Recommended Traits**: Solar or Blitz
+  </Card>
+  <Card title="Economy Support Configuration">
+    - **Primary Stat**: Cost Reduction
+    - **Secondary Stat**: Range
+    - **Recommended Traits**: Fortune or Swift
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Ascension Warning">
+Do not confuse unit ascension with Memoria leveling. When a Mythic unit undergoes a rarity-changing evolution into a Secret or Vanguard unit, its unit ascensions are wiped. However, its linked Memoria stats are protected and can be safely transferred using the Kokashi NPC transfer interface. Evolve your units first, then apply your ascensions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I get Memoria in Anime Vanguards Update 13.5?",
+    answer: "Memoria are now evolved by default and granted automatically when you evolve their corresponding units. You no longer need to evolve Memoria items manually."
+  },
+  {
+    question: "What is the level requirement to redeem codes for Memoria Shards?",
+    answer: "Most codes containing Memoria Shards or Trait Rerolls in the Eternal Adversaries update require your account to be at least Level 30."
+  },
+  {
+    question: "What should I do with my duplicate Memoria?",
+    answer: "Use the Memoria Recycling terminal in the social hub to dismantle duplicates into Memoria Scrap, which can be traded for Leveling Tickets."
+  },
+  {
+    question: "Do Memoria stats transfer when I evolve my units?",
+    answer: "Yes, Memoria stats remain safe, and the game supports direct stat transfers to help protect your investment when upgrading unit builds."
+  }
+]} />
+
+<Callout type="info" title="Community Support">
+For active discussions, strategy builds, and real-time alerts on new codes, check the official Roblox community or join the official Discord server. Avoid using third-party sites that require account credentials to redeem rewards.
+</Callout>
+
+</Section>
