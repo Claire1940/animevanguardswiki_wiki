@@ -464,136 +464,417 @@
       ]
     },
     "animeVanguardsTraitsGuide": {
-      "title": "Anime Vanguards Traits Guide",
+      "title": "Anime Vanguards Traits and Rerolls Guide",
       "displayType": "accordion",
-      "intro": "Traits shape how each unit performs in Anime Vanguards. Understand how Trait Rerolls work, which traits fit each role, and when to save your reroll resources.",
-      "faqs": [
+      "intro": "Traits are permanent unit modifiers that improve combat stats such as Damage, SPA, and Range. Learn how Trait Rerolls work, which traits are worth keeping, and where to spend rare reroll resources first in Anime Vanguards.",
+      "labels": {
+        "keyPoints": "Key points",
+        "trait": "Trait",
+        "chance": "Drop chance",
+        "role": "Best use",
+        "pity": "Pity target",
+        "priority": "Reroll priority",
+        "roleMatch": "Unit role",
+        "bestTraits": "Best traits",
+        "reason": "Why it fits"
+      },
+      "items": [
         {
-          "question": "What are traits in Anime Vanguards?",
-          "answer": "Traits are stat modifiers assigned to units. They adjust damage, range, attack speed, economy, or utility, and rerolling changes which trait a unit holds."
+          "heading": "How Trait Rerolls Work",
+          "content": "A Trait Reroll changes the trait on one selected unit. Each attempt consumes one Trait Reroll, and the new result replaces the previous trait on that unit.",
+          "keyPoints": [
+            "Traits can appear when summoning units or be changed later with Trait Rerolls.",
+            "Trait Rerolls are spent at the Mandra Traits NPC.",
+            "The Trait Index menu tracks mythic pity separately for each unit.",
+            "Evolution, Normalizing, and Stat Transfers do not reset a unit's trait pity."
+          ]
         },
         {
-          "question": "How does Trait Reroll work?",
-          "answer": "Trait Rerolls swap the current trait for a new roll from the trait pool. Higher-value traits are rarer, so rerolling is best reserved for units you plan to use long-term."
+          "heading": "Trait Roll Pool",
+          "content": "The current trait pool includes common stat traits, farming traits, and rare mythic traits reserved for endgame units.",
+          "traits": [
+            { "name": "Vigor", "chance": "26%", "role": "Damage boost for early and filler DPS units" },
+            { "name": "Range", "chance": "26%", "role": "Extra coverage for units that need better placement reach" },
+            { "name": "Swift", "chance": "26%", "role": "SPA improvement for faster attacking units" },
+            { "name": "Scholar", "chance": "10%", "role": "Useful while leveling units" },
+            { "name": "Marksman", "chance": "6.5%", "role": "Range upgrade for units with strong area coverage" },
+            { "name": "Fortune", "chance": "2.5%", "role": "Economy trait for farming and support value" },
+            { "name": "Blitz", "chance": "1.85%", "role": "High-value SPA trait for damage units" },
+            { "name": "Solar", "chance": "0.5%", "role": "Mythic trait with strong damage and range value" },
+            { "name": "Deadeye", "chance": "0.375%", "role": "Mythic trait for crit-focused boss and infinite damage" },
+            { "name": "Ethereal", "chance": "0.175%", "role": "Top mythic damage trait for major carry units" },
+            { "name": "Monarch", "chance": "0.1%", "role": "Highest-value mythic trait for premium carry units" }
+          ]
         },
         {
-          "question": "Which traits fit damage carries?",
-          "answer": "Damage carries benefit from traits that raise damage, crit rate, or attack speed, letting a single unit handle denser waves more efficiently."
+          "heading": "Mythic Pity Targets",
+          "content": "Mythic traits have pity thresholds that help you plan reroll sessions instead of clicking until resources run out.",
+          "pity": [
+            { "trait": "Solar", "pity": "300" },
+            { "trait": "Deadeye", "pity": "400" },
+            { "trait": "Ethereal", "pity": "858" },
+            { "trait": "Monarch", "pity": "1500" }
+          ]
         },
         {
-          "question": "Which traits fit support and economy units?",
-          "answer": "Support and economy units benefit from traits that improve deployment cost reduction, range coverage, or team-wide buffs that amplify your carries."
+          "heading": "Best Reroll Priority",
+          "content": "Rerolls should go to units that remain useful after evolution, ascension planning, and current endgame farming.",
+          "priorityOrder": [
+            "Main evolved DPS used across Story, Legend, Raid, Rift, Odyssey, and Boss Rush teams",
+            "Vanguard, Secret, and high-value Mythic units with strong long-term kits",
+            "Boss killers with high damage scaling, crit value, or powerful active abilities",
+            "Core support units only when their trait directly improves their role",
+            "Temporary leveling units only after the main team already has usable traits"
+          ]
         },
         {
-          "question": "When should I save Trait Rerolls?",
-          "answer": "Save rerolls for Secret, Vanguard, and Exclusive units with a clear role. Rerolling weak or filler units wastes resources that are better spent on your core team."
+          "heading": "Role-Based Trait Matching",
+          "content": "The best trait depends on what the unit actually does inside a team.",
+          "roleMatches": [
+            {
+              "role": "Single-placement or low-placement carry",
+              "bestTraits": "Monarch, Ethereal, Deadeye",
+              "reason": "These units benefit heavily from large stat gains because every placement matters."
+            },
+            {
+              "role": "Fast attacking DPS",
+              "bestTraits": "Deadeye, Blitz, Ethereal",
+              "reason": "SPA and crit-focused traits improve repeated damage output."
+            },
+            {
+              "role": "Wide-range AoE unit",
+              "bestTraits": "Monarch, Solar, Marksman, Range",
+              "reason": "Range and damage together improve map coverage and wave clearing."
+            },
+            {
+              "role": "Farm or economy unit",
+              "bestTraits": "Fortune, Swift",
+              "reason": "Economy units care more about income timing and utility than raw damage."
+            },
+            {
+              "role": "Early-game filler",
+              "bestTraits": "Vigor, Range, Swift",
+              "reason": "Common traits are acceptable until the unit is replaced."
+            }
+          ]
         }
       ]
     },
     "animeVanguardsEvolutionsGuide": {
-      "title": "Anime Vanguards Evolutions Guide",
+      "title": "Anime Vanguards Evolution and Ascension Guide",
       "displayType": "step-by-step",
-      "intro": "Evolution and ascension are long-term progression milestones in Anime Vanguards. Follow a clean upgrade route that protects your resources and invests in the right units first.",
+      "intro": "Evolution changes a unit into a stronger form with improved stats, attacks, passives, or upgrade paths in Anime Vanguards. Ascension is a separate long-term upgrade for Mythic units, so the safest route is to evolve core units first, then ascend only the units that will stay in your main teams.",
+      "labels": {
+        "checklist": "Checklist",
+        "examples": "Examples",
+        "result": "Result",
+        "resourceNotes": "Resource notes",
+        "ascensionBonuses": "Ascension bonuses",
+        "safetyRule": "Safety rule",
+        "bestUse": "Best use"
+      },
       "steps": [
         {
-          "title": "Identify Evolvable Units",
-          "description": "Check which units have an evolution or ascension path before investing, since only specific units can be upgraded to stronger forms."
+          "title": "Choose the Final Unit Before Farming",
+          "description": "Start with units that already carry your Story, Legend, Raid, Rift, Odyssey, Worldlines, or Boss Rush teams.",
+          "checklist": [
+            "Check whether the unit has an evolved form.",
+            "Check whether the evolved form changes its attack pattern, passive, or upgrade value.",
+            "Prioritize units that stay useful across several modes."
+          ]
         },
         {
-          "title": "Gather Evolution Materials",
-          "description": "Collect the required materials such as Essence Stones, Memoria Shards, and event currencies from the maps and modes that drop them."
+          "title": "Farm the Required Evolution Route",
+          "description": "Evolution requirements vary by unit. Some units need specific evolution items, while others also require Evolution Quests.",
+          "checklist": [
+            "Farm the stage, raid, rift, event shop, or mode tied to the required item.",
+            "Save essence stones, gold, and unit-specific materials until the full requirement is ready.",
+            "Avoid partial investment into units that are not part of the final team."
+          ]
         },
         {
-          "title": "Time Your Upgrades",
-          "description": "Evolve units that already hold a clear role in your team, rather than spending materials on units you may replace soon."
+          "title": "Complete Evolution Quests When Required",
+          "description": "Some major units use Evolution Quests as part of their upgrade path. These quests are multi-step tasks that must be finished before the evolution can be completed.",
+          "examples": [
+            "Elastic Captain evolution route",
+            "Bounty Hunter evolution route",
+            "Update-based evolution reward events"
+          ]
         },
         {
-          "title": "Upgrade Traits and Stats First",
-          "description": "Lock in strong traits and stat rolls before evolving, since evolving amplifies the base unit you already built."
+          "title": "Evolve the Unit at the Upgrade Area",
+          "description": "Use the Evolve station in the Upgrades area once the unit, materials, gold, and quest requirements are ready.",
+          "result": "A successful evolution can add stronger stats, new attacks, new passives, more upgrade levels, or a stronger final role."
         },
         {
-          "title": "Link Memoria Where Useful",
-          "description": "Connect Memoria to evolved units to extend their bonuses and fit them into themed teams such as Demon Hunter or Pirate setups."
+          "title": "Use Current Memoria Rules",
+          "description": "Update 13.5 changed Memoria progression. Memoria evolutions were removed, all Memoria are evolved by default, and unit evolutions now grant their designated Memoria.",
+          "resourceNotes": [
+            "Memoria Recycling turns unwanted Memoria into rarity-based Memoria Scrap.",
+            "Memoria Leveling Tickets can instantly raise Memoria to Level 60.",
+            "Memoria stat transfer support helps protect investment when upgrading builds."
+          ]
         },
         {
-          "title": "Rebuild Around Evolved Units",
-          "description": "Once a unit evolves, revisit your team composition so the upgraded unit takes its strongest position on the field."
+          "title": "Ascend Only Long-Term Mythic Units",
+          "description": "Ascension is handled through the Kokashi NPC and applies only to Mythic units. It gives three stat upgrades across three ascension levels.",
+          "ascensionBonuses": [
+            { "level": "Ascension I", "bonus": "Damage +3%" },
+            { "level": "Ascension II", "bonus": "Range +5%" },
+            { "level": "Ascension III", "bonus": "Damage +7%" }
+          ]
+        },
+        {
+          "title": "Prepare Duplicate and Material Costs",
+          "description": "A full ascension plan requires the target unit, spare non-evolved unlocked non-shiny copies, and unit-specific materials.",
+          "safetyRule": "Do not spend duplicate copies on a unit unless that unit is staying in your account plan."
+        },
+        {
+          "title": "Protect Ascension Before Rarity-Changing Evolution",
+          "description": "When a Mythic unit evolves into Secret or Vanguard rarity, its ascensions are removed and do not transfer to the new form.",
+          "bestUse": "Finish rarity-changing evolution decisions first, then use ascension resources on the unit form that will remain in your team."
         }
       ]
     },
     "animeVanguardsGameModesGuide": {
       "title": "Anime Vanguards Game Modes Guide",
       "displayType": "table",
-      "intro": "Anime Vanguards offers multiple modes, each with its own team requirements and rewards. Use this overview to pick the right mode for your current goal.",
+      "intro": "Anime Vanguards is built around repeated tower-defense progression, but each mode pushes a different goal: story unlocks, rare drops, event currency, evolution items, rerolls, Memoria resources, or boss-focused farming. Use this overview to pick the right mode for your current goal.",
       "modeLabel": "Mode",
+      "labels": {
+        "type": "Type",
+        "purpose": "Purpose",
+        "whatPlayersDo": "What players do",
+        "teamFocus": "Team focus",
+        "keyRewards": "Key rewards",
+        "farmWhen": "Farm when"
+      },
       "modes": [
         {
           "name": "Story Mode",
           "type": "Progression",
-          "description": "Linear stages that teach the core loop and unlock systems as you progress.",
-          "reward": "Gems, Gold, and unit upgrade materials"
+          "purpose": "Main campaign progression",
+          "description": "Clear acts across themed worlds on Normal and Nightmare modes.",
+          "teamFocus": "Cheap early AoE, one reliable boss DPS, one farm or support unit, and stable upgrades.",
+          "keyRewards": "Gems, Gold, player progression, stage drops, and access to later content.",
+          "farmWhen": "Use this first to unlock worlds, prepare materials, and build the account foundation."
+        },
+        {
+          "name": "Legend Stages",
+          "type": "Harder Story",
+          "purpose": "Harder story-based farming",
+          "description": "Clear stronger versions of story maps with modifiers and exclusive reward paths.",
+          "teamFocus": "High damage carry, strong AoE coverage, slows or control, and upgraded units.",
+          "keyRewards": "Evolution materials, rare stage drops, unit drop pity progress, and account progression.",
+          "farmWhen": "Farm after the core team can clear Story consistently."
         },
         {
           "name": "Raids",
           "type": "Endgame",
-          "description": "Tougher multi-wave battles that test full-team builds and crowd control.",
-          "reward": "Essence Stones, Memoria Shards, and rare materials"
+          "purpose": "High-difficulty boss and material farming",
+          "description": "Fight harder multi-wave stages and boss encounters for exclusive rewards.",
+          "teamFocus": "Boss DPS, wave clear, support, slows, and coordinated co-op placement.",
+          "keyRewards": "Rare units, evolution items, event currency, and raid-exclusive rewards.",
+          "farmWhen": "Farm when the team has evolved carries and enough support to survive boss pressure."
         },
         {
           "name": "Rifts",
           "type": "Rotating",
-          "description": "Time-limited rift content tied to update themes such as Pirate Dynasty.",
-          "reward": "Event currencies and evolution materials"
+          "purpose": "Rare encounter farming",
+          "description": "Enter rift encounters with dangerous enemies and limited reward windows.",
+          "teamFocus": "Fast clear speed, strong boss damage, and units that can handle sudden pressure.",
+          "keyRewards": "Rare rewards, rift units, event items, and update-based drops.",
+          "farmWhen": "Farm when a current update places key units or materials behind rift gameplay."
         },
         {
-          "name": "Events",
-          "type": "Seasonal",
-          "description": "Limited-time modes like Eternal Adversaries Summer content with unique units.",
-          "reward": "Iced Teas, event units, and exclusive rewards"
+          "name": "Boss Rush and Boss Events",
+          "type": "Boss Challenge",
+          "purpose": "Boss-focused challenge farming",
+          "description": "Fight boss-heavy waves and rotating boss encounters for event and progression rewards.",
+          "teamFocus": "Single-target damage, status support, burst abilities, and reliable late-wave scaling.",
+          "keyRewards": "Boss rewards, event currency, unit drops, and progression resources.",
+          "farmWhen": "Farm when the account needs boss-exclusive drops or event shop currency."
         },
         {
-          "name": "Challenges",
+          "name": "Odyssey",
           "type": "Repeatable",
-          "description": "Daily and weekly challenge tasks that reward steady progression income.",
-          "reward": "Gems, Trait Rerolls, and Gold"
+          "purpose": "Repeatable long-run resource farming",
+          "description": "Progress through Odyssey runs using mode-specific powers, cards, characters, and scaling choices.",
+          "teamFocus": "Durable carry units, long-run scaling, resource-efficient upgrades, and flexible support.",
+          "keyRewards": "Trait Rerolls, Memoria Shards, mode resources, and update-based Odyssey rewards.",
+          "farmWhen": "Farm when the account needs rerolls, Memoria resources, or repeatable endgame progression."
         },
         {
-          "name": "Boss Events",
-          "type": "Limited",
-          "description": "Special boss encounters that demand strong single-target and control units.",
-          "reward": "Stat Chips and high-value materials"
+          "name": "Worldlines",
+          "type": "Floor Climb",
+          "purpose": "Floor-based progression and seasonal reward farming",
+          "description": "Clear floors with increasing difficulty, unique map challenges, and seasonal reward resets.",
+          "teamFocus": "Consistent wave control, boss damage, and units that handle scaling enemies.",
+          "keyRewards": "Floor rewards, Trait Rerolls, Memoria Shards, Stat Chips, essence stones, and seasonal units.",
+          "farmWhen": "Farm each reset cycle to claim floor milestones and new seasonal rewards."
+        },
+        {
+          "name": "Summer Gamemode",
+          "type": "Event",
+          "purpose": "Update 13.5 event farming",
+          "description": "Fight endless zombie-style waves with a Summer theme, unique powers, and mode-specific unit choices.",
+          "teamFocus": "Endurance, wave control, fast upgrades, and units that scale during long survival runs.",
+          "keyRewards": "Iced Tea, Summer event items, Summer rewards, and Event Pass progress.",
+          "farmWhen": "Farm during Update 13.5 while Eternal Adversaries and Iced Tea Festival rewards are active."
+        },
+        {
+          "name": "Summer Portals",
+          "type": "Event",
+          "purpose": "Update 13.5 portal reward farming",
+          "description": "Clear Summer Portal content for exclusive portal rewards.",
+          "teamFocus": "Strong burst damage, broad support coverage, and steady wave clears against portal modifiers.",
+          "keyRewards": "Vanguard Familiars, Summer rewards, and exclusive portal prizes.",
+          "farmWhen": "Farm when building Summer units or chasing new Vanguard Familiar upgrades."
         }
       ]
     },
     "animeVanguardsUpdates": {
-      "title": "Anime Vanguards Updates and Events",
+      "title": "Anime Vanguards Updates and Events Tracker",
       "displayType": "timeline",
-      "intro": "Track current Anime Vanguards updates, seasonal events, battle pass changes, new units, and mode additions so returning players can quickly see what changed.",
+      "intro": "Anime Vanguards updates usually add new units, event modes, currencies, banners, evolution routes, Memoria changes, and limited-time reward tracks. This tracker organizes the most important changes by update so returning players can jump into the right farming route quickly.",
+      "labels": {
+        "version": "Version",
+        "type": "Type",
+        "highlights": "Highlights",
+        "newUnits": "New units",
+        "activeEvents": "Active events",
+        "playerFocus": "Player focus"
+      },
       "entries": [
         {
-          "title": "Eternal Adversaries Update 13.5",
-          "type": "Major Update",
-          "description": "Added new Eternal Adversaries units, Summer 26 Seasonal Banner, Summer Mode units, and new codes with a Level 30 requirement."
+          "date": "2026-06-21",
+          "version": "Update 13.5",
+          "title": "Eternal Adversaries (Update 13.5)",
+          "type": "Current major update",
+          "highlights": [
+            "6 new units",
+            "7 new Memoria",
+            "7 Vanguard Familiars",
+            "Summer Gamemode and Summer Portals",
+            "Summer Banner and Event Pass",
+            "Cosmetic System Rework",
+            "Memoria Recycling and Exclusive Shop",
+            "Social Hub, 3 unit remodels, 4 new cosmetics, 34 quality-of-life changes, and 356 bug fixes"
+          ],
+          "newUnits": [
+            "Today's Strongest vs History's Strongest",
+            "Lord (Fairy)",
+            "Reaper (Scissors)",
+            "Cursed Doctor (Healer)",
+            "Raging Oni vs Wrath God",
+            "Envoy of Destruction (Resistance)"
+          ],
+          "activeEvents": [
+            "Eternal Adversaries",
+            "Iced Tea Festival",
+            "Evolution Madness",
+            "Odyssey Outrage",
+            "Familial Folly",
+            "Recurring Decadence",
+            "Something's Shiny"
+          ],
+          "playerFocus": "Farm Iced Tea, progress the Event Pass, test Summer Portals for Vanguard Familiar rewards, recycle duplicate Memoria, and review unit builds after the Memoria system changes."
         },
         {
-          "title": "Summer Event Modes",
-          "type": "Seasonal Event",
-          "description": "Introduced Summer Portals, Summer Mode, and Iced Teas as a spendable event currency."
+          "date": "2026-05-31",
+          "version": "Update 13.0",
+          "title": "Godly Ascension (Update 13.0)",
+          "type": "Major content update",
+          "highlights": [
+            "Godly Ascension event cycle",
+            "6 new units",
+            "New story content",
+            "New Rift and Rift unit",
+            "Battle Pass Season 13",
+            "Pirate Dynasty gamemode",
+            "Boss Rush",
+            "Odyssey changes and new special events"
+          ],
+          "newUnits": [
+            "Elastic Captain",
+            "Bounty Hunter",
+            "Beast Pirate",
+            "Scrap Pirate",
+            "Cat God",
+            "Reasonable Person"
+          ],
+          "activeEvents": [
+            "Godly Ascension",
+            "Crowning The King",
+            "The Power Of Youth"
+          ],
+          "playerFocus": "Work on the new evolution routes, clear Pirate Dynasty rewards, challenge Boss Rush, and farm the new Rift path for update-specific drops."
         },
         {
-          "title": "Godly Ascension Update 13.0",
-          "type": "Major Update",
-          "description": "Added Battlepass Season 13 units, Pirate Dynasty content, Rift gameplay, and new evolution questlines."
+          "date": "2026-05-09",
+          "version": "Update 12.5",
+          "title": "Turning Tides (Update 12.5)",
+          "type": "System and progression update",
+          "highlights": [
+            "6 new units",
+            "Odyssey mode rework",
+            "Elemental Tower Skill Tree",
+            "Guild System overhaul",
+            "Large bug-fix pass"
+          ],
+          "newUnits": [],
+          "activeEvents": [],
+          "playerFocus": "Use the Odyssey rework for repeatable resource farming, rebuild Elemental Tower progress, and check guild features before focusing only on summons."
         },
         {
-          "title": "Worldlines Content",
-          "type": "New Mode",
-          "description": "Added Worldlines with new Secret unit targets and themed progression paths."
+          "date": "2026-02-27",
+          "version": "Update 11.0",
+          "title": "Demonic Rampage (Update 11.0)",
+          "type": "Story and Memoria update",
+          "highlights": [
+            "7 new units",
+            "Hill of Swords story stage",
+            "5 new enemies and 8 bosses",
+            "Dispersal enemy mechanic",
+            "New Unit Memoria and Standard Memoria Banner"
+          ],
+          "newUnits": [
+            "Demon Hybrid",
+            "Demon Leader",
+            "Demon Hunter",
+            "Explosive Demon",
+            "Delusional Demon",
+            "Manipulator",
+            "Arbiter"
+          ],
+          "activeEvents": [],
+          "playerFocus": "Clear Hill of Swords progression, learn Dispersal enemy behavior, and target Memoria upgrades for units that returned to stronger use."
         },
         {
-          "title": "Balance and Memoria Updates",
-          "type": "Patch Notes",
-          "description": "Ongoing balance changes to units, traits, and Memoria links following community feedback and the current patch."
+          "date": "2026-02-01",
+          "version": "Update 10.5",
+          "title": "Frozen Solitude (Update 10.5)",
+          "type": "Seasonal event update",
+          "highlights": [
+            "6 new units",
+            "Winter Gamemode and Winter Lobby",
+            "Winter Shop and Legacy Event Shop",
+            "Winter Banner",
+            "Worldlines reset and new limited events"
+          ],
+          "newUnits": [
+            "Ice Queen (Release)",
+            "Company Captain (Hybrid)",
+            "Armored Mage",
+            "Rabbit Hero",
+            "Ice Manipulator",
+            "Trash Gamer"
+          ],
+          "activeEvents": [
+            "Wintery Gifts",
+            "Frozen Solitude event set"
+          ],
+          "playerFocus": "Use seasonal shops for evolution items, claim Worldlines floor rewards, and collect Winter Banner units or Memoria before rotating content changes."
         }
       ]
     }

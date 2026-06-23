@@ -19,7 +19,7 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   animeVanguardsBeginnerGuide: { field: 'steps', nameKey: 'title' },
   animeVanguardsUnitTierList: { field: 'tiers', nameKey: 'tierLabel' },
   animeVanguardsUnitsGuide: { field: 'cards', nameKey: 'title' },
-  animeVanguardsTraitsGuide: { field: 'faqs', nameKey: 'question' },
+  animeVanguardsTraitsGuide: { field: 'items', nameKey: 'heading' },
   animeVanguardsEvolutionsGuide: { field: 'steps', nameKey: 'title' },
   animeVanguardsGameModesGuide: { field: 'modes', nameKey: 'name' },
   animeVanguardsUpdates: { field: 'entries', nameKey: 'title' },

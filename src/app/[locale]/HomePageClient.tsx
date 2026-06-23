@@ -17,6 +17,12 @@ import {
   Zap,
   Map as MapIcon,
   Newspaper,
+  RefreshCw,
+  Dice5,
+  Target,
+  ListOrdered,
+  Crosshair,
+  Calendar,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -755,7 +761,7 @@ export default function HomePageClient({
       <section id="traits" className="scroll-mt-24 px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-5xl">
           <ModuleHeader
-            eyebrow="Traits"
+            eyebrow="Traits & Rerolls"
             Icon={Dna}
             title={t.modules.animeVanguardsTraitsGuide.title}
             intro={t.modules.animeVanguardsTraitsGuide.intro}
@@ -765,41 +771,159 @@ export default function HomePageClient({
           />
 
           <div className="scroll-reveal space-y-3">
-            {t.modules.animeVanguardsTraitsGuide.faqs.map(
-              (faq: any, index: number) => (
-                <div
-                  key={index}
-                  className="border border-border rounded-xl overflow-hidden bg-white/5"
-                >
-                  <button
-                    onClick={() =>
-                      setFaqExpanded(faqExpanded === index ? null : index)
-                    }
-                    className="w-full flex items-center justify-between p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
+            {t.modules.animeVanguardsTraitsGuide.items.map(
+              (item: any, index: number) => {
+                const labels =
+                  t.modules.animeVanguardsTraitsGuide.labels || {};
+                const itemIcons = [
+                  RefreshCw,
+                  Dice5,
+                  Target,
+                  ListOrdered,
+                  Crosshair,
+                ];
+                const ItemIcon = itemIcons[index] || Dna;
+                return (
+                  <div
+                    key={index}
+                    className="border border-border rounded-xl overflow-hidden bg-white/5"
                   >
-                    <span className="font-semibold text-sm md:text-base">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[
-                            `animeVanguardsTraitsGuide::faqs::${index}`
-                          ]
-                        }
-                        locale={locale}
-                      >
-                        {faq.question}
-                      </LinkedTitle>
-                    </span>
-                    <ChevronDown
-                      className={`w-5 h-5 flex-shrink-0 transition-transform ${faqExpanded === index ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  {faqExpanded === index && (
-                    <div className="px-4 md:px-5 pb-4 md:pb-5 text-muted-foreground text-sm">
-                      {faq.answer}
-                    </div>
-                  )}
-                </div>
-              ),
+                    <button
+                      onClick={() =>
+                        setFaqExpanded(faqExpanded === index ? null : index)
+                      }
+                      className="w-full flex items-center gap-3 justify-between p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
+                    >
+                      <span className="flex items-center gap-3 font-semibold text-sm md:text-base">
+                        <ItemIcon className="w-5 h-5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        <LinkedTitle
+                          linkData={
+                            moduleLinkMap[
+                              `animeVanguardsTraitsGuide::items::${index}`
+                            ]
+                          }
+                          locale={locale}
+                        >
+                          {item.heading}
+                        </LinkedTitle>
+                      </span>
+                      <ChevronDown
+                        className={`w-5 h-5 flex-shrink-0 transition-transform ${faqExpanded === index ? "rotate-180" : ""}`}
+                      />
+                    </button>
+                    {faqExpanded === index && (
+                      <div className="px-4 md:px-5 pb-5 md:pb-6 text-sm text-muted-foreground space-y-4">
+                        <p className="text-foreground/90">{item.content}</p>
+
+                        {/* Key points */}
+                        {Array.isArray(item.keyPoints) &&
+                          item.keyPoints.length > 0 && (
+                            <div>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-2">
+                                {labels.keyPoints}
+                              </p>
+                              <ul className="space-y-1.5">
+                                {item.keyPoints.map((p: string, i: number) => (
+                                  <li
+                                    key={i}
+                                    className="flex items-start gap-2"
+                                  >
+                                    <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                                    <span>{p}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+
+                        {/* Trait roll pool */}
+                        {Array.isArray(item.traits) &&
+                          item.traits.length > 0 && (
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                              {item.traits.map((tr: any, i: number) => (
+                                <div
+                                  key={i}
+                                  className="flex items-center gap-3 p-2.5 rounded-lg bg-white/5 border border-border"
+                                >
+                                  <span className="font-semibold text-foreground text-sm min-w-[5.5rem]">
+                                    {tr.name}
+                                  </span>
+                                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
+                                    {tr.chance}
+                                  </span>
+                                  <span className="text-xs text-muted-foreground flex-1">
+                                    {tr.role}
+                                  </span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+
+                        {/* Pity targets */}
+                        {Array.isArray(item.pity) &&
+                          item.pity.length > 0 && (
+                            <div className="flex flex-wrap gap-2">
+                              {item.pity.map((p: any, i: number) => (
+                                <span
+                                  key={i}
+                                  className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 border border-border text-sm"
+                                >
+                                  <span className="font-semibold text-foreground">
+                                    {p.trait}
+                                  </span>
+                                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)]">
+                                    {labels.pity}: {p.pity}
+                                  </span>
+                                </span>
+                              ))}
+                            </div>
+                          )}
+
+                        {/* Priority order */}
+                        {Array.isArray(item.priorityOrder) &&
+                          item.priorityOrder.length > 0 && (
+                            <ol className="space-y-2">
+                              {item.priorityOrder.map((p: string, i: number) => (
+                                <li
+                                  key={i}
+                                  className="flex items-start gap-3"
+                                >
+                                  <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.2)] border border-[hsl(var(--nav-theme)/0.4)] text-xs font-bold text-[hsl(var(--nav-theme-light))]">
+                                    {i + 1}
+                                  </span>
+                                  <span>{p}</span>
+                                </li>
+                              ))}
+                            </ol>
+                          )}
+
+                        {/* Role-based matching */}
+                        {Array.isArray(item.roleMatches) &&
+                          item.roleMatches.length > 0 && (
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                              {item.roleMatches.map((rm: any, i: number) => (
+                                <div
+                                  key={i}
+                                  className="p-3 rounded-lg bg-white/5 border border-border"
+                                >
+                                  <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1.5">
+                                    {rm.role}
+                                  </p>
+                                  <p className="text-sm font-semibold text-foreground mb-1">
+                                    {rm.bestTraits}
+                                  </p>
+                                  <p className="text-xs text-muted-foreground">
+                                    {rm.reason}
+                                  </p>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                      </div>
+                    )}
+                  </div>
+                );
+              },
             )}
           </div>
         </div>
@@ -823,35 +947,164 @@ export default function HomePageClient({
 
           <div className="scroll-reveal space-y-3 md:space-y-4">
             {t.modules.animeVanguardsEvolutionsGuide.steps.map(
-              (step: any, index: number) => (
-                <div
-                  key={index}
-                  className="flex gap-3 md:gap-4 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <div className="flex h-10 w-10 md:h-12 md:w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
-                    <span className="text-base md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
-                      {index + 1}
-                    </span>
+              (step: any, index: number) => {
+                const labels =
+                  t.modules.animeVanguardsEvolutionsGuide.labels || {};
+                return (
+                  <div
+                    key={index}
+                    className="flex gap-3 md:gap-4 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex h-10 w-10 md:h-12 md:w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
+                      <span className="text-base md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
+                        {index + 1}
+                      </span>
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="text-lg md:text-xl font-bold mb-1.5 md:mb-2">
+                        <LinkedTitle
+                          linkData={
+                            moduleLinkMap[
+                              `animeVanguardsEvolutionsGuide::steps::${index}`
+                            ]
+                          }
+                          locale={locale}
+                        >
+                          {step.title}
+                        </LinkedTitle>
+                      </h3>
+                      <p className="text-sm md:text-base text-muted-foreground mb-3">
+                        {step.description}
+                      </p>
+
+                      {/* Checklist */}
+                      {Array.isArray(step.checklist) &&
+                        step.checklist.length > 0 && (
+                          <div className="mb-3">
+                            <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-2">
+                              {labels.checklist}
+                            </p>
+                            <ul className="space-y-1.5">
+                              {step.checklist.map((c: string, i: number) => (
+                                <li
+                                  key={i}
+                                  className="flex items-start gap-2 text-sm"
+                                >
+                                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                                  <span className="text-muted-foreground">
+                                    {c}
+                                  </span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                      {/* Examples */}
+                      {Array.isArray(step.examples) &&
+                        step.examples.length > 0 && (
+                          <div className="mb-3">
+                            <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-2">
+                              {labels.examples}
+                            </p>
+                            <ul className="space-y-1.5">
+                              {step.examples.map((e: string, i: number) => (
+                                <li
+                                  key={i}
+                                  className="flex items-start gap-2 text-sm"
+                                >
+                                  <ArrowRight className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                                  <span className="text-muted-foreground">
+                                    {e}
+                                  </span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                      {/* Resource notes */}
+                      {Array.isArray(step.resourceNotes) &&
+                        step.resourceNotes.length > 0 && (
+                          <div className="mb-3">
+                            <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-2">
+                              {labels.resourceNotes}
+                            </p>
+                            <ul className="space-y-1.5">
+                              {step.resourceNotes.map((r: string, i: number) => (
+                                <li
+                                  key={i}
+                                  className="flex items-start gap-2 text-sm"
+                                >
+                                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                                  <span className="text-muted-foreground">
+                                    {r}
+                                  </span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+                      {/* Ascension bonuses */}
+                      {Array.isArray(step.ascensionBonuses) &&
+                        step.ascensionBonuses.length > 0 && (
+                          <div className="mb-3 flex flex-wrap gap-2">
+                            {step.ascensionBonuses.map((ab: any, i: number) => (
+                              <span
+                                key={i}
+                                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm"
+                              >
+                                <span className="font-semibold text-foreground">
+                                  {ab.level}
+                                </span>
+                                <span className="text-[hsl(var(--nav-theme-light))] font-medium">
+                                  {ab.bonus}
+                                </span>
+                              </span>
+                            ))}
+                          </div>
+                        )}
+
+                      {/* Result */}
+                      {step.result && (
+                        <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] mb-3">
+                          <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1">
+                            {labels.result}
+                          </p>
+                          <p className="text-sm text-foreground/90">
+                            {step.result}
+                          </p>
+                        </div>
+                      )}
+
+                      {/* Safety rule (emphasized with theme accent border) */}
+                      {step.safetyRule && (
+                        <div className="p-3 rounded-lg border-l-4 border-[hsl(var(--nav-theme))] bg-[hsl(var(--nav-theme)/0.12)] mb-3">
+                          <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1">
+                            {labels.safetyRule}
+                          </p>
+                          <p className="text-sm text-foreground/90">
+                            {step.safetyRule}
+                          </p>
+                        </div>
+                      )}
+
+                      {/* Best use */}
+                      {step.bestUse && (
+                        <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)]">
+                          <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1">
+                            {labels.bestUse}
+                          </p>
+                          <p className="text-sm text-foreground/90">
+                            {step.bestUse}
+                          </p>
+                        </div>
+                      )}
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-lg md:text-xl font-bold mb-1.5 md:mb-2">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[
-                            `animeVanguardsEvolutionsGuide::steps::${index}`
-                          ]
-                        }
-                        locale={locale}
-                      >
-                        {step.title}
-                      </LinkedTitle>
-                    </h3>
-                    <p className="text-sm md:text-base text-muted-foreground">
-                      {step.description}
-                    </p>
-                  </div>
-                </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>
@@ -872,39 +1125,76 @@ export default function HomePageClient({
 
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.animeVanguardsGameModesGuide.modes.map(
-              (mode: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <div className="flex items-center gap-3 mb-3">
-                    <h3 className="font-bold text-lg">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[
-                            `animeVanguardsGameModesGuide::modes::${index}`
-                          ]
-                        }
-                        locale={locale}
-                      >
-                        {mode.name}
-                      </LinkedTitle>
-                    </h3>
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
-                      {mode.type}
-                    </span>
+              (mode: any, index: number) => {
+                const labels =
+                  t.modules.animeVanguardsGameModesGuide.labels || {};
+                return (
+                  <div
+                    key={index}
+                    className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 mb-3 flex-wrap">
+                      <h3 className="font-bold text-lg">
+                        <LinkedTitle
+                          linkData={
+                            moduleLinkMap[
+                              `animeVanguardsGameModesGuide::modes::${index}`
+                            ]
+                          }
+                          locale={locale}
+                        >
+                          {mode.name}
+                        </LinkedTitle>
+                      </h3>
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
+                        {mode.type}
+                      </span>
+                    </div>
+
+                    <div className="space-y-2.5 text-sm">
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                          {labels.purpose}
+                        </p>
+                        <p className="text-muted-foreground">{mode.purpose}</p>
+                      </div>
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                          {labels.whatPlayersDo}
+                        </p>
+                        <p className="text-muted-foreground">
+                          {mode.description}
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                          {labels.teamFocus}
+                        </p>
+                        <p className="text-muted-foreground">
+                          {mode.teamFocus}
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                          {labels.keyRewards}
+                        </p>
+                        <p className="text-muted-foreground">
+                          {mode.keyRewards}
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="mt-3 pt-3 border-t border-border">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1">
+                        {labels.farmWhen}
+                      </p>
+                      <p className="text-sm text-foreground/90">
+                        {mode.farmWhen}
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-2">
-                    {mode.description}
-                  </p>
-                  <p className="text-sm">
-                    <span className="font-medium text-[hsl(var(--nav-theme-light))]">
-                      Rewards:
-                    </span>{" "}
-                    <span className="text-muted-foreground">{mode.reward}</span>
-                  </p>
-                </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>
@@ -928,31 +1218,119 @@ export default function HomePageClient({
 
           <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-6">
             {t.modules.animeVanguardsUpdates.entries.map(
-              (entry: any, index: number) => (
-                <div key={index} className="relative">
-                  <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                  <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-                        {entry.type}
-                      </span>
+              (entry: any, index: number) => {
+                const labels = t.modules.animeVanguardsUpdates.labels || {};
+                return (
+                  <div key={index} className="relative">
+                    <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
+                    <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                      <div className="flex items-center gap-2 mb-2 flex-wrap">
+                        {entry.version && (
+                          <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)] font-medium">
+                            {entry.version}
+                          </span>
+                        )}
+                        <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                          {entry.type}
+                        </span>
+                        {entry.date && (
+                          <span className="text-xs text-muted-foreground inline-flex items-center gap-1">
+                            <Calendar className="w-3.5 h-3.5" />
+                            {entry.date}
+                          </span>
+                        )}
+                      </div>
+                      <h3 className="font-bold mb-2 text-base md:text-lg">
+                        <LinkedTitle
+                          linkData={
+                            moduleLinkMap[`animeVanguardsUpdates::entries::${index}`]
+                          }
+                          locale={locale}
+                        >
+                          {entry.title}
+                        </LinkedTitle>
+                      </h3>
+
+                      {/* Highlights */}
+                      {Array.isArray(entry.highlights) &&
+                        entry.highlights.length > 0 && (
+                          <div className="mb-3">
+                            <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1.5">
+                              {labels.highlights}
+                            </p>
+                            <div className="flex flex-wrap gap-1.5">
+                              {entry.highlights.map((h: string, i: number) => (
+                                <span
+                                  key={i}
+                                  className="text-xs px-2 py-1 rounded-md bg-white/5 border border-border"
+                                >
+                                  {h}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
+                        {/* New units */}
+                        {Array.isArray(entry.newUnits) &&
+                          entry.newUnits.length > 0 && (
+                            <div>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1.5">
+                                {labels.newUnits}
+                              </p>
+                              <ul className="space-y-1">
+                                {entry.newUnits.map((u: string, i: number) => (
+                                  <li
+                                    key={i}
+                                    className="text-sm text-muted-foreground flex items-start gap-1.5"
+                                  >
+                                    <span className="text-[hsl(var(--nav-theme-light))] mt-0.5">
+                                      •
+                                    </span>
+                                    <span>{u}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+
+                        {/* Active events */}
+                        {Array.isArray(entry.activeEvents) &&
+                          entry.activeEvents.length > 0 && (
+                            <div>
+                              <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1.5">
+                                {labels.activeEvents}
+                              </p>
+                              <div className="flex flex-wrap gap-1.5">
+                                {entry.activeEvents.map((e: string, i: number) => (
+                                  <span
+                                    key={i}
+                                    className="text-xs px-2 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)]"
+                                  >
+                                    {e}
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+                      </div>
+
+                      {/* Player focus */}
+                      {entry.playerFocus && (
+                        <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)]">
+                          <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1">
+                            {labels.playerFocus}
+                          </p>
+                          <p className="text-sm text-foreground/90">
+                            {entry.playerFocus}
+                          </p>
+                        </div>
+                      )}
                     </div>
-                    <h3 className="font-bold mb-1">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[`animeVanguardsUpdates::entries::${index}`]
-                        }
-                        locale={locale}
-                      >
-                        {entry.title}
-                      </LinkedTitle>
-                    </h3>
-                    <p className="text-muted-foreground text-sm">
-                      {entry.description}
-                    </p>
                   </div>
-                </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>
