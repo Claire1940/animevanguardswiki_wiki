@@ -13,47 +13,32 @@ interface ArticleWithType extends ContentItem {
 }
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
+// field = 子项数组字段名（用于生成内部链接），nameKey = 子项名称键
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  animeVanguardsCodes: { field: 'rewardTypes', nameKey: 'name' },
+  animeVanguardsBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  animeVanguardsUnitTierList: { field: 'tiers', nameKey: 'tierLabel' },
+  animeVanguardsUnitsGuide: { field: 'cards', nameKey: 'title' },
+  animeVanguardsTraitsGuide: { field: 'faqs', nameKey: 'question' },
+  animeVanguardsEvolutionsGuide: { field: 'steps', nameKey: 'title' },
+  animeVanguardsGameModesGuide: { field: 'modes', nameKey: 'name' },
+  animeVanguardsUpdates: { field: 'entries', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  animeVanguardsCodes: ['codes', 'redeem', 'rewards', 'gems', 'rerolls', 'trait rerolls'],
+  animeVanguardsBeginnerGuide: ['beginner', 'starter', 'progression', 'guide', 'new players'],
+  animeVanguardsUnitTierList: ['tier list', 'ranking', 'best units', 'meta', 'tiers'],
+  animeVanguardsUnitsGuide: ['units', 'rarities', 'banner', 'roles', 'summon'],
+  animeVanguardsTraitsGuide: ['traits', 'reroll', 'trait', 'role'],
+  animeVanguardsEvolutionsGuide: ['evolution', 'ascension', 'upgrade', 'materials', 'memoria'],
+  animeVanguardsGameModesGuide: ['modes', 'story', 'raids', 'rifts', 'events', 'boss'],
+  animeVanguardsUpdates: ['updates', 'patch', 'events', 'changelog', 'update'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['anime', 'vanguards', '2026', '2025', 'complete', 'guide', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +62,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Anime Vanguards")
+  const strippedQuery = normalizedQuery.replace(/anime vanguards\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/anime vanguards\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

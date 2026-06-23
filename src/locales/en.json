@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -53,696 +53,547 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Anime Vanguards Gameplay",
+    "description": "Summon anime-inspired units, reroll traits, evolve your roster, and defend against waves of enemies across story stages, raids, and limited-time events on Roblox."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Anime Vanguards",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to master Anime Vanguards: codes, tier lists, units, traits, evolutions, modes, and the latest updates.",
     "cards": [
       {
-        "icon": "BookOpen",
+        "icon": "Ticket",
+        "title": "Codes",
+        "description": "Active and expired Anime Vanguards codes, rewards, and safe redeem steps."
+      },
+      {
+        "icon": "Compass",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "The first-session path for new Anime Vanguards players."
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Trophy",
+        "title": "Unit Tier List",
+        "description": "Current Anime Vanguards tier rankings for meta cores and supports."
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Users",
+        "title": "Units Guide",
+        "description": "Anime Vanguards unit rarities, obtainment paths, roles, and investment notes."
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Dna",
+        "title": "Traits Guide",
+        "description": "Trait rerolls, priority, and role fits for Anime Vanguards units."
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Zap",
+        "title": "Evolutions Guide",
+        "description": "Evolution routes, materials, and timing for Anime Vanguards units."
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Map",
+        "title": "Game Modes Guide",
+        "description": "Story, raids, rifts, and events in Anime Vanguards."
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Newspaper",
+        "title": "Updates & Events",
+        "description": "Latest Anime Vanguards patches, new units, and seasonal events."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "animeVanguardsCodes": {
+      "title": "Anime Vanguards Codes",
+      "displayType": "code-cards",
+      "intro": "Redeem the latest Anime Vanguards codes for Trait Rerolls, Memoria Shards, Iced Teas, Gems, Gold, Stat Chips, and event materials. Copy active codes, check recently expired codes, and follow the safe redeem path from the Profile menu.",
+      "lastChecked": "Last checked for Eternal Adversaries Update 13.5",
+      "activeCodes": [
+        {
+          "code": "13.5",
+          "rewards": "50 Trait Rerolls, 5,000 Iced Teas",
+          "requirement": "Level 30",
+          "status": "Active",
+          "update": "Eternal Adversaries Update 13.5"
+        },
+        {
+          "code": "EternalAdversaries",
+          "rewards": "50 Memoria Shards, 5,000 Iced Teas",
+          "requirement": "Level 30",
+          "status": "Active",
+          "update": "Eternal Adversaries Update 13.5"
+        },
+        {
+          "code": "Gambler",
+          "rewards": "50 Trait Rerolls, 50 Memoria Shards, 5 Rainbow Essence Stones",
+          "requirement": "Level 30",
+          "status": "Active",
+          "update": "Eternal Adversaries Update 13.5"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "DMCAFree",
+          "rewards": "1,500 Trait Rerolls",
+          "status": "Expired"
+        },
+        {
+          "code": "Liberation",
+          "rewards": "50 Memoria Shards, 5 Rainbow Essence Stones",
+          "status": "Expired"
+        },
+        {
+          "code": "223",
+          "rewards": "50 Trait Rerolls, 50 Green Essence Stones",
+          "status": "Expired"
+        },
+        {
+          "code": "Cog5th",
+          "rewards": "50 Trait Rerolls, 50 Memoria Shards",
+          "status": "Expired"
+        },
+        {
+          "code": "Spring26",
+          "rewards": "40,000 Flowers, 20,000 Gems, 50 Stat Chips",
+          "status": "Expired"
+        },
+        {
+          "code": "Shinobi",
+          "rewards": "20 Trait Rerolls, 2,000 Gems",
+          "status": "Expired"
+        }
+      ],
+      "redeemSteps": [
+        {
+          "title": "Join and Progress",
+          "description": "Join Anime Vanguards on Roblox and progress until code redemption is available."
+        },
+        {
+          "title": "Reach the Level Gate",
+          "description": "Reach Level 10 for the basic code menu; newer codes like the Eternal Adversaries set require Level 30."
+        },
+        {
+          "title": "Open the Profile Menu",
+          "description": "Tap the blue Profile button on the right side of the screen."
+        },
+        {
+          "title": "Select the Codes Option",
+          "description": "Choose the purple Codes option inside the Profile window."
+        },
+        {
+          "title": "Paste and Redeem",
+          "description": "Paste the code exactly as written, then press Redeem to receive the rewards."
+        }
+      ],
+      "rewardTypes": [
+        {
+          "name": "Trait Rerolls",
+          "description": "Reroll unit traits for stronger damage, utility, or support setups."
+        },
+        {
+          "name": "Memoria Shards",
+          "description": "Progress toward Memoria upgrades and event systems."
+        },
+        {
+          "name": "Iced Teas",
+          "description": "Spend on Eternal Adversaries summer event rewards."
+        },
+        {
+          "name": "Gems",
+          "description": "Summon new units from banners."
+        },
+        {
+          "name": "Stat Chips",
+          "description": "Improve unit stat rolls before committing long-term resources."
+        },
+        {
+          "name": "Gold",
+          "description": "Pay for upgrades, shops, and progression costs."
+        }
+      ]
+    },
+    "animeVanguardsBeginnerGuide": {
+      "title": "Anime Vanguards Beginner Guide",
+      "displayType": "step-by-step",
+      "intro": "Start with the correct Roblox experience, clear early progression, unlock code redemption, and build a team around summons, upgrades, and events in Anime Vanguards.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Join the Correct Game",
+          "description": "Open Anime Vanguards: Eternal Adversaries on Roblox by Kitawari with game ID 16146832113."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Understand the Core Loop",
+          "description": "Summon units to defend against enemies, level them up, evolve stronger versions, and clear more difficult battles over time."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Progress Until Codes Unlock",
+          "description": "Reach Level 10 before treating code lists as usable. Some newer rewards require higher account levels, including the Level 30 Eternal Adversaries codes."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Use Early Rewards on Units First",
+          "description": "Spend Gems and reroll resources only after you know which unit you are building. Save premium resources for units you plan to use beyond early story clears."
+        },
+        {
+          "title": "Build a Balanced Starter Team",
+          "description": "Combine damage, crowd control, support, and economy instead of stacking only damage units."
+        },
+        {
+          "title": "Claim Reliable Free Income",
+          "description": "Daily rewards, achievements, daily quests, weekly quests, and event tasks provide Gems, Trait Rerolls, and progression materials."
+        },
+        {
+          "title": "Move From Story Into Events",
+          "description": "After your first stable team is built, move into event tasks and rotating content such as Eternal Adversaries rewards, Summer Portals, and Summer event modes."
+        },
+        {
+          "title": "Track Official Updates",
+          "description": "Use the official changelog, Discord, X account, and YouTube channel before spending rare materials so resource planning follows the current patch."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Prioritize one main carry before spreading resources across many units.",
+        "Save Trait Rerolls and Stat Chips for units with a clear long-term role.",
+        "Clear daily and weekly quests for steady Gem and reroll income.",
+        "Check the official changelog before investing in banner pulls."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+    "animeVanguardsUnitTierList": {
+      "title": "Anime Vanguards Unit Tier List",
+      "displayType": "tier-grid",
+      "intro": "A practical tier grid for current Anime Vanguards team building, covering meta cores, strong support pieces, progression units, and new Eternal Adversaries units. Prioritize one main carry, one control or support unit, and one economy or utility slot first.",
+      "tierLabel": "Tier",
+      "tiers": [
+        {
+          "tier": "SS",
+          "tierLabel": "Meta Cores",
+          "description": "Top-priority units that anchor late-game teams through damage, crowd control, economy, summons, or sustained pressure.",
+          "units": [
+            {
+              "name": "Demon Leader (Control)",
+              "rarity": "Secret",
+              "note": "Cuts deployment costs and boosts Demon Hunter allies."
+            },
+            {
+              "name": "God (Above Heaven)",
+              "rarity": "Secret",
+              "note": "Combines large area damage with a freeze-style control window."
+            },
+            {
+              "name": "Song Jinwu and Igros",
+              "rarity": "Vanguard",
+              "note": "Summons shadow soldiers without consuming normal placement slots."
+            },
+            {
+              "name": "Gujo (Infinity)",
+              "rarity": "Secret",
+              "note": "Uses wide-area control to hold enemies while carries deal damage."
+            },
+            {
+              "name": "Rogita (Super 4)",
+              "rarity": "Vanguard",
+              "note": "One of the strongest single-target damage picks in the current meta."
+            }
+          ]
+        },
+        {
+          "tier": "S+",
+          "tierLabel": "Endgame Supports and Carries",
+          "description": "High-value units that fit hard content and pair well with SS-tier cores.",
+          "units": [
+            {
+              "name": "Demon Hybrid (Chainsaw)",
+              "rarity": "Secret",
+              "note": "Burst DPS for Demon Hunter teams and bleed detonation."
+            },
+            {
+              "name": "Brolzi Super (Wrathful)",
+              "rarity": "Vanguard",
+              "note": "Hard-stage DPS that fits the carry slot."
+            },
+            {
+              "name": "Divalo (Requiem)",
+              "rarity": "Vanguard",
+              "note": "Enemy speed control for boss waves and lane safety."
+            },
+            {
+              "name": "Teacher (Final Stand)",
+              "rarity": "Secret",
+              "note": "Team utility support for hard content."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "tierLabel": "Strong General Picks",
+          "description": "Reliable units for players building toward harder content without a full SS-tier roster.",
+          "units": [
+            {
+              "name": "Iscanur (Pride)",
+              "rarity": "Vanguard",
+              "note": "Damage carry for general clears and event stages."
+            },
+            {
+              "name": "Okorun (Turbo)",
+              "rarity": "Exclusive",
+              "note": "Fast damage for speed clears and event teams."
+            },
+            {
+              "name": "Savior (Moonless)",
+              "rarity": "Vanguard",
+              "note": "Carry for story progression and late-game builds."
+            },
+            {
+              "name": "Explosive Demon (Bomb)",
+              "rarity": "Mythic",
+              "note": "AoE damage for crowded waves and budget teams."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "tierLabel": "Progression and Budget Value",
+          "description": "Useful units for players filling a working team before premium Secret, Vanguard, and Exclusive units are ready.",
+          "units": [
+            {
+              "name": "Deceiver (Monster)",
+              "rarity": "Secret",
+              "note": "Fallback carry for progression and story clears."
+            },
+            {
+              "name": "Fastest Shinobi (Flash)",
+              "rarity": "Vanguard",
+              "note": "Fast DPS for speed-focused clears and lane control."
+            },
+            {
+              "name": "Saber (Black Tyrant)",
+              "rarity": "Limited",
+              "note": "Progression carry bridging beginner teams to mid-game."
+            }
+          ]
+        },
+        {
+          "tier": "13.5",
+          "tierLabel": "Eternal Adversaries New Units",
+          "description": "Newest units from Eternal Adversaries content worth evaluating before spending event materials and reroll resources.",
+          "units": [
+            {
+              "name": "Today's Strongest vs History's Strongest",
+              "rarity": "Vanguard",
+              "note": "Summer 26 Seasonal Banner target."
+            },
+            {
+              "name": "Raging Oni vs Wrath God",
+              "rarity": "Secret",
+              "note": "Worldlines content target."
+            },
+            {
+              "name": "Envoy of Destruction (Resistance)",
+              "rarity": "Exclusive",
+              "note": "Event Pass unit."
+            }
+          ]
+        }
+      ]
+    },
+    "animeVanguardsUnitsGuide": {
+      "title": "Anime Vanguards Units Guide",
+      "displayType": "card-list",
+      "intro": "Learn unit roles, rarities, obtainment paths, starter choices, limited units, and what to check before spending scarce resources in Anime Vanguards.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Starter Unit Choice",
+          "category": "Starter",
+          "units": "Luffo, Narutu, Ichiga",
+          "howToGet": "Choose one of the three starter units during early progression.",
+          "investmentNote": "Use starters to clear the first stages, then shift resources toward stronger summoned, event, Secret, Vanguard, or Exclusive units."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Summon Banner Units",
+          "category": "Summon",
+          "units": "God (Above Heaven), Gujo (Infinity), Demon Leader (Control), Rogita (Super 4), Ice Queen (Release), Alocard (Vampire King)",
+          "howToGet": "Use Gems and banner pulls when the target unit is available.",
+          "investmentNote": "Prioritize units that fill a clear role: carry damage, crowd control, economy support, or boss killing."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Eternal Adversaries Banner Target",
+          "category": "Update 13.5",
+          "units": "Today's Strongest vs History's Strongest",
+          "rarity": "Vanguard",
+          "howToGet": "Summer 26 Seasonal Banner",
+          "investmentNote": "Treat Vanguard-rarity banner units as high-resource targets and check traits, stats, and Memoria before rerolling heavily."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Eternal Adversaries Worldlines Unit",
+          "category": "Update 13.5",
+          "units": "Raging Oni vs Wrath God",
+          "rarity": "Secret",
+          "howToGet": "Worldlines content",
+          "investmentNote": "Secret units are long-term candidates when their role fits your main team and current event goals."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Eternal Adversaries Event Pass Unit",
+          "category": "Update 13.5",
+          "units": "Envoy of Destruction (Resistance)",
+          "rarity": "Exclusive",
+          "howToGet": "Event Pass",
+          "investmentNote": "Event Pass units are valuable for collection and update-specific progression paths."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Godly Ascension Battlepass Units",
+          "category": "Update 13.0",
+          "units": "Cat God, Reasonable Person",
+          "rarity": "Exclusive",
+          "howToGet": "Battlepass Season 13",
+          "investmentNote": "Battlepass units are limited progression targets; check their evolved forms and Memoria links before spending premium rerolls."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "title": "Godly Ascension Pirate Units",
+          "category": "Update 13.0",
+          "units": "Elastic Captain (Cog 5th), Bounty Hunter (King of Hell), Beast Pirate (Half-Dragon), Scrap Pirate (Metal)",
+          "howToGet": "Evolution Quests, Rift gameplay, and Godly Ascension content",
+          "investmentNote": "Use Pirate units for Update 13 progression paths such as Pirate Dynasty, Rift rewards, and evolution questlines."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Before You Invest",
+          "category": "Checklist",
+          "units": "Rarity, Obtainment path, Role in team, Trait value, Stat rolls, Evolution materials, Memoria links, Current update usefulness",
+          "howToGet": "Review this checklist each time you consider spending premium resources.",
+          "investmentNote": "Spend Trait Rerolls and Stat Chips only after the unit has a clear job in your team."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+    "animeVanguardsTraitsGuide": {
+      "title": "Anime Vanguards Traits Guide",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "Traits shape how each unit performs in Anime Vanguards. Understand how Trait Rerolls work, which traits fit each role, and when to save your reroll resources.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "What are traits in Anime Vanguards?",
+          "answer": "Traits are stat modifiers assigned to units. They adjust damage, range, attack speed, economy, or utility, and rerolling changes which trait a unit holds."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "question": "How does Trait Reroll work?",
+          "answer": "Trait Rerolls swap the current trait for a new roll from the trait pool. Higher-value traits are rarer, so rerolling is best reserved for units you plan to use long-term."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "question": "Which traits fit damage carries?",
+          "answer": "Damage carries benefit from traits that raise damage, crit rate, or attack speed, letting a single unit handle denser waves more efficiently."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "question": "Which traits fit support and economy units?",
+          "answer": "Support and economy units benefit from traits that improve deployment cost reduction, range coverage, or team-wide buffs that amplify your carries."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "question": "When should I save Trait Rerolls?",
+          "answer": "Save rerolls for Secret, Vanguard, and Exclusive units with a clear role. Rerolling weak or filler units wastes resources that are better spent on your core team."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "animeVanguardsEvolutionsGuide": {
+      "title": "Anime Vanguards Evolutions Guide",
+      "displayType": "step-by-step",
+      "intro": "Evolution and ascension are long-term progression milestones in Anime Vanguards. Follow a clean upgrade route that protects your resources and invests in the right units first.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Identify Evolvable Units",
+          "description": "Check which units have an evolution or ascension path before investing, since only specific units can be upgraded to stronger forms."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Gather Evolution Materials",
+          "description": "Collect the required materials such as Essence Stones, Memoria Shards, and event currencies from the maps and modes that drop them."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Time Your Upgrades",
+          "description": "Evolve units that already hold a clear role in your team, rather than spending materials on units you may replace soon."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Upgrade Traits and Stats First",
+          "description": "Lock in strong traits and stat rolls before evolving, since evolving amplifies the base unit you already built."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Link Memoria Where Useful",
+          "description": "Connect Memoria to evolved units to extend their bonuses and fit them into themed teams such as Demon Hunter or Pirate setups."
+        },
+        {
+          "title": "Rebuild Around Evolved Units",
+          "description": "Once a unit evolves, revisit your team composition so the upgraded unit takes its strongest position on the field."
+        }
+      ]
+    },
+    "animeVanguardsGameModesGuide": {
+      "title": "Anime Vanguards Game Modes Guide",
+      "displayType": "table",
+      "intro": "Anime Vanguards offers multiple modes, each with its own team requirements and rewards. Use this overview to pick the right mode for your current goal.",
+      "modeLabel": "Mode",
+      "modes": [
+        {
+          "name": "Story Mode",
+          "type": "Progression",
+          "description": "Linear stages that teach the core loop and unlock systems as you progress.",
+          "reward": "Gems, Gold, and unit upgrade materials"
+        },
+        {
+          "name": "Raids",
+          "type": "Endgame",
+          "description": "Tougher multi-wave battles that test full-team builds and crowd control.",
+          "reward": "Essence Stones, Memoria Shards, and rare materials"
+        },
+        {
+          "name": "Rifts",
+          "type": "Rotating",
+          "description": "Time-limited rift content tied to update themes such as Pirate Dynasty.",
+          "reward": "Event currencies and evolution materials"
+        },
+        {
+          "name": "Events",
+          "type": "Seasonal",
+          "description": "Limited-time modes like Eternal Adversaries Summer content with unique units.",
+          "reward": "Iced Teas, event units, and exclusive rewards"
+        },
+        {
+          "name": "Challenges",
+          "type": "Repeatable",
+          "description": "Daily and weekly challenge tasks that reward steady progression income.",
+          "reward": "Gems, Trait Rerolls, and Gold"
+        },
+        {
+          "name": "Boss Events",
+          "type": "Limited",
+          "description": "Special boss encounters that demand strong single-target and control units.",
+          "reward": "Stat Chips and high-value materials"
+        }
+      ]
+    },
+    "animeVanguardsUpdates": {
+      "title": "Anime Vanguards Updates and Events",
+      "displayType": "timeline",
+      "intro": "Track current Anime Vanguards updates, seasonal events, battle pass changes, new units, and mode additions so returning players can quickly see what changed.",
+      "entries": [
+        {
+          "title": "Eternal Adversaries Update 13.5",
+          "type": "Major Update",
+          "description": "Added new Eternal Adversaries units, Summer 26 Seasonal Banner, Summer Mode units, and new codes with a Level 30 requirement."
+        },
+        {
+          "title": "Summer Event Modes",
+          "type": "Seasonal Event",
+          "description": "Introduced Summer Portals, Summer Mode, and Iced Teas as a spendable event currency."
+        },
+        {
+          "title": "Godly Ascension Update 13.0",
+          "type": "Major Update",
+          "description": "Added Battlepass Season 13 units, Pirate Dynasty content, Rift gameplay, and new evolution questlines."
+        },
+        {
+          "title": "Worldlines Content",
+          "type": "New Mode",
+          "description": "Added Worldlines with new Secret unit targets and themed progression paths."
+        },
+        {
+          "title": "Balance and Memoria Updates",
+          "type": "Patch Notes",
+          "description": "Ongoing balance changes to units, traits, and Memoria links following community feedback and the current patch."
         }
       ]
     }
@@ -750,31 +601,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Anime Vanguards",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Anime Vanguards?",
+        "answer": "Anime Vanguards is a Roblox anime tower defense game by Kitawari where players summon units, level and evolve them, and clear story stages, raids, and limited-time events."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem Anime Vanguards codes?",
+        "answer": "Reach Level 10, open the blue Profile button, select the purple Codes option, paste the code, and press Redeem. Newer Eternal Adversaries codes require Level 30."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play Anime Vanguards?",
+        "answer": "Anime Vanguards is playable on Roblox on PC and mobile. Join the official experience by Kitawari with game ID 16146832113."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How do I get stronger units in Anime Vanguards?",
+        "answer": "Use Gems for banner summons, then upgrade, reroll traits, improve stats, and evolve units that hold a clear role in your team."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What are the best resources to save in Anime Vanguards?",
+        "answer": "Save Trait Rerolls and Stat Chips for Secret, Vanguard, and Exclusive units. Spend Gems on banners that fit your team goals."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I follow Anime Vanguards updates?",
+        "answer": "Follow the official Anime Vanguards Discord, YouTube channel, X account, and the vanguards.gg changelog for the latest patch notes, new units, and event details."
       }
     ]
   },
@@ -802,125 +653,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
+    "codes": {
+      "title": "Anime Vanguards Codes",
+      "description": "Active and expired codes, reward types, and safe redeem steps for Anime Vanguards players.",
+      "metaTitle": "Anime Vanguards Codes - Active & Expired Redeem Codes",
+      "metaDescription": "Redeem the latest Anime Vanguards codes for Trait Rerolls, Gems, Memoria Shards, and event materials. Active and expired codes updated for the current patch.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are codes?",
+      "whatIsDescription": "Codes are redeemable strings that grant free rewards such as Trait Rerolls, Gems, Memoria Shards, Stat Chips, and event materials.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Resources",
+        "step1Description": "Get Trait Rerolls, Gems, and event currencies without spending",
+        "step2Title": "Faster Progression",
+        "step2Description": "Use code rewards to summon units and upgrade your team",
+        "step3Title": "Event Rewards",
+        "step3Description": "Access seasonal event materials like Iced Teas"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "tier-list": {
+      "title": "Anime Vanguards Tier List",
+      "description": "Unit tier rankings by damage, support, farming, and late-game value for the current Anime Vanguards patch.",
+      "metaTitle": "Anime Vanguards Tier List - Best Units Ranked",
+      "metaDescription": "Current Anime Vanguards unit tier list covering meta cores, endgame supports, progression units, and new Eternal Adversaries units.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the tier list?",
+      "whatIsDescription": "A ranking of units by practical value across damage, support, farming, utility, and late-game usefulness for the current patch.",
+      "why": "Why use a tier list?",
+      "whySteps": {
+        "step1Title": "Invest Wisely",
+        "step1Description": "Focus scarce resources on units that anchor your team",
+        "step2Title": "Build Balanced Teams",
+        "step2Description": "Combine carry, control, support, and economy units",
+        "step3Title": "Stay Current",
+        "step3Description": "Follow the latest patch meta before pulling"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tier List Guides"
+    },
+    "units": {
+      "title": "Anime Vanguards Units",
+      "description": "Unit roles, rarities, obtainment paths, starter picks, and investment notes for Anime Vanguards.",
+      "metaTitle": "Anime Vanguards Units - Roles, Rarities & Obtainment",
+      "metaDescription": "Complete Anime Vanguards units guide covering rarities, obtainment paths, roles, starter choices, and what to check before investing resources.",
+      "categoryLabel": "UNITS",
+      "whatIs": "What are units?",
+      "whatIsDescription": "Units are the characters you summon, upgrade, evolve, reroll, and build teams around in Anime Vanguards.",
+      "why": "Why study units?",
+      "whySteps": {
+        "step1Title": "Understand Roles",
+        "step1Description": "Match carry, control, support, and economy units to your team",
+        "step2Title": "Pick Obtainment Paths",
+        "step2Description": "Know where to find banner, event, and pass units",
+        "step3Title": "Invest Safely",
+        "step3Description": "Check rarity and role before spending premium resources"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Units"
+    },
+    "traits": {
+      "title": "Anime Vanguards Traits",
+      "description": "Trait effects, reroll priority, and role fits for Anime Vanguards units.",
+      "metaTitle": "Anime Vanguards Traits - Rerolls & Best Traits Guide",
+      "metaDescription": "Learn Anime Vanguards traits, Trait Reroll priority, and which traits fit damage, support, and economy units.",
+      "categoryLabel": "TRAITS",
+      "whatIs": "What are traits?",
+      "whatIsDescription": "Traits are stat modifiers that shape how each unit performs, and Trait Rerolls change which trait a unit holds.",
+      "why": "Why manage traits?",
+      "whySteps": {
+        "step1Title": "Boost Performance",
+        "step1Description": "Improve damage, range, or economy per unit",
+        "step2Title": "Match Roles",
+        "step2Description": "Pair traits with the right unit role",
+        "step3Title": "Save Resources",
+        "step3Description": "Reroll only units you plan to keep"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Traits Guides"
+    },
+    "updates": {
+      "title": "Anime Vanguards Updates",
+      "description": "Latest patch notes, new units, seasonal events, and battle pass changes for Anime Vanguards.",
+      "metaTitle": "Anime Vanguards Updates - Patch Notes & Events",
+      "metaDescription": "Track Anime Vanguards updates, seasonal events, battle pass changes, new units, and mode additions for each patch.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are updates?",
+      "whatIsDescription": "Updates add new units, codes, modes, events, and balance changes that shift the current Anime Vanguards meta.",
+      "why": "Why follow updates?",
+      "whySteps": {
+        "step1Title": "Plan Resources",
+        "step1Description": "Spend materials based on the current patch",
+        "step2Title": "Catch New Units",
+        "step2Description": "Find banner and event unit targets early",
+        "step3Title": "Returning Players",
+        "step3Description": "Quickly see what changed since you last played"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Updates"
+    },
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Anime Vanguards Guides",
+      "description": "Beginner basics, progression paths, and advanced strategies for Anime Vanguards players.",
+      "metaTitle": "Anime Vanguards Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Anime Vanguards guides covering beginner tips, progression, team building, and advanced tactics for Roblox players.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIs": "What are guides?",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, progression, and team building for Anime Vanguards.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand summons, traits, and evolutions",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to build strong teams",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for raids and events"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
     }
   }
 }
