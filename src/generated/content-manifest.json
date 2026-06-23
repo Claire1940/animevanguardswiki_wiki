@@ -188,6 +188,10 @@
         "file": "anime-vanguards-elastic-captain-evo-quest"
       },
       {
+        "slug": "anime-vanguards-how-to-evolve-gear-5-luffy",
+        "file": "anime-vanguards-how-to-evolve-gear-5-luffy"
+      },
+      {
         "slug": "anime-vanguards-how-to-evolve-luffy",
         "file": "anime-vanguards-how-to-evolve-luffy"
       },
@@ -196,11 +200,23 @@
         "file": "anime-vanguards-how-to-evolve-zoro"
       },
       {
+        "slug": "anime-vanguards-material-evo-minato",
+        "file": "anime-vanguards-material-evo-minato"
+      },
+      {
         "slug": "anime-vanguards-zoro-evo",
         "file": "anime-vanguards-zoro-evo"
       }
     ],
     "guide": [
+      {
+        "slug": "anime-vanguards-beginner-guide",
+        "file": "anime-vanguards-beginner-guide"
+      },
+      {
+        "slug": "anime-vanguards-best-stage-to-farm",
+        "file": "anime-vanguards-best-stage-to-farm"
+      },
       {
         "slug": "anime-vanguards-best-team",
         "file": "anime-vanguards-best-team"
@@ -212,6 +228,10 @@
       {
         "slug": "anime-vanguards-best-way-to-get-gems",
         "file": "anime-vanguards-best-way-to-get-gems"
+      },
+      {
+        "slug": "anime-vanguards-fastest-way-to-level-up",
+        "file": "anime-vanguards-fastest-way-to-level-up"
       },
       {
         "slug": "anime-vanguards-guide",
@@ -233,6 +253,26 @@
       }
     ],
     "tier": [
+      {
+        "slug": "anime-vanguards-familiar-tier-list",
+        "file": "anime-vanguards-familiar-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-farm-units-tier-list",
+        "file": "anime-vanguards-farm-units-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-meta",
+        "file": "anime-vanguards-meta"
+      },
+      {
+        "slug": "anime-vanguards-tier-list",
+        "file": "anime-vanguards-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-unit-tier-list",
+        "file": "anime-vanguards-unit-tier-list"
+      },
       {
         "slug": "anime-vanguards-value-tier-list",
         "file": "anime-vanguards-value-tier-list"
@@ -291,9 +331,33 @@
         "slug": "anime-vanguards-zoro",
         "file": "anime-vanguards-zoro"
       }
+    ],
+    "values": [
+      {
+        "slug": "anime-vanguards-trade-value",
+        "file": "anime-vanguards-trade-value"
+      },
+      {
+        "slug": "anime-vanguards-trading-value-list",
+        "file": "anime-vanguards-trading-value-list"
+      },
+      {
+        "slug": "anime-vanguards-value-calculator",
+        "file": "anime-vanguards-value-calculator"
+      },
+      {
+        "slug": "anime-vanguards-value-list",
+        "file": "anime-vanguards-value-list"
+      }
     ]
   },
   "pt": {
+    "codes": [
+      {
+        "slug": "anime-vanguards-codes",
+        "file": "anime-vanguards-codes"
+      }
+    ],
     "evolution": [
       {
         "slug": "anime-vanguards-elastic-captain-evo-quest",
@@ -308,6 +372,14 @@
         "file": "anime-vanguards-how-to-evolve-luffy"
       },
       {
+        "slug": "anime-vanguards-how-to-evolve-zoro",
+        "file": "anime-vanguards-how-to-evolve-zoro"
+      },
+      {
+        "slug": "anime-vanguards-material-evo-minato",
+        "file": "anime-vanguards-material-evo-minato"
+      },
+      {
         "slug": "anime-vanguards-zoro-evo",
         "file": "anime-vanguards-zoro-evo"
       }
@@ -357,6 +429,26 @@
       }
     ],
     "tier": [
+      {
+        "slug": "anime-vanguards-familiar-tier-list",
+        "file": "anime-vanguards-familiar-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-farm-units-tier-list",
+        "file": "anime-vanguards-farm-units-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-meta",
+        "file": "anime-vanguards-meta"
+      },
+      {
+        "slug": "anime-vanguards-tier-list",
+        "file": "anime-vanguards-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-unit-tier-list",
+        "file": "anime-vanguards-unit-tier-list"
+      },
       {
         "slug": "anime-vanguards-value-tier-list",
         "file": "anime-vanguards-value-tier-list"
@@ -415,6 +507,24 @@
         "slug": "anime-vanguards-zoro",
         "file": "anime-vanguards-zoro"
       }
+    ],
+    "values": [
+      {
+        "slug": "anime-vanguards-trade-value",
+        "file": "anime-vanguards-trade-value"
+      },
+      {
+        "slug": "anime-vanguards-trading-value-list",
+        "file": "anime-vanguards-trading-value-list"
+      },
+      {
+        "slug": "anime-vanguards-value-calculator",
+        "file": "anime-vanguards-value-calculator"
+      },
+      {
+        "slug": "anime-vanguards-value-list",
+        "file": "anime-vanguards-value-list"
+      }
     ]
   },
   "vi": {
@@ -426,6 +536,10 @@
     ],
     "evolution": [
       {
+        "slug": "anime-vanguards-elastic-captain-evo-quest",
+        "file": "anime-vanguards-elastic-captain-evo-quest"
+      },
+      {
         "slug": "anime-vanguards-how-to-evolve-gear-5-luffy",
         "file": "anime-vanguards-how-to-evolve-gear-5-luffy"
       },
@@ -434,8 +548,16 @@
         "file": "anime-vanguards-how-to-evolve-luffy"
       },
       {
+        "slug": "anime-vanguards-how-to-evolve-zoro",
+        "file": "anime-vanguards-how-to-evolve-zoro"
+      },
+      {
         "slug": "anime-vanguards-material-evo-minato",
         "file": "anime-vanguards-material-evo-minato"
+      },
+      {
+        "slug": "anime-vanguards-zoro-evo",
+        "file": "anime-vanguards-zoro-evo"
       }
     ],
     "guide": [
@@ -483,6 +605,26 @@
       }
     ],
     "tier": [
+      {
+        "slug": "anime-vanguards-familiar-tier-list",
+        "file": "anime-vanguards-familiar-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-farm-units-tier-list",
+        "file": "anime-vanguards-farm-units-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-meta",
+        "file": "anime-vanguards-meta"
+      },
+      {
+        "slug": "anime-vanguards-tier-list",
+        "file": "anime-vanguards-tier-list"
+      },
+      {
+        "slug": "anime-vanguards-unit-tier-list",
+        "file": "anime-vanguards-unit-tier-list"
+      },
       {
         "slug": "anime-vanguards-value-tier-list",
         "file": "anime-vanguards-value-tier-list"
@@ -534,8 +676,30 @@
         "file": "anime-vanguards-sukuna"
       },
       {
+        "slug": "anime-vanguards-yamamoto",
+        "file": "anime-vanguards-yamamoto"
+      },
+      {
         "slug": "anime-vanguards-zoro",
         "file": "anime-vanguards-zoro"
+      }
+    ],
+    "values": [
+      {
+        "slug": "anime-vanguards-trade-value",
+        "file": "anime-vanguards-trade-value"
+      },
+      {
+        "slug": "anime-vanguards-trading-value-list",
+        "file": "anime-vanguards-trading-value-list"
+      },
+      {
+        "slug": "anime-vanguards-value-calculator",
+        "file": "anime-vanguards-value-calculator"
+      },
+      {
+        "slug": "anime-vanguards-value-list",
+        "file": "anime-vanguards-value-list"
       }
     ]
   }
