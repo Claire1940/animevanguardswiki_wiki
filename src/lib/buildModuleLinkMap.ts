@@ -33,7 +33,7 @@ const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
   animeVanguardsUnitTierList: ['tier list', 'ranking', 'best units', 'meta', 'tiers'],
   animeVanguardsUnitsGuide: ['units', 'rarities', 'banner', 'roles', 'summon'],
   animeVanguardsTraitsGuide: ['traits', 'reroll', 'trait', 'role'],
-  animeVanguardsEvolutionsGuide: ['evolution', 'ascension', 'upgrade', 'materials', 'memoria'],
+  animeVanguardsEvolutionsGuide: ['evolve', 'evo', 'ascension', 'upgrade', 'materials', 'memoria'],
   animeVanguardsGameModesGuide: ['modes', 'story', 'raids', 'rifts', 'events', 'boss'],
   animeVanguardsUpdates: ['updates', 'patch', 'events', 'changelog', 'update'],
 }
