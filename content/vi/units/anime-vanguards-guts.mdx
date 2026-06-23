@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hướng dẫn Build & Thiết lập Guts trong Anime Vanguards: Savior (Moonless)",
+  description: "Khai mở sức mạnh thực sự của đơn vị Guts (Savior) trong Anime Vanguards. Tìm hiểu cách sở hữu, tiến hóa và build Savior (Moonless) với các thiên phú tốt nhất năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Anime+Vanguards+Guts+Guide",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Đơn vị chính**: Đơn vị **anime vanguards guts** được thể hiện trong game dưới tên Savior, tiến hóa thành Savior (Moonless).
+- **Vai trò Meta**: Carry vật lý sát thương cao chuyên tiêu diệt boss đơn mục tiêu và đi ải cốt truyện.
+- **Thiên phú tốt nhất**: Monarch hoặc Ethereal để tối đa hóa sức mạnh tấn công và tăng tiến tầm đánh tối ưu.
+- **Ưu tiên tiến hóa**: Cao, vì tiến hóa anh ta sẽ tăng mạnh tốc độ đánh và mở khóa hiệu ứng chảy máu cực kỳ bá đạo.
+</Callout>
+
+<Section icon={Sparkles} title="Anime Vanguards Guts: Tổng quan và Cách sở hữu">
+
+Khi nói đến sát thương vật lý thuần túy và khả năng tiêu diệt boss, đơn vị **anime vanguards guts**—tên chính thức trong game là Savior và dạng tiến hóa Savior (Moonless)—là một trong những carry đáng tin cậy nhất trong meta. Dựa trên nhân vật chính của bộ dark fantasy huyền thoại, đơn vị này vượt trội trong việc dọn dẹp các đợt quái dày đặc và gây sát thương đơn mục tiêu khổng lồ lên boss trong Chế độ Cốt truyện (Story Mode), Ải Truyền thuyết (Legend Stages) và Viễn chinh (Raids).
+
+Để thêm Savior vào đội hình, bạn phải sử dụng hệ thống triệu hồi trong game. Là một đơn vị có độ hiếm Vanguard, Savior xuất hiện trên banner xoay tua. Bạn sẽ cần tiêu hao Đá quý (Gems) tích lũy từ nhiệm vụ, code và việc hoàn thành các ải để chiêu mộ anh ta.
+
+| Chỉ số | Chi tiết |
+|---|---|
+| **Tên đơn vị** | Savior (Gốc) / Savior (Moonless) (Tiến hóa) |
+| **Độ hiếm** | Vanguard |
+| **Loại sát thương** | Vật lý / Chém (Slash) |
+| **Giới hạn đặt** | 2 đơn vị |
+| **Mục đích sử dụng chính** | Diệt boss, đi ải cốt truyện, giữ đường |
+
+<Callout type="info" title="Chiến thuật Banner">
+Hãy theo dõi sát sao các vòng xoay banner hàng giờ ở sảnh chính. Khuyến khích bạn nên tích lũy ít nhất 5.000 Đá quý để đảm bảo triệu hồi được Savior khi tỷ lệ rơi của anh ta được tăng lên.
+</Callout>
+
+Bộ kỹ năng của Savior được thiết kế xoay quanh các đòn tấn công vật lý chậm nhưng cực kỳ uy lực, gây sát thương lớn theo đường thẳng hoặc hình nón rộng phía trước. Mặc dù dạng cơ bản của anh ta đã rất đáng gờm đối với người chơi đang vượt qua nội dung đầu đến giữa game, sức mạnh thực sự của anh ta chỉ được giải phóng khi bạn thu thập đủ các nguyên liệu cần thiết để tiến hóa thành Savior (Moonless).
+
+</Section>
+
+<Section icon={Shield} title="Chỉ số và Tiến trình nâng cấp">
+
+Hiểu được cách tăng tiến chỉ số của đơn vị **anime vanguards guts** là rất quan trọng để tối đa hóa hiệu quả đặt quân trong các màn chơi độ khó cao. Savior có chi phí triển khai tương đối cao, nghĩa là bạn phải quản lý các đơn vị kinh tế của mình một cách cẩn thận trong những đợt quái đầu tiên của trận đấu.
+
+Sau khi đặt, Savior có thể được nâng cấp nhiều lần trong trận đấu để tăng lượng sát thương đầu ra, giảm Giây mỗi lần tấn công (SPA) và mở rộng tầm đánh. Tiến hóa đơn vị này thành Savior (Moonless) sẽ thay đổi hoàn toàn cách tăng tiến chỉ số, thêm một hiệu ứng chảy máu nội tại rút máu kẻ địch theo thời gian.
+
+| Cấp nâng cấp | Chi phí (Vàng) | Sát thương (Tiến hóa) | SPA (Tiến hóa) | Tầm đánh (Tiến hóa) |
+|---|---|---|---|---|
+| **Gốc** | 1.250 | 1.800 | 6.5 giây | 18.0 |
+| **Nâng cấp 1** | 850 | 2.450 | 6.2 giây | 19.5 |
+| **Nâng cấp 2** | 1.200 | 3.800 | 5.8 giây | 21.0 |
+| **Nâng cấp 3** | 1.950 | 5.900 | 5.5 giây | 23.0 |
+| **Nâng cấp 4** | 2.800 | 8.400 | 5.0 giây | 25.0 |
+| **Nâng cấp 5** | 4.200 | 12.500 | 4.8 giây | 28.0 |
+| **Nâng cấp 6** | 6.500 | 18.200 | 4.5 giây | 32.0 |
+
+<Callout type="warning" title="Cảnh báo đặt quân">
+Do chi phí triển khai và nâng cấp của Savior khá cao, đừng đặt anh ta làm đơn vị đầu tiên của bạn trên các bản đồ khó. Hãy luôn xây dựng một đơn vị kinh tế trước để đảm bảo bạn không bị lọt những kẻ địch di chuyển nhanh trong các đợt quái đầu.
+</Callout>
+
+Ở cấp nâng cấp tối đa, Savior (Moonless) sở hữu tầm đánh đáng kinh ngạc và tốc độ tấn công nhanh đối với một đấu sĩ dùng trọng kiếm. Nâng cấp cuối cùng của anh ta sẽ mở khóa kỹ năng tối thượng, tung ra một loạt nhát chém bóng tối bao phủ toàn bộ làn đường, khiến anh ta trở thành lựa chọn hàng đầu để phòng thủ tại các điểm thắt nút.
+
+</Section>
+
+<Section icon={Trophy} title="Các bước tiến hóa thành Savior (Moonless)">
+
+Tiến hóa Savior thành Savior (Moonless) là một bước cần thiết nếu bạn có kế hoạch chinh phục các nội dung cuối game như các ải Cốt truyện Ác mộng (Nightmare Story) hoặc Viễn chinh (Raids) cấp cao. Quá trình tiến hóa yêu cầu sự kết hợp giữa các nguyên liệu chế tạo tiêu chuẩn và các vật phẩm đặc trưng của đơn vị có thể farm được thông qua các thử thách hàng ngày và chế độ sự kiện.
+
+Trước khi bắt đầu tiến hóa tại khu vực Nâng cấp (Upgrades) trong sảnh, bạn phải thu thập một lượng Vàng đáng kể và các loại Đá Tinh túy (Essence Stones) khác nhau.
+
+| Nguyên liệu | Số lượng yêu cầu | Nguồn chính |
+|---|---|---|
+| **Vàng** | 15.000 | Chế độ cốt truyện, Nhiệm vụ hàng ngày, Code |
+| **Tinh túy xanh lá** | 25 | Các ải Vết nứt xanh lá (Green Rift), Cửa hàng nguyên liệu |
+| **Tinh túy đỏ** | 15 | Các ải Vết nứt đỏ (Red Rift), Cửa hàng nguyên liệu |
+| **Tinh túy tối** | 30 | Các ải Vết nứt tối (Dark Rift), Cửa hàng nguyên liệu |
+| **Tinh túy cầu vồng** | 5 | Chế tạo, Cột mốc hàng tuần |
+
+<Steps>
+  <Step num="1" title="Sở hữu đơn vị gốc">
+    Triệu hồi Savior từ vòng xoay banner đang hoạt động bằng Đá quý. Đảm bảo đơn vị đã được mở khóa và hiện không được trang bị trong đội hình hoạt động của bạn trước khi tiến hành tiến hóa.
+  </Step>
+  <Step num="2" title="Farm các ải Vết nứt (Rift)">
+    Vượt các ải Vết nứt (Rift) có màu tương ứng để thu thập các Đá Tinh túy Xanh lá, Đỏ và Tối. Bạn cũng có thể mua trực tiếp từ Cửa hàng nguyên liệu bằng tiền tệ sự kiện.
+  </Step>
+  <Step num="3" title="Chế tạo Tinh túy cầu vồng">
+    Kết hợp các tinh túy cấp thấp hơn tại NPC Giả kim (Alchemist) để tạo ra 5 Đá Tinh túy Cầu vồng cần thiết, hoặc hoàn thành các thử thách hàng tuần để nhận chúng làm phần thưởng cột mốc.
+  </Step>
+  <Step num="4" title="Thực hiện tiến hóa">
+    Di chuyển đến bục Tiến hóa (Evolve) trong khu vực Nâng cấp ở sảnh chính. Chọn Savior, xác minh rằng tất cả nguyên liệu đã đầy đủ và xác nhận tiến hóa để nhận Savior (Moonless).
+  </Step>
+</Steps>
+
+<Callout type="success" title="Thưởng tiến hóa">
+Sau khi tiến hóa thành Savior (Moonless), đơn vị sẽ nhận được mức tăng sát thương cơ bản vĩnh viễn là 25% và mở khóa nội tại 'Ý chí kiên cường' (Unyielding Will), áp dụng hiệu ứng chảy máu cộng dồn lên tất cả các mục tiêu bị trúng đòn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Thiên phú tốt nhất và Chiến thuật Reroll">
+
+Để tối ưu hóa thực sự đơn vị **anime vanguards guts**, bạn phải roll một thiên phú (trait) tương thích tại NPC Mandra Traits. Thiên phú hoạt động như các chỉ số bổ trợ nội tại có thể thay đổi đáng kể hiệu suất của đơn vị bằng cách tăng cường các chỉ số cốt lõi như sát thương, tốc độ đánh và tầm đánh.
+
+Vì Savior là một carry bị giới hạn số lượng đặt (tối đa 2 đơn vị trên sân), bạn nên ưu tiên các thiên phú thần thoại (mythic traits) có tác động lớn, cung cấp hệ số nhân chỉ số khổng lồ thay vì các thiên phú tiện ích hoặc kinh tế.
+
+<CardGrid cols={3}>
+  <Card title="Monarch (Thần thoại)">
+    - **Sát thương +15%**
+    - Tầm đánh +10%
+    - SPA -5%
+    - *Thiên phú tốt nhất tuyệt đối cho các carry giới hạn số lượng đặt.*
+  </Card>
+  <Card title="Ethereal (Thần thoại)">
+    - **Sát thương +20%**
+    - Tốc độ đánh +5%
+    - Thêm tăng tiến sát thương hệ bóng tối.
+    - *Cực kỳ bá đạo để bào máu các boss viễn chinh nhiều máu.*
+  </Card>
+  <Card title="Deadeye (Thần thoại)">
+    - **Tỷ lệ chí mạng +25%**
+    - Sát thương chí mạng +50%
+    - *Hoàn hảo để tối đa hóa sát thương chém đơn mục tiêu.*
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Lời khuyên Reroll">
+Nếu bạn không có đủ lượt Reroll Thiên phú để đạt bảo hiểm thần thoại, hãy tạm chấp nhận các thiên phú phổ thông như **Vigor** (Tăng sát thương) hoặc **Swift** (Giảm SPA) trong thời gian chờ đợi. Tránh các thiên phú tiện ích như Scholar hoặc Fortune trên đơn vị này, vì mục đích duy nhất của anh ta là gây sát thương.
+</Callout>
+
+Việc reroll thiên phú yêu cầu Vé Reroll Thiên phú, có thể nhận được bằng cách nhập các code đang hoạt động, hoàn thành thành tựu hàng ngày hoặc mua chúng từ cửa hàng sự kiện. Hãy luôn đảm bảo bạn có một lượng dự trữ lượt reroll dồi dào trước khi cố gắng thay thế một chỉ số bổ trợ đang dùng được.
+
+</Section>
+
+<Section icon={Swords} title="Sự kết hợp đội hình và Chiến thuật đặt quân">
+
+Để tận dụng tối đa Savior (Moonless), bạn phải xây dựng một đội hình cân bằng hỗ trợ lối chơi tốn kém nhưng sát thương cao của anh ta. Vì Savior không thể đặt tràn lan do giới hạn vị trí là 2, bạn phải kết hợp anh ta với các đơn vị khống chế đám đông và hỗ trợ kinh tế đáng tin cậy.
+
+Một đội hình lý tưởng bao gồm một đơn vị phòng thủ đầu game, một đơn vị tạo tiền, một đơn vị làm chậm hoặc đóng băng, và Savior là nguồn diệt boss chính về cuối game.
+
+| Vai trò đơn vị | Lựa chọn kết hợp khuyên dùng | Hiệu ứng phối hợp chiến thuật |
+|---|---|---|
+| **Hỗ trợ kinh tế** | Demon Leader, Các đơn vị Fortune | Tạo ra lượng Vàng lớn cần thiết cho các nâng cấp cuối game của Savior. |
+| **Khống chế đám đông** | Ice Queen (Giải phóng), Gujo (Vô hạn) | Đóng băng hoặc làm chậm kẻ địch nhanh, giữ chúng trong vùng chém bóng tối của Savior. |
+| **Hỗ trợ Buff** | Cat God, Các carry hỗ trợ | Tăng lượng sát thương thuần túy của Savior trong các đợt boss căng thẳng. |
+
+<Checklist
+  id="guts-tactics"
+  title="Danh sách kiểm tra chiến thuật trước trận đấu:"
+  items={[
+    "Đặt các đơn vị kinh tế của bạn trong các đợt 1-5 để xây dựng nền tảng vàng vững chắc.",
+    "Thiết lập một đơn vị phòng thủ AoE rẻ tiền gần điểm bắt đầu đường đi để xử lý các đợt quái nhỏ ban đầu.",
+    "Đặt Savior tại giao lộ đường thẳng để tối đa hóa các đòn tấn công chém thẳng hàng của anh ta.",
+    "Ưu tiên nâng cấp Savior lên cấp 4 nhanh chóng để mở khóa vùng tấn công hình nón AoE tầm trung của anh ta.",
+    "Kết hợp Savior với một đơn vị đóng băng để khóa chặt boss ngay trước lưỡi kiếm của anh ta."
+  ]}
+/>
+
+<Callout type="info" title="Mẹo đặt vị trí">
+Luôn đặt Savior (Moonless) dọc theo các đoạn đường thẳng và dài của bản đồ. Các đòn chém chính của anh ta di chuyển theo đường thẳng, nghĩa là anh ta sẽ chém trúng nhiều kẻ địch hơn khi đặt thẳng hàng với đường đi thay vì đặt ở một góc cua gấp.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Đơn vị guts trong anime vanguards có khả thi cho chế độ vô hạn không?",
+    answer: "Có. Savior (Moonless) cực kỳ khả thi cho Chế độ Vô hạn (Infinite Mode) nhờ nội tại chảy máu cộng dồn và sát thương thẳng hàng khổng lồ, mặc dù bạn sẽ cần kết hợp anh ta với các đơn vị làm chậm/đóng băng mạnh để xử lý các đợt quái cực nhanh về cuối game."
+  },
+  {
+    question: "Tiến hóa Savior có reset thiên phú hoặc cấp độ hiện tại của anh ta không?",
+    answer: "Không. Tiến hóa Savior thành Savior (Moonless) vẫn giữ nguyên cấp độ hiện tại, chip chỉ số và các thiên phú đã roll. Bạn không bị mất các khoản đầu tư của mình khi tiến hóa."
+  },
+  {
+    question: "Tôi có thể đặt tối đa bao nhiêu đơn vị Savior trên sân?",
+    answer: "Bạn bị giới hạn tối đa 2 đơn vị Savior (hoặc Savior Moonless) trên sân tại bất kỳ thời điểm nào, điều này làm cho vị trí đặt và nâng cấp cá nhân của anh ta trở nên cực kỳ quan trọng."
+  },
+  {
+    question: "Savior (Moonless) thuộc hệ nguyên tố nào?",
+    answer: "Savior gây sát thương Vật lý/Chém, nhưng roll các thiên phú thần thoại cụ thể như Ethereal có thể thêm tăng tiến sát thương hệ bóng tối cho các đòn đánh của anh ta, giúp tăng thêm hiệu quả chống lại kẻ địch hệ ánh sáng."
+  }
+]} />
+
+<Callout type="tip" title="Đánh giá cuối cùng">
+Đơn vị **anime vanguards guts** vẫn là lựa chọn hàng đầu cho đội hình của bất kỳ người chơi nào trong năm 2026. Sát thương chém vật lý vô song của anh ta, kết hợp với cơ chế chảy máu cực kỳ hiệu quả sau khi tiến hóa, khiến anh ta trở thành một trợ thủ đắc lực không thể thiếu để vượt qua các màn chạm trán boss khó nhằn nhất của trò chơi.
+</Callout>
+
+</Section>

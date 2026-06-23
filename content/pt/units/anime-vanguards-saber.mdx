@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Saber: Guia de Build e Progressão da Black Tyrant",
+  description: "Domine a unidade Saber (Black Tyrant) em Anime Vanguards. Aprenda seus atributos, melhores traits, caminhos de evolução e builds de equipe para progressão no mid-game.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Anime+Vanguards+Saber+Guide",
+  date: "2026-06-23",
+  author: "Equipe da Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Anime vanguards saber** é uma unidade Limitada de tier A que serve como um excelente carry de progressão para o mid-game.
+- Seu **papel principal** foca em defesa terrestre de baixo custo, tornando-a ideal para limpar os estágios iniciais do Modo História.
+- As **melhores traits** incluem Monarch ou Ethereal para dano bruto, embora Swift e Vigor sejam opções econômicas altamente viáveis.
+- Os **caminhos de evolução** aumentam significativamente seu escalonamento de dano, permitindo que ela preencha a lacuna em direção às unidades de tier Vanguard e Secret.
+- A **conservação de recursos** é fundamental; evite investir demais em Trait Rerolls premium na Saber se estiver se preparando para carries que definem o meta.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral e Como Obter a Saber em Anime Vanguards">
+
+A **anime vanguards saber** (especificamente conhecida no jogo como Saber Black Tyrant) é uma unidade de raridade Limitada altamente confiável, projetada para ancorar sua defesa durante a progressão no mid-game. Enquanto as listas de meta de alto nível são dominadas por gigantes de raridade Secret e Vanguard como Demon Leader, God (Above Heaven) e Song Jinwu, a Saber ocupa um nicho crucial. Ela atua como uma poderosa ponte, ajudando os jogadores na transição de setups iniciais básicos para o conteúdo de endgame de alta dificuldade.
+
+Saber é classificada como uma atacante física terrestre. Seus padrões de ataque oferecem um equilíbrio sólido entre dano bruto, velocidade de ataque (SPA) razoável e cobertura de alcance decente. Isso a torna altamente eficaz ao lidar com ondas iniciais e intermediárias antes que seus hyper-carries caros possam ser totalmente implantados.
+
+| Atributo | Detalhes do Perfil |
+|-----------|-----------------|
+| **Nome da Unidade** | Saber (Black Tyrant) |
+| **Raridade** | Limitada |
+| **Tipo de Posicionamento** | Terrestre |
+| **Papel no Jogo** | Carry de Progressão / DPS de Linha de Frente |
+| **Classificação de Tier** | Tier A |
+| **Uso Principal** | Limpeza do Modo História / Ponte para o Mid-Game |
+
+<Callout type="warning" title="Disponibilidade de Unidade Limitada">
+Como uma unidade Limitada, a Saber (Black Tyrant) nem sempre está disponível em banners padrão. Os jogadores devem monitorar as atualizações sazonais e as rotações de eventos para adquiri-la. Se você já a possui, priorize o upgrade dela para suavizar sua progressão no Modo História.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desempenho de Combate da Anime Vanguards Saber">
+
+Avaliar o desempenho de combate da **anime vanguards saber** requer a compreensão do seu escalonamento de upgrade e custos de posicionamento. Ao contrário de unidades Secret caras que exigem grandes setups de economia no early-game, a Saber pode ser implantada relativamente cedo em uma partida. Isso permite que você estabeleça uma linha defensiva rapidamente sem deixar passar inimigos velozes.
+
+O conjunto de habilidades da Saber escala de forma constante com cada upgrade em batalha. Ela transita de uma atacante física de alvo único para uma retalhadora de área ampla, o que é essencial para limpar ondas de inimigos agrupados nos modos Nightmare.
+
+| Nível de Upgrade | Saída de Dano | SPA (Segundos) | Alcance (Unidades) | Custo de Upgrade |
+|---------------|---------------|---------------|---------------|--------------|
+| **Nível Base** | **Moderado** | **Rápido** | **Curto** | **Baixo** |
+| **Upgrade Médio** | **Alto** | **Moderado** | **Médio** | **Médio** |
+| **Upgrade Máximo** | **Muito Alto** | **Estável** | **Amplo** | **Alto** |
+
+<CardGrid cols={3}>
+  <Card title="Defesa na Fase Inicial">
+    Saber se destaca em segurar rotas iniciais. Seu baixo custo de implantação inicial significa que você não precisa depender fortemente de unidades de economia no início do jogo para manter sua base segura.
+  </Card>
+  <Card title="Escalonamento no Mid-Game">
+    À medida que você investe ouro em seus upgrades durante a batalha, seu alcance aumenta. Isso permite que ela cubra rotas que se cruzam e maximize seu dano em área de efeito.
+  </Card>
+  <Card title="Utilidade em Ondas Finais">
+    Embora ela possa perder força em ondas muito avançadas em comparação com unidades de tier SS, sua saída de dano constante fornece um excelente suporte aos seus principais matadores de chefes.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estratégia de Upgrade">
+Em estágios mais longos, evite maximizar a Saber imediatamente. Em vez disso, use-a para garantir as ondas iniciais e, em seguida, foque em estabelecer suas unidades de economia antes de se comprometer com seus caros upgrades finais.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Traits e Rerolls para a Saber">
+
+Traits são modificadores permanentes que aumentam significativamente as estatísticas de combate base de uma unidade, como Dano, SPA e Alcance. Para a **anime vanguards saber**, selecionar a trait certa pode elevá-la de um carry de progressão padrão para uma força altamente formidável. Os Trait Rerolls são realizados no NPC Mandra Traits, consumindo itens de Trait Reroll que podem ser obtidos via códigos ativos ou lojas de eventos.
+
+Como a Saber é uma unidade de progressão, sua estratégia de reroll deve ser calculada. Economizar os limites de piedade (pity) míticos premium para personagens de tier SS é geralmente recomendado, mas garantir uma trait comum ou rara forte na Saber é altamente benéfico.
+
+| Nome da Trait | Chance de Rolar | Efeito de Combate | Compatibilidade |
+|------------|-------------|---------------|----------------|
+| **Monarch** | **0.1%** | Bônus Máximo de Dano e Alcance | **Excelente (Meta)** |
+| **Ethereal** | **0.175%** | Alto Dano e Velocidade de Ataque | **Excelente (Meta)** |
+| **Blitz** | **1.85%** | Redução Significativa de SPA | **Ótimo** |
+| **Vigor** | **26.0%** | Aumento de Dano Padrão | **Bom (Econômico)** |
+| **Swift** | **26.0%** | Redução de SPA Padrão | **Bom (Econômico)** |
+
+<Callout type="tip" title="Gerenciamento de Recursos de Reroll">
+Se você rolar Vigor ou Swift na Saber, é altamente recomendável mantê-la. Essas traits comuns proporcionam um aumento de desempenho perceptível sem esgotar seus escassos Trait Rerolls, que são melhor gastos em unidades como God (Above Heaven) ou Alocard.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Caminho de Evolução e Ascensão">
+
+Para maximizar o potencial da sua **anime vanguards saber**, você deve utilizar os sistemas de upgrade do jogo. A Evolução transforma permanentemente uma unidade em uma versão mais forte, desbloqueando passivas superiores, tetos de estatísticas mais altos e novos designs visuais. A Ascensão, realizada através do NPC Kokashi, fornece aumentos percentuais incrementais nas estatísticas de suas unidades.
+
+Siga estes passos para preparar sistematicamente a Saber para evolução e ascensão:
+
+<Steps>
+  <Step num="1" title="Avalie as Necessidades de Progressão">
+    Verifique se a Saber está atualmente ancorando sua equipe principal. Não comprometa materiais de evolução raros com ela se você já possuir carries superiores de tier S ou SS que exijam os mesmos recursos.
+  </Step>
+  <Step num="2" title="Reúna Materiais de Evolução">
+    Farme os estágios específicos, raids ou lojas de eventos para coletar as pedras de essência e o ouro necessários. Certifique-se de ter um estoque completo de materiais antes de iniciar o processo de evolução.
+  </Step>
+  <Step num="3" title="Evolua na Estação de Upgrades">
+    Navegue até a área de Upgrades no lobby principal e selecione a estação de Evolução (Evolve). Confirme a transação para atualizar permanentemente a Saber para seu estado evoluído, aumentando suas estatísticas base.
+  </Step>
+  <Step num="4" title="Planeje os Níveis de Ascensão">
+    Se você possuir cópias duplicadas da Saber, visite o NPC Kokashi para aplicar ascensões. A Ascensão I concede um **bônus de 3% de Dano**, enquanto a Ascensão II adiciona **5% de Alcance**, otimizando ainda mais sua pegada de combate.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Regra de Raridade da Ascensão">
+Esteja ciente de que, se uma unidade passar por uma evolução que altere sua raridade, quaisquer ascensões aplicadas anteriormente serão removidas. Sempre conclua suas decisões de evolução primária antes de investir cópias duplicadas no sistema de ascensão.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estratégia de Montagem de Equipe e Modos de Jogo">
+
+A Saber tem seu melhor desempenho quando colocada em uma composição de equipe bem equilibrada. Em Anime Vanguards, confiar apenas em unidades de dano bruto levará ao fracasso em estágios de maior dificuldade. Um esquadrão de sucesso requer uma sinergia de DPS de linha de frente, controle de grupo e suporte econômico robusto.
+
+Ao montar uma equipe em torno da **anime vanguards saber**, combine-a com unidades que compensem sua falta de mecânicas integradas de lentidão ou atordoamento.
+
+| Papel da Unidade | Combinações Recomendadas | Efeito Sinérgico |
+|-----------|----------------------|--------------------|
+| **Suporte de Economia** | Demon Leader / Unidades Fortune | Gera ouro rapidamente para financiar os upgrades de batalha da Saber. |
+| **Controle de Grupo** | Gujo (Infinity) / Ice Queen | Congela ou retarda os inimigos, mantendo-os dentro do alcance de ataque da Saber. |
+| **DPS Sustentado** | Alocard (Vampire King) | Aplica efeitos de sangramento cumulativos enquanto a Saber causa dano físico direto. |
+
+<Checklist
+  id="saber-battle-prep"
+  title="Checklist de Prontidão de Batalha da Saber:"
+  items={[
+    "Equipe a Saber com uma trait de aumento de dano como Vigor ou Monarch.",
+    "Combine-a com pelo menos uma unidade de economia para garantir o fluxo inicial de ouro.",
+    "Posicione-a em interseções de curvas para maximizar seu alcance de corte em área de efeito.",
+    "Evolua ela antes de tentar estágios Nightmare de alta dificuldade."
+  ]}
+/>
+
+<Callout type="tip" title="Estratégia de Posicionamento">
+Sempre coloque a Saber perto do início da pista ou em curvas principais. Isso garante que seus ataques de corte atinjam o número máximo de alvos à medida que eles se agrupam nas curvas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A anime vanguards saber é uma boa unidade para o endgame?",
+    answer: "A Saber (Black Tyrant) é principalmente um carry de progressão de tier A. Embora ela seja incrivelmente forte para limpar o Modo História e os estágios Legend iniciais, ela acaba sendo superada em raids de ultra-endgame e modos infinitos por unidades de raridade Secret e Vanguard."
+  },
+  {
+    question: "Qual é a melhor trait absoluta para a Saber?",
+    answer: "As melhores traits míticas para a Saber são Monarch e Ethereal devido ao seu enorme dano bruto e escalonamento de estatísticas. No entanto, para progressão geral, traits econômicas como Vigor ou Swift são altamente recomendadas para economizar recursos de reroll."
+  },
+  {
+    question: "Como obtenho a Saber no Anime Vanguards?",
+    answer: "A Saber é uma unidade Limitada, o que significa que ela pode ser adquirida através de banners de eventos específicos ou rotações de invocação por tempo limitado. Verifique os logs de atualização atuais e os cronogramas de banners no lobby principal."
+  },
+  {
+    question: "Devo ascender a Saber ou guardar minhas duplicatas?",
+    answer: "Se você planeja usar a Saber como seu carry principal por um longo tempo, ascendê-la no NPC Kokashi é altamente benéfico. No entanto, certifique-se de que ela esteja totalmente evoluída antes de aplicar ascensões, pois evoluções que alteram a raridade podem resetar os níveis de ascensão."
+  }
+]} />
+
+<Callout type="info" title="Veredito Final">
+A Saber é um dos investimentos mais confiáveis que um jogador em crescimento pode fazer. Ela fornece a estabilidade necessária para farmar recursos de alto valor, abrindo caminho para o seu elenco final de endgame.
+</Callout>
+
+</Section>

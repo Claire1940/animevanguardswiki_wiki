@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Whitebeard: Guía de mejores estadísticas, rasgos y evolución",
+  description: "Desbloquea el poder total de la unidad Whitebeard (Barbablanca) en Anime Vanguards. Descubre los mejores rasgos, materiales de evolución, estadísticas y estrategias de posicionamiento para el juego tardío.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Whitebeard+Guide",
+  date: "2026-06-23",
+  author: "Equipo de la Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Unidad Principal**: Edward (Barbablanca) es una unidad DPS terrestre mítica primordial en Anime Vanguards, especializada en ataques de terremoto masivos, tanto circulares como lineales.
+- **Mejor Rasgo**: Monarca (Monarch) es el mejor rasgo absoluto para Barbablanca, seguido de cerca por Etéreo (Ethereal) y Ojo de Halcón (Deadeye) para daño bruto y cobertura de área.
+- **Ruta de Evolución**: Evoluciona a Edward a Edward (Desatado) usando Orbes de Terremoto (Tremor Orbs), Piedras de Esencia Roja (Red Essence Stones) y Oro para desbloquear su verdadero poder.
+- **Posicionamiento Clave**: Coloca a Barbablanca en intersecciones principales o curvas para maximizar su daño de onda de choque de amplio alcance.
+</Callout>
+
+<Section icon={Swords} title="Descripción General de la Unidad Barbablanca (Whitebeard) en Anime Vanguards">
+
+En el panorama competitivo de Anime Vanguards, **Edward** (conocido familiarmente como Barbablanca) destaca como uno de los atacantes terrestres más confiables. Como unidad de rareza Mítica, Edward posee un límite de daño increíblemente alto, el cual escala drásticamente una vez evolucionado a su forma final, Edward (Desatado / Unleashed). 
+
+Su conjunto de habilidades principal gira en torno a ondas de choque masivas que infligen un gran daño de área (AoE) a oleadas enteras de enemigos. Aunque su costo de colocación inicial es moderadamente alto, su eficiencia de escalado lo convierte en una opción imprescindible para completar contenido de alta dificultad, incluyendo Incursiones (Raids), Escenarios de Leyenda (Legend Stages) y modos de Fiebre de Jefes (Boss Rush).
+
+| Métrica | Edward (Forma Base) | Edward (Desatado - Evolucionado) |
+| :--- | :--- | :--- |
+| **Rareza** | Mítica | Mítica (Evolucionado) |
+| **Tipo de Unidad** | Terrestre | Terrestre |
+| **Daño Base** | 1,250 | 2,800 |
+| **Rango Base** | 18.5 | 22.0 |
+| **SPA Base** | 6.5s | 5.8s |
+| **Límite de Colocación** | 2 | 2 |
+| **Patrón de Ataque** | AoE Circular | Línea de Onda de Choque Completa / AoE Circular |
+
+<Callout type="info" title="Consejo de Gestión de Costos">
+El costo de colocación de Edward en el juego temprano es moderadamente alto, lo que lo hace menos adecuado como iniciador de primera oleada, pero excepcionalmente fuerte como un carry de transición a mitad de partida una vez que tus unidades de economía estén establecidas.
+</Callout>
+
+Durante una partida, Edward pasa por varias fases de mejora. Sus primeras mejoras se centran en expandir su rango de ataque, mientras que las mejoras de las etapas finales aumentan drásticamente su velocidad de ataque (SPA) y desbloquean sus emblemáticas ondas de choque de Terremoto. Esto lo hace altamente adaptable tanto a pasillos cortos como a mapas abiertos.
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Rasgos para Barbablanca (Whitebeard) en Anime Vanguards">
+
+Elegir el rasgo correcto para tu unidad de **Barbablanca en Anime Vanguards** puede marcar la diferencia entre sufrir en la oleada 30 o superar fácilmente mapas de nivel Pesadilla (Nightmare). Los rasgos otorgan aumentos de estadísticas permanentes que mejoran sus fortalezas naturales o cubren sus debilidades menores, como su velocidad de ataque más lenta.
+
+| Rasgo | Aumento de Daño | Aumento de Rango | Reducción de SPA | Rango General |
+| :--- | :--- | :--- | :--- | :--- |
+| **Monarca (Monarch)** | +50% | +10% | -10% | ★★★★★ (Tier S) |
+| **Etéreo (Ethereal)** | +35% | +15% | -5% | ★★★★☆ (Tier A) |
+| **Ojo de Halcón (Deadeye)** | +20% (Crít) | +5% | Ninguno | ★★★★☆ (Tier A) |
+| **Solar** | +15% | +10% | Ninguno | ★★★☆☆ (Tier B) |
+| **Ráfaga (Blitz)** | Ninguno | Ninguno | -15% | ★★★☆☆ (Tier B) |
+
+Para ayudarte a decidir dónde gastar tus valiosos Rerolls de Rasgo (Trait Rerolls), comparemos los tres mejores rasgos disponibles para esta unidad.
+
+<CardGrid cols={3}>
+  <Card title="Monarca (El Mejor en General)">
+    - **Daño**: +50% de aumento masivo
+    - **Límite de Colocación**: Reducido a 1
+    - **Utilidad**: Desbloquea un potencial de solo-carry sin igual para las oleadas del juego tardío.
+  </Card>
+  <Card title="Etéreo (El Mejor para Colocación Múltiple)">
+    - **Daño**: +35% de aumento neto
+    - **Rango**: +15% de cobertura de mapa
+    - **Utilidad**: Mantiene tu límite de colocación en 2, permitiendo configuraciones de doble onda de choque.
+  </Card>
+  <Card title="Ojo de Halcón (El Mejor para Matar Jefes)">
+    - **Probabilidad de Crítico**: Incremento significativo
+    - **Daño Crítico**: Escalado masivo
+    - **Utilidad**: Ideal para derretir jefes con mucha vida en Incursiones (Raids) y Fiebre de Jefes (Boss Rush).
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estrategia de Reroll">
+Prioriza siempre evolucionar a tu unidad Edward a Edward (Desatado) antes de gastar una gran cantidad de Rerolls de Rasgo. La evolución conserva tu piedad de rasgo (trait pity), pero probar los rasgos en su conjunto de habilidades final te dará una mejor idea de su rendimiento real en combate.
+</Callout>
+
+Aunque Monarca reduce tu límite de colocación a uno, el aumento bruto de estadísticas compensa con creces la pérdida de una segunda unidad. Si prefieres defender dos carriles, Etéreo es la alternativa ideal, ya que proporciona una mezcla equilibrada de rango y daño sin restricciones de colocación.
+
+</Section>
+
+<Section icon={Trophy} title="Cómo Evolucionar a Barbablanca en Anime Vanguards">
+
+Evolucionar a Edward a su forma Desatada (Unleashed) es esencial para desbloquear todo su potencial de daño y sus patrones avanzados de ataque con ondas de choque. El proceso de evolución requiere una combinación de materiales de fabricación específicos, esencias elementales y una inversión de oro.
+
+| Tipo de Material | Cantidad Requerida | Método de Obtención Principal |
+| :--- | :--- | :--- |
+| **Orbe de Terremoto (Tremor Orb)** | 1 | Fabricado a través del NPC del Lobby / Botines de Incursión |
+| **Piedras de Esencia Roja** | 35 | Escenarios de Leyenda / Misiones Semanales |
+| **Piedras de Esencia Verde** | 20 | Modos Desafío / Misiones Diarias |
+| **Esencia Arcoíris** | 5 | Fabricación / Tiendas de Eventos Especiales |
+| **Oro** | 15,000 | Completar Escenarios de Historia / Granja de Oro |
+
+Para completar el proceso de evolución con éxito, sigue estas instrucciones paso a paso en el área de mejoras del lobby principal.
+
+<Steps>
+  <Step num="1" title="Invocar Unidad Base">
+    Obtén la unidad base de Edward en los banners de invocación estándar usando tus gemas acumuladas.
+  </Step>
+  <Step num="2" title="Recolectar Piedras de Esencia">
+    Consigue las Piedras de Esencia Roja, Verde y Arcoíris necesarias completando desafíos diarios y superando Escenarios de Leyenda de alto nivel.
+  </Step>
+  <Step num="3" title="Fabricar el Orbe de Terremoto">
+    Visita al NPC de fabricación en el lobby para ensamblar el Orbe de Terremoto usando las esencias y materiales base que recolectaste.
+  </Step>
+  <Step num="4" title="Ejecutar la Evolución">
+    Dirígete a la estación de Evolución, selecciona tu unidad de Edward desbloqueada, asegúrate de tener todos los materiales y confirma la evolución para desbloquear a Edward (Desatado).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de Inventario">
+Asegúrate de desbloquear manualmente a tu unidad Edward en tu inventario antes de intentar evolucionarlo. Las unidades bloqueadas están protegidas por el sistema y no aparecerán como candidatas elegibles en el menú de evolución.
+</Callout>
+
+Una vez evolucionado, Edward (Desatado) obtiene un aumento masivo en sus estadísticas de ataque base, y su mejora final desbloquea un ataque de terremoto a escala global que puede ralentizar e infligir daño a los enemigos a lo largo de todo el camino del mapa.
+
+</Section>
+
+<Section icon={Map} title="Estrategia de Posicionamiento y Sinergias de Equipo">
+
+Para aprovechar al máximo tu unidad de **Barbablanca en Anime Vanguards**, el posicionamiento es clave. Debido a que sus ataques viajan en amplios patrones circulares y ondas de choque lineales, colocarlo en pasillos rectos o intersecciones principales maximiza su producción de daño por ataque.
+
+| Compañero de Unidad | Rol | Sinergia con Barbablanca |
+| :--- | :--- | :--- |
+| **Líder Demonio (Demon Leader)** | Soporte / Potenciador | Reduce los costos de colocación y aumenta el daño bruto de Edward. |
+| **Reina de Hielo (Ice Queen - Release)** | Control de Masas | Congela a los enemigos dentro de las zonas de ondas de choque masivas de Edward. |
+| **Song Jinwu** | Invocador | Bloquea filtraciones de enemigos mientras Edward carga sus ataques de alto daño. |
+| **Unidades de Economía / Sprint** | Generador de Ingresos | Genera el gran capital requerido para financiar las mejoras finales de Edward. |
+
+Al desplegar tu equipo, sigue esta lista de verificación táctica para establecer una línea de defensa indestructible en cualquier mapa.
+
+<Checklist
+  id="whitebeard-setup"
+  title="Lista de Verificación para el Despliegue en el Campo de Batalla:"
+  items={[
+    "Despliega tus unidades de economía durante las primeras tres oleadas para construir una base sólida de oro.",
+    "Coloca una unidad de ralentización o congelación como la Reina de Hielo justo antes de una intersección importante.",
+    "Posiciona a Edward al final de un camino recto y largo para maximizar el rango de su onda de choque lineal.",
+    "Mejora a Edward al menos al nivel 4 antes de la primera oleada de jefe para desbloquear su círculo de AoE mediano.",
+    "Maximiza las mejoras de Edward durante las oleadas del juego tardío para activar su efecto de ralentización por terremoto global."
+  ]}
+/>
+
+<Callout type="success" title="Nota de Sinergia Meta">
+Combinar a Edward (Desatado) con un Líder Demonio completamente mejorado te permite omitir sus altos costos de mejora al principio, permitiéndote alcanzar su fase de DPS máximo varias oleadas antes de lo previsto.
+</Callout>
+
+Evita colocar a Edward al principio del camino de los enemigos. En su lugar, posiciónalo cerca del medio o al final de tu bucle de defensa, donde los enemigos ya estén ralentizados y agrupados por tus unidades de soporte.
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes de Barbablanca (Whitebeard) en Anime Vanguards">
+
+<FAQ items={[
+  {
+    question: "¿Vale la pena evolucionar a Barbablanca en el meta actual?",
+    answer: "Sí. Edward (Desatado) sigue siendo uno de los atacantes terrestres de daño en área (AoE) más fuertes del juego, lo que lo hace muy valioso para completar contenido de alta dificultad y farmear incursiones."
+  },
+  {
+    question: "¿Cuál es el mejor rasgo absoluto para Barbablanca en Anime Vanguards?",
+    answer: "Monarca (Monarch) es el mejor rasgo para daño bruto individual, mientras que Etéreo (Ethereal) es el preferido si deseas mantener tu límite de colocación de dos unidades para la defensa de doble carril."
+  },
+  {
+    question: "¿Puede Barbablanca golpear unidades voladoras?",
+    answer: "No. Edward es estrictamente una unidad Terrestre. Debes emparejarlo con unidades híbridas confiables o que ataquen al aire como Gujo (Infinito) para lidiar con las oleadas de enemigos aéreos."
+  },
+  {
+    question: "¿Dónde puedo farmear los materiales para su Orbe de Terremoto?",
+    answer: "Las piedras de esencia y los componentes de fabricación se pueden farmear de manera constante en los Escenarios de Leyenda, desafíos diarios y comprándolos en las tiendas de eventos."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones de Equilibrio">
+Mantente atento al Discord oficial y a las notas del parche a lo largo de 2026, ya que las actualizaciones de equilibrio de personajes pueden ajustar los valores de daño base, el escalado de SPA o los requisitos de materiales de evolución.
+</Callout>
+
+</Section>

@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Saber: Hướng dẫn Build & Tiến trình Black Tyrant",
+  description: "Làm chủ nhân vật Saber (Black Tyrant) trong Anime Vanguards. Tìm hiểu các chỉ số, thiên phú tốt nhất, nhánh tiến hóa và đội hình phù hợp cho giai đoạn giữa game.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Anime+Vanguards+Saber+Guide",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime vanguards saber** là một đơn vị Giới hạn (Limited) hạng A, đóng vai trò là một carry tiến trình tuyệt vời trong giai đoạn giữa game.
+- **Vai trò chính** tập trung vào phòng thủ mặt đất hiệu quả về chi phí, giúp cô ấy trở nên lý tưởng để vượt các màn Chế độ Cốt truyện (Story Mode) ban đầu.
+- **Thiên phú tốt nhất** bao gồm Monarch hoặc Ethereal để tối đa hóa sát thương thô, mặc dù Swift và Vigor là những lựa chọn tiết kiệm cực kỳ khả thi.
+- **Nhánh tiến hóa** tăng mạnh khả năng thăng tiến sát thương của cô ấy, giúp thu hẹp khoảng cách với các đơn vị Vanguard và Secret hàng đầu.
+- **Tiết kiệm tài nguyên** là chìa khóa; tránh đầu tư quá mức các lượt Reroll Thiên phú cao cấp cho Saber nếu bạn đang chuẩn bị cho các carry định hình meta.
+</Callout>
+
+<Section icon={Sparkles} title="Tổng quan & Cách sở hữu Saber trong Anime Vanguards">
+
+**Anime vanguards saber** (thường được biết đến trong game với tên Saber Black Tyrant) là một đơn vị độ hiếm Giới hạn (Limited) cực kỳ đáng tin cậy, được thiết kế để làm trụ cột phòng thủ của bạn trong giai đoạn giữa game. Trong khi các bảng xếp hạng meta hàng đầu bị thống trị bởi các gã khổng lồ độ hiếm Secret và Vanguard như Demon Leader, God (Above Heaven), và Song Jinwu, Saber vẫn chiếm giữ một vị trí vô cùng quan trọng. Cô ấy hoạt động như một carry cầu nối mạnh mẽ, giúp người chơi chuyển đổi từ đội hình khởi đầu cơ bản sang nội dung cuối game (endgame) có độ khó cao.
+
+Saber được phân loại là một tướng tấn công vật lý trên mặt đất. Các đòn tấn công của cô ấy mang lại sự cân bằng tốt giữa sát thương thô, tốc độ đánh (SPA) hợp lý và phạm vi bao phủ khá tốt. Điều này giúp cô ấy cực kỳ hiệu quả trong việc xử lý các đợt quái từ đầu đến giữa trận trước khi các hyper-carry đắt đỏ của bạn có thể được triển khai hoàn toàn.
+
+| Thuộc tính | Chi tiết thông tin |
+|-----------|-----------------|
+| **Tên đơn vị** | Saber (Black Tyrant) |
+| **Độ hiếm** | Giới hạn (Limited) |
+| **Loại vị trí** | Mặt đất (Ground) |
+| **Vai trò trong game** | Carry Tiến trình / DPS Tiền tuyến |
+| **Xếp hạng Tier** | Hạng A (A-Tier) |
+| **Mục đích sử dụng chính** | Vượt ải Cốt truyện / Cầu nối Giữa game |
+
+<Callout type="warning" title="Khả năng sở hữu đơn vị Giới hạn">
+Là một đơn vị Giới hạn, Saber (Black Tyrant) không phải lúc nào cũng có sẵn trên các banner thông thường. Người chơi nên theo dõi các bản cập nhật theo mùa và vòng lặp sự kiện để sở hữu cô ấy. Nếu bạn đã sở hữu cô ấy, hãy ưu tiên nâng cấp để quá trình vượt Chế độ Cốt truyện diễn ra mượt mà hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hiệu suất chiến đấu của Saber trong Anime Vanguards">
+
+Đánh giá hiệu suất chiến đấu của **anime vanguards saber** đòi hỏi phải hiểu rõ khả năng thăng tiến sức mạnh khi nâng cấp và chi phí đặt quân. Không giống như các đơn vị Secret đắt đỏ yêu cầu thiết lập kinh tế lớn ở đầu trận, Saber có thể được triển khai tương đối sớm trong trận đấu. Điều này cho phép bạn nhanh chóng thiết lập một phòng tuyến vững chắc mà không lo bị lọt các kẻ địch di chuyển nhanh.
+
+Bộ kỹ năng của Saber tăng tiến đều đặn qua mỗi lần nâng cấp trong trận chiến. Cô ấy chuyển đổi từ một chiến binh vật lý đơn mục tiêu thành một đấu sĩ chém diện rộng, điều này rất cần thiết để dọn dẹp các đợt quái đông đúc trong chế độ Ác mộng (Nightmare).
+
+| Cấp nâng cấp | Sát thương đầu ra | SPA (Giây) | Tầm đánh (Đơn vị) | Chi phí nâng cấp |
+|---------------|---------------|---------------|---------------|--------------|
+| **Cấp cơ bản** | **Trung bình** | **Nhanh** | **Ngắn** | **Thấp** |
+| **Nâng cấp giữa** | **Cao** | **Trung bình** | **Vừa** | **Vừa** |
+| **Nâng cấp tối đa** | **Rất cao** | **Ổn định** | **Rộng** | **Cao** |
+
+<CardGrid cols={3}>
+  <Card title="Phòng thủ giai đoạn đầu">
+    Saber xuất sắc trong việc giữ các đường đi ban đầu. Chi phí triển khai ban đầu thấp của cô ấy đồng nghĩa với việc bạn không cần phụ thuộc quá nhiều vào các đơn vị kinh tế đầu trận để giữ an toàn cho căn cứ.
+  </Card>
+  <Card title="Thăng tiến sức mạnh giữa game">
+    Khi bạn đầu tư vàng vào việc nâng cấp cô ấy giữa trận đấu, tầm đánh của cô ấy sẽ mở rộng. Điều này cho phép cô ấy bao phủ các giao lộ và tối đa hóa sát thương diện rộng của mình.
+  </Card>
+  <Card title="Tiện ích ở các đợt quái cuối">
+    Mặc dù cô ấy có thể yếu thế hơn ở các đợt quái cực muộn so với các đơn vị cấp SS, nhưng lượng sát thương ổn định của cô ấy vẫn hỗ trợ tuyệt vời cho các tướng diệt boss chính của bạn.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Chiến thuật nâng cấp">
+Trong các màn chơi dài, tránh nâng cấp tối đa Saber ngay lập tức. Thay vào đó, hãy triển khai cô ấy để bảo vệ các đợt quái đầu tiên, sau đó tập trung xây dựng các đơn vị kinh tế trước khi dồn tài nguyên cho các nâng cấp cuối cùng đắt đỏ của cô ấy.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Thiên phú tốt nhất và Reroll cho Saber">
+
+Thiên phú (Traits) là các chỉ số bổ trợ vĩnh viễn giúp tăng đáng kể các thuộc tính chiến đấu cơ bản của đơn vị, chẳng hạn như Sát thương, SPA và Tầm đánh. Đối với **anime vanguards saber**, việc chọn đúng thiên phú có thể nâng tầm cô ấy từ một carry tiến trình thông thường thành một thế lực vô cùng đáng gờm. Reroll Thiên phú được thực hiện tại NPC Mandra Traits, tiêu tốn các vật phẩm Reroll Thiên phú có thể nhận được qua các mã code đang hoạt động hoặc cửa hàng sự kiện.
+
+Vì Saber là một đơn vị hỗ trợ tiến trình, chiến lược reroll của bạn nên được tính toán kỹ lưỡng. Việc tiết kiệm bảo hiểm (pity) thần thoại (mythic) cho các nhân vật cấp SS thường được khuyến khích hơn, nhưng việc sở hữu một thiên phú thường hoặc hiếm mạnh mẽ cho Saber vẫn mang lại lợi ích rất lớn.
+
+| Tên thiên phú | Tỷ lệ quay | Hiệu quả chiến đấu | Độ tương thích |
+|------------|-------------|---------------|----------------|
+| **Monarch** | **0.1%** | Tăng tối đa Sát thương & Tầm đánh | **Tuyệt vời (Meta)** |
+| **Ethereal** | **0.175%** | Sát thương & Tốc độ đánh cao | **Tuyệt vời (Meta)** |
+| **Blitz** | **1.85%** | Giảm đáng kể SPA | **Rất tốt** |
+| **Vigor** | **26.0%** | Tăng sát thương tiêu chuẩn | **Tốt (Tiết kiệm)** |
+| **Swift** | **26.0%** | Giảm SPA tiêu chuẩn | **Tốt (Tiết kiệm)** |
+
+<Callout type="tip" title="Quản lý tài nguyên Reroll">
+Nếu bạn quay ra Vigor hoặc Swift cho Saber, bạn nên giữ lại chúng. Những thiên phú phổ thông này cung cấp mức tăng hiệu suất đáng kể mà không làm cạn kiệt tài nguyên Reroll quý giá của bạn, thứ vốn nên được dành cho các đơn vị như God (Above Heaven) hoặc Alocard.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Con đường Tiến hóa và Thăng hoa">
+
+Để tối đa hóa tiềm năng của **anime vanguards saber**, bạn phải tận dụng hệ thống nâng cấp của trò chơi. Tiến hóa (Evolution) sẽ vĩnh viễn biến đổi một đơn vị thành một phiên bản mạnh hơn, mở khóa các nội tại vượt trội, giới hạn chỉ số cao hơn và thiết kế ngoại hình mới. Thăng hoa (Ascension), được thực hiện thông qua NPC Kokashi, cung cấp các mức tăng chỉ số theo tỷ lệ phần trăm cho các đơn vị của bạn.
+
+Hãy làm theo các bước sau để chuẩn bị một cách hệ thống cho quá trình tiến hóa và thăng hoa của Saber:
+
+<Steps>
+  <Step num="1" title="Đánh giá nhu cầu tiến trình">
+    Xác minh rằng Saber hiện đang là trụ cột trong đội hình chính của bạn. Đừng dồn các nguyên liệu tiến hóa quý hiếm cho cô ấy nếu bạn đã sở hữu các carry cấp S hoặc SS vượt trội hơn yêu cầu cùng loại tài nguyên.
+  </Step>
+  <Step num="2" title="Thu thập nguyên liệu tiến hóa">
+    Cày cuốc tại các màn chơi cụ thể, phó bản (raid) hoặc cửa hàng sự kiện để thu thập các đá tinh hoa (essence stones) và vàng cần thiết. Đảm bảo bạn có đầy đủ nguyên liệu trước khi bắt đầu quá trình tiến hóa.
+  </Step>
+  <Step num="3" title="Tiến hóa tại Trạm nâng cấp">
+    Di chuyển đến khu vực Nâng cấp (Upgrades) ở sảnh chính và chọn trạm Tiến hóa (Evolve). Xác nhận giao dịch để nâng cấp vĩnh viễn Saber lên trạng thái tiến hóa, giúp tăng mạnh các chỉ số cơ bản của cô ấy.
+  </Step>
+  <Step num="4" title="Lên kế hoạch cho các cấp Thăng hoa">
+    Nếu bạn sở hữu các bản sao của Saber, hãy đến gặp NPC Kokashi để tiến hành thăng hoa. Thăng hoa I (Ascension I) mang lại **3% Sát thương**, trong khi Thăng hoa II (Ascension II) cộng thêm **5% Tầm đánh**, giúp tối ưu hóa hơn nữa tầm ảnh hưởng chiến đấu của cô ấy.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Quy tắc Thăng hoa và Độ hiếm">
+Hãy lưu ý rằng nếu một đơn vị trải qua quá trình tiến hóa làm thay đổi độ hiếm, mọi cấp độ thăng hoa đã áp dụng trước đó sẽ bị xóa bỏ. Luôn hoàn thành các quyết định tiến hóa chính trước khi đầu tư các bản sao vào hệ thống thăng hoa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Chiến thuật xây dựng đội hình và Chế độ chơi">
+
+Saber hoạt động tốt nhất khi được đặt trong một đội hình cân bằng. Trong Anime Vanguards, việc chỉ dựa vào các đơn vị sát thương thô sẽ dẫn đến thất bại ở các màn chơi có độ khó cao hơn. Một đội hình thành công đòi hỏi sự phối hợp giữa DPS tiền tuyến, khống chế đám đông (crowd control) và hỗ trợ kinh tế mạnh mẽ.
+
+Khi xây dựng đội hình xung quanh **anime vanguards saber**, hãy ghép cặp cô ấy với các đơn vị có thể bù đắp cho việc thiếu cơ chế làm chậm hoặc làm choáng sẵn có của cô ấy.
+
+| Vai trò đơn vị | Đội hình khuyến nghị | Hiệu ứng hiệp lực |
+|-----------|----------------------|--------------------|
+| **Hỗ trợ kinh tế** | Demon Leader / Các đơn vị tăng vàng (Fortune) | Tạo vàng nhanh chóng để tài trợ cho các nâng cấp giữa trận của Saber. |
+| **Khống chế đám đông** | Gujo (Infinity) / Ice Queen | Đóng băng hoặc làm chậm kẻ địch, giữ chúng trong tầm đánh của Saber. |
+| **DPS duy trì** | Alocard (Vampire King) | Áp dụng hiệu ứng chảy máu cộng dồn trong khi Saber gây sát thương vật lý trực tiếp. |
+
+<Checklist
+  id="saber-battle-prep"
+  title="Danh sách kiểm tra mức độ sẵn sàng chiến đấu của Saber:"
+  items={[
+    "Trang bị cho Saber một thiên phú tăng sát thương như Vigor hoặc Monarch.",
+    "Ghép cô ấy với ít nhất một đơn vị kinh tế để đảm bảo dòng tiền vàng ban đầu.",
+    "Đặt cô ấy ở các góc cua/giao lộ để tối đa hóa phạm vi chém diện rộng của cô ấy.",
+    "Tiến hóa cô ấy trước khi thử sức với các màn chơi Ác mộng (Nightmare) có độ khó cao."
+  ]}
+/>
+
+<Callout type="tip" title="Chiến thuật đặt vị trí">
+Luôn đặt Saber gần điểm bắt đầu của đường đi hoặc tại các khúc cua lớn. Điều này đảm bảo các đòn tấn công chém của cô ấy trúng số lượng mục tiêu tối đa khi chúng tụ tập lại quanh các góc cua.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Saber trong Anime Vanguards có phải là một đơn vị tốt cho giai đoạn cuối game (endgame) không?",
+    answer: "Saber (Black Tyrant) chủ yếu là một carry tiến trình hạng A. Mặc dù cô ấy cực kỳ mạnh mẽ để vượt Chế độ Cốt truyện và các màn Truyền thuyết (Legend) ban đầu, nhưng cuối cùng cô ấy sẽ bị lu mờ ở các phó bản cuối game cực kỳ khó và chế độ vô tận (infinite) bởi các đơn vị độ hiếm Secret và Vanguard."
+  },
+  {
+    question: "Thiên phú tốt nhất tuyệt đối cho Saber là gì?",
+    answer: "Các thiên phú thần thoại (mythic) tốt nhất cho Saber là Monarch và Ethereal nhờ lượng sát thương thô khổng lồ và khả năng tăng tiến chỉ số của chúng. Tuy nhiên, đối với tiến trình thông thường, các thiên phú tiết kiệm như Vigor hoặc Swift được khuyên dùng nhiều hơn để tiết kiệm tài nguyên reroll."
+  },
+  {
+    question: "Làm thế nào để sở hữu Saber trong Anime Vanguards?",
+    answer: "Saber là một đơn vị Giới hạn, nghĩa là cô ấy có thể được sở hữu thông qua các banner sự kiện cụ thể hoặc vòng lặp triệu hồi giới hạn thời gian. Hãy kiểm tra nhật ký cập nhật hiện tại và lịch trình banner ở sảnh chính."
+  },
+  {
+    question: "Tôi nên thăng hoa Saber hay giữ lại các bản sao của cô ấy?",
+    answer: "Nếu bạn có kế hoạch sử dụng Saber làm carry chính của mình trong một thời gian dài, việc thăng hoa cô ấy tại NPC Kokashi là rất có lợi. Tuy nhiên, hãy đảm bảo cô ấy đã được tiến hóa hoàn toàn trước khi tiến hành thăng hoa, vì các tiến hóa thay đổi độ hiếm có thể đặt lại cấp độ thăng hoa."
+  }
+]} />
+
+<Callout type="info" title="Đánh giá cuối cùng">
+Saber là một trong những khoản đầu tư đáng tin cậy nhất mà một người chơi đang phát triển có thể thực hiện. Cô ấy cung cấp sự ổn định cần thiết để cày cuốc các tài nguyên giá trị cao, mở đường cho đội hình cuối game tối thượng của bạn.
+</Callout>
+
+</Section>

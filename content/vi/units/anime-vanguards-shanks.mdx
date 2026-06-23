@@ -1,0 +1,218 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Shanks: Hướng dẫn Đơn vị Tóc Đỏ & Thiết lập Tiến hóa",
+  description: "Làm chủ đơn vị Anime Vanguards Shanks (Tóc Đỏ). Tìm hiểu cách sở hữu, tiến hóa và tối ưu hóa đơn vị Hải tặc hàng đầu này với các đặc điểm và chỉ số tốt nhất.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Anime+Vanguards+Shanks",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards",
+  keywords: "anime vanguards shanks, tóc đỏ, tiến hóa shanks, hướng dẫn anime vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Đơn vị Chính**: Sở hữu **anime vanguards shanks** (được biết đến trong trò chơi là Tóc Đỏ) thông qua biểu ngữ triệu hồi (banner) xoay vòng hàng giờ.
+- **Lộ trình Tiến hóa**: Biến đổi Tóc Đỏ thành Tóc Đỏ (Tứ Hoàng) bằng cách chế tạo Áo choàng Tóc Đỏ tại NPC Giả kim (Alchemist).
+- **Đặc điểm Tốt nhất**: Ưu tiên đặc điểm Quân chủ (Monarch) hoặc Hư không (Ethereal) để tối đa hóa sát thương và phạm vi ảnh hưởng vật lý diện rộng.
+- **Vai trò Meta**: Sử dụng khả năng Haki Bá Vương của anh ta để làm choáng các đợt quái lớn và gây sát thương chảy máu tỷ lệ cao.
+</Callout>
+
+<Section icon={Swords} title="Hồ sơ Đơn vị Anime Vanguards Shanks">
+
+Việc bổ sung **anime vanguards shanks** (tên chính thức được chỉ định là Tóc Đỏ do các chuyển đổi về bản quyền) đã thay đổi hoàn toàn meta sát thương vật lý và kiểm soát đám đông. Là một đơn vị gây sát thương vật lý hàng đầu với các hiệu ứng trạng thái tích hợp, Tóc Đỏ là đơn vị rất được săn đón để thăng tiến trong giai đoạn giữa trò chơi, các cuộc đột kích cấp cao và các chế độ chơi chuyên biệt như Triều đại Hải tặc (Pirate Dynasty).
+
+Để giúp bạn hiểu vị trí của đơn vị huyền thoại này trong đội hình tổng thể của mình, chúng tôi đã chia nhỏ các dạng khác nhau và hồ sơ hiệp lực chung bên dưới.
+
+<CardGrid cols={3}>
+  <Card title="Tóc Đỏ (Cơ bản)">
+    - **Độ hiếm**: Thần thoại (Mythic)
+    - **Loại sát thương**: Vật lý / Chảy máu
+    - **Tiện ích chính**: Các nhát chém dọn quái giai đoạn đầu đến giữa trận
+  </Card>
+  <Card title="Tóc Đỏ (Tứ Hoàng)">
+    - **Độ hiếm**: Thần thoại Tiến hóa
+    - **Loại sát thương**: Vật lý / Chảy máu / Làm choáng
+    - **Tiện ích chính**: Haki Bá Vương quy mô toàn màn hình
+  </Card>
+  <Card title="Hiệp lực Triều đại Hải tặc">
+    - **Độ hiếm**: Phe Meta
+    - **Hiệp lực**: Tỷ lệ sát thương vật lý cao
+    - **Tiện ích chính**: Kiểm soát đường và giảm thiểu áp lực từ Boss
+  </Card>
+</CardGrid>
+
+### Chỉ số Cơ bản và Tổng quan Đơn vị
+
+Trước khi dành số Đá quý (Gems) và vật liệu tiến hóa khó kiếm được, việc phân tích khả năng cơ bản của Tóc Đỏ là rất quan trọng. Bảng dưới đây phác thảo chi phí triển khai, loại tấn công và các chỉ số chiến đấu của anh ta ở Cấp 1.
+
+| Thuộc tính | Giá trị Cơ bản | Giá trị Tiến hóa | Vai trò Chiến đấu |
+| :--- | :--- | :--- | :--- |
+| **Độ hiếm** | Thần thoại | Thần thoại Tiến hóa | DPS chính / Kiểm soát đám đông |
+| **Giá triển khai** | 1,200 Vàng | 1,500 Vàng | Đơn vị khởi đầu đường giữa trận |
+| **Loại tấn công** | AoE Vòng tròn | Hình nón Toàn bản đồ | Dọn quái / Kiểm soát đường |
+| **SPA Cơ bản** | 6.5 Giây | 5.8 Giây | Nhát chém vật lý nhanh |
+| **Hiệu ứng trạng thái** | Chảy máu | Chảy máu / Làm choáng | Sát thương theo thời gian & Làm choáng |
+
+<Callout type="info" title="Chiến thuật Xoay vòng Biểu ngữ">
+Tóc Đỏ là một đơn vị Thần thoại độc quyền trên biểu ngữ. Vì biểu ngữ triệu hồi xoay vòng mỗi giờ, bạn nên tiết kiệm ít nhất 2,500 Đá quý để đảm bảo triệu hồi được anh ta thông qua hệ thống bảo hiểm (pity) Thần thoại tiêu chuẩn khi cửa sổ tăng tỷ lệ của anh ta hoạt động.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lộ trình Tiến hóa và Thăng hoa">
+
+Để khai mở tiềm năng thực sự của **anime vanguards shanks**, bạn phải chuyển đổi anh ta từ dạng Tóc Đỏ cơ bản sang Tóc Đỏ (Tứ Hoàng). Tiến hóa đơn vị này sẽ tăng đáng kể sát thương cơ bản, giảm Giây mỗi đòn đánh (SPA) và thêm cơ chế làm choáng mạnh mẽ thông qua kỹ năng Haki Bá Vương.
+
+Quá trình tiến hóa yêu cầu sự kết hợp của các vật phẩm rơi ra từ đột kích độc quyền, đá tinh chất nguyên tố và vàng.
+
+### Yêu cầu Vật liệu Tiến hóa
+
+| Vật phẩm yêu cầu | Số lượng | Nguồn chính | Mục đích sử dụng |
+| :--- | :--- | :--- | :--- |
+| **Áo choàng Tóc Đỏ** | 1 | Chế tạo / Cửa hàng Đột kích | Chất xúc tác tiến hóa cốt lõi |
+| **Đá Tinh chất Xanh lá** | 25 | Thử thách / Nhiệm vụ hàng ngày | Phí điều chỉnh nguyên tố |
+| **Ván tàu Red Force** | 5 | Chế độ Triều đại Hải tặc | Vật phẩm cấu trúc tiến hóa |
+| **Vàng** | 15,000 | Chế độ Cốt truyện / Phụ bản Vàng | Phí xử lý và nâng cấp |
+
+<Steps>
+  <Step num="1" title="Sở hữu Đơn vị Cơ bản">
+    Triệu hồi đơn vị Tóc Đỏ cơ bản từ biểu ngữ hoặc sở hữu thông qua giao dịch nếu các sảnh giao dịch giữa người chơi đang hoạt động.
+  </Step>
+  <Step num="2" title="Cày vật liệu Đột kích và Sự kiện">
+    Hoàn thành các màn chơi Triều đại Hải tặc hoặc các cuộc đột kích được chỉ định để thu thập Ván tàu Red Force và công thức chế tạo Áo choàng Tóc Đỏ.
+  </Step>
+  <Step num="3" title="Chế tạo Chất xúc tác Tiến hóa">
+    Đến gặp NPC Giả kim (Alchemist) trong sảnh để kết hợp các Đá Tinh chất thô và vật liệu thành Áo choàng Tóc Đỏ hoàn chỉnh.
+  </Step>
+  <Step num="4" title="Thực hiện Tiến hóa tại Trạm">
+    Đi đến khu vực Nâng cấp (Upgrades), đặt Tóc Đỏ vào ô tiến hóa, đảm bảo bạn có 15,000 Vàng và xác nhận nâng cấp lên Tóc Đỏ (Tứ Hoàng).
+  </Step>
+</Steps>
+
+<Callout type="success" title="Lập kế hoạch Thăng hoa">
+Tiến hóa đơn vị của bạn sẽ xóa sạch mọi cấp độ Thăng hoa (Ascension) hiện có. Luôn hoàn thành việc tiến hóa lên Tóc Đỏ (Tứ Hoàng) trước khi sử dụng NPC Kokashi để áp dụng các cấp độ Thăng hoa nhằm tăng sát thương vĩnh viễn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tiến trình Nâng cấp trong Trận đấu">
+
+Sau khi được triển khai trong một trận đấu, Tóc Đỏ (Tứ Hoàng) yêu cầu đầu tư vàng chiến thuật để đạt được lượng sát thương tối đa. Nâng cấp cuối cùng của anh ta sẽ mở khóa \"Lãnh địa Tứ Hoàng\" (Emperor's Domain), gây hiệu ứng chảy máu cực lớn lên tất cả kẻ thù trong phạm vi.
+
+### Chi phí Nâng cấp và Tỷ lệ Sát thương
+
+Bảng dưới đây chi tiết lộ trình nâng cấp cho Tóc Đỏ (Tứ Hoàng) trong khi chơi. Sử dụng dữ liệu này để lập ngân sách thu nhập từ các đợt quái.
+
+| Cấp nâng cấp | Chi phí Vàng | Giá trị Sát thương | Phạm vi | Mô hình Tấn công |
+| :--- | :--- | :--- | :--- | :--- |
+| **Triển khai** | 1,500 | 850 | 18.0 | Chém Đơn mục tiêu |
+| **Nâng cấp 1** | 800 | 1,200 | 19.5 | Chém AoE Đường thẳng |
+| **Nâng cấp 2** | 1,200 | 1,850 | 21.0 | Chém AoE Đường thẳng |
+| **Nâng cấp 3** | 2,000 | 3,100 | 22.5 | Đòn đánh AoE Vòng tròn |
+| **Nâng cấp 4** | 3,500 | 5,400 | 25.0 | Đòn đánh AoE Vòng tròn |
+| **Nâng cấp 5** | 6,000 | 9,200 | 28.0 | Nhát chém Bá Vương (Chảy máu) |
+| **Nâng cấp 6** | 10,000 | 16,500 | 35.0 | Lãnh địa Tứ Hoàng (Làm choáng + Chảy máu) |
+
+<Callout type="tip" title="Vị trí Chiến thuật">
+Đặt Tóc Đỏ (Tứ Hoàng) tại các góc cua lớn hoặc giao lộ. Nâng cấp 6 của anh ta mở rộng phạm vi một cách đáng kể, cho phép anh ta đánh trúng nhiều làn đường cùng lúc và tối đa hóa sát thương chảy máu theo thời gian.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Đặc điểm Tối ưu và Chiến thuật Quay lại (Reroll)">
+
+Để tối đa hóa hiệu quả của **anime vanguards shanks**, bạn phải quay các đặc điểm bổ trợ cho sát thương cơ bản cao và khả năng gây hiệu ứng của anh ta. NPC Mandra Traits trong sảnh cho phép bạn thay đổi các đặc điểm bằng cách sử dụng Lượt quay Đặc điểm (Trait Rerolls).
+
+### Các Đặc điểm Khuyên dùng cho Shanks
+
+| Tên đặc điểm | Tỷ lệ quay | Thưởng chiến đấu | Đánh giá hiệp lực |
+| :--- | :--- | :--- | :--- |
+| **Quân chủ (Monarch)** | 0.10% | Sát thương cực lớn + Phạm vi | ★★★★★ (Tốt nhất) |
+| **Hư không (Ethereal)** | 0.175% | Tốc độ đánh cao + Sát thương | ★★★★★ (Tuyệt vời) |
+| **Thiện xạ (Deadeye)** | 0.375% | Hệ số chí mạng | ★★★★☆ (Diệt Boss mạnh) |
+| **Chớp nhoáng (Blitz)** | 1.85% | Giảm SPA | ★★★★☆ (Duy trì chảy máu) |
+| **Thái dương (Solar)** | 0.50% | Sát thương & Phạm vi cân bằng | ★★★☆☆ (Lựa chọn ổn) |
+
+### Danh sách Kiểm tra Ưu tiên Quay lại
+
+Trước khi chi tiêu các Lượt quay Đặc điểm khó kiếm được, hãy xem qua danh sách kiểm tra này để đảm bảo bạn không lãng phí tài nguyên thăng tiến quý hiếm.
+
+<Checklist
+  id="shanks-reroll-checklist"
+  title="Danh sách Kiểm tra Quay Đặc điểm:"
+  items={[
+    "Tiến hóa đơn vị lên Tóc Đỏ (Tứ Hoàng) để khóa bộ kỹ năng cuối cùng.",
+    "Tích lũy ít nhất 150 Lượt quay Đặc điểm để tận dụng hệ thống bảo hiểm thần thoại.",
+    "Xác minh rằng các đơn vị gánh đội chính của bạn đã có các đặc điểm chỉ số hữu dụng.",
+    "Dừng quay nếu bạn nhận được Hư không hoặc Quân chủ; đừng cố theo đuổi chỉ số hoàn hảo quá sớm."
+  ]}
+/>
+
+<Callout type="warning" title="Theo dõi Bảo hiểm">
+Chỉ mục Đặc điểm (Trait Index) theo dõi bảo hiểm thần thoại riêng biệt cho từng đơn vị. Việc tiến hóa, chuẩn hóa hoặc chuyển đổi chỉ số sẽ không đặt lại bảo hiểm đặc điểm của bạn, vì vậy bạn có thể yên tâm tiến hóa đơn vị mà không mất tiến trình nhận đặc điểm thần thoại đảm bảo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hiệp lực Đội hình Meta và Chế độ Chơi">
+
+Trong meta Bản cập nhật 13.5 hiện tại, **anime vanguards shanks** tỏa sáng nhất khi kết hợp với các đơn vị tăng sát thương vật lý hoặc tận dụng cơ chế chảy máu. Xây dựng một đội hình cân bằng xung quanh anh ta đảm bảo các lượt chạy mượt mà trong các chế độ khó cao.
+
+### Hiệp lực Đội hình Lý tưởng
+
+| Đơn vị Đồng hành | Vai trò | Loại hiệp lực | Khả năng thích ứng Meta |
+| :--- | :--- | :--- | :--- |
+| **Thợ săn Tiền thưởng** | DPS chính | Hiệp lực Triều đại Hải tặc | ★★★★★ (Hàng đầu) |
+| **Thuyền trưởng Co giãn** | Hỗ trợ tăng buff | Hệ số nhân sát thương | ★★★★★ (Cần thiết) |
+| **Thủ lĩnh Ác ma** | Kiểm soát chi phí | Giảm giá triển khai | ★★★★☆ (Rất mạnh) |
+| **Băng Hậu** | Kiểm soát đám đông | Cộng dồn Đóng băng & Làm chậm | ★★★★☆ (Tuyệt vời cho Đột kích) |
+
+### Các Chế độ Chơi Tốt nhất cho Shanks
+
+Tóc Đỏ (Tứ Hoàng) cực kỳ linh hoạt, nhưng một số chế độ chơi nhất định sẽ làm nổi bật khả năng kiểm soát đám đông và chảy máu của anh ta tốt hơn những chế độ khác:
+
+- **Triều đại Hải tặc (Pirate Dynasty)**: Hưởng lợi từ các buff phe hải tặc chuyên biệt giúp tăng sát thương vật lý thô của anh ta.
+- **Dòng thế giới (Worldlines)**: Sử dụng làm choáng từ Haki Bá Vương để chặn các đợt quái di chuyển nhanh ở các tầng cao hơn.
+- **Odyssey**: Các nhát chém AoE phạm vi rộng của anh ta giúp dọn sạch các cụm kẻ thù dày đặc trong các lượt cày tài nguyên dài.
+- **Chế độ Mùa hè**: Cộng dồn sát thương chảy máu lên các đợt zombie chống chịu để làm cạn kiệt thanh máu của chúng nhanh chóng.
+
+<Callout type="tip" title="Cộng dồn Buff">
+Triển khai Thuyền trưởng Co giãn trước để ổn định kinh tế và đảm bảo dọn quái các đợt đầu, sau đó đặt Tóc Đỏ (Tứ Hoàng) gần phía trước làn đường để bắt đầu cộng dồn sát thương chảy máu trước khi Boss tiếp cận hàng phòng thủ chính của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi Thường gặp">
+
+Dưới đây là những câu hỏi phổ biến nhất mà người chơi thường hỏi về **anime vanguards shanks** và lộ trình tối ưu hóa của anh ta.
+
+<FAQ items={[
+  {
+    question: "Anime vanguards shanks có tốt cho chế độ vô tận (infinite mode) không?",
+    answer: "Có, Tóc Đỏ (Tứ Hoàng) đặc biệt xuất sắc trong Chế độ Vô tận nhờ sát thương chảy máu tỷ lệ cao và làm choáng Haki Bá Vương toàn màn hình, giúp trì hoãn các đợt quái di chuyển nhanh ở giai đoạn cuối trận."
+  },
+  {
+    question: "Tiến hóa Tóc Đỏ có đặt lại đặc điểm hoặc bảo hiểm của anh ta không?",
+    answer: "Không. Tiến hóa Tóc Đỏ lên Tóc Đỏ (Tứ Hoàng) sẽ giữ nguyên đặc điểm hiện tại của bạn và không đặt lại tiến trình bảo hiểm đặc điểm thần thoại."
+  },
+  {
+    question: "Đặc điểm nào tốt nhất cho anime vanguards shanks?",
+    answer: "Quân chủ (Monarch) là đặc điểm tốt nhất tuyệt đối, theo sát là Hư không (Ethereal). Cả hai đặc điểm này đều tối đa hóa tỷ lệ sát thương vật lý và phạm vi bao phủ nhiều làn đường."
+  },
+  {
+    question: "Làm thế nào để lấy Áo choàng Tóc Đỏ để tiến hóa?",
+    answer: "Áo choàng Tóc Đỏ có thể được chế tạo tại NPC Giả kim (Alchemist) bằng cách sử dụng các vật liệu thu được từ các màn chơi Triều đại Hải tặc và các cuộc đột kích cấp cao."
+  }
+]} />
+
+<Callout type="info" title="Trình theo dõi Cập nhật">
+Hãy theo dõi sự xoay vòng biểu ngữ hàng giờ và các bản cập nhật trò chơi bằng cách sử dụng Discord chính thức của Kitawari hoặc nhật ký thay đổi của vanguards.gg để đảm bảo bạn không bỏ lỡ các sự kiện tăng tỷ lệ cho Tóc Đỏ.
+</Callout>
+
+</Section>

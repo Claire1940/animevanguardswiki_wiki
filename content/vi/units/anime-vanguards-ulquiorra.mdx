@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Ulquiorra: Hướng dẫn Build, Trait & Tiến hóa Tốt nhất",
+  description: "Tối ưu hóa Ulquiorra (Envoy of Destruction) trong Anime Vanguards. Khám phá các build tốt nhất, các bước tiến hóa, reroll trait và sự kết hợp đội hình meta.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Ulquiorra+Build+Guide",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Đơn vị chính**: Đơn vị **anime vanguards ulquiorra** được thể hiện trong trò chơi dưới tên **Envoy of Destruction (Resistance)**.
+- **Cách sở hữu**: Nhận đơn vị Exclusive (Độc quyền) này thông qua tiến trình **Event Pass Cập nhật 13.5**.
+- **Trait tốt nhất**: Ưu tiên **Monarch** hoặc **Ethereal** để tối đa hóa sát thương AoE diện rộng và khả năng tăng tiến sức mạnh của anh ấy.
+- **Ưu tiên tiến hóa**: Tiến hóa anh ấy bằng cách sử dụng các nguyên liệu sự kiện cụ thể để mở khóa toàn bộ tiềm năng sát thương.
+- **Vai trò Meta**: Đóng vai trò là một chủ lực **AoE Burn/DPS** hàng đầu, cực kỳ xuất sắc trong các chế độ Raid và Worldline cuối game.
+</Callout>
+
+<Section icon={Target} title="Anime Vanguards Ulquiorra: Tổng quan Đơn vị & Cách sở hữu">
+
+Sự ra mắt của đơn vị **anime vanguards ulquiorra**, được biết đến trong game với tên **Envoy of Destruction (Resistance)**, đã hoàn toàn thay đổi meta trong Cập nhật 13.5 (Eternal Adversaries). Là một đơn vị có độ hiếm Exclusive có thể nhận được thông qua Event Pass theo mùa, nhân vật này mang lại khả năng kiểm soát đám đông vô song, cơ chế thiêu đốt gây sát thương theo thời gian đặc biệt và khả năng tối ưu hóa chi phí triển khai cực kỳ hiệu quả. Cho dù bạn đang cày ải Chế độ Chơi Hè mới hay leo các tầng xếp hạng của Worldlines, việc hiểu cách mở khóa, build và tối ưu hóa nguồn sức mạnh mang đôi cánh bóng tối này là điều cần thiết để tối đa hóa tiến trình tài khoản của bạn.
+
+Không giống như các đơn vị banner triệu hồi thông thường, Ulquiorra yêu cầu tiến trình hoạt động thông qua các thử thách theo mùa thay vì chỉ dựa vào may mắn với Đá quý (Gem). Điều này biến anh ấy trở thành một sự bổ sung rất được săn đón cho cả người chơi miễn phí (F2P) và những cựu binh dày dạn kinh nghiệm muốn đảm bảo có được một chủ lực gánh team hàng đầu. Vì anh ấy có giới hạn số lượng đặt trên sân (placement limit) khá ít, mỗi nâng cấp, trait và chỉ số bạn áp dụng cho anh ấy đều mang lại giá trị cực kỳ lớn.
+
+Để giúp bạn hiểu rõ các khả năng cơ bản của anh ấy trước khi đầu tư các tài nguyên quý hiếm, bảng dưới đây phác thảo hồ sơ đơn vị cốt lõi và các số liệu thống kê khi triển khai.
+
+| Thuộc tính | Chi tiết |
+| :--- | :--- |
+| **Tên trong trò chơi** | Envoy of Destruction (Resistance) |
+| **Độ hiếm** | **Exclusive (Độc quyền)** |
+| **Giá cơ bản** | 1.250 Vàng |
+| **Giới hạn đặt** | 3 |
+| **Kiểu tấn công** | AoE (Vòng tròn / Đường thẳng) |
+| **Vai trò chính** | DPS chính / Sát thương thiêu đốt theo thời gian (DoT) |
+| **Cách sở hữu** | Event Pass Cập nhật 13.5 |
+
+<Callout type="info" title="Mẹo Event Pass">
+Tập trung hoàn thành các nhiệm vụ sự kiện hàng ngày và hàng tuần trong suốt Cập nhật 13.5 để sở hữu Envoy of Destruction (Resistance) trước khi Event Pass theo mùa kết thúc.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Con đường Tiến hóa: Nâng cấp lên Envoy of Destruction">
+
+Tiến hóa đơn vị **anime vanguards ulquiorra** của bạn là một bước bắt buộc nếu bạn có ý định sử dụng anh ấy trong các nội dung cuối game có độ khó cao như Legend Stages hoặc Raids. Tiến hóa giúp tăng đáng kể sát thương cơ bản, mở rộng phạm vi tấn công và thay đổi các mô hình tấn công của anh ấy để bao phủ các làn đường rộng hơn. Hơn nữa, Cập nhật 13.5 đã hợp lý hóa quy trình nâng cấp, tự động trao Memoria được chỉ định sau khi hoàn thành tiến hóa của đơn vị.
+
+Để hoàn thành quá trình tiến hóa này, bạn phải thu thập các vật phẩm độc quyền của sự kiện và nguyên liệu tiến hóa cụ thể. Rất khuyến khích bạn farm các tài nguyên này song song trong khi tiến hành Event Pass để đảm bảo bạn có thể tiến hóa anh ấy ngay khi vừa mở khóa.
+
+Bảng dưới đây chi tiết các nguyên liệu chính xác cần thiết để hoàn thành quá trình tiến hóa tại trạm Nâng cấp (Upgrades) trong sảnh chờ (lobby).
+
+| Loại nguyên liệu | Số lượng yêu cầu | Nguồn chính |
+| :--- | :--- | :--- |
+| **Đá Tinh hoa Xanh lá** | 40 | Chế độ Cốt truyện / Cửa hàng Sự kiện |
+| **Đá Tinh hoa Tối** | 25 | Chế độ Cốt truyện / Rơi từ Vết nứt (Rift) |
+| **Đá Tinh hoa Cầu vồng** | 5 | Chế tạo / Sự kiện Đặc biệt |
+| **Vàng** | 25.000 | Nhiệm vụ hàng ngày / Farm Cốt truyện |
+| **Vật phẩm Sự kiện Độc quyền** | 1 | Cửa hàng Sự kiện Cập nhật 13.5 |
+
+Làm theo các bước có cấu trúc sau để chuyển đổi đơn vị cơ bản của bạn thành dạng tiến hóa hoàn chỉnh, định hình meta.
+
+<Steps>
+  <Step num="1" title="Mở khóa Đơn vị Cơ bản">
+    Tiến triển qua Event Pass Cập nhật 13.5 cho đến khi bạn mở khóa đơn vị Envoy of Destruction (Resistance) cơ bản.
+  </Step>
+  <Step num="2" title="Thu thập Đá Tinh hoa">
+    Farm Chế độ Cốt truyện và các Vết nứt (Rifts) để tích lũy đủ số lượng Đá Tinh hoa Xanh lá, Tối và Cầu vồng được yêu cầu.
+  </Step>
+  <Step num="3" title="Mua Vật phẩm Xúc tác Sự kiện">
+    Nhận vật phẩm xúc tác tiến hóa độc nhất từ Cửa hàng Sự kiện theo mùa bằng cách sử dụng Trà đá (Iced Teas) hoặc tiền tệ sự kiện.
+  </Step>
+  <Step num="4" title="Thực hiện Tiến hóa">
+    Đến trạm Tiến hóa (Evolve) trong khu vực Nâng cấp (Upgrades), chọn đơn vị của bạn và tiêu hao các nguyên liệu để mở khóa dạng tiến hóa của anh ấy.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Quy tắc Độ hiếm & Thăng hoa">
+Luôn đưa ra quyết định tiến hóa cuối cùng trước khi đầu tư nhiều vào Thăng hoa (Ascension). Nếu một đơn vị trải qua quá trình tiến hóa làm thay đổi độ hiếm, các cấp thăng hoa đã áp dụng trước đó sẽ bị xóa và không được chuyển sang dạng mới.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Trait Tốt nhất cho Ulquiorra: Hướng dẫn Reroll">
+
+Sở hữu trait phù hợp trên đơn vị **anime vanguards ulquiorra** của bạn có thể nâng tầm anh ấy từ một chủ lực mạnh mẽ thông thường thành một con quái vật định hình meta tuyệt đối. Trait hoạt động như các hệ số nhân chỉ số vĩnh viễn, trực tiếp tăng lượng sát thương đầu ra, tốc độ tấn công (SPA) và phạm vi của anh ấy. Vì Ulquiorra hoạt động như một chủ lực có giới hạn đặt trên sân thấp (tối đa 3 đơn vị trên sân), anh ấy được hưởng lợi rất nhiều từ các trait thần thoại (mythic) cấp cao giúp tối đa hóa giá trị của từng vị trí đặt đơn vị.
+
+Việc reroll trait được thực hiện thông qua NPC Mandra Traits trong sảnh chờ. Mặc dù các trait phổ biến như Vigor hoặc Swift có thể chấp nhận được trong giai đoạn đầu game, bạn nên chủ động nhắm tới các trait thần thoại một khi bạn cam kết tối ưu hóa đội hình cuối game của mình.
+
+<CardGrid cols={3}>
+  <Card title="Monarch (Thần thoại)">
+    - **Tăng Sát thương**: +35%
+    - **Tăng Tầm đánh**: +15%
+    - **Tốt nhất cho**: Tối đa hóa giá trị của từng vị trí đặt đơn vị đối với các chủ lực có giới hạn đặt thấp.
+  </Card>
+  <Card title="Ethereal (Thần thoại)">
+    - **Tăng Sát thương**: +25%
+    - **Giảm SPA**: -10%
+    - **Tốt nhất cho**: Duy trì lượng DPS cao liên tục và áp dụng trạng thái thiêu đốt nhanh hơn.
+  </Card>
+  <Card title="Deadeye (Thần thoại)">
+    - **Tỷ lệ Chí mạng**: +20%
+    - **Sát thương Chí mạng**: +50%
+    - **Tốt nhất cho**: Thiết lập diệt Boss và tăng tiến sức mạnh trong các chế độ vô tận (infinite).
+  </Card>
+</CardGrid>
+
+Để lên kế hoạch cho các phiên reroll của bạn một cách hiệu quả, tham khảo bảng dưới đây để xem xét xác suất roll, các chỉ số điều chỉnh và xếp hạng meta cho các lựa chọn trait hàng đầu của anh ấy.
+
+| Tên Trait | Độ hiếm / Tỷ lệ | Chỉ số Điều chỉnh | Xếp hạng Meta |
+| :--- | :--- | :--- | :--- |
+| **Monarch** | Thần thoại (0.1%) | **+35% DMG, +15% Tầm đánh, +10% SPA** | ★★★★★ |
+| **Ethereal** | Thần thoại (0.175%) | **+25% DMG, -10% SPA** | ★★★★★ |
+| **Deadeye** | Thần thoại (0.375%) | **+20% Chí mạng, +50% Sát thương Chí mạng** | ★★★★☆ |
+| **Blitz** | Truyền thuyết (1.85%) | **-15% SPA** | ★★★★☆ |
+| **Vigor** | Thường (26%) | **+10% DMG** | ★★☆☆☆ |
+
+<Callout type="tip" title="Theo dõi Bảo hiểm (Pity)">
+Menu Trait Index theo dõi bảo hiểm (pity) thần thoại riêng biệt cho từng đơn vị. Tiến hóa và chuyển đổi chỉ số không thiết lập lại bảo hiểm trait của bạn, cho phép bạn roll một cách an toàn mà không bị mất tiến trình.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sự kết hợp Meta và Đội hình">
+
+Để mở khóa tiềm năng thực sự của đơn vị **anime vanguards ulquiorra**, bạn phải kết hợp anh ấy với các nhân vật bổ sung cho khả năng AoE và cơ chế gây sát thương theo thời gian của anh ấy. Vì Ulquiorra gây sát thương hệ tối (dark) và thiêu đốt tần suất cao, việc ghép đôi anh ấy với các hỗ trợ kinh tế như Demon Leader hoặc các chuyên gia khống chế đám đông như God (Above Heaven) sẽ tạo ra một hàng phòng ngự không thể xuyên thủng.
+
+Trong các chế độ chơi cuối game như Odyssey hoặc Worldlines, một đội hình cân bằng luôn vượt trội hơn so với việc chỉ xếp chồng sát thương thuần túy. Việc sử dụng một đơn vị làm chậm/làm choáng chuyên dụng sẽ đảm bảo kẻ địch nằm trong vùng sát thương cao của Ulquiorra lâu nhất có thể, cho phép các nhịp thiêu đốt của anh ấy làm tan chảy các thanh máu khổng lồ.
+
+Bảng dưới đây phác thảo một đội hình được tối ưu hóa cao được thiết kế để hỗ trợ Ulquiorra trong các nội dung có độ khó cao.
+
+| Vị trí Đơn vị | Nhân vật Khuyên dùng | Vai trò trong Đội hình | Khả năng Kết hợp với Ulquiorra |
+| :--- | :--- | :--- | :--- |
+| **Chủ lực chính** | **Envoy of Destruction** | DPS AoE chính / Sát thương thiêu đốt DoT | Dọn dẹp các đợt quái dày đặc và gây áp lực liên tục. |
+| **Hỗ trợ Kinh tế** | **Demon Leader (Control)** | Giảm Chi phí / Tạo Vàng | Giảm chi phí triển khai và tăng sức mạnh cho các đồng minh thuộc hệ tối (dark). |
+| **Khống chế Đám đông** | **God (Above Heaven)** | Ngưng đọng Thời gian / Đóng băng AoE | Đóng băng kẻ địch bên trong các vùng gây sát thương của Ulquiorra. |
+| **DPS Phụ** | **Rogita (Super 4)** | Diệt Boss | Tiêu diệt các boss có HP cao trong khi Ulquiorra xử lý các đợt quái. |
+
+Để đảm bảo đơn vị của bạn được tối ưu hóa hoàn toàn cho lối chơi cạnh tranh, hãy theo dõi tiến trình của bạn dựa trên các cột mốc quan trọng này.
+
+<Checklist
+  id="ulquiorra-milestones"
+  title="Các Cột mốc Tối ưu hóa:"
+  items={[
+    "Mở khóa Envoy of Destruction từ Event Pass",
+    "Thu thập 40 Đá Tinh hoa Xanh lá và 25 Đá Tinh hoa Tối",
+    "Tiến hóa đơn vị để mở khóa bộ kỹ năng hoàn chỉnh của anh ấy",
+    "Reroll được tối thiểu một trait Truyền thuyết (Blitz) hoặc Thần thoại",
+    "Kết hợp với Demon Leader để tối ưu hóa kinh tế triển khai của bạn"
+  ]}
+/>
+
+<Callout type="success" title="Sự kết hợp trong Chế độ Chơi Hè">
+Trong Cập nhật 13.5, Ulquiorra tỏa sáng đặc biệt tốt trong Chế độ Chơi Hè. Phạm vi bao phủ AoE khổng lồ của anh ấy là hoàn hảo để xử lý các đợt quái kiểu thây ma vô tận.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Các câu hỏi thường gặp">
+
+Việc tìm hiểu cơ chế của các đơn vị cấp cao có thể đặt ra một số câu hỏi, đặc biệt là với những cải tổ hệ thống toàn diện được giới thiệu trong Cập nhật 13.5. Dưới đây là những câu hỏi phổ biến nhất mà người chơi thường hỏi liên quan đến việc tối ưu hóa và sử dụng chủ lực mang đôi cánh bóng tối của họ.
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để sở hữu đơn vị anime vanguards ulquiorra?",
+    answer: "Bạn có thể sở hữu đơn vị anime vanguards ulquiorra, được biết đến với tên Envoy of Destruction (Resistance), bằng cách tiến triển qua Event Pass Cập nhật 13.5. Đây là một đơn vị có độ hiếm Exclusive."
+  },
+  {
+    question: "Trait tốt nhất cho Ulquiorra là gì?",
+    answer: "Các trait tốt nhất tuyệt đối là Monarch và Ethereal. Monarch cung cấp mức tăng sát thương khổng lồ 35% và tăng 15% tầm đánh, điều này lý tưởng cho các đơn vị có giới hạn đặt trên sân thấp."
+  },
+  {
+    question: "Tiến hóa Ulquiorra có thiết lập lại trait hoặc bảo hiểm (pity) của anh ấy không?",
+    answer: "Không. Tiến hóa đơn vị của bạn không thiết lập lại trait hiện tại, các chỉ số đã roll hoặc bảo hiểm trait thần thoại. Bạn có thể an tâm reroll trait ở dạng cơ bản trước khi tiến hóa."
+  },
+  {
+    question: "Ulquiorra có khả thi trong meta cuối game hiện tại không?",
+    answer: "Có, anh ấy cực kỳ khả thi. Sát thương thiêu đốt AoE mạnh mẽ và hiệu quả đặt đơn vị cao khiến anh ấy trở thành lựa chọn hàng đầu cho Worldlines, các lượt chạy Odyssey và Chế độ Chơi Hè Cập nhật 13.5."
+  }
+]} />
+
+<Callout type="info" title="Cần thêm Trợ giúp?">
+Tham gia cộng đồng Discord chính thức của Anime Vanguards để điều phối các thiết lập Raid co-op và chia sẻ chiến lược với những người chơi hàng đầu khác.
+</Callout>
+
+</Section>

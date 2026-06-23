@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Frieren: Hướng dẫn Meta Build & Tiến hóa",
+  description: "Làm chủ đơn vị Frieren trong Anime Vanguards. Tìm hiểu cách mở khóa, tiến hóa và xây dựng Pháp sư tộc Tiên tối thượng với các đặc điểm, chỉ số và đội hình tốt nhất.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/2a1b4e/ffffff?text=Frieren+Meta+Guide",
+  date: "2026-06-23",
+  author: "Đội ngũ Wiki Anime Vanguards",
+  keywords: "anime vanguards frieren, hướng dẫn tiến hóa, đặc điểm tốt nhất, meta build, elven mage"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Đơn vị chính**: Đơn vị **anime vanguards frieren** (được biết đến trong trò chơi là Elven Mage - Pháp sư tộc Tiên) là một cỗ máy gây sát thương phép thuật diện rộng (DPS) hàng đầu.
+- **Đặc điểm tốt nhất**: Hãy quay (roll) để lấy **Monarch** hoặc **Ethereal** nhằm tăng quy mô sát thương diện rộng khổng lồ và giảm thời gian hồi chiêu của cô ấy.
+- **Ưu tiên tiến hóa**: Cực kỳ cao; hình dạng tiến hóa của cô ấy tăng mạnh khả năng mở rộng sát thương thuần túy và bổ sung cơ chế làm chậm vô cùng giá trị.
+- **Vị trí lý tưởng**: Đặt cô ấy ở các giao lộ chính của đường đi hoặc các khúc cua chữ U hẹp để tối đa hóa phạm vi bao phủ của vòng tròn ma thuật diện rộng.
+</Callout>
+
+<Section icon={Target} title="Mở khóa Pháp sư tộc Tiên: Chỉ số cơ bản & Tổng quan">
+
+Nếu bạn muốn thống trị meta hiện tại, đơn vị **anime vanguards frieren** (thường được người chơi gọi là Pháp sư tộc Tiên do quá trình chuyển đổi bản quyền) là một trong những đơn vị gây sát thương diện rộng (AoE) dựa trên phép thuật mạnh mẽ nhất mà bạn có thể thêm vào đội hình của mình. Cô ấy xuất sắc trong việc tiêu diệt các đợt kẻ thù dày đặc và giữ làn đường trong các chế độ khó như Raid, Rift và Boss Rush.
+
+Để sở hữu đơn vị này, bạn phải dùng Đá quý (Gems) tại Banner Triệu hồi tiêu chuẩn khi cô ấy xuất hiện trong vòng xoay. Vì cô ấy thuộc cấp độ hiếm Thần thoại (Mythic) rất được săn đón, bạn nên tích lũy Đá quý và tận dụng cơ chế bảo hiểm (pity) triệu hồi để đảm bảo nhận được cô ấy.
+
+| Thuộc tính | Chi tiết dạng cơ bản | Chi tiết dạng tiến hóa |
+|--- |--- |--- |
+| **Độ hiếm** | Thần thoại | Thần thoại (Tiến hóa) |
+| **Giới hạn đặt** | 2 | 2 |
+| **Loại tấn công** | Phép thuật / AoE vòng tròn | Phép thuật / AoE vòng tròn + Làm chậm |
+| **Sát thương cơ bản** | 1,250 | 3,850 |
+| **SPA cơ bản** | 6.5 giây | 5.8 giây |
+| **Tầm đánh cơ bản** | 18.5 | 24.0 |
+| **Chi phí ban đầu** | 1,500 Vàng | 1,500 Vàng |
+
+Khác với những đơn vị chuyên diệt boss đơn mục tiêu, đơn vị này tập trung hoàn toàn vào việc quét sạch các nhóm kẻ thù khổng lồ trước khi chúng kịp xuyên thủng hàng phòng thủ của bạn. Dạng cơ bản của cô ấy đã rất hiệu quả cho quá trình thăng tiến cốt truyện giữa game, nhưng tiềm năng thực sự của cô ấy chỉ được giải phóng khi bạn đầu tư tài nguyên vào con đường tiến hóa.
+
+<Callout type="tip" title="Mẹo triệu hồi">
+Luôn kiểm tra vòng xoay banner đang hoạt động trước khi tiêu Đá quý. Nếu cô ấy hiện không được làm nổi bật (featured), hãy giữ tài nguyên cho đến khi cô ấy quay lại vị trí tăng tỷ lệ để tối đa hóa hiệu quả triệu hồi của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Con đường Tiến hóa & Chi phí Nguyên liệu">
+
+Tiến hóa đơn vị là một bước bắt buộc nếu bạn có kế hoạch chinh phục các nội dung cuối game như Worldlines hoặc chế độ Odyssey. Quá trình tiến hóa tăng đáng kể sát thương cơ bản, mở rộng tầm đánh và thêm hiệu ứng làm chậm thụ động vào các đòn đánh phép thuật, biến cô ấy thành một hỗ trợ đa năng tuyệt vời bên cạnh vai trò DPS chính.
+
+Để tiến hóa cô ấy, bạn phải thu thập các loại đá tinh hoa nguyên tố cụ thể và một vật phẩm tiến hóa độc nhất. Những nguyên liệu này có thể kiếm được bằng cách vượt qua các màn Legend Stages, hoàn thành thử thách hàng ngày hoặc mua trực tiếp từ Cửa hàng Sự kiện.
+
+| Loại nguyên liệu | Số lượng yêu cầu | Nguồn thu thập chính |
+|--- |--- |--- |
+| **Magic Grimoire** | 1 | Cửa hàng Sự kiện / Chế tạo đặc biệt |
+| **Đá tinh hoa xanh lá** | 35 | Legend Stages / NPC Chế tạo |
+| **Đá tinh hoa xanh dương** | 20 | Legend Stages / NPC Chế tạo |
+| **Đá tinh hoa cầu vồng** | 5 | Thử thách hàng tuần / Rơi từ Raid |
+| **Vàng** | 15,000 | Cày chế độ cốt truyện / Nhiệm vụ hàng ngày |
+
+Sau khi đã thu thập đủ các nguyên liệu cần thiết, hãy làm theo các bước sau để hoàn thành quá trình tiến hóa:
+
+<Steps>
+  <Step num="1" title="Truy cập khu vực nâng cấp">
+    Di chuyển đến sảnh chính và tìm trạm Tiến hóa (Evolve) gần các NPC nâng cấp trung tâm.
+  </Step>
+  <Step num="2" title="Chọn đơn vị">
+    Đặt đơn vị cơ bản của bạn vào ô tiến hóa. Đảm bảo cô ấy đã được mở khóa và hiện không được trang bị trong đội hình đang hoạt động.
+  </Step>
+  <Step num="3" title="Xác minh nguyên liệu">
+    Kiểm tra lại xem bạn đã có Magic Grimoire, các loại đá tinh hoa yêu cầu và ít nhất 15,000 Vàng trong túi đồ chưa.
+  </Step>
+  <Step num="4" title="Xác nhận tiến hóa">
+    Nhấn nút Tiến hóa để biến cô ấy thành hình dạng cuối cùng. Cấp độ và các đặc điểm hiện tại của cô ấy sẽ được giữ nguyên an toàn.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Lưu ý về tiến trình">
+Đừng đầu tư dàn trải đá tinh hoa vào nhiều đơn vị tầm trung. Hãy tập trung hoàn toàn vào việc tiến hóa hoàn chỉnh đơn vị gánh đội (carry) chính của bạn trước để mở khóa khả năng tăng tiến sức mạnh cấp cao càng nhanh càng tốt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Đặc điểm tốt nhất & Tối ưu hóa Chỉ số">
+
+Đặc điểm (Traits) là các công cụ sửa đổi vĩnh viễn có thể thay đổi hoàn toàn hiệu quả chiến đấu của một đơn vị. Đối với đơn vị **anime vanguards frieren**, mục tiêu của bạn là quay các đặc điểm giúp khuếch đại sát thương diện rộng hoặc giảm Giây mỗi đòn đánh (SPA) để cho phép cô ấy thi triển các phép thuật tàn phá thường xuyên hơn.
+
+Bạn có thể quay lại đặc điểm của đơn vị tại NPC Mandra Traits ở sảnh bằng cách sử dụng Trait Rerolls. Vì các đặc điểm thần thoại hiếm có tỷ lệ quay rất thấp, việc lập kế hoạch cho các phiên quay xung quanh các mốc bảo hiểm là con đường an toàn nhất để thành công.
+
+| Tên đặc điểm | Tỷ lệ quay | Hiệu quả chiến đấu | Đánh giá Meta |
+|--- |--- |--- |--- |
+| **Monarch** | 0.10% | Tăng mạnh sát thương, tầm đánh và giảm SPA | ★★★★★ |
+| **Ethereal** | 0.17% | Tăng đáng kể sát thương thuần và tốc độ đánh | ★★★★★ |
+| **Deadeye** | 0.37% | Tỷ lệ chí mạng cao và tăng sát thương chí mạng | ★★★★☆ |
+| **Swift** | 26.0% | Cải thiện tốc độ đánh vừa phải (lựa chọn tiết kiệm tốt) | ★★★☆☆ |
+| **Vigor** | 26.0% | Tăng sát thương thuần vừa phải (phù hợp giai đoạn đầu game) | ★★★☆☆ |
+
+Để giúp bạn quyết định nên giữ đặc điểm nào trong các phiên quay lại, hãy xem qua phân tích về các lựa chọn hàng đầu sau:
+
+<CardGrid cols={3}>
+  <Card title="Monarch (Bậc S+)">
+    Đặc điểm tốt nhất cho vị trí này. Nó cung cấp sự gia tăng khổng lồ, toàn diện về sát thương, tầm đánh và tốc độ đánh, biến cô ấy thành một nguồn sức mạnh tự cung tự cấp.
+  </Card>
+  <Card title="Ethereal (Bậc S)">
+    Một sự thay thế tuyệt vời tập trung mạnh vào đầu ra sát thương phép thuật thuần túy, cho phép cô ấy ngay lập tức quét sạch toàn bộ các đợt kẻ thù có lượng máu lớn.
+  </Card>
+  <Card title="Deadeye (Bậc A)">
+    Xuất sắc cho các cuộc đối đầu với boss. Đặc điểm này tăng quy mô các đòn chí mạng, cho phép các vụ nổ phép thuật của cô ấy rút máu các boss Raid độ khó cao cực nhanh.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Chiến thuật quay lại">
+Nếu bạn quay được Swift hoặc Vigor sớm, hãy giữ chúng tạm thời. Chỉ nên săn lùng Monarch hoặc Ethereal khi bạn đã tích lũy được một lượng lớn Trait Rerolls (ít nhất 150+) để tránh việc để đơn vị của bạn không có công cụ sửa đổi hữu ích nào.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Sự phối hợp Đội hình Meta & Chiến thuật Vị trí">
+
+Để tối đa hóa hiệu quả của cô ấy trên chiến trường, bạn phải đặt cô ấy đúng vị trí và kết hợp với các đơn vị bổ trợ cho bộ kỹ năng phép thuật của cô ấy. Do chi phí triển khai và nâng cấp cao, cô ấy không nên được đặt trong đợt (wave) đầu tiên của trận đấu. Thay vào đó, hãy dựa vào các đơn vị kinh tế giá rẻ hoặc các đơn vị phòng thủ đầu game để thiết lập một hàng tiền tuyến ổn định trước.
+
+Khi đặt cô ấy, hãy tìm các vòng lặp, giao lộ hoặc các đoạn đường thẳng dài nơi các vòng tròn ma thuật của cô ấy có thể đánh trúng kẻ thù nhiều lần khi chúng tiến dọc theo đường đi.
+
+| Đơn vị phối hợp | Vai trò trong đội | Cơ chế phối hợp |
+|--- |--- |--- |
+| **Demon Leader** | Kinh tế / Hỗ trợ | Giảm chi phí triển khai và tăng sát thương tổng thể cho đội |
+| **Gujo (Infinity)** | Kiểm soát đám đông | Làm chậm kẻ thù nhanh, giữ chúng trong vùng AoE của cô ấy lâu hơn |
+| **Song Jinwu** | Triệu hồi / DPS | Thu hút sự chú ý của boss trong khi cô ấy dội mưa phép thuật từ xa |
+| **Alocard** | DPS Chảy máu | Áp dụng sát thương theo thời gian, kết hợp tuyệt vời với sát thương bùng nổ của cô ấy |
+
+Sử dụng danh sách kiểm tra sau để đảm bảo bạn đang thiết lập cho cô ấy thành công trong mọi trận đấu:
+
+<Checklist
+  id="frieren-placement-checklist"
+  title="Danh sách kiểm tra thiết lập trận đấu:"
+  items={[
+    "Triển khai các đơn vị kinh tế (như Demon Leader) trong hai đợt đầu tiên để xây dựng dòng tiền.",
+    "Đặt cô ấy tại một giao lộ chính của đường đi để tối đa hóa phạm vi bao phủ AoE vòng tròn.",
+    "Ưu tiên nâng cấp chỉ số tầm đánh trước để bao phủ nhiều làn đường cùng lúc.",
+    "Kết hợp cô ấy với một đơn vị làm chậm để giữ những kẻ thù nhanh nhẹn mắc kẹt trong vùng sát thương cao."
+  ]}
+/>
+
+<Callout type="info" title="Lời khuyên chiến thuật">
+Tránh đặt các đơn vị gây sát thương quá gần điểm xuất hiện của kẻ thù. Đặt chúng xa hơn một chút trên đường đi sẽ giúp các đơn vị kinh tế có thêm thời gian để tạo vàng, cho phép bạn mua các nâng cấp đắt tiền ngay khi vừa triển khai.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Đơn vị Frieren trong Anime Vanguards có đáng để tiến hóa không?",
+    answer: "Có, chắc chắn rồi. Tiến hóa cô ấy là điều cực kỳ nên làm vì nó tăng đáng kể khả năng mở rộng sát thương thuần, mở rộng tầm đánh và thêm hiệu ứng làm chậm giá trị vào các đòn tấn công, biến cô ấy thành một đơn vị lai giữa DPS và hỗ trợ hàng đầu."
+  },
+  {
+    question: "Đặc điểm nào tốt nhất để quay cho cô ấy?",
+    answer: "Các đặc điểm tốt nhất tuyệt đối cho cô ấy là Monarch và Ethereal. Monarch cung cấp sự cân bằng hoàn hảo giữa sát thương, tầm đánh và tốc độ đánh, trong khi Ethereal mang lại khả năng tăng tiến sát thương thuần túy khổng lồ giúp quét sạch các đợt kẻ thù dày đặc."
+  },
+  {
+    question: "Tôi nên đặt cô ấy ở đâu trên bản đồ?",
+    answer: "Bạn nên đặt cô ấy ở các giao lộ chính, các khúc cua chữ U hoặc các vòng lặp. Vì các đòn tấn công của cô ấy là những vụ nổ diện rộng hình vòng tròn, việc đặt cô ấy ở nơi kẻ thù phải đi vòng quanh cô ấy nhiều lần sẽ tối đa hóa tổng sát thương đầu ra."
+  },
+  {
+    question: "Làm thế nào để lấy được Magic Grimoire cần thiết cho việc tiến hóa?",
+    answer: "Magic Grimoire có thể sở hữu bằng cách mua từ Cửa hàng Sự kiện trong các bản cập nhật đang diễn ra, vượt qua các thử thách độ khó cao hoặc chế tạo tại NPC nguyên liệu ở sảnh chính."
+  }
+]} />
+
+<Callout type="tip" title="Kết luận cuối cùng">
+Cô ấy vẫn là một trong những khoản đầu tư an toàn nhất cho Đá quý và Trait Rerolls mà bạn vất vả kiếm được. Hãy tập trung vào việc mở khóa cô ấy, sở hữu một đặc điểm mạnh và tiến hóa cô ấy để dễ dàng vượt qua những nội dung khó nhất của trò chơi.
+</Callout>
+
+</Section>
