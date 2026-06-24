@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Reimu: Thiên phú tốt nhất, Tiến hóa & Chiến thuật Meta",
+  description: "Làm chủ Reimu trong Anime Vanguards với hướng dẫn của chúng tôi về thiên phú tốt nhất, con đường tiến hóa và sự phối hợp đội hình cho meta Kẻ thù vĩnh cửu Cập nhật 13.5.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Reimu+Meta+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime Vanguards Reimu**: Một đơn vị lai bậc cao (high-tier hybrid) xuất sắc trong cả gây sát thương diện rộng (AoE) duy trì và hỗ trợ đa dụng.
+- **Thiên phú tốt nhất**: **Monarch** (Quân vương) là đỉnh cao tuyệt đối cho Reimu, mặc dù **Ethereal** (Vô ảnh) và **Deadeye** (Thiện xạ) là những lựa chọn thay thế hàng đầu.
+- **Cơ chế cốt lõi**: Sử dụng các đòn tấn công bằng bùa chú diện rộng áp dụng hiệu ứng bất lợi (debuff), giúp cô ấy trở nên thiết yếu để vượt qua các đợt quái (wave) cao trong chế độ Cốt truyện và Đột kích (Raid).
+- **Ưu tiên tiến hóa**: Cao; dạng tiến hóa của cô ấy tăng đáng kể SPA (Giây mỗi đòn đánh) và tổng lượng sát thương đầu ra.
+- **Vị thế Meta**: Vẫn là một lựa chọn chủ chốt trong meta **Kẻ thù vĩnh cửu (Cập nhật 13.5)** bên cạnh các đơn vị như Kẻ mạnh nhất hôm nay (Today's Strongest).
+</Callout>
+
+<Section icon={Target} title="Tổng quan Đơn vị: Vai trò của Reimu trong Meta">
+
+Trong bối cảnh hiện tại của Anime Vanguards, Reimu (thường được gọi là Thần quan Linh hồn - Spirit Shaman) đóng vai trò là nền tảng cho những người chơi đối đầu với nội dung **Kẻ thù vĩnh cửu Cập nhật 13.5**. Bộ kỹ năng của cô được thiết kế cho các tình huống áp lực cao khi mật độ kẻ địch lớn, đặc biệt là trong **Chế độ chơi Mùa hè** mới và các tầng **Dòng thế giới (Worldlines)**. Không giống như các đơn vị thuần DPS tập trung vào dồn sát thương đơn mục tiêu, Reimu cung cấp một lượng sát thương diện rộng ổn định giúp làm suy yếu toàn bộ các đợt quái.
+
+<CardGrid cols={3}>
+  <Card title="Phạm vi AoE rộng">
+    - **Phạm vi khổng lồ**: Bao phủ nhiều làn đường một cách hiệu quả.
+    - **DPS ổn định**: Thời gian chờ giữa các đòn tấn công ngắn.
+    - **Kiểm soát đợt quái**: Xuất sắc trong việc dọn dẹp các nhóm quái di chuyển nhanh.
+  </Card>
+  <Card title="Hỗ trợ Đa dụng">
+    - **Tiềm năng Debuff**: Làm chậm hoặc làm suy yếu kẻ địch đang tràn vào.
+    - **Sự phối hợp**: Kết hợp hoàn hảo với các đơn vị dồn sát thương mạnh như Rogita.
+    - **Hiệu quả chi phí**: Chi phí triển khai vừa phải so với sức mạnh.
+  </Card>
+  <Card title="Giá trị tiến trình">
+    - **Vua cốt truyện**: Dễ dàng vượt qua các màn chơi chế độ Ác mộng (Nightmare).
+    - **Thiết yếu cho Đột kích**: Cung cấp phạm vi sát thương cần thiết cho quái phụ của boss.
+    - **Sẵn sàng cho Sự kiện**: Hiệu suất cao trong Cổng Mùa hè (Summer Portals).
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mẹo đặt vị trí chuyên nghiệp">
+Đặt Reimu ở các góc cua hoặc khúc cua chữ U trên bản đồ. Các đòn tấn công dạng đường thẳng và vòng tròn của cô ấy phát huy hiệu quả tốt nhất trên những con đường nơi kẻ địch đứng trong phạm vi của cô ấy lâu hơn.
+</Callout>
+
+| Thuộc tính | Chi tiết Dạng cơ bản | Chi tiết Dạng tiến hóa |
+| :--- | :--- | :--- |
+| **Độ hiếm** | Thần thoại (Mythic) / Bí mật (Secret) | Tiến hóa (Evolved) / Tiên phong (Vanguard) |
+| **Loại tấn công** | Đất / AoE | Đất / AoE Toàn diện / Không trung |
+| **Chi phí triển khai** | $1,200 - $1,500 | $1,800 - $2,200 |
+| **Chỉ số chính** | Sát thương / SPA | Sát thương / Phạm vi / Chí mạng |
+
+</Section>
+
+<Section icon={Sparkles} title="Thiên phú tốt nhất và Chiến thuật Reroll">
+
+Để tối đa hóa **Anime Vanguards Reimu**, bạn phải tương tác với NPC Thiên phú Mandra. Thiên phú cung cấp các chỉ số bổ trợ vĩnh viễn có thể biến một đơn vị "tốt" thành "thần thánh". Đối với Reimu, trọng tâm luôn là Sát thương và SPA. Cô ấy ném bùa chú càng nhanh, bạn càng kiểm soát chiến trường tốt hơn.
+
+| Tên thiên phú | Tỷ lệ | Vai trò & Giá trị Meta | Mốc bảo hiểm (Pity) |
+| :--- | :--- | :--- | :--- |
+| **Monarch** | 0.1% | **Tốt nhất**; Tăng mạnh sát thương và phạm vi. | 1,500 |
+| **Ethereal** | 0.175% | Sát thương hàng đầu; lý tưởng để thăng tiến sức mạnh về sau. | 858 |
+| **Deadeye** | 0.375% | Tập trung chí mạng; tốt nhất cho các chế độ nhiều boss. | 400 |
+| **Solar** | 0.5% | Cân bằng tốt giữa sát thương và phạm vi. | 300 |
+| **Blitz** | 1.85% | Tập trung cao vào SPA; tuyệt vời cho các lối xây dựng hỗ trợ. | N/A |
+
+<Callout type="warning" title="Quản lý tài nguyên">
+Đừng tiêu hết lượt Reroll Thiên phú của bạn cho dạng cơ bản của Reimu nếu bạn sắp tiến hóa cô ấy. Mặc dù các thiên phú vẫn được giữ lại sau khi tiến hóa, hãy đảm bảo bạn có đủ tài nguyên để đạt mốc bảo hiểm cho **Monarch** hoặc **Ethereal** nếu bạn đang hướng tới bảng xếp hạng cuối game.
+</Callout>
+
+### Ưu tiên thiên phú cho các chế độ chơi khác nhau
+1. **Vô hạn / Dòng thế giới**: Monarch > Ethereal > Deadeye.
+2. **Cốt truyện / Màn chơi Huyền thoại**: Solar > Blitz > Phạm vi.
+3. **Chế độ chơi Mùa hè**: Blitz > Monarch (để dọn zombie nhanh hơn).
+
+</Section>
+
+<Section icon={Swords} title="Con đường tiến hóa và Thăng hoa">
+
+Tiến hóa Reimu không chỉ là tăng chỉ số; đó là một sự thay đổi cơ bản trong khả năng hỗ trợ của cô ấy. Trong Cập nhật 13.5, quá trình tiến hóa đã được đơn giản hóa, nhưng vẫn yêu cầu farm một lượng nguyên liệu đáng kể. Bạn sẽ cần đến khu vực Nâng cấp và đảm bảo đã hoàn thành các Nhiệm vụ tiến hóa cần thiết.
+
+<Steps>
+  <Step num="1" title="Thu thập nguyên liệu">
+    Thu thập các Đá Tinh Hoa (Essence Stones) cần thiết (thường là Cầu vồng và Lục) và các nguyên liệu đặc trưng của đơn vị. Đối với Reimu, những thứ này thường được tìm thấy trong **Màn chơi Huyền thoại** hoặc **Cửa hàng Sự kiện**.
+  </Step>
+  <Step num="2" title="Hoàn thành nhiệm vụ tiến hóa">
+    Một số phiên bản của Reimu yêu cầu các "Nhiệm vụ Tâm linh" cụ thể hoặc số lượng tiêu diệt. Hãy đảm bảo cô ấy có mặt trong đội hình hoạt động của bạn trong các lượt farm để theo dõi tiến trình.
+  </Step>
+  <Step num="3" title="Trạm nâng cấp">
+    Đi đến khu vực Nâng cấp. Đảm bảo đơn vị đã được mở khóa và không phải là bản "Shiny" (trừ khi bạn đang tiến hóa một phiên bản Shiny). Trả chi phí Vàng để hoàn tất tiến hóa.
+  </Step>
+  <Step num="4" title="Kế hoạch Thăng hoa">
+    Sau khi tiến hóa, sử dụng các bản sao tại NPC Kokashi để Thăng hoa. Thăng hoa I cung cấp **3% tăng Sát thương**, điều này rất quan trọng đối với việc tăng tiến sức mạnh trong Cập nhật 13.5 hiện tại.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Thay đổi Memoria Cập nhật 13.5">
+Hãy nhớ rằng trong bản cập nhật hiện tại, các tiến hóa Memoria đã bị loại bỏ. Tiến hóa Reimu giờ đây sẽ tự động cấp cho cô ấy Memoria được chỉ định, thứ có thể được nâng lên cấp 60 bằng Vé tăng cấp để tăng sức mạnh ngay lập tức.
+</Callout>
+
+| Loại nguyên liệu | Số lượng yêu cầu | Nguồn chính |
+| :--- | :--- | :--- |
+| **Tinh hoa Cầu vồng** | 5 - 10 | Đột kích / Dòng thế giới |
+| **Tinh hoa Lục** | 20 - 30 | Chế độ Cốt truyện / Thử thách |
+| **Vàng** | 25,000 - 50,000 | Mọi chế độ / Mã Code |
+| **Mảnh đơn vị** | 15 - 20 | Rơi từ Màn chơi Huyền thoại |
+
+</Section>
+
+<Section icon={Map} title="Sự phối hợp đội hình và Chiến thuật chế độ chơi">
+
+Reimu là một đơn vị đồng đội. Mặc dù cô ấy có thể đi một mình ở các màn Cốt truyện ban đầu, tiềm năng thực sự của cô ấy chỉ được mở khóa khi kết hợp với các đơn vị kinh tế và các tướng gây sát thương chủ lực. Trong bản cập nhật **Kẻ thù vĩnh cửu**, đội hình quan trọng hơn bao giờ hết do cơ chế kẻ địch "Phân tán" mới.
+
+### Đội hình đề xuất
+
+| Cặp đơn vị | Lý do phối hợp | Khuyến nghị chế độ |
+| :--- | :--- | :--- |
+| **Reimu + Thủ lĩnh Ác quỷ** | Giảm chi phí và nâng giới hạn sức mạnh đội hình cực lớn. | Đột kích / Đấu Boss |
+| **Reimu + Thần (Thiên đường)** | Ngừng đọng thời gian cho phép Reimu tích lũy sát thương. | Vô hạn / Dòng thế giới |
+| **Reimu + Kẻ mạnh nhất hôm nay** | Thiết lập DPS lõi kép cho Cập nhật 13.5. | Cổng Mùa hè |
+| **Reimu + Nữ hoàng Băng** | Combo đóng băng vĩnh viễn và giảm giáp diện rộng. | Màn chơi Huyền thoại |
+
+### Chiến thuật cho từng chế độ
+- **Chế độ Cốt truyện**: Tập trung vào việc đặt vị trí sớm. Sát thương cơ bản của Reimu đủ cao để gánh qua Đợt 15 mà không cần nâng cấp quá nhiều.
+- **Đột kích (Raids)**: Sử dụng Reimu để "Kiểm soát quái phụ". Hãy để các đơn vị đơn mục tiêu tập trung vào boss trong khi Reimu dọn dẹp các quái nhỏ, nhanh hơn có thể bị lọt qua.
+- **Chế độ chơi Mùa hè**: Ưu tiên SPA (thiên phú Blitz). Các đợt quái kiểu zombie yêu cầu các đòn đánh nhanh, lặp đi lặp lại để ngăn làn đường bị áp đảo.
+
+<Callout type="info" title="Linh thú Tiên phong (Vanguard Familiars)">
+Trong Cập nhật 13.5, hãy cân nhắc trang bị một Linh thú Tiên phong giúp tăng **Phạm vi**. Điều này cho phép Reimu tấn công nhiều làn đường trên các bản đồ phức tạp như Đồi Kiếm (Hill of Swords).
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra cuối game cho người dùng Reimu">
+
+Để đảm bảo Reimu của bạn đang hoạt động ở mức cao nhất có thể, hãy làm theo danh sách kiểm tra này. Những cột mốc này rất cần thiết cho bất kỳ người chơi nào muốn thống trị bảng xếp hạng **Anime Vanguards** vào năm 2026.
+
+<Checklist
+  id="reimu-mastery"
+  title="Mục tiêu tối ưu hóa Reimu:"
+  items={[
+    "Đạt cấp 100 để tối đa hóa tỷ lệ chỉ số cơ bản",
+    "Tiến hóa thành công lên dạng Thần quan Linh hồn (Tiến hóa)",
+    "Quay được Thiên phú Thần thoại (Monarch hoặc Ethereal) bằng hệ thống bảo hiểm (Pity)",
+    "Hoàn thành Thăng hoa III tại NPC Kokashi",
+    "Trang bị Memoria cấp 60 với các chỉ số chuyển đổi được tối ưu hóa",
+    "Vượt qua Tầng 50 của Dòng thế giới với Reimu là nguồn sát thương diện rộng chính"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Reimu có tốt hơn Kẻ mạnh nhất hôm nay (Today's Strongest) trong Cập nhật 13.5 không?",
+    answer: "Họ đảm nhận các vai trò khác nhau. Kẻ mạnh nhất hôm nay là kẻ tiêu diệt đơn mục tiêu/boss hàng đầu, trong khi Reimu là nữ hoàng của sát thương diện rộng và kiểm soát đợt quái. Một đội hình hàng đầu thường bao gồm cả hai."
+  },
+  {
+    question: "Tôi nên giữ thiên phú nào nếu không thể quay ra Monarch?",
+    answer: "Ethereal là sự thay thế tốt nhất. Nếu bạn còn ít lượt reroll, ngay cả thiên phú Blitz hoặc Solar bậc cao cũng có thể hoạt động tốt cho hầu hết nội dung Cốt truyện và Đột kích."
+  },
+  {
+    question: "Các thiên phú có bị đặt lại khi tôi tiến hóa Reimu không?",
+    answer: "Không. Thiên phú, cấp độ và số lượng tiêu diệt vẫn được giữ nguyên qua tiến hóa. Tuy nhiên, lưu ý rằng nếu bạn tiến hóa một đơn vị Thần thoại thành độ hiếm Bí mật/Tiên phong, các cấp Thăng hoa hiện tại sẽ bị xóa bỏ."
+  },
+  {
+    question: "Nơi tốt nhất để farm nguyên liệu tiến hóa của Reimu là ở đâu?",
+    answer: "Các Màn chơi Huyền thoại ở các thế giới sau cung cấp tỷ lệ rơi cao nhất cho các mảnh đơn vị cụ thể, trong khi Đột kích là nơi tốt nhất cho Đá Tinh hoa Cầu vồng."
+  }
+]} />
+
+</Section>

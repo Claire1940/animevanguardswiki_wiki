@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Reimu de Anime Vanguards: Mejores Rasgos, Evolución y Estrategia Meta",
+  description: "Domina a Reimu en Anime Vanguards con nuestra guía sobre los mejores rasgos, rutas de evolución y sinergias de equipo para el meta de Adversarios Eternos de la Actualización 13.5.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Reimu+Meta+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Anime Vanguards",
+  keywords: "Anime Vanguards, Reimu, guía, rasgos, evolución, meta, actualización 13.5"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Reimu de Anime Vanguards**: Una unidad híbrida de alto nivel que destaca tanto en daño de área (AoE) sostenido como en utilidad.
+- **Mejor Rasgo**: **Monarch** es el pico absoluto para Reimu, aunque **Ethereal** y **Deadeye** son alternativas de primer nivel.
+- **Mecánica Principal**: Utiliza ataques de talismanes de área amplia que aplican efectos negativos (debuffs), lo que la hace esencial para despejar oleadas altas en Historia y Raids.
+- **Prioridad de Evolución**: Alta; su forma evolucionada aumenta significativamente su SPA (Segundos Por Ataque) y su producción de daño total.
+- **Estado del Meta**: Sigue siendo un elemento básico en el meta de **Adversarios Eternos (Actualización 13.5)** junto a unidades como Today's Strongest.
+</Callout>
+
+<Section icon={Target} title="Resumen de la Unidad: El Rol de Reimu en el Meta">
+
+En el panorama actual de Anime Vanguards, Reimu (a menudo referida como la Chamán de los Espíritus) sirve como piedra angular para los jugadores que se enfrentan al contenido de la **Actualización 13.5: Adversarios Eternos**. Su kit está diseñado para situaciones de alta presión donde la densidad de enemigos es elevada, particularmente en el nuevo **Modo de Juego de Verano** y los pisos de **Líneas Temporales**. A diferencia de las unidades de DPS puro que se centran en ráfagas contra un solo objetivo, Reimu proporciona un manto constante de daño que debilita oleadas enteras.
+
+<CardGrid cols={3}>
+  <Card title="Alta Cobertura AoE">
+    - **Rango Masivo**: Cubre múltiples carriles de manera efectiva.
+    - **DPS Constante**: Poco tiempo de inactividad entre ataques.
+    - **Control de Oleadas**: Excelente para diezmar turbas que se mueven rápido.
+  </Card>
+  <Card title="Soporte de Utilidad">
+    - **Potencial de Debuff**: Ralentiza o debilita a los enemigos entrantes.
+    - **Sinergia**: Combina perfectamente con unidades de ráfaga alta como Rogita.
+    - **Rentable**: Costo de despliegue moderado para su poder.
+  </Card>
+  <Card title="Valor de Progresión">
+    - **Rey de la Historia**: Facilita enormemente las etapas del modo Pesadilla.
+    - **Esencial para Raids**: Proporciona la cobertura necesaria para los secuaces de los jefes.
+    - **Lista para Eventos**: Alto rendimiento en los Portales de Verano.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Posicionamiento Pro">
+Coloca a Reimu en esquinas o "giros en U" en el mapa. Sus proyectiles lineales y circulares se benefician más de los caminos donde los enemigos permanecen dentro de su rango por periodos prolongados.
+</Callout>
+
+| Atributo | Detalles de Forma Base | Detalles de Forma Evolucionada |
+| :--- | :--- | :--- |
+| **Rareza** | Mítico / Secreto | Evolucionado / Vanguardia |
+| **Tipo de Ataque** | Tierra / AoE | Tierra / AoE Total / Aire |
+| **Costo de Despliegue** | $1,200 - $1,500 | $1,800 - $2,200 |
+| **Estadística Principal** | Daño / SPA | Daño / Rango / Crítico |
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Rasgos y Estrategia de Reroll">
+
+Para maximizar a **Reimu de Anime Vanguards**, debes interactuar con el NPC de Rasgos Mandra. Los rasgos proporcionan modificadores de estadísticas permanentes que pueden convertir una unidad "buena" en una "divina". Para Reimu, el enfoque siempre debe estar en el Daño y el SPA. Cuanto más rápido lance sus talismanes, más control tendrás sobre el campo de batalla.
+
+| Nombre del Rasgo | Probabilidad | Rol y Valor en el Meta | Umbral de Pity |
+| :--- | :--- | :--- | :--- |
+| **Monarch** | 0.1% | **Mejor en su clase**; Aumento masivo de daño y rango. | 1,500 |
+| **Ethereal** | 0.175% | Daño de primer nivel; ideal para el escalado en el juego tardío. | 858 |
+| **Deadeye** | 0.375% | Centrado en críticos; mejor para modos con muchos jefes. | 400 |
+| **Solar** | 0.5% | Gran equilibrio entre daño y rango. | 300 |
+| **Blitz** | 1.85% | Enfoque en SPA alto; ideal para builds de utilidad. | N/A |
+
+<Callout type="warning" title="Gestión de Recursos">
+No gastes todos tus Rerolls de Rasgos en la forma base de Reimu si estás cerca de evolucionarla. Aunque los rasgos persisten tras la evolución, asegúrate de tener suficientes recursos para alcanzar el pity de **Monarch** o **Ethereal** si estás compitiendo en las tablas de clasificación del endgame.
+</Callout>
+
+### Prioridad de Rasgos para Diferentes Modos
+1. **Infinito / Líneas Temporales**: Monarch > Ethereal > Deadeye.
+2. **Historia / Etapas de Leyenda**: Solar > Blitz > Rango.
+3. **Modo de Juego de Verano**: Blitz > Monarch (para despejar zombies más rápido).
+
+</Section>
+
+<Section icon={Swords} title="Ruta de Evolución y Ascensión">
+
+Evolucionar a Reimu no es solo una mejora de estadísticas; es un cambio fundamental en su utilidad. En la Actualización 13.5, el proceso de evolución se ha simplificado, pero aún requiere una recolección significativa de materiales. Deberás visitar el área de Mejoras (Upgrades) y asegurarte de haber completado las Misiones de Evolución necesarias.
+
+<Steps>
+  <Step num="1" title="Recolección de Materiales">
+    Colecciona las Piedras de Esencia requeridas (típicamente Arcoíris y Verdes) y los materiales específicos de la unidad. Para Reimu, estos se encuentran a menudo en las **Etapas de Leyenda** o en la **Tienda del Evento**.
+  </Step>
+  <Step num="2" title="Completar Misiones de Evolución">
+    Algunas versiones de Reimu requieren "Tareas de Espíritu" específicas o conteos de eliminaciones. Asegúrate de que esté en tu equipo activo durante tus partidas de farmeo para registrar el progreso.
+  </Step>
+  <Step num="3" title="La Estación de Mejoras">
+    Dirígete al área de Mejoras. Asegúrate de que la unidad esté desbloqueada y no sea "Shiny" (a menos que estés evolucionando una versión Shiny). Paga el costo en Oro para finalizar la evolución.
+  </Step>
+  <Step num="4" title="Planificación de Ascensión">
+    Una vez evolucionada, usa copias duplicadas en el NPC Kokashi para Ascender. La Ascensión I proporciona un **aumento del 3% en el Daño**, lo cual es vital para el escalado actual de la Actualización 13.5.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Cambio de Memoria en la Actualización 13.5">
+Recuerda que en la actualización actual, se eliminaron las evoluciones de Memoria. Evolucionar a Reimu ahora le otorga automáticamente su Memoria designada, que puede subirse al nivel 60 usando Tickets de Nivel para un aumento de poder inmediato.
+</Callout>
+
+| Tipo de Material | Cantidad Requerida | Fuente Principal |
+| :--- | :--- | :--- |
+| **Esencia Arcoíris** | 5 - 10 | Raids / Líneas Temporales |
+| **Esencia Verde** | 20 - 30 | Modo Historia / Desafíos |
+| **Oro** | 25,000 - 50,000 | Todos los Modos / Códigos |
+| **Fragmentos de Unidad** | 15 - 20 | Botines de Etapa de Leyenda |
+
+</Section>
+
+<Section icon={Map} title="Sinergia de Equipo y Estrategia de Modo de Juego">
+
+Reimu es una jugadora de equipo. Aunque puede superar las primeras etapas de Historia sola, su verdadero potencial se desbloquea cuando se combina con unidades de economía y atacantes pesados. En la actualización **Adversarios Eternos**, la composición del equipo es más importante que nunca debido a las nuevas mecánicas de enemigos de "Dispersión".
+
+### Composiciones de Equipo Recomendadas
+
+| Pareja de Unidades | Razón de Sinergia | Recomendación de Modo |
+| :--- | :--- | :--- |
+| **Reimu + Demon Leader** | Reducción de costo y techo de equipo masivo. | Raids / Boss Rush |
+| **Reimu + God (Heaven)** | El tiempo detenido permite que Reimu acumule daño. | Infinito / Líneas Temporales |
+| **Reimu + Today's Strongest** | Configuración de DPS de doble núcleo para la Actualización 13.5. | Portales de Verano |
+| **Reimu + Ice Queen** | Combo de congelación permanente y trituración AoE. | Etapas de Leyenda |
+
+### Tácticas Específicas por Modo
+- **Modo Historia**: Enfoque en el posicionamiento temprano. El daño base de Reimu es lo suficientemente alto como para aguantar hasta la oleada 15 sin mejoras pesadas.
+- **Raids**: Usa a Reimu para el "Control de Secuaces". Deja que tus unidades de un solo objetivo se centren en el jefe mientras Reimu despeja a los esbirros más pequeños y rápidos que podrían filtrarse.
+- **Modo de Juego de Verano**: Prioriza el SPA (rasgo Blitz). Las oleadas estilo zombie requieren impactos rápidos y repetidos para evitar que el carril se vea abrumado.
+
+<Callout type="info" title="Familiares de Vanguardia">
+En la Actualización 13.5, considera equipar un Familiar de Vanguardia que aumente el **Rango**. Esto permite que Reimu golpee múltiples caminos en mapas complejos como la Colina de las Espadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Endgame para Usuarios de Reimu">
+
+Para asegurar que tu Reimu esté rindiendo al más alto nivel posible, sigue esta lista de verificación. Estos hitos son esenciales para cualquier jugador que busque dominar las tablas de clasificación de **Anime Vanguards** en 2026.
+
+<Checklist
+  id="reimu-mastery"
+  title="Objetivos de Optimización de Reimu:"
+  items={[
+    "Alcanzar el Nivel 100 para maximizar el escalado de estadísticas base",
+    "Evolucionar con éxito a la forma Chamán de los Espíritus (Evolucionado)",
+    "Conseguir un Rasgo Mítico (Monarch o Ethereal) usando el sistema de Pity",
+    "Completar la Ascensión III con el NPC Kokashi",
+    "Equipar una Memoria de Nivel 60 con transferencias de estadísticas optimizadas",
+    "Completar el Piso 50 de Líneas Temporales con Reimu como AoE principal"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Reimu mejor que Today's Strongest en la Actualización 13.5?",
+    answer: "Cumplen roles diferentes. Today's Strongest es un asesino de jefes/un solo objetivo de primer nivel, mientras que Reimu es la reina del AoE y el control de oleadas. Un equipo de alto nivel suele incluir a ambos."
+  },
+  {
+    question: "¿Qué rasgo debería conservar si no puedo conseguir Monarch?",
+    answer: "Ethereal es la mejor alternativa. Si tienes pocos rerolls, incluso un rasgo Blitz o Solar de alto nivel es funcional para la mayoría del contenido de Historia y Raids."
+  },
+  {
+    question: "¿Se reinician los rasgos cuando evoluciono a Reimu?",
+    answer: "No. Los rasgos, niveles y conteos de eliminaciones persisten tras la evolución. Sin embargo, ten en cuenta que si evolucionas una unidad Mítica a una rareza Secreta/Vanguardia, las Ascensiones actuales se eliminan."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para farmear los materiales de evolución de Reimu?",
+    answer: "Las Etapas de Leyenda en los mundos finales proporcionan la mayor tasa de obtención de fragmentos de unidades específicos, mientras que las Raids son mejores para las Piedras de Esencia Arcoíris."
+  }
+]} />
+
+</Section>

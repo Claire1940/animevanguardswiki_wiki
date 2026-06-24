@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Obito trong Anime Vanguards: Hướng dẫn Build, Chỉ số & Tiến hóa Tốt nhất",
+  description: "Khai mở toàn bộ sức mạnh của Obito (Masked Shinobi) trong Anime Vanguards. Tìm hiểu chỉ số cơ bản, yêu cầu tiến hóa, thiên phú tối ưu và đội hình meta.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Obito+Unit+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Obito trong Anime Vanguards** đề cập đến đơn vị Masked Shinobi mạnh mẽ, một nhân vật Thần Thoại (Mythic) bậc cao chuyên kiểm soát đám đông và gây sát thương thiêu đốt.
+- **Lộ trình tiến hóa** yêu cầu các nguyên liệu cụ thể bao gồm Đá Tinh Hoa Lửa (Fire Essence Stones), Vàng, và Mặt Nạ Tuyệt Vọng (Mask of Despair) độc nhất.
+- **Thiên phú tốt nhất** cho đơn vị này là Quân Vương (Monarch) để có sức mạnh thuần túy hoặc Vô Thực (Ethereal) để tối đa hóa sát thương theo thời gian (DoT).
+- **Vị trí chiến thuật** là chìa khóa để tối đa hóa sát thương diện rộng (AoE) và hiệu ứng làm chậm dựa trên Kamui của anh ta.
+</Callout>
+
+<Section icon={Target} title="Tổng quan về Đơn vị Obito trong Anime Vanguards">
+
+Đơn vị **obito trong anime vanguards**, được đặt tên chính thức trong trò chơi là Masked Shinobi do các quy ước đặt tên thân thiện với bản quyền, là một trong những nhân vật Thần Thoại (Mythic) linh hoạt nhất hiện có. Hoạt động như một chuyên gia lai giữa kiểm soát đám đông và gây sát thương theo thời gian (DoT), đơn vị này xuất sắc trong việc giữ đường, làm chậm các đợt kẻ địch di chuyển nhanh và áp dụng hiệu ứng thiêu đốt liên tục giúp bào mòn các mục tiêu có lượng máu lớn.
+
+Để sở hữu đơn vị cơ bản, người chơi cần triệu hồi từ các banner tiêu chuẩn hoặc theo mùa bằng cách sử dụng Đá Quý (Gems). Mặc dù dạng cơ bản của anh ta đã rất hiệu quả cho giai đoạn giữa game, việc đầu tư tài nguyên để nâng cấp hoàn toàn các cấp độ đặt trong trận đấu sẽ mở khóa các khả năng không-thời gian đặc trưng của anh ta, điều này có thể xoay chuyển cục diện trong các chế độ Đột Kích (Raids) độ khó cao và các lượt đi Worldlines.
+
+<Callout type="info" title="Mẹo Xoay Vòng Banner">
+Hãy để ý các lượt xoay vòng banner hàng giờ trong sảnh chính. Masked Shinobi có tỷ lệ rơi tiêu chuẩn là 0,5% khi xuất hiện ở ô Thần Thoại, vì vậy hãy tiết kiệm Đá Quý của bạn cho đến khi anh ta được làm nổi bật.
+</Callout>
+
+### Chỉ số Cơ bản và Tiến trình Nâng cấp
+
+Để lập kế hoạch kinh tế trong các trận đấu, việc hiểu rõ chi phí triển khai và nâng cấp của đơn vị Masked Shinobi cơ bản là rất quan trọng. Anh ta hoạt động tốt nhất khi được đặt sớm để thiết lập quyền kiểm soát đường, nhưng cần được bơm Vàng đều đặn để mở khóa toàn bộ tiềm năng diện rộng (AoE).
+
+| Cấp độ Nâng cấp | Sát thương | SPA | Tầm đánh | DPS | Chi phí |
+|---|---|---|---|---|---|
+| Cấp cơ bản 1 | 450 | 6.5s | 18.0 | 69.2 | 850 |
+| Nâng cấp 1 | 620 | 6.5s | 19.5 | 95.3 | 500 |
+| Nâng cấp 2 | 890 | 6.0s | 21.0 | 148.3 | 750 |
+| Nâng cấp 3 | 1,250 | 6.0s | 22.5 | 208.3 | 1,200 |
+| Nâng cấp 4 | 1,800 | 5.5s | 24.0 | 327.2 | 1,800 |
+| Nâng cấp 5 | 2,600 | 5.5s | 25.0 | 472.7 | 2,500 |
+| Nâng cấp 6 | 3,800 | 5.0s | 26.5 | 760.0 | 3,500 |
+
+</Section>
+
+<Section icon={Sparkles} title="Lộ trình Tiến hóa và Yêu cầu Nguyên liệu">
+
+Tiến hóa Masked Shinobi cơ bản thành dạng cuối cùng của anh ta, Masked Shinobi (Evolved) (Đã tiến hóa), giúp tăng mạnh lượng sát thương đầu ra và thay thế các đòn tấn công hệ lửa thông thường bằng một vụ sụp đổ không-thời gian mang sức mạnh Kamui tàn khốc. Quá trình tiến hóa này là bắt buộc nếu bạn có kế hoạch sử dụng đơn vị này trong các nội dung cuối game như Cổng Hè Kẻ thù Vĩnh cửu (Eternal Adversaries Summer Portals) hoặc các lượt đi Odyssey bậc cao.
+
+Để hoàn thành tiến hóa, bạn phải thu thập các nguyên liệu cụ thể bằng cách cày cuốc các Ải Truyền Thuyết (Legend Stages) và Đột Kích (Raids) theo từng nguyên tố. Đừng cố gắng tiến hóa đơn vị của bạn cho đến khi bạn đã bảo đảm có đủ tất cả các vật phẩm cần thiết được liệt kê bên dưới, vì tiến trình một phần sẽ không mang lại bất kỳ lợi ích chỉ số nào.
+
+<Callout type="warning" title="Cảnh báo Tiến hóa">
+Tiến hóa một đơn vị sẽ reset cấp độ hiện tại của nó về lại 1, mặc dù nó vẫn giữ nguyên các thiên phú (traits) đã trang bị. Đảm bảo bạn có đủ nguyên liệu nâng cấp, chẳng hạn như Thức ăn Xanh lá (Green Food) hoặc Sách Kinh nghiệm (Experience Books), để ngay lập tức tăng sức mạnh cho đơn vị đã tiến hóa của bạn sẵn sàng chiến đấu.
+</Callout>
+
+### Danh sách Nguyên liệu Tiến hóa
+
+Việc cày cuốc các vật phẩm tiến hóa cần thiết đòi hỏi bạn phải nhắm vào các thử thách cụ thể. Hãy sử dụng bảng phân tích này để tối ưu hóa lượng năng lượng tiêu thụ hàng ngày của bạn.
+
+| Nguyên liệu | Số lượng | Vị trí Rơi Chính | Tùy chọn Chế tạo / Mua |
+|---|---|---|---|
+| Đá Tinh Hoa Lửa (Fire Essence Stone) | 15 | Các Ải Truyền Thuyết chủ đề Lửa | Mua từ Cửa hàng Sự kiện |
+| Đá Tinh Hoa Gió (Green Essence Stone) | 5 | Các Ải Truyền Thuyết chủ đề Gió | Mua từ Cửa hàng Vàng |
+| Mặt Nạ Tuyệt Vọng (Mask of Despair) | 1 | Đột Kích Shinobi Chronicles | Tỷ lệ rơi hiếm từ Boss Phân đoạn 3 (Act 3 Boss) |
+| Tinh Hoa Cầu Vồng (Rainbow Essence) | 3 | Phần thưởng Thử thách Hàng tuần | Chế tạo bằng cách dùng 5 Tinh Hoa tiêu chuẩn |
+| Vàng (Gold) | 15,000 | Nhiệm vụ Hàng ngày & Con đường Vàng | Vượt Ải Cốt truyện lặp lại |
+
+### Quy trình Tiến hóa Từng bước
+
+Làm theo các bước chính xác sau để tiến hóa thành công đơn vị Masked Shinobi của bạn tại quảng trường nâng cấp.
+
+<Steps>
+  <Step num="1" title="Sở hữu Đơn vị Cơ bản">
+    Đảm bảo đơn vị Masked Shinobi cơ bản của bạn đã được mở khóa trong kho đồ và hiện không được trang bị trong bất kỳ đội hình hoạt động nào.
+  </Step>
+  <Step num="2" title="Thu thập Đầy đủ Nguyên liệu">
+    Xác nhận rằng bạn có đủ 15 Đá Tinh Hoa Lửa, 5 Đá Tinh Hoa Gió, 1 Mặt Nạ Tuyệt Vọng và 3 Tinh Hoa Cầu Vồng trong kho đồ của mình.
+  </Step>
+  <Step num="3" title="Gặp NPC Tiến hóa">
+    Di chuyển đến khu vực Nâng cấp ở sảnh xã hội chính và tương tác với NPC Trạm Tiến hóa (Evolve Station NPC).
+  </Step>
+  <Step num="4" title="Thực hiện Nâng cấp">
+    Chọn Masked Shinobi từ danh sách của bạn, xác nhận việc tiêu hao nguyên liệu và trả mức phí 15.000 Vàng để hoàn tất quá trình tiến hóa.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Thiên phú Tối ưu và Chiến thuật Reroll">
+
+Thiên phú (Traits) là các chỉ số bổ trợ vĩnh viễn quyết định giới hạn sức mạnh của một đơn vị. Đối với đơn vị **obito trong anime vanguards**, việc lựa chọn đúng thiên phú có thể tạo nên sự khác biệt giữa một nhân vật hỗ trợ tầm thường và một chủ lực gánh team cực mạnh trong meta. Vì bộ kỹ năng của anh ta xoay quanh việc áp dụng hiệu ứng thiêu đốt tỷ lệ cao và làm chậm kẻ địch, các thiên phú tăng sát thương thuần, phạm vi bao phủ hoặc tốc độ đánh được ưu tiên hàng đầu.
+
+Khi quay thiên phú tại NPC Mandra Traits, bạn nên luôn nhớ rõ vai trò chính của đơn vị trong đội hình. Nếu bạn sử dụng anh ta chủ yếu để giữ chân kẻ địch trên đường đi, tầm đánh và tốc độ là rất quan trọng. Nếu anh ta là nguồn gây sát thương chính của bạn, hãy tập trung hoàn toàn vào các hệ số tăng sát thương thuần túy.
+
+<Callout type="tip" title="Hệ thống Bảo hiểm Thiên phú (Pity)">
+Bản cập nhật năm 2026 đã giới thiệu hệ thống bảo hiểm thiên phú chuyên dụng. Nếu bạn đang săn tìm một thiên phú Thần Thoại như Quân Vương (Monarch) hoặc Vô Thực (Ethereal), hãy tiết kiệm ít nhất 300 lượt Reroll Thiên phú để đảm bảo nhận được kết quả bậc cao mà không cần phụ thuộc hoàn toàn vào may mắn.
+</Callout>
+
+### Khả năng Tương thích và Đánh giá Hiệu quả Thiên phú
+
+Dưới đây là phân tích chi tiết về cách các thiên phú khác nhau ảnh hưởng đến hiệu quả chiến đấu của Masked Shinobi. Hãy tập trung vào việc sở hữu các thiên phú bậc S hoặc bậc A để đạt hiệu suất tối ưu.
+
+| Tên Thiên phú | Tỷ lệ Quay | Chỉ số Thưởng Chính | Xếp hạng Hiệu năng | Trường hợp Sử dụng Chiến thuật Tốt nhất |
+|---|---|---|---|---|
+| Monarch | 0.10% | Sát thương +15%, Tầm đánh +10%, SPA -5% | Bậc S (Meta) | Giải quyết giới hạn lượt đặt; tối đa hóa DPS thuần |
+| Ethereal | 0.17% | Sát thương +20%, Sát thương Thiêu đốt +15% | Bậc S (Meta) | Hoàn hảo để tối đa hóa sát thương theo thời gian |
+| Deadeye | 0.37% | Tỷ lệ Chí mạng +25%, Sát thương Chí mạng +50% | Bậc A | Mạnh mẽ khi chống lại các Boss Đột Kích nhiều máu |
+| Blitz | 1.85% | SPA -10%, Tăng Tốc độ Đánh | Bậc A | Tối đa hóa tần suất áp dụng hiệu ứng làm chậm |
+| Solar | 0.50% | Tầm đánh +15%, Sát thương Lửa +10% | Bậc B | Tuyệt vời để bao phủ các đường rộng và dọn quái sớm |
+| Vigor | 26.00% | Sát thương +5% | Bậc C | Lựa chọn giá rẻ; nên thay thế càng sớm càng tốt |
+
+</Section>
+
+<Section icon={Map} title="Đội hình Meta Ăn ý và Chiến thuật Đặt Vị trí">
+
+Để khai mở toàn bộ tiềm năng của đơn vị Obito đã tiến hóa, bạn phải kết hợp anh ta với các nhân vật bổ trợ cho khả năng kiểm soát đám đông và sát thương hệ lửa của mình. Anh ta hoạt động cực kỳ hiệu quả khi được đặt tại các điểm thắt nút chiến thuật nơi kẻ địch buộc phải tụ lại một chỗ, cho phép các đòn tấn công AoE rộng của anh ta đánh trúng nhiều mục tiêu cùng lúc.
+
+Trong các nội dung cấp cao như Worldlines hoặc Chế độ chơi Mùa hè (Summer Gamemode), việc kết hợp anh ta với một đơn vị kinh tế như Thủ lĩnh Ác quỷ (Demon Leader) là rất quan trọng để có đủ tiền nâng cấp các giai đoạn sau đắt đỏ của anh ta từ sớm trong trận đấu. Ngoài ra, việc cộng dồn các hiệu ứng làm chậm có thể làm bất động hoàn toàn toàn bộ các đợt quái.
+
+<CardGrid cols={3}>
+  <Card title="Đội hình Tương tác Thiêu đốt">
+    - **Chủ lực chính**: Masked Shinobi (Evolved)
+    - **Đơn vị Tương tác**: Cursed Shinobi (Black Flames)
+    - **Hỗ trợ**: Demon Leader
+    - **Chiến thuật**: Cộng dồn nhiều hiệu ứng thiêu đốt để nhanh chóng bào mòn giáp của boss.
+  </Card>
+  <Card title="Đội hình Giữ chân Vô hạn">
+    - **Chủ lực chính**: Masked Shinobi (Evolved)
+    - **Đơn vị Tương tác**: Ice Queen (Release)
+    - **Hỗ trợ**: Gujo (Infinity)
+    - **Chiến thuật**: Kết hợp làm chậm từ Kamui với cơ chế đóng băng để khóa chặt các đường đi vĩnh viễn.
+  </Card>
+  <Card title="Đội hình Đột Kích Cân bằng">
+    - **Chủ lực chính**: Rogita (Super 4)
+    - **Đơn vị Tương tác**: Masked Shinobi (Evolved)
+    - **Hỗ trợ**: Song Jinwu
+    - **Chiến thuật**: Sử dụng Obito để dọn lính trong khi Rogita tập trung vào các boss đơn mục tiêu.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Chiến thuật Đặt Vị trí">
+Luôn đặt Masked Shinobi ở khúc cua chữ U lớn đầu tiên hoặc góc của bản đồ. Điều này đảm bảo đường tấn công sụp đổ Kamui tuyến tính của anh ta bao phủ được quãng đường tối đa, đánh trúng kẻ địch cả khi chúng tiến lại gần và khi chúng rút lui.
+</Callout>
+
+### Hiệu quả và Chiến thuật theo từng Chế độ Chơi
+
+Điều chỉnh lối chơi của bạn tùy thuộc vào chế độ game bạn đang tham gia. Masked Shinobi xuất sắc trong môi trường đông quái nhưng cần sự hỗ trợ trong các trận chiến boss đơn mục tiêu dồn dập.
+
+| Chế độ Chơi | Vai trò trong Đội | Đánh giá Hiệu năng | Chiến thuật Đặt Vị trí Khuyến nghị |
+|---|---|---|---|
+| Story Mode | Chủ lực Chính | Xuất sắc | Đặt sớm gần điểm xuất hiện của kẻ địch để dọn quái nhanh chóng. |
+| Legend Stages | Kiểm soát Đường | Tốt | Đặt tại các giao lộ trung tâm để bao phủ nhiều đường đi. |
+| Raids | Hỗ trợ & Giảm chỉ số | Xuất sắc | Tập trung nâng cấp cơ chế làm chậm của anh ta để trì hoãn di chuyển của boss. |
+| Worldlines | DPS Kiểm soát Đám đông | Vượt trội | Kết hợp với các đơn vị đóng băng để quản lý các đợt quái dày đặc, tốc độ cao. |
+| Summer Mode | Dọn Quái | Tuyệt vời | Sử dụng AoE rộng của anh ta để xử lý các đàn quái kiểu zombie khổng lồ. |
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách Nhiệm vụ để Làm chủ Obito">
+
+Tối đa hóa hiệu quả của đơn vị đòi hỏi một cách tiếp cận có hệ thống đối với việc nâng cấp, lên cấp và quản lý trang bị bổ trợ. Hãy sử dụng danh sách kiểm tra này để theo dõi tiến trình xây dựng một Masked Shinobi tối thượng.
+
+<Callout type="info" title="Tích hợp Hệ thống Memoria">
+Theo luật của Bản cập nhật 13.5, các tiến hóa Memoria tiêu chuẩn đã được đơn giản hóa. Tất cả Memoria đều được tiến hóa theo mặc định, nghĩa là bạn có thể ngay lập tức liên kết Memoria hỗ trợ bậc cao với Masked Shinobi đã tiến hóa của mình để tăng sát thương lửa thêm 10%.
+</Callout>
+
+<Checklist
+  id="obito-mastery"
+  title="Các Cột mốc Tiến trình Quan trọng:"
+  items={[
+    "Triệu hồi đơn vị Masked Shinobi cơ bản từ banner.",
+    "Nâng cấp đơn vị cơ bản lên Cấp 60 bằng Sách Kinh nghiệm.",
+    "Thu thập đủ 15 Tinh Hoa Lửa và Mặt Nạ Tuyệt Vọng.",
+    "Tiến hóa đơn vị thành Masked Shinobi (Evolved) tại quảng trường nâng cấp.",
+    "Reroll thiên phú cho đến khi nhận được Monarch hoặc Ethereal.",
+    "Trang bị một Memoria hệ Lửa để tối đa hóa sát thương thiêu đốt.",
+    "Thử nghiệm đội hình của bạn trong Đột Kích Đơn (Solo Raid) để tối ưu hóa thời gian đặt vị trí."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Các Câu hỏi Thường gặp">
+
+Để giúp bạn tận dụng tối đa đội hình của mình, dưới đây là câu trả lời cho những câu hỏi phổ biến nhất mà người chơi thường hỏi về việc tối ưu hóa đơn vị này trong meta hiện tại.
+
+<Callout type="success" title="Lưu ý Tóm tắt">
+Cho dù bạn là người chơi miễn phí (F2P) hay một cựu binh dày dạn kinh nghiệm, việc đầu tư vào đơn vị này rất được khuyến khích nhờ vai trò kép vừa gây sát thương vừa kiểm soát đường cực tốt của anh ta.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Tên trong trò chơi của Obito trong Anime Vanguards là gì?",
+    answer: "Do các quy ước đặt tên thân thiện với bản quyền, Obito chính thức được gọi là Masked Shinobi trong game. Dạng tiến hóa của anh ta được gọi là Masked Shinobi (Evolved)."
+  },
+  {
+    question: "Đơn vị obito trong anime vanguards có đáng để tiến hóa không?",
+    answer: "Có, chắc chắn rồi. Tiến hóa anh ta sẽ mở khóa khả năng sụp đổ không-thời gian Kamui, giúp tăng đáng kể phạm vi AoE, lượng sát thương đầu ra và thời gian duy trì hiệu ứng làm chậm."
+  },
+  {
+    question: "Tôi có thể cày cuốc vật phẩm tiến hóa Mặt Nạ Tuyệt Vọng ở đâu?",
+    answer: "Mặt Nạ Tuyệt Vọng (Mask of Despair) là một vật phẩm rơi hiếm có thể cày cuốc bằng cách vượt Ải Phân đoạn 3 (Act 3) của Đột Kích Shinobi Chronicles ở độ khó Ác Mộng (Nightmare)."
+  },
+  {
+    question: "Thiên phú nào tốt hơn cho Obito: Monarch hay Ethereal?",
+    answer: "Monarch nhìn chung tốt hơn về độ linh hoạt tổng thể vì nó giảm SPA và tăng tầm đánh. Tuy nhiên, Ethereal sẽ vượt trội hơn nếu bạn muốn tối đa hóa khả năng gây sát thương thiêu đốt theo thời gian."
+  }
+]} />
+
+</Section>
