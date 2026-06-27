@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Lich King: Hướng dẫn cài đặt & Combo phép thuật tốt nhất",
+  description: "Làm chủ đơn vị Lich King trong Anime Vanguards ở Bản cập nhật 9.5. Tìm hiểu các combo phép thuật tốt nhất, chiến thuật chế độ vô tận và cách sử dụng vật phẩm thế giới.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Lich+King+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime Vanguards Lich King**: Đơn vị hỗ trợ và DPS cực kỳ đa dụng với chi phí đặt là 1.000 Yên.
+- **Cơ chế xoay vòng phép**: Trang bị ít phép hơn để đảm bảo các kỹ năng mạnh nhất của bạn được xoay vòng nhanh hơn.
+- **Hệ tốt nhất**: Lời nguyền (Curse) và Đam mê (Passion) là những hệ mạnh nhất, mang lại lượng triệu hồi khổng lồ và hiệu ứng bất lợi (debuff) mạnh mẽ.
+- **Sát thương diện rộng cuối trận**: Sử dụng Ouroboros và The Goal of All Life is Death sau đợt (wave) 50.
+</Callout>
+
+<Section icon={Sparkles} title="Tổng quan & Chỉ số cơ bản của Anime Vanguards Lich King">
+
+**Anime Vanguards Lich King** đã khẳng định vị thế là một trong những đơn vị mạnh nhất và có cơ chế độc đáo nhất trong meta Bản cập nhật 9.5. Hoạt động như một tiên phong thuộc hệ Thống trị (Ruler-type), đơn vị này giới thiệu một hệ thống niệm phép định hình lại hoàn toàn cách người chơi tiếp cận phòng thủ làn đường. Không giống như các đơn vị truyền thống tự động thực hiện một kiểu tấn công duy nhất, nhân vật này hoàn toàn phụ thuộc vào một cuốn sách phép có thể tùy chỉnh để gây sát thương, triệu hồi đồng minh và áp dụng hiệu ứng khống chế.
+
+**Điểm nhấn trong Video:**
+- **Phụ thuộc vào Hệ**: Tìm hiểu cách các phép thuật của hắn phụ thuộc lớn vào việc kết hợp các hệ của đồng đội để hoạt động.
+- **Tối ưu hóa ô phép**: Khám phá lý do tại sao việc trang bị ít phép hơn thường hiệu quả hơn là lấp đầy tất cả các ô.
+- **Sát thương diện rộng cuối trận**: Chứng kiến tiềm năng bá đạo của Ouroboros và The Goal of All Life is Death trong các màn chơi ở đợt cao.
+
+<YouTubeEmbed videoId="4e8AiDeeE6s" title="Cách sử dụng Lich King HIỆU QUẢ NHẤT trong Anime Vanguards Bản cập nhật 9.5!" />
+
+Hiểu rõ tỷ lệ giữa chi phí và hiệu năng của hắn là điều cần thiết để triển khai ở đầu trận. Mặc dù chi phí nâng cấp tối đa của hắn cực kỳ cao, nhưng chi phí đặt cơ bản lại vô cùng thấp, chỉ ở mức 1.000 Yên. Điều này cho phép bạn đặt hắn xuống sân ngay trong đợt đầu tiên để thiết lập quyền kiểm soát sớm. May mắn thay, các chỉ số ở mức nâng cấp trung bình của hắn rất hiệu quả, nghĩa là bạn không cần phải nâng cấp tối đa hắn ngay lập tức để đạt được giá trị tuyệt vời.
+
+| Giai đoạn nâng cấp | Chi phí | Sát thương đầu ra | Giá trị tiện ích | Khuyến nghị chiến thuật |
+|---|---|---|---|---|
+| Đặt cơ bản | 1.000 Yên | Trung bình | Cao | Đặt sớm để bảo vệ các làn đường |
+| Nâng cấp trung bình | Trung bình | Cao | Rất cao | Duy trì ở mức này trong giai đoạn farm đầu trận |
+| Nâng cấp tối đa | Rất cao | Cực kỳ lớn | Tối đa | Chỉ nâng cấp tối đa trong các đợt cuối trận |
+
+<Callout type="warning" title="Ưu tiên nâng cấp">
+Đừng vội nâng cấp tối đa đơn vị này trong các đợt đầu. Các chỉ số nâng cấp trung bình của hắn rất hiệu quả, cho phép bạn tập trung ngân sách đầu trận vào việc tối đa hóa các đơn vị farm trước.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cơ chế xoay vòng phép & Sự kết hợp hệ">
+
+Cơ chế cốt lõi của đơn vị này xoay quanh bốn ô phép của hắn. Hắn sẽ không tấn công trừ khi bạn tự thiết lập các phép thuật của hắn. Khi nhiều phép được trang bị, hắn sẽ xoay vòng qua chúng theo thứ tự: niệm phép ở ô một, sau đó đến ô hai, ô ba và cuối cùng là ô bốn trước khi quay lại từ đầu hàng đợi. 
+
+Do cơ chế xoay vòng tuần tự này, việc lấp đầy cả bốn ô có thể làm giảm mạnh hiệu quả của các phép thuật quan trọng nhất của bạn. Ví dụ, nếu bạn cần một hiệu ứng bất lợi (debuff) cụ thể luôn hoạt động trên kẻ địch, việc trang bị các phép khác sẽ làm trì hoãn việc niệm lại debuff đó, tạo ra một khoảng thời gian sơ hở nguy hiểm.
+
+| Hệ | Xếp hạng | Phép thuật chính | Hiệu ứng chính | Khuyến nghị |
+|---|---|---|---|---|
+| Lời nguyền (Curse) | Hạng S | Create Greater Undead | Triệu hồi các đơn vị mạnh mẽ | Tốt nhất để gây sát thương thuần túy trên các đường đơn |
+| Đam mê (Passion) | Hạng S | Aura of Despair | Giảm chỉ số diện rộng cực lớn | Trang bị một mình để duy trì 100% thời gian hoạt động của debuff |
+| Vũ trụ (Cosmic) | Hạng A | Cosmic Slow | Áp dụng làm chậm 50% trong 30 giây | Tiện ích tuyệt vời cho kẻ địch di chuyển nhanh |
+| Vô định (Unbound) | Hạng A | Unbound Haste | Tăng tốc độ tấn công của đơn vị | Sử dụng để tối đa hóa DPS tổng thể |
+| Không hệ (Elementless) | Hạng A | Undead Control | Hồi sinh kẻ địch đã bị tiêu diệt | Tốt nhất để phòng thủ nhiều đường |
+| Nước/Tia lửa/Tự nhiên | Hạng C | Stun / Cleanse | Khống chế đám đông mờ nhạt | Tránh sử dụng do sự kết hợp đơn vị hiện tại yếu |
+
+Sức mạnh phép thuật của hắn cũng phụ thuộc rất nhiều vào đội hình hệ của đội hình đang hoạt động của bạn. Để sử dụng các phép hệ Lời nguyền (Curse), bạn phải mang theo các đơn vị thuộc hệ Lời nguyền trong đội hình của mình. Tương tự, các phép hệ Đam mê (Passion) yêu cầu các đơn vị thuộc hệ Đam mê. Để vượt qua các hạn chế nghiêm ngặt này, bạn có thể sử dụng các đơn vị hệ Vô định (Unbound), hoạt động như các thẻ vạn năng và được tính cho bất kỳ yêu cầu hệ nào, giúp việc xây dựng đội hình linh hoạt hơn nhiều.
+
+<Callout type="tip" title="Chiến thuật ô phép">
+Nếu bạn sử dụng đơn vị này nghiêm ngặt cho việc khống chế đám đông hoặc áp dụng debuff, hãy chỉ trang bị phép thuộc hệ Đam mê (Passion). Điều này buộc hắn phải niệm Aura of Despair trong mỗi đòn tấn công, đảm bảo duy trì liên tục debuff mà không có bất kỳ sự chậm trễ xoay vòng nào.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Thiết lập từng bước cho Bản đồ Đơn đường so với Đa đường">
+
+Các bố cục bản đồ khác nhau yêu cầu các cấu hình phép thuật hoàn toàn khác nhau. Sử dụng thiết lập sai có thể dẫn đến việc lọt kẻ địch và thất bại trận đấu. Hãy làm theo hướng dẫn thiết lập có hệ thống này để tối ưu hóa việc lựa chọn phép thuật dựa trên bản đồ bạn đang chơi.
+
+<Steps>
+  <Step num="1" title="Phân tích bố cục bản đồ">
+    Xác định xem màn chơi có một đường đi thống nhất duy nhất hay nhiều đường nhánh. Bản đồ đơn đường cho phép các sinh vật triệu hồi di chuyển hiệu quả, trong khi bản đồ đa đường sẽ chia nhỏ lực lượng của bạn và để lại các làn đường hoàn toàn không được phòng thủ.
+  </Step>
+  <Step num="2" title="Cấu hình bộ phép thuật của bạn">
+    Đối với bản đồ đơn đường, hãy chọn các phép hệ Lời nguyền (Curse) như Create Greater Undead và Supreme Summoning để áp đảo kẻ địch bằng những sinh vật triệu hồi mạnh mẽ. Đối với bản đồ đa đường, hãy gỡ bỏ hoàn toàn các phép hệ Lời nguyền và chỉ dựa vào các phép Không hệ (Elementless) như Undead Control.
+  </Step>
+  <Step num="3" title="Tối ưu hóa vị trí đặt và nâng cấp">
+    Đặt đơn vị gần phía trước làn đường nơi phạm vi tấn công của hắn có thể bao phủ tối đa quãng đường. Nâng cấp hắn lên các cấp độ trung bình để mở khóa tỷ lệ chỉ số cốt lõi trong khi vẫn giữ cho nền kinh tế của bạn cân bằng cho các đơn vị farm.
+  </Step>
+</Steps>
+
+Trên các bản đồ đa đường, các sinh vật triệu hồi truyền thống cực kỳ kém hiệu quả vì chúng phân tán ngẫu nhiên theo các đường khác nhau. Undead Control giải quyết vấn đề này bằng cách hồi sinh những kẻ địch bị đánh bại ngay tại nơi chúng chết, tạo ra các rào cản cục bộ ngay trên làn đường đang hoạt động. Điều này đảm bảo không có đường đi nào bị bỏ trống, bất kể bản đồ có bao nhiêu làn đường.
+
+<Callout type="success" title="Đường đi của sinh vật triệu hồi">
+Trên các bản đồ đơn đường, ngay cả một sinh vật triệu hồi cấp một cũng có thể dễ dàng chặn đứng kẻ địch bị lọt. Điều này làm cho hệ Lời nguyền (Curse) trở nên đặc biệt an toàn cho việc đi ải một mình và farm chế độ cốt truyện.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Chế độ vô tận & Chiến thuật sát thương diện rộng cuối trận">
+
+Khi vượt qua đợt 50 trong Chế độ vô tận, các đơn vị DPS thông thường bắt đầu yếu đi do lượng máu của kẻ địch tăng theo cấp số nhân. Đây là lúc đơn vị này thực sự tỏa sáng, mang lại tiện ích bá đạo và các đòn sát thương diện rộng dọn sạch màn hình, vượt qua hoàn toàn các cơ chế chiến đấu truyền thống.
+
+<CardGrid cols={3}>
+  <Card title="Tiện ích của Caloric Stone">
+    - **Cung cấp ô đơn vị thứ 7** cho đội hình đang hoạt động của bạn.
+    - Cho phép bạn chạy các thiết lập farm đầy đủ bên cạnh lượng DPS tối đa.
+    - Giúp việc đặt đơn vị hoàn toàn miễn phí mà không lãng phí bất kỳ ô nào.
+  </Card>
+  <Card title="Mẹo Ouroboros">
+    - **Ghi đè máu của kẻ địch về 1** trong các giai đoạn cuối trận.
+    - Đơn giản hóa các con trùm có hàng tỷ lượng máu.
+    - Cần thiết để leo bảng xếp hạng ở các đợt cao.
+  </Card>
+  <Card title="Vượt qua cái chết">
+    - **Bỏ qua tất cả các miễn nhiễm** và các kích hoạt khi chết.
+    - Ngay lập tức dọn sạch màn hình khỏi các quái rác có mối đe dọa cao.
+    - Kích hoạt thông qua phép thuật "The Goal of All Life is Death".
+  </Card>
+</CardGrid>
+
+Sự kết hợp giữa các vật phẩm thế giới Caloric Stone và Ouroboros khiến hắn trở thành một tài sản không thể thiếu cho việc leo bảng xếp hạng. Caloric Stone về cơ bản cho phép bạn triển khai hắn như một đơn vị thứ bảy bổ sung, nghĩa là bạn không phải hy sinh một ô farm hoặc DPS có giá trị. Khi bạn bước vào giai đoạn cực kỳ muộn của trận đấu, đòn nuke Ouroboros cho phép bạn ghi đè máu của các con trùm có hàng tỷ HP xuống còn một điểm duy nhất, cho phép tiêu diệt ngay lập tức.
+
+| Vật phẩm thế giới / Phép thuật | Hiệu ứng chính | Thời gian hồi / Cách sử dụng | Giá trị chiến thuật |
+|---|---|---|---|
+| Caloric Stone | Thêm ô đội hình hoạt động thứ 7 | Thụ động | Cho phép triển khai miễn phí mà không cần hy sinh các đơn vị cốt lõi |
+| Ouroboros | Ghi đè máu kẻ địch về 1 | Giới hạn | Tiêu diệt ngay lập tức các con trùm ở đợt cao có hàng tỷ HP |
+| The Goal of All Life is Death | Tiêu diệt ngay lập tức các mục tiêu không phải trùm | Thời gian hồi dài | Dọn sạch màn hình các đợt quái mật độ cao và bỏ qua miễn nhiễm |
+
+<Callout type="info" title="Meta Chế độ vô tận">
+Ouroboros hiện là công cụ định hình meta tối thượng để leo bảng xếp hạng. Việc ghi đè lượng máu của trùm từ 4 tỷ xuống còn 1 cho phép tiêu diệt ngay lập tức, bỏ qua hàng giờ gây sát thương rỉ rả tẻ nhạt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Danh sách kiểm tra & Cột mốc tiến trình">
+
+Để làm chủ hoàn toàn đơn vị này và tối đa hóa tiềm năng của hắn trong các lượt chơi của bạn, hãy cố gắng hoàn thành các cột mốc tiến trình sau.
+
+<Checklist
+  id="lich-king-progression"
+  title="Mục tiêu làm chủ Lich King:"
+  items={[
+    "Nhận vật phẩm thế giới Caloric Stone để mở khóa ô đội hình thứ 7.",
+    "Sở hữu các đơn vị hệ Lời nguyền (Curse) hàng đầu như Sukuna hoặc Hollow Knight để tối đa hóa tỷ lệ phép thuật hệ Lời nguyền.",
+    "Làm chủ chiến thuật xoay vòng đơn phép để duy trì liên tục các debuff.",
+    "Đạt Đợt 50+ trong Chế độ vô tận để sử dụng thành công mẹo ghi đè HP của Ouroboros."
+  ]}
+/>
+
+<Callout type="tip" title="Đội hình kết hợp">
+Kết hợp đơn vị này với các nhân vật thuộc hệ Lời nguyền (Curse) cấp cao không chỉ đáp ứng các yêu cầu phép thuật hệ của hắn mà còn tạo ra một đội hình kết hợp cực kỳ hiệu quả, có khả năng vượt qua những thử thách khó khăn nhất trong trò chơi.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lich King FAQ">
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để khiến Lich King trong Anime Vanguards tấn công?",
+    answer: "Hắn sẽ không tự động tấn công khi được đặt xuống. Bạn phải mở menu đơn vị của hắn và trang bị thủ công ít nhất một phép thuật từ cuốn sách phép đã mở khóa của bạn để hắn bắt đầu hành động trên chiến trường."
+  },
+  {
+    question: "Tại sao các sinh vật triệu hồi của tôi lại phân tán và để kẻ địch lọt qua?",
+    answer: "On maps with multiple paths, summons will divide randomly among the available lanes. To prevent this, unequip Curse summons and use the Elementless spell Undead Control, which revives enemies directly where they die."
+  },
+  {
+    question: "Lợi ích của việc chỉ trang bị một phép thuật là gì?",
+    answer: "Trang bị một phép duy nhất sẽ buộc đơn vị phải niệm kỹ năng cụ thể đó trong mỗi đòn tấn công. Điều này cực kỳ có lợi cho các phép tiện ích như Aura of Despair hoặc Cosmic Slow, đảm bảo duy trì 100% thời gian hoạt động của các debuff quan trọng."
+  },
+  {
+    question: "Vật phẩm thế giới Ouroboros hoạt động như thế nào trong Chế độ vô tận?",
+    answer: "Ouroboros cho phép bạn ghi đè lượng máu của tất cả kẻ địch trên màn hình về 1. Điều này cực kỳ mạnh mẽ sau đợt 50, cho phép bạn ngay lập tức tiêu diệt các con trùm có hàng tỷ lượng máu."
+  }
+]} />
+
+<Callout type="info" title="Cập nhật Meta trong tương lai">
+Hãy chú ý đến các bản vá cập nhật trong tương lai vào năm 2026. Khi các đơn vị hệ Nước (Water) hoặc Tự nhiên (Nature) cấp cao mới được giới thiệu vào trò chơi, danh sách xếp hạng kết hợp hệ có thể thay đổi, có khả năng biến các combo phép thuật yếu trước đây trở nên cực kỳ khả thi.
+</Callout>
+
+</Section>

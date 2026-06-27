@@ -1,0 +1,216 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Griffith: Hướng dẫn sở hữu & Tiến hóa Hiến tế",
+  description: "Làm chủ đơn vị Griffith (The Falcon) trong Anime Vanguards. Tìm hiểu cách cày Phụ bản Truyền thuyết, tiến hóa lên dạng Hiến tế và tối ưu hóa kỹ năng I Sacrifice.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Vanguards+Griffith+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime Vanguards Griffith**: Được biết đến trong game với tên **The Falcon**, đây là một đơn vị Bí ẩn (Secret) hàng đầu lấy cảm hứng từ loạt truyện Berserk.
+- **Cách sở hữu**: Cày ải **Burning Spirit Tree** (Cảnh 4) trong Phụ bản Truyền thuyết với tỷ lệ rơi 5% và hệ thống bảo hiểm (pity) sau 30 lượt hoàn thành.
+- **Tiến hóa Hiến tế (Sacrifice)**: Yêu cầu vật phẩm **Awakened King's Egg** và 15.000 Vàng để đạt đến sức mạnh tối thượng.
+- **Kỹ năng cốt lõi**: Kỹ năng kích hoạt **I, Sacrifice** đánh dấu tất cả các tháp của bạn và kẻ địch không phải boss, kéo dài trong 3 làn sóng (wave) đầy đủ.
+- **Thiên phú tốt nhất**: Hướng tới thiên phú **Monarch** để tối đa hóa sát thương, tầm đánh và tốc độ tấn công.
+</Callout>
+
+<Section icon={Map} title="Anime Vanguards Griffith: Tổng quan và Nhận diện Đơn vị">
+
+Trong meta hiện tại của năm 2026, **Anime Vanguards Griffith** (tên chính thức là The Falcon) là một trong những đơn vị Bí ẩn (Secret) danh giá nhất dành cho người chơi. Là một đơn vị thuộc hệ Vũ trụ (Cosmic), anh ta mang lại sự kết hợp độc đáo giữa sát thương thô cực cao và khả năng hỗ trợ toàn bản đồ mà ít đơn vị nào khác có thể sánh kịp. Ban đầu được phát hành dưới dạng đơn vị giới hạn sự kiện, cách sở hữu anh ta hiện đã được chuyển sang các chế độ chơi vĩnh viễn, khiến anh ta trở thành đơn vị phải có đối với những người chơi ở giai đoạn cuối game (endgame) muốn chinh phục các Phụ bản Truyền thuyết khó nhất.
+
+Đơn vị này được định hình rõ rệt bởi độ hiếm \"Bí ẩn\" (Secret), đồng nghĩa với tỷ lệ rơi thấp hơn đáng kể nhưng lại có ngưỡng sức mạnh cao hơn nhiều so với các đơn vị Thần thoại (Mythic) tiêu chuẩn. Dạng cơ bản của anh ta đã rất đáng gờm, nhưng sức mạnh thực sự chỉ được khai mở thông qua quá trình tiến hóa \"Hiến tế\" (Sacrifice), mô phỏng lại sự biến đổi đen tối của nhân vật trong tác phẩm gốc.
+
+| Thuộc tính | Chi tiết Dạng cơ bản | Chi tiết Dạng Hiến tế |
+| :--- | :--- | :--- |
+| **Tên** | The Falcon | The Falcon (Sacrifice) |
+| **Độ hiếm** | Bí ẩn (Secret) | Bí ẩn (Tiến hóa) |
+| **Hệ** | Vũ trụ (Cosmic) | Vũ trụ (Cosmic) |
+| **Kiểu tấn công** | AoE (Toàn diện) | AoE (Toàn diện) |
+| **Vị trí đặt** | Mặt đất | Mặt đất |
+| **Chi phí** | 1.000 Yên | 1.000 Yên |
+
+<Callout type="tip" title="Liên kết Cốt truyện">
+Đoạn mô tả của The Falcon là một tham chiếu trực tiếp đến bài phát biểu về \"Giấc mơ\" trong Berserk. Mặc dù nó không cung cấp bất kỳ bùa lợi (buff) nào trong trò chơi, nhưng nó xác nhận danh tính của anh ta là \"White Hawk\" (Chim Ưng Trắng) trước khi thăng hoa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cách sở hữu Anime Vanguards Griffith">
+
+Để sở hữu **Anime Vanguards Griffith**, bạn cần có sự kiên nhẫn và một đội hình mạnh mẽ đủ khả năng vượt qua các Phụ bản Truyền thuyết cấp cao. Không giống như các đơn vị Thần thoại có thể chiêu mộ qua banner tiêu chuẩn, The Falcon là phần thưởng rơi trực tiếp từ nội dung trò chơi. Điều này biến anh ta thành một đơn vị có thể \"cày cuốc\", mặc dù tỷ lệ rơi thấp đồng nghĩa với việc bạn có thể sẽ phải dành nhiều giờ trong Burning Spirit Tree.
+
+**Điểm nhấn Video:**
+- Hướng dẫn chi tiết từng bước vượt ải Burning Spirit Tree Cảnh 4.
+- Vị trí đặt đơn vị tối ưu để tăng tốc độ cày ải.
+- Giới thiệu về tỷ lệ rơi 5% và cơ chế hệ thống Bảo hiểm (Pity).
+
+<YouTubeEmbed videoId="pA9o8T86v4I" title="Anime Vanguards Griffith Farming Guide" />
+
+<Steps>
+  <Step num="1" title="Mở khóa Phụ bản Truyền thuyết">
+    Hãy đảm bảo bạn đã tiến trình qua chế độ cốt truyện chính để mở khóa danh mục Phụ bản Truyền thuyết (Legend Stage) trong menu chơi.
+  </Step>
+  <Step num="2" title="Di chuyển đến Burning Spirit Tree">
+    Chọn bản đồ **Burning Spirit Tree** và di chuyển cụ thể đến **Cảnh 4** (Act 4). Đây là cảnh duy nhất rơi đơn vị này.
+  </Step>
+  <Step num="3" title="Chuẩn bị cho Độ khó">
+    Cảnh 4 có các kẻ địch lượng máu cao và các hiệu ứng thử thách. Hãy mang theo các đơn vị có DPS cao cùng cơ chế làm chậm/làm choáng để đảm bảo tỷ lệ thắng 100%.
+  </Step>
+  <Step num="4" title="Cày cuốc và Bảo hiểm">
+    Tỷ lệ rơi cơ bản là 5%. Tuy nhiên, trò chơi có tích hợp **hệ thống Bảo hiểm (Pity) ở lượt chạy thứ 30**. Nếu bạn không nhận được anh ta sau lần hoàn thành thứ 30, anh ta chắc chắn sẽ xuất hiện.
+  </Step>
+</Steps>
+
+| Tên Ải | Yêu cầu Cảnh | Tỷ lệ Rơi | Số lượt Bảo hiểm |
+| :--- | :--- | :--- | :--- |
+| Burning Spirit Tree | Cảnh 4 | 5% | 30 Lượt chạy |
+| Phần thưởng Phụ bản Truyền thuyết | Bất kỳ Cảnh nào | Vàng/Vật phẩm | N/A |
+
+<Callout type="warning" title="Cảnh báo Hiệu suất">
+Đừng cố gắng cày Cảnh 4 với một đội hình yếu. Thất bại trong một lượt chạy sẽ không được tính vào tiến trình Bảo hiểm của bạn, gây lãng phí thời gian quý báu.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Hướng dẫn Tiến hóa The Falcon (Hiến tế)">
+
+Sau khi sở hữu phiên bản cơ bản của **Anime Vanguards Griffith**, mục tiêu tiếp theo của bạn là tiến hóa. Dạng Hiến tế (Sacrifice) mạnh hơn đáng kể, sở hữu kỹ năng hoạt ảnh \"I, Sacrifice\" có thể lật ngược thế cờ trong một trận đấu khó khăn. Quá trình tiến hóa này không miễn phí và yêu cầu một vật phẩm chế tạo đặc biệt chỉ có thể nhận được thông qua chuỗi nhiệm vụ chuyên biệt.
+
+<CardGrid cols={2}>
+  <Card title="Yêu cầu Tiến hóa">
+    - **Đơn vị cơ bản**: 1x The Falcon
+    - **Vật phẩm tiến hóa**: 1x Awakened King's Egg
+    - **Tiền tệ**: 15.000 Vàng
+  </Card>
+  <Card title="Lợi ích của Dạng Hiến tế">
+    - **Tăng chỉ số**: Tăng mạnh Sát thương và Tầm đánh.
+    - **Kỹ năng mới**: Mở khóa kỹ năng kích hoạt \"I, Sacrifice\".
+    - **Thay đổi ngoại hình**: Diện mạo đôi cánh đen đặc trưng.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="evolution-prep"
+  title="Danh sách việc cần làm để Tiến hóa Hiến tế:"
+  items={[
+    "Sở hữu The Falcon từ Phụ bản Truyền thuyết Cảnh 4",
+    "Hoàn thành chuỗi nhiệm vụ Trứng của Vua (King's Egg)",
+    "Thu thập 15.000 Vàng thông qua Chế độ Vô hạn hoặc Đột kích",
+    "Đảm bảo The Falcon hiện không được trang bị trong bất kỳ đội hình nào",
+    "Di chuyển đến NPC Tiến hóa tại Sảnh chờ (Hub)"
+  ]}
+/>
+
+| Yêu cầu | Số lượng | Nguồn |
+| :--- | :--- | :--- |
+| Awakened King's Egg | 1 | Nhiệm vụ Trứng của Vua |
+| Vàng | 15.000 | Cày cuốc / Nhiệm vụ hàng ngày |
+| The Falcon | 1 | Burning Spirit Tree Cảnh 4 |
+
+<Callout type="success" title="Mẹo Tiến hóa">
+Nhiệm vụ Awakened King's Egg có thể khá tẻ nhạt. Bạn nên bắt đầu chuỗi nhiệm vụ này ngay khi bắt đầu cày đơn vị cơ bản để tối ưu hóa thời gian tiến trình của mình.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cơ chế Chiến đấu và Kỹ năng I Sacrifice">
+
+Tính năng định hình của **Anime Vanguards Griffith** dạng tiến hóa là kỹ năng kích hoạt của anh ta, **I, Sacrifice**. Kỹ năng này thể hiện sự biến đổi của anh ta và cái giá cho tham vọng của mình, chuyển hóa thành một hệ thống bùa hại (debuff) và bùa lợi (buff) mạnh mẽ trên toàn bản đồ. Hiểu rõ thời điểm sử dụng kỹ năng này là ranh giới giữa một trận đột kích thành công và một thất bại.
+
+Khi được kích hoạt, một biểu tượng hiến tế xuất hiện trên đầu Griffith và bay khắp toàn bộ bản đồ. Nó đánh dấu mọi tháp bạn sở hữu và mọi kẻ địch không phải boss hiện đang di chuyển trên đường đi.
+
+| Chỉ số Kỹ năng | Giá trị | Mô tả |
+| :--- | :--- | :--- |
+| **Loại** | Kích hoạt | Yêu cầu người chơi kích hoạt thủ công. |
+| **Thời gian hồi** | 300 Giây | Thời gian hồi chiêu nội bộ dài; hãy sử dụng một cách tiết kiệm. |
+| **Thời gian tác dụng** | 3 Làn sóng | Hiệu ứng kéo dài qua nhiều vòng đấu. |
+| **Tầm đánh** | Toàn bản đồ | Ảnh hưởng đến toàn bộ bản đồ bất kể vị trí đặt đơn vị. |
+
+**Cách sử dụng kỹ năng chiến thuật:**
+- **Quản lý làn sóng (Wave)**: Tiết kiệm kỹ năng cho các làn sóng cuối cùng của một màn chơi, nơi mật độ kẻ địch là cao nhất.
+- **Chuẩn bị đấu Boss**: Vì nó đánh dấu kẻ địch không phải boss, hãy sử dụng ngay trước khi boss xuất hiện để dọn dẹp nhanh các quái vật \"rác\", giúp các tháp của bạn tập trung hỏa lực vào boss.
+- **Hiệp đồng với Tháp**: Việc đánh dấu các tháp thuộc sở hữu của bạn thường tương tác với các thiên phú cụ thể hoặc bùa lợi của các đơn vị khác, giúp tăng hiệu suất tổng thể của toàn đội.
+
+<Callout type="info" title="Quản lý Thời gian hồi chiêu">
+Thời gian hồi chiêu 300 giây là \"Nội bộ\" (Local), nghĩa là nó chỉ áp dụng cho đơn vị Griffith cụ thể đó. Nếu bạn có nhiều đơn vị (mặc dù giới hạn đặt thường là 1), họ không dùng chung thời gian hồi.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Thiên phú Lý tưởng và Tỷ lệ Chỉ số">
+
+Để thực sự tối ưu hóa **Anime Vanguards Griffith**, bạn phải tẩy (roll) để lấy các thiên phú chính xác. Vì anh ta là một đơn vị Bí ẩn với các chỉ số cơ bản cao, các thiên phú dựa trên phần trăm sẽ mang lại hiệu quả cực kỳ lớn. Thiên phú **Monarch** (Quân Vương) được coi là lựa chọn tốt nhất (Best in Slot - BiS) cho anh ta nhờ cách nó tương tác với tốc độ tấn công và tầm đánh cao của đơn vị này.
+
+| Tên Thiên phú | Xếp hạng | Tóm tắt Hiệu ứng |
+| :--- | :--- | :--- |
+| **Monarch** | S+ | Tăng cực mạnh Sát thương (Dmg), Tầm đánh (Rng) và Tốc độ đánh (Spa). |
+| **Solar** | S | Tăng sát thương cao, hoàn hảo cho các đơn vị hệ Vũ trụ (Cosmic). |
+| **Godly** | A | Tăng mạnh các chỉ số toàn diện. |
+| **Nimble** | B | Tập trung vào Tốc độ đánh (Spa), tốt cho thời gian duy trì kỹ năng. |
+
+**Tỷ lệ Chỉ số (Dạng Hiến tế - Cấp 60):**
+Ở cấp độ tối đa, The Falcon (Hiến tế) đạt được lượng DPS đáng kinh ngạc. Kiểu tấn công \"AoE Toàn diện\" của anh ta đảm bảo không kẻ địch nào thoát khỏi tầm tay, đặc biệt là khi kết hợp với tỷ lệ tầm đánh bẩm sinh.
+
+- **Chi phí đặt ban đầu**: 1.000 Yên
+- **Tỷ lệ Sát thương**: Tăng đáng kể sau mỗi lần nâng cấp, đạt đến các chỉ số cấp độ \"Thần thánh\" ở cấp tối đa.
+- **SPA (Thời gian mỗi đòn đánh)**: Duy trì nhịp độ nhanh, thường từ 5,5 giây đến 7 giây tùy thuộc vào các nâng cấp và thiên phú.
+
+<Callout type="tip" title="Lời khuyên Tẩy Thiên phú">
+Đừng chấp nhận các thiên phú cơ bản. Là một đơn vị Bí ẩn, Griffith xứng đáng để bạn đầu tư Đá Thiên phú (Trait Crystals). Hãy hướng tới ít nhất một thiên phú cấp Thần thoại như Solar hoặc thiên phú Monarch độc nhất.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hiệp đồng Đồng đội và Vị trí trong Meta">
+
+Trong meta **Anime Vanguards** hiện tại, Griffith hiếm khi được sử dụng độc lập. Anh ta tỏa sáng rực rỡ nhất khi kết hợp với các đơn vị có thể tận dụng các dấu ấn toàn bản đồ của mình hoặc cung cấp thêm sự hiệp đồng hệ Vũ trụ (Cosmic). Anh ta là một nhân tố chủ chốt trong các đội hình \"chủ đề Berserk\" bên cạnh các đơn vị như **The Struggler** (Guts).
+
+| Đơn vị Hiệp đồng | Lợi ích | Chiến thuật |
+| :--- | :--- | :--- |
+| **The Struggler** | Tăng Sát thương | Sự hiệp đồng từ cùng một loạt truyện thường mang lại các bùa lợi ẩn. |
+| **Alocard** | Kiểm soát đám đông | Giữ kẻ địch trong vùng AoE của Griffith lâu hơn. |
+| **Sprintwagon** | Kinh tế | Cung cấp lượng Yên cần thiết cho các nâng cấp đắt đỏ của Griffith. |
+
+**Các Chế độ chơi Tốt nhất cho Griffith:**
+- **Phụ bản Truyền thuyết**: Sát thương cao và thời gian duy trì kỹ năng kéo dài 3 làn sóng khiến anh ta trở thành ông vua của các màn chơi Phụ bản Truyền thuyết dài hơi.
+- **Chế độ Vô hạn (Infinite Mode)**: Khi các làn sóng trở nên khó khăn hơn, tiện ích dựa trên phần trăm và khả năng AoE toàn diện của anh ta trở nên thiết yếu để leo bảng xếp hạng.
+- **Đột kích (Raids)**: Khả năng đánh dấu toàn bản đồ giúp đồng đội xác định và ưu tiên các mục tiêu có mối đe dọa cao.
+
+<Callout type="success" title="Chiến thuật Đặt đơn vị">
+Đặt Griffith ở vị trí trung tâm nơi tầm đánh của anh ta có thể bao phủ nhiều giao lộ đường đi. Mặc dù kỹ năng của anh ta là toàn bản đồ, các đòn tấn công cơ bản của anh ta vẫn yêu cầu tầm nhìn và tầm bắn.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các Câu hỏi Thường gặp">
+
+<FAQ items={[
+  {
+    question: "Anime Vanguards Griffith có tốt hơn The Struggler không?",
+    answer: "Họ đảm nhận các vai trò khác nhau. Griffith (The Falcon) vượt trội về khả năng hỗ trợ toàn bản đồ và sát thương AoE toàn diện, trong khi The Struggler thường tốt hơn cho việc bào máu boss đơn mục tiêu. Tốt nhất là nên sử dụng họ cùng nhau."
+  },
+  {
+    question: "Tôi có thể sở hữu Griffith nếu đã bỏ lỡ sự kiện ban đầu không?",
+    answer: "Có. Kể từ các bản cập nhật năm 2026, The Falcon là một phần thưởng rơi vĩnh viễn từ Phụ bản Truyền thuyết Burning Spirit Tree (Cảnh 4)."
+  },
+  {
+    question: "Kỹ năng I Sacrifice thực sự kéo dài trong bao lâu?",
+    answer: "Kỹ năng này kéo dài tổng cộng 3 làn sóng (wave) đầy đủ. Điều này khiến nó trở thành một trong những kỹ năng kích hoạt có thời gian tác dụng lâu nhất trong trò chơi, bù đắp cho thời gian hồi chiêu 300 giây của nó."
+  },
+  {
+    question: "Mức bảo hiểm (pity) để rơi ra The Falcon là bao nhiêu?",
+    answer: "Hệ thống bảo hiểm đảm bảo bạn sẽ nhận được đơn vị này sau 30 lần hoàn thành thành công Burning Spirit Tree Cảnh 4."
+  }
+]} />
+
+</Section>

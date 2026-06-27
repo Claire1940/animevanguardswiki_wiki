@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Reze: Hướng dẫn Tiến hóa & Xếp hạng Thiên phú Tốt nhất",
+  description: "Làm chủ đơn vị Reze trong Anime Vanguards với hướng dẫn của chúng tôi về tiến hóa, quay thiên phú Monarch và tối đa hóa DPS với Memoria Drops of Serenity vào năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Reze+Evolution+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime Vanguards Reze** là một đơn vị banner cấp cao được giới thiệu trong bản cập nhật Chainsaw Man, chuyên về sát thương AoE nổ diện rộng.
+- **Yêu cầu Tiến hóa**: Để mở khóa toàn bộ tiềm năng, người chơi phải thu thập Explosive Pins (Ghim Nổ) từ Legend Stage.
+- **Thiên phú Tối ưu**: Thiên phú **Monarch** (Quân chủ) là lựa chọn tốt nhất không thể bàn cãi, mang lại sự gia tăng sức mạnh khổng lồ dựa trên số lượng đặt đơn vị.
+- **Sự kết hợp Memoria**: Trang bị Memoria **Drops of Serenity** giúp tăng đáng kể tầm đánh và sát thương kích nổ.
+- **Giới hạn DPS**: Với các buff phù hợp từ các đơn vị như Brooke và Urza, Reze có thể vượt quá **5 triệu DPS** trong các đợt quái cuối trận.
+</Callout>
+
+<Section icon={Map} title="Sở hữu và Đánh giá Reze trong Anime Vanguards">
+
+Sự ra mắt của bản cập nhật Chainsaw Man đã mang đến nhiều nhân vật biểu tượng cho danh sách Anime Vanguards, nhưng ít ai tạo được tầm ảnh hưởng lớn như Reze. Được biết đến với cái tên Quỷ Nổ, Reze là một đơn vị độc quyền banner cung cấp sự kết hợp độc đáo giữa sát thương thô cao và các cơ chế nội tại tinh vi. Không giống như một số kẻ tấn công trực diện khác, Reze yêu cầu một thiết lập cụ thể để thực sự tỏa sáng, khiến cô trở thành lựa chọn yêu thích cho những người chơi thích tối ưu hóa vị trí đặt đơn vị và sự kết hợp thiên phú.
+
+**Video nổi bật:**
+- **Trình diễn Tiến hóa**: Cái nhìn chi tiết về quá trình biến hình từ Reze cơ bản sang dạng Explosive Demon.
+- **Quay Thiên phú Monarch**: Trình diễn sự may mắn 0.1% cần thiết để đạt được thiên phú Monarch và tác động của nó lên các chỉ số.
+- **Tích hợp Memoria**: Cách thăng cấp và tiến hóa Memoria Drops of Serenity để đạt hiệu quả tối đa.
+- **Chiến đấu Cuối trận**: Thử nghiệm đầu ra sát thương của Reze chống lại kẻ thù có 15 triệu HP trong các bản đồ cốt truyện mới.
+
+<YouTubeEmbed videoId="HyWbZTotyqk" title="Evolving The 0.1% MONARCH REZE & Memoria In Anime Vanguards!" />
+
+Reze hiện đang có mặt thông qua banner tiêu chuẩn trong sự kiện cập nhật. Mặc dù dạng cơ bản của cô đã rất đáng gờm, cộng đồng đã nhanh chóng xác định cô là một đơn vị \"phải tiến hóa\" do sự nhảy vọt đáng kể về chỉ số ở trạng thái tiến hóa. Cô có giới hạn đặt là ba đơn vị, một điều hiếm thấy đối với các đơn vị có sức mạnh lớn như vậy, cho phép bạn bao phủ nhiều làn đường hoặc dồn sát thương vào một khu vực tiêu diệt duy nhất một cách hiệu quả.
+
+| Hình thái Đơn vị | Độ hiếm | Sát thương Cơ bản | SPA Cơ bản | Giới hạn Đặt |
+|:---|:---|:---|:---|:---|
+| Reze (Cơ bản) | Mythic | 29,000 | 7.0s | 3 |
+| Explosive Demon | Mythic (Tiến hóa) | 116,000 | 7.0s | 3 |
+| Shiny Reze | Mythic (Biến thể) | 127,000 | 7.0s | 3 |
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Khi triệu hồi Reze, hãy để ý đến thanh đếm bảo hiểm (pity) cho Alucard. Vì Reze là một đơn vị banner, bạn có thể yên tâm chi tiêu đá quý để sở hữu cô ấy trong khi tích lũy bảo hiểm cho các đơn vị độ hiếm Vanguard.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Yêu cầu Tiến hóa và Cày Legend Stage">
+
+Tiến hóa Reze thành dạng **Explosive Demon** là một quá trình khá đơn giản so với một số đơn vị bí ẩn phức tạp khác, nhưng nó vẫn yêu cầu việc cày cuốc chuyên tâm ở các Legend Stage mới. Nguyên liệu chính bạn cần là Explosive Pin. Không giống như các lần tiến hóa khác có thể yêu cầu hàng ngàn lượt hạ gục, quá trình tiến hóa của Reze hoàn toàn dựa trên tài nguyên, cho phép bạn nâng cấp cô ấy ngay lập tức nếu có đủ nguyên liệu.
+
+Các Legend Stage cho bản cập nhật Chainsaw Man được bối cảnh trên một con tàu đang di chuyển, mang lại thử thách chiến thuật độc đáo. Người chơi phải phòng thủ trước các đợt kẻ thù trong khi quản lý không gian đặt đơn vị hạn chế. Hoàn thành Act 3 của giai đoạn này không chỉ cung cấp các ghim cần thiết mà còn có cơ hội nhỏ nhận được Makima như một phần thưởng.
+
+| Nguyên liệu | Số lượng | Nguồn chính | Công dụng |
+|:---|:---|:---|:---|
+| Explosive Pin | 12 | Legend Stage (Act 1-3) | Thành phần Tiến hóa Cốt lõi |
+| Green Essence | 15 | Thử thách Hàng ngày / Cửa hàng | Nguyên liệu Tiến hóa Chung |
+| Vàng | 10,000 | Bất kỳ chế độ chơi nào | Phí Tiến hóa |
+| Thức ăn XP | Thay đổi | Doggy Bones / Thử thách | Nâng cấp lên cấp tối đa trước khi Tiến hóa |
+
+<Callout type="warning" title="Yêu cầu Quan trọng">
+Đảm bảo Reze đạt cấp độ tối đa trước khi thực hiện tiến hóa. Mặc dù trò chơi cho phép tiến hóa ở cấp độ thấp hơn, nhưng việc tối đa hóa chỉ số trước đó sẽ đảm bảo bạn nhận được sát thương cơ bản cao nhất có thể cho dạng Explosive Demon.
+</Callout>
+
+Để tối đa hóa hiệu quả, bạn nên chạy các Legend Stage ở độ khó \"Champions\" nếu đội hình của bạn có thể chịu được. Điều này làm tăng tỷ lệ rơi của các ghim và cung cấp nhiều vật phẩm XP hơn như \"Doggy Bone\", vốn rất thiết yếu để nâng cấp các đơn vị mới của bạn.
+
+</Section>
+
+<Section icon={Sparkles} title="Thiên phú Monarch: Tại sao nó thiết yếu cho Reze">
+
+Trong Anime Vanguards, các thiên phú (traits) có thể quyết định sự sống còn của một đơn vị trong meta. Đối với Reze, thiên phú **Monarch** là đỉnh cao tuyệt đối. Với tỷ lệ quay trúng 0.1%, nó cực kỳ khó để sở hữu, nhưng những lợi ích mà nó mang lại cho một đơn vị có 3 lượt đặt là vô song. Monarch tỷ lệ cực tốt với các đơn vị có thể đặt nhiều lần, vì nó buff tổng đầu ra của tất cả các bản sao trên sân.
+
+Nếu bạn không thể quay trúng Monarch, có một số thiên phú \"bậc A\" khác có thể dùng tạm. Tuy nhiên, nếu bạn dự định sử dụng Reze cho chế độ vô tận hoặc các cuộc đột kích độ khó cao, bạn nên tiết kiệm đá quý quay lại để dành riêng cho bảo hiểm Monarch.
+
+<Steps>
+  <Step num="1" title="Quay Chỉ số Ban đầu">
+    Trước khi quay thiên phú, hãy sử dụng Stat Chips để hướng tới xếp hạng Z hoặc Z+ về Sát thương, SPA và Tầm đánh. Reze hưởng lợi nhiều nhất từ chỉ số SPA cao để kích hoạt nội tại nổ thường xuyên hơn.
+  </Step>
+  <Step num="2" title="Chiến thuật Quay lại Thiên phú">
+    Chỉ sử dụng đá quý quay lại khi bạn có một lượng dự trữ lớn. Vì Monarch có tỷ lệ 0.1%, bạn nên chuẩn bị chi tiêu từ 500 đến 1,500 lượt quay để đạt được nó một cách tự nhiên hoặc qua bảo hiểm.
+  </Step>
+  <Step num="3" title="Cài đặt Bộ lọc">
+    Đặt bộ lọc tự động quay của bạn chỉ cho \"Monarch\". Mặc dù \"Ethereal\" hoặc \"Dead Eye\" rất mạnh, chúng không cung cấp khả năng tăng tiến theo cấp số nhân mà Reze cần để đạt mức trần 5M+ DPS.
+  </Step>
+</Steps>
+
+| Tên Thiên phú | Bậc | Tóm tắt Hiệu ứng | Khuyến nghị |
+|:---|:---|:---|:---|
+| Monarch | SSS | Tăng mạnh DMG/SPA/Tầm đánh | Tốt nhất |
+| Ethereal | S | Tăng sát thương thuần cao | Lựa chọn thay thế tuyệt vời |
+| Dead Eye | A | Tăng đáng kể Tầm đánh | Tốt cho chế độ Cốt truyện |
+| Scholar | B | Thêm lượng XP nhận được | Chỉ dành cho giai đoạn đầu |
+
+<Callout type="success" title="Câu chuyện Thành công">
+Một Reze với thiên phú Monarch và chỉ số Z+ có thể đạt hơn 1.5 triệu sát thương mỗi lần đánh mà không cần buff bên ngoài. Khi kết hợp với nội tại \"Detonation\", sát thương này thực tế sẽ tăng gấp đôi đối với các mục tiêu đã bị đánh dấu.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kỹ năng Nội tại và Cơ chế Nổ">
+
+Điều khiến Reze khác biệt với các đơn vị AoE khác là hệ thống nội tại kép của cô. Cô không chỉ đánh mạnh; cô còn thiết lập các phản ứng dây chuyền có thể quét sạch toàn bộ các đợt kẻ thù có lượng máu cao. Hiểu cách \"Detonation\" và \"Hidden Spy\" tương tác là chìa khóa để làm chủ lối chơi của cô.
+
+**Nội tại Detonation (Kích nổ)**  
+Bất cứ khi nào Reze tấn công kẻ thù, chúng sẽ bị trạng thái \"Primed\" (Đã đánh dấu). Nếu cô (hoặc một bản sao khác của Reze) tấn công kẻ thù đã bị đánh dấu, nó sẽ kích hoạt một vụ nổ gây thêm 100% sát thương. Vụ nổ này không giới hạn ở một mục tiêu duy nhất; nó gây sát thương lên tới ba kẻ thù lân cận khác. Điều này khiến cô cực kỳ mạnh mẽ trước các đợt quái đi thành cụm.
+
+**Nội tại Hidden Spy (Gián điệp ẩn mình)**  
+Mỗi đợt quái thứ năm, Reze kích hoạt một cơ chế độc đáo, nơi cô nhận được 50% buff sát thương trong 30 giây nếu các điều kiện nhất định được đáp ứng trong đợt đó. Buff \"Hidden Spy\" này là thứ cho phép cô nhảy vọt từ mức sát thương tiêu chuẩn 1.5 triệu lên hơn 2.4 triệu sát thương giữa trận đấu.
+
+| Cấp Nâng cấp | Giá | Sát thương | Tầm đánh | Kỹ năng Mới |
+|:---|:---|:---|:---|:---|
+| Đặt đơn vị | 2,400 | 171,000 | 25.0 | Tấn công Cơ bản |
+| Nâng cấp 3 | 5,500 | 439,000 | 30.0 | Explosive Drop (AoE Hình tròn) |
+| Nâng cấp 6 | 8,200 | 854,000 | 35.0 | Explosive Rush (Lướt) |
+| Cấp Tối đa | 12,500 | 1,510,000 | 42.0 | Full AoE Blast (Nổ Toàn diện) |
+
+<Callout type="info" title="Tìm hiểu Cơ chế">
+Kỹ năng \"Explosive Drop\" thay đổi kiểu tấn công của cô thành AoE hình tròn. Đặt cô ở các góc hoặc khúc cua chữ \"U\" trên bản đồ sẽ tối đa hóa số lượng kẻ thù mà cô có thể đánh dấu và kích nổ cùng lúc.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tối ưu hóa Memoria: Drops of Serenity">
+
+Memoria **Drops of Serenity** là vật phẩm trang bị đặc trưng của Reze. Giống như chính đơn vị này, Memoria có thể được tiến hóa bằng Explosive Pins. Một Memoria được nâng cấp tối đa không chỉ cung cấp các chỉ số thô mà còn mang lại các tiện ích độc đáo giúp tăng cường khả năng kiểm soát đám đông của cô.
+
+<CardGrid cols={3}>
+  <Card title="Foreign Training">
+    - **Tăng 30% Sát thương**
+    - Nhắm mục tiêu cụ thể vào kẻ thù bị đánh dấu (Primed)
+    - Tính nhân với các buff khác
+  </Card>
+  <Card title="Shockwave">
+    - **Hiệu ứng Đẩy lùi**
+    - Đẩy lùi kẻ thù khi kích nổ
+    - Cung cấp thời gian trì hoãn thiết yếu
+  </Card>
+  <Card title="Solar Trait">
+    - **Tầm đánh & Sát thương**
+    - +25% Tầm đánh / +10% Sát thương
+    - Giúp bao phủ các khu vực bản đồ lớn hơn
+  </Card>
+</CardGrid>
+
+Để tiến hóa Memoria, bạn sẽ cần thêm 12 Explosive Pins. Khuyến nghị cao là nên ưu tiên tiến hóa đơn vị trước, sau đó mới tập trung vào tiến hóa Memoria khi Reze của bạn đạt cấp 100.
+
+<Callout type="warning" title="Quay Thiên phú">
+Đừng lãng phí quá nhiều đá quý để quay lại thiên phú Memoria sớm. Một thiên phú sát thương \"Solar\" hoặc \"Mythic\" đơn giản là đủ cho hầu hết các nội dung. Hãy dành tài nguyên của bạn cho thiên phú Monarch của đơn vị trước.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tối đa hóa DPS: Sự kết hợp Đội hình và Buff">
+
+Để đạt được mốc huyền thoại **5 Triệu DPS**, Reze không thể làm việc một mình. Cô yêu cầu một khung hỗ trợ cụ thể để khuếch đại đầu ra nổ của mình. Trong meta 2026 hiện tại, sự kết hợp của Brooke, Urza (Armored Mage) và Rukia vẫn là tiêu chuẩn vàng để buff cho các đơn vị Mythic.
+
+Khi tất cả các buff được kích hoạt, sát thương mỗi lần đánh của Reze tăng theo cấp số nhân. SPA nhanh của cô (khoảng 5.6 giây khi được buff) có nghĩa là cô liên tục kích nổ các dấu ấn của chính mình, tạo ra một vòng lặp các vụ nổ AoE khổng lồ mà ít kẻ thù nào có thể sống sót.
+
+<Checklist
+  id="max-dps-checklist"
+  title="Danh sách Kiểm tra Thiết lập Reze Tối thượng:"
+  items={[
+    "Tiến hóa Reze sang dạng Explosive Demon",
+    "Quay thiên phú Monarch (tỷ lệ 0.1%)",
+    "Trang bị và Tiến hóa Memoria Drops of Serenity",
+    "Triển khai Brooke để lấy buff 25% Sát thương/SPA từ bài hát",
+    "Sử dụng Urza (Armored Mage) để tăng sát thương Vanguard",
+    "Áp dụng hiệu ứng đóng băng của Rukia để gom nhóm mục tiêu và trì hoãn"
+  ]}
+/>
+
+| Đơn vị Hỗ trợ | Buff Cung cấp | Tác động lên Reze |
+|:---|:---|:---|
+| Brooke | 20% DMG / 10% SPA | Tăng tần suất kích nổ |
+| Urza | 50% DMG (Vanguard) | Tăng chỉ số thô khổng lồ |
+| Rukia | Đóng băng / Làm chậm | Gom nhóm kẻ thù cho các vụ nổ AoE |
+| Kết hợp | **Tổng tỷ lệ 300%+** | Đạt mức trần 5,000,000+ DPS |
+
+<Callout type="success" title="Lời kết">
+Reze hiện là một trong những đơn vị \"Banner\" mạnh nhất từng được phát hành trong Anime Vanguards. Mặc dù cô yêu cầu sự đầu tư đáng kể về ghim và đá quý quay lại, khả năng dọn sạch các đợt quái máu cao bằng cơ chế kích nổ khiến cô trở thành sự bổ sung bậc S cho bất kỳ đội hình nào.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để lấy Explosive Pins cho Reze?",
+    answer: "Explosive Pins nhận được bằng cách hoàn thành các Legend Stage trong bản cập nhật Chainsaw Man. Act 3 cung cấp tỷ lệ rơi ổn định nhất, và bạn cần tổng cộng 12 ghim cho quá trình tiến hóa của cô ấy."
+  },
+  {
+    question: "Reze có tốt hơn Makima hay Denji không?",
+    answer: "Reze vượt trội về sát thương AoE và phản ứng dây chuyền thông qua nội tại Detonation. Trong khi Makima cung cấp các tiện ích khác, Reze thường được coi là đơn vị DPS thô vượt trội để dọn quái khi được trang bị thiên phú Monarch."
+  },
+  {
+    question: "Tôi có thể sử dụng Reze mà không có thiên phú Monarch không?",
+    answer: "Có, Reze vẫn khả dụng với các thiên phú như Ethereal hoặc Dead Eye. Tuy nhiên, để đạt được tiềm năng tối đa hơn 5 triệu DPS, thiên phú Monarch là cần thiết do khả năng tăng tiến độc đáo với ba lượt đặt của cô."
+  },
+  {
+    question: "Memoria Drops of Serenity có hoạt động trên các đơn vị khác không?",
+    answer: "Mặc dù có thể trang bị cho các đơn vị khác, nhưng các nội tại 'Shockwave' và 'Foreign Training' là độc quyền cho Reze, khiến nó kém hiệu quả hơn đáng kể trên bất kỳ đơn vị nào khác."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Killua: Hướng dẫn Build & Showcase Tốt nhất",
+  description: "Làm chủ Kinnua (Killua) trong Anime Vanguards. Khám phá các nâng cấp, cơ chế cuồng nộ, các trait tốt nhất và sự hiệp đồng đội hình đỉnh cao để thống trị meta 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Killua+Build+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Anime Vanguards",
+  keywords: "Anime Vanguards, Killua, Kinnua, Build Guide, Showcase, Meta 2026"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime Vanguards Killua** (Kinnua) là một đơn vị Epic hệ Spark cực kỳ linh hoạt lấy cảm hứng từ Hunter x Hunter.
+- **Cơ chế Cuồng nộ (Frenzy)** tăng tốc độ tấn công bằng cách giảm 40% SPA trong 7 giây.
+- **Hiệp đồng Nhân đôi Sát thương** đạt được bằng cách kết hợp với Rukia/Rukio để đóng băng mục tiêu.
+- **Trait tối ưu** nên hướng tới là Monarch hoặc Godly để tối đa hóa tầm đánh và lượng sát thương đầu ra.
+- **Giới hạn đặt quân** lý tưởng là 5, cho phép bạn bao quát nhiều làn đường một cách hiệu quả.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về đơn vị Killua trong Anime Vanguards">
+
+Anime Vanguards Killua, chính thức được gọi trong trò chơi là Kinnua, là một đơn vị hiếm cấp Epic lấy cảm hứng từ sát thủ huyền thoại Killua Zoldyck trong Hunter x Hunter. Là một đơn vị hệ Spark, Kinnua mang đến sự kết hợp độc đáo giữa khống chế đám đông và sát thương bùng nổ tốc độ cao, khiến anh trở thành lựa chọn yêu thích của người hâm mộ cho các nội dung giữa game và các thiết lập giải đấu cụ thể. Trong meta 2026 hiện tại, người chơi thủ tháp thường tìm kiếm các đơn vị có thể dễ dàng phong tỏa các làn đường trong khi gây sát thương ổn định. Kinnua xuất sắc ở vai trò này nhờ các đòn tấn công đường thẳng rộng đa kích và cơ chế cuồng nộ đặc trưng.
+
+Để sở hữu Kinnua, người chơi phải triệu hồi anh từ Special Banner. Anh có tỷ lệ triệu hồi cơ bản là 1.67%, nghĩa là bạn sẽ cần một chút may mắn hoặc một lượng đá quý dự trữ kha khá để quay trúng. Anh là đơn vị có giới hạn 5 vị trí đặt, mang lại cho bạn nhiều sự linh hoạt để bao quát nhiều điểm nghẽn trên bản đồ. Hãy cùng đi sâu vào màn trình diễn đầy đủ về khả năng của anh qua các màn chơi khó nhất của trò chơi.
+
+**Điểm nhấn Video:**
+- Trình diễn Kinnua vượt qua thử thách ở nhiều chế độ chơi khó khác nhau.
+- Làm nổi bật sự gia tăng DPS khổng lồ khi kết hợp với Absolute Freeze của Rukia.
+- Trình diễn các lần vượt màn thành công trong GGX, AOT EX và Seed Raid.
+- Giải thích cách xử lý các cơ chế boss khó nhằn như cộng dồn giáp.
+
+<YouTubeEmbed videoId="Kthl1SnCXk8" title="Tournament #1 GRIM REAPER is BACK! Divinity Memoria KILLUA runs The Gauntlet | Anime Vanguards" />
+
+<Callout type="tip" title="Trang phục & Mỹ phẩm">
+Kinnua có một trang phục 'Suit' đặc biệt có thể nhận được từ Occult Hunt Banner, lấy cảm hứng từ bộ đồ trong phần Greed Island.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chỉ số, Chi phí nâng cấp và Cơ chế Cuồng nộ">
+
+Khi xây dựng đội hình Anime Vanguards Killua, việc hiểu rõ sự tăng trưởng chỉ số và lộ trình nâng cấp là rất quan trọng để tối đa hóa hiệu quả trong trận chiến. Anh bắt đầu với chi phí triển khai cơ bản là ¥525, rất phải chăng cho việc phòng thủ đầu trận. Tổng chi phí nâng cấp dừng lại ở mức ¥8,725, khiến anh trở thành một trong những đơn vị Epic tiết kiệm ngân sách nhất để nâng cấp tối đa trong một trận đấu.
+
+Bộ kỹ năng của anh xoay quanh hai nội tại độc đáo:
+1. **Trained Assassin (Sát thủ được đào tạo)**: Cứ sau mỗi 8 đến 16 giây, Kinnua sẽ rơi vào trạng thái cuồng nộ. Trong trạng thái này, Giây mỗi đòn đánh (SPA) của anh giảm 40% trong thời gian 7 giây. Sự gia tăng tốc độ mạnh mẽ này làm tăng vọt DPS của anh.
+2. **Lightning Strike (Tia chớp)**: Khi trạng thái cuồng nộ đang hoạt động, Kinnua nhận thêm +50% cơ hội gây choáng cho bất kỳ kẻ địch nào trúng đòn tấn công đường thẳng rộng của mình. Điều này cho phép anh hoạt động như một đơn vị khống chế đám đông đặc biệt, làm chậm các đợt quái di chuyển nhanh và tạo thời gian cho các đơn vị gây sát thương chính dọn dẹp.
+
+| Cấp độ / Nâng cấp | Chi phí | Sát thương | Tầm đánh | SPA | Mô tả |
+|---|---|---|---|---|---|
+| Đặt cơ bản | ¥525 | 46 | 15 | 4.0s | 3 Hit, Đường thẳng rộng tầm 5 |
+| Nâng cấp 1 | ¥750 | 64 | 15 | 4.0s | Tăng nhẹ sát thương |
+| Nâng cấp 2 | ¥1,100 | 89 | 15 | 3.5s | Cải thiện tốc độ đánh |
+| Nâng cấp 3 | ¥1,450 | 105 | 18 | 3.5s | Tăng tầm đánh và sát thương |
+| Nâng cấp 4 | ¥1,900 | 165 | 20 | 3.0s | Tăng mạnh chỉ số |
+| Nâng cấp 5 | ¥3,000 | 224 | 20 | 3.0s | Cấp độ nâng cấp tối đa |
+| Tổng chi phí | ¥8,725 | - | - | - | Lộ trình nâng cấp hoàn chỉnh |
+
+Như đã thấy trong bảng, SPA của Kinnua giảm từ mức cơ bản 3.0 giây xuống còn 1.8 giây cực nhanh ở cấp nâng cấp tối đa khi trạng thái cuồng nộ kích hoạt. Sự gia tăng tốc độ này, kết hợp với đòn tấn công đường thẳng rộng 3 hit, giúp anh cực kỳ hiệu quả trong việc phá vỡ các lớp khiên của boss và phong tỏa toàn bộ làn đường. Tầm đánh của anh cũng tăng lên mức cơ bản là 20, có thể được tăng thêm với các trait phù hợp và đơn vị hỗ trợ.
+
+| Cấp độ nâng cấp | SPA thông thường | SPA Cuồng nộ (-40%) | Tỷ lệ Choáng |
+|---|---|---|---|
+| Cơ bản / Nâng cấp 1 | 4.0s | 2.4s | 50% |
+| Nâng cấp 2 / 3 | 3.5s | 2.1s | 50% |
+| Nâng cấp 4 / 5 | 3.0s | 1.8s | 50% |
+
+<Callout type="warning" title="Quản lý thời gian hồi">
+Trạng thái Cuồng nộ kéo dài 7 giây nhưng có thời gian hồi từ 8 đến 16 giây. Việc đặt các đơn vị so le nhau sẽ đảm bảo khả năng khóa choáng liên tục.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hiệp đồng & Đội hình tốt nhất">
+
+Mặc dù Kinnua là một đơn vị độc lập mạnh mẽ, nhưng tiềm năng thực sự của anh chỉ được khai phá khi bạn xây dựng một đội hình xung quanh hệ Spark của anh. Trong Anime Vanguards, các tương tác hệ đóng vai trò to lớn trong các nội dung cấp cao. Đối tác hiệp đồng chính của Kinnua là Rukia (hoặc Rukio), người gây trạng thái đóng băng 'Absolute Zero' lên kẻ địch.
+
+Khi một đơn vị hệ Spark như Kinnua tấn công kẻ địch đang chịu ảnh hưởng của Absolute Zero, hiệu ứng sát thương sẽ được lặp lại. Tương tác này thực tế làm tăng gấp đôi lượng sát thương đầu ra của Kinnua, biến DPS cấp Epic ổn định của anh thành một nguồn lực tiêu diệt boss khổng lồ. Để thiết lập điều này, hãy đặt các đơn vị Rukia của bạn hơi phía trước Kinnua để họ áp dụng trạng thái đóng băng trước.
+
+Ngoài hiệp đồng hệ, Kinnua còn được hưởng lợi lớn từ các đơn vị tăng sát thương và tầm đánh tiêu chuẩn. Aizen (Eizan) rất được khuyến khích, vì buff của anh ta cung cấp 50% sát thương và 20% tầm đánh. Kết hợp Aizen với Brooke (Skele King) để lấy buff tấn công đầy đam mê sẽ đảm bảo sát thương cơ bản của Kinnua được đẩy tới giới hạn tuyệt đối. Với một chu kỳ buff đầy đủ và một Memoria cấp cao, tầm đánh của Kinnua có thể dễ dàng vượt quá 50, cho phép các đòn sấm sét đường thẳng rộng của anh bao phủ toàn bộ bản đồ.
+
+| Đơn vị đối tác | Vai trò | Hiệu ứng hiệp đồng chính |
+|---|---|---|
+| Rukia / Rukio | Hỗ trợ đóng băng | Áp dụng Absolute Zero, nhân đôi sát thương Spark |
+| Aizen / Eizan | Sát thương & Tầm đánh | Tăng +50% sát thương và +20% tầm đánh |
+| Brooke / Skele King | Buff tấn công | Tăng sức mạnh tấn công thô với buff bài hát |
+| Orihime / Orehimi | Hỗ trợ thanh tẩy | Thanh tẩy kiểm soát tâm trí trong GGX và bản đồ boss |
+
+<CardGrid cols={3}>
+  <Card title="Thiết lập Phá băng">
+    - **Đơn vị chính**: Kinnua (Killua)
+    - **Hỗ trợ**: Rukia (Absolute Zero)
+    - **Chiến thuật**: Chu kỳ nhân đôi DPS
+  </Card>
+  <Card title="Thiết lập Siêu Buff">
+    - **Đơn vị chính**: Kinnua (Killua)
+    - **Hỗ trợ**: Aizen + Brooke
+    - **Chiến thuật**: Tầm đánh tối đa & sát thương thô
+  </Card>
+  <Card title="Thiết lập Khóa CC Boss">
+    - **Đơn vị chính**: Kinnua (Killua)
+    - **Hỗ trợ**: Đặt quân so le
+    - **Chiến thuật**: Cuồng nộ gây choáng 50% liên tục
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sức mạnh Absolute Zero">
+Luôn đặt các đơn vị Rukia cách nhau 3 giây. Điều này đảm bảo thời gian duy trì đóng băng tuyệt đối, giúp Killua gây sát thương gấp đôi 100% thời gian.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Khả năng trong các Chế độ chơi và Showcase Hiệu suất">
+
+Kinnua đã được thử nghiệm kỹ lưỡng qua nhiều màn chơi độ khó cao để xem anh thể hiện như thế nào trong meta 2026. Dưới đây là phân tích về hiệu suất của anh trong các chế độ chơi khác nhau:
+
+- **Seed Raid**: Kinnua hoàn toàn tỏa sáng ở đây khi kết hợp với Rukia. Boss Lord of the Shadows có nhiều giai đoạn miễn nhiễm và các cơ chế phiền phức, nhưng combo nhân đôi sát thương Absolute Zero sẽ làm tan chảy thanh máu của hắn trước khi các cơ chế này có thể trì hoãn trận đấu của bạn.
+- **Màn GGX (Champion Modifier)**: Màn chơi này có boss cuối có thể kiểm soát tâm trí các đơn vị của bạn và có các lớp giáp nặng yêu cầu 8 đòn đánh riêng lẻ để phá vỡ. Đòn tấn công đường thẳng rộng 3 hit của Kinnua giúp phá vỡ các lớp giáp một cách nhanh chóng. Bằng cách triển khai Orihime để thanh tẩy kiểm soát tâm trí và đặt các Kinnua so le để duy trì khóa choáng liên tục, bạn có thể vượt qua màn này một cách dễ dàng.
+- **Màn AOT EX**: Kinnua xử lý các đợt quái khổng lồ và các titan hạt nhân một cách tuyệt vời. Nhờ tầm đánh được buff khổng lồ, anh có thể tấn công các mục tiêu từ khắp bản đồ, và các đòn choáng tần suất cao của anh ngăn chặn những gã khổng lồ hồi phục nhanh ngay tại chỗ.
+- **Rifts**: Đây là nơi Kinnua gặp đối thủ xứng tầm. Các boss Rift có lượng máu lên tới 135 triệu HP, và vì Kinnua thiếu các cơ chế tăng tiến sức mạnh vô hạn như Song Jinwu hay Alucard, anh sẽ gặp khó khăn để giành chiến thắng ở đây. Tuy nhiên, đối với một đơn vị Epic, hiệu suất của anh vẫn rất đáng khen ngợi.
+
+<Steps>
+  <Step num="1" title="Đặt Speedwagon trước">
+    Ưu tiên nâng cấp tối đa các đơn vị farm như Speedwagon sớm để đảm bảo đủ tiền cho các nâng cấp.
+  </Step>
+  <Step num="2" title="Đặt Kinnua so le">
+    Đặt 5 đơn vị Kinnua cách nhau một chút để làm lệch chu kỳ cuồng nộ của họ, đảm bảo gây choáng ổn định.
+  </Step>
+  <Step num="3" title="Thiết lập hỗ trợ Rukia">
+    Đặt các đơn vị Rukia ở phía trên để áp dụng trạng thái Absolute Zero trước khi kẻ địch tiến vào tầm đánh của Kinnua.
+  </Step>
+  <Step num="4" title="Triển khai các đơn vị Buff">
+    Kích hoạt buff của Aizen và Brooke để tăng tầm đánh của Kinnua lên trên 50 và làm tăng vọt sát thương cơ bản.
+  </Step>
+</Steps>
+
+<Checklist
+  id="killua-goals"
+  title="Danh sách mục tiêu tiến trình Kinnua:"
+  items={[
+    "Triệu hồi Kinnua từ Special Banner",
+    "Quay được trait Godly hoặc Monarch để có chỉ số tầm đánh cao",
+    "Trang bị Memoria hoặc Familiar cấp cao",
+    "Kết hợp với Rukia cho combo nhân đôi sát thương Absolute Zero",
+    "Vượt qua thành công màn GGX với đầy đủ các buff"
+  ]}
+/>
+
+<Callout type="info" title="Lưu ý về Rift">
+Mặc dù Kinnua thống trị các màn cốt truyện và EX, nhưng việc thiếu khả năng tăng tiến sức mạnh vô hạn đồng nghĩa với việc anh không được khuyến khích cho các Rift cấp cao với boss có hơn 100 triệu HP.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Câu hỏi thường gặp">
+
+Để kết thúc hướng dẫn của chúng tôi, hãy cùng giải đáp một số câu hỏi phổ biến nhất mà người chơi thường gặp khi sử dụng Kinnua trong đội hình của mình.
+
+<FAQ items={[
+  {
+    question: "Đơn vị Killua trong Anime Vanguards có thực sự tốt trong meta không?",
+    answer: "Có, đơn vị Killua trong Anime Vanguards (Kinnua) là một lựa chọn Epic cực kỳ linh hoạt. Mặc dù anh nằm ở mức tầm trung về DPS đơn mục tiêu thô, nhưng hiệp đồng hệ Spark của anh với các đơn vị đóng băng khiến anh trở thành một nguồn gây sát thương hàng đầu trong các đội hình cụ thể [1.2.5]."
+  },
+  {
+    question: "Làm thế nào để kích hoạt hiệu ứng nhân đôi sát thương với Killua?",
+    answer: "Bạn phải kết hợp Kinnua với một đơn vị hệ băng như Rukia. Khi Rukia gây trạng thái đóng băng 'Absolute Zero', hệ Spark của Kinnua sẽ kích hoạt hiệu ứng lặp lại sát thương, thực tế là nhân đôi DPS của anh."
+  },
+  {
+    question: "Trait nào tốt nhất cho Killua trong Anime Vanguards?",
+    answer: "Trait Monarch hoặc Godly rất được khuyến khích. Những trait này tăng đáng kể sát thương và tầm đánh của anh, cho phép các đòn choáng cuồng nộ của anh bao phủ gần như toàn bộ bản đồ khi được buff đầy đủ."
+  },
+  {
+    question: "Killua có tối đa bao nhiêu vị trí đặt?",
+    answer: "Kinnua có giới hạn đặt tối đa là 5 đơn vị. Việc đặt họ cách nhau cho phép bạn làm so le các đòn choáng cuồng nộ và phong tỏa các làn đường di chuyển nhanh."
+  }
+]} />
+
+<Callout type="tip" title="Lời kết">
+Kinnua vẫn là một trong những đơn vị Epic đáng chơi nhất vào năm 2026. Nếu bạn yêu thích các cơ chế khóa choáng và các đòn tấn công cuồng nộ tốc độ cao, anh ấy hoàn toàn xứng đáng để đầu tư.
+</Callout>
+
+</Section>

@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rey Exánime de Anime Vanguards: Guía de Configuración y Mejores Combos de Hechizos",
+  description: "Domina la unidad del Rey Exánime de Anime Vanguards en la Actualización 9.5. Aprende las mejores combinaciones de hechizos, estrategias para el modo infinito y cómo usar objetos del mundo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Lich+King+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Rey Exánime de Anime Vanguards**: Unidad de soporte y DPS sumamente versátil que cuesta 1,000 Yen para colocar en el campo.
+- **Mecánica de Rotación de Hechizos**: Equipa menos hechizos para asegurar una rotación más rápida de tus habilidades más poderosas.
+- **Mejores Elementos**: Maldición (Curse) y Pasión (Passion) son los elementos más fuertes, ofreciendo invocaciones masivas y debilitamientos (debuffs).
+- **Ataques Definitivos para el Juego Tardío**: Utiliza Ouroboros y El Fin de Toda Vida es la Muerte (The Goal of All Life is Death) pasando la oleada 50.
+</Callout>
+
+<Section icon={Sparkles} title="Descripción General y Estadísticas Clave del Rey Exánime">
+
+El **Rey Exánime de Anime Vanguards** se ha consolidado como una de las unidades más poderosas y mecánicamente únicas en el meta de la Actualización 9.5. Operando como una vanguardia de tipo Gobernante (Ruler), esta unidad introduce un sistema de lanzamiento de hechizos que redefine por completo cómo los jugadores abordan la defensa de oleadas. A diferencia de las unidades tradicionales que ejecutan automáticamente un único patrón de ataque, este personaje depende enteramente de un libro de hechizos personalizable para infligir daño, invocar aliados y aplicar control de masas.
+
+**Puntos Clave del Video:**
+- **Dependencia de Elementos**: Aprende cómo sus hechizos dependen en gran medida de combinar los elementos de tu equipo para funcionar.
+- **Optimización de Ranuras de Hechizo**: Descubre por qué equipar menos hechizos suele ser más eficiente que llenar todas las ranuras.
+- **Ataques Definitivos para el Juego Tardío**: Observa el potencial devastador de Ouroboros y El Fin de Toda Vida es la Muerte en escenarios de oleadas altas.
+
+<YouTubeEmbed videoId="4e8AiDeeE6s" title="How To *BEST* Use Lich King In Anime Vanguards Update 9.5!" />
+
+Comprender su relación costo-rendimiento es esencial para el despliegue en el juego temprano. Aunque su costo de mejora máximo es excepcionalmente alto, su costo de colocación base es increíblemente bajo, de tan solo 1,000 Yen. Esto te permite colocarlo en el campo durante la primerísima oleada para establecer un control temprano. Afortunadamente, sus estadísticas de mejora media son altamente eficientes, lo que significa que no necesitas mejorarlo al máximo de inmediato para obtener un excelente valor.
+
+| Fase de Mejora | Costo | Daño Infligido | Valor de Utilidad | Recomendación Estratégica |
+|---|---|---|---|---|
+| Colocación Base | 1,000 Yen | Moderado | Alto | Colocar temprano para asegurar los carriles |
+| Mejoras Medias | Moderado | Alto | Muy Alto | Mantener en este nivel durante la fase de farmeo temprano |
+| Mejora Máxima | Muy Alto | Extremo | Máximo | Mejorar al máximo solo en las oleadas del juego tardío |
+
+<Callout type="warning" title="Prioridad de Mejora">
+No te apresures a mejorar esta unidad al máximo en las primeras oleadas. Sus estadísticas de mejora media son sumamente eficientes, lo que te permite concentrar tus fondos del juego temprano en maximizar tus unidades de farmeo primero.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="La Mecánica de Rotación de Hechizos y Sinergia Elemental">
+
+La mecánica central de esta unidad gira en torno a sus cuatro ranuras de hechizos. No atacará a menos que configures manualmente sus hechizos. Cuando se equipan múltiples hechizos, rota a través de ellos de manera secuencial: lanzando la ranura uno, luego la dos, luego la tres y finalmente la cuatro antes de volver al inicio de la cola.
+
+Debido a esta rotación secuencial, llenar las cuatro ranuras puede reducir drásticamente la eficiencia de tus hechizos más importantes. Por ejemplo, si necesitas que un debilitamiento específico permanezca activo en los enemigos en todo momento, equipar otros hechizos retrasará el relanzamiento de ese debilitamiento, creando una peligrosa ventana de vulnerabilidad.
+
+| Elemento | Tier | Hechizo Clave | Efecto Principal | Recomendación |
+|---|---|---|---|---|
+| Curse (Maldición) | Tier S | Create Greater Undead | Invoca unidades poderosas | El mejor para daño bruto en caminos únicos |
+| Passion (Pasión) | Tier S | Aura of Despair | Debilitamiento de área masivo | Equipar solo para mantener el debuff activo el 100% del tiempo |
+| Cosmic (Cósmico) | Tier A | Cosmic Slow | Aplica un 50% de ralentización por 30s | Excelente utilidad para enemigos rápidos |
+| Unbound (Desatado) | Tier A | Unbound Haste | Aumenta la velocidad de ataque de las unidades | Úsalo para maximizar el DPS general |
+| Elementless (Sin Elemento) | Tier A | Undead Control | Revive a los enemigos derrotados | El mejor para defensa en caminos múltiples |
+| Water/Spark/Nature | Tier C | Stun / Cleanse | Control de masas mediocre | Evítalos debido a la débil sinergia actual de unidades |
+
+La fuerza de sus hechizos también depende en gran medida de la composición elemental de tu equipo activo. Para utilizar hechizos de Maldición (Curse), debes llevar unidades alineadas con Maldición en tu equipo. De manera similar, los hechizos de Pasión (Passion) requieren unidades alineadas con Pasión. Para eludir estas estrictas restricciones, puedes utilizar unidades Desatadas (Unbound), que actúan como comodines y cuentan para cualquier requisito elemental, haciendo que la creación de equipos sea mucho más flexible.
+
+<Callout type="tip" title="Estrategia de Ranuras de Hechizo">
+Si estás usando esta unidad estrictamente para control de masas o debilitamientos, equipa únicamente el hechizo del elemento Pasión (Passion). Esto lo obligará a lanzar Aura of Despair en cada uno de sus ataques, asegurando una presencia constante del debilitamiento sin retrasos por rotación.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Configuración Paso a Paso para Mapas de Camino Único vs. Caminos Múltiples">
+
+Los diferentes diseños de mapas requieren configuraciones de hechizos completamente distintas. Usar la configuración incorrecta puede provocar filtraciones de enemigos y partidas fallidas. Sigue esta guía de configuración sistemática para optimizar tu selección de hechizos según el mapa que estés jugando.
+
+<Steps>
+  <Step num="1" title="Analiza el Diseño del Mapa">
+    Identifica si el escenario presenta un camino único y unificado o múltiples caminos ramificados. Los mapas de camino único permiten que las invocaciones viajen de manera eficiente, mientras que los mapas de múltiples caminos dividen tus fuerzas y dejan carriles completamente indefensos.
+  </Step>
+  <Step num="2" title="Configura tu Conjunto de Hechizos">
+    Para mapas de camino único, selecciona hechizos de Maldición (Curse) como Create Greater Undead y Supreme Summoning para abrumar a los enemigos con invocaciones poderosas. Para mapas de múltiples caminos, desequipa por completo los hechizos de Maldición y confía únicamente en hechizos Sin Elemento (Elementless) como Undead Control.
+  </Step>
+  <Step num="3" title="Optimiza la Colocación y la Mejora">
+    Coloca la unidad cerca del frente del carril donde su rango de ataque pueda cubrir la mayor parte del camino. Mejóralo a sus niveles intermedios para desbloquear el escalado de sus estadísticas principales mientras mantienes tu economía equilibrada para las unidades de farmeo.
+  </Step>
+</Steps>
+
+En mapas de múltiples caminos, las invocaciones tradicionales son muy ineficientes porque se dividen aleatoriamente por diferentes rutas. Undead Control resuelve este problema reviviendo a los enemigos derrotados exactamente donde mueren, creando bloqueos localizados justo en el carril activo. Esto asegura que ningún camino quede indefenso, independientemente de cuántos carriles tenga el mapa.
+
+<Callout type="success" title="Rutas de las Invocaciones">
+En mapas de camino único, incluso una invocación de nivel uno puede atrapar fácilmente a los enemigos que se filtren. Esto hace que el elemento Maldición (Curse) sea excepcionalmente seguro para el progreso en solo y el farmeo del modo historia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Modo Infinito y Estrategia de Ataque Definitivo para el Juego Tardío">
+
+Al avanzar más allá de la oleada 50 en el Modo Infinito, las unidades de DPS estándar comienzan a perder efectividad debido al escalado exponencial de la salud de los enemigos. Aquí es donde esta unidad brilla de verdad, ofreciendo una utilidad revolucionaria y ataques definitivos capaces de limpiar la pantalla que omiten por completo las mecánicas de combate tradicionales.
+
+<CardGrid cols={3}>
+  <Card title="Utilidad de la Caloric Stone (Piedra Calórica)">
+    - **Otorga una 7.ª ranura de unidad** a la alineación activa de tu equipo.
+    - Te permite llevar configuraciones de farmeo completas junto con el máximo DPS.
+    - Hace que la colocación de la unidad sea completamente gratuita sin desperdiciar ranuras.
+  </Card>
+  <Card title="Estrategia (Cheese) de Ouroboros">
+    - **Reescribe la vida de los enemigos a 1** en fases avanzadas del juego.
+    - Facilita enormemente los jefes que tienen miles de millones de puntos de vida.
+    - Esencial para escalar en las tablas de clasificación de oleadas altas.
+  </Card>
+  <Card title="Evasión de Muerte">
+    - **Ignora todas las inmunidades** y efectos que se activan al morir.
+    - Limpia instantáneamente la pantalla de hordas de enemigos comunes de alta amenaza.
+    - Se activa a través del hechizo "The Goal of All Life is Death" (El Fin de Toda Vida es la Muerte).
+  </Card>
+</CardGrid>
+
+La combinación de los objetos del mundo Caloric Stone y Ouroboros lo convierte en un recurso indispensable para competir en las tablas de clasificación. La Caloric Stone básicamente te permite desplegarlo como una séptima unidad adicional, lo que significa que no tienes que sacrificar una valiosa ranura de farmeo o DPS. Una vez que alcanzas el juego ultra tardío, el ataque definitivo de Ouroboros te permite reescribir la salud de jefes con miles de millones de HP a un solo punto, permitiendo ejecuciones instantáneas.
+
+| Objeto del Mundo / Hechizo | Efecto Principal | Enfriamiento / Uso | Valor Estratégico |
+|---|---|---|---|
+| Caloric Stone | Añade una 7.ª ranura de equipo activo | Pasivo | Permite el despliegue libre sin sacrificar unidades principales |
+| Ouroboros | Reescribe la vida de los enemigos a 1 | Limitado | Derrota instantáneamente a jefes de oleadas altas con miles de millones de HP |
+| The Goal of All Life is Death | Mata instantáneamente a no-jefes | Enfriamiento Largo | Limpia la pantalla de oleadas densas e ignora inmunidades |
+
+<Callout type="info" title="Meta del Modo Infinito">
+El Ouroboros es actualmente la herramienta definitiva que define el meta para escalar en las tablas de clasificación. Reescribir la salud de un jefe de 4 mil millones a 1 permite una ejecución instantánea, evitando horas de tedioso daño progresivo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Tareas y Objetivos de Progreso">
+
+Para dominar por completo a esta unidad y maximizar su potencial en tus partidas, intenta completar los siguientes objetivos de progreso.
+
+<Checklist
+  id="lich-king-progression"
+  title="Objetivos de Maestría del Rey Exánime:"
+  items={[
+    "Obtener el objeto del mundo Caloric Stone para desbloquear la 7.ª ranura de equipo.",
+    "Adquirir unidades de Maldición (Curse) de primer nivel como Sukuna o Hollow Knight para maximizar el escalado de los hechizos de Maldición.",
+    "Dominar la estrategia de rotación de un solo hechizo para mantener debilitamientos de alta duración.",
+    "Alcanzar la Oleada 50+ en el Modo Infinito para utilizar con éxito la estrategia de reescritura de HP de Ouroboros."
+  ]}
+/>
+
+<Callout type="tip" title="Sinergias de Equipo">
+Combinar esta unidad con personajes de nivel alto alineados con Maldición (Curse) no solo cumple con los requisitos de sus hechizos elementales, sino que también crea una composición de equipo altamente sinérgica capaz de superar los desafíos más difíciles del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes (FAQ) del Rey Exánime">
+
+<FAQ items={[
+  {
+    question: "¿Cómo hago para que el Rey Exánime de Anime Vanguards ataque?",
+    answer: "No atacará automáticamente al ser colocado. Debes abrir el menú de la unidad y equipar manualmente al menos un hechizo de tu libro de hechizos desbloqueados para que comience a actuar en el campo de batalla."
+  },
+  {
+    question: "¿Por qué mis invocaciones se dividen y dejan que los enemigos se filtren?",
+    answer: "En mapas con múltiples caminos, las invocaciones se dividirán aleatoriamente entre los carriles disponibles. Para evitar esto, desequipa las invocaciones de Maldición (Curse) y usa el hechizo Sin Elemento (Elementless) Undead Control, que revive a los enemigos directamente donde mueren."
+  },
+  {
+    question: "¿Cuál es el beneficio de equipar un solo hechizo?",
+    answer: "Equipar un solo hechizo obliga a la unidad a lanzar esa habilidad específica en cada ataque. Esto es muy beneficioso para hechizos de utilidad como Aura of Despair o Cosmic Slow, asegurando un 100% de tiempo de actividad en debilitamientos cruciales."
+  },
+  {
+    question: "¿Cómo funciona el objeto del mundo Ouroboros en el Modo Infinito?",
+    answer: "El Ouroboros te permite reescribir la vida de todos los enemigos en pantalla a 1. Esto es increíblemente poderoso después de la oleada 50, permitiéndote derrotar instantáneamente a jefes que tienen miles de millones de puntos de vida."
+  }
+]} />
+
+<Callout type="info" title="Futuras Actualizaciones del Meta">
+Mantente atento a los futuros parches de actualización en 2026. A medida que se introduzcan en el juego nuevas unidades de agua (Water) o naturaleza (Nature) de alto nivel, la lista de tiers de sinergia elemental podría cambiar, haciendo que combinaciones de hechizos previamente débiles se vuelvan muy viables.
+</Callout>
+
+</Section>

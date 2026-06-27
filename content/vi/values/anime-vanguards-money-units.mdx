@@ -1,0 +1,237 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Đơn vị kiếm tiền trong Anime Vanguards: Bảng xếp hạng Farm tốt nhất & Hướng dẫn thiết lập",
+  description: "Tối đa hóa nền kinh tế của bạn trong Anime Vanguards. So sánh Nami, Sprintwagon và Takaroda để xây dựng đội hình tạo tài nguyên tối ưu giúp kiếm vàng nhanh chóng trong năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Money+Units+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Mục tiêu chính**: Triển khai các **đơn vị kiếm tiền trong Anime Vanguards** sớm là điều cần thiết để cấp vốn cho các chủ lực DPS hệ Mythic và Secret có giá nâng cấp cao.
+- **Lựa chọn Meta hàng đầu**: **Takaroda** vẫn là vị vua tạo thu nhập thụ động thuần túy cho các trận đấu dài, mang lại tới 13.000 Yên khi được trang bị Memoria chuyên dụng của mình.
+- **Farm chủ động**: **Nami** là lựa chọn tốt nhất cho lối chơi chủ động, cung cấp phần thưởng rương tỷ lệ vô hạn và tăng 30% sát thương thuộc tính Spark.
+- **Chiến thuật tiết kiệm**: Triển khai chính xác **hai Sprintwagon** thay vì ba để tránh hiệu ứng giảm dần hiệu quả từ nội tại Capitalist [giVzT9lE_XE].
+</Callout>
+
+<Section icon={Map} title="Tổng quan về các Đơn vị kiếm tiền trong Anime Vanguards">
+
+Trong Anime Vanguards, quản lý nền kinh tế của bạn cũng quan trọng như việc sắp xếp vị trí cho các đơn vị gây sát thương mạnh nhất. Việc sử dụng các **đơn vị kiếm tiền trong Anime Vanguards** (thường được gọi là đơn vị farm) cho phép bạn tạo ra một lượng Yên khổng lồ sau mỗi đợt quái (wave). Lượng tiền mặt bổ sung này là vô cùng quan trọng để nâng cấp các đơn vị Mythic và Secret đắt đỏ trước khi các con trùm hoặc đợt quái tinh nhuệ tràn qua hàng phòng ngự của bạn. Không giống như các đơn vị DPS thông thường, các nhân vật chuyên dụng này không tấn công kẻ thù trực tiếp. Thay vào đó, họ tập trung hoàn toàn vào việc tạo ra tài lộc, biến họ thành xương sống của bất kỳ chiến thuật giai đoạn cuối game (endgame) thành công nào.
+
+**Điểm nhấn Video:**
+- **Sắp xếp Sprintwagon**: Khám phá lý do tại sao việc đặt Sprintwagon thứ ba thực sự gây hại cho nền kinh tế của bạn [giVzT9lE_XE].
+- **Tỷ lệ Rương của Nami**: Tìm hiểu cách hoạt động của cơ chế rương của Nami và cách tối đa hóa việc thu thập vàng chủ động.
+- **Sự thống trị của Takaroda**: Hiểu về tỷ suất hoàn vốn (ROI) giúp Takaroda trở thành lựa chọn tối cao cho các trận đấu dài hơi.
+
+<YouTubeEmbed videoId="giVzT9lE_XE" title="Ai là Farm tốt nhất trong AV? | Anime Vanguards (hướng dẫn nhanh)" />
+
+Cho dù bạn đang vượt qua Chế độ Cốt truyện (Story Mode) hay cố gắng sống sót trong các màn chơi Vô tận (Infinite) có độ khó cao, việc lựa chọn đúng đơn vị farm sẽ quyết định tốc độ tiến trình của bạn. Meta vào năm 2026 đã ổn định xung quanh ba lựa chọn chính: Sprintwagon, Nami và Takaroda. Mỗi đơn vị này đóng một vai trò riêng biệt tùy thuộc vào thời gian của trận đấu và mức độ sẵn sàng tương tác chủ động của bạn với bản đồ.
+
+<Callout type="tip" title="Ưu tiên Kinh tế">
+Luôn ưu tiên nâng cấp các đơn vị kiếm tiền của bạn trong những đợt quái đầu tiên của trận đấu. Bạn nâng cấp tối đa các nông trại của mình càng nhanh, bạn sẽ càng sớm thu hồi vốn đầu tư ban đầu và bắt đầu tạo ra lợi nhuận thuần túy để cấp vốn cho các chủ lực gánh team.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="So sánh các Đơn vị kiếm tiền tốt nhất trong Anime Vanguards">
+
+Để xây dựng một đội hình hiệu quả nhất, bạn phải hiểu sự khác biệt về mặt toán học giữa mỗi **đơn vị kiếm tiền trong Anime Vanguards** hiện có. Mỗi đơn vị có một cấu trúc giá nâng cấp, giới hạn số lượng đặt và sản lượng tối đa riêng biệt. Việc chọn sai đơn vị cho một trận đấu ngắn có thể dẫn đến việc thất bại trước khi nông trại của bạn kịp thu hồi vốn.
+
+<CardGrid cols={3}>
+  <Card title="Sprintwagon">
+    - **Độ hiếm**: Epic
+    - **Giới hạn đặt**: 3 (Nên dùng 2)
+    - **Tốt nhất cho**: Các nhiệm vụ cốt truyện ngắn và tiến trình đầu game.
+    - **Tính năng chính**: Chi phí ban đầu thấp và hoàn vốn nhanh chóng.
+  </Card>
+  <Card title="Nami">
+    - **Độ hiếm**: Mythic
+    - **Giới hạn đặt**: 1 (Tempest Pirate)
+    - **Tốt nhất cho**: Lối chơi chủ động và sự phối hợp đội hình thuộc tính Spark.
+    - **Tính năng chính**: Rương kho báu tăng tỷ lệ vô hạn và hiệu ứng bất lợi Spark.
+  </Card>
+  <Card title="Takaroda">
+    - **Độ hiếm**: Legendary
+    - **Giới hạn đặt**: 1
+    - **Tốt nhất cho**: Các chế độ cuối game dài, Paragon và các màn chơi Vô tận (Infinite).
+    - **Tính năng chính**: Sản lượng thô mỗi wave tối đa nhưng chi phí nâng cấp cao.
+  </Card>
+</CardGrid>
+
+Để giúp bạn đưa ra quyết định tốt nhất cho lượt chơi tiếp theo, đội ngũ của chúng tôi đã tổng hợp các số liệu thống kê cơ bản cho từng đơn vị farm trong các bảng dưới đây.
+
+#### So sánh Chỉ số Cơ bản và Kinh tế
+
+| Tên Đơn vị | Độ hiếm | Chi phí Đặt | Chi phí Nâng cấp Tối đa | Sản lượng Cơ bản Tối đa | Giới hạn Đặt |
+| --- | --- | --- | --- | --- | --- |
+| Sprintwagon | Epic | 550 | 9.000 | 2.550 | 3 |
+| Nami (Tempest Pirate) | Mythic | 550 | 26.000 | 10.000 | 1 |
+| Takaroda | Legendary | 800 | 39.000 | 10.000 | 1 |
+
+#### Lộ trình Nâng cấp & ROI của Sprintwagon
+
+| Cấp nâng cấp | Chi phí | Yên mỗi Wave | ROI (Số Wave hoàn vốn) |
+| --- | --- | --- | --- |
+| Đặt | 550 | 250 | 2.2 |
+| Nâng cấp 1 | 1.050 | 550 | 3.5 |
+| Nâng cấp 2 | 1.800 | 1.050 | 3.6 |
+| Nâng cấp 3 | 2.550 | 1.800 | 3.4 |
+| Nâng cấp 4 | 3.050 | 2.550 | 4.0 |
+
+#### Lộ trình Nâng cấp & ROI của Takaroda
+
+| Cấp nâng cấp | Chi phí | Yên mỗi Wave | ROI (Số Wave hoàn vốn) |
+| --- | --- | --- | --- |
+| Đặt | 800 | 326 | 2.5 |
+| Nâng cấp 1 | 2.500 | 788 | 3.2 |
+| Nâng cấp 2 | 3.125 | 1.500 | 4.0 |
+| Nâng cấp 3 | 10.000 | 4.100 | 6.7 |
+| Nâng cấp 4 | 12.500 | 10.000 | 7.2 |
+
+#### Lộ trình Nâng cấp & ROI của Nami
+
+| Cấp nâng cấp | Chi phí | Yên mỗi Wave (Cơ bản) | Yên khi có Memoria |
+| --- | --- | --- | --- |
+| Đặt | 550 | 550 | 1.000 |
+| Nâng cấp 1 | 2.100 | 1.200 | 2.600 |
+| Nâng cấp 2 | 4.100 | 2.100 | 4.100 |
+| Nâng cấp 3 | 8.600 | 5.000 | 8.600 |
+| Nâng cấp 4 | 12.000 | 10.000 | 12.000 |
+
+<Callout type="warning" title="Hiệu ứng Giảm dần của Capitalist">
+Nội tại *Capitalist* của Sprintwagon giảm 50% lượng Yên tạo ra cho mỗi đơn vị đặt thêm sau đơn vị đầu tiên. Việc đặt Sprintwagon thứ ba tốn 8.000 Yên để nâng cấp tối đa nhưng chỉ mang lại thêm 400 Yên mỗi wave, khiến nó cực kỳ kém hiệu quả [giVzT9lE_XE]. Hãy chỉ đặt chính xác hai đơn vị [giVzT9lE_XE]!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Thiết lập Từng bước: Tối đa hóa Thu nhập mỗi Wave">
+
+Thực hiện một thứ tự thiết lập chính xác là chìa khóa để làm chủ nền kinh tế trong trò chơi của bạn. Nếu bạn chi quá nhiều tiền cho phòng thủ từ sớm, nông trại của bạn sẽ bị chậm sinh lời. Ngược lại, đầu tư quá nhiều vào nông trại mà không có sự bảo vệ thích đáng sẽ dẫn đến thất bại nhanh chóng. Hãy làm theo sơ đồ tối ưu hóa này để tận dụng tối đa các **đơn vị kiếm tiền trong Anime Vanguards** của bạn.
+
+<Steps>
+  <Step num="1" title="Đảm bảo Phòng thủ Sớm">
+    Triển khai một đơn vị DPS giá rẻ, hiệu quả cao (chẳng hạn như một chủ lực Epic hoặc Legendary chi phí thấp) gần điểm bắt đầu đường đi của kẻ thù. Điều này đảm bảo bạn có thể sống sót qua ba đợt quái đầu tiên mà không để lọt những kẻ thù nhanh nhẹn.
+  </Step>
+  <Step num="2" title="Đặt Đơn vị Farm Đầu tiên">
+    Ngay khi bạn tích lũy đủ Yên, hãy đặt đơn vị kiếm tiền chính của mình. Đối với Sprintwagon hoặc Nami, chi phí này là 550 Yên, trong khi Takaroda yêu cầu 800 Yên. Hãy đặt chúng ở một góc an toàn, tránh xa các đường chiến đấu chủ động.
+  </Step>
+  <Step num="3" title="Nâng cấp Nông trại Dần dần">
+    Không nên đặt dồn dập nhiều nông trại ngay lập tức [giVzT9lE_XE]. Hãy nâng cấp đơn vị farm đầu tiên của bạn lên ít nhất cấp 2 hoặc 3 trước khi đặt đơn vị thứ hai (nếu sử dụng Sprintwagon) [giVzT9lE_XE]. Điều này đảm bảo lượng tiền chi trả ngay lập tức sau mỗi wave cao hơn.
+  </Step>
+  <Step num="4" title="Thu thập Rương Chủ động (Chỉ dành cho Nami)">
+    Nếu bạn đang sử dụng Nami, hãy để mắt kỹ đến bản đồ [giVzT9lE_XE]. Thu thập các rương kho báu xuất hiện ngay lập tức. Với nội tại *Treasure Hunter*, mỗi rương thu thập được sẽ tăng giá trị của rương tiếp theo thêm 10%, tạo ra một nguồn vàng tăng tỷ lệ vô hạn.
+  </Step>
+  <Step num="5" title="Chuyển sang DPS Cuối game">
+    Khi các đơn vị kiếm tiền của bạn đã được nâng cấp tối đa, hãy sử dụng nguồn thu nhập khổng lồ mỗi wave (lên tới hơn 13.000 Yên mỗi wave) để triển khai và nâng cấp tối đa các đơn vị Secret và Mythic mạnh mẽ của bạn như Monarch Sasuke hoặc Alucard.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mẹo Vĩ mô (Macro)">
+Nếu bạn đang farm các màn chơi Vô tận (Infinite) dài hoặc chạy qua đêm, hãy tận dụng hệ thống macro tích hợp của Anime Vanguards. Bạn có thể thiết lập một trình tự động nhấp (auto-clicker) trực tiếp trong cài đặt trò chơi để ngăn chặn việc ngắt kết nối và giữ cho các nông trại của bạn tự động nâng cấp.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Thuộc tính (Traits) và Memorias Tốt nhất cho Đơn vị Farm">
+
+Để đẩy nền kinh tế của bạn lên giới hạn tuyệt đối, bạn phải trang bị cho các **đơn vị kiếm tiền trong Anime Vanguards** của mình các thuộc tính chính xác và Memorias chuyên dụng. Những vật phẩm và bùa lợi này giúp giảm đáng kể chi phí nâng cấp đồng thời nhân lên lượng Yên kiếm được một cách thụ động.
+
+#### Các Thuộc tính Thiết yếu cho Đơn vị Farm
+
+Không giống như các đơn vị DPS phát triển mạnh nhờ các thuộc tính như *Monarch* hoặc *Demonic*, các đơn vị farm phụ thuộc rất nhiều vào các thuộc tính tập trung vào tiện ích:
+- **Fortune**: Đây là thuộc tính tốt nhất tuyệt đối cho bất kỳ đơn vị farm nào. Nó cung cấp một hệ số nhân trực tiếp cho tất cả lượng Yên được tạo ra mỗi wave và giảm nhẹ chi phí đặt ban đầu.
+- **Swift**: Mặc dù không mạnh mẽ bằng Fortune, Swift làm giảm thời gian giữa các lần chi trả wave trong các thiết lập sự kiện cụ thể, mặc dù nó thường được coi là một lựa chọn phụ.
+
+Để có được các thuộc tính này, bạn cần sử dụng hệ thống Reroll Thuộc tính (Trait Reroll) của trò chơi. Người chơi có thể farm hàng ngàn vé reroll bằng cách hoàn thành các độ thông thạo Odyssey (Odyssey proficiencies) và leo Tháp Nguyên tố (Elemental Towers). Khi bạn đã tích lũy được một lượng lớn vé reroll, hãy ưu tiên roll thuộc tính *Fortune* trên các đơn vị farm chính của bạn trước khi đầu tư vào các thuộc tính chiến đấu cho các đơn vị gánh team.
+
+#### Các Memorias Chuyên dụng trong năm 2026
+
+Các bản cập nhật trong năm 2026 đã giới thiệu các Memorias độc quyền giúp hồi sinh hoàn toàn meta farm tiền:
+
+| Tên Memoria | Đơn vị Chuyên dụng | Hiệu ứng Chính | Nội tại Phụ |
+| --- | --- | --- | --- |
+| Hardcore Gambler | Takaroda | Giảm 5% chi phí nâng cấp (Cộng dồn) | Tăng sản lượng wave cơ bản lên hơn 13.000 Yên |
+| Golden Obsessions | Nami (Tempest Pirate) | Tăng 20% lượng Yên nhận được | *Treasure Hunter*: Rương tăng tỷ lệ 10% mỗi lần nhặt |
+| Capitalist Fanatic | Sprintwagon | Giảm 10% chi phí đặt | Tăng 100% lượng Yên nhận được cho đơn vị đầu tiên |
+
+<Callout type="info" title="Sự kết hợp Memoria">
+Trang bị cho Nami Memoria *Golden Obsessions* giúp cô ấy có khả năng cạnh tranh cao với Takaroda. Cơ chế rương tăng tỷ lệ vô hạn đồng nghĩa với việc trong các trận đấu kéo dài hơn 30 wave, Nami thực sự có thể vượt trội hơn tất cả các đơn vị tạo tiền khác.
+</Callout>
+
+Để đảm bảo thiết lập của bạn được tối ưu hóa hoàn toàn trước khi bước vào các nội dung cấp cao như Cid Raid hoặc Odyssey Limitless, hãy đối chiếu đội hình của bạn với danh sách kiểm tra tối ưu hóa của chúng tôi bên dưới.
+
+<Checklist
+  id="farm-optimization-checklist"
+  title="Mục tiêu Tối ưu hóa Kinh tế:"
+  items={[
+    "Roll thuộc tính Fortune trên đơn vị farm chính của bạn.",
+    "Trang bị Memoria Hardcore Gambler cho Takaroda nếu chơi các màn dài.",
+    "Trang bị Memoria Golden Obsessions cho Nami đối với các đội hình thuộc tính Spark chủ động.",
+    "Tránh đặt Sprintwagon thứ ba để ngăn chặn hiệu ứng giảm dần hiệu quả nghiêm trọng.",
+    "Thiết lập macro tự động nhấp trong game để farm AFK qua đêm mượt mà."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Trứng Phục sinh Sự kiện Mùa đông 'Stitches'">
+
+Khi thảo luận về các **đơn vị kiếm tiền trong Anime Vanguards**, người chơi thường bắt gặp thuật ngữ \"Stitches\" [giVzT9lE_XE]. Điều quan trọng cần làm rõ là \"Stitches\" đề cập đến hai yếu tố khác biệt trong trò chơi:
+1. **Trang phục Takaroda**: \"Stitches\" (còn được gọi là St. Itchas) là một trang phục Santa huyền thoại, lấy cảm hứng từ nhân vật Buggy dành cho Takaroda, có thể nhận được từ Banner Mùa đông. Nó thay đổi diện mạo của anh ấy nhưng vẫn giữ nguyên khả năng kiếm tiền hàng đầu của anh ấy.
+2. **Búp bê Thu thập Ẩn**: Trong Sự kiện Mùa đông trên bản đồ *Frozen Solitude*, các nhà phát triển đã giấu năm con búp bê \"Stitch\" màu đỏ nhỏ. Thu thập đủ cả năm con búp bê sẽ kích hoạt một bản nhạc nền bí mật thay thế cho nhạc mặc định của màn chơi.
+
+Nếu bạn đang muốn mở khóa trứng phục sinh âm thanh độc quyền này, hãy làm theo các vị trí chi tiết dưới đây.
+
+#### Vị trí Búp bê Stitch Ẩn
+
+| Số thứ tự Búp bê | Mô tả Vị trí | Độ hiển thị |
+| --- | --- | --- |
+| Stitch 1 | Ngay phía sau điểm xuất phát của bạn trên một gờ đá tròn giữa hai cây cột. | Hoàn toàn hiển thị |
+| Stitch 2 | Gần các cột băng ở cổng phía bên trái của lối đi xuất phát. | Bị ẩn một phần |
+| Stitch 3 | Nằm ngay bên dưới trung tâm của thác nước phía bên phải điểm xuất phát. | Vô hình (Tiếp cận để hiện gợi ý) |
+| Stitch 4 | Trên một gờ đá ẩn nằm ngoài khu vực đấu trùm cuối. | Yêu cầu kỹ năng nhảy (Platforming) |
+| Stitch 5 | Ở đỉnh cao nhất của cấu trúc cổng lớn tại trung tâm bản đồ. | Yêu cầu leo tượng |
+
+<Callout type="success" title="Mở khóa Bản nhạc Bí mật">
+Khi bạn thu thập đủ con búp bê Stitch thứ năm và cũng là con cuối cùng, bản nhạc mùa đông mặc định sẽ ngay lập tức chuyển sang một bản nhạc metal cực ngầu và độc quyền. Bài hát này sẽ kéo dài trong suốt phần còn lại của trận đấu ở cả chế độ thường và chế độ Vô chậm (Infinite)!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+Để khép lại hướng dẫn, dưới đây là câu trả lời cho các câu hỏi phổ biến nhất liên quan đến các **đơn vị kiếm tiền trong Anime Vanguards** và quản lý kinh tế.
+
+<FAQ items={[
+  {
+    question: "Đơn vị kiếm tiền nào trong Anime Vanguards là tốt nhất cho các màn chơi Chế độ Cốt truyện ngắn?",
+    answer: "Sprintwagon là lựa chọn tốt nhất cho các màn chơi ngắn (dưới 15 wave). Anh ấy có chi phí triển khai rất thấp và đạt sản lượng tối đa nhanh chóng, cho phép bạn thu hồi vốn đầu tư và cấp vốn cho các gánh team trước khi trận đấu kết thúc."
+  },
+  {
+    question: "Tôi có nên sử dụng cả Takaroda và Nami trong cùng một đội hình không?",
+    answer: "Thông thường là không. Việc chạy hai đơn vị farm sẽ chiếm mất hai ô nhân vật có giá trị, khiến bạn có ít không gian hơn cho các đơn vị DPS thiết yếu, các đơn vị tăng sức mạnh (buffer) và làm chậm (slow). Khuyến nghị bạn chỉ nên mang theo một đơn vị farm được tối ưu hóa hoàn toàn và được trang bị Memoria cấp cao."
+  },
+  {
+    question: "Cơ chế rương của Nami có xứng đáng với công sức bỏ ra không?",
+    answer: "Có, chắc chắn rồi. Nếu bạn chơi một cách chủ động và thu thập các rương, sản lượng của Nami sẽ tăng tỷ lệ vô hạn thêm 10% cho mỗi rương khi được trang bị Memoria Golden Obsessions. Ngoài ra, nội tại Conduit của cô ấy áp dụng hiệu ứng bất lợi tăng 30% sát thương thuộc tính Spark lên kẻ thù trong tầm đánh, mang lại tiện ích tấn công tuyệt vời."
+  },
+  {
+    question: "Tại sạo tôi không thể bán Takaroda ở giữa trận đấu?",
+    answer: "Takaroda được thiết kế là một đơn vị không thể bán một khi đã được đặt trên sân đấu. Đây là một cơ chế cân bằng để bù đắp cho khả năng tạo tiền khổng lồ của anh ấy. Luôn đặt anh ấy ở một vị trí an toàn, cố định, nơi anh ấy sẽ không cản trở các chiến thuật sắp xếp vị trí chủ động của bạn."
+  }
+]} />
+
+<Callout type="info" title="Nhận định Cuối cùng">
+Để treo máy (AFK) farm cuối game một cách thụ động, hãy trang bị cho Takaroda Memoria Hardcore Gambler. Để chơi chủ động và kết hợp thuộc tính, hãy chạy Nami với Golden Obsessions. Để vượt ải nhanh chóng, dễ dàng, hãy trung thành với thiết lập hai Sprintwagon [giVzT9lE_XE].
+</Callout>
+
+</Section>

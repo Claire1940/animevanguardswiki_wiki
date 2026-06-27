@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Lich King: Guia de Configuração e Melhores Combos de Feitiços",
+  description: "Domine a unidade Lich King em Anime Vanguards na Atualização 9.5. Aprenda as melhores combinações de feitiços, estratégias para o modo infinito e como usar itens do mundo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Lich+King+Guide",
+  date: "2026-06-27",
+  author: "Equipe da Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Anime Vanguards Lich King**: Unidade de suporte e DPS altamente versátil que custa 1.000 Ienes para ser posicionada.
+- **Mecânica de Rotação de Feitiços**: Equipe menos feitiços para garantir uma rotação mais rápida de suas habilidades mais poderosas.
+- **Melhores Elementos**: Curse (Maldição) e Passion (Paixão) são os elementos mais fortes, oferecendo invocações massivas e debuffs.
+- **Nukes de Fim de Jogo**: Utilize Ouroboros e "The Goal of All Life is Death" após a onda 50.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral e Atributos Principais do Lich King em Anime Vanguards">
+
+O **Lich King do Anime Vanguards** se estabeleceu como uma das unidades mais poderosas e mecanicamente únicas no meta da Atualização 9.5. Operando como um vanguard do tipo Governante (Ruler), esta unidade introduz um sistema de conjuração de feitiços que redefine completamente como os jogadores abordam a defesa de ondas. Ao contrário das unidades tradicionais que executam automaticamente um único padrão de ataque, este personagem depende inteiramente de um livro de feitiços personalizável para causar dano, invocar aliados e aplicar controle de grupo (CC).
+
+**Destaques do Vídeo:**
+- **Dependência de Elementos**: Aprenda como seus feitiços dependem fortemente da combinação dos elementos da equipe para funcionar.
+- **Otimização de Slots de Feitiço**: Descubra por que equipar menos feitiços costuma ser mais eficiente do que preencher todos os slots.
+- **Nukes de Fim de Jogo**: Veja o potencial avassalador do Ouroboros e de "The Goal of All Life is Death" em cenários de ondas altas.
+
+<YouTubeEmbed videoId="4e8AiDeeE6s" title="Como Usar o Lich King da *MELHOR* Forma na Atualização 9.5 de Anime Vanguards!" />
+
+Compreender sua relação custo-benefício é essencial para o posicionamento no início do jogo. Embora seu custo máximo de melhoria (upgrade) seja excepcionalmente alto, seu custo de posicionamento inicial é incrivelmente baixo, custando apenas 1.000 Ienes. Isso permite que você o coloque no campo logo na primeira onda para estabelecer o controle inicial. Felizmente, seus atributos de nível médio são altamente eficientes, o que significa que você não precisa melhorá-lo ao máximo imediatamente para obter um excelente valor.
+
+| Estágio de Melhoria | Custo | Dano Causado | Valor de Utilidade | Recomendação Estratégica |
+|---|---|---|---|---|
+| Posicionamento Base | 1.000 Ienes | Moderado | Alto | Posicione cedo para garantir as rotas |
+| Melhorias Médias | Moderado | Alto | Muito Alto | Mantenha aqui durante o farm inicial |
+| Melhoria Máxima | Muito Alto | Extremo | Máximo | Melhore ao máximo apenas nas ondas de fim de jogo |
+
+<Callout type="warning" title="Prioridade de Melhoria">
+Não tenha pressa em melhorar esta unidade ao máximo nas primeiras ondas. Seus atributos de nível médio são altamente eficientes, permitindo que você concentre seus recursos do início do jogo em maximizar suas unidades de farm primeiro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="A Mecânica de Rotação de Feitiços e Sinergia Elemental">
+
+A mecânica principal desta unidade gira em torno de seus quatro slots de feitiço. Ele não ataca a menos que você configure manualmente seus feitiços. Quando múltiplos feitiços estão equipados, ele os conjura sequencialmente: conjurando o slot um, depois o slot dois, depois o slot três e, finalmente, o slot quatro antes de retornar ao início da fila. 
+
+Devido a essa rotação sequencial, preencher todos os quatro slots pode reduzir drasticamente a eficiência de seus feitiços mais importantes. For exemplo, se você precisa que um debuff específico permaneça ativo nos inimigos o tempo todo, equipar outros feitiços atrasará a reconjuração desse debuff, criando uma janela perigosa de vulnerabilidade.
+
+| Elemento | Tier | Feitiço Principal | Efeito Primário | Recomendação |
+|---|---|---|---|---|
+| Curse (Maldição) | Tier S | Create Greater Undead | Invoca unidades poderosas | Melhor para dano bruto em rotas únicas |
+| Passion (Paixão) | Tier S | Aura of Despair | Debuff de área massivo | Equipe sozinho para 100% de tempo de atividade do debuff |
+| Cosmic (Cósmico) | Tier A | Cosmic Slow | Aplica 50% de lentidão por 30s | Excelente utilidade para inimigos rápidos |
+| Unbound (Livre) | Tier A | Unbound Haste | Aumenta a velocidade de ataque da unidade | Use para maximizar o DPS geral |
+| Elementless (Sem Elemento) | Tier A | Undead Control | Ressuscita inimigos derrotados | Melhor para defesa de múltiplas rotas |
+| Water/Spark/Nature | Tier C | Stun / Cleanse | Controle de grupo medíocre | Evite devido à fraca sinergia com as unidades atuais |
+
+A força de seus feitiços também depende fortemente da composição elemental de sua equipe ativa. Para utilizar feitiços de Curse (Maldição), você deve trazer unidades alinhadas a Curse em sua equipe. Da mesma forma, feitiços de Passion (Paixão) exigem unidades alinhadas a Passion. Para contornar essas restrições rígidas, você pode utilizar unidades Unbound (Livres), que funcionam como curingas e contam para qualquer requisito elemental, tornando a montagem da equipe muito mais flexível.
+
+<Callout type="tip" title="Estratégia de Slot de Feitiço">
+Se você estiver usando esta unidade estritamente para controle de grupo ou aplicação de debuffs, equipe apenas o feitiço do elemento Passion. Isso o força a conjurar Aura of Despair em cada ataque, garantindo tempo de atividade constante no debuff sem atrasos de rotação.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Configuração Passo a Passo para Mapas de Rota Única vs. Múltiplas Rotas">
+
+Layouts de mapa diferentes exigem configurações de feitiço completamente diferentes. Usar a configuração errada pode fazer com que inimigos passem e suas partidas falhem. Siga este guia de configuração sistemático para otimizar sua seleção de feitiços com base no mapa que você está jogando.
+
+<Steps>
+  <Step num="1" title="Analise o Layout do Mapa">
+    Identifique se a fase apresenta um caminho único e unificado ou múltiplos caminhos ramificados. Mapas de rota única permitem que as invocações se desloquem com eficiência, enquanto mapas de múltiplas rotas dividem suas forças e deixam caminhos completamente indefesos.
+  </Step>
+  <Step num="2" title="Configure seu Conjunto de Feitiços">
+    Para mapas de rota única, selecione feitiços de Curse como Create Greater Undead e Supreme Summoning para sobrecarregar os inimigos com invocações poderosas. Para mapas de múltiplas rotas, desequipe completamente os feitiços de Curse e dependa apenas de feitiços Elementless como Undead Control.
+  </Step>
+  <Step num="3" title="Otimize o Posicionamento e as Melhorias">
+    Posicione a unidade perto da frente do caminho, onde seu alcance de ataque possa cobrir a maior parte da rota. Melhore-o até os níveis intermediários para desbloquear a progressão de seus atributos principais, mantendo sua economia equilibrada para as unidades de farm.
+  </Step>
+</Steps>
+
+Em mapas de múltiplas rotas, as invocações tradicionais são altamente ineficientes porque se dividem aleatoriamente por caminhos diferentes. O Undead Control resolve esse problema ressuscitando inimigos derrotados exatamente onde eles morrem, criando bloqueios localizados diretamente na rota ativa. Isso garante que nenhum caminho fique indefeso, independentemente de quantas rotas o mapa possua.
+
+<Callout type="success" title="Caminho das Invocações">
+Em mapas de rota única, até mesmo uma invocação de nível um pode facilmente interceptar inimigos que escaparem. Isso torna o elemento Curse excepcionalmente seguro para progressão solo e farm no modo história.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Modo Infinito e Estratégia de Nuke no Fim de Jogo">
+
+Ao avançar além da onda 50 no Modo Infinito, as unidades de DPS padrão começam a perder eficácia devido ao aumento exponencial da vida dos inimigos. É aqui que esta unidade realmente brilha, oferecendo uma utilidade avassaladora e nukes que limpam a tela, ignorando completamente as mecânicas tradicionais de combate.
+
+<CardGrid cols={3}>
+  <Card title="Utilidade da Caloric Stone">
+    - **Concede um 7º slot de unidade** ao conjunto da sua equipe ativa.
+    - Permite que você use configurações completas de farm junto com o DPS máximo.
+    - Torna o posicionamento da unidade totalmente gratuito, sem desperdício de slots.
+  </Card>
+  <Card title="Estratégia Ouroboros">
+    - **Reescreve o HP do inimigo para 1** em estágios de fim de jogo.
+    - Trivializa chefes com bilhões de pontos de vida.
+    - Essencial para subir nos rankings de ondas altas.
+  </Card>
+  <Card title="Ignorar a Morte">
+    - **Ignora todas as imunidades** e gatilhos de morte.
+    - Limpa instantaneamente a tela de hordas de inimigos de alta ameaça.
+    - Ativa por meio do feitiço "The Goal of All Life is Death".
+  </Card>
+</CardGrid>
+
+A combinação dos itens de mundo Caloric Stone e Ouroboros o torna um recurso indispensável para subir nos rankings. A Caloric Stone essencialmente permite que você o posicione como uma sétima unidade bônus, o que significa que você não precisa sacrificar um slot valioso de farm ou de DPS. Quando você chega ao extremo fim de jogo, o nuke do Ouroboros permite reescrever a vida de chefes com bilhões de HP para apenas um único ponto, permitindo eliminações instantâneas.
+
+| Item do Mundo / Feitiço | Efeito Primário | Cooldown / Uso | Valor Estratégico |
+|---|---|---|---|
+| Caloric Stone | Adiciona o 7º slot de equipe ativa | Passivo | Permite o posicionamento gratuito sem sacrificar unidades principais |
+| Ouroboros | Reescreve o HP do inimigo para 1 | Limitado | Derrota instantaneamente chefes de ondas altas com bilhões de HP |
+| The Goal of All Life is Death | Mata instantaneamente não-chefes | Cooldown Longo | Limpa a tela em ondas de alta densidade e ignora imunidades |
+
+<Callout type="info" title="Meta do Modo Infinito">
+O Ouroboros é atualmente a ferramenta definitiva que define o meta para subir nos rankings. Reescrever a vida do chefe de 4 bilhões para 1 permite uma execução instantânea, evitando horas de dano gradual e tedioso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checklist e Marcos de Progressão">
+
+Para dominar completamente esta unidade e maximizar seu potencial em suas partidas, tente alcançar os seguintes marcos de progressão.
+
+<Checklist
+  id="lich-king-progression"
+  title="Objetivos de Maestria do Lich King:"
+  items={[
+    "Obtenha o item de mundo Caloric Stone para desbloquear o 7º slot de equipe.",
+    "Adquira unidades de Curse de alto nível, como Sukuna ou Hollow Knight, para maximizar a progressão dos feitiços de Curse.",
+    "Domine a estratégia de rotação de feitiço único para debuffs com alto tempo de atividade.",
+    "Alcance a Onda 50+ no Modo Infinito para utilizar com sucesso a tática de reescrita de HP do Ouroboros."
+  ]}
+/>
+
+<Callout type="tip" title="Builds de Sinergia">
+Combinar esta unidade com personagens de alto nível alinhados ao elemento Curse não apenas satisfaz os requisitos de feitiços elementais, mas também cria uma composição de equipe altamente sinérgica, capaz de superar os desafios mais difíceis do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes do Lich King">
+
+<FAQ items={[
+  {
+    question: "Como faço para o Lich King do Anime Vanguards atacar?",
+    answer: "Ele não atacará automaticamente ao ser posicionado. Você deve abrir o menu da unidade e equipar manualmente pelo menos um feitiço do seu livro de feitiços desbloqueado para que ele comece a agir no campo de batalha."
+  },
+  {
+    question: "Por que minhas invocações estão se dividindo e deixando os inimigos passarem?",
+    answer: "Em mapas com múltiplos caminhos, as invocações se dividirão aleatoriamente entre as rotas disponíveis. Para evitar isso, desequipe as invocações de Curse e use o feitiço Elementless Undead Control, que ressuscita os inimigos diretamente onde eles morrem."
+  },
+  {
+    question: "Qual é a vantagem de equipar apenas um feitiço?",
+    answer: "Equipar um único feitiço força a unidade a conjurar essa habilidade específica em cada ataque. Isso é altamente benéfico para feitiços utilitários como Aura of Despair ou Cosmic Slow, garantindo 100% de tempo de atividade em debuffs cruciais."
+  },
+  {
+    question: "Como funciona o item de mundo Ouroboros no Modo Infinito?",
+    answer: "O Ouroboros permite reescrever a vida de todos os inimigos na tela para 1. Isso é incrivelmente poderoso após a onda 50, permitindo que você derrote instantaneamente chefes que possuem bilhões de pontos de vida."
+  }
+]} />
+
+<Callout type="info" title="Atualizações Futuras do Meta">
+Fique de olho nos futuros patches de atualização em 2026. À medida que novas unidades de alto nível de Water ou Nature forem introduzidas no jogo, a lista de tiers de sinergia elemental pode mudar, tornando potencialmente viáveis combinações de feitiços anteriormente fracas.
+</Callout>
+
+</Section>

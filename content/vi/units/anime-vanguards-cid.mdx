@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, TrendingUp } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cid trong Anime Vanguards: Hướng dẫn Đơn vị Lord of Shadows & Chiến thuật Meta",
+  description: "Làm chủ Lord of Shadows trong Anime Vanguards. Tìm hiểu cách sở hữu, lộ trình nâng cấp và meta tăng tỷ lệ sát thương All Range Atomic cho lối chơi năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Anime+Vanguards+Cid+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Cid trong Anime Vanguards**: Được biết đến trong game với tên gọi **Lord of Shadows**, đơn vị Secret này là một thế lực sở hữu dạng kép tiến hóa từ Smith John.
+- **Cơ chế Cốt lõi**: Sử dụng **Thanh Đổi Dạng (Swap Meter)** (hồi 13% mỗi đòn đánh) để chuyển đổi giữa dạng Smith John và Lord of Shadows.
+- **Chiến thuật Tốt nhất**: Tích lũy số lần đổi dạng để tối đa hóa kỹ năng kích hoạt **All Range Atomic**, giúp tăng tiến sát thương lên tới 600% dựa trên số lần đổi dạng.
+- **Nội tại Quan trọng**: Nội tại **Dramatic Entry** cung cấp tối đa +100% Sát thương và +50% Tầm đánh, nhưng sẽ bị thiết lập lại (reset) khi đổi dạng.
+- **Vai trò trong Meta**: Hiện tại là một DPS hàng đầu và là đơn vị dọn bản đồ toàn diện, không thể thiếu cho các chế độ Raid cấp cao và Legend Stage trong meta năm 2026.
+</Callout>
+
+<Section icon={Map} title="Tổng quan: Đơn vị Secret Lord of Shadows">
+
+Đơn vị **Cid trong Anime Vanguards**, với tên gọi chính thức là **Lord of Shadows**, được đánh giá là một trong những đơn vị Secret có cơ chế phức tạp và đáng giá nhất trong meta năm 2026 hiện tại. Lấy cảm hứng từ nhân vật chính của bộ truyện *The Eminence in Shadow* (Chúa tể Bóng tối), đơn vị này sở hữu cơ chế biến hình độc đáo cho phép người chơi chuyển đổi giữa một Smith John đầy mưu mẹo và một hiện thân Shadow có sức tàn phá khủng khiếp. Không giống như các đơn vị thông thường vốn chỉ đứng yên một chỗ, Lord of Shadows yêu cầu người chơi phải chủ động quản lý Thanh Đổi Dạng để khai phóng toàn bộ tiềm năng của mình.
+
+**Điểm nhấn Video:**
+- Trình diễn màn vượt ải Cid Raid Act 2 trong 13 giây chỉ bằng việc thiết lập một đơn vị duy nhất.
+- Hướng dẫn căn thời gian chuyển đổi dạng "It was me!" để duy trì lượng DPS [1].
+- Trực quan hóa phạm vi ảnh hưởng diện rộng (AoE) khổng lồ của kỹ năng All Range Atomic.
+- Mẹo định vị vị trí để tối đa hóa việc tích lũy nội tại Dramatic Entry.
+
+<YouTubeEmbed videoId="zQE5BbWEotU" title="13 Seconds Cid Raid Act 2 (SINGLE UNIT) | Anime Vanguards" />
+
+Việc sở hữu đơn vị này không đơn giản là thông qua triệu hồi (summon). Đầu tiên, người chơi cần phải triển khai đơn vị Smith John và tham gia chiến đấu để tích lũy năng lượng cần thiết cho quá trình biến hình. Hệ thống danh tính kép này giúp đơn vị cực kỳ linh hoạt trong các giai đoạn khác nhau của trận đấu, cung cấp khả năng đa dụng ở đầu trận và thăng tiến sức mạnh hủy diện toàn bản đồ về cuối trận.
+
+<Callout type="tip" title="Mẹo Chuyên nghiệp">
+Luôn theo dõi Thanh Đổi Dạng. Đổi dạng sớm có vẻ như mang lại lợi ích, nhưng bạn sẽ mất đi các cộng dồn Dramatic Entry, điều này có thể làm giảm đáng kể lượng DPS duy trì của bạn nếu căn thời gian không chuẩn xác.
+</Callout>
+
+| Thuộc tính | Chi tiết |
+| :--- | :--- |
+| **Tên Đơn vị** | Lord of Shadows (Cid) |
+| **Độ hiếm** | Secret |
+| **Hệ** | Blast (Bộc phá) |
+| **Giới hạn Đặt** | 3 Đơn vị |
+| **Giá ban đầu** | ¥3,000 |
+| **Tổng Chi phí Nâng cấp** | ¥99,200 |
+
+</Section>
+
+<Section icon={Zap} title="Quy trình Sở hữu và Tiến hóa">
+
+Để chơi đơn vị **Cid trong Anime Vanguards** Lord of Shadows, bạn phải làm chủ được quá trình chuyển đổi từ nhân vật "John Smith" của anh ta. Quy trình này là độc nhất đối với đơn vị này và đòi hỏi sự nhạy bén về mặt chiến thuật trong suốt trận chiến.
+
+<Steps>
+  <Step num="1" title="Triển khai Smith John">
+    Đặt đơn vị Smith John lên bản đồ. Hãy chắc chắn rằng anh ta ở vị trí có thể liên tục tấn công kẻ địch, vì thanh năng lượng của anh ta chỉ tăng lên khi tham gia chiến đấu thực tế.
+  </Step>
+  <Step num="2" title="Sạc Thanh Đổi Dạng">
+    Mỗi đòn tấn công của Smith John sẽ hồi Thanh Đổi Dạng thêm **13%**. Bạn sẽ cần khoảng 8 đòn đánh trúng đích để đạt ngưỡng 100%.
+  </Step>
+  <Step num="3" title="Kích hoạt 'It was me!'">
+    Khi thanh năng lượng đạt 100%, một nút hành động đặc biệt có nhãn **"It was me!"** (Chính là ta!) [1] sẽ xuất hiện. Nhấp vào nút này sẽ lập tiếp biến đổi đơn vị thành Lord of Shadows.
+  </Step>
+  <Step num="4" title="Quản lý việc Đổi Dạng">
+    Bạn có thể đổi qua lại giữa hai dạng. Tuy nhiên, hãy nhớ rằng Lord of Shadows là dạng gây sát thương (DPS) chính, trong khi Smith John đóng vai trò là bước đệm và cung cấp các tiện ích bổ trợ.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cảnh báo Reset Cộng dồn">
+Hiệu ứng tăng sức mạnh (buff) từ **Dramatic Entry** (Sát thương và Tầm đánh) sẽ bị mất ngay lập tức khi bạn đổi dạng. Chỉ nên đổi dạng nếu bạn có ý định sử dụng kỹ năng **All Range Atomic** hoặc nếu bạn cần mô thức tấn công đặc thù của dạng còn lại.
+</Callout>
+
+</Section>
+
+<Section icon={TrendingUp} title="Lộ trình Nâng cấp và Thăng tiến Chỉ số">
+
+Lộ trình nâng cấp cho đơn vị **Cid trong Anime Vanguards** khá tốn kém nhưng mang lại một trong những chỉ số DPS cao nhất trong trò chơi. Bảng dưới đây phân tích chi tiết tiến trình từ Cấp 1 đến giai đoạn Monarch cuối cùng, tập trung vào dạng Lord of Shadows.
+
+| Cấp độ | Chi phí Nâng cấp | Sát thương (Tối đa) | SPA | Tầm đánh | DPS (Tối đa) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Mặc định** | ¥0 | 11,833 | 2.4 | 24 | 5,009 |
+| **Cấp 2** | ¥4,000 | 23,665 | 2.4 | 26 | 10,017 |
+| **Cấp 4** | ¥6,500 | 31,554 | 2.4 | 30 | 13,356 |
+| **Cấp 6** | ¥9,500 | 67,052 | 4.7 | 32 | 14,191 |
+| **Cấp 8** | ¥14,500 | 78,884 | 4.7 | 35 | 16,695 |
+| **Cấp 10** | ¥20,200 | 118,326 | 6.3 | 38 | 18,782 |
+
+Như có thể thấy từ dữ liệu, đơn vị này chuyển đổi từ đòn tấn công **Vòng tròn Tầm đánh 6 (6 Range Circle)** sang dạng **Hình nón 180° (Atomic Shot)** ở cấp 5, và cuối cùng là kỹ năng kích hoạt **Toàn Bản đồ (All Range Atomic)** ở cấp 9. Chỉ số SPA (Số giây mỗi đòn đánh) tăng lên khi lượng sát thương đầu ra tăng vọt, giúp mỗi cú đánh trở nên chất lượng và có sức nặng hơn rất nhiều khi đối đầu với các kẻ địch cấp Boss.
+
+<Callout type="success" title="Hiệu suất Meta">
+Ở cấp độ tối đa, Lord of Shadows gây ra hơn 118,000 sát thương mỗi phát bắn. Khi kết hợp với nội tại Dramatic Entry (+100% sát thương), đơn vị này có thể tự mình vượt qua nhiều Legend Stage mà trước đây đòi hỏi cả một đội hình đầy đủ.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Nội tại và Kỹ năng Kích hoạt">
+
+Sức mạnh thực sự của **Cid trong Anime Vanguards** nằm ở sự kết hợp tương hỗ từ các nội tại của anh ta. Nhân vật này được thiết kế để trở nên mạnh mẽ hơn khi trụ lại trên sân càng lâu và tiêu diệt được càng nhiều kẻ địch.
+
+<CardGrid cols={2}>
+  <Card title="Dramatic Entry (Nội tại)">
+    - **Nhận thêm 0.5% Sát thương** với mỗi kẻ địch bị hạ gục.
+    - **Nhận thêm 0.25% Tầm đánh** với mỗi kẻ địch bị hạ gục.
+    - **Giới hạn**: +100% Sát thương và +50% Tầm đánh.
+    - **Lưu ý**: Hiệu ứng tăng sức mạnh này sẽ biến mất nếu bạn đổi dạng.
+  </Card>
+  <Card title="Overpower (Nội tại)">
+    - **Kháng Hiệu ứng xấu**: Không thể bị làm choáng hoặc làm chậm.
+    - **Cơ chế Kẻ hành quyết (Executioner)**: Tăng sát thương gây ra dựa trên tỷ lệ phần trăm HP đã mất của kẻ địch.
+  </Card>
+</CardGrid>
+
+Kỹ năng **All Range Atomic** là tâm điểm trong bộ kỹ năng của anh ta. Đây là một kỹ năng kích hoạt có thể tấn công tất cả kẻ địch trên bản đồ cùng một lúc.
+
+| Cơ chế | Chi tiết Tăng tiến |
+| :--- | :--- |
+| **Sát thương Cơ bản** | 50% Sát thương Đơn vị x Số lần Đổi dạng Đã Thực hiện |
+| **Độ thăng tiến** | +25% Sát thương cho mỗi lần đổi dạng |
+| **Giới hạn Tối đa** | 600% Sát thương |
+| **Thiết lập lại (Reset)** | Chỉ số tăng tiến sẽ quay về mức cơ bản sau khi sử dụng |
+| **Thời gian hồi** | Áp dụng Thời gian hồi chiêu Toàn cục (Global Cooldown) |
+
+<Callout type="info" title="Lưu ý Chiến thuật">
+Để tối đa hóa All Range Atomic, người chơi thường "tích lũy thanh năng lượng" bằng cách đổi dạng liên tục giữa hai hình thái trong các đợt quái yên ắng. Một khi Boss xuất hiện hoặc bản đồ bị tràn ngập quái vật, cú nổ Atomic được cường hóa 600% có thể dọn sạch toàn bộ màn hình chỉ bằng một cú nhấp chuột.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sự kết hợp Chiến thuật và Cách Đặt vị trí">
+
+Khi sử dụng đơn vị **Cid trong Anime Vanguards**, việc đặt vị trí là vô cùng quan trọng để tối đa hóa nội tại Dramatic Entry. Vì anh ta cần hạ gục kẻ địch để tích lũy sát thương, việc đặt anh ta ở ngay đầu chiến tuyến phòng thủ thường là phương án tối ưu nhất.
+
+<Checklist
+  id="cid-placement"
+  title="Danh sách Kiểm tra Chiến thuật Đặt vị trí:"
+  items={[
+    "Đặt gần điểm xuất hiện để đảm bảo hạ gục kẻ địch sớm nhằm tích lũy cộng dồn.",
+    "Đảm bảo nâng cấp ít nhất một đơn vị lên cấp 5 nhanh chóng để có phạm vi AoE hình nón.",
+    "Kết hợp với một đơn vị có khả năng làm chậm để giữ kẻ địch trong vùng hình nón lâu hơn.",
+    "Tiết kiệm All Range Atomic cho các đợt kẻ địch có thuộc tính 'Nhanh' (Fast) hoặc 'Bay' (Air).",
+    "Tránh đổi dạng nếu Boss hiện đang nằm trong tầm đánh của đơn vị."
+  ]}
+/>
+
+### So sánh: Lord of Shadows so với các Đơn vị Secret khác
+
+| Tính năng | Lord of Shadows | Alocard (Vampire King) | Song Jinwu |
+| :--- | :--- | :--- | :--- |
+| **Dạng Tầm đánh** | Vòng tròn / Hình nón / Toàn bản đồ | Toàn bản đồ (Triệu hồi) | Đường thẳng / AoE |
+| **Tăng tiến Sức mạnh** | Hạ gục / Đổi dạng | Cộng dồn Máu (Blood Stacks) | Trích xuất Bóng (Shadow Extraction) |
+| **Khống chế Đám đông** | Thấp | Cao (Làm choáng) | Trung bình (Làm chậm) |
+| **DPS Thô** | Cực kỳ Cao | Cao | Rất Cao |
+
+Mặc dù Alocard mang lại khả năng khống chế đám đông tốt hơn thông qua các thuộc hạ triệu hồi của mình, nhưng Lord of Shadows lại cung cấp lượng sát thương thô vượt trội và khả năng dọn dẹp toàn bản đồ cực mạnh một khi các cộng dồn đổi dạng đã được chuẩn bị sẵn sàng. Điều này khiến anh ta trở thành lựa chọn ưu tiên để chạy tốc chiến (speedrun) các chế độ Raid và dọn dẹp các đợt quái mật độ cao ở giai đoạn cuối game.
+
+<Callout type="warning" title="Quản lý Tài nguyên">
+Với tổng chi phí gần 100k yên, bạn phải có một nền kinh tế vững chắc (sử dụng các đơn vị như Sprintwagon hoặc Top Chef) để nâng cấp tối đa Cid trước khi các đợt quái cuối cùng ập đến.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kết luận và Câu hỏi Thường gặp">
+
+Đơn vị **Cid trong Anime Vanguards** (Lord of Shadows) là một kiệt tác trong thiết kế nhân vật, mang lại giới hạn trình độ cực kỳ cao cho những người chơi biết cách quản lý cơ chế biến hình và tích lũy cộng dồn của mình. Cho dù bạn đang muốn thống trị bảng xếp hạng hay chỉ đơn giản là vượt qua các màn chơi cốt truyện khó nhằn, việc đầu tư vào đơn vị Secret này là ưu tiên hàng đầu trong năm 2026.
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để sở hữu Lord of Shadows trong Anime Vanguards?",
+    answer: "Trước tiên, bạn phải sở hữu và triển khai đơn vị Smith John. Sau khi triển khai, hãy làm đầy Thanh Đổi Dạng của anh ta bằng cách tấn công kẻ địch (13% mỗi đòn đánh) và sử dụng nút 'It was me!' để biến hình thành Lord of Shadows."
+  },
+  {
+    question: "Hiệu ứng tăng sức mạnh Dramatic Entry có được giữ lại khi tôi nâng cấp đơn vị không?",
+    answer: "Có, việc nâng cấp đơn vị không làm mất đi các cộng dồn Dramatic Entry của bạn. Tuy nhiên, việc đổi dạng trở lại Smith John hoặc bán đơn vị sẽ khiến tất cả cộng dồn bị mất hoàn toàn."
+  },
+  {
+    question: "Lượng sát thương bonus tối đa cho kỹ năng All Range Atomic là bao nhiêu?",
+    answer: "Kỹ năng All Range Atomic tăng tiến 25% sát thương cho mỗi lần đổi dạng, đạt mức giới hạn sát thương tối đa là 600%. Lượng sát thương sẽ quay trở về mức cơ bản sau khi kỹ năng được kích hoạt."
+  },
+  {
+    question: "Lord of Shadows có miễn nhiễm với làm choáng không?",
+    answer: "Có, nhờ vào nội tại Overpower, Lord of Shadows hoàn toàn miễn nhiễm với tất cả các hiệu ứng bất lợi từ kẻ địch, bao gồm cả làm choáng và đóng băng, giúp anh ta cực kỳ đáng tin cậy khi đối đầu với các con Boss."
+  }
+]} />
+
+Để biết thêm các phân tích chi tiết về đơn vị và các bảng xếp hạng meta mới nhất năm 2026, hãy tiếp tục theo dõi các bài hướng dẫn chính thức và cập nhật cộng đồng của chúng tôi.
+
+</Section>

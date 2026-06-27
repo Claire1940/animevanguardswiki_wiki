@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Kafka: Hướng dẫn Tiến hóa & Thiên phú Tốt nhất",
+  description: "Làm chủ Manipulator (Spider) trong Anime Vanguards. Tìm hiểu cách tiến hóa Kafka, mở khóa các thiên phú tốt nhất của cô ấy và tối ưu hóa sát thương chảy máu cực khủng.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Kafka+Evolution+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime Vanguards Kafka** là một đơn vị gây sát thương theo thời gian (DoT) hệ Spark thuộc hàng top-tier, được biết đến với tên gọi Manipulator (Spider) [9qENyaAoGhQ, Manipulator (Spider)].
+- **Yêu cầu tiến hóa** bao gồm Kính râm tròn (Rounded Sunglasses), các loại Tinh chất (Essence) khác nhau và 15.000 Vàng để nâng cấp từ Manipulator cơ bản [Manipulator (Spider)].
+- **Các kỹ năng bị động** cho phép cô ấy áp dụng hiệu ứng Bệnh tật (Disease), kích hoạt Chảy máu (Bleed) và kích nổ các hiệu ứng DoT hiện có mà không làm mất chúng [9qENyaAoGhQ, Manipulator (Spider)].
+- **Giới hạn đặt** chỉ tối đa một đơn vị trên toàn bản đồ, khiến việc lựa chọn vị trí và thời điểm đặt cô ấy trở nên cực kỳ quan trọng để phòng thủ các đợt quái [9qENyaAoGhQ, Manipulator (Spider)].
+</Callout>
+
+<Section icon={Sparkles} title="Anime Vanguards Kafka: Tổng quan & Cơ chế hoạt động">
+
+Trong meta thay đổi nhanh chóng của Bản cập nhật 11, **Anime Vanguards Kafka**—được biết đến chính thức trong trò chơi với tên gọi Manipulator (Spider)—đã khẳng định vị thế là một trong những đơn vị gây sát thương đa dụng mạnh mẽ và độc đáo nhất trò chơi [9qENyaAoGhQ, Manipulator (Spider)]. Không giống như các tướng tấn công vật lý truyền thống, cô ấy dựa vào bộ kỹ năng gây sát thương theo thời gian (DoT) tinh vi giúp khuếch đại sát thương của toàn đội [9qENyaAoGhQ]. Là một đơn vị hệ Spark, cô ấy hoàn toàn miễn nhiễm với các hiệu ứng giảm sát thương, đảm bảo các đòn tấn công tỷ lệ cao của cô ấy luôn ổn định ngay cả trong những giai đoạn cuối trận đầy thử thách [9qENyaAoGhQ, Manipulator (Spider)].
+
+Bộ kỹ năng của cô ấy xoay quanh hai nội tại vô cùng mạnh mẽ [9qENyaAoGhQ]:
+
+- **Amplifier of Negativity** (Khuếch đại Tiêu cực): Khi tấn công, cô ấy áp dụng hiệu ứng bất lợi Bệnh tật (Disease) trong 20 giây, khiến tất cả các hiệu ứng DoT gây thêm 50% sát thương [9qENyaAoGhQ, Manipulator (Spider)]. Cô ấy cũng gây ra hiệu ứng Chảy máu (Bleed) gây 30% sát thương trong 8 giây [9qENyaAoGhQ, Manipulator (Spider)]. Hơn nữa, khi gây sát thương thông qua kỹ năng đặc trưng Spider's Web, cô ấy nhận được hiệu ứng tăng 5% sát thương cộng dồn, tối đa lên tới 50% [9qENyaAoGhQ, Manipulator (Spider)].
+- **Spider's Web** (Mạng nhện): Mỗi 20 giây, khi cô ấy tấn công một kẻ địch đã bị ảnh hưởng bởi hiệu ứng DoT (như thiêu đốt hoặc chảy máu), cô ấy sẽ thực hiện một đòn tấn công tiếp theo [9qENyaAoGhQ, Manipulator (Spider)]. Đòn tấn công bồi này ngay lập tức gây ra toàn bộ sát thương DoT tích lũy hiện có trên kẻ địch mà không xóa bỏ chính hiệu ứng DoT đó (ngoại trừ Thiêu đốt cực hạn - Intense Burn) [9qENyaAoGhQ, Manipulator (Spider)].
+
+**Điểm nhấn Video:**
+- Trình diễn sát thương khi vừa đặt và các chỉ số cơ bản cực khủng của cô ấy [9qENyaAoGhQ].
+- Thể hiện sự chuyển đổi từ đòn tấn công hình nón (Cone) đầu trận sang vụ nổ diện rộng toàn bản đồ (Full AoE) ở cuối trận [9qENyaAoGhQ].
+- Giải thích cách các nội tại độc đáo của cô ấy tương tác với các đơn vị DoT khác trong các trận đấu cấp cao [9qENyaAoGhQ].
+
+<YouTubeEmbed videoId="9qENyaAoGhQ" title="KAFKA là một ĐƠN VỊ CHẢY MÁU CỰC KHỦNG trong Anime Vanguards Cập nhật 11! (Showcase chi tiết)" />
+
+| Chỉ số | Giá trị | Mô tả |
+| :--- | :--- | :--- |
+| Nguyên tố | Spark | Miễn nhiễm với các hiệu ứng giảm sát thương |
+| Giới hạn đặt | 1 | Giới hạn đặt trên toàn bản đồ |
+| Chi phí cơ bản | 1.000 Yên | Chi phí để triển khai trên bản đồ |
+| Loại tấn công cơ bản | Hình nón 100 độ | Hình dạng đòn tấn công ban đầu |
+
+<Callout type="success" title="Vị trí chiến lược">
+Vì bạn chỉ có thể đặt tối đa một đơn vị Kafka trên toàn bản đồ, việc đặt cô ấy ở một giao lộ lớn hoặc điểm thắt nút (choke point) nơi các đơn vị DoT khác đang hoạt động là vô cùng quan trọng để tối đa hóa nội tại Spider's Web [9qENyaAoGhQ, Manipulator (Spider)].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cách tiến hóa Manipulator thành Manipulator (Spider)">
+
+Để mở khóa toàn bộ tiềm năng của đơn vị này, bạn cần tiến hóa cô ấy từ dạng Manipulator cơ bản lên dạng huyền thoại Manipulator (Spider) [Manipulator (Spider)]. Đơn vị cơ bản nhận được dưới dạng phần thưởng Mốc 50 (Tier 50) trong Battlepass Mùa 11 [Manipulator (Spider)]. Khi đã sở hữu đơn vị cơ bản, bạn phải thu thập một bộ nguyên liệu tiến hóa và tinh chất cụ thể để hoàn thành quá trình chuyển đổi [Manipulator (Spider)].
+
+Quá trình tiến hóa yêu cầu sự kết hợp giữa các vật phẩm độc quyền, tinh chất tiêu chuẩn và một khoản phí vàng [Manipulator (Spider)]. Kính râm tròn (Rounded Sunglasses) độc quyền sẽ tự động được thêm vào kho đồ của bạn khi mở khóa đơn vị Manipulator cơ bản [Manipulator (Spider)]. Các tinh chất còn lại có thể được cày cuốc thông qua các thử thách hàng ngày, chế tạo, các ải huyền thoại (legend stages) hoặc mua trực tiếp từ các cửa hàng trong trò chơi [Manipulator (Spider)].
+
+<Steps>
+  <Step num="1" title="Mở khóa Manipulator">
+    Sở hữu đơn vị cơ bản, Manipulator, thông qua Battlepass Mùa 11 dưới dạng phần thưởng Mốc 50 [Manipulator (Spider)]. Việc mở khóa đơn vị này cũng sẽ tặng bạn Kính râm tròn (Rounded Sunglasses) độc quyền [Manipulator (Spider)].
+  </Step>
+  <Step num="2" title="Thu thập Tinh chất và Vàng">
+    Cày cuốc các Thử thách (Challenges), Ải Huyền thoại (Legend Stages) và Cửa hàng để thu thập 40 Tinh chất Xanh lá (Green Essence), 30 Tinh chất Hồng (Pink Essence), 30 Tinh chất Đỏ (Red Essence) và 1 Tinh chất Cầu vồng (Rainbow Essence) [Manipulator (Spider)]. Tích lũy thêm 15.000 Vàng [Manipulator (Spider)].
+  </Step>
+  <Step num="3" title="Tiến hóa qua Menu Tiến hóa">
+    Tìm đến NPC Tiến hóa (Evolve NPC) ở sảnh chờ, chọn Manipulator, gửi các nguyên liệu được yêu cầu và hoàn tất tiến hóa để mở khóa Manipulator (Spider) [Manipulator (Spider)].
+  </Step>
+</Steps>
+
+| Nguyên liệu | Số lượng | Cách sở hữu |
+| :--- | :--- | :--- |
+| Rounded Sunglasses | 1 | Tự động nhận được khi mở khóa Manipulator [Manipulator (Spider)] |
+| Tinh chất Xanh lá | 40 | Thử thách, Chế tạo, Ải Huyền thoại, Cửa hàng [Manipulator (Spider)] |
+| Tinh chất Hồng | 30 | Thử thách, Chế tạo, Cửa hàng [Manipulator (Spider)] |
+| Tinh chất Đỏ | 30 | Thử thách, Chế tạo, Cửa hàng [Manipulator (Spider)] |
+| Tinh chất Cầu vồng | 1 | Thử thách, Chế tạo, Cửa hàng [Manipulator (Spider)] |
+| Vàng | 15.000 | Lối chơi thông thường, nhiệm vụ hàng ngày, bán vật phẩm [Manipulator (Spider)] |
+
+<Callout type="warning" title="Cảnh báo Vật phẩm Độc quyền">
+Không được bán hoặc vứt bỏ Kính râm tròn (Rounded Sunglasses) của bạn. Đây là vật phẩm độc quyền gắn liền trực tiếp với tiến trình Battlepass của bạn, và việc thay thế nó có thể cực kỳ khó khăn [Manipulator (Spider)].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Anime Vanguards Kafka: Nhánh nâng cấp & Chỉ số">
+
+Việc triển khai và nâng cấp **Anime Vanguards Kafka** trong trận đấu đòi hỏi sự tính toán tài chính cẩn thận [9qENyaAoGhQ]. Chi phí triển khai cơ bản của cô ấy là 1.000 Yên, giúp bạn ngay lập tức tiếp cận đòn tấn công hình nón 100 độ gây sát thương 2 lần [9qENyaAoGhQ, Manipulator (Spider)]. Khi bạn đầu tư vàng vào các nâng cấp của cô ấy, mô hình và phạm vi tấn công sẽ trải qua những thay đổi mạnh mẽ, đỉnh điểm là sự hiện diện tàn phá trên toàn bộ bản đồ [9qENyaAoGhQ].
+
+Nhánh nâng cấp của cô ấy gồm 8 cấp độ riêng biệt [9qENyaAoGhQ, Manipulator (Spider)]. Các mốc sức mạnh đáng kể nhất xảy ra ở Nâng cấp 4 và Nâng cấp 8 [9qENyaAoGhQ, Manipulator (Spider)]. Ở Nâng cấp 4, cô ấy mở khóa "Spider's Venom" (Nọc độc của Nhện), chuyển đổi đòn tấn công thành chuỗi 3 lần đánh với phạm vi mở rộng 140 độ [9qENyaAoGhQ, Manipulator (Spider)]. Ở Nâng cấp 8, cô ấy mở khóa "Boom!", chuyển đổi phong cách tấn công thành một vụ nổ diện rộng toàn bản đồ (Full AoE) cực lớn tấn công kẻ địch 6 lần [9qENyaAoGhQ, Manipulator (Spider)].
+
+<CardGrid cols={3}>
+  <Card title="Tấn công Hình nón (Nâng cấp 1-3)">
+    - **Hình nón 100 độ** [Manipulator (Spider)]
+    - Tốc độ tấn công nhanh [9qENyaAoGhQ]
+    - Áp dụng các hiệu ứng bất lợi Chảy máu và Bệnh tật cơ bản [9qENyaAoGhQ, Manipulator (Spider)]
+  </Card>
+  <Card title="Spider's Venom (Nâng cấp 4-7)">
+    - **Mở rộng phạm vi 140** [Manipulator (Spider)]
+    - 3 lần đánh nhanh mỗi đòn tấn công [9qENyaAoGhQ, Manipulator (Spider)]
+    - Lý tưởng để kiểm soát đám đông giữa các đợt quái [9qENyaAoGhQ]
+  </Card>
+  <Card title="Boom! (Nâng cấp 8)">
+    - **Vụ nổ diện rộng toàn bản đồ (Full AoE)** [9qENyaAoGhQ, Manipulator (Spider)]
+    - 6 lần đánh tàn phá [Manipulator (Spider)]
+    - Kích hoạt sát thương bộc phát cực khủng trên toàn bản đồ [9qENyaAoGhQ]
+  </Card>
+</CardGrid>
+
+| Cấp độ Nâng cấp | Chi phí | Loại tấn công | Tính năng chính |
+| :--- | :--- | :--- | :--- |
+| Cơ bản | 1.000 Yên | Hình nón | Áp dụng Bệnh tật và Chảy máu [9qENyaAoGhQ, Manipulator (Spider)] |
+| Nâng cấp 4 | 13.200 Yên | Spider's Venom | Phạm vi tăng lên 140, 3 lần đánh [9qENyaAoGhQ, Manipulator (Spider)] |
+| Nâng cấp 8 | 25.000 Yên | Full AoE | Mở khóa Boom! với 6 lần đánh [9qENyaAoGhQ, Manipulator (Spider)] |
+
+<Callout type="tip" title="Chiến thuật Nâng cấp">
+Hãy ưu tiên nâng cấp nhanh cô ấy lên Nâng cấp 4 trong các đợt quái giữa trận. Việc tăng phạm vi lên 140 giúp cô ấy áp dụng hiệu ứng bất lợi Bệnh tật lên kẻ địch tràn vào sớm hơn nhiều, giúp tăng sức mạnh cho các trụ phòng thủ khác của bạn [9qENyaAoGhQ, Manipulator (Spider)].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sự kết hợp, Ký ức (Memoria) và Thiên phú Tốt nhất">
+
+Để mở khóa tiềm năng tối đa của Kafka, bạn phải tối ưu hóa trang bị của cô ấy với các thiên phú (traits), Ký ức (Memoria) và sự kết hợp đội hình chính xác [9qENyaAoGhQ]. Vì các nội tại của cô ấy tỷ lệ thuận với các hiệu ứng Gây sát thương theo thời gian (DoT) hiện có, cô ấy kết hợp cực kỳ tốt với các đơn vị gây chảy máu và thiêu đốt hàng đầu khác như Alocard [9qENyaAoGhQ, Manipulator (Spider)]. Khi Alocard áp dụng các cộng dồn chảy máu khổng lồ, đòn tấn công bồi Spider's Web của Kafka sẽ kích nổ các cộng dồn đó ngay lập tức để gây ra hàng triệu sát thương bộc phát, trong khi vẫn giữ nguyên hiệu ứng chảy máu ban đầu để tiếp tục rút máu [9qENyaAoGhQ, Manipulator (Spider)].
+
+Khi tùy chỉnh cô ấy, bạn nên hướng tới các chỉ số và nâng cấp cụ thể [9qENyaAoGhQ]:
+
+- **Thiên phú (Traits)**: Thiên phú tốt nhất dành cho cô ấy chắc chắn là **Monarch** [9qENyaAoGhQ]. Monarch mang lại khả năng tăng mạnh sát thương thô, phạm vi và giảm thời gian hồi chiêu, cho phép cô ấy kích hoạt các đòn tấn công bồi thường xuyên hơn nhiều [9qENyaAoGhQ].
+- **Ký ức (Memoria)**: **Elegant Violence** là Ký ức đặc trưng của cô ấy [9qENyaAoGhQ]. Nó giúp tăng sát thương của cô ấy thêm 5% (tối đa 30%) bất cứ khi nào có hiệu ứng DoT được áp dụng trong phạm vi của cô ấy [9qENyaAoGhQ]. Ngoài ra, **Ruination** là một lựa chọn hỗ trợ tuyệt vời, gây hiệu ứng làm chậm 30% trong 10 giây bất cứ khi nào cô ấy tấn công một kẻ địch đang bị chảy máu [9qENyaAoGhQ].
+- **Linh thú (Familiars)**: Trang bị linh thú tăng sát thương Chopper để tăng thêm tỷ lệ sát thương thô của cô ấy, đặc biệt hữu ích khi kết hợp cô ấy với các tướng hỗ trợ sát thương cấp cao [9qENyaAoGhQ].
+
+| Tùy chỉnh | Loại | Đánh giá | Lợi ích cốt lõi |
+| :--- | :--- | :--- | :--- |
+| Monarch | Thiên phú | ★★★★★ | Tăng mạnh sát thương, phạm vi và giảm hồi chiêu [9qENyaAoGhQ] |
+| Elegant Violence | Ký ức | ★★★★★ | Tăng sát thương thêm 5% lên đến 30% khi DoT đang hoạt động [9qENyaAoGhQ] |
+| Ruination | Ký ức | ★★★★☆ | Gây làm chậm 30% trong 10 giây lên các mục tiêu bị chảy máu [9qENyaAoGhQ] |
+| Chopper Damage | Linh thú | ★★★★☆ | Tăng sát thương trực tiếp cho các đòn tấn công tỷ lệ cao [9qENyaAoGhQ] |
+
+<Checklist
+  id="kafka-build"
+  title="Danh sách tối ưu hóa Kafka:"
+  items={[
+    "Đạt Cấp 60 để tối đa hóa tỷ lệ sát thương cơ bản",
+    "Tẩy luyện (Reroll) thiên phú Monarch để tối ưu hóa các chỉ số tổng thể",
+    "Trang bị Ký ức Elegant Violence để nhận 30% tăng sát thương",
+    "Kết hợp với Alocard để kích hoạt các hiệu ứng chảy máu nhanh chóng",
+    "Đặt gần các góc cua để tối đa hóa nâng cấp Full AoE của cô ấy"
+  ]}
+/>
+
+<Callout type="info" title="Đội hình Đề xuất">
+Luôn sử dụng Kafka bên cạnh ít nhất một đơn vị chuyên gây DoT khác. Việc sử dụng cô ấy như một nguồn gây sát thương đơn lẻ sẽ lãng phí tiềm năng kích nổ khổng lồ từ nội tại Spider's Web của cô ấy [9qENyaAoGhQ, Manipulator (Spider)].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Câu hỏi thường gặp">
+
+<Callout type="success" title="Đánh giá Meta">
+Kafka vẫn là một trong những khoản đầu tư linh hoạt và có giá trị lâu dài nhất trong Bản cập nhật 11. Khả năng tỷ lệ thuận với các hiệu ứng DoT của toàn đội đảm bảo cô ấy sẽ luôn giữ vững vị thế khi các đơn vị gây chảy máu và thiêu đốt mới, mạnh mẽ hơn được ra mắt [9qENyaAoGhQ, Manipulator (Spider)].
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Tôi có thể đặt nhiều hơn một đơn vị Anime Vanguards Kafka không?",
+    answer: "Không. Manipulator (Spider) có giới hạn đặt nghiêm ngặt là 1 đơn vị trên toàn bản đồ. Bạn phải đặt cô ấy một cách chiến thuật để bao phủ khu vực hiệu quả nhất trên bản đồ."
+  },
+  {
+    question: "Đòn tấn công bồi của cô ấy có xóa bỏ các hiệu ứng DoT hiện có không?",
+    answer: "Không. Nội tại Spider's Web của cô ấy cho phép gây ra tất cả sát thương DoT hiện tại trên kẻ địch mà không xóa bỏ hiệu ứng DoT đó, ngoại trừ duy nhất là Thiêu đốt cực hạn (Intense Burn)."
+  },
+  {
+    question: "Cô ấy có miễn nhiễm với choáng hoặc giảm sát thương không?",
+    answer: "Có, vì thuộc hệ Spark, cô ấy hoàn toàn miễn nhiễm với các hiệu ứng giảm sát thương nhận vào, giúp duy trì lượng DPS cao trong suốt các đợt quái."
+  }
+]} />
+
+</Section>

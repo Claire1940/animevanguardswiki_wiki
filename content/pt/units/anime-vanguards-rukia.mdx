@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rukia em Anime Vanguards: Guia da Rainha do Gelo (Liberação) e Estratégias do Meta",
+  description: "Domine a unidade Rukia (Rainha do Gelo - Liberação) em Anime Vanguards com nosso guia sobre as mecânicas do Zero Absoluto, dicas de obtenção e sinergias de equipe meta.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Ice+Queen+Rukia+Guide",
+  date: "2026-06-27",
+  author: "Equipe da Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Rukia em Anime Vanguards** é uma unidade de raridade Vanguard conhecida como Rainha do Gelo (Liberação), inspirada no estado Bankai de Rukia Kuchiki.
+- **Zero Absoluto** é sua mecânica exclusiva, aplicando penalidades (debuffs) e bônus (buffs) únicos com base no elemento da próxima unidade que atacar.
+- **Suporte Inabalável** permite que ela ajude aliados mesmo sem estar posicionada no campo, concedendo-lhes bônus de dano e alcance.
+- **Traço Monarca** (Monarch Trait) é a rolagem altamente cobiçada de 0,1% que maximiza seu DPS e utilidade em fendas (rifts) de alto nível.
+- **Sinergia de Fogo** é sua interação mais forte, fornecendo um aumento massivo de 100% no dano de DoT (Dano por Tempo) para ataques aliados de fogo.
+</Callout>
+
+<Section icon={Map} title="Obtendo a Rainha do Gelo: Estratégia do Banner de Inverno 26">
+
+A unidade **Rukia em Anime Vanguards**, oficialmente intitulada Rainha do Gelo (Liberação), é uma unidade Vanguard por tempo limitado disponível através do Banner Sazonal de Inverno 26. Ao contrário das unidades míticas padrão, obter uma Vanguard exige um gerenciamento significativo de recursos e um pouco de sorte. Os jogadores devem usar a moeda Presentes 26 para invocar no banner de evento especializado.
+
+**Destaques do Vídeo:**
+- Demonstra o processo de invocação para a Rukia Monarca de 0,005%.
+- Mostra o alto desempenho de DPS e capacidades de suporte em jogabilidade real.
+- Explica a importância da evolução de Memória, o Descanso da Rainha do Gelo.
+- Destaca a sinergia entre Rukia e unidades de alto nível como Esganor.
+
+<YouTubeEmbed videoId="cumx3E7GNUc" title="Getting The MONARCH Rukia In Anime Vanguards!" />
+
+Para garantir esta unidade, os jogadores devem se preparar para o sistema de pity garantido (hard pity). O banner apresenta um limite de pity de 3.000.000 de moedas Presentes 26, o que equivale a aproximadamente 20.000 invocações. Embora a chance básica seja incrivelmente baixa (0,005%), o sistema de pity garante que jogadores dedicados possam eventualmente adicioná-la à sua equipe.
+
+| Método de Obtenção | Requisito | Probabilidade |
+|-------------------|-------------|-------------|
+| **Banner de Inverno 26** | Moeda Presentes 26 | Taxa Base de 0,005% |
+| **Pity Garantido** | 3.000.000 de Moedas | Garantido após 20k Invocações |
+| **Traço Monarca** | Rerolagens de Traço | 0,1% de Chance |
+| **Evolução** | Criação de Memória | Requer o Descanso da Rainha do Gelo |
+
+<Callout type="warning" title="Gerenciamento de Moedas">
+Sempre economize sua moeda Presentes 26 até ter o suficiente para atingir o pity ou chegar perto dele. Invocar esporadicamente em banners Vanguard geralmente resulta em desperdício de recursos sem garantir a unidade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas do Zero Absoluto e Interações de Elementos">
+
+A principal força de **Rukia em Anime Vanguards** reside em seu efeito de status exclusivo "Zero Absoluto". Quando Rukia ataca, ela aplica Congelamento por 2 segundos e inflige Zero Absoluto. Este status é um debuff reativo que altera seu comportamento dependendo do elemento do aliado que atingir o inimigo a seguir. Isso a torna a unidade de suporte mais versátil do meta atual.
+
+| Elemento | Efeito de Interação | Valor Estratégico |
+|---------|--------------------|-----------------|
+| **Fogo** | +100% de Dano de DoT (Exclui Queimadura Intensa) | Sinergia extrema com Esganor |
+| **Água** | +50% de Dano e 50% de Lentidão por 20s | Excelente para controle de grupo e atrasar inimigos |
+| **Faísca** | O dano de ataque se repete | Potencial de explosão massivo para unidades de golpe único |
+| **Sagrado** | Bônus de +20% de Dano para aliados por 20s | Melhor para escalonamento geral do DPS da equipe |
+| **Natureza** | Prolonga o Congelamento para 4 segundos | Essencial para parar chefes rápidos |
+| **Cósmico** | +30% de Dano e reaplica o Zero Absoluto | Ciclo contínuo de debuffs |
+
+Além dessas interações, Rukia possui a passiva **Cancelamento Congelado**. Quando ela congela um inimigo pela primeira vez, ela inflige Anulação. Atacar um inimigo Anulado concede a ela um bônus de dano fixo de 50%. Além disso, seu dano total escala em 100% multiplicado pelo seu limite de posicionamento disponível atual, tornando-a uma potência em modos onde múltiplos posicionamentos são permitidos.
+
+<Callout type="success" title="O Meta de Fogo">
+A interação com unidades de Fogo é atualmente considerada a mais forte. Ao combinar Rukia com unidades que causam grande Dano por Tempo (DoT), você efetivamente dobra o rendimento delas, permitindo que você supere fases de Fenda anteriormente impossíveis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Evolução e Caminho de Melhoria de Memória">
+
+Para desbloquear todo o potencial de **Rukia em Anime Vanguards**, os jogadores devem evoluí-la usando o sistema de Memória. Sua evolução específica, o Descanso da Rainha do Gelo, melhora significativamente suas capacidades de suporte e ativações passivas. O processo envolve coletar pedras de essência específicas e criar a Memória por meio da loja do evento e de recompensas de raides.
+
+<Steps>
+  <Step num="1" title="Invocar Unidade Base">
+    Obtenha a Rainha do Gelo (Liberação) no Banner de Inverno 26 usando a moeda Presentes 26.
+  </Step>
+  <Step num="2" title="Criar o Descanso da Rainha do Gelo">
+    Colete os materiais necessários na loja do evento, incluindo pedras de essência de alto nível e itens específicos do evento.
+  </Step>
+  <Step num="3" title="Subir o Nível da Memória">
+    Use o recurso de autofusão para consumir Memórias de nível inferior no Descanso da Rainha do Gelo para atingir o nível máximo.
+  </Step>
+  <Step num="4" title="Rolar para Divindade">
+    Use chips de atributos para rolar o traço Divindade (Divinity) na Memória, o que adiciona um bônus de dano de 50% aos efeitos da Memória.
+  </Step>
+</Steps>
+
+A evolução de Memória introduz a passiva **Assistência de Força Total**. Isso permite que o suporte inabalável de Rukia (sua habilidade de atacar mesmo sem estar posicionada) extraia suas estatísticas de dano do seu nível de melhoria atual em relação à unidade que ela está ajudando. Isso significa que ela escala com as suas unidades posicionadas mais fortes, mesmo que permaneça em seu inventário.
+
+<Callout type="tip" title="Transferência de Atributos">
+Use a mecânica de Transferência de Atributos para mover atributos Divinos (Godly) ou Z+ de Memórias míticas de nível inferior para o seu Descanso da Rainha do Gelo. Isso economiza milhares de chips de atributos e garante que sua Rukia tenha atributos perfeitos de Dano e Alcance.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Suporte Inabalável: O Meta Fora de Campo">
+
+Um dos aspectos mais revolucionários de **Rukia em Anime Vanguards** é sua capacidade de funcionar sem ser posicionada no mapa. Essa mecânica de "Suporte Inabalável" é ativada sempre que uma unidade aliada ataca, fazendo com que Rukia apareça brevemente e realize um ataque de acompanhamento.
+
+**Benefícios do Suporte:**
+- **Custo de Posicionamento Zero**: Obtenha seus benefícios sem gastar Ienes em posicionamento no início do jogo.
+- **Bônus de Dano**: A unidade assistida ganha um bônus de +50% de dano por 20 segundos.
+- **Extensão de Alcance**: A unidade assistida ganha um bônus de +20% de alcance por 20 segundos.
+- **Aplicação de Status**: Ela ainda aplica Congelamento e Zero Absoluto durante esses ataques de acompanhamento.
+
+<CardGrid cols={2}>
+  <Card title="Estratégia Posicionada">
+    - **Dano Total (DPS)**: Ultrapassa mais de 370k+ de DPS com bônus.
+    - **Habilidade Ativa**: Pode usar "Mundo Congelado" para uma explosão global de 500% de dano.
+    - **Controle Máximo**: Aplicação constante de Congelamento em uma grande área de cone.
+  </Card>
+  <Card title="Estratégia Não Posicionada">
+    - **Eficiência de Espaço**: Libera um espaço de posicionamento para outra unidade de DPS.
+    - **Bônus Consistentes**: Mantém seus atacantes principais fortalecidos 100% do tempo.
+    - **Suporte no Início do Jogo**: Ajuda unidades de baixo custo a causarem um impacto muito acima do esperado.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Ataque Global">
+Se você posicionar Rukia após a Onda 10, sua habilidade "Mundo Congelado" é ativada automaticamente. Ela causa 500% de dano a todos os inimigos ao alcance e os congela por 4 segundos, oferecendo uma enorme rede de segurança para as ondas finais do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Atributos e Escalonamento de Melhorias">
+
+O escalonamento de **Rukia em Anime Vanguards** é projetado para o conteúdo de fim de jogo (late-game). Enquanto suas melhorias iniciais focam no alcance e no ângulo do cone, suas melhorias finais aumentam significativamente seu dano base e SPA (Segundos por Ataque), tornando-a uma das unidades Vanguard de ataque mais rápido do jogo.
+
+| Melhoria | Custo | Dano | SPA | Alcance | DPS (Aprox.) |
+|---------|------|--------|-----|-------|--------------|
+| **Base** | $10.000 | 10.000 | 7,9s | 35 | 1.270 |
+| **Nível 5** | $10.500 | 65.000 | 7,9s | 41 | 8.254 |
+| **Nível 10** | $17.400 | 200.000 | 7,9s | 47 | 25.397 |
+| **Nível 15** | $25.000 | 325.000 | 7,9s | 53 | 41.270 |
+| **Máx (Monarca)** | Total $223k | 1,2M+ | 7,9s | 55+ | 150k - 400k+ |
+
+Nota: Os números de DPS acima são estatísticas básicas. Ao considerar o traço **Monarca**, a Memória de **Divindade** e bônus de equipe de unidades como Brook ou Overlord, seu DPS efetivo pode facilmente ultrapassar 5 milhões de dano por golpe contra chefes.
+
+<Checklist
+  id="rukia-max-potential"
+  title="Lista de Verificação para o Potencial Máximo:"
+  items={[
+    "Desbloquear o Traço Monarca (0,1% de chance)",
+    "Evoluir para a Memória Descanso da Rainha do Gelo",
+    "Rolar atributos Divinos (Godly) de Dano e Alcance",
+    "Alcançar o Nível 60+ para o máximo de escalonamento base",
+    "Combinar com uma unidade de DPS do elemento Fogo para um bônus de 100% no DoT"
+  ]}
+/>
+
+<Callout type="success" title="Dano Oculto">
+Testes revelam que Rukia causa um dano "oculto" significativo por meio de suas ativações de Zero Absoluto. Mesmo que a interface do usuário exiba 370k de DPS, seu impacto real na barra de vida de um chefe frequentemente reflete milhões de dano por ciclo devido ao escalonamento de status.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Rukia em Anime Vanguards é melhor do que outras unidades Vanguard?",
+    answer: "Sim, em termos de utilidade. Embora algumas unidades possam ter um DPS solo bruto mais alto, a habilidade da Rukia de fortalecer toda a equipe através do Zero Absoluto e fornecer suporte fora de campo a torna uma unidade obrigatória para disputar o topo do placar de líderes."
+  },
+  {
+    question: "Preciso posicioná-la no campo para obter os efeitos do Zero Absoluto?",
+    answer: "Não. Sua habilidade passiva Suporte Inabalável aplica o Zero Absoluto mesmo quando ela não está posicionada. No entanto, posicioná-la permite aplicações mais frequentes e acesso à sua habilidade ativa de 500% de dano."
+  },
+  {
+    question: "Qual é a melhor característica para a Rukia?",
+    answer: "Monarca (Monarch) é absolutamente a melhor característica para a Rukia, oferecendo a maior distribuição de atributos. Se você não conseguir obter Monarca, Olho de Águia (Dead Eye) é uma excelente segunda opção para DPS puro, embora Monarca forneça uma utilidade geral muito superior."
+  },
+  {
+    question: "Como ela interage com Esganor?",
+    answer: "Ela é a melhor parceira para o Esganor. Seu efeito Zero Absoluto concede às unidades de Fogo +100% de dano de DoT. Como o Esganor depende muito do dano de queimadura, Rukia efetivamente dobra o dano total dele."
+  }
+]} />
+
+</Section>

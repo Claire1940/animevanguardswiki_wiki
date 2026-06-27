@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "anime vanguards rukia: Hướng dẫn Ice Queen Release & Chiến thuật Meta",
+  description: "Làm chủ đơn vị anime vanguards rukia (Ice Queen Release) với hướng dẫn của chúng tôi về cơ chế Độ Không Tuyệt Đối, mẹo sở hữu và sự phối hợp đội hình meta.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Ice+Queen+Rukia+Guide",
+  date: "2026-06-27",
+  author: "Đội ngũ Wiki anime vanguards",
+  keywords: "anime vanguards rukia, ice queen release, độ không tuyệt đối, hướng dẫn anime vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **anime vanguards rukia** là một đơn vị độ hiếm Vanguard được gọi là Ice Queen (Release), lấy cảm hứng từ trạng thái Bankai của Rukia Kuchiki.
+- **Độ Không Tuyệt Đối** là cơ chế đặc trưng của cô ấy, áp dụng các hiệu ứng bất lợi (debuff) và có lợi (buff) độc đáo dựa trên nguyên tố của đơn vị tấn công tiếp theo.
+- **Hỗ Trợ Kiên Cường** cho phép cô ấy hỗ trợ đồng minh ngay cả khi không được đặt trên sân, tăng sát thương và tầm đánh cho họ.
+- **Đặc điểm Monarch (Quân Chủ)** là lần quay 0.1% cực kỳ hiếm giúp tối đa hóa DPS và tiện ích của cô ấy trong các vết nứt (rift) cấp cao.
+- **Phối hợp hệ Lửa** là tương tác mạnh nhất của cô ấy, cung cấp mức tăng sát thương DoT khổng lồ 100% cho các đòn tấn công hệ lửa của đồng minh.
+</Callout>
+
+<Section icon={Map} title="Sở hữu Ice Queen: Chiến thuật Banner Winter 26">
+
+Đơn vị **anime vanguards rukia**, với tên gọi chính thức là Ice Queen (Release), là một đơn vị Vanguard giới hạn có sẵn thông qua Banner theo mùa Winter 26. Không giống như các đơn vị mythic tiêu chuẩn, việc sở hữu một Vanguard đòi hỏi sự quản lý tiền tệ đáng kể và một chút may mắn. Người chơi phải sử dụng tiền tệ Presents 26 để triệu hồi trên banner sự kiện chuyên biệt.
+
+**Điểm nhấn Video:**
+- Trình diễn quá trình triệu hồi Monarch Rukia tỉ lệ 0.005%.
+- Hiển thị đầu ra DPS cao và khả năng hỗ trợ trong lối chơi thực tế.
+- Giải thích tầm quan trọng của quá trình tiến hóa Memoria, Ice Queen's Rest (Sự Nghỉ Ngơi của Nữ Hoàng Băng).
+- Làm nổi bật sự phối hợp giữa Rukia và các đơn vị cấp cao như Esganor.
+
+<YouTubeEmbed videoId="cumx3E7GNUc" title="Nhận MONARCH Rukia Trong Anime Vanguards!" />
+
+Để đảm bảo nhận được đơn vị này, người chơi nên chuẩn bị cho hệ thống bảo hiểm (hard pity). Banner có ngưỡng bảo hiểm là 3,000,000 tiền tệ Presents 26, tương đương với khoảng 20,000 lần triệu hồi. Mặc dù tỉ lệ cơ bản cực thấp là 0.005%, hệ thống bảo hiểm đảm bảo rằng những người chơi chuyên tâm cuối cùng cũng có thể thêm cô ấy vào đội hình của mình.
+
+| Phương thức sở hữu | Yêu cầu | Xác suất |
+|-------------------|-------------|-------------|
+| **Banner Winter 26** | Tiền tệ Presents 26 | Tỉ lệ cơ bản 0.005% |
+| **Bảo hiểm (Hard Pity)** | 3,000,000 Tiền tệ | Đảm bảo sau 20k lần triệu hồi |
+| **Đặc điểm Monarch** | Quay lại đặc điểm (Reroll) | Tỉ lệ 0.1% |
+| **Tiến hóa** | Chế tạo Memoria | Yêu cầu Ice Queen's Rest |
+
+<Callout type="warning" title="Quản lý tiền tệ">
+Luôn tiết kiệm tiền tệ Presents 26 cho đến khi bạn có đủ để đạt mức bảo hiểm hoặc gần mức đó. Triệu hồi rải rác trên các banner Vanguard thường dẫn đến lãng phí tài nguyên mà không sở hữu được đơn vị.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cơ chế Độ Không Tuyệt Đối và Tương tác Nguyên tố">
+
+Sức mạnh cốt lõi của **anime vanguards rukia** nằm ở hiệu ứng trạng thái "Độ Không Tuyệt Đối" độc đáo. Khi Rukia tấn công, cô ấy gây Đóng băng trong 2 giây và áp dụng Độ Không Tuyệt Đối. Trạng thái này là một debuff phản ứng thay đổi hành vi tùy thuộc vào nguyên tố của đồng minh tấn công kẻ thù tiếp theo. Điều này khiến cô ấy trở thành đơn vị hỗ trợ linh hoạt nhất trong meta hiện tại.
+
+| Nguyên tố | Hiệu ứng tương tác | Giá trị chiến thuật |
+|---------|--------------------|-----------------|
+| **Lửa** | +100% Sát thương DoT (Ngoại trừ Intense Burn) | Phối hợp cực mạnh với Esganor |
+| **Nước** | +50% Sát thương và 50% Làm chậm trong 20 giây | Tốt nhất để kiểm soát đám đông và trì hoãn |
+| **Tia chớp** | Sát thương tấn công lặp lại | Tiềm năng bùng nổ sát thương lớn cho các đơn vị đánh đơn |
+| **Thánh** | +20% Buff sát thương cho đồng minh trong 20 giây | Tốt nhất để tăng quy mô DPS tổng thể của đội |
+| **Tự nhiên** | Kéo dài thời gian Đóng băng lên 4 giây | Thiết yếu để ngăn chặn các boss di chuyển nhanh |
+| **Vũ trụ** | +30% Sát thương và áp dụng lại Độ Không Tuyệt Đối | Duy trì vòng lặp debuff liên tục |
+
+Ngoài các tương tác này, Rukia còn sở hữu nội tại **Hủy Bỏ Đóng Băng**. Khi cô ấy đóng băng kẻ thù lần đầu tiên, cô ấy gây ra Vô Hiệu Hóa. Tấn công một kẻ thù bị Vô Hiệu Hóa giúp cô ấy nhận thêm 50% sát thương trực tiếp. Hơn nữa, tổng sát thương của cô ấy tăng thêm 100% nhân với giới hạn vị trí hiện có, biến cô ấy thành một thế lực trong các chế độ cho phép đặt nhiều đơn vị.
+
+<Callout type="success" title="Meta Hệ Lửa">
+Tương tác với các đơn vị hệ Lửa hiện được coi là mạnh nhất. Bằng cách kết hợp Rukia với các đơn vị gây Sát thương theo thời gian (DoT) nặng, bạn thực tế đã tăng gấp đôi đầu ra của họ, cho phép bạn vượt qua các màn chơi Rift trước đây không thể vượt qua.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tiến hóa và Lộ trình Nâng cấp Memoria">
+
+Để mở khóa toàn bộ tiềm năng của **anime vanguards rukia**, người chơi phải tiến hóa cô ấy bằng hệ thống Memoria. Bản tiến hóa cụ thể của cô ấy, Ice Queen's Rest, giúp tăng cường đáng kể khả năng hỗ trợ và kích hoạt nội tại. Quá trình này bao gồm việc thu thập các viên đá tinh chất cụ thể và chế tạo Memoria thông qua cửa hàng sự kiện và rơi ra từ raid.
+
+<Steps>
+  <Step num="1" title="Triệu hồi đơn vị cơ bản">
+    Nhận Ice Queen (Release) từ Banner Winter 26 bằng tiền tệ Presents 26.
+  </Step>
+  <Step num="2" title="Chế tạo Ice Queen's Rest">
+    Thu thập các nguyên liệu cần thiết từ cửa hàng sự kiện, bao gồm đá tinh chất cấp cao và các vật phẩm sự kiện cụ thể.
+  </Step>
+  <Step num="3" title="Nâng cấp Memoria">
+    Sử dụng tính năng tự động dung hợp để nạp các Memoria cấp thấp hơn vào Ice Queen's Rest để đạt cấp độ tối đa.
+  </Step>
+  <Step num="4" title="Quay chỉ số Divinity">
+    Sử dụng chip chỉ số để quay đặc điểm Divinity (Thần Thánh) trên Memoria, giúp thêm 50% sát thương vào hiệu ứng của Memoria.
+  </Step>
+</Steps>
+
+Memoria đã tiến hóa giới thiệu nội tại **Hỗ Trợ Toàn Lực**. Điều này cho phép sự hỗ trợ kiên cường của Rukia (khả năng tấn công khi không được đặt trên sân) lấy chỉ số sát thương từ mức nâng cấp hiện tại của cô ấy so với đơn vị mà cô ấy đang hỗ trợ. Điều này có nghĩa là cô ấy tăng tiến sức mạnh cùng với các đơn vị mạnh nhất của bạn ngay cả khi cô ấy vẫn ở trong kho đồ.
+
+<Callout type="tip" title="Chuyển đổi chỉ số">
+Sử dụng cơ chế Chuyển đổi chỉ số để chuyển các chỉ số Godly hoặc Z+ từ Memoria mythic cấp thấp hơn sang Ice Queen's Rest của bạn. Điều này tiết kiệm hàng ngàn chip chỉ số và đảm bảo Rukia của bạn có chỉ số Sát thương và Tầm đánh hoàn hảo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hỗ Trợ Kiên Cường: Meta Ngoài Sân">
+
+Một trong những khía cạnh mang tính cách mạng nhất của **anime vanguards rukia** là khả năng hoạt động mà không cần đặt trên bản đồ. Cơ chế "Hỗ Trợ Kiên Cường" này kích hoạt bất cứ khi nào một đơn vị đồng minh tấn công, khiến Rukia xuất hiện ngắn ngủi và thực hiện một đòn đánh bồi.
+
+**Lợi ích hỗ trợ:**
+- **Không tốn chi phí đặt**: Nhận được lợi ích của cô ấy mà không cần tốn Yên để đặt trong giai đoạn đầu game.
+- **Buff sát thương**: Đơn vị được hỗ trợ nhận thêm +50% sát thương trong 20 giây.
+- **Mở rộng tầm đánh**: Đơn vị được hỗ trợ nhận thêm +20% tầm đánh trong 20 giây.
+- **Áp dụng trạng thái**: Cô ấy vẫn áp dụng Đóng băng và Độ Không Tuyệt Đối trong các đòn tấn công bồi này.
+
+<CardGrid cols={2}>
+  <Card title="Chiến thuật đặt trên sân">
+    - **Đầu ra DPS tối đa**: Đạt hơn 370k+ DPS với các buff.
+    - **Kỹ năng kích hoạt**: Có thể sử dụng "Thế Giới Băng Giá" cho một vụ nổ sát thương 500% toàn bản đồ.
+    - **Kiểm soát tối đa**: Áp dụng Đóng băng liên tục trong một khu vực hình nón lớn.
+  </Card>
+  <Card title="Chiến thuật không đặt trên sân">
+    - **Hiệu quả ô chứa**: Giải phóng một ô đặt cho một đơn vị DPS khác.
+    - **Buff ổn định**: Giữ cho các đơn vị tấn công chính của bạn luôn được buff 100% thời gian.
+    - **Gánh đội đầu game**: Giúp các đơn vị chi phí thấp đánh bại những kẻ thù mạnh hơn nhiều.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Vụ nổ toàn cầu">
+Nếu bạn đặt Rukia sau Đợt 10, kỹ năng "Thế Giới Băng Giá" của cô ấy sẽ tự động kích hoạt. Nó gây 500% sát thương cho tất cả kẻ thù trong tầm đánh và đóng băng chúng trong 4 giây, cung cấp một lưới bảo hiểm khổng lồ cho các đợt lính cuối game.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chỉ số và Quy mô Nâng cấp">
+
+Quy mô sức mạnh của **anime vanguards rukia** được thiết kế riêng cho nội dung cuối game. Trong khi các nâng cấp ban đầu tập trung vào tầm đánh và góc hình nón, các nâng cấp cuối cùng tăng đáng kể sát thương cơ bản và SPA (Giây mỗi lần tấn công), biến cô ấy thành một trong những đơn vị Vanguard tấn công nhanh nhất trò chơi.
+
+| Nâng cấp | Chi phí | Sát thương | SPA | Tầm đánh | DPS (Ước tính) |
+|---------|------|--------|-----|-------|--------------|
+| **Cơ bản** | $10,000 | 10,000 | 7.9s | 35 | 1,270 |
+| **Cấp 5** | $10,500 | 65,000 | 7.9s | 41 | 8,254 |
+| **Cấp 10** | $17,400 | 200,000 | 7.9s | 47 | 25,397 |
+| **Cấp 15** | $25,000 | 325,000 | 7.9s | 53 | 41,270 |
+| **Tối đa (Monarch)** | Tổng $223k | 1.2M+ | 7.9s | 55+ | 150k - 400k+ |
+
+Lưu ý: Các số liệu DPS ở trên là chỉ số cơ bản. Khi tính thêm đặc điểm **Monarch**, Memoria **Divinity**, và các buff đội hình từ các đơn vị như Brook hoặc Overlord, DPS thực tế của cô ấy có thể dễ dàng vượt quá 5 triệu sát thương mỗi lần đánh đối với boss.
+
+<Checklist
+  id="rukia-max-potential"
+  title="Danh sách kiểm tra tiềm năng tối đa:"
+  items={[
+    "Mở khóa đặc điểm Monarch (tỉ lệ 0.1%)",
+    "Tiến hóa lên Memoria Ice Queen's Rest",
+    "Quay được chỉ số Godly Damage và Range",
+    "Đạt cấp độ 60+ để tối đa hóa quy mô cơ bản",
+    "Kết hợp với một DPS hệ Lửa để tăng 100% sát thương DoT"
+  ]}
+/>
+
+<Callout type="success" title="Sát thương ẩn">
+Thử nghiệm cho thấy Rukia gây ra "sát thương ẩn" đáng kể thông qua việc kích hoạt Độ Không Tuyệt Đối. Ngay cả khi giao diện hiển thị 370k DPS, tác động thực sự của cô ấy lên thanh máu của boss thường phản ánh hàng triệu sát thương mỗi chu kỳ nhờ quy mô trạng thái.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Anime vanguards rukia có tốt hơn các đơn vị Vanguard khác không?",
+    answer: "Có, xét về mặt tiện ích. Trong khi một số đơn vị có thể có DPS đơn lẻ thô cao hơn, khả năng buff cho toàn đội thông qua Độ Không Tuyệt Đối và cung cấp hỗ trợ ngoài sân khiến cô ấy trở thành đơn vị bắt buộc phải có cho các lượt chạy bảng xếp hạng cấp cao."
+  },
+  {
+    question: "Tôi có cần đặt cô ấy trên sân để nhận hiệu ứng Độ Không Tuyệt Đối không?",
+    answer: "Không. Nội tại Hỗ Trợ Kiên Cường của cô ấy áp dụng Độ Không Tuyệt Đối ngay cả khi cô ấy không được đặt trên sân. Tuy nhiên, việc đặt cô ấy cho phép áp dụng thường xuyên hơn và tiếp cận kỹ năng kích hoạt gây 500% sát thương."
+  },
+  {
+    question: "Đặc điểm tốt nhất cho Rukia là gì?",
+    answer: "Monarch là đặc điểm tốt nhất tuyệt đối cho Rukia, cung cấp sự phân bổ chỉ số cao nhất. Nếu bạn không quay được Monarch, Dead Eye là lựa chọn thứ hai mạnh mẽ cho DPS thuần túy, mặc dù Monarch mang lại tiện ích tổng thể tốt hơn."
+  },
+  {
+    question: "Cô ấy tương tác với Esganor như thế nào?",
+    answer: "Cô ấy là đối tác tốt nhất của Esganor. Hiệu ứng Độ Không Tuyệt Đối của cô ấy giúp các đơn vị hệ Lửa tăng +100% sát thương DoT. Vì Esganor phụ thuộc nhiều vào sát thương thiêu đốt, Rukia thực tế đã tăng gấp đôi tổng đầu ra sát thương của anh ta."
+  }
+]} />
+
+</Section>
