@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Odyssey: Hướng dẫn Chiến thuật & Cày cuốc Phần thưởng",
+  description: "Làm chủ chế độ Anime Vanguards Odyssey. Tìm hiểu các thiết lập đơn vị tốt nhất, chiến lược tăng tiến và lộ trình tối ưu hóa phần thưởng cho Bản cập nhật 13.5.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/8b35ff/fff?text=Anime+Vanguards+Odyssey+Guide",
+  date: "2026-06-28",
+  author: "Đội ngũ Wiki Anime Vanguards",
+  keywords: "anime vanguards odyssey, hướng dẫn anime vanguards, cày reroll thiên phú, hệ thống memoria 13.5"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Làm chủ Odyssey**: Chế độ **anime vanguards odyssey** là hoạt động cuối game có thể lặp lại hàng đầu để cày Reroll Thiên phú (Trait Reroll) và Mảnh Memoria.
+- **Tập trung Tăng tiến**: Thành công phụ thuộc vào việc lựa chọn các đơn vị carry bền bỉ, những đơn vị được hưởng lợi từ các thẻ sức mạnh đặc thù của chế độ và các lựa chọn tăng tiến chỉ số.
+- **Sự kết hợp Hàng đầu**: Kết hợp các carry sát thương cao với những người triệu hồi tiết kiệm ô đặt như Song Jinwu hoặc các gã khổng lồ kiểm soát đám đông như Gujo (Infinity).
+- **Bảo vệ Tài nguyên**: Sử dụng phần thưởng khó kiếm được của bạn để nhắm vào các ngưỡng bảo hiểm (pity) thiên phú mythic thay vì lãng phí lượt reroll một cách dàn trải.
+- **Sẵn sàng cho 13.5**: Tận dụng hệ thống Memoria mới được đại tu để tái chế các bản sao và tối đa hóa hiệu quả chiến đấu của đội bạn.
+</Callout>
+
+<Section icon={Map} title="Tìm hiểu về Chế độ Chơi Odyssey">
+
+Chế độ **anime vanguards odyssey** rất được mong đợi là một trong những thử thách bổ ích và năng động nhất trong trò chơi. Không giống như các màn chơi cốt truyện tiêu chuẩn hay các cuộc đột kích tuyến tính, Odyssey đẩy người chơi vào các lượt chơi lặp lại, kéo dài, nơi sự sinh tồn và chiến thuật thích ứng là tối quan trọng. Trong suốt một lượt chạy Odyssey, bạn phải đưa ra các lựa chọn quan trọng, chọn các sức mạnh đặc thù của chế độ, thẻ tiện ích và các buff nhân vật tăng tiến khi các đợt quái vật ngày càng trở nên hung hãn.
+
+Để liên tục vượt qua chế độ này, người chơi phải chuyển hướng khỏi các thiết lập sát thương thuần túy tiêu chuẩn và thay vào đó tập trung vào kinh tế bền vững, kiểm soát đám đông và các đơn vị có khả năng tăng tiến cực tốt trong thời gian dài. Phần thưởng khi chinh phục các lượt chạy này rất đáng mơ ước, cung cấp nguồn Reroll Thiên phú, Mảnh Memoria ổn định và các tài nguyên độc quyền theo bản cập nhật.
+
+| Chế độ | Mục đích | Trọng tâm Đội hình | Phần thưởng Chính |
+| :--- | :--- | :--- | :--- |
+| Chế độ Cốt truyện | Tiến trình Chiến dịch | AoE đầu trận rẻ, DPS đơn mục tiêu | Gems, Vàng, Vật phẩm rơi |
+| Giai đoạn Huyền thoại | Cày nguyên liệu khó hơn | Sát thương cao, kiểm soát đám đông, làm chậm | Nguyên liệu tiến hóa, bảo hiểm đơn vị |
+| Đột kích (Raids) | Cày Boss độ khó cao | Hỗ trợ trạng thái, vị trí phối hợp | Đơn vị hiếm, tiền tệ shop sự kiện |
+| Vết nứt (Rifts) | Cày các cuộc chạm trán hiếm | Tốc độ dọn nhanh, sát thương bùng nổ | Vật phẩm hiếm theo bản cập nhật |
+| Odyssey | Cày tài nguyên cuối game | Carry bền bỉ, buff tăng tiến, triệu hồi | Reroll Thiên phú, Mảnh Memoria |
+| Dòng thế giới | Tiến trình theo tầng | Kiểm soát đợt quái ổn định, sát thương Boss | Chip chỉ số, Đá tinh chất, Đơn vị |
+
+<Callout type="info" title="Cơ chế Chế độ">
+Các lượt chạy Odyssey giới thiệu các công cụ sửa đổi ngẫu nhiên có thể trừng phạt nghiêm khắc các đội hình không chuẩn bị trước. Luôn ưu tiên chọn các thẻ tăng Tầm đánh (Range) hoặc Tốc độ Đánh (SPA) cho carry chính của bạn sớm trong lượt chạy để chống lại các hiệu ứng tiêu cực của màn chơi.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các Đơn vị Tốt nhất và Sự kết hợp Đội hình cho Odyssey">
+
+Xây dựng một đội hình dành riêng cho chế độ **anime vanguards odyssey** đòi hỏi sự cân bằng tinh tế giữa sát thương, kiểm soát đám đông và hỗ trợ kinh tế. Vì các ô đặt đơn vị và chi phí nâng cấp được quản lý chặt chẽ trong quá trình tăng tiến dài hạn, hiệu quả ô đặt là yếu tố quan trọng nhất. Các đơn vị có thể triệu hồi đồng minh mà không tiêu tốn giới hạn đặt đơn vị tiêu chuẩn, hoặc những đơn vị cung cấp hiệu ứng làm chậm toàn bản đồ, được ưu tiên rất cao.
+
+Thử nghiệm của chúng tôi làm nổi bật một số đơn vị nổi bật làm trụ cột cho các đội hình Odyssey thành công:
+
+| Đơn vị | Độ hiếm | Vai trò | Lợi ích Chính |
+| :--- | :--- | :--- | :--- |
+| God (Above Heaven) | Secret | Bùng nổ AoE / Ngưng đọng thời gian | Đóng băng các nhóm kẻ thù lớn trong khi gây sát thương diện rộng khổng lồ |
+| Song Jinwu and Igros | Vanguard | Áp lực Triệu hồi | Triệu hồi lính bóng tối không tính vào giới hạn đặt đơn vị |
+| Demon Leader (Control) | Secret | Hỗ trợ Kinh tế | Cắt giảm mạnh chi phí triển khai và buff cho đồng minh Demon Hunter |
+| Rogita (Super 4) | Vanguard | Diệt Boss | Cung cấp sát thương bùng nổ đơn mục tiêu vô đối cho các boss cuối trận |
+| Ice Queen (Release) | Vanguard | Kiểm soát Đóng băng | Khóa chặt các làn đường di chuyển nhanh và tạo cửa sổ tấn công an toàn |
+| Gujo (Infinity) | Secret | DPS Kiểm soát đám đông | Sử dụng các kỹ năng làm choáng và làm chậm diện rộng để ngăn chặn các đợt kẻ thù dày đặc |
+
+<CardGrid cols={3}>
+  <Card title="Liên minh Triệu hồi">
+    - **Đơn vị Cốt lõi**: Song Jinwu, Igros, và Lich King (Ruler).
+    - **Chiến thuật**: Tràn ngập tiền tuyến bằng các đơn vị bóng tối bền bỉ để chặn đường mà không làm tắc nghẽn các ô đặt của bạn.
+    - **Ưu điểm**: Khả năng cầm chân kẻ thù tuyệt vời và DPS thụ động cao.
+  </Card>
+  <Card title="Meta Đóng băng & Tan chảy">
+    - **Đơn vị Cốt lõi**: God (Above Heaven), Ice Queen, và Rogita.
+    - **Chiến thuật**: Khóa toàn bộ các đợt quái tại chỗ bằng cách ngưng đọng thời gian và đóng băng, cho phép các kẻ diệt boss đơn mục tiêu làm tan chảy các mục tiêu HP cao.
+    - **Ưu điểm**: Cực kỳ an toàn và có độ tin cậy cao trước các đợt boss nhanh.
+  </Card>
+  <Card title="Cốt lõi Kinh tế & Buff">
+    - **Đơn vị Cốt lõi**: Demon Leader, Alocard, và Demon Hybrid.
+    - **Chiến thuật**: Sử dụng các nội tại giảm chi phí để triển khai các đơn vị hạng nặng sớm, sau đó cộng dồn sát thương chảy máu trên nhiều làn đường.
+    - **Ưu điểm**: Thời gian thiết lập nhanh chóng và mức trần sát thương toàn đội khổng lồ.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mẹo Kết hợp">
+Luôn ghép cặp một đơn vị carry chính với ít nhất một tùy chọn kiểm soát đám đông đáng tin cậy. Một sai lầm phổ biến là chỉ xếp chồng các đơn vị sát thương thuần túy, điều này chắc chắn dẫn đến việc lọt quái trong các đợt quái nhanh và mật độ cao ở các tầng sau.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lộ trình Từng bước trong Anime Vanguards Odyssey">
+
+Để điều hướng thành công một lượt chạy Odyssey đòi hỏi một cách tiếp cận có phương pháp trong việc triển khai, nâng cấp và lựa chọn thẻ. Hãy làm theo lộ trình tiến triển đã được kiểm chứng này để tối ưu hóa các lượt chạy và đảm bảo phần thưởng của bạn.
+
+<Steps>
+  <Step num="1" title="Thiết lập Kinh tế Sớm">
+    Bắt đầu lượt chạy bằng cách đặt các đơn vị giảm chi phí hoặc tăng thu nhập, chẳng hạn như Demon Leader. Đừng đầu tư quá mức vào các đơn vị sát thương đắt tiền trong vài đợt đầu tiên. Thay vào đó, hãy sử dụng các đơn vị khởi đầu rẻ, hiệu quả hoặc các đơn vị triệu hồi cơ bản để xử lý kẻ thù sớm trong khi bạn xây dựng nền tảng tài chính ổn định.
+  </Step>
+  <Step num="2" title="Triển khai Kiểm soát Đám đông Chính">
+    Trước khi đợt quái tăng tốc lớn đầu tiên ập đến, hãy triển khai một đơn vị kiểm soát đám đông như Gujo (Infinity) hoặc Ice Queen. Đặt chúng tại các giao lộ chính hoặc các vòng lặp nơi các kỹ năng làm chậm và đóng băng của chúng có thể tác động đến số lượng mục tiêu tối đa. Điều này thiết lập một cửa sổ an toàn đáng tin cậy cho các carry của bạn.
+  </Step>
+  <Step num="3" title="Chọn các Thẻ Tăng tiến Giá trị Cao">
+    Khi bạn hoàn thành các tầng và chọn thẻ, hãy ưu tiên các mức tăng chỉ số vĩnh viễn như tăng Sát thương (Damage), mở rộng Tầm đánh (Range) và giảm SPA. Tránh chọn các buff tạm thời hoặc quá đặc thù trừ khi chúng kết hợp trực tiếp với loại sát thương chính của carry của bạn (ví dụ: tăng Đốt cháy hoặc Chảy máu).
+  </Step>
+  <Step num="4" title="Triển khai và Tối đa hóa Carry Chính">
+    Khi kinh tế của bạn đã ổn định và các làn đường đã được kiểm soát, hãy triển khai các carry hạng nặng của bạn, chẳng hạn như Rogita (Super 4) hoặc God (Above Heaven). Tập trung vàng của bạn để nâng cấp đầy đủ từng đơn vị này một, thay vì nâng cấp một phần nhiều đơn vị yếu hơn trên bản đồ.
+  </Step>
+  <Step num="5" title="Quản lý các Đợt Boss Cuối trận">
+    Trong các cuộc chạm trán boss cuối cùng, hãy kích hoạt các kỹ năng chủ động của đơn vị bạn một cách thủ công. Căn thời gian đóng băng hoặc ngưng đọng thời gian để ngắt các cuộc tấn công tàn khốc của boss, và đảm bảo các đơn vị DPS đơn mục tiêu của bạn đang nhắm mục tiêu vào boss thay vì các quái nhỏ lẻ.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Thời điểm Nâng cấp">
+Đừng bao giờ tiêu hết vàng để nâng cấp một đơn vị duy nhất nếu một làn đường hiện đang bị lọt các kẻ thù nhanh. Tốt hơn hết là đặt một đơn vị làm chậm hoặc triệu hồi rẻ tiền để bảo vệ làn đường trước khi cam kết nâng cấp cấp cao đắt tiền.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Thiên phú, Reroll và Đại tu Memoria">
+
+Phần thưởng kiếm được từ chế độ **anime vanguards odyssey**—cụ thể là Reroll Thiên phú và Mảnh Memoria—là cực kỳ quan trọng để tối ưu hóa đơn vị cuối game. Thiên phú (Traits) đóng vai trò là các công cụ sửa đổi chỉ số vĩnh viễn trên các đơn vị của bạn, trong khi hệ thống Memoria mới được đại tu trong Bản cập nhật 13.5 cung cấp các mức tăng cường chiến đấu thụ động khổng lồ.
+
+### Nhóm Reroll Thiên phú và Ngưỡng Bảo hiểm (Pity)
+
+Khi reroll thiên phú tại NPC Mandra Traits, người chơi nên nhắm tới các thiên phú mythic cho các carry chính của mình. Mỗi lần thử tiêu tốn 1 Reroll Thiên phú, và trò chơi có hệ thống bảo hiểm đảm bảo các kết quả hiếm sau một số lần nhất định.
+
+| Thiên phú | Tỷ lệ Quay | Vai trò Tốt nhất | Ngưỡng Bảo hiểm |
+| :--- | :--- | :--- | :--- |
+| Monarch | 0.100% | Carry đặt đơn lẻ (tăng chỉ số khổng lồ) | 1,500 Reroll |
+| Ethereal | 0.175% | Đơn vị DPS hàng đầu (tăng sát thương thô cao nhất) | 858 Reroll |
+| Deadeye | 0.375% | Kẻ diệt boss tập trung Crit và carry vô hạn | 400 Reroll |
+| Solar | 0.500% | Đơn vị AoE tầm rộng (tăng sát thương và tầm đánh) | 300 Reroll |
+| Blitz | 1.850% | DPS tấn công nhanh (cải thiện SPA cao) | Không có Bảo hiểm |
+| Fortune | 2.500% | Đơn vị kinh tế và cày cuốc (tăng thu nhập vàng) | Không có Bảo hiểm |
+
+### Các Thay đổi của Hệ thống Memoria Bản cập nhật 13.5
+
+Bản cập nhật 13.5 đã giới thiệu những thay đổi sâu rộng đối với cách thức hoạt động của Memoria, hợp lý hóa tiến trình cho tất cả người chơi:
+
+- **Mặc định Tiến hóa**: Các tiến hóa Memoria đã được loại bỏ hoàn toàn. Tất cả Memoria giờ đây đều được tiến hóa theo mặc định, và việc tiến hóa một đơn vị sẽ tự động cấp Memoria tương ứng của nó.
+- **Tái chế Memoria**: Người chơi hiện có thể tái chế các Memoria trùng lặp không mong muốn thành Mảnh vụn Memoria (Memoria Scrap) dựa trên độ hiếm, có thể được giao dịch trong Cửa hàng Độc quyền.
+- **Vé Tăng cấp**: Sử dụng Vé Tăng cấp Memoria để ngay lập tức tăng cấp cho Memoria mới nhận được lên Cấp 60, bỏ qua quá trình cày cuốc tẻ nhạt.
+- **Hỗ trợ Chuyển Chỉ số**: Dễ dàng chuyển các chỉ số giá trị cao từ các đơn vị cũ sang các nhân vật meta mới nhận được mà không làm mất khoản đầu tư của bạn.
+
+<Callout type="success" title="Chiến lược Đầu tư">
+Chỉ nên chi tiêu Reroll Thiên phú của bạn cho các đơn vị đã hoàn thành lộ trình tiến hóa và thăng hoa. Reroll thiên phú trên các đơn vị tạm thời, chưa tiến hóa là một sự lãng phí tài nguyên hiếm, tốt hơn nên để dành cho các nhân vật meta vĩnh viễn của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Danh sách Kiểm tra Chuẩn bị cho Odyssey">
+
+Trước khi bắt đầu lượt chạy Odyssey độ khó cao tiếp theo, hãy đảm bảo tài khoản và đội hình của bạn đã được tối ưu hóa hoàn toàn để tối đa hóa cơ hội vượt qua một cách thuận lợi.
+
+<Checklist
+  id="odyssey-prep"
+  title="Các Cột mốc Trước khi Chạy:"
+  items={[
+    "Xác nhận đơn vị carry chính của bạn đã được tiến hóa hoàn toàn và đạt cấp độ tối đa",
+    "Trang bị cho các ô đội hình đang hoạt động các Memoria Cấp 60 bằng Vé Tăng cấp",
+    "Đảm bảo bạn có ít nhất một đơn vị làm chậm hoặc đóng băng đáng tin cậy",
+    "Vượt qua các tầng Dòng thế giới (Worldlines) hiện tại để thu thập bất kỳ Chip chỉ số nào còn thiếu",
+    "Thiết lập các đơn vị kinh tế của bạn với thiên phú Fortune hoặc Swift để tăng thu nhập đầu trận"
+  ]}
+/>
+
+<Callout type="tip" title="Lời nhắc Danh sách Kiểm tra Cuối cùng">
+Kiểm tra kỹ xem bạn đã tham gia trải nghiệm Roblox chính thức của Kitawari (ID Game: `16146832113`) để đảm bảo bạn đang chơi phiên bản Bản cập nhật 13.5: Kẻ thù vĩnh cửu mới nhất.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Câu hỏi Thường gặp">
+
+<FAQ items={[
+  {
+    question: "Cách tốt nhất để cày Reroll Thiên phú trong Anime Vanguards là gì?",
+    answer: "Chế độ Odyssey và việc vượt các tầng Dòng thế giới là những nguồn Reroll Thiên phú ổn định và có thể lặp lại nhất. Ngoài ra, hãy chú ý đến các mã code cập nhật đang hoạt động, thường xuyên tặng các gói reroll lớn."
+  },
+  {
+    question: "Ngưỡng bảo hiểm thiên phú có bị đặt lại khi tôi tiến hóa một đơn vị không?",
+    answer: "Không. Việc tiến hóa, chuẩn hóa hoặc chuyển đổi chỉ số giữa các đơn vị sẽ không đặt lại bộ đếm bảo hiểm thiên phú của bạn. Menu Chỉ số Thiên phú (Trait Index) theo dõi bảo hiểm mythic của bạn riêng biệt cho từng đơn vị cá nhân."
+  },
+  {
+    question: "Hệ thống tái chế Memoria trong Bản cập nhật 13.5 hoạt động như thế nào?",
+    answer: "Bạn có thể mang bất kỳ Memoria trùng lặp không mong muốn nào đến menu tái chế để phân rã chúng thành Mảnh vụn Memoria. Mảnh vụn này sau đó có thể được chi tiêu trong Cửa hàng Độc quyền để lấy các nguyên liệu tiến trình giá trị cao."
+  },
+  {
+    question: "Tôi có thể chạy Odyssey một mình không, hay nên chơi co-op?",
+    answer: "Mặc dù Odyssey có thể được vượt qua một mình với các đơn vị Mythic và Secret đã được tối ưu hóa và thăng hoa hoàn toàn, nhưng chạy co-op cho phép người chơi góp chung tài nguyên, chia sẻ nhiệm vụ phòng thủ làn đường và phối hợp kiểm soát đám đông hiệu quả hơn."
+  }
+]} />
+
+<Callout type="info" title="Cộng đồng Chính thức">
+Để biết các cập nhật theo thời gian thực, ghi chú bản vá và thảo luận cộng đồng, hãy truy cập [Trang web Vanguards](https://vanguards.gg/) chính thức hoặc tham gia cộng đồng năng động trên [Anime Vanguards Discord](https://discord.com/invite/animevanguards).
+</Callout>
+
+</Section>

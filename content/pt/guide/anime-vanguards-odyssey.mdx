@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Odyssey em Anime Vanguards: Guia de Estratégia e Farm de Recompensas",
+  description: "Domine o modo Odyssey em Anime Vanguards. Aprenda as melhores composições de unidades, estratégias de escalonamento e caminhos de otimização de recompensas para a Atualização 13.5.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8b35ff/fff?text=Anime+Vanguards+Odyssey+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Domínio do Odyssey**: O modo **odyssey em anime vanguards** é a principal atividade repetível de endgame para farmar Trait Rerolls (Rerrolagens de Características) e Memoria Shards (Fragmentos de Memória).
+- **Foco em Escalonamento**: O sucesso depende da seleção de unidades carregadoras (carries) duráveis que se beneficiem de cartas de poder específicas do modo e escolhas de escalonamento.
+- **Melhor Sinergia**: Combine carregadores de alto dano com invocadores eficientes em espaço, como Song Jinwu, ou gigantes de controle de grupo, como Gujo (Infinity).
+- **Proteção de Recursos**: Use suas recompensas suadas para focar nos limites de pity de características míticas, em vez de espalhar suas rerrolagens.
+- **Pronto para a Atualização 13.5**: Aproveite o recém-reformulado sistema de Memória para reciclar duplicatas e maximizar a eficiência de combate da sua equipe.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Modo de Jogo Odyssey">
+
+O altamente antecipado modo **odyssey em anime vanguards** destaca-se como um dos desafios mais recompensadores e dinâmicos do jogo. Ao contrário das fases de história padrão ou incursões (raids) lineares, o Odyssey leva os jogadores por partidas repetíveis e longas, onde a sobrevivência e a estratégia adaptativa são primordiais. Ao longo de uma partida de Odyssey, você deve fazer escolhas críticas, selecionando poderes específicos do modo, cartas de utilidade e buffs de personagens que escalam à medida que as hordas se tornam cada vez mais hostis. 
+
+Para vencer este modo de forma consistente, os jogadores devem se afastar de composições focadas apenas em dano bruto padrão e, em vez disso, focar em economia sustentável, controle de grupo e unidades que escalam excepcionalmente bem ao longo de grandes durações. As recompensas por conquistar essas partidas são altamente cobiçadas, oferecendo um fluxo confiável de Trait Rerolls, Memoria Shards e recursos exclusivos baseados na atualização.
+
+| Modo | Propósito | Foco da Equipe | Principais Recompensas |
+| :--- | :--- | :--- | :--- |
+| Modo História | Progressão de Campanha | AoE barato de início de jogo, DPS de alvo único | Gemas, Ouro, Drops de Fase |
+| Fases de Lenda | Farm de Materiais Difíceis | Alto dano, controle de grupo, lentidão | Materiais de evolução, pity de unidade |
+| Incursões (Raids) | Farm de Chefes de Alta Dificuldade | Suporte de status, posicionamento coordenado | Unidades raras, moedas da loja de evento |
+| Fendas (Rifts) | Farm de Encontros Raros | Velocidade de limpeza rápida, alto dano de explosão (burst) | Itens raros específicos da atualização |
+| Odyssey | Farm de Recursos de Endgame | Carregadores duráveis, buffs de escalonamento, invocadores | Trait Rerolls, Memoria Shards |
+| Worldlines | Progressão Baseada em Andares | Controle de horda consistente, dano em chefe | Stat Chips, Essence Stones, Unidades |
+
+<Callout type="info" title="Mecânicas do Modo">
+As partidas de Odyssey introduzem modificadores aleatórios que podem punir severamente equipes despreparadas. Sempre priorize a escolha de cartas que aumentem o Alcance (Range) ou a Velocidade de Ataque (SPA) do seu carregador principal no início da partida para neutralizar esses efeitos negativos da fase.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Unidades e Sinergias de Equipe para o Odyssey">
+
+Montar uma equipe especificamente para o modo **odyssey em anime vanguards** exige um equilíbrio delicado de dano, controle de grupo e suporte econômico. Como os espaços de posicionamento e os custos de melhoria são rigidamente gerenciados durante o escalonamento em partidas longas, a eficiência de espaço é o fator mais importante. Unidades que podem invocar aliados sem consumir os limites de posicionamento padrão, ou aquelas que fornecem efeitos de lentidão em todo o mapa, são altamente priorizadas.
+
+Nossos testes destacam várias unidades de destaque que ancoram equipes de sucesso no Odyssey:
+
+| Unidade | Raridade | Função | Principal Benefício |
+| :--- | :--- | :--- | :--- |
+| God (Above Heaven) | Secreta | Explosão AoE / Parada de Tempo | Congela grandes grupos de inimigos enquanto causa dano em área massivo |
+| Song Jinwu e Igros | Vanguarda | Pressão de Invocação | Invoca soldados de sombra que não contam para o limite de posicionamento |
+| Demon Leader (Control) | Secreta | Suporte de Economia | Reduz drasticamente os custos de posicionamento e bufa aliados Caçadores de Demônios (Demon Hunter) |
+| Rogita (Super 4) | Vanguarda | Matador de Chefes | Fornece dano de explosão (burst) de alvo único incomparável para chefes de fim de jogo |
+| Ice Queen (Release) | Vanguarda | Controle de Congelamento | Bloqueia rotas de movimento rápido e cria janelas de ataque seguras |
+| Gujo (Infinity) | Secreta | DPS de Controle de Grupo | Usa atordoamentos e lentidão de ampla área para conter hordas densas de inimigos |
+
+<CardGrid cols={3}>
+  <Card title="O Sindicato dos Invocadores">
+    - **Unidades Principais**: Song Jinwu, Igros e Lich King (Ruler).
+    - **Estratégia**: Inunde a linha de frente com unidades de sombra duráveis para bloquear rotas sem obstruir seus espaços de posicionamento.
+    - **Prós**: Excelente retenção de rotas e alto DPS passivo.
+  </Card>
+  <Card title="O Meta de Congelar e Derreter">
+    - **Unidades Principais**: God (Above Heaven), Ice Queen e Rogita.
+    - **Estratégia**: Bloqueie hordas inteiras no lugar usando paradas de tempo e congelamentos, permitindo que seus matadores de chefes de alvo único derretam alvos com vida alta.
+    - **Prós**: Extremely safe and highly reliable against fast boss waves.
+  </Card>
+  <Card title="O Núcleo de Economia e Buff">
+    - **Unidades Principais**: Demon Leader, Alocard e Demon Hybrid.
+    - **Estratégia**: Use passivas de redução de custo para posicionar seus atacantes pesados cedo e, em seguida, acumule dano de sangramento (bleed) em várias rotas.
+    - **Prós**: Tempos de preparação rápidos e tetos massivos de dano para toda a equipe.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Sinergia">
+Sempre combine uma unidade carregadora principal com pelo menos uma opção confiável de controle de grupo. Um erro comum é acumular apenas unidades de dano bruto, o que inevitavelmente leva a vazamentos de inimigos durante hordas rápidas e de alta densidade nos andares finais.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota Passo a Passo do Odyssey em Anime Vanguards">
+
+Navegar com sucesso em uma partida de Odyssey requer uma abordagem metódica para posicionamento, melhorias e seleção de cartas. Siga este caminho de progressão testado para otimizar suas partidas e garantir suas recompensas.
+
+<Steps>
+  <Step num="1" title="Estabeleça sua Economia Cedo">
+    Comece a partida posicionando suas unidades de redução de custo ou geração de renda, como o Demon Leader. Não invista demais em unidades de dano caras durante as primeiras hordas. Em vez disso, use unidades iniciais baratas e eficientes ou invocadores básicos para lidar com os inimigos iniciais enquanto constrói uma base financeira estável.
+  </Step>
+  <Step num="2" title="Posicione seu Controle de Grupo Principal">
+    Antes que a primeira grande horda com bônus de velocidade chegue, posicione uma unidade de controle de grupo como Gujo (Infinity) ou Ice Queen. Coloque-as em cruzamentos ou curvas importantes onde suas lentidões e congelamentos possam atingir o número máximo de alvos. Isso estabelece uma janela de segurança confiável para os seus carregadores.
+  </Step>
+  <Step num="3" title="Escolha Cartas de Escalonamento de Alto Valor">
+    À medida que completa os andares e escolhe as cartas, dê prioridade a aumentos permanentes de atributos, como aumento de Dano, expansão de Alcance e reduções de SPA. Evite escolher buffs temporários ou altamente situacionais, a menos que tenham sinergia direta com o tipo de dano principal do seu carregador (ex: buffs de Queimadura/Burn ou Sangramento/Bleed).
+  </Step>
+  <Step num="4" title="Posicione e Maximize seu Carregador Principal">
+    Assim que sua economia estiver segura e as rotas controladas, posicione seus carregadores pesados, como Rogita (Super 4) ou God (Above Heaven). Foque seu ouro em melhorar totalmente essas unidades uma por uma, em vez de melhorar parcialmente várias unidades mais fracas pelo mapa.
+  </Step>
+  <Step num="5" title="Gerencie as Hordas de Chefes de Fim de Jogo">
+    Durante os encontros finais com chefes, ative as habilidades ativas de suas unidades manualmente. Sincronize seus congelamentos ou paradas de tempo para interromper ataques devastadores de chefes e garanta que suas unidades de DPS de alvo único estejam focando no chefe em vez de lacaios menores.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Tempo de Melhoria">
+Nunca gaste todo o seu ouro melhorando uma única unidade se uma rota estiver atualmente deixando passar inimigos rápidos. É sempre melhor colocar uma unidade barata de lentidão ou invocador para proteger a rota antes de se comprometer com melhorias caras de nível alto.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reformulação de Traits, Rerolls e Memória">
+
+As recompensas obtidas no modo **odyssey em anime vanguards**—especificamente Trait Rerolls e Memoria Shards—are cruciais para a otimização de unidades no fim de jogo. As Características (Traits) funcionam como modificadores permanentes de atributos em suas unidades, enquanto o recém-reformulado sistema de Memória na Atualização 13.5 oferece bônus passivos massivos de combate.
+
+### Pool de Trait Rerolls e Limites de Pity
+
+Ao rerrolar características no NPC Mandra Traits, os jogadores devem buscar características míticas em seus carregadores principais. Cada tentativa consome 1 Trait Reroll, e o jogo conta com um sistema de pity que garante resultados raros ao longo do tempo.
+
+| Característica (Trait) | Chance de Obtenção | Melhor Função | Limite de Pity |
+| :--- | :--- | :--- | :--- |
+| Monarch | 0.100% | Carregadores de posicionamento único (ganhos massivos de atributos) | 1.500 Rerolls |
+| Ethereal | 0.175% | Unidades de DPS de nível máximo (maior aumento de dano bruto) | 858 Rerolls |
+| Deadeye | 0.375% | Matadores de chefes focados em crítico e carregadores infinitos | 400 Rerolls |
+| Solar | 0.500% | Unidades AoE de amplo alcance (aumento de dano e alcance) | 300 Rerolls |
+| Blitz | 1.850% | DPS de ataque rápido (alta melhoria de SPA) | Sem Pity |
+| Fortune | 2.500% | Unidades de economia e farm (aumento de renda de ouro) | Sem Pity |
+
+### Mudanças no Sistema de Memória da Atualização 13.5
+
+A Atualização 13.5 trouxe mudanças profundas no funcionamento das Memórias, simplificando a progressão para todos os jogadores:
+
+- **Evoluído por Padrão**: As evoluções de Memória foram completamente removidas. Todas as Memórias agora já vêm evoluídas por padrão, e evoluir uma unidade concede automaticamente sua respectiva Memória.
+- **Reciclagem de Memória**: Os jogadores agora podem reciclar Memórias duplicadas indesejadas em Sucata de Memória (Memoria Scrap) baseada em raridade, que pode ser trocada na Loja Exclusiva.
+- **Tickets de Nível**: Use Tickets de Nível de Memória (Memoria Leveling Tickets) para elevar instantaneamente uma Memória recém-adquirida ao Nível 60, ignorando o processo cansativo de farm.
+- **Suporte para Transferência de Atributos**: Transfira facilmente rolagens de atributos de alto valor de unidades antigas para seus personagens recém-adquiridos do meta sem perder seu investimento.
+
+<Callout type="success" title="Estratégia de Investimento">
+Gaste seus Trait Rerolls apenas em unidades que já completaram seus caminhos de evolução e ascensão. Rerrolar características em unidades temporárias e não evoluídas é um desperdício de recursos raros que seriam melhor guardados para seus núcleos permanentes do meta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Preparação para o Odyssey">
+
+Antes de iniciar sua próxima partida de alta dificuldade no Odyssey, certifique-se de que sua conta e equipe estejam totalmente otimizadas para maximizar suas chances de vitória.
+
+<Checklist
+  id="odyssey-prep"
+  title="Marcos Pré-Partida:"
+  items={[
+    "Verifique se sua unidade carregadora principal está totalmente evoluída e no nível máximo",
+    "Equipe seus slots ativos de equipe com Memória de Nível 60 usando Tickets de Nível",
+    "Certifique-se de ter pelo menos uma unidade confiável de lentidão ou congelamento equipada",
+    "Conclua os andares atuais de Worldlines para coletar quaisquer Stat Chips pendentes",
+    "Configure suas unidades de economia com as características Fortune ou Swift para aumentar a renda no início do jogo"
+  ]}
+/>
+
+<Callout type="tip" title="Lembrete Final da Lista">
+Verifique novamente se você entrou na experiência oficial do Roblox criada por Kitawari (ID do Jogo: `16146832113`) para garantir que está jogando a versão mais recente da Atualização 13.5: Eternal Adversaries.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de farmar Trait Rerolls em Anime Vanguards?",
+    answer: "O modo odyssey em anime vanguards e a conclusão de andares de Worldlines são as fontes repetíveis mais confiáveis de Trait Rerolls. Além disso, fique de olho nos códigos ativos de atualização, que frequentemente concedem grandes pacotes de rerolls."
+  },
+  {
+    question: "Os limites de pity de características são resetados quando eu evoluo uma unidade?",
+    answer: "Não. Evoluir, normalizar ou transferir atributos entre unidades não resetará seu contador de pity de características. O menu Trait Index rastreia seu pity mítico separadamente para cada unidade individual."
+  },
+  {
+    question: "Como funciona o sistema de reciclagem de Memória da Atualização 13.5?",
+    answer: "Você pode levar qualquer Memória duplicada indesejada ao menu de reciclagem para desmantelá-la em Sucata de Memória (Memoria Scrap). Essa sucata pode então ser gasta na Loja Exclusiva para obter materiais de progressão de alto valor."
+  },
+  {
+    question: "Posso jogar o Odyssey sozinho ou o modo cooperativo é recomendado?",
+    answer: "Embora o Odyssey possa ser concluído sozinho com unidades Míticas e Secretas altamente otimizadas e totalmente ascendidas, jogar no modo cooperativo permite que os jogadores unam seus recursos, compartilhem as tarefas de defesa das rotas e coordenem o controle de grupo de forma mais eficaz."
+  }
+]} />
+
+<Callout type="info" title="Comunidades Oficiais">
+Para atualizações em tempo real, notas de patch e discussões da comunidade, visite o [Site Oficial do Vanguards](https://vanguards.gg/) ou junte-se à comunidade ativa no [Discord de Anime Vanguards](https://discord.com/invite/animevanguards).
+</Callout>
+
+</Section>

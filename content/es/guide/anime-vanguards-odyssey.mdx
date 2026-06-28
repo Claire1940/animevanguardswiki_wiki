@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Odyssey: Guía de Estrategia y Farmeo de Recompensas",
+  description: "Domina el modo Odyssey de Anime Vanguards. Aprende las mejores configuraciones de unidades, estrategias de escalado y rutas de optimización de recompensas para la Actualización 13.5.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b35ff/fff?text=Anime+Vanguards+Odyssey+Guide",
+  date: "2026-06-28",
+  author: "Equipo de Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Maestría en Odyssey**: El modo **anime vanguards odyssey** es la actividad final repetible más importante para farmear Rerolls de Rasgos y Fragmentos de Memoria.
+- **Enfoque en Escalado**: El éxito depende de seleccionar unidades de daño duraderas que se beneficien de las cartas de poder específicas del modo y las opciones de escalado.
+- **Sinergia Superior**: Combina unidades de daño alto con invocadores eficientes en espacio como Song Jinwu o gigantes de control de masas como Gujo (Infinity).
+- **Protección de Recursos**: Usa tus recompensas ganadas con esfuerzo para alcanzar los umbrales de piedad (pity) de rasgos míticos en lugar de desperdiciar los rerolls.
+- **Listo para la Actualización 13.5**: Aprovecha el sistema de Memoria recién renovado para reciclar duplicados y maximizar la eficiencia de combate de tu equipo.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el modo de juego Odyssey">
+
+El muy esperado modo **anime vanguards odyssey** se destaca como uno de los desafíos más dinámicos y gratificantes del juego. A diferencia de las etapas de historia estándar o las incursiones lineales, Odyssey lleva a los jugadores a través de partidas largas y repetibles donde la supervivencia y la estrategia adaptativa son fundamentales. A lo largo de una partida de Odyssey, debes tomar decisiones críticas, seleccionando poderes específicos del modo, cartas de utilidad y mejoras de personajes que escalan a medida que las oleadas se vuelven más hostiles.
+
+Para superar este modo de manera consistente, los jugadores deben alejarse de las configuraciones estándar de daño bruto y, en su lugar, centrarse en una economía sostenible, control de masas y unidades que escalen excepcionalmente bien durante largas duraciones. Las recompensas por conquistar estas partidas son muy codiciadas, ofreciendo un flujo confiable de Rerolls de Rasgos, Fragmentos de Memoria y recursos exclusivos de la actualización.
+
+| Modo | Propósito | Enfoque del Equipo | Recompensas Clave |
+| :--- | :--- | :--- | :--- |
+| Modo Historia | Progresión de Campaña | AoE barato inicial, DPS de objetivo único | Gemas, Oro, Drops de etapa |
+| Etapas de Leyenda | Farmeo de Materiales Difíciles | Daño alto, control de masas, ralentización | Materiales de evolución, piedad de unidad |
+| Incursiones | Farmeo de Jefes de Alta Dificultad | Soporte de estado, colocación coordinada | Unidades raras, moneda de tienda de evento |
+| Grietas | Farmeo de Encuentros Raros | Velocidad de limpieza, daño explosivo | Objetos raros específicos de actualización |
+| Odyssey | Farmeo de Recursos de Endgame | Unidades de daño duraderas, mejoras de escalado, invocadores | Rerolls de Rasgos, Fragmentos de Memoria |
+| Líneas Mundiales | Progresión por Pisos | Control de oleadas consistente, daño a jefes | Chips de estadísticas, Piedras de esencia, Unidades |
+
+<Callout type="info" title="Mecánicas del Modo">
+Las partidas de Odyssey introducen modificadores aleatorios que pueden castigar severamente a los equipos desprevenidos. Prioriza siempre elegir cartas que aumenten el Rango o la Velocidad de Ataque (SPA) de tu unidad principal de daño al inicio de la partida para contrarrestar estos efectos negativos de etapa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Unidades y Sinergias de Equipo para Odyssey">
+
+Construir un equipo específicamente para el modo **anime vanguards odyssey** requiere un equilibrio delicado entre daño, control de masas y soporte económico. Debido a que los espacios de colocación y los costos de mejora se gestionan estrictamente durante el escalado de partidas largas, la eficiencia de espacios es el factor más importante. Se priorizan altamente las unidades que pueden invocar aliados sin consumir los límites de colocación estándar, o aquellas que proporcionan efectos de ralentización en todo el mapa.
+
+Nuestras pruebas destacan varias unidades sobresalientes que anclan los equipos exitosos de Odyssey:
+
+| Unidad | Rareza | Rol | Beneficio Clave |
+| :--- | :--- | :--- | :--- |
+| God (Above Heaven) | Secreto | Ráfaga AoE / Detención del Tiempo | Congela grandes grupos de enemigos mientras inflige daño masivo en área |
+| Song Jinwu y Igros | Vanguardia | Presión de Invocación | Genera soldados de sombra que no cuentan para los límites de colocación |
+| Demon Leader (Control) | Secreto | Soporte Económico | Reduce drásticamente los costos de despliegue y mejora a los aliados Cazadores de Demonios |
+| Rogita (Super 4) | Vanguardia | Asesino de Jefes | Proporciona un daño explosivo de objetivo único inigualable para jefes de final de juego |
+| Ice Queen (Release) | Vanguardia | Control de Congelación | Bloquea carriles de movimiento rápido y crea ventanas de ataque seguras |
+| Gujo (Infinity) | Secreto | DPS de Control de Masas | Usa aturdimientos y ralentizaciones de área amplia para contener oleadas densas de enemigos |
+
+<CardGrid cols={3}>
+  <Card title="El Sindicato de Invocadores">
+    - **Unidades Clave**: Song Jinwu, Igros y Lich King (Ruler).
+    - **Estrategia**: Inunda el frente con unidades de sombra duraderas para bloquear carriles sin saturar tus espacios de colocación.
+    - **Pros**: Excelente bloqueo de carriles y alto DPS pasivo.
+  </Card>
+  <Card title="El Meta de Congelar y Derretir">
+    - **Unidades Clave**: God (Above Heaven), Ice Queen y Rogita.
+    - **Estrategia**: Bloquea oleadas enteras en su lugar usando detenciones del tiempo y congelaciones, permitiendo que tus asesinos de jefes de objetivo único derritan objetivos de alta salud.
+    - **Pros**: Extremadamente seguro y altamente confiable contra oleadas de jefes rápidas.
+  </Card>
+  <Card title="El Núcleo de Economía y Mejoras">
+    - **Unidades Clave**: Demon Leader, Alocard y Demon Hybrid.
+    - **Estrategia**: Usa pasivas de reducción de costos para desplegar tus unidades pesadas temprano, luego acumula daño de sangrado en múltiples carriles.
+    - **Pros**: Tiempos de configuración rápidos y techos de daño masivos para todo el equipo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Sinergia">
+Empareja siempre una unidad de daño principal con al menos una opción confiable de control de masas. Un error común es acumular solo unidades de daño bruto, lo que inevitablemente lleva a filtraciones durante oleadas rápidas y de alta densidad en los pisos posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta Paso a Paso para Anime Vanguards Odyssey">
+
+Navegar con éxito una partida de Odyssey requiere un enfoque metódico para el despliegue, la mejora y la selección de cartas. Sigue esta ruta de progresión probada para optimizar tus partidas y asegurar tus recompensas.
+
+<Steps>
+  <Step num="1" title="Establece tu economía temprano">
+    Comienza la partida colocando tus unidades de reducción de costos o ingresos, como Demon Leader. No inviertas demasiado en unidades de daño costosas durante las primeras oleadas. En su lugar, usa unidades iniciales baratas y eficientes o invocadores básicos para manejar a los enemigos tempranos mientras construyes una base financiera estable.
+  </Step>
+  <Step num="2" title="Despliega tu control de masas principal">
+    Antes de que llegue la primera oleada importante con aumento de velocidad, despliega una unidad de control de masas como Gujo (Infinity) o Ice Queen. Posiciónalos en intersecciones clave o bucles donde sus ralentizaciones y congelaciones puedan impactar al máximo número de objetivos. Esto establece una ventana de seguridad confiable para tus unidades de daño.
+  </Step>
+  <Step num="3" title="Elige cartas de escalado de alto valor">
+    A medida que completes pisos y elijas cartas, prioriza aumentos de estadísticas permanentes como incrementos de Daño, expansiones de Rango y reducciones de SPA. Evita elegir mejoras temporales o altamente situacionales a menos que sinergicen directamente con el tipo de daño principal de tu unidad de daño principal (por ejemplo, mejoras de Quemadura o Sangrado).
+  </Step>
+  <Step num="4" title="Despliega y maximiza tu unidad de daño principal">
+    Una vez que tu economía esté segura y los carriles controlados, despliega tus unidades de daño pesado, como Rogita (Super 4) o God (Above Heaven). Enfoca tu oro en mejorar completamente estas unidades una por una, en lugar de mejorar parcialmente múltiples unidades más débiles en el mapa.
+  </Step>
+  <Step num="5" title="Gestiona las oleadas de jefes de final de juego">
+    Durante los encuentros finales contra jefes, activa las habilidades de tus unidades manualmente. Cronometra tus congelaciones o detenciones del tiempo para interrumpir los ataques devastadores del jefe y asegúrate de que tus unidades de DPS de objetivo único estén apuntando al jefe en lugar de a enemigos menores.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Momento de Mejora">
+Nunca gastes todo tu oro mejorando una sola unidad si un carril está dejando pasar enemigos rápidos actualmente. Siempre es mejor colocar una unidad de ralentización barata o un invocador para asegurar el carril antes de comprometerte con mejoras costosas de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rasgos, Rerolls y Renovación de Memoria">
+
+Las recompensas obtenidas en el modo **anime vanguards odyssey**, específicamente los Rerolls de Rasgos y los Fragmentos de Memoria, son fundamentales para la optimización de unidades de final de juego. Los rasgos actúan como modificadores de estadísticas permanentes en tus unidades, mientras que el sistema de Memoria recién renovado en la Actualización 13.5 proporciona mejoras masivas de combate pasivo.
+
+### Grupo de Reroll de Rasgos y Umbrales de Piedad
+
+Al hacer reroll de rasgos en el NPC de Rasgos de Mandra, los jugadores deben apuntar a rasgos míticos en sus unidades de daño principales. Cada intento consume 1 Reroll de Rasgo, y el juego cuenta con un sistema de piedad que garantiza resultados raros con el tiempo.
+
+| Rasgo | Probabilidad de Rol | Mejor Rol | Umbral de Piedad |
+| :--- | :--- | :--- | :--- |
+| Monarch | 0.100% | Unidades de daño de colocación única (ganancias masivas de estadísticas) | 1,500 Rerolls |
+| Ethereal | 0.175% | Unidades de DPS de alto nivel (mayor aumento de daño bruto) | 858 Rerolls |
+| Deadeye | 0.375% | Asesinos de jefes enfocados en críticos y unidades infinitas | 400 Rerolls |
+| Solar | 0.500% | Unidades AoE de amplio rango (aumento de daño y rango) | 300 Rerolls |
+| Blitz | 1.850% | DPS de ataque rápido (mejor mejora de SPA) | Sin Piedad |
+| Fortune | 2.500% | Unidades de economía y farmeo (aumento de ingresos de oro) | Sin Piedad |
+
+### Cambios en el Sistema de Memoria de la Actualización 13.5
+
+La Actualización 13.5 introdujo cambios radicales en cómo funciona la Memoria, simplificando la progresión para todos los jugadores:
+
+- **Evolucionado por Defecto**: Las evoluciones de Memoria han sido eliminadas por completo. Todas las Memorias ahora están evolucionadas por defecto, y evolucionar una unidad otorga automáticamente su Memoria designada.
+- **Reciclaje de Memoria**: Los jugadores ahora pueden reciclar Memorias duplicadas no deseadas en Chatarra de Memoria basada en la rareza, la cual puede ser intercambiada en la Tienda Exclusiva.
+- **Tickets de Nivelación**: Usa Tickets de Nivelación de Memoria para aumentar instantáneamente una Memoria recién adquirida al Nivel 60, evitando el tedioso proceso de farmeo.
+- **Soporte de Transferencia de Estadísticas**: Transfiere fácilmente tiradas de estadísticas de alto valor de unidades antiguas a tus nuevos personajes del meta sin perder tu inversión.
+
+<Callout type="success" title="Estrategia de Inversión">
+Solo gasta tus Rerolls de Rasgos en unidades que ya hayan completado sus caminos de evolución y ascensión. Hacer reroll de rasgos en unidades temporales y no evolucionadas es un desperdicio de recursos raros que es mejor guardar para tus núcleos meta permanentes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación de Preparación para Odyssey">
+
+Antes de lanzar tu próxima partida de Odyssey de alta dificultad, asegúrate de que tu cuenta y tu equipo estén completamente optimizados para maximizar tus posibilidades de una victoria limpia y exitosa.
+
+<Checklist
+  id="odyssey-prep"
+  title="Hitos Pre-Partida:"
+  items={[
+    "Verifica que tu unidad de daño principal esté completamente evolucionada y nivelada al máximo",
+    "Equipa tus espacios de equipo activos con Memoria de Nivel 60 usando Tickets de Nivelación",
+    "Asegúrate de tener equipada al menos una unidad confiable de ralentización o congelación",
+    "Limpia los pisos actuales de las Líneas Mundiales para recolectar cualquier Chip de Estadística pendiente",
+    "Configura tus unidades de economía con rasgos de Fortune o Swift para aumentar los ingresos al inicio de la partida"
+  ]}
+/>
+
+<Callout type="tip" title="Recordatorio Final de la Lista">
+Verifica dos veces que te hayas unido a la experiencia oficial de Roblox de Kitawari (ID del Juego: `16146832113`) para asegurarte de que estás jugando la última versión de la Actualización 13.5: Eternal Adversaries.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de farmear Rerolls de Rasgos en Anime Vanguards?",
+    answer: "El modo anime vanguards odyssey y las limpiezas de pisos de las Líneas Mundiales son las fuentes repetibles más confiables de Rerolls de Rasgos. Además, mantente atento a los códigos de actualización activos, que frecuentemente otorgan grandes paquetes de rerolls."
+  },
+  {
+    question: "¿Los umbrales de piedad de rasgos se reinician cuando evoluciono una unidad?",
+    answer: "No. Evolucionar, normalizar o transferir estadísticas entre unidades no reiniciará tu contador de piedad de rasgos. El menú del Índice de Rasgos rastrea tu piedad mítica por separado para cada unidad individual."
+  },
+  {
+    question: "¿Cómo funciona el sistema de reciclaje de Memoria de la Actualización 13.5?",
+    answer: "Puedes llevar cualquier Memoria duplicada no deseada al menú de reciclaje para descomponerla en Chatarra de Memoria. Esta chatarra puede gastarse luego en la Tienda Exclusiva para obtener materiales de progresión de alto valor."
+  },
+  {
+    question: "¿Puedo jugar Odyssey solo o se recomienda el modo cooperativo?",
+    answer: "Aunque Odyssey puede ser superado en solitario con unidades Míticas y Secretas altamente optimizadas y completamente ascendidas, jugar en modo cooperativo permite a los jugadores combinar sus recursos, compartir tareas de defensa de carriles y coordinar el control de masas de manera más efectiva."
+  }
+]} />
+
+<Callout type="info" title="Comunidades Oficiales">
+Para actualizaciones en tiempo real, notas del parche y discusiones de la comunidad, visita el [Sitio Web de Vanguards](https://vanguards.gg/) oficial o únete a la comunidad activa en el [Discord de Anime Vanguards](https://discord.com/invite/animevanguards).
+</Callout>
+
+</Section>

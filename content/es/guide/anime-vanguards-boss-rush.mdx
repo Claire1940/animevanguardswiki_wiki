@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Boss Rush de Anime Vanguards: Rutas de Farmeo Rápido y Guías de Jefes",
+  description: "Domina el modo Boss Rush de Anime Vanguards con nuestras estrategias de farmeo rápido, desglose de mecánicas de jefes y configuraciones de unidades óptimas para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Rush+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: Dominar las rotaciones de **boss rush de Anime Vanguards** para farmear monedas exclusivas del evento y desbloquear unidades poderosas.
+- **Estrategia de speedrun**: Utiliza el truco de Luffy Gear 5 y los Drumsticks para reducir los tiempos de finalización de 10 minutos a menos de 3 minutos.
+- **Mecánica clave**: Recuerda que los Rasgos (Traits) y Familiares están completamente desactivados, y las Memorias pierden sus rasgos en este modo.
+- **Preparación crítica**: Abastécete de Monedas de Legado (Legacy Coins) para comprar Grietas de Jefe (Boss Rifts) en la Tienda de Legado cuando el jefe que deseas esté fuera de rotación.
+- **Mejor opción de unidad**: Lleva ralentizadores confiables como Alucard e Ichigo para asegurar tus partidas contra filtraciones inesperadas de enemigos.
+</Callout>
+
+<Section icon={Map} title="Resumen de Boss Rush de Anime Vanguards">
+
+El **boss rush de Anime Vanguards** es un modo de juego muy desafiante y de alto rendimiento, diseñado para poner a prueba tu profundidad estratégica y la colocación de tus unidades. Con una duración de 30 oleadas intensas, este modo obliga a los jugadores a defenderse de implacables rutas enemigas mientras se enfrentan a un poderoso jefe en cada hito de 10 oleadas (oleadas 10, 20 y 30). Los jugadores pueden elegir afrontar este desafío en solitario o formar equipo con hasta otros tres jugadores para coordinar las defensas.
+
+Para mantener un campo de juego nivelado, ciertos sistemas de progresión están restringidos. Los Rasgos y Familiares están completamente desactivados. Aunque se te permite conservar tus Memorias equipadas, estas perderán sus Rasgos únicos durante la partida. Además, entrar en la dificultad Pesadilla (Nightmare) impone más restricciones, como desactivar los útiles refuerzos del juego en escenarios específicos.
+
+**Puntos destacados del video:**
+- **Estrategia de Speedrun**: Aprende cómo completar el boss rush en menos de 3 minutos usando configuraciones de objetos específicas.
+- **Transformación de Luffy**: Descubre el momento exacto para activar a Luffy Gear 5 para infligir el máximo daño al jefe.
+- **Tácticas de Retención (Stall)**: Posiciona a Alucard y otras unidades de apoyo para sobrevivir fácilmente hasta la oleada 5.
+
+<YouTubeEmbed videoId="oCZ978wHqpo" title="¡¡¡Cómo Completar el Nuevo Boss Rush EN 2 MINUTOS!!! | Anime Vanguards" />
+
+<Callout type="tip" title="Rotaciones Semanales">
+El evento de jefe activo rota semanalmente. Si necesitas farmear un jefe específico que actualmente no está activo, puedes comprar una Grieta de Jefe (Boss Rift) de un solo uso en la Tienda de Legado por 10 Monedas de Legado.
+</Callout>
+
+| Dificultad | Cantidad de Oleadas | Rasgos / Familiares | Refuerzos | Recompensas Base |
+|---|---|---|---|---|
+| **Normal** | 30 Oleadas | Desactivados | Activados (si están activos) | Fichas Estándar, Gemas, Monedas de Legado |
+| **Pesadilla (Nightmare)** | 30 Oleadas | Desactivados | Desactivados | Estándar + Cristales, Fragmentos, Mayor Probabilidad de Drop |
+
+</Section>
+
+<Section icon={Sparkles} title="La Estrategia de Speedrun de 2 Minutos">
+
+Aunque una partida estándar del **boss rush de Anime Vanguards** normalmente requiere alrededor de 10 minutos de cuidadosa planificación y ejecución, los jugadores avanzados pueden utilizar un método de speedrun altamente eficiente para completar el escenario en aproximadamente 2 o 3 minutos. Esta estrategia se centra en Luffy Gear 5 y el accesorio Drumsticks, lo que te permite omitir largas fases de oleadas y asegurar una rápida obtención de monedas.
+
+Al optimizar tu equipo con unidades de retención especializadas, puedes sobrevivir a la embestida inicial con una inversión mínima, activar la transformación de Luffy y ejecutar al jefe casi instantáneamente. Esta estrategia es muy recomendada para los jugadores que buscan farmear las 300 monedas necesarias para la Llave de Kid en menos de 45 minutos.
+
+<Callout type="warning" title="Se Requiere Reiniciar la Sala (Lobby)">
+Debido a cómo se actualiza el estado del juego durante este speedrun, debes regresar a la sala (lobby) después de completar cada partida. No hacerlo puede evitar que las mecánicas del speedrun se reinicien correctamente en los intentos posteriores.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Adquiere los Objetos Necesarios">
+    Equipa a Nami con la Brújula e ingresa al Escenario 2 Acto 4. Desentierra el cofre oculto para asegurar la Mitad del Sol. Una vez obtenido, viaja al escenario de la Dinastía Pirata para reclamar el accesorio Drumsticks.
+  </Step>
+  <Step num="2" title="Reúne a tu Equipo de Retención">
+    Entra al Boss Rush con un equipo que incluya a Luffy, Alucard (para ralentizar), Kurumi (para soporte de tiempo) e Ichigo (para proporcionar una resurrección gratuita de seguridad).
+  </Step>
+  <Step num="3" title="Retén a los Enemigos hasta la Oleada 5">
+    Coloca tus unidades de retención cerca de la base. No te concentres en matar enemigos; en su lugar, usa las habilidades de ralentización de Alucard para retrasar su progreso y sobrevivir hasta la oleada 5.
+  </Step>
+  <Step num="4" title="Ejecuta el Truco del Jefe">
+    Una vez alcanzada la oleada 5, sobrevive lo suficiente para activar la transformación Gear 5 de Luffy. Ataca al jefe hasta que su vida baje de 500 HP. Destransfórmate, recoge la fruta elástica generada y asesta el golpe final.
+  </Step>
+</Steps>
+
+| Nombre de Unidad | Rol | Habilidad Primaria | Contribución al Speedrun |
+|---|---|---|---|
+| **Luffy (Gear 5)** | Atacante Principal | Fruta Elástica y Drumsticks | Inflige un daño de ráfaga masivo y ejecuta al jefe |
+| **Alucard** | Control de Masas | Ralentización | Retiene las oleadas entrantes para asegurar la supervivencia hasta la oleada 5 |
+| **Ichigo** | Seguridad | Resurrección Gratuita | Evita que filtraciones accidentales terminen tu partida antes de tiempo |
+| **Kurumi** | Soporte | Manipulación del Tiempo | Mejora la capacidad de retención y aumenta la velocidad de ataque de las unidades |
+
+</Section>
+
+<Section icon={Swords} title="Rotaciones y Mecánicas de Jefes">
+
+Cada uno de los cuatro jefes rotativos en el **boss rush de Anime Vanguards** presenta patrones de ataque únicos, peligros ambientales y recomendaciones de unidades. Comprender estas mecánicas es esencial para la transición de la dificultad Normal a Pesadilla.
+
+Para ayudarte a prepararte, hemos detallado las mecánicas principales y las estrategias recomendadas para los cuatro encuentros de jefes actualmente en rotación.
+
+<CardGrid cols={2}>
+  <Card title="Igros (Cámara Rojo Sangre)">
+    Aparece en cada décima oleada. Cada vez que se agota una de sus barras de vida, desata un aturdimiento masivo en todas las unidades cercanas. Mantén a tus atacantes principales espaciados para evitar aturdimientos simultáneos.
+  </Card>
+  <Card title="Sukono (Secuelas de Shibuya)">
+    Utiliza Tajo, Impacto de Desmantelamiento, Desplazamiento Cortante y Liberación de Llama. La Liberación de Llama es muy peligrosa, ya que te impide vender tus unidades. Concéntrate en destruir esta capacidad primero.
+  </Card>
+  <Card title="Saber Alternativa (Caverna)">
+    Presenta una mecánica única de Sirvientes. Genera un mini-jefe A.W.E. en las oleadas 15 y 25; derrotar a estos mini-jefes debilita significativamente la salud de Saber cuando reaparece en las oleadas 20 y 30.
+  </Card>
+  <Card title="Arin (Muros Exteriores)">
+    El jefe con la caja de colisión (hitbox) más grande y la mayor salud base del juego. Arin aturde a las unidades y convoca Gigantes Nucleares que aplican severas penalizaciones de rango. Utiliza Monedas de Gigante para comprar refuerzos.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Invocaciones de Sirvientes">
+Durante el evento del jefe Saber (Alternativa), puedes activar Sirvientes poderosos como Berserker (Heracles) para obtener ralentizaciones y aturdimientos en área de gran alcance, o Archer para una ráfaga continua al inicio de la pista.
+</Callout>
+
+| Nombre del Jefe | Movimiento Firma | Contramedida Táctica | Unidades Recomendadas |
+|---|---|---|---|
+| **Igros** | Aturdimiento por Barra de Vida | Espaciar unidades; mantener DPS constante en la retaguardia | Ultimate Rohan, Eizan (Aura) |
+| **Sukono** | Liberación de Llama | Apuntar y desactivar la Liberación de Llama primero | Itaduri, Cu Chulainn |
+| **Saber (Alternativa)** | Mini-jefes A.W.E. | Derrotar a los mini-jefes inmediatamente en las oleadas 15 y 25 | Saber (King of Knights), Gujo (Infinity) |
+| **Arin** | Invocaciones de Gigantes Nucleares | Comprar el refuerzo de Makoso; explotar la gran caja de colisión | Arin (Rumbling), Zak (Ape Giant) |
+
+</Section>
+
+<Section icon={Trophy} title="Desglose de Recompensas y Tasas de Drop">
+
+Derrotar a estos poderosos enemigos otorga valiosas monedas específicas del evento, gemas y unidades exclusivas. Mientras que el modo Normal ofrece un flujo constante de monedas básicas, el modo Pesadilla es la fuente principal de materiales de evolución de alto nivel y fragmentos de cambio de rasgos (reroll shards).
+
+Además, ciertos escenarios ofrecen una pequeña probabilidad de obtener unidades exclusivas directamente como recompensa al completar la partida.
+
+<Callout type="success" title="Piedad Garantizada (Pity)">
+Tanto Igros como Sokora tienen una tasa de drop del 2% en sus respectivos eventos de jefe. Si no logras obtenerlos a través de drops aleatorios, un sistema de piedad garantizado te otorgará la unidad en tu partida exitosa número 75.
+</Callout>
+
+| Evento de Jefe | Recompensa de Moneda | Cantidad (Normal/Pesadilla) | Drop de Unidad Exclusiva | Drops Adicionales de Pesadilla |
+|---|---|---|---|---|
+| **Igros** | Fichas de Comandante | 19-24 | Igros (Tasa de Drop del 2%) | Cristal de Corrupción (10%), Fragmento de Fénix (7.5%) |
+| **Sukono** | Fichas de Maldición | 19-24 | Ninguno | Cristal de Corrupción (10%), Fragmento Elemental (10%) |
+| **Saber (Alternativa)** | Fichas Corrompidas | 19-24 | Sokora (Tasa de Drop del 2%) | Fragmento de Fénix (7.5%), Fragmento Elemental (10%) |
+| **Arin** | Fichas de Gigante | 19-24 | Ninguno | Cristal de Corrupción (10%), Fragmento de Fénix (7.5%) |
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación Esencial para el Boss Rush">
+
+Antes de lanzarte a tu próximo intento de **boss rush de Anime Vanguards**, revisa esta lista de verificación operativa para asegurarte de que tu equipo esté optimizado para la máxima eficiencia y cero filtraciones.
+
+Preparar tu equipamiento de antemano ahorra un tiempo valioso y evita partidas fallidas en dificultades más altas.
+
+<Checklist
+  id="boss-rush-prep"
+  title="Lista de Verificación de Preparación Previa:"
+  items={[
+    "Verifica que todos los atacantes principales tengan Memorias de alto nivel equipadas.",
+    "Asegúrate de que tu equipo de speedrun tenga a Nami (con Brújula) y a Luffy Gear 5 listos.",
+    "Revisa la rotación semanal y compra Grietas de Jefe (Boss Rifts) si tu jefe objetivo está inactivo.",
+    "Coordina los roles con los miembros del equipo si juegas en modo cooperativo.",
+    "Reserva al menos 10 Monedas de Legado para compras de Grietas de emergencia."
+  ]}
+/>
+
+<Callout type="tip" title="Gestión de Refuerzos">
+Al luchar contra Arin en los Muros Exteriores, asigna tus Monedas de Gigante con cuidado. Gastar 40,000 Monedas de Gigante en una invocación de Makoso proporciona un aumento masivo de poder que puede llevarte fácilmente a través de las oleadas finales.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de farmear el boss rush de Anime Vanguards?",
+    answer: "El método más rápido es la estrategia de speedrun de Luffy Gear 5. Al equipar el accesorio Drumsticks, retrasar a los enemigos hasta la oleada 5 con unidades como Alucard y ejecutar al jefe usando el truco de la fruta de destransformación, puedes completar las partidas en menos de 3 minutos."
+  },
+  {
+    question: "¿Están activos los Rasgos (Traits) de las unidades durante los eventos de Boss Rush?",
+    answer: "No. Los Rasgos de unidad y los Familiares están completamente desactivados en este modo. Además, cualquier Memoria equipada perderá sus Rasgos, lo que significa que debes confiar puramente en las estadísticas base de las unidades y en la sinergia mecánica."
+  },
+  {
+    question: "¿Cómo accedo a un jefe que no está actualmente en la rotación semanal?",
+    answer: "Puedes comprar una Grieta de Jefe (Boss Rift) de un solo uso en la Tienda de Legado por 10 Monedas de Legado. Esto te permite seleccionar y abrir manualmente cualquiera de los cuatro eventos de jefe, independientemente de la rotación semanal."
+  },
+  {
+    question: "¿Tiene Saber (Alternativa) un sistema de piedad (pity) para su drop exclusivo?",
+    answer: "Sí. Aunque algunos recursos de la comunidad sugieren lo contrario, la unidad exclusiva Sokora tiene una tasa de drop del 2% en el evento del jefe de la Caverna, con un sistema de piedad garantizado que se activa en tu partida número 75."
+  }
+]} />
+
+<Callout type="info" title="Veredicto Final">
+Ya sea que estés haciendo speedruns con Luffy o enfrentándote al modo Pesadilla con un equipo coordinado, dominar estas mecánicas de jefes es la mejor manera absoluta de progresar en tu cuenta en 2026. Mantén tus estrategias flexibles y planifica siempre en torno a las rotaciones semanales.
+</Callout>
+
+</Section>

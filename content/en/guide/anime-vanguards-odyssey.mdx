@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Odyssey: Strategy Guide & Reward Farming",
+  description: "Master the Anime Vanguards Odyssey mode. Learn the best unit setups, scaling strategies, and reward optimization paths for Update 13.5.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b35ff/fff?text=Anime+Vanguards+Odyssey+Guide",
+  date: "2026-06-28",
+  author: "anime vanguards Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Odyssey Mastery**: The **anime vanguards odyssey** mode is the premier repeatable endgame activity for farming Trait Rerolls and Memoria Shards.
+- **Scaling Focus**: Success relies on selecting durable carry units that benefit from mode-specific power cards and scaling choices.
+- **Top Synergy**: Pair high-damage carries with slot-efficient summoners like Song Jinwu or crowd-control giants like Gujo (Infinity).
+- **Resource Protection**: Use your hard-earned rewards to target mythic trait pity thresholds rather than spreading rerolls thin.
+- **Update 13.5 Ready**: Leverage the newly overhauled Memoria system to recycle duplicates and maximize your team's combat efficiency.
+</Callout>
+
+<Section icon={Map} title="Understanding the Odyssey Game Mode">
+
+The highly anticipated **anime vanguards odyssey** mode stands as one of the most rewarding and dynamic challenges in the game. Unlike standard story stages or linear raids, Odyssey pushes players through repeatable, long-run runs where survival and adaptive strategy are paramount. Throughout an Odyssey run, you must make critical choices, selecting mode-specific powers, utility cards, and character buffs that scale as the waves grow increasingly hostile. 
+
+To consistently clear this mode, players must pivot away from standard raw-damage setups and instead focus on sustainable economy, crowd control, and units that scale exceptionally well over long durations. The rewards for conquering these runs are highly coveted, offering a reliable stream of Trait Rerolls, Memoria Shards, and exclusive update-based resources.
+
+| Mode | Purpose | Team Focus | Key Rewards |
+| :--- | :--- | :--- | :--- |
+| Story Mode | Campaign Progression | Cheap early AoE, single-target DPS | Gems, Gold, Stage Drops |
+| Legend Stages | Harder Material Farming | High damage, crowd control, slows | Evolution materials, unit pity |
+| Raids | High-Difficulty Boss Farming | Status support, coordinated placement | Rare units, event shop currency |
+| Rifts | Rare Encounter Farming | Fast clear speed, high burst damage | Update-specific rare items |
+| Odyssey | Endgame Resource Farming | Durable carries, scaling buffs, summoners | Trait Rerolls, Memoria Shards |
+| Worldlines | Floor-Based Progression | Consistent wave control, boss damage | Stat Chips, Essence Stones, Units |
+
+<Callout type="info" title="Mode Mechanics">
+Odyssey runs introduce random modifiers that can severely punish unprepared teams. Always prioritize drafting cards that boost your main carry's Range or Attack Speed (SPA) early in the run to counteract these negative stage effects.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Units and Team Synergies for Odyssey">
+
+Building a team specifically for the **anime vanguards odyssey** mode requires a delicate balance of damage, crowd control, and economy support. Because placement slots and upgrade costs are tightly managed during long-run scaling, slot efficiency is the single most important factor. Units that can summon allies without consuming standard placement limits, or those that provide map-wide slowing effects, are highly prioritized.
+
+Our testing highlights several standout units that anchor successful Odyssey teams:
+
+| Unit | Rarity | Role | Key Benefit |
+| :--- | :--- | :--- | :--- |
+| God (Above Heaven) | Secret | AoE Burst / Time Stop | Freezes large enemy groups while dealing massive area damage |
+| Song Jinwu and Igros | Vanguard | Summon Pressure | Spawns shadow soldiers that do not count toward placement limits |
+| Demon Leader (Control) | Secret | Economy Support | Drastically cuts deployment costs and buffs Demon Hunter allies |
+| Rogita (Super 4) | Vanguard | Boss Killer | Provides unmatched single-target burst damage for late-game bosses |
+| Ice Queen (Release) | Vanguard | Freeze Control | Locks down fast-moving lanes and creates safe attack windows |
+| Gujo (Infinity) | Secret | Crowd Control DPS | Uses wide-area stuns and slows to hold back dense enemy waves |
+
+<CardGrid cols={3}>
+  <Card title="The Summoner Syndicate">
+    - **Core Units**: Song Jinwu, Igros, and Lich King (Ruler).
+    - **Strategy**: Flood the frontline with durable shadow units to block lanes without clogging your placement slots.
+    - **Pros**: Outstanding lane stalling and high passive DPS.
+  </Card>
+  <Card title="The Freeze & Melt Meta">
+    - **Core Units**: God (Above Heaven), Ice Queen, and Rogita.
+    - **Strategy**: Lock entire waves in place using time stops and freezes, allowing your single-target boss killers to melt high-HP targets.
+    - **Pros**: Extremely safe and highly reliable against fast boss waves.
+  </Card>
+  <Card title="The Economy & Buff Core">
+    - **Core Units**: Demon Leader, Alocard, and Demon Hybrid.
+    - **Strategy**: Use cost-reduction passives to deploy your heavy hitters early, then stack bleed damage across multiple lanes.
+    - **Pros**: Rapid setup times and massive team-wide damage ceilings.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Synergy Tip">
+Always pair a primary carry unit with at least one reliable crowd control option. A common mistake is stacking only raw damage units, which inevitably leads to leaks during fast, high-density waves on later floors.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Anime Vanguards Odyssey Route">
+
+Successfully navigating an Odyssey run requires a methodical approach to deployment, upgrading, and card selection. Follow this tested progression path to optimize your runs and secure your rewards.
+
+<Steps>
+  <Step num="1" title="Establish Your Economy Early">
+    Begin the run by placing your cost-reduction or income units, such as Demon Leader. Do not over-invest in expensive damage units during the first few waves. Instead, use cheap, efficient starter units or basic summoners to handle early enemies while you build a stable financial foundation.
+  </Step>
+  <Step num="2" title="Deploy Your Primary Crowd Control">
+    Before the first major speed-boosted wave arrives, deploy a crowd control unit like Gujo (Infinity) or Ice Queen. Position them at key intersections or loops where their slows and freezes can impact the maximum number of targets. This establishes a reliable safety window for your carries.
+  </Step>
+  <Step num="3" title="Draft High-Value Scaling Cards">
+    As you complete floors and draft cards, prioritize permanent stat boosts such as Damage increases, Range expansions, and SPA reductions. Avoid picking temporary or highly situational buffs unless they directly synergize with your main carry's primary damage type (e.g., Burn or Bleed boosts).
+  </Step>
+  <Step num="4" title="Deploy and Maximize Your Main Carry">
+    Once your economy is secure and the lanes are controlled, deploy your heavy-hitting carries, such as Rogita (Super 4) or God (Above Heaven). Focus your gold on fully upgrading these units one by one, rather than partially upgrading multiple weaker units across the map.
+  </Step>
+  <Step num="5" title="Manage Late-Game Boss Waves">
+    During the final boss encounters, activate your units' active abilities manually. Time your freezes or time stops to interrupt devastating boss attacks, and ensure your single-target DPS units are targeting the boss rather than minor trash mobs.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Upgrade Timing">
+Never spend all your gold upgrading a single unit if a lane is currently leaking fast enemies. It is always better to drop a cheap slowing unit or summoner to secure the lane before committing to expensive high-tier upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Traits, Rerolls, and Memoria Overhaul">
+
+The rewards earned from the **anime vanguards odyssey** mode—specifically Trait Rerolls and Memoria Shards—are critical for late-game unit optimization. Traits act as permanent stat modifiers on your units, while the newly overhauled Memoria system in Update 13.5 provides massive passive combat boosts.
+
+### Trait Reroll Pool and Pity Thresholds
+
+When rerolling traits at the Mandra Traits NPC, players should aim for mythic traits on their primary carries. Each attempt consumes 1 Trait Reroll, and the game features a pity system that guarantees rare outcomes over time.
+
+| Trait | Roll Chance | Best Role | Pity Threshold |
+| :--- | :--- | :--- | :--- |
+| Monarch | 0.100% | Single-placement carries (massive stat gains) | 1,500 Rerolls |
+| Ethereal | 0.175% | Top-tier DPS units (highest raw damage boost) | 858 Rerolls |
+| Deadeye | 0.375% | Crit-focused boss killers and infinite carries | 400 Rerolls |
+| Solar | 0.500% | Wide-range AoE units (damage and range boost) | 300 Rerolls |
+| Blitz | 1.850% | Fast attacking DPS (high SPA improvement) | No Pity |
+| Fortune | 2.500% | Economy and farming units (increased gold income) | No Pity |
+
+### Update 13.5 Memoria System Changes
+
+Update 13.5 introduced sweeping changes to how Memoria functions, streamlining progression for all players:
+
+- **Evolved by Default**: Memoria evolutions have been completely removed. All Memoria are now evolved by default, and evolving a unit automatically grants its designated Memoria.
+- **Memoria Recycling**: Players can now recycle unwanted duplicate Memoria into rarity-based Memoria Scrap, which can be traded in the Exclusive Shop.
+- **Leveling Tickets**: Use Memoria Leveling Tickets to instantly boost a newly acquired Memoria to Level 60, bypassing the tedious grinding process.
+- **Stat Transfer Support**: Easily transfer high-value stat rolls from older units to your newly acquired meta characters without losing your investment.
+
+<Callout type="success" title="Investment Strategy">
+Only spend your Trait Rerolls on units that have already completed their evolution and ascension paths. Rerolling traits on temporary, unevolved units is a waste of rare resources that are better saved for your permanent meta cores.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Odyssey Preparation Checklist">
+
+Before launching your next high-difficulty Odyssey run, ensure your account and team are fully optimized to maximize your chances of a clean, successful clear.
+
+<Checklist
+  id="odyssey-prep"
+  title="Pre-Run Milestones:"
+  items={[
+    "Verify your main carry unit is fully evolved and leveled to maximum",
+    "Equip your active team slots with Level 60 Memoria using Leveling Tickets",
+    "Ensure you have at least one reliable slow or freeze unit equipped",
+    "Clear current Worldlines floors to collect any outstanding Stat Chips",
+    "Set up your economy units with Fortune or Swift traits to boost early-game income"
+  ]}
+/>
+
+<Callout type="tip" title="Final Checklist Reminder">
+Double-check that you have joined the official Roblox experience by Kitawari (Game ID: `16146832113`) to ensure you are playing the latest Update 13.5: Eternal Adversaries build.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to farm Trait Rerolls in Anime Vanguards?",
+    answer: "The anime vanguards odyssey mode and Worldlines floor clears are the most reliable repeatable sources of Trait Rerolls. Additionally, keep an eye on active update codes, which frequently award large bundles of rerolls."
+  },
+  {
+    question: "Do trait pity thresholds reset when I evolve a unit?",
+    answer: "No. Evolving, normalizing, or transferring stats between units will not reset your trait pity counter. The Trait Index menu tracks your mythic pity separately for each individual unit."
+  },
+  {
+    question: "How does the Update 13.5 Memoria recycling system work?",
+    answer: "You can take any unwanted duplicate Memoria to the recycling menu to break them down into Memoria Scrap. This scrap can then be spent in the Exclusive Shop for high-value progression materials."
+  },
+  {
+    question: "Can I run Odyssey solo, or is co-op recommended?",
+    answer: "While Odyssey can be cleared solo with highly optimized, fully ascended Mythic and Secret units, running in co-op allows players to pool their resources, share lane defense duties, and coordinate crowd control more effectively."
+  }
+]} />
+
+<Callout type="info" title="Official Communities">
+For real-time updates, patch notes, and community discussions, visit the official [Vanguards Website](https://vanguards.gg/) or join the active community on the [Anime Vanguards Discord](https://discord.com/invite/animevanguards).
+</Callout>
+
+</Section>

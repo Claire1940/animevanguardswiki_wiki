@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Boss Rush: Tuyến đường cày cuốc nhanh & Hướng dẫn Boss",
+  description: "Chinh phục chế độ Anime Vanguards Boss Rush với các chiến thuật cày cuốc nhanh, phân tích cơ chế boss và đội hình đơn vị tối ưu cho năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Rush+Guide",
+  date: "2026-06-28",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mục tiêu chính**: Nắm vững các vòng xoay **anime vanguards boss rush** để cày cuốc các loại tiền tệ sự kiện độc quyền và mở khóa các đơn vị mạnh mẽ.
+- **Chiến thuật Speedrun**: Tận dụng mẹo Gear 5 Luffy và Drumsticks (Đùi gà) để giảm thời gian hoàn thành từ 10 phút xuống dưới 3 phút.
+- **Cơ chế cốt lõi**: Hãy nhớ rằng Thuộc tính (Traits) và Linh thú (Familiars) hoàn toàn bị vô hiệu hóa, và Memoria sẽ mất thuộc tính của chúng trong chế độ này.
+- **Chuẩn bị quan trọng**: Tích lũy Legacy Coins để mua Boss Rifts từ Legacy Shop khi boss bạn muốn cày không nằm trong vòng xoay hiện tại.
+- **Lựa chọn đơn vị hàng đầu**: Mang theo các đơn vị giữ chân (staller) đáng tin cậy như Alucard và Ichigo để đảm bảo an toàn cho lượt chơi của bạn trước những đợt quái lọt lưới bất ngờ.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về Anime Vanguards Boss Rush">
+
+**Anime vanguards boss rush** là một chế độ chơi đầy thử thách và mang lại phần thưởng cao, được thiết kế để kiểm tra chiều sâu chiến thuật và cách sắp xếp đơn vị của bạn [5]. Trải dài qua 30 làn sóng (waves) căng thẳng, chế độ này buộc người chơi phải phòng thủ trước các lối đi liên tục của kẻ thù trong khi đối đầu với một boss mạnh mẽ ở mỗi mốc 10 wave (Wave 10, 20 và 30). Người chơi có thể chọn vượt qua thử thách này một mình hoặc lập đội với tối đa ba người chơi khác để phối hợp phòng thủ.
+
+Để đảm bảo tính công bằng, một số hệ thống tiến trình sẽ bị hạn chế. Thuộc tính (Traits) và Linh thú (Familiars) hoàn toàn bị vô hiệu hóa. Mặc dù bạn được phép giữ Memoria đã trang bị, chúng sẽ mất đi các Thuộc tính độc nhất trong suốt thời gian diễn ra lượt chơi. Ngoài ra, việc tham gia độ khó Nightmare (Ác mộng) sẽ áp dụng thêm các hạn chế khác, chẳng hạn như vô hiệu hóa các viện binh hỗ trợ trong game ở một số màn chơi cụ thể.
+
+**Điểm nhấn Video:**
+- **Chiến thuật Speedrun**: Tìm hiểu cách hoàn thành boss rush dưới 3 phút bằng cách sử dụng các thiết lập trang bị cụ thể.
+- **Biến hình Luffy**: Khám phá thời điểm chính xác để kích hoạt Gear 5 Luffy nhằm gây sát thương tối đa lên boss.
+- **Chiến thuật giữ chân**: Đặt Alucard và các đơn vị hỗ trợ khác để dễ dàng sống sót cho đến Wave 5.
+
+<YouTubeEmbed videoId="oCZ978wHqpo" title="How To Complete the New Boss Rush IN 2 MINUTES!!! | Anime Vanguards" />
+
+<Callout type="tip" title="Vòng xoay hàng tuần">
+Sự kiện boss hoạt động sẽ xoay vòng theo từng tuần. Nếu bạn cần cày một boss cụ thể hiện không hoạt động, bạn có thể mua một Boss Rift sử dụng một lần từ Legacy Shop với giá 10 Legacy Coins.
+</Callout>
+
+| Độ khó | Số lượng Wave | Thuộc tính / Linh thú | Viện binh | Phần thưởng cơ bản |
+|---|---|---|---|---|
+| **Normal** | 30 Wave | Bị vô hiệu hóa | Được kích hoạt (nếu có) | Token tiêu chuẩn, Đá quý, Legacy Coins |
+| **Nightmare** | 30 Wave | Bị vô hiệu hóa | Bị vô hiệu hóa | Tiêu chuẩn + Pha lê, Mảnh vỡ, Tỷ lệ rơi cao hơn |
+
+</Section>
+
+<Section icon={Sparkles} title="Chiến thuật Speedrun 2 phút">
+
+Trong khi một lượt chơi thông thường của **anime vanguards boss rush** thường mất khoảng 10 phút lập kế hoạch và thực hiện cẩn thận, những người chơi nâng cao có thể sử dụng phương pháp speedrun cực kỳ hiệu quả để hoàn thành màn chơi trong khoảng 2 đến 3 minutes. Chiến thuật này xoay quanh Gear 5 Luffy và phụ kiện Drumsticks (Đùi gà), cho phép bạn bỏ qua các giai đoạn wave kéo dài và nhanh chóng thu thập tiền tệ rơi ra.
+
+Bằng cách tối ưu hóa đội hình với các đơn vị giữ chân chuyên dụng, bạn có thể sống sót qua đợt tấn công ban đầu với mức đầu tư tối thiểu, kích hoạt sự biến hình của Luffy và tiêu diệt boss gần như ngay lập tức. Chiến thuật này rất được khuyến khích cho những người chơi muốn cày đủ 300 xu cần thiết cho Kid's Key trong vòng chưa đầy 45 phút.
+
+<Callout type="warning" title="Yêu cầu thiết lập lại sảnh chờ">
+Do cách trạng thái trò chơi cập nhật trong quá trình speedrun này, bạn phải quay lại sảnh chờ sau khi hoàn thành mỗi lượt chơi. Nếu không làm như vậy, các cơ chế speedrun có thể không được thiết lập lại chính xác trong các lần thử tiếp theo.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Thu thập các vật phẩm yêu cầu">
+    Trang bị Compass (La bàn) cho Nami và vào Màn 2 Ải 4. Đào rương ẩn để lấy Half of the Sun. Sau khi có được, hãy di chuyển đến màn Pirate Dynasty để nhận phụ kiện Drumsticks.
+  </Step>
+  <Step num="2" title="Tập hợp đội hình giữ chân">
+    Vào Boss Rush với đội hình gồm Luffy, Alucard (để làm chậm), Kurumi (để hỗ trợ thời gian) và Ichigo (để cung cấp một lần hồi sinh miễn phí bảo hiểm).
+  </Step>
+  <Step num="3" title="Giữ chân kẻ địch đến Wave 5">
+    Đặt các đơn vị giữ chân của bạn gần căn cứ. Đừng tập trung vào việc tiêu diệt kẻ thù; thay vào đó, hãy sử dụng khả năng làm chậm của Alucard để trì hoãn tiến trình của chúng và sống sót cho đến Wave 5.
+  </Step>
+  <Step num="4" title="Thực hiện mẹo diệt Boss">
+    Khi đạt đến Wave 5, hãy sống sót đủ lâu để kích hoạt biến hình Gear 5 của Luffy. Tấn công boss cho đến khi máu của chúng giảm xuống dưới 500 HP. Hủy biến hình, thu thập trái cây co giãn (elastic fruit) sinh ra và tung đòn kết liễu.
+  </Step>
+</Steps>
+
+| Tên đơn vị | Vai trò | Kỹ năng chính | Đóng góp cho Speedrun |
+|---|---|---|---|
+| **Luffy (Gear 5)** | Tấn công chính | Trái cây co giãn & Đùi gà | Gây sát thương bùng nổ cực lớn và kết liễu boss |
+| **Alucard** | Kiểm soát đám đông | Làm chậm | Giữ chân các đợt quái tràn vào để đảm bảo sống sót đến Wave 5 |
+| **Ichigo** | Bảo hiểm | Hồi sinh miễn phí | Ngăn chặn việc quái lọt lưới bất ngờ làm kết thúc lượt chơi sớm |
+| **Kurumi** | Hỗ trợ | Thao túng thời gian | Nâng cao khả năng giữ chân và tăng tốc độ tấn công của đơn vị |
+
+</Section>
+
+<Section icon={Swords} title="Vòng xoay Boss và Cơ chế">
+
+Mỗi người trong số bốn boss xoay vòng trong **anime vanguards boss rush** đều có các kiểu tấn công, mối nguy hiểm từ môi trường và đề xuất đơn vị riêng biệt. Hiểu rõ các cơ chế này là điều cần thiết để chuyển đổi từ độ khó Normal sang Nightmare.
+
+Để giúp bạn chuẩn bị, chúng tôi đã nêu chi tiết các cơ chế cốt lõi và chiến thuật khuyên dùng cho cả bốn cuộc chạm trán boss hiện đang trong vòng xoay.
+
+<CardGrid cols={2}>
+  <Card title="Igros (Huyết phòng)">
+    Xuất hiện ở mỗi mốc 10 wave. Mỗi khi một trong các thanh máu của hắn bị cạn kiệt, hắn sẽ tung ra một đòn choáng diện rộng lên tất cả các đơn vị gần đó. Hãy đặt các đơn vị gây sát thương chính cách xa nhau để tránh bị choáng đồng thời.
+  </Card>
+  <Card title="Sukono (Hậu quả Shibuya)">
+    Sử dụng Cleave (Chém), Dismantle Slam (Đập tan rã), Cleaving Dash (Lướt chém) và Flame Release (Hỏa giải). Flame Release cực kỳ nguy hiểm vì nó ngăn bạn bán các đơn vị của mình. Hãy tập trung vào việc phá hủy khả năng này trước.
+  </Card>
+  <Card title="Saber Alternate (Hang động)">
+    Sở hữu cơ chế Servant (Anh linh) độc đáo. Sinh ra một mini-boss A.W.E. ở Wave 15 và 25; việc đánh bại các mini-boss này sẽ làm suy yếu đáng kể lượng máu của Saber khi cô ấy xuất hiện lại ở Wave 20 và 30.
+  </Card>
+  <Card title="Arin (Bức tường ngoài)">
+    Boss có hitbox lớn nhất và lượng máu cơ bản cao nhất trong trò chơi. Arin làm choáng các đơn vị và triệu hồi các Nuclear Giant (Khổng khổng hạt nhân) áp dụng các bùa hại giảm tầm đánh nghiêm trọng. Hãy tận dụng Giant Coins để mua viện binh.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Triệu hồi Servant">
+Trong sự kiện boss Saber (Alternate), bạn có thể kích hoạt các Servant mạnh mẽ như Berserker (Heracles) để gây choáng và làm chậm AoE tầm xa, hoặc Archer để liên tục bắn oanh tạc ở đầu đường đi.
+</Callout>
+
+| Tên Boss | Chiêu thức đặc trưng | Đối phó chiến thuật | Đơn vị khuyên dùng |
+|---|---|---|---|
+| **Igros** | Choáng khi mất thanh máu | Đặt các đơn vị cách xa nhau; duy trì DPS ổn định ở tuyến sau | Ultimate Rohan, Eizan (Aura) |
+| **Sukono** | Flame Release | Nhắm mục tiêu và vô hiệu hóa Flame Release trước | Itaduri, Cu Chulainn |
+| **Saber (Alternate)** | Mini-Boss A.W.E. | Đánh bại mini-boss ngay lập tức ở Wave 15 & 25 | Saber (King of Knights), Gujo (Infinity) |
+| **Arin** | Triệu hồi Nuclear Giant | Mua viện binh Makoso; tận dụng hitbox lớn | Arin (Rumbling), Zak (Ape Giant) |
+
+</Section>
+
+<Section icon={Trophy} title="Chi tiết phần thưởng & Tỷ lệ rơi">
+
+Đánh bại những kẻ thù mạnh mẽ này sẽ mang lại các loại tiền tệ đặc trưng của sự kiện, đá quý và các đơn vị độc quyền có giá trị. Trong khi chế độ Normal cung cấp nguồn tiền tệ cơ bản ổn định, chế độ Nightmare là nguồn chính để kiếm các nguyên liệu tiến hóa cấp cao và mảnh vỡ reroll.
+
+Ngoài ra, một số màn chơi nhất định cung cấp cơ hội nhỏ để nhận trực tiếp các đơn vị độc quyền làm phần thưởng hoàn thành.
+
+<Callout type="success" title="Bảo hiểm chắc chắn (Pity)">
+Cả Igros và Sokora đều có tỷ lệ rơi 2% từ các sự kiện boss tương ứng của họ. Nếu bạn không may mắn nhận được chúng thông qua rơi ngẫu nhiên, hệ thống bảo hiểm (pity) chắc chắn sẽ trao tặng đơn vị đó ở lượt hoàn thành thứ 75 của bạn.
+</Callout>
+
+| Sự kiện Boss | Phần thưởng tiền tệ | Số lượng (Normal/Nightmare) | Đơn vị rơi độc quyền | Phần thưởng Nightmare bổ sung |
+|---|---|---|---|---|
+| **Igros** | Commander Tokens | 19-24 | Igros (Tỷ lệ rơi 2%) | Corruption Crystal (10%), Phoenix Shard (7.5%) |
+| **Sukono** | Curse Tokens | 19-24 | Không có | Corruption Crystal (10%), Elemental Shard (10%) |
+| **Saber (Alternate)** | Corrupted Tokens | 19-24 | Sokora (Tỷ lệ rơi 2%) | Phoenix Shard (7.5%), Elemental Shard (10%) |
+| **Arin** | Giant Tokens | 19-24 | Không có | Corruption Crystal (10%), Phoenix Shard (7.5%) |
+
+</Section>
+
+<Section icon={Shield} title="Danh sách chuẩn bị Boss Rush thiết yếu">
+
+Trước khi bắt đầu lượt thử **anime vanguards boss rush** tiếp theo của bạn, hãy xem qua danh sách chuẩn bị vận hành này để đảm bảo đội hình của bạn được tối ưu hóa cho hiệu quả tối đa và không bị lọt quái.
+
+Chuẩn bị trang bị trước sẽ tiết kiệm thời gian quý báu và ngăn ngừa các lượt chơi thất bại ở độ khó cao hơn.
+
+<Checklist
+  id="boss-rush-prep"
+  title="Danh sách chuẩn bị trước lượt chơi:"
+  items={[
+    "Xác nhận rằng tất cả các đơn vị gây sát thương chính đã được trang bị Memoria cấp cao.",
+    "Đảm bảo đội hình speedrun của bạn đã sẵn sàng Nami (có La bàn) và Gear 5 Luffy.",
+    "Kiểm tra vòng xoay hàng tuần và mua Boss Rifts nếu boss mục tiêu của bạn không hoạt động.",
+    "Phối hợp vai trò với các thành viên trong đội nếu chơi ở chế độ co-op (hợp tác).",
+    "Để dành ít nhất 10 Legacy Coins cho các trường hợp mua Rift khẩn cấp."
+  ]}
+/>
+
+<Callout type="tip" title="Quản lý viện binh">
+Khi chiến đấu với Arin trên Bức tường ngoài, hãy phân bổ Giant Tokens của bạn một cách cẩn thận. Chi tiêu 40,000 Giant Tokens để triệu hồi Makoso sẽ mang lại một lượng tăng sức mạnh khổng lồ có thể dễ dàng gánh bạn qua các wave cuối cùng.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Cách nhanh nhất để cày anime vanguards boss rush là gì?",
+    answer: "Phương pháp nhanh nhất là chiến thuật speedrun Luffy Gear 5. Bằng cách trang bị phụ kiện Drumsticks (Đùi gà), giữ chân kẻ địch đến Wave 5 bằng các đơn vị như Alucard, và kết liễu boss bằng mẹo trái cây hủy biến hình, bạn có thể hoàn thành các lượt chơi dưới 3 phút."
+  },
+  {
+    question: "Các Thuộc tính (Traits) của đơn vị có hoạt động trong các sự kiện Boss Rush không?",
+    answer: "Không. Thuộc tính đơn vị và Linh thú (Familiars) hoàn toàn bị vô hiệu hóa trong chế độ này. Hơn nữa, bất kỳ Memoria nào được trang bị cũng sẽ mất Thuộc tính của chúng, nghĩa là bạn phải dựa hoàn toàn vào các chỉ số cơ bản của đơn vị và sự phối hợp cơ chế."
+  },
+  {
+    question: "Làm thế nào để tôi tiếp cận một boss hiện không có trong vòng xoay hàng tuần?",
+    answer: "Bạn có thể mua Boss Rift (Vết nứt Boss) sử dụng một lần từ Legacy Shop với giá 10 Legacy Coins. Điều này cho phép bạn tự chọn và mở bất kỳ sự kiện nào trong số bốn sự kiện boss bất kể vòng xoay hàng tuần."
+  },
+  {
+    question: "Saber (Alternate) có hệ thống bảo hiểm (pity) cho vật phẩm rơi độc quyền của cô ấy không?",
+    answer: "Có. Mặc dù một số tài nguyên cộng đồng cho rằng ngược lại, đơn vị độc quyền Sokora có tỷ lệ rơi 2% từ sự kiện boss Hang động với hệ thống bảo hiểm chắc chắn sẽ kích hoạt ở lượt chơi thứ 75 của bạn."
+  }
+]} />
+
+<Callout type="info" title="Kết luận cuối cùng">
+Cho dù bạn đang speedrun với Luffy hay đối đầu với chế độ Nightmare cùng một đội hình phối hợp ăn ý, việc làm chủ các cơ chế boss này là cách tuyệt đối tốt nhất để phát triển tài khoản của bạn vào năm 2026. Hãy giữ cho các chiến thuật của bạn linh hoạt và luôn lập kế hoạch xoay quanh các vòng xoay hàng tuần.
+</Callout>
+
+</Section>
