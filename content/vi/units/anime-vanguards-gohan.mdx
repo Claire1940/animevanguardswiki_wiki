@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Gohan: Hướng dẫn Build Meta & Worldline 2026",
+  description: "Làm chủ đơn vị song hành Gohan và Trunks trong Anime Vanguards. Tìm hiểu cách cày 50 lượt Worldline, các thiên phú Monarch tốt nhất và sự phối hợp đội hình meta 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Vanguards+Gohan+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime vanguards gohan** là một đơn vị song hành Worldline bao gồm Future Gohan (Gohan Tương lai) và Enraged Trunks (Trunks Phẫn nộ), có thể nhận được thông qua việc hoàn thành 50 lượt đi Worldline.
+- **Cơ chế Song hành**: Gohan đóng vai trò là vị trí đặt chính, trong khi Trunks tự động xuất hiện khi số mạng (life stocks) về 0 hoặc khi kích hoạt hồi sinh.
+- **Thiên phú tốt nhất**: Thiên phú **Monarch** (Quân vương) là lựa chọn tối ưu để tối đa hóa lượng sát thương tăng tiến và hiệu quả vị trí đặt.
+- **Phối hợp cốt lõi**: Kết hợp cực kỳ tốt với **Vast Lord Ichigo** để kiểm soát số mạng và **Broly** để nhận bồi hoàn sát thương khổng lồ lên đến 50%.
+- **Thiết lập Memoria**: Sử dụng Memoria **Bond of Master and Disciple** (Tình Thầy Trò), tập trung vào các chỉ số sát thương chí mạng (critical damage) và tỷ lệ chí mạng (critical chance).
+</Callout>
+
+<Section icon={Map} title="Cách sở hữu Anime Vanguards Gohan">
+
+Sở hữu đơn vị **anime vanguards gohan** (cụ thể là cặp đôi Gohan Tương lai và Trunks) là một thử thách về sự kiên trì hơn là may mắn thuần túy. Không giống như các đơn vị trong biểu ngữ (banner) phụ thuộc vào đá quý (gems), thế lực Worldline này yêu cầu lối chơi nhất quán trong các màn chơi Worldline cụ thể. Người chơi phải cam kết cày cuốc một lượng lớn để mở khóa đơn vị thuộc bậc 0.1% này, vốn là nền tảng cho các đội hình meta cuối game vào năm 2026.
+
+**Điểm nhấn Video:**
+- Hướng dẫn chi tiết về quá trình cày 50 lượt Worldline cần thiết để sở hữu đơn vị.
+- Trình diễn quá trình reset thiên phú Monarch và chuyển đổi chỉ số.
+- Trình diễn nội tại "Teacher's Anger" (Cơn giận của Người thầy) trong một trận đấu thực tế.
+- So sánh giữa các đòn tấn công Masenko của Gohan và dạng Phẫn nộ (Enraged) của Trunks.
+
+<YouTubeEmbed videoId="cbt8XLQBDyY" title="Sở hữu Future Gohan MONARCH 0.1% Trong Anime Vanguards!" />
+
+Quá trình cày cuốc này nổi tiếng là tẻ nhạt, thường mất từ 4 đến 5 giờ chơi liên tục. Để tối ưu hóa thời gian của bạn, khuyến nghị sử dụng các đơn vị dọn quái tốc độ cao như Zoro hoặc Denji để nhanh chóng vượt qua các đợt quái ban đầu của 50 tầng yêu cầu. Khi bạn đạt đến Tầng 50, bạn chắc chắn sẽ nhận được đơn vị này, mặc dù việc sở hữu phiên bản "Shiny" (Lấp lánh) vẫn là một điều cực kỳ hiếm gặp.
+
+| Yêu cầu | Chi tiết |
+| :--- | :--- |
+| **Chế độ chơi** | Worldlines |
+| **Số lượt hoàn thành** | 50 lượt thành công |
+| **Thời gian ước tính** | 240 - 300 phút |
+| **Vật phẩm chắc chắn rơi** | Gohan Tương lai & Trunks |
+| **Bậc hiếm** | Độc quyền Worldline (Sức mạnh 0.1%) |
+
+<Callout type="info" title="Hiệu suất cày cuốc">
+Tập trung vào các đơn vị có SPA (Thời gian mỗi đòn đánh) nhanh để dọn sạch 50 tầng. Các đợt quái kết thúc càng nhanh, bạn càng sớm mở khóa được đơn vị.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cơ chế chiến đấu và Biến hình Song hành">
+
+Sức hút độc đáo của **anime vanguards gohan** nằm ở cơ chế biến hình của nó. Bạn bắt đầu trận đấu bằng cách đặt Gohan Tương lai, người đóng vai trò là nguồn gây sát thương hiệu quả cao với các quy tắc đặt vị trí độc đáo. Tuy nhiên, tiềm năng thực sự của đơn vị này chỉ được giải phóng thông qua các nội tại "Teacher's Anger" (Cơn giận của Người thầy) và "Avengers Arrival" (Sự xuất hiện của Kẻ báo thù), giúp đưa Trunks vào chiến trường.
+
+### Hai giai đoạn của đơn vị
+
+Gohan tận dụng nội tại **Battlefield Education** (Giáo dục Chiến trường). Khi bạn đặt đơn vị không phải nông dân (non-farm) đầu tiên của mình, Gohan về cơ bản có thể được đặt miễn phí hoặc giảm giá đáng kể. Hơn nữa, việc đặt các đơn vị khác gần anh ta sẽ giúp nâng cấp tức thì cho cả Gohan và đơn vị mới đó. Mô hình tấn công của anh ta tiến hóa từ Masenko một tay sang Special Beam Cannon (Pháo đặc kích) diện rộng (AoE) hoàn chỉnh khi anh ta đạt đến các bậc nâng cấp cao hơn.
+
+| Giai đoạn | Tên dạng | Đòn đánh chính | Loại AoE |
+| :--- | :--- | :--- | :--- |
+| **Giai đoạn 1** | Gohan Tương lai | Masenko một tay | Hình nón / Hình tròn |
+| **Giai đoạn 2** | Trunks Phẫn nộ | Avengers Arrival | Hình tròn khổng lồ |
+| **Điều kiện kích hoạt** | Đặt vị trí ban đầu | 0 Số mạng / Hồi sinh | Không áp dụng |
+
+### Trunks: Thế lực Phẫn nộ
+
+Trunks chỉ xuất hiện khi số mạng của người chơi về 0 hoặc khả năng hồi sinh (như của Estarossa hoặc các thánh di vật cụ thể) được kích hoạt. Khi Trunks xuất hiện, anh ta tự động ở trạng thái **Nâng cấp Tối đa**. Anh ta đẩy lùi tất cả kẻ địch trên bản đồ và nhận thêm 100% tỷ lệ chí mạng. Điều này khiến anh ta trở thành một trong những đơn vị "lội ngược dòng" đáng tin cậy nhất trong meta 2026.
+
+<Callout type="tip" title="Cái chết chiến thuật">
+Trong các chế độ Vô tận (Infinite) cấp cao, một số người chơi cố tình để một kẻ địch yếu đi qua để kích hoạt hồi sinh, buộc Trunks xuất hiện sớm nhằm tận dụng bồi hoàn sát thương nâng cấp tối đa của anh ta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Thiên phú tốt nhất và Cấu hình Memoria">
+
+Để làm cho **anime vanguards gohan** của bạn thực sự ưu việt, bạn phải tập trung vào thiên phú Monarch và các chỉ số Memoria cụ thể. Vì đơn vị này phụ thuộc nhiều vào đòn chí mạng và thời điểm đặt vị trí, lựa chọn thiên phú của bạn có thể tạo ra sự khác biệt hàng triệu sát thương ở giai đoạn cuối game.
+
+<CardGrid cols={3}>
+  <Card title="Thiên phú Monarch">
+    - **Lựa chọn Meta hàng đầu**
+    - Tốt nhất cho chi phí đặt vị trí
+    - Tăng tiến sát thương khổng lồ
+  </Card>
+  <Card title="Thiên phú Dead Eye">
+    - **Chuyên gia Chí mạng**
+    - Phối hợp tốt với Trunks
+    - Độ ổn định cao
+  </Card>
+  <Card title="Thiên phú Divinity">
+    - **Sức mạnh thuần túy**
+    - Tốt nhất cho giai đoạn Gohan
+    - Bồi hoàn toàn diện mạnh mẽ
+  </Card>
+</CardGrid>
+
+### Memoria: Bond of Master and Disciple
+
+Memoria **Bond of Master and Disciple** (Tình Thầy Trò) được thiết kế riêng cho đơn vị này. Nó tăng sát thương chí mạng thêm 30% và cung cấp hiệu ứng "thanh tẩy" (cleanse) khi đánh chí mạng. Vì Trunks có sẵn 100% tỷ lệ chí mạng khi xuất hiện, Memoria này đảm bảo mỗi đòn đánh đều là một đòn giáng tàn khốc, đồng thời giữ cho đơn vị không bị ảnh hưởng bởi các hiệu ứng bất lợi.
+
+| Ưu tiên chỉ số | Xếp hạng mục tiêu | Ảnh hưởng lên Gohan/Trunks |
+| :--- | :--- | :--- |
+| **Sát thương chí mạng** | **Godly / Z+** | Nhân đôi tỷ lệ chí mạng 100% của Trunks |
+| **Tấn công** | **Z+** | Tăng sát thương cơ bản cho cả hai dạng |
+| **Tầm đánh** | **Z** | Đảm bảo bao phủ toàn bộ bản đồ cho diện rộng (AoE) |
+
+<Steps>
+  <Step num="1" title="Reroll Thiên phú">
+    Sử dụng Stat Chips (Chip chỉ số) của bạn để hướng tới **Monarch**. Nếu bạn còn ít chip, **Dead Eye** là một lựa chọn phụ khả thi do bộ kỹ năng thiên về chí mạng của đơn vị.
+  </Step>
+  <Step num="2" title="Chế tạo Memoria">
+    Nhận Bond of Master and Disciple từ phần thưởng Worldline và nâng cấp nó bằng Rainbow Essence (Tinh hoa cầu vồng).
+  </Step>
+  <Step num="3" title="Chuyển đổi chỉ số">
+    Chuyển các chỉ số sát thương Z+ hoặc Godly tốt nhất của bạn từ các đơn vị không cần thiết sang cặp đôi Gohan/Trunks để tối đa hóa tiềm năng sát thương hơn 3.2 triệu của họ.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Quản lý Chip chỉ số">
+Các chỉ số Godly rất hiếm. Đừng lãng phí chip vào Tầm đánh nếu chỉ số Tấn công của bạn vẫn còn thấp, vì đơn vị này vốn đã có tầm đánh tự nhiên rất cao ở cấp nâng cấp tối đa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sự phối hợp và Kết hợp Đội hình Meta">
+
+Đơn vị **anime vanguards gohan** không tồn tại độc lập. Để đạt được mức sát thương cao nhất, bạn phải kết hợp anh ta với các đơn vị bổ trợ cho cơ chế số mạng và nhãn "Dragon Sphere" (Ngọc Rồng) của anh ta.
+
+### Cốt lõi Broly & Ichigo
+
+Sự phối hợp mạnh mẽ nhất của Gohan là với **Broly**. Gohan cung cấp bồi hoàn sát thương và tầm đánh thụ động 50% cho tất cả các đơn vị "Dragon Sphere" trong phạm vi. Điều này biến Broly thành một thế lực không thể cản phá. Ngoài ra, việc kết hợp Gohan với **Vast Lord Ichigo** cho phép bạn kiểm soát số mạng một cách an toàn, đảm bảo Trunks có thể được triệu hồi chính xác khi cần thiết mà không làm thua trận đấu.
+
+| Đơn vị phối hợp | Độ tương thích | Lợi ích chính |
+| :--- | :--- | :--- |
+| **Broly** | **5/5** | Bồi hoàn 50% sát thương & Tầm đánh từ Gohan |
+| **Vast Lord Ichigo** | **5/5** | Kiểm soát số mạng cho Trunks |
+| **Zoro** | **4/5** | Dọn quái nhanh đầu trận |
+| **Nami** | **4/5** | Kinh tế thiết yếu cho các nâng cấp của Gohan |
+
+<Callout type="success" title="Combo Meta">
+Sử dụng Mugetsu Ichigo để ép reset số mạng là cách nhanh nhất để kích hoạt **Avengers Arrival** cho Trunks, bỏ qua việc phải nâng cấp thủ công.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra tiến trình & Câu hỏi thường gặp">
+
+Để đảm bảo bạn đang tận dụng tối đa đơn vị **anime vanguards gohan** của mình, hãy làm theo danh sách kiểm tra tiến trình cuối cùng này. Đơn vị này là một khoản đầu tư dài hạn sẽ đồng hành cùng bạn qua hầu hết các bản cập nhật nội dung năm 2026.
+
+<Checklist
+  id="gohan-progression"
+  title="Mục tiêu thành thục Gohan:"
+  items={[
+    "Hoàn thành 50 lượt đi Worldline để mở khóa đơn vị",
+    "Reroll để lấy thiên phú Monarch hoặc Dead Eye",
+    "Tiến hóa và trang bị Memoria Bond of Master and Disciple",
+    "Nâng cấp đơn vị lên cấp 100+ bằng các vật phẩm thức ăn",
+    "Thử nghiệm sự phối hợp với Broly trong Chế độ Vô tận"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Gohan có tốt hơn các DPS meta hiện tại như Ichigo không?",
+    answer: "Gohan phục vụ một vai trò khác. Trong khi Ichigo là một quái vật gây sát thương thuần túy, Gohan cung cấp các bồi hoàn thiết yếu cho các đơn vị Dragon Sphere và hoạt động như một lưới an toàn với khả năng biến hình thành Trunks."
+  },
+  {
+    question: "Tôi có cần nâng cấp Trunks thủ công không?",
+    answer: "Không. Khi Trunks xuất hiện thông qua nội tại Avengers Arrival, anh ta tự động ở cấp độ nâng cấp tối đa, giúp bạn tiết kiệm một lượng tiền đáng kể trong trận đấu."
+  },
+  {
+    question: "Tôi có thể nhận được phiên bản Shiny từ 50 lượt đi không?",
+    answer: "Có, nhưng tỷ lệ là cực kỳ thấp. Hầu hết người chơi sẽ nhận được phiên bản tiêu chuẩn, vốn vẫn là lựa chọn hàng đầu cho mọi nội dung game."
+  },
+  {
+    question: "Chỉ số Memoria tốt nhất cho Trunks là gì?",
+    answer: "Sát thương chí mạng là ưu tiên hàng đầu. Vì Trunks đảm bảo tỷ lệ chí mạng khi xuất hiện, việc tăng hệ số nhân cho những cú đánh chí mạng đó là cách hiệu quả nhất để tăng DPS của anh ta."
+  }
+]} />
+
+<Callout type="tip" title="Đánh giá cuối cùng">
+Nếu bạn nghiêm túc với meta năm 2026, hành trình cày cuốc 5 giờ để sở hữu **anime vanguards gohan** là bắt buộc. Tiện ích mà anh ta mang lại cho các đơn vị như Broly khiến anh ta trở nên không thể thay thế trong các đội hình cấp cao.
+</Callout>
+
+</Section>

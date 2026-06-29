@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Trait trong Anime Vanguards: Bảng xếp hạng & Hướng dẫn Reroll năm 2026",
+  description: "Làm chủ tất cả các trait trong Anime Vanguards với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu về trait Monarch, hệ thống bảo hiểm (pity) và cách cày tiền nhanh nhất để reroll.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Traits+Guide+2026",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Trait trong Anime Vanguards** cung cấp các chỉ số tăng cường khổng lồ, bao gồm sát thương, tầm đánh và tốc độ đánh.
+- **Monarch** là trait hiếm nhất (0.1%) và cung cấp lượng tăng **+300% Sát thương** nhưng giới hạn đơn vị chỉ được đặt một lần trên sân.
+- **Bảo hiểm Trait (Trait Pity)** đã được giảm toàn diện trong năm 2025/2026, giúp các trait hàng đầu như Ethereal và Monarch dễ tiếp cận hơn.
+- **Cày tiền** trong các sự kiện x2 là điều cần thiết để có đủ tài nguyên chạm mốc bảo hiểm trait một cách nhanh chóng.
+- **Tỷ lệ số lượng đặt (Placement Scaling)** là rất quan trọng; Monarch mang lại hiệu quả chi phí cao nhất cho các đơn vị có số lượng đặt cơ bản từ 3 trở xuống.
+</Callout>
+
+<Section icon={Map} title="Tìm hiểu về cơ chế Trait trong Anime Vanguards">
+
+Trong meta hiện tại của năm 2026, **trait trong Anime Vanguards** đóng vai trò là yếu tố phân biệt chính giữa một đơn vị thông thường và một thế lực có khả năng gánh cả bản đồ. Các trait được chỉ định ngẫu nhiên khi triệu hồi hoặc reroll, cung cấp các bùa lợi vĩnh viễn có thể thay đổi hoàn toàn cách một đơn vị hoạt động trên chiến trường. Hiểu được sự kết hợp hài hòa giữa bộ kỹ năng cơ bản của đơn vị và trait được chỉ định là chìa khóa để chinh phục các nội dung cấp cao như Odyssey hoặc Chế độ Vô tận (Infinite Mode).
+
+**Điểm nhấn trong Video:**
+- Học cách tận dụng các sự kiện x2 để kiếm 1,3 triệu Iced Tea mỗi giờ.
+- Khám phá con đường nhanh nhất để đạt mốc bảo hiểm (pity) Vanguard trong vòng 4 giờ.
+- Hiểu được tác động của việc cày thủ công so với các phương pháp AFK để tích lũy tiền tệ.
+- Mẹo tối đa hóa phần thưởng trong sự kiện Summer Heat để nâng cấp đơn vị Shiny.
+
+<YouTubeEmbed videoId="QIlc0KuV1BE" title="*INSANE* 2X Event Gives 1.3 Mil Iced Tea Per Hour In Anime Vanguards Update 13.5!" />
+
+Hệ thống trait hoạt động dựa trên tỷ lệ quay ngẫu nhiên theo độ hiếm. Trong khi các trait thường (common) chỉ tăng nhẹ 5-10%, các trait bậc huyền thoại (legendary) và thần thoại (mythic) lại cung cấp các chỉ số nhân sát thương có thể lên tới hơn 300%. Đối với những người chơi muốn tối ưu hóa đội hình của mình, việc tập trung vào các mốc bảo hiểm "Pity" cụ thể là chiến lược đáng tin cậy nhất để tránh những chuỗi đen đủi.
+
+| Tên Trait | Độ hiếm | Hiệu ứng chính | Phù hợp nhất cho |
+| :--- | :--- | :--- | :--- |
+| **Monarch** | 0.1% | +300% Sát thương, -10% SPA, +5% Tầm đánh | Các đơn vị giới hạn đặt ít |
+| **Ethereal** | 0.3% | Tăng mạnh Tốc độ & Sát thương | DPS chính (DPS Carries) |
+| **Deadeye** | 0.5% | +45% Tỷ lệ chí mạng | Đơn vị tấn công nhiều hit |
+| **Solar** | 1.0% | +25% Tầm đánh | Đơn vị Hỗ trợ/Đa dụng |
+
+<Callout type="tip" title="Rerolling Chiến Thuật">
+Luôn tiết kiệm các vật phẩm reroll của bạn cho các sự kiện x2 may mắn hoặc khi bạn có đủ tiền tệ để đạt mốc bảo hiểm 1.500 cho Monarch. Reroll một cách mù quáng mà không có bảo hiểm cứu cánh thường dẫn đến lãng phí tài nguyên.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Trait Monarch: Sức mạnh và Hạn chế">
+
+Trait **Monarch** được coi là đỉnh cao của **các trait trong Anime Vanguards**. Các đơn vị được ban phước với trait này sẽ nhận được mức tăng sức mạnh thô đáng kinh ngạc, nhưng đi kèm với một cái giá chiến thuật không hề nhỏ: bạn bị giới hạn chỉ được đặt duy nhất một đơn vị đó trên sân. Điều này làm cho trait này trở nên cực kỳ phân cực tùy thuộc vào nhân vật được trang bị.
+
+Ví dụ, các đơn vị như Gilgamesh (Vua của các anh hùng) được hưởng lợi rất lớn từ Monarch. Khả năng "Enuma Elish" của anh ta, khi kết hợp với hệ số nhân của Monarch, có thể gây ra tới 1050% sát thương so với phiên bản cơ bản. Điều này biến anh ta thành một "đội quân một người" có khả năng thủ một mình các đường mà thông thường sẽ cần tới nhiều đơn vị.
+
+| Số lượng đặt | Sát thương tăng thêm | Đánh giá hiệu quả |
+| :--- | :--- | :--- |
+| **1 Đơn vị** | +344.4% | **Xuất sắc** |
+| **2 Đơn vị** | +122.2% | **Tuyệt vời** |
+| **3 Đơn vị** | +48.1% | **Tốt** |
+| **4 Đơn vị** | +11.1% | **Trung bình** |
+| **5 Đơn vị** | -11.1% | **Kém** |
+| **6 Đơn vị** | -25.9% | **Rất kém** |
+
+Như được hiển thị trong bảng trên, hiệu quả của Monarch giảm mạnh khi giới hạn đặt cơ bản của đơn vị tăng lên. Nếu một đơn vị tự nhiên cho phép đặt 5 hoặc 6 lần trên sân, việc trao cho họ Monarch thực chất sẽ dẫn đến tổn thất ròng về tổng lượng DPS tiềm năng của cả đội.
+
+<Callout type="warning" title="Cảnh báo về số lượng đặt">
+Không trang bị Monarch cho các đơn vị phụ thuộc vào hiệu ứng "cộng dồn" hoặc những đơn vị có giới hạn đặt cao (5+). Bạn sẽ mất nhiều tổng sát thương từ các đơn vị bị thiếu hơn là lượng tăng +300% mà trait này mang lại cho một đơn vị duy nhất.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Điều chỉnh Bảo hiểm (Pity) và Độ hiếm của Trait">
+
+Các nhà phát triển đã triển khai một số bản cập nhật cải thiện trải nghiệm chơi (QoL) cho hệ thống **trait trong Anime Vanguards** trong suốt năm 2025 và kéo dài sang năm 2026. Thay đổi đáng kể nhất là việc giảm ngưỡng bảo hiểm (pity) từ 2.5x xuống 1.5x, giúp người chơi hệ F2P dễ dàng sở hữu các trait cấp cao hơn rất nhiều.
+
+<CardGrid cols={2}>
+  <Card title="Giảm mốc bảo hiểm (Pity)">
+    - **Monarch**: Giảm từ 2.500 xuống 1.500
+    - **Ethereal**: Giảm từ 1.430 xuống 858
+    - **Deadeye**: Giảm từ 666 xoay xuống 400
+    - **Solar**: Giảm từ 500 xuống 300
+  </Card>
+  <Card title="Tăng chỉ số">
+    - **Tầm đánh Solar**: Tăng lên 25%
+    - **Chí mạng Deadeye**: Tăng lên 45%
+    - **Sát thương chí mạng**: Lên tới 105% khi có bùa lợi
+    - **Thời gian hồi chiêu toàn cầu**: Được tích hợp vào hiệu ứng của trait
+  </Card>
+</CardGrid>
+
+Những điều chỉnh này đồng nghĩa với việc người chơi hiện có thể lên kế hoạch thăng tiến sức mạnh của mình xoay quanh các lượt rơi chắc chắn. Bằng cách cày các loại tiền tệ như Iced Tea trong các sự kiện, bạn có thể tính toán chính xác cần bao nhiêu giờ chơi để "ép" ra trait Monarch hoặc Ethereal cho đơn vị yêu thích của mình.
+
+| Ngày cập nhật | Loại thay đổi | Mô tả |
+| :--- | :--- | :--- |
+| 20 tháng 7, 2025 | Giảm Pity | Tất cả mốc bảo hiểm trait hiếm giảm 40% |
+| 15 tháng 9, 2024 | Tăng chỉ số | Tỷ lệ chí mạng của Deadeye tăng lên 45% |
+| 27 tháng 12, 2024 | Tăng chỉ số | Tầm đánh của Solar tăng lên 25% |
+| Tháng 6, 2026 | Thay đổi Meta | Hiệu suất Monarch được tối ưu hóa cho các đơn vị có giới hạn đặt là 3 |
+
+<Callout type="success" title="Mẹo Meta">
+Mốc bảo hiểm 1.500 cho Monarch hiện là tiêu chuẩn vàng cho các trận đấu xếp hạng/cạnh tranh. Hãy cố gắng tích lũy ít nhất 2.000 lượt reroll trước khi bắt đầu một phiên roll nghiêm túc để đảm bảo bạn đạt được mốc bảo hiểm và vẫn còn dư cho các đơn vị khác.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cách Reroll và Cày Trait">
+
+Để sở hữu những **trait trong Anime Vanguards** tốt nhất, bạn cần một lượng lớn tiền tệ trong game. Sự kiện Summer Heat hiện tại của năm 2026 là cách hiệu quả nhất để cày Iced Tea, loại tiền dùng để mua các vật phẩm cần thiết cho việc reroll trait và đạt mốc bảo hiểm Vanguard.
+
+<Steps>
+  <Step num="1" title="Truy cập các sự kiện định kỳ">
+    Đi tới menu Sự kiện (Events) và chọn 'Sự kiện định kỳ' (Recurring Events). Đảm bảo sự kiện 'Summer Heat' hoặc sự kiện thưởng x2 hiện tại đang hoạt động để nhân đôi lượng tiền nhận được.
+  </Step>
+  <Step num="2" title="Cày thủ công so với dùng Cổng dịch chuyển (Portals)">
+    Mặc dù Cổng dịch chuyển (Portals) mang lại lợi ích AFK, nhưng các lượt chạy thủ công trong chế độ chơi Zombie mang lại nhiều lợi nhuận hơn đáng kể. Một lượt chạy kéo dài 30-35 phút có thể mang lại hơn 600.000 Iced Tea.
+  </Step>
+  <Step num="3" title="Tối ưu hóa đến Wave 130">
+    Hãy cố gắng đẩy lượt chạy của bạn lên ít nhất Wave 130. Ở giai đoạn này, tỷ lệ phần thưởng Iced Tea đạt đỉnh, cho phép bạn kiếm được khoảng 1,2 đến 1,3 triệu tiền tệ mỗi giờ trong các sự kiện x2.
+  </Step>
+  <Step num="4" title="Thực hiện Reroll">
+    Khi bạn đã đạt đến ngưỡng bảo hiểm mong muốn (ví dụ: 1.500 cho Monarch), hãy đến gặp NPC reroll trait. Sử dụng số tiền đã tích trữ của bạn để roll cho đến khi xuất hiện trait mong muốn hoặc kích hoạt mốc bảo hiểm.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Hiệu suất cày tiền">
+Cày thủ công trong sự kiện x2 cho phép bạn đạt mốc bảo hiểm 1.500 trait trong khoảng 4-5 giờ chơi tích cực. Đây là con đường thăng tiến nhanh nhất hiện có trong bản cập nhật năm 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sự kết hợp Trait và Đội hình">
+
+Việc chọn đúng **trait trong Anime Vanguards** cho đội hình của bạn phụ thuộc vào vai trò của từng đơn vị. Một đội hình cân bằng yêu cầu sự kết hợp giữa các DPS chủ lực mang trait "Monarch" có sát thương cao, các đơn vị đa dụng mang trait "Solar" để tăng tầm đánh, và các đơn vị "Deadeye" để gây sát thương chí mạng liên tục lên những con trùm có giáp dày.
+
+| Vai trò của đơn vị | Trait khuyên dùng | Tại sao? |
+| :--- | :--- | :--- |
+| **DPS chính** | Monarch / Ethereal | Tối đa hóa sát thương đầu ra để dọn đường |
+| **Hỗ trợ** | Solar | Tăng phạm vi ảnh hưởng của bùa lợi và làm chậm |
+| **Diệt Trùm (Boss)** | Deadeye | Các đòn chí mạng bỏ qua các giá trị phòng thủ cao |
+| **Kinh tế** | Fortune (nếu có) | Tăng lượng tiền kiếm được để nâng cấp nhanh hơn |
+
+Khi xây dựng đội hình của bạn, hãy cân nhắc quy tắc "Đặt một lần" của Monarch. Nếu bạn có hai đơn vị cùng mang trait Monarch, chúng phải là các nhân vật khác nhau, vì bạn không thể đặt hai bản sao của cùng một nhân vật ngay cả khi cả hai đều có trait này. Điều này buộc người chơi phải đa dạng hóa đội hình hơn, một nét đặc trưng của meta năm 2026.
+
+<Callout type="tip" title="Sự kết hợp chuyên nghiệp">
+Kết hợp một Gilgamesh mang trait Monarch với một đơn vị hỗ trợ mang trait Solar. Tầm đánh tăng thêm của đơn vị Solar có thể bao quát những khu vực mà Gilgamesh có thể bỏ lỡ do giới hạn đặt một lần của mình, đảm bảo không có kẻ địch nào lọt qua.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra làm chủ Trait">
+
+Sử dụng danh sách kiểm tra này để đảm bảo tài khoản của bạn được tối ưu hóa cho meta **trait trong Anime Vanguards** hiện tại. Đạt được những cột mốc này sẽ đưa bạn vào nhóm những người chơi hàng đầu trong mùa giải 2026.
+
+<Checklist
+  id="trait-mastery"
+  title="Mục tiêu Trait năm 2026:"
+  items={[
+    "Đạt tốc độ cày 1,3 triệu Iced Tea mỗi giờ",
+    "Sở hữu trait Monarch cho một đơn vị DPS có giới hạn đặt từ 1-3",
+    "Nâng cấp ít nhất một đơn vị lên biến thể 'Shiny' với một trait Thần thoại (Mythic)",
+    "Chạm mốc bảo hiểm 1.500 trong sự kiện x2 May mắn",
+    "Tối ưu hóa các đơn vị hỗ trợ với trait Solar để bao quát tầm đánh tối đa"
+  ]}
+/>
+
+<Callout type="success" title="Lời khuyên cuối cùng">
+Hệ thống trait là một cuộc chạy marathon, không phải là một cuộc chạy nước rút. Hãy tập trung vào từng đơn vị cốt lõi một thay vì cố gắng lấy các trait hoàn hảo cho toàn bộ đội hình của bạn cùng một lúc.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Trait nào tốt nhất trong Anime Vanguards?",
+    answer: "Hiện tại, Monarch được coi là trait tốt nhất cho các đơn vị DPS giới hạn đặt ít nhờ lượng tăng +300% sát thương. Tuy nhiên, Ethereal đứng sát nút ở vị trí thứ hai đối với các đơn vị cần tốc độ đánh cao hơn."
+  },
+  {
+    question: "Bảo hiểm (pity) của trait có được cộng dồn sang các phiên chơi sau không?",
+    answer: "Có, bảo hiểm trait được lưu lại vĩnh viễn. Nếu hôm nay bạn roll 500 lượt rồi dừng lại, bạn vẫn sẽ ở mức 500/1500 cho bảo hiểm Monarch vào lần tiếp theo bạn đăng nhập."
+  },
+  {
+    question: "Tôi có thể có nhiều đơn vị mang trait Monarch trong cùng một đội không?",
+    answer: "Có, bạn có thể có nhiều đơn vị khác nhau mang trait Monarch trong cùng một đội. Tuy nhiên, mỗi đơn vị cụ thể có Monarch sẽ bị giới hạn chỉ được đặt một lần trên sân tại một thời điểm."
+  },
+  {
+    question: "Làm thế nào để cày Iced Tea nhanh chóng để reroll?",
+    answer: "Cách nhanh nhất để cày Iced Tea cho các trait trong Anime Vanguards là tham gia các sự kiện định kỳ như Summer Heat, có thể cung cấp tới 1,3 triệu tiền tệ mỗi giờ thông qua các lượt chạy thủ công ở chế độ chơi Zombie."
+  }
+]} />
+
+</Section>

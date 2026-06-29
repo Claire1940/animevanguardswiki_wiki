@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Vowstone: Guía de Farming y Mecánicas de la Tienda de Grietas",
+  description: "Domina el sistema de Vowstones de Anime Vanguards para garantizar unidades de grieta secretas. Aprende estrategias de farming, costes de la Tienda de Grietas y consejos para cazar shinies para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vowstone+Farming+Guide",
+  date: "2026-06-30",
+  author: "Equipo de Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Vowstone de Anime Vanguards**: Un objeto especializado de "pity-breaker" utilizado para garantizar unidades Secretas de Grieta tras tu próxima victoria exitosa en una Grieta.
+- **Obtención**: La fuente principal es la Tienda de Grietas gestionada por el NPC Kurisa, con un coste de 10,000 Fragmentos de Grieta para la variante Shiny.
+- **Mecánicas de Grieta**: Las Grietas aparecen cada hora en la Plaza Vanguardian o pueden ser invocadas usando Grietas Temporales.
+- **Persistencia**: Si pierdes una Grieta mientras una Vowstone está activa, el efecto permanece hasta que logres una victoria.
+- **Mejor Estrategia**: Concéntrate en alcanzar el estado de MVP en grupos de más de 3 jugadores para duplicar tus ingresos de Fragmentos de Grieta y comprar más rápido.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo el Sistema de Vowstones de Anime Vanguards">
+
+La **Vowstone de Anime Vanguards** (Piedra de Voto) sirve como la póliza de seguro definitiva para los jugadores que buscan las unidades más raras del juego. Introducidas para mitigar el RNG (Generación de Números Aleatorios) asociado con los drops de las Grietas, estas piedras permiten a los jugadores dedicados enfocarse en unidades Secretas específicas como Yehowach, Astolfo o la variante "Wonder of You" (Thunder). A diferencia de las invocaciones estándar, donde el pity se rastrea numéricamente en un banner, una Vowstone es un objeto consumible que, una vez activado, asegura que la unidad del jefe caiga como recompensa en tu próximo despeje exitoso de su reino respectivo.
+
+**Puntos Destacados del Video:**
+- Explica la adquisición de "Wonder of You" (Thunder) a través del farming de mazmorras y el pity del evento.
+- Demuestra la diferencia entre el pity del banner (400 tiradas) y el uso de una Vowstone para saltarse el grind.
+- Destaca la eficiencia de las etapas de Aniversario para recolectar la moneda del evento (Pastel) junto con el farming de Grietas.
+- Muestra el proceso de evolución Shiny para unidades de Grieta de alto nivel.
+
+<YouTubeEmbed videoId="3ssTsn2xU-4" title="Cómo conseguir a Wonder Of You (Thunder) RÁPIDO en Anime Vanguards" />
+
+<Callout type="tip" title="Integración de Pity">
+En el meta de 2026, las Vowstones se utilizan a menudo en conjunto con las mecánicas del evento "Calamity Arrives". Si estás cerca de un pity de rasgo o de banner, evalúa si gastar fragmentos en una Vowstone es más eficiente en recursos que seguir tirando en el banner exclusivo.
+</Callout>
+
+| Tipo de Vowstone | Efecto Principal | Coste (Fragmentos de Grieta) | Existencias |
+| :--- | :--- | :--- | :--- |
+| **Vowstone Estándar** | Garantiza unidad Secreta base en la próxima victoria | 5,000 | 100 |
+| **Vowstone Shiny** | Garantiza unidad Secreta SHINY en la próxima victoria | 10,000 | 100 |
+| **Grieta Temporal** | Genera manualmente una Grieta en la puerta PvP | 30 | 1,000 |
+
+</Section>
+
+<Section icon={Target} title="Cómo Obtener y Usar las Vowstones">
+
+Adquirir una **Vowstone de Anime Vanguards** requiere una inversión significativa en el modo de juego de Grietas. Los jugadores deben alcanzar el Nivel 30 antes de poder participar en estos desafíos. El ciclo principal consiste en participar en las Grietas que aparecen cada hora en la Plaza Vanguardian o usar una Grieta Temporal para forzar una aparición. Una vez dentro, los jugadores luchan contra jefes con mucha vida que no escalan con el número de jugadores, lo que significa que casi siempre se requiere un equipo completo de cuatro para ser eficientes.
+
+<CardGrid cols={3}>
+  <Card title="Acceso a la Tienda de Grietas">
+    Localiza al **NPC Kurisa** cerca del área de Invocación. Ella gestiona la Tienda de Grietas, que rota su inventario semanalmente junto con el ciclo de Grietas.
+  </Card>
+  <Card title="Farming de Fragmentos">
+    Participa en Grietas para ganar **Fragmentos de Grieta**. Aspira al título de MVP infligiendo el mayor daño para duplicar tus recompensas de fragmentos.
+  </Card>
+  <Card title="Activación">
+    Una vez comprada, activa la Vowstone desde tu inventario. El icono del efecto aparecerá en tu interfaz, indicando que la garantía está activa.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Requisito de Victoria">
+La Vowstone solo se consume tras una **Victoria**. Si tu equipo falla en la Grieta o el tiempo expira, no pierdes el efecto de la Vowstone. No tengas miedo de intentar etapas difíciles en Pesadilla incluso después de activar una Vowstone Shiny.
+</Callout>
+
+| Nombre del Jefe | Reino / Mapa | Drop de Unidad Secreta | Nota de Mecánica |
+| :--- | :--- | :--- | :--- |
+| **The Almighty** | Palacio Kuinshi | Yehowach (2%) | Vulnerable solo en zonas específicas del carril |
+| **Rider of Black** | Iglesia Subterránea | Astolfo (2%) | Alta movilidad, requiere aturdimientos/ralentizaciones |
+| **Turbo Spirit Crab** | Santuario de la Montaña | GG (2%) | Ataques rápidos, requiere unidades de alta defensa |
+| **Pink Villain** | Isla Prisión | Warlord of the Sea (2%) | Invoca esbirros, requiere daño de área (AOE) |
+
+</Section>
+
+<Section icon={Swords} title="Farming Estratégico y Rotaciones de Grietas">
+
+Para maximizar la eficiencia de tu **Vowstone de Anime Vanguards**, debes entender la rotación fija de los reinos de las Grietas. El inventario de la tienda se reinicia con cada rotación, lo que significa que si pierdes la oportunidad de comprar una Vowstone para una unidad específica, es posible que tengas que esperar varias semanas para que regrese. La rotación actual de 2026 sigue un patrón predecible: Almighty, seguido de Rider, Turbo y finalmente Pink Villain.
+
+<Steps>
+  <Step num="1" title="Acumulación de Fragmentos">
+    Dedica los primeros días de una rotación a farmear fragmentos. No compres una Vowstone inmediatamente a menos que ya tengas los 10,000 fragmentos ahorrados de una semana anterior.
+  </Step>
+  <Step num="2" title="Optimización de MVP">
+    Lleva unidades de tipo "Nuke" como Koguro (Unsealed) o Song Jinwu. Estas unidades infligen un daño explosivo masivo en ventanas cortas de tiempo, lo cual es esencial para asegurar el bono doble de MVP.
+  </Step>
+  <Step num="3" title="Uso de Grietas Temporales">
+    Si el temporizador de la Grieta horaria no se alinea con tu horario, usa Grietas Temporales. Son baratas (30 fragmentos) y te permiten farmear el jefe específico que necesitas para tu Vowstone.
+  </Step>
+  <Step num="4" title="Ejecución Final">
+    Activa tu Vowstone y únete a una sala de nivel Pesadilla (Nightmare). Asegúrate de que tu equipo tenga unidades de "Anulación" como Luce (Hacker) para extender las ventanas de vulnerabilidad del jefe.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bono por Juego en Grupo">
+Los enemigos de la Grieta están bloqueados a una escala de HP para 4 jugadores. Jugar solo es significativamente más difícil y proporciona menos fragmentos por hora. Usa siempre el LFG de Discord (Buscador de Grupos) para encontrar compañeros competentes para completar Pesadillas.
+</Callout>
+
+| Recurso | Método de Obtención | Uso | Cantidad Máx |
+| :--- | :--- | :--- | :--- |
+| **Fragmentos de Grieta** | Completar Grietas (MVP para 2x) | Comprar Vowstones y Esencias | Ilimitado |
+| **Esencia Arcoíris** | Artesanía o Tienda de Grietas | Evolucionar unidades Secretas de Grieta | 50 |
+| **Chips de Estadísticas** | Desafíos Diarios / Pase de Batalla | Relanzar sub-estadísticas de unidad | 999 |
+| **Grieta Temporal** | Tienda de Grietas | Generar Grietas manuales | 100 |
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de Evolución y Caza de Shinies">
+
+Usar una **Vowstone Shiny de Anime Vanguards** es la única forma garantizada de obtener la versión Shiny de una unidad Secreta de Grieta sin depender de la tasa de drop natural increíblemente baja del 0.1%. Una vez que hayas adquirido tu unidad Shiny (como un Yehowach Shiny o Astolfo Shiny), el siguiente paso es la evolución. Evolucionar estas unidades requiere materiales específicos que a menudo se encuentran en la misma Tienda de Grietas donde compraste la piedra.
+
+| Nombre de Unidad | Material de Evolución | Fragmentos Requeridos | Aumento de Poder |
+| :--- | :--- | :--- | :--- |
+| **Yehowach** | Esencia Arcoíris x10 | 5,000 | Ignora todas las mecánicas de esquiva |
+| **Astolfo** | Esencia Azul x20 | 4,000 | Aumento masivo de la velocidad de ataque |
+| **GG** | Esencia Verde x25 | 3,000 | Añade efecto de quemadura a todos los ataques |
+| **Warlord** | Esencia Roja x15 | 4,500 | Aumenta el radio de AOE en un 50% |
+
+<Callout type="info" title="Ventaja de Estadísticas Shiny">
+Las unidades Shiny en Anime Vanguards no solo se ven diferentes; a menudo poseen un aumento de estadísticas base del 5-10% sobre sus contrapartes estándar. Usar una Vowstone Shiny en una unidad que define el meta como Yehowach se considera el mejor uso de los recursos de endgame en 2026.
+</Callout>
+
+<Checklist
+  id="vowstone-checklist"
+  title="Lista de Preparación para la Vowstone:"
+  items={[
+    "Alcanzar el Nivel 30 para desbloquear el acceso a las Grietas",
+    "Acumular 10,000 Fragmentos de Grieta para una Vowstone Shiny",
+    "Equipar al menos dos unidades 'Nuke' para el farming de MVP",
+    "Revisar la rotación semanal para asegurar que el jefe objetivo esté activo",
+    "Unirse a una sala de Pesadilla de 6 jugadores para la mayor tasa de éxito"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Caduca la Vowstone de Anime Vanguards si no la uso?",
+    answer: "No, las Vowstones son objetos permanentes en tu inventario hasta que se consumen por una victoria en una Grieta. No caducan al final de una rotación o actualización."
+  },
+  {
+    question: "¿Puedo usar varias Vowstones a la vez?",
+    answer: "Solo puedes tener un efecto de Vowstone activo a la vez. Si tienes una Vowstone estándar activa, no puedes activar una Shiny hasta que la primera se consuma o se sobrescriba."
+  },
+  {
+    question: "¿Qué pasa si me desconecto durante una Grieta con una Vowstone activa?",
+    answer: "Una desconexión cuenta como una 'no victoria'. Dado que la Vowstone solo se consume al ganar, tu efecto seguirá activo cuando vuelvas a iniciar sesión."
+  },
+  {
+    question: "¿Es mejor comprar Grietas Temporales o esperar a la aparición horaria?",
+    answer: "Si estás farmeando para una Vowstone (10k fragmentos), usa las apariciones horarias para ahorrar fragmentos. Una vez que TENGAS la Vowstone, usa una Grieta Temporal para activar rápidamente tu drop garantizado."
+  }
+]} />
+
+<Callout type="tip" title="Recomendación Final">
+Prioriza siempre la **Vowstone Shiny** sobre la versión estándar. El tiempo necesario para farmear 10,000 fragmentos es significativo, y la brecha de poder entre una unidad Secreta estándar y una Secreta Shiny justifica el esfuerzo extra.
+</Callout>
+
+</Section>

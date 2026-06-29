@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Shiny: Hướng dẫn Tiến hóa & Lối lên đồ Meta 2026",
+  description: "Làm chủ hệ thống shiny trong Anime Vanguards. Tìm hiểu cách sở hữu đơn vị shiny, chuyển đổi chỉ số và trang bị Vanguard Memorialia cùng Familia tốt nhất để đạt DPS tối đa.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Shiny+Unit+Meta+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- Các đơn vị **anime vanguards shiny** là những biến thể hiếm có hào quang độc đáo và tiềm năng chỉ số cao hơn đáng kể thông qua hệ thống chuyển đổi.
+- **Vanguard Memorialia** và **Familia** là những nâng cấp thiết yếu cung cấp hệ số nhân sát thương khổng lồ, thường vượt quá 100-200%.
+- **Stat Chips** (Chip Chỉ số) là tiền tệ chính để tẩy lại chỉ số; hãy luôn hướng tới xếp hạng **Godly** (Thần thánh) ở các chỉ số Tấn công (Attack), Tốc độ Đánh (SPA) và Tầm đánh (Range).
+- **Các Đơn vị Meta Hàng đầu** hiện tại bao gồm Shiny Iscanur (Pride), Yomomata (Captain) và Leo (Fangs) nhờ sự phối hợp cộng dồn hiệu ứng thiêu đốt của chúng.
+- **Shiny Transfer** (Chuyển đổi Shiny) cho phép bạn chuyển các thiên phú (traits) cấp cao như Monarch hoặc Ethereal từ một đơn vị không phải shiny sang một đơn vị shiny.
+</Callout>
+
+<Section icon={Swords} title="Meta Shiny Anime Vanguards: Tổng quan về Sức mạnh">
+
+Sự ra đời của hệ thống **anime vanguards shiny** đã tái định nghĩa hoàn toàn giới hạn sức mạnh của những người chơi cấp cao. Không giống như các đơn vị thông thường, phiên bản shiny đóng vai trò như một cấp độ danh giá, mang lại hiệu ứng hình ảnh riêng biệt và quan trọng hơn là nền tảng cho những trang bị mạnh mẽ nhất trong trò chơi: Vanguard Memorialia và Familia. Những đơn vị này không chỉ để trưng bày; chúng là bắt buộc để vượt qua các Cổng (Portals) cấp cao và sự kiện Odyssey một cách hiệu quả.
+
+**Điểm nhấn Video:**
+- Trình diễn sức mạnh áp đảo của **Shiny Iscanur** với Memorialia "One Above All".
+- Cách cày cuốc hiệu quả các hộp **Vanguard Familiar** trong Cổng Bí mật (Secret Portals).
+- Quá trình tẩy các thiên phú tỉ lệ 0.1% như **Monarch** trên các đơn vị đã tiến hóa.
+- Trình diễn cơ chế triệu hồi bộ xương của **Shiny Yomomata**.
+
+<YouTubeEmbed videoId="EVeozDVr6-c" title="Glorious King is back! | I Made My Shiny Units OVERPOWERED In Anime Vanguards!" />
+
+Để hiểu tại sao người chơi luôn ưu tiên các biến thể này, hãy xem bảng so sánh cơ bản giữa một đơn vị Mythic tiêu chuẩn và phiên bản Shiny tương đương được trang bị các vật phẩm meta năm 2026.
+
+| Tính năng | Đơn vị Thường | Đơn vị Shiny (Tối đa) | Chênh lệch Sức mạnh |
+| :--- | :--- | :--- | :--- |
+| **Hào quang Hình ảnh** | Hiệu ứng Cơ bản | Ánh sáng/Hào quang Shiny Độc quyền | Chỉ có tác dụng Thẩm mỹ |
+| **Tiềm năng Chỉ số** | RNG Cơ bản | Có thể **Chuyển đổi Chỉ số** | +25% Hiệu suất |
+| **Ô Trang bị** | Vật phẩm Cơ bản | **Memorialia + Familia** | +300% Sát thương |
+| **Kháng Thời tiết** | Dễ bị tổn thương | **Bỏ qua Thời tiết** (Vật phẩm chọn lọc) | Quan trọng cho chế độ Vô tận |
+| **Độ linh hoạt Thiên phú** | Tẩy lại Thông thường | Hỗ trợ **Chuyển đổi Shiny** | Giá trị Meta Cao |
+
+<Callout type="success" title="Phân tích Meta">
+Các đơn vị Shiny như Iscanur (Pride) giờ đây có khả năng bỏ qua các thay đổi trạng thái tiêu cực và hiệu ứng thời tiết khi được trang bị **Memorialia: One Above All**. Điều này biến họ thành lựa chọn hàng đầu để cày chế độ Infinite Sky.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cách Sở hữu và Nâng cấp Đội hình Shiny của Bạn">
+
+Sở hữu một đơn vị **anime vanguards shiny** đòi hỏi sự kết hợp giữa may mắn và sự kiên trì cày cuốc. Mặc dù triệu hồi (summon) vẫn là phương pháp phổ biến nhất, các Cổng cấp cao và các sự kiện đặc biệt như Odyssey cung cấp những con đường chắc chắn để nhận được các vật phẩm giúp các đơn vị này trở nên thực sự bá đạo.
+
+<Steps>
+  <Step num="1" title="Triệu hồi và Cày Cổng">
+    Bắt đầu bằng cách nhắm vào các biểu ngữ (banner) cụ thể hoặc cày Cổng Cấp 4. Các Cổng Bí mật (Secret Portals) có tỉ lệ rơi 1% cho các hộp Vanguard, vật phẩm thiết yếu để nhận các vật phẩm Familia giúp tăng tới 200% sát thương cho các đơn vị Shiny.
+  </Step>
+  <Step num="2" title="Tích lũy Chip Chỉ số">
+    Thu thập Chip Chỉ số (Stat Chips) từ các nhiệm vụ hàng ngày và vượt ải cổng. Bạn sẽ cần hàng ngàn chip để đạt được chỉ số "Godly". Một đơn vị Shiny đạt cấp tối đa thường yêu cầu dự trữ hơn 9.000 Chip Chỉ số để đảm bảo đạt xếp hạng Tấn công và SPA tối ưu.
+  </Step>
+  <Step num="3" title="Tẩy và Chuyển đổi Thiên phú">
+    Hãy tẩy các thiên phú cấp cao như **Monarch** (0.1%) hoặc **Ethereal** trên các đơn vị tiến hóa thông thường trước. Sau khi đạt được, hãy sử dụng cơ chế **Shiny Transfer** để chuyển thiên phú đó sang biến thể Shiny của bạn, giúp bảo toàn tài nguyên đã đầu tư.
+  </Step>
+  <Step num="4" title="Tích hợp Memorialia và Familia">
+    Trang bị các vật phẩm dành riêng cho từng đơn vị. Ví dụ, Yamamoto yêu cầu **Vanguard Familiar** từ sự kiện Odyssey (Hạng 10) và Memorialia **Blazing Inferno** để khai mở toàn bộ tiềm năng triệu hồi bộ xương của mình.
+  </Step>
+</Steps>
+
+| Loại Vật phẩm | Nguồn chính | Lợi ích then chốt | Độ hiếm |
+| :--- | :--- | :--- | :--- |
+| **Hộp Vanguard** | Cổng Bí mật (1%) | Rơi Familia/Memorialia | Huyền thoại |
+| **Chip Chỉ số** | Tất cả các Cổng / Cửa hàng | Tẩy lại chỉ số đơn vị | Thường |
+| **Mảnh Memorialia** | Cửa hàng Phụ bản / Bán đơn vị | Mua Memorialia Bí mật | Hiếm |
+| **Tinh hoa Linh thú** | Sự kiện Odyssey | Hệ số nhân sát thương khổng lồ | Độc quyền |
+
+<Callout type="warning" title="Quản lý Tài nguyên">
+Không sử dụng mã thông báo Chuyển đổi Shiny (Shiny Transfer tokens) cho các đơn vị có độ hiếm thấp hơn Mythic. Chi phí quá cao đối với các đơn vị sẽ dần bị loại bỏ khỏi meta năm 2026. Hãy tiết kiệm chúng cho các đơn vị cấp Vanguard hoặc Secret.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Top 3 Lối lên đồ Meta Shiny cho Năm 2026">
+
+Meta hiện tại xoay quanh ba đơn vị **anime vanguards shiny** cụ thể đang thống trị cả chế độ Cốt truyện và Vô tận. Mỗi đơn vị yêu cầu một bộ trang bị Memorialia và Thiên phú cụ thể để hoạt động với hiệu suất cao nhất.
+
+<CardGrid cols={3}>
+  <Card title="Shiny Iscanur (Pride)">
+    - **Vật phẩm:** One Above All
+    - **Thiên phú:** Monarch/Contagious
+    - **Vai trò:** DPS kháng thời tiết
+    - **Nội tại:** Tự động nâng cấp mỗi đợt; nhận thêm 15% sát thương mỗi cộng dồn.
+  </Card>
+  <Card title="Shiny Yomomata (Captain)">
+    - **Vật phẩm:** Blazing Inferno
+    - **Thiên phú:** Ethereal
+    - **Vai trò:** Triệu hồi/DPS Thiêu đốt
+    - **Nội tại:** Kẻ địch bị tiêu diệt hồi sinh thành bộ xương (40% máu); tăng cường sát thương thiêu đốt thêm 100%.
+  </Card>
+  <Card title="Shiny Leo (Fangs)">
+    - **Vật phẩm:** Blazing Inferno
+    - **Thiên phú:** Vanity/Contagious
+    - **Vai trò:** Hỗ trợ Thiêu đốt tăng tiến
+    - **Nội tại:** Hellfire Incarnate giảm tầm đánh nhưng tăng 800% sát thương cho các đơn vị OG.
+  </Card>
+</CardGrid>
+
+Sự phối hợp giữa các đơn vị này bắt nguồn từ cơ chế **Intense Burn** (Thiêu đốt Mãnh liệt). Khi nhiều đơn vị hệ lửa được đặt ra, sát thương nội tại của chúng sẽ cộng dồn, thường dẫn đến hàng triệu DPS mà không cần kích hoạt kỹ năng chủ động.
+
+| Tên Đơn vị | Sát thương Nâng cấp Tối đa | Tốc độ Đánh (SPA) | Hệ số Thiêu đốt |
+| :--- | :--- | :--- | :--- |
+| **Iscanur (Pride)** | Hơn 6,6 Triệu | 6.2 giây | 30% Cơ bản / 100% Mãnh liệt |
+| **Yomomata (Captain)** | 864K (Cơ bản) | 9.5 giây | 25% Cơ bản / Tăng tiến theo Bộ xương |
+| **Leo (Fangs)** | 2,8 Triệu | 4.7 giây | 20% Cơ bản / 800% Buff Nội tại |
+
+<Callout type="tip" title="Chiến thuật Chuyên nghiệp">
+Khi sử dụng Shiny Iscanur, việc đặt ít nhất năm vị trí trong đội hình bị "thiêu đốt" cho phép các nâng cấp của anh ta tồn tại qua các lượt đặt ngay cả sau khi bị bán. Điều này cực kỳ quan trọng cho việc tái định vị ở giai đoạn cuối trận trong các Cổng cấp cao.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tối ưu hóa Thiên phú và Chỉ số Thần thánh">
+
+Để làm cho các đơn vị **anime vanguards shiny** của bạn trở nên thực sự bá đạo, bạn phải làm chủ hệ thống tẩy Thiên phú và Chỉ số. Mục tiêu là đạt được xếp hạng "Godly" trong cả ba danh mục chính: Tấn công (Attack), SPA, và Tầm đánh (Range).
+
+**Bảng xếp hạng Thiên phú cho các đơn vị Shiny:**
+- **Cấp S:** Monarch (0.1%), Ethereal (SPA/Sát thương cao), Contagious (Lan truyền Thiêu đốt).
+- **Cấp A:** Vanity (Sát thương cao/Tầm đánh thấp), Dead Eye (Tầm đánh thuần túy).
+- **Cấp B:** Nimble (Nhanh nhẹn), Sharp (Sắc bén), Strong (Mạnh mẽ) (Các buff cơ bản).
+
+| Danh mục Chỉ số | Phạm vi Godly | Độ ưu tiên | Tác động |
+| :--- | :--- | :--- | :--- |
+| **Tấn công** | 25% - 30% | **Cao** | Tăng DPS trực tiếp cho tất cả kỹ năng |
+| **SPA** | -10% đến -15% | **Cực kỳ quan trọng** | Tăng tần suất áp dụng hiệu ứng Thiêu đốt |
+| **Tầm đánh** | 15% - 20% | **Trung bình** | Thiết yếu để bao phủ toàn bộ vùng ảnh hưởng (AoE) |
+
+<Callout type="info" title="Cơ chế Thiên phú">
+Thiên phú **Contagious** đặc biệt hiệu quả trên Shiny Leo và Iscanur vì nó lan truyền hiệu ứng thiêu đốt độc đáo của họ sang các kẻ địch lân cận, kích hoạt nội tại "Intense Burn" thường xuyên hơn trên toàn bộ đường đi.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách Kiểm tra Tiến trình Đơn vị Shiny">
+
+Hãy làm theo danh sách kiểm tra này để đảm bảo đơn vị **anime vanguards shiny** của bạn được tối ưu hóa hoàn toàn cho meta hiện tại năm 2026.
+
+<Checklist
+  id="shiny-optimization"
+  title="Yêu cầu Sức mạnh Tối đa:"
+  items={[
+    "Sở hữu biến thể Shiny thông qua Triệu hồi hoặc rơi từ Cổng",
+    "Đạt Cấp tối đa và Tiến hóa lên dạng cuối cùng",
+    "Tẩy xếp hạng 'Godly' cho Tấn công và SPA bằng Chip Chỉ số",
+    "Chuyển đổi Thiên phú 0.1% (Monarch hoặc Ethereal) từ một đơn vị phôi",
+    "Trang bị Vanguard Memorialia phù hợp (ví dụ: Blazing Inferno cho các đơn vị hệ Lửa)",
+    "Đạt Hạng 10 trong Odyssey để mở khóa Vanguard Familiar của đơn vị",
+    "Xác nhận Kháng Thời tiết đã được kích hoạt cho Chế độ Vô tận"
+  ]}
+/>
+
+<Callout type="success" title="Mục tiêu Cuối cùng">
+Một Shiny Iscanur được tối ưu hóa hoàn toàn có thể tự mình vượt qua hầu hết các màn chơi trong Chế độ Cốt truyện và đóng vai trò là xương sống cho bất kỳ lượt chạy bảng xếp hạng Chế độ Vô tận nào nhờ lượng buff 100% sát thương từ Memorialia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi Thường gặp">
+
+<FAQ items={[
+  {
+    question: "Làm cách nào để thực hiện Chuyển đổi Shiny (Shiny Transfer) trong Anime Vanguards?",
+    answer: "Bạn cần có mã thông báo Chuyển đổi Shiny (Shiny Transfer token), có thể nhận được thông qua phần thưởng sự kiện cấp cao hoặc cửa hàng. Hãy gặp NPC chuyển đổi để chuyển thiên phú từ một đơn vị không phải shiny sang biến thể anime vanguards shiny của bạn."
+  },
+  {
+    question: "Memorialia tốt nhất cho các đơn vị hệ lửa như Yamamoto và Leo là gì?",
+    answer: "Memorialia 'Blazing Inferno' (Yamamoto Memorialia) hiện là lựa chọn tốt nhất. Nó cung cấp lượng tăng 30% sát thương cho bất kỳ kẻ địch nào đã bị ảnh hưởng bởi thiêu đốt và có thể kích hoạt hiệu ứng Thiêu đốt Mãnh liệt."
+  },
+  {
+    question: "Tôi có thể nhận được các đơn vị Shiny từ triệu hồi thông thường không?",
+    answer: "Có, nhưng tỷ lệ cực kỳ thấp (thường là 0.1% hoặc ít hơn). Cày các Cổng để lấy hộp Vanguard thường là cách đáng tin cậy hơn để nâng cấp đội hình hiện tại của bạn."
+  },
+  {
+    question: "Trạng thái Shiny có trực tiếp tăng sát thương cơ bản không?",
+    answer: "Bản thân trạng thái Shiny chủ yếu mang tính thẩm mỹ, nhưng nó mở khóa khả năng sử dụng trang bị cấp Vanguard và giới hạn chỉ số cao hơn, dẫn đến tổng sát thương cao hơn nhiều so với các đơn vị thông thường."
+  }
+]} />
+
+<Callout type="tip" title="Lời khuyên Cuối cùng">
+Hãy luôn kiểm tra **Anime Vanguards Wiki** hoặc Discord cộng đồng trước khi sử dụng các mảnh Secret Memorialia của bạn, vì meta thay đổi thường xuyên với các bản cập nhật Odyssey mới.
+</Callout>
+
+</Section>

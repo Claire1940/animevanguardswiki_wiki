@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Kenpachi: Hướng dẫn Lên đồ & Thiết lập Tốt nhất",
+  description: "Khám phá cách thiết lập Anime Vanguards Kenpachi tối thượng. Tìm hiểu cách kết hợp Mirao Memoria và Nose Familiar để đạt hơn 1 triệu DPS.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Anime+Vanguards+Kenpachi+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Combo Chính**: Trang bị **Mirao Memoria** và **Nose Familiar** cho Kempache để kích hoạt các đợt gầm rú AoE liên tục.
+- **Cơ chế Cốt lõi**: Nose Familiar làm choáng Kempache sau mỗi đòn đánh, trong khi Mirao Memoria giảm một nửa thời gian làm choáng này.
+- **Thiên phú Tốt nhất**: Quay tìm thiên phú **Monarch** (Quân chủ) để mở khóa lượng sát thương đầu ra tối đa tuyệt đối và khả năng tăng tiến chí mạng.
+- **Đội hình Hỗ trợ**: Ghép cặp anh ta với **Brolzi Super (Wrathful)** để nhận buff chí mạng và **Brooke** để tăng tiến sát thương thô.
+- **Ngưỡng DPS**: Với thiết lập chính xác, lối chơi này dễ dàng vượt qua **1 triệu DPS thực tế** trong các vết nứt (rift) phó bản cuối game.
+</Callout>
+
+<Section icon={Map} title="Anime Vanguards Kenpachi: Tổng quan Nhân vật & Tiến hóa">
+
+Trong meta thay đổi nhanh chóng của *Anime Vanguards*, việc tìm ra sự phối hợp hoàn hảo giữa các nhân vật có thể thay đổi hoàn toàn các lượt đi phó bản cuối game của bạn [D_P8bA9k57g]. Một trong những thiết lập được bàn tán nhiều nhất trong bản cập nhật mùa đông 2026 liên quan đến **anime vanguards kenpachi** huyền thoại (được biết đến trong game là Kempache) [D_P8bA9k57g, Kempache]. Lấy cảm hứng từ nhân vật biểu tượng Kenpachi Zaraki trong Bleach, nhân vật Mythic Unbound này sở hữu sức mạnh thô cực kỳ đáng kinh ngạc nhưng trong lịch sử luôn bị kìm hãm bởi cơ chế tự làm choáng độc đáo [D_P8bA9k57g, Kempache]. Bằng cách tiến hóa anh ta sang dạng Feral (Dã thú) và sử dụng trang bị chính xác, bạn có thể giảm thiểu các nhược điểm này và giải phóng một quái vật DPS hàng đầu [D_P8bA9k57g].
+
+**Điểm nhấn Video:**
+- Phân tích chi tiết về sự phối hợp bí mật giữa Mirao Memoria và Nose Familiar [D_P8bA9k57g].
+- Thử nghiệm Sandbox chứng minh Kempache đạt hơn 1 triệu DPS thực tế (EDPS) [D_P8bA9k57g].
+- Trình diễn thực tế trong Shanks Rift, một trong những màn chơi cuối game khó nhất [D_P8bA9k57g].
+
+<YouTubeEmbed videoId="D_P8bA9k57g" title="Memoria &quot;TỆ NHẤT&quot; lại BÍ MẬT *MẠNH MẼ VƯỢT TRỘI* trong Anime Vanguards..." />
+
+Để mở khóa hoàn toàn tiềm năng của anh ta, trước tiên bạn phải tiến hóa Kempache thành Kempache (Feral) [Kempache]. Quá trình tiến hóa này yêu cầu các nguyên liệu chế tạo cụ thể được thu thập từ Spirit Society và các chế độ thử thách khác nhau [Kempache].
+
+| Nguyên liệu | Số lượng | Nguồn thu thập |
+| :--- | :--- | :--- |
+| **Chipped Blade** | 1 | Spirit Society Ải 2 (10% Tỉ lệ Rớt) |
+| **Green Essence** | 30 | Thử thách, Chế tạo, Màn chơi Truyền thuyết, Cửa hàng |
+| **Yellow Essence** | 10 | Thử thách, Chế tạo, Cửa hàng Hàng ngày |
+| **Purple Essence** | 10 | Thử thách, Chế tạo, Cửa hàng Hàng ngày |
+| **Red Essence** | 20 | Thử thách, Chế tạo, Cửa hàng Hàng ngày |
+| **Rainbow Essence** | 2 | Thử thách, Chế tạo, Cửa hàng Hàng ngày |
+| **Chi phí Vàng** | 15.000 | Cày thụ động, Vượt Ải Cốt truyện, Nhiệm vụ |
+| **Hạ gục** | 5.000 | Bất kỳ Chế độ chơi nào (Phải trang bị nhân vật) |
+
+<Callout type="info" title="Mẹo Tiến hóa">
+Ưu tiên cày Spirit Society Ải 2 sớm để sở hữu Chipped Blade, vì tỉ lệ rớt 10% có thể yêu cầu bạn phải đi nhiều lượt tùy thuộc vào vận may của mình [Kempache]. Hãy giữ Kempache trong đội hình hoạt động để tích lũy dần 5.000 mạng hạ gục cần thiết một cách thụ động [Kempache].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sự Phối hợp Tự làm choáng: Mirao Memoria & Nose Familiar">
+
+Bộ kỹ năng của Kempache được định hình bởi hai kỹ năng bị động độc đáo, thoạt nhìn có vẻ là một bất lợi lớn [D_P8bA9k57g]. Kỹ năng bị động thứ nhất của anh ta, **Too Much Power** (Sức mạnh Quá tải), mang lại cho anh ta mức tăng sát thương khổng lồ +50% nhưng lại làm choáng anh ta trong 100% thời gian giãn cách mỗi đòn đánh (SPA) sau mỗi đòn đánh thứ ba [D_P8bA9k57g, Kempache]. Kỹ năng bị động thứ hai, **Feral Rage** (Cơn giận Dã thú), kích hoạt một tiếng gầm AoE gây 80% sát thương bất cứ khi nào anh ta bị làm choáng, đồng thời áp dụng hiệu ứng làm chậm 30% cho tất cả kẻ địch trúng đòn [D_P8bA9k57g]. 
+
+Thông thường, các kỹ năng bị động này cân bằng lượng sát thương cao của anh ta bằng cách khóa anh ta khỏi trận chiến [D_P8bA9k57g]. Tuy nhiên, sự kết hợp giữa **Mirao Memoria** và **Nose Familiar** hoàn toàn phá vỡ giới hạn này, biến cơ chế tự làm choáng thành tài sản lớn nhất của anh ta [D_P8bA9k57g].
+
+| Kỹ năng / Vật phẩm | Nguồn | Hiệu ứng & Cơ chế |
+| :--- | :--- | :--- |
+| **Too Much Power** | Bị động Kempache | Tăng **+50% sát thương**; tự làm choáng mỗi đòn đánh thứ 3 trong 100% SPA [D_P8bA9k57g, Kempache]. |
+| **Feral Rage** | Bị động Kempache | Giải phóng tiếng gầm gây **80% sát thương AoE** và làm chậm 30% khi bị làm choáng [D_P8bA9k57g]. |
+| **Nose Familiar** | Thú cưng trang bị | Ép buộc Kempache **tự làm choáng sau mỗi đòn đánh** và nhận buff sát thương cộng dồn [D_P8bA9k57g]. |
+| **Mirao Memoria** | Memoria trang bị | Giảm **50%** thời gian của tất cả các hiệu ứng tự làm choáng [D_P8bA9k57g]. |
+
+Bằng cách trang bị Nose Familiar, Kempache tự làm choáng mình trên *mọi đòn đánh đơn lẻ* thay vì mỗi đòn đánh thứ ba [D_P8bA9k57g]. Điều này kích hoạt tiếng gầm AoE Feral Rage liên tục, về cơ bản là nhân đôi đầu ra tấn công của anh ta [D_P8bA9k57g]. Để ngăn anh ta bị khóa cứng vĩnh viễn, Mirao Memoria giảm một nửa thời gian làm choáng [D_P8bA9k57g]. Điều này cho phép anh ta hồi phục gần như ngay lập tức, tích lũy các buff sát thương của Nose Familiar với tốc độ nhanh gấp đôi và duy trì tần suất tấn công cực kỳ cao [D_P8bA9k57g].
+
+<Callout type="success" title="Phối hợp Thành công">
+Sự kết hợp chính xác này chuyển đổi Kempache từ một kẻ gây sát thương đơn mục tiêu chậm chạp, hạng nặng thành một cỗ máy AoE bắn nhanh, có khả năng xé toạc các con boss máu trâu và các đợt quái đông đúc [D_P8bA9k57g].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lộ trình Nâng cấp & Tiến trình Thuộc tính của Kempache">
+
+Để tối đa hóa hiệu quả của lối chơi tự làm choáng, bạn phải hiểu rõ lộ trình nâng cấp của Kempache [D_P8bA9k57g]. Các thuộc tính của anh ta tăng tiến cực kỳ tốt với thiên phú **Monarch** (Quân chủ), cung cấp các chỉ số tỉ lệ chí mạng và sát thương chí mạng [D_P8bA9k57g]. Dưới đây là bảng tiến trình cho Kempache (Feral) Cấp 60 có thiên phú Monarch [Kempache].
+
+| Cấp nâng cấp | Chi phí (Yên) | Sát thương | Phạm vi | SPA | DPS | Kiểu tấn công |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **0 (Cơ bản)** | 1.500 | **11.833** | 28 | 7.9s | 1.503 | 1 Hit, Hình nón 40 độ [Kempache] |
+| **1** | 2.000 | **15.777** | 30 | 7.9s | 2.003 | 1 Hit, Hình nón 40 độ [Kempache] |
+| **2** | 2.800 | **22.088** | 31 | 7.9s | 2.805 | 1 Hit, Hình nón 40 độ [Kempache] |
+| **3** | 3.400 | **26.821** | 32 | 7.9s | 3.406 | 1 Hit, Hình nón 40 độ [Kempache] |
+| **4 (Tối đa)** | 4.500 | **31.948** | 33 | 7.1s | **4.508** | **Feral Strike**: AoE hình tròn phạm vi 16 [Kempache] |
+
+Tại Cấp nâng cấp 4, Kempache mở khóa **Feral Strike** [Kempache]. Điều này chuyển đổi kiểu tấn công của anh ta từ hình nón 40 độ hẹp sang một vùng AoE hình tròn lớn với phạm vi 16 [Kempache]. Nâng cấp này cực kỳ quan trọng vì nó đảm bảo tiếng gầm Feral Rage của anh ta trúng mọi kẻ địch trong bán kính tấn công, nhân rộng đáng kể lượng DPS thực tế (EDPS) trong các tình huống chiến đấu thực tế [D_P8bA9k57g].
+
+<Callout type="tip" title="Chiến thuật Nâng cấp">
+Đừng để Kempache ở Cấp nâng cấp 3 quá lâu. Việc chuyển đổi sang Feral Strike ở Cấp nâng cấp 4 là yếu tố giúp anh ta khả thi trong các vết nứt phó bản cuối game, vì vùng AoE hình tròn là bắt buộc để xử lý các đợt quái di chuyển nhanh và mật độ cao [Kempache].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn Từng bước Thiết lập để Đạt trên 1 Triệu DPS">
+
+Để đạt trên 1 triệu DPS với Kempache, bạn cần có một thiết lập phối hợp chặt chẽ trong suốt trận đấu [D_P8bA9k57g]. Bạn không thể chỉ đặt anh ta xuống và mong đợi những con số tối đa; bạn phải xếp chồng các bùa lợi hỗ trợ cụ thể và các bổ trợ vùng (domain) [D_P8bA9k57g]. Hãy làm theo tiến trình từng bước dưới đây để tối ưu hóa thiết lập của bạn [D_P8bA9k57g].
+
+<Steps>
+  <Step num="1" title="Xây dựng Nền kinh tế">
+    Triển khai các thẻ tốc độ hoặc đơn vị nông trại của bạn trong các đợt quái ban đầu để đảm bảo dòng tiền Yên ổn định [D_P8bA9k57g]. Đặt một Kempache duy nhất tại một giao lộ hoặc góc chiến thuật nơi vùng AoE hình tròn của anh ta có thể bao phủ khoảng cách đường đi lớn nhất [D_P8bA9k57g].
+  </Step>
+  <Step num="2" title="Triển khai Brolzi Super để lấy Buff Vùng">
+    Đặt **Brolzi Super (Wrathful)** ở một góc khuất trên bản đồ [D_P8bA9k57g]. Kích hoạt vùng **Wrath of Llash** của anh ta và bỏ qua đợt quái để tăng tối đa các chỉ số bổ trợ vùng [D_P8bA9k57g]. Vì Kempache là đơn vị thuộc hệ Unbound, anh ta trực tiếp hưởng lợi từ vùng của Brolzi, nhận tới **+105% Tỉ lệ Chí mạng** và **+2.15x Sát thương Chí mạng** [D_P8bA9k57g, Kempache].
+  </Step>
+  <Step num="3" title="Thiết lập Brooke để Nhân Sát thương Kích hoạt">
+    Triển khai **Brooke** gần tuyến phòng thủ chính của bạn [D_P8bA9k57g]. Sử dụng khả năng buff kích hoạt của Brooke trong các đợt boss căng thẳng để nhân đôi sát thương cơ bản của Kempache, cho phép anh ta dễ dàng tiêu diệt hàng triệu máu của boss chỉ trong vài giây [D_P8bA9k57g].
+  </Step>
+  <Step num="4" title="Nâng cấp Tối đa Kempache và Kích hoạt Vòng lặp Làm choáng">
+    Nâng cấp Kempache lên Cấp nâng cấp 4 để mở khóa Feral Strike [D_P8bA9k57g, Kempache]. Khi kẻ địch tiến vào phạm vi của anh ta, Nose Familiar sẽ ép buộc tự làm choáng ở đòn đánh đầu tiên của anh ta, ngay lập tức kích hoạt Feral Rage [D_P8bA9k57g]. Nhờ có Mirao Memoria, anh ta sẽ hồi phục trong một nửa thời gian, liên tục lặp lại tiếng gầm AoE của mình và cộng dồn các bùa lợi sát thương [D_P8bA9k57g].
+  </Step>
+</Steps>
+
+Lựa chọn thiên phú của bạn cũng đóng vai trò rất lớn trong việc nâng cao mức DPS [D_P8bA9k57g]. Mặc dù Monarch là lựa chọn tốt nhất không thể bàn cãi, các thiên phú khác vẫn có thể mang lại kết quả đáng nể [D_P8bA9k57g].
+
+<CardGrid cols={3}>
+  <Card title="Thiên phú Monarch">
+    - **Tăng tiến Tốt nhất** [D_P8bA9k57g]
+    - Các chỉ số bổ trợ tỉ lệ chí mạng và sát thương chí mạng khổng lồ [D_P8bA9k57g]
+    - Cần thiết để đạt hơn 1,3 triệu DPS thực tế [D_P8bA9k57g]
+  </Card>
+  <Card title="Thiên phú Ethereal">
+    - **Lựa chọn Giá rẻ Tuyệt vời** [D_P8bA9k57g]
+    - Cung cấp các mức tăng sát thương thô đáng tin cậy [D_P8bA9k57g]
+    - Hoàn hảo để vượt các vết nứt và phó bản tiêu chuẩn [D_P8bA9k57g]
+  </Card>
+  <Card title="Thiên phú Deity">
+    - **Sức mạnh Tấn công Thô Cao**
+    - Tuyệt vời cho việc tăng tiến sát thương cơ bản ổn định
+    - Thiếu tiềm năng chí mạng bùng nổ của Monarch
+  </Card>
+</CardGrid>
+
+Để đảm bảo mạng lưới hỗ trợ của bạn được tối ưu hóa hoàn toàn, hãy tham khảo hướng dẫn xây dựng đội hình này:
+
+| Nhân vật Hỗ trợ | Vai trò | Sự phối hợp chính |
+| :--- | :--- | :--- |
+| **Brolzi Super (Wrathful)** | Buff Vùng | Cung cấp tỉ lệ chí mạng và sát thương chí mạng khổng lồ cho các đơn vị Unbound [D_P8bA9k57g, Kempache]. |
+| **Brooke** | Buff Kích hoạt | Cung cấp các hệ số nhân sát thương trực tiếp trong các đợt quái căng thẳng [D_P8bA9k57g]. |
+| **Thẻ Tốc độ / Nông trại** | Kinh tế | Tạo ra lượng Yên cần thiết để nhanh chóng tài trợ cho các nâng cấp đắt đỏ của Kempache [D_P8bA9k57g]. |
+
+<Callout type="warning" title="Cảnh báo Rò rỉ Quái">
+Vì SPA của Kempache tương đối chậm (7,1 giây ở cấp nâng cấp tối đa), kẻ địch di chuyển nhanh đôi khi có thể bị lọt qua nếu vị trí đặt của bạn không tốt [D_P8bA9k57g, Kempache]. Hãy luôn đặt một đơn vị dọn dẹp phụ hoặc một nhân vật hỗ trợ áp dụng hiệu ứng làm chậm ở phía sau tuyến phòng thủ của bạn để bắt bất kỳ kẻ địch nào bị rò rỉ [D_P8bA9k57g].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tiến trình & Mục tiêu Cuối game">
+
+Hoàn thiện thiết lập Kempache của bạn là một mục tiêu dài hạn đòi hỏi phải cày cuốc và tối ưu hóa tận tâm [D_P8bA9k57g]. Sử dụng danh sách kiểm tra này để theo dõi tiến trình của bạn và đảm bảo bạn đã đáp ứng tất cả các yêu cầu cần thiết cho lối chơi 1 triệu DPS [D_P8bA9k57g].
+
+<Checklist
+  id="kempache-goals"
+  title="Các Cột mốc Xây dựng Kempache:"
+  items={[
+    "Tiến hóa Kempache thành Kempache (Feral) bằng cách sử dụng Chipped Blade [Kempache].",
+    "Sở hữu và trang bị Nose Familiar để kích hoạt vòng lặp tự làm choáng [D_P8bA9k57g].",
+    "Sở hữu Mirao Memoria để giảm 50% thời gian làm choáng [D_P8bA9k57g].",
+    "Quay tìm thiên phú Monarch trên Kempache để tăng tiến chí mạng tối ưu [D_P8bA9k57g].",
+    "Nâng cấp Kempache lên cấp 60 để tối đa hóa sát thương cơ bản và các chỉ số nâng cấp [Kempache]."
+  ]}
+/>
+
+<Callout type="info" title="Tối ưu hóa Thú cưng">
+Nếu bạn chưa có Nose Familiar, hãy tập trung nỗ lực vào việc vượt các thử thách và cửa hàng hàng ngày để sở hữu loại tiền tệ triệu hồi cần thiết [D_P8bA9k57g, Kempache]. Lối chơi này kém hiệu quả hơn đáng kể nếu không có thú cưng này, vì anh ta sẽ chỉ tự làm choáng sau mỗi đòn đánh thứ ba thay vì mọi đòn đánh [D_P8bA9k57g, Kempache].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Tại sao lối chơi anime vanguards kenpachi lại phụ thuộc nhiều vào Mirao Memoria như vậy?",
+    answer: "Kỹ năng bị động Too Much Power của Kempache làm choáng anh ta thường xuyên, điều này làm giảm mạnh DPS của anh ta. Mirao Memoria là vật phẩm duy nhất giảm 50% thời gian tự làm choáng này, cho phép anh ta duy trì tốc độ tấn công cao trong khi liên tục kích hoạt tiếng gầm AoE Feral Rage của mình."
+  },
+  {
+    question: "Tôi có thể chơi lối chơi này mà không có Nose Familiar không?",
+    answer: "Mặc dù vẫn khả thi, nhưng lối chơi này sẽ mất đi một lượng sức mạnh khổng lồ nếu không có Nose Familiar. Nose Familiar ép buộc Kempache tự làm choáng trên mọi đòn đánh đơn lẻ, biến tiếng gầm Feral Rage của anh ta thành một cuộc tấn công AoE liên tục, bắn nhanh. Nếu không có nó, tiếng gầm chỉ kích hoạt sau mỗi đòn đánh thứ ba."
+  },
+  {
+    question: "Thiên phú nào tốt hơn cho Kempache: Monarch hay Ethereal?",
+    answer: "Monarch vượt trội hơn hẳn đối với nội dung cuối game vì nó cung cấp các chỉ số bổ trợ tỉ lệ chí mạng và sát thương chí mạng khổng lồ, nhân lên lượng sát thương cơ bản cao của anh ta. Ethereal là một lựa chọn giá rẻ tuyệt vời vẫn có thể đạt khoảng 500k DPS toàn đội, nhưng Monarch là bắt buộc để vượt qua ngưỡng 1 triệu DPS."
+  },
+  {
+    question: "Tôi có thể cày Chipped Blade cho sự tiến hóa của anh ta ở đâu?",
+    answer: "Chipped Blade là một nguyên liệu tiến hóa Mythic rơi với tỉ lệ 10% từ Spirit Society Ải 2. Bạn phải hoàn thành màn chơi này nhiều lần cho đến khi vật phẩm rơi ra, sau đó kết hợp nó với các loại tinh hoa khác nhau và 15.000 Vàng để tiến hóa anh ta."
+  }
+]} />
+
+<Callout type="tip" title="Đánh giá Cuối cùng">
+Sự kết hợp giữa Kempache, Mirao Memoria, và Nose Familiar là một trong những chiến thuật off-meta sáng tạo và thỏa mãn nhất trong Anime Vanguards [D_P8bA9k57g]. Nó chứng minh rằng ngay cả những nhân vật cũ hơn hoặc bị bỏ qua cũng có thể trở thành những thế lực tuyệt đối khi được kết hợp với các cơ chế chính xác [D_P8bA9k57g].
+</Callout>
+
+</Section>
