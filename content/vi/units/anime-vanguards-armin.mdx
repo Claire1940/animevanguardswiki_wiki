@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Armin: Hướng dẫn Tiến hóa Monarch & Thiết lập Buff",
+  description: "Tìm hiểu cách tối ưu hóa Monarch Armin trong Anime Vanguards. Khám phá các buff đặt quân, cơ chế biến hình Khổng Lồ Hạt Nhân và chiến thuật EX Raid.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Vanguards+Armin+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime Vanguards Armin**: Tiến hóa đơn vị này thành Monarch Armin để mở khóa các buff hỗ trợ thay đổi cục diện trận đấu và khả năng biến hình mạnh mẽ.
+- **Buff đặt quân (Placement Buff)**: Giảm **10% chi phí nâng cấp** và tăng **20% sát thương** cho các đơn vị được đặt trong các vòng tròn chỉ định của anh ấy.
+- **Kỹ năng kích hoạt**: Biến người chơi thành **Khổng Lồ Hạt Nhân (Nuclear Giant)** gây sát thương toàn bản đồ dựa trên đơn vị có sát thương cao nhất trong tầm đánh của bạn.
+- **Hữu dụng trong EX Raid**: Cung cấp khả năng miễn nhiễm hiệu ứng trạng thái và debuff cho đơn vị gánh sát thương của Colossal Titan trong suốt thời gian kích hoạt.
+- **Giá trị chiến thuật**: Cực kỳ quan trọng để vượt qua các EX Raid độ khó cao, nơi các đơn vị DPS thông thường sẽ gặp khó khăn nếu không có hỗ trợ giảm chi phí nâng cấp.
+</Callout>
+
+<Section icon={Sparkles} title="Monarch Armin: Tổng quan về Đơn vị Armin trong Anime Vanguards">
+
+Bản cập nhật Attack on Titan mới nhất đã giới thiệu dạng tiến hóa cực kỳ được mong đợi của **anime vanguards armin**, được biết đến chính thức với tên gọi Monarch Armin. Đơn vị này làm thay đổi meta bằng cách kết hợp khả năng giảm chi phí thụ động, buff sát thương gốc và một kỹ năng kích hoạt biến hình diện rộng trên toàn bản đồ. Không giống như các đơn vị DPS thông thường chỉ dựa vào các chỉ số cơ bản, Monarch Armin hoạt động như một bộ nhân sức mạnh cho toàn bộ đội hình của bạn.
+
+**Điểm nhấn Video:**
+- **Cơ chế Buff đặt quân**: Cách tận dụng các vòng tròn chỉ định để giảm 10% chi phí nâng cấp và tăng 20% sát thương.
+- **Biến hình Khổng Lồ Hạt Nhân**: Trình diễn màn biến hình thành Colossal Titan, gây sát thương bằng 60% chỉ số sát thương của đơn vị mạnh nhất của bạn sau mỗi bước đi.
+- **Khả năng thực chiến trong EX Raid**: Lý do tại sao đơn vị này được coi là bắt buộc phải có để vượt qua các nội dung cuối game có độ khó cao nhất hiện nay.
+
+<YouTubeEmbed videoId="3dJYPyH61VU" title="MONARCH ARMIN IS ACTUALLY CRAZY?! | Anime Vanguards Showcase" />
+
+Mặc dù Monarch Armin không gây sát thương trực tiếp thông qua các đòn tấn công thông thường, nhưng sự hữu dụng của anh ấy nằm ở khả năng điều phối chiến trường. Sau khi đã đặt xuống, bạn không thể bán anh ấy đi, điều đó có nghĩa là người chơi phải lên kế hoạch sắp xếp vị trí thật cẩn thận. Anh ấy có chi phí đặt quân ban đầu cao và các mốc nâng cấp đắt đỏ, nhưng hiệu quả mang lại là vô song khi được kết hợp với các đơn vị DPS hàng đầu.
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Luôn đặt Monarch Armin từ sớm trong trận đấu để bắt đầu tạo ra các vòng tròn đặt quân. Những vòng tròn này là chìa khóa giúp bạn tiết kiệm Yên cho các đợt nâng cấp DPS đắt đỏ ở giai đoạn cuối trận.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kỹ năng & Cơ chế Buff của Monarch Armin">
+
+Monarch Armin hoạt động dựa trên một bộ cơ chế độc đáo giúp phân biệt anh ấy với các đơn vị hỗ trợ truyền thống. Thay vì buff cho các đơn vị trong một vòng tròn tầm đánh tiêu chuẩn, anh ấy tạo ra các vùng đặt quân cụ thể dọc theo đường đi. Việc hiểu cách các vùng này tương tác với đội hình của bạn là vô cùng quan trọng để tối ưu hóa thiết lập phòng thủ.
+
+### Các vùng Buff đặt quân
+Mỗi khi bạn đặt Monarch Armin hoặc nâng cấp anh ấy, anh ấy sẽ chỉ định một vị trí đặt quân gần đường đi trong tầm đánh của mình. Bất kỳ đơn vị nào được đặt bên trong vòng tròn chỉ định này đều nhận được hai lợi ích lớn:
+- **Giảm chi phí nâng cấp**: Giảm **10%** chi phí nâng cấp của đơn vị được đặt.
+- **Buff sát thương**: Tăng **20%** lượng sát thương đầu ra của đơn vị được đặt.
+
+Khi một đơn vị được đặt vào vùng chỉ định, vòng tròn đó sẽ biến mất. Nếu bạn kích hoạt kỹ năng chủ động của Monarch Armin, tất cả các vùng đặt quân chưa sử dụng sẽ bị xóa khỏi bản đồ.
+
+### Biến hình Khổng Lồ Hạt Nhân
+Kỹ năng kích hoạt của anh ấy, **Khổng Lồ Hạt Nhân**, biến người chơi thành một Colossal Titan. Kỹ năng này có **thời gian hồi là 600 giây** và hoạt động theo các quy tắc sau:
+- **Tỷ lệ sát thương**: Titan sẽ sao chép chỉ số sát thương cao nhất của bất kỳ đơn vị nào hiện đang nằm trong tầm đánh của Monarch Armin.
+- **Sát thương toàn bản đồ**: Mỗi bước đi của Titan sẽ gây ra sát thương bằng **60%** chỉ số sát thương cao nhất đó lên tất cả kẻ địch trên bản đồ.
+- **Miễn nhiễm Debuff**: Đơn vị có sát thương được sao chép sẽ hoàn toàn miễn nhiễm với các hiệu ứng trạng thái và debuff trong suốt thời gian kỹ năng kích hoạt có hiệu lực.
+
+| Cấp nâng cấp | Chi phí nâng cấp (Yên) | Sát thương cơ bản | SPA (Giây) | Tầm đánh | Tầm Buff |
+|---|---|---|---|---|---|
+| **Tiến hóa cơ bản** | 1,500 | 0 | 12.0 | 1.2 | 1.5 |
+| **Nâng cấp 1** | 2,500 | 0 | 12.0 | 1.5 | 1.8 |
+| **Nâng cấp 2** | 4,000 | 0 | 11.5 | 1.8 | 2.0 |
+| **Nâng cấp 3** | 6,500 | 0 | 11.0 | 2.0 | 2.2 |
+| **Nâng cấp tối đa** | 12,000 | 0 | 10.0 | 2.5 | 2.5 |
+
+<Callout type="warning" title="Cảnh báo quan trọng">
+Bởi vì màn biến hình Khổng Lồ Hạt Nhân tỷ lệ trực tiếp với đơn vị có sát thương cao nhất trong tầm đánh của Monarch Armin, việc kích hoạt kỹ năng này mà không có đơn vị DPS cao nào ở gần sẽ dẫn đến lượng sát thương đầu ra cực kỳ thấp.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Yêu cầu Tiến hóa & Các bước Nâng cấp">
+
+Để chuyển đổi đơn vị Armin cơ bản của bạn sang dạng Monarch, bạn phải thu thập các nguyên liệu tiến hóa cụ thể từ các màn chơi sự kiện Attack on Titan và EX Raid. Quá trình này yêu cầu sự kết hợp giữa các vật phẩm rơi ra từ sự kiện độc quyền và tài nguyên chế tạo tiêu chuẩn.
+
+<Steps>
+  <Step num="1" title="Sở hữu Armin cơ bản">
+    Triệu hồi đơn vị Armin cơ bản từ các banner tuyển dụng tiêu chuẩn bằng Đá quý của bạn. Hãy chắc chắn khóa đơn vị này lại để tránh việc vô tình bán hoặc dùng làm nguyên liệu nâng cấp.
+  </Step>
+  <Step num="2" title="Cày EX Raid để lấy Huyết thanh Colossal">
+    Tham gia vào các màn chơi EX Raid mới để nhận Huyết thanh Colossal. Vật phẩm này là nguyên liệu tiến hóa bắt buộc và có tỷ lệ rơi chắc chắn khi bạn hoàn thành chế độ khó (hard-mode).
+  </Step>
+  <Step num="3" title="Thu thập Mảnh Titan">
+    Vượt qua các màn chơi sự kiện Attack on Titan để thu thập Mảnh Titan. Bạn sẽ cần tổng cộng 50 mảnh để hoàn thành công thức tiến hóa.
+  </Step>
+  <Step num="4" title="Tiến hóa tại NPC Chế tạo">
+    Di chuyển đến NPC Tiến hóa ở sảnh chính, chọn Armin, đặt các nguyên liệu yêu cầu cùng với 15.000 Vàng, sau đó xác nhận tiến hóa để mở khóa Monarch Armin.
+  </Step>
+</Steps>
+
+| Tên nguyên liệu | Số lượng yêu cầu | Nguồn chính | Tỷ lệ rơi |
+|---|---|---|---|
+| **Huyết thanh Colossal** | 1 | Phần thưởng EX Raid | Chắc chắn rơi (Chế độ Khó) |
+| **Mảnh Titan** | 50 | Màn chơi Sự kiện | Rơi phổ biến |
+| **Tinh thể Đỏ** | 10 | Thử thách hàng ngày / Chế tạo | Cao |
+| **Vàng** | 15,000 | Chế độ Cốt truyện / Chế độ Vô tận | Chắc chắn nhận |
+
+<Callout type="info" title="Mẹo tài nguyên">
+Nếu bạn đang gặp khó khăn trong việc vượt qua EX Raid để lấy Huyết thanh Colossal, hãy tham gia các phòng công cộng với những người chơi cấp cao. Monarch Armin rất được săn đón và nhiều người chơi sẵn sàng gánh (carry) các đội hình hỗ trợ để đảm bảo chiến thắng.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Vị trí Chiến thuật & Sự kết hợp Đội hình">
+
+Việc triển khai Monarch Armin đòi hỏi một cách tiếp cận chiến thuật khác so với các tướng gây sát thương tiêu chuẩn. Bởi vì các vòng tròn đặt quân của anh ấy xuất hiện gần đường đi xung quanh anh ấy, vị trí của chính anh ấy sẽ quyết định nơi các đơn vị DPS được buff của bạn phải đặt.
+
+<CardGrid cols={3}>
+  <Card title="Buff tuyến đầu">
+    Đặt Armin gần điểm xuất phát của đường đi để buff cho các đơn vị phòng thủ đầu trận, giúp bạn có được những nâng cấp giá rẻ trong các đợt lính đầu tiên.
+  </Card>
+  <Card title="Kết hợp giữa đường">
+    Đặt Armin tại các giao lộ lớn trên đường đi. Điều này đảm bảo các vòng tròn đặt quân của anh ấy xuất hiện ở những khu vực mà các đơn vị sát thương diện rộng (AoE) mạnh của bạn có thể bao quát nhiều làn đường.
+  </Card>
+  <Card title="Tối ưu hóa cuối trận">
+    Để dành kỹ năng biến hình kích hoạt của anh ấy cho các đợt boss. Hãy đảm bảo đơn vị gây sát thương cao nhất của bạn đã được nâng cấp tối đa và nằm trong tầm đánh của Armin trước khi biến hình.
+  </Card>
+</CardGrid>
+
+Khi xây dựng một đội hình xung quanh Monarch Armin, hãy tập trung vào việc kết hợp anh ấy với các đơn vị có chỉ số tăng tiến sức mạnh lớn nhưng chi phí nâng cấp đắt đỏ. Khoản giảm giá 10% sẽ nhanh chóng tích lũy đáng kể khi nâng cấp các đơn vị Thần thoại (Mythical) và Bí ẩn (Secret).
+
+| Đơn vị mục tiêu | Đánh giá kết hợp | Tác động của Buff | Chiến thuật khuyên dùng |
+|---|---|---|---|
+| **Gohan (Beast)** | **Xuất sắc** | Chỉ số tăng tiến gốc cao được khuếch đại thêm 20% | Đặt Gohan trực tiếp vào vòng tròn đầu tiên của Armin |
+| **Song Goku** | **Tốt** | Giảm chi phí cho các nâng cấp đắt đỏ ở giữa trận | Sử dụng Goku để giữ đường trong khi Armin tăng tiến sức mạnh |
+| **Alucard** | **Xuất sắc** | Tối đa hóa khả năng quét sạch toàn bản đồ | Kích hoạt biến hình khi Alucard đạt tối đa cộng dồn |
+| **Hỗ trợ tiêu chuẩn** | **Thấp** | Lợi ích tối thiểu từ việc tăng sát thương | Đặt các hỗ trợ bên ngoài vùng buff của Armin |
+
+<Callout type="success" title="Kết hợp thành công">
+Kết hợp Monarch Armin với Gohan (Beast) cho phép bạn vượt qua lộ trình chi phí đắt đỏ ở các mốc nâng cấp cuối của Gohan, tiết kiệm hàng nghìn Yên trong các đợt lính quan trọng.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách Tiến trình & Mục tiêu">
+
+Để tận dụng tối đa Monarch Armin trong các lượt chơi của bạn, hãy hướng tới hoàn thành các cột mốc tiến trình sau. Danh sách này đảm bảo bạn đã tối ưu hóa cả cấp độ của anh ấy và đội hình của mình cho các nội dung cuối game.
+
+<Checklist
+  id="armin-progression"
+  title="Mục tiêu tối ưu hóa Monarch Armin:"
+  items={[
+    "Tiến hóa Armin cơ bản thành Monarch Armin bằng cách sử dụng NPC Tiến hóa",
+    "Nâng Monarch Armin lên cấp độ tối đa bằng cách sử dụng các đơn vị food",
+    "Thử nghiệm bố cục vòng tròn đặt quân trong Chế độ Vô tận để thành thạo việc định vị vùng",
+    "Căn thời gian biến hình Khổng Lồ Hạt Nhân để dọn sạch boss xuất hiện ở Wave 50",
+    "Trang bị cho Monarch Armin các cổ vật tăng tốc độ hoặc tăng tầm đánh"
+  ]}
+/>
+
+<Callout type="tip" title="Gợi ý Cổ vật">
+Trang bị các cổ vật tăng tầm đánh cho Monarch Armin. Việc tăng tầm đánh cơ bản của anh ấy sẽ mở rộng khu vực anh ấy có thể đặt các vòng tròn buff, mang lại cho bạn sự linh hoạt hơn trên các bản đồ chật hẹp.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Tôi có thể bán Monarch Armin trong trận đấu không?",
+    answer: "Không, Monarch Armin không thể bị bán một khi đã được đặt trên bản đồ. Bạn phải lên kế hoạch vị trí đặt quân cẩn thận, vì bạn không thể định vị lại anh ấy sau đó trong trận đấu."
+  },
+  {
+    question: "Làm thế nào để tối đa hóa sát thương của kỹ năng kích hoạt Khổng Lồ Hạt Nhân?",
+    answer: "Hãy đảm bảo đơn vị gây sát thương cao nhất của bạn được đặt trong vòng tròn tầm đánh của Monarch Armin. Màn biến hình sẽ sao chép chỉ số sát thương của đơn vị đó, vì vậy việc nâng cấp DPS chính của bạn trước khi kích hoạt biến hình là vô cùng cần thiết."
+  },
+  {
+    question: "Các buff đặt quân có cộng dồn nếu tôi có nhiều đơn vị Armin không?",
+    answer: "Không, việc giảm 10% chi phí nâng cấp và tăng 20% sát thương không cộng dồn trên cùng một đơn vị. Một đơn vị chỉ có thể nhận lợi ích từ một vòng tròn đặt quân tại một thời điểm."
+  },
+  {
+    question: "Làm thế nào để tiến hóa đơn vị anime vanguards armin thành Monarch Armin?",
+    answer: "Bạn phải thu thập 1 Huyết thanh Colossal từ EX Raid, 50 Mảnh Titan từ các màn chơi sự kiện AoT, 10 Tinh thể Đỏ và 15.000 Vàng, sau đó kết hợp chúng tại NPC Tiến hóa."
+  }
+]} />
+
+<Callout type="info" title="Lưu ý cuối cùng">
+Hãy theo dõi thời gian hồi chiêu 600 giây của kỹ năng kích hoạt. Trong các trận đấu tiêu chuẩn, bạn có thể sẽ chỉ được sử dụng màn biến hình này một hoặc hai lần, vì vậy hãy để dành nó cho các đợt boss cuối cùng.
+</Callout>
+
+</Section>

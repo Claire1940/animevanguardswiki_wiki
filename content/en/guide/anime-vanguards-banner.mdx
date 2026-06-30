@@ -1,0 +1,245 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "anime vanguards banner: Summon Rates & Banner Guide",
+  description: "Master the anime vanguards banner system in 2026. Learn pull rates, pity thresholds, shiny transfers, and how to optimize your summons.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Vanguards+Banner+Guide",
+  date: "2026-06-30",
+  author: "anime vanguards Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: The **anime vanguards banner** system rotates hourly to feature different meta-defining units.
+- **Pity Thresholds**: Guarantees are set at **50 summons** for Legendary, **400 summons** for Mythic, and up to **25,000 summons** for Vanguard units.
+- **Level Requirement**: Players must reach **Level 10** to unlock Secret, Vanguard, and Shiny units from summons.
+- **VIP Advantage**: Activating VIP reduces the Special Banner summon cost from **50 Gems to 40 Gems**.
+- **Normalize Shop**: Run by Valentine, this area allows players to **transfer shinies** or exchange them for **5 trait rerolls**.
+</Callout>
+
+<Section icon={Map} title="Getting Started with the anime vanguards banner System">
+
+The summon area is the central hub for expanding your roster in Anime Vanguards. Located directly in the main lobby, this zone features three distinct shops that players must utilize to build their ultimate defense teams. Understanding how to navigate the **anime vanguards banner** system is crucial for securing high-tier units and optimizing your hard-earned Gems. 
+
+**Video Highlights:**
+- **Serialized Pulls**: Watch the incredible luck of pulling serialized units with a 1-in-400-million probability.
+- **Shiny Showcases**: A deep dive into the visual differences of shiny and serialized characters.
+- **Pity Mechanics**: Witnessing high-volume summon sessions and how pity guarantees work in real-time.
+
+<YouTubeEmbed videoId="4pxt5-8xTKw" title="Luckiest People EVER Anime Vanguards" />
+
+The physical summon area is divided into three functional sub-shops:
+
+<CardGrid cols={3}>
+  <Card title="The Summon Banner">
+    The main interface where players spend Gems or Event Currency to pull for Special, Event, and Selection units.
+  </Card>
+  <Card title="Unit Index">
+    A comprehensive log that displays detailed drop rates, unit stats, and potential abilities for active banners.
+  </Card>
+  <Card title="Normalize Shop">
+    Ran by Valentine, this sub-shop is dedicated to normalizing shiny units or transferring shiny status between duplicates.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Level Restriction">
+You cannot pull Secret units, Vanguard units, or Shiny units until your account reaches **Level 10**. If you wish to bypass this level restriction for Shiny units, you must purchase the Shiny Hunter Gamepass.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="All anime vanguards banner Types Explained">
+
+To spend your resources efficiently, you must understand the differences between the four primary banner types available in Anime Vanguards. Each banner operates under unique rotation rules, costs, and pity systems.
+
+### Special Banner
+This is the default banner in the game. The featured units rotate every single hour, allowing players to target specific characters throughout the day. When a unit is featured on the Special Banner, the unit in the middle has a **50% chance** of being obtained upon hitting that rarity, while the units on the left and right each have a **20% chance**. A single pull costs **50 Gems**, which is discounted to **40 Gems** if you have the VIP gamepass.
+
+### Special Memoria Banner
+Introduced in Update 11.0, this banner functions identically to the Special Banner but is dedicated entirely to pulling high-value Memorias. It rotates hourly and shares the same 50/20/20 distribution for middle and side featured items.
+
+### Event Banner
+The Event Banner features exclusive limited-time units (such as the Winter or Spring Event units) and requires unique Event Currency instead of standard Gems. VIP discounts do not apply here. These banners feature a unique Vanguard Unit at an incredibly low drop rate, but they also offer a one-time pity mechanic to assist dedicated players.
+
+### Selection Banner
+First introduced in Update 6.5, the Selection Banner is a highly player-friendly feature. It allows you to freely select any summonable Mythic unit to occupy the middle spot. This selection persists for **24 hours**, giving you a full day to target-farm a specific meta unit. If you do not choose a middle unit, the side units will continue to rotate hourly as normal.
+
+| Banner Type | Primary Currency | Rotation Cycle | Key Feature |
+| :--- | :--- | :--- | :--- |
+| **Special Banner** | Gems (50 base / 40 VIP) | Hourly | Standard unit acquisition with VIP discounts |
+| **Special Memoria** | Gems (50 base / 40 VIP) | Hourly | Dedicated banner for pulling powerful Memorias |
+| **Event Banner** | Event Currency | Hourly | Features exclusive limited-time Vanguard units |
+| **Selection Banner** | Gems (50 base / 40 VIP) | 24 Hours (Middle) | Players choose which Mythic unit is featured |
+
+<Callout type="tip" title="Shared Pity System">
+The Selection Banner and the Special Banner share the exact same pity count. You can build up your pity on the Special Banner and unleash it on the Selection Banner once your desired Mythic unit is set in the middle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Summon Rates, Shinies, and Serialized Units">
+
+Pulling on an **anime vanguards banner** requires an understanding of the underlying probability rates. The base drop rates are highly stratified, rewarding lucky players with rare visual and functional upgrades.
+
+### Base Summon Rates
+According to the official database [1], the standard probabilities for summoning units and memorias are structured as follows:
+
+| Rarity Class | Base Pull Probability | Level Requirement | Key Characteristics |
+| :--- | :--- | :--- | :--- |
+| **Rare** | 75.496% | None | Standard fodder used primarily for selling or basic evolution |
+| **Epic** | 20.000% | None | Moderate utility; can occasionally roll as a Shiny |
+| **Legendary** | 4.000% | None | Strong mid-game units; guaranteed at 50 summons |
+| **Mythic / Exclusive** | 0.500% | None | High-tier meta units; guaranteed at 400 summons |
+| **Vanguard Memoria** | 0.075% | Level 10 | Extremely rare stat-boosting items added in Update 10.5 |
+| **Vanguard Unit** | 0.005% | Level 10 | Ultra-rare event units; Alocard is the exception at 0.004% |
+| **Secret** | 0.004% | Level 10 | The rarest summonable units in the standard pool |
+
+### Shiny and Serialized Mechanics
+When you successfully roll an Epic, Legendary, Mythic, or higher rarity unit, there is a **1.5% base chance** (increased to **3% with the Shiny Hunter Gamepass**) that the unit will be a **Shiny**. Shiny units feature distinct visual aesthetics and can be normalized or transferred.
+
+Furthermore, event-exclusive Vanguard and Secret units have a **0.5% chance** to roll as a **Serialized** unit when they are Shiny. This results in an overall pull rate of approximately 1 in 400 million for a serialized version of specific event units. Serialized units feature:
+- A unique serialized number visible upon hovering over the unit.
+- A custom 1-of-1 cosmetic model for the first 10 units of that type obtained server-wide.
+- Distinct visual model changes and numbering integrated directly into the character design for any serial number above 10.
+
+<Callout type="info" title="Lucky Potion Clarification">
+Purchasing Super Lucky or Ultra Lucky potions from the shop increases your chances of pulling Legendary and Mythic units. However, potions **do not** increase the chances of pulling Secret units, Vanguard units, or Shiny units. They also do not reduce your pity counts.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pity Mechanics and Auto-Sell Optimization">
+
+To protect players from poor luck, Anime Vanguards implements a robust pity system. This system tracks your summons and guarantees high-rarity drops after a specified number of attempts without success.
+
+### Pity Thresholds
+Pity thresholds differ slightly depending on the banner type and the item being summoned:
+
+| Banner Category | Legendary Pity | Mythic Pity | Vanguard Pity | Pity Reset Behavior |
+| :--- | :--- | :--- | :--- | :--- |
+| **Special & Selection** | 50 Summons | 400 Summons | 25,000 Summons | Resets upon pulling that rarity (except Vanguard) |
+| **Special Memoria** | 50 Summons | 400 Summons | 20,000 Summons | Resets upon pulling that rarity (except Vanguard) |
+| **Event Banners** | 50 Summons | 400 Summons | 20,000 Summons | Vanguard pity is strictly one-time only |
+
+On Event Banners, the Vanguard Pity is a **one-time guarantee** for players at Level 10 or higher. If you pull the Vanguard unit naturally before hitting the pity threshold, the pity is considered spent and will not refresh for that specific banner cycle.
+
+### Auto-Sell Configuration
+To prevent your inventory from filling up with unwanted Rare and Epic units during massive summoning sessions, you should configure the **Auto-Sell** feature. This tool automatically converts selected rarities into Gold immediately upon summoning.
+
+<Callout type="success" title="Auto-Sell Safety Net">
+The Auto-Sell feature will **never** automatically sell Shiny units or units that roll with custom Traits. If you wish to automatically sell units that have Traits, you must manually enable that option in the Miscellaneous Settings menu. Shiny units can only be sold manually.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Normalize Shop: Shiny Transfer & Normalizing">
+
+Valentine runs the Normalize Shop, situated directly adjacent to the main summon area. This shop provides critical utility for managing your Shiny units.
+
+### Shiny Transfer
+If you pull a Shiny version of a unit but already have a highly leveled or evolved normal version of that exact same unit, you can perform a **Shiny Transfer**. 
+- This process transfers the Shiny status from the food unit to your primary unit.
+- Both units must be the exact same character.
+- Each transfer costs **20,000 Gold**.
+- **Warning**: The original Shiny unit used as the source will be permanently deleted during the transfer.
+
+### Normalizing and Selling Shinies
+If you do not want a unit to remain Shiny, you can choose to **Normalize** it. Normalizing removes the Shiny status from the unit. In return, the player is awarded **5 trait rerolls**, regardless of the unit's rarity. 
+
+Alternatively, manually selling a Shiny unit from your inventory also rewards you with **5 trait rerolls**. 
+
+| Action Type | Gold Cost | Unit Requirement | Reward / Output |
+| :--- | :--- | :--- | :--- |
+| **Shiny Transfer** | 20,000 Gold | Same normal & shiny unit | Transfers shiny status; deletes source unit |
+| **Normalize Unit** | Free | Any Shiny unit | Removes shiny status; awards 5 trait rerolls |
+| **Sell Shiny Unit** | Free | Any Shiny unit | Deletes unit entirely; awards 5 trait rerolls |
+
+<Callout type="tip" title="Fusing Restriction">
+Fusing a Shiny unit into another character during leveling will **not** award you with 5 trait rerolls. Always normalize or sell your unwanted Shiny units manually to secure your rerolls.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Step-by-Step Summon Strategy">
+
+To make the most of your Gems and maximize your chances of pulling top-tier units from the **anime vanguards banner**, follow this optimized summoning progression:
+
+<Steps>
+  <Step num="1" title="Reach Level 10 First">
+    Prioritize completing early Story Mode stages to grind your account to Level 10. This unlocks the ability to pull game-changing Secret and Vanguard units.
+  </Step>
+  <Step num="2" title="Activate VIP and Accumulate Gems">
+    Secure the VIP gamepass if possible to reduce your summon cost to 40 Gems. Accumulate at least 16,000 Gems to guarantee hitting the 400-summon Mythic pity.
+  </Step>
+  <Step num="3" title="Set Your Selection Banner">
+    Check the Selection Banner daily. Lock in your desired S-tier Mythic unit to ensure that when you hit your 400-summon pity, you have a 50% chance of obtaining that specific character.
+  </Step>
+  <Step num="4" title="Pop Luck Potions Before Summoning">
+    Consume your Super Lucky or Ultra Lucky potions right before starting your summon session. This maximizes your Legendary and Mythic pull rates during your 1-hour potion window.
+  </Step>
+  <Step num="5" title="Clean Up at Valentine's Shop">
+    Once your session is complete, visit Valentine to transfer shiny statuses to your evolved units, or normalize duplicate shinies to harvest trait rerolls.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Event Currency Warning">
+Remember that Luck Potions do not increase the drop rates of Vanguard units on Event Banners, and VIP discounts do not apply to Event Currency summons. Plan your event resource allocation accordingly.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Summoning Goals and Milestones">
+
+Use this checklist to track your summoning progression and ensure your account is optimized for high-level play.
+
+<Checklist
+  id="summoning-milestones"
+  title="Summoning Milestones:"
+  items={[
+    "Reach Account Level 10 to unlock Secret and Vanguard drops",
+    "Accumulate 16,000 Gems for a guaranteed Mythic pity pull",
+    "Configure Auto-Sell settings to automatically filter out Rare units",
+    "Secure at least one high-tier Mythic unit via the Selection Banner",
+    "Collect 5 trait rerolls by normalizing an unwanted Shiny unit"
+  ]}
+/>
+
+<Callout type="success" title="Milestone Tip">
+Completing these milestones ensures you do not waste valuable inventory space or Gems on sub-optimal banners.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does the Selection Banner share pity with the Special Banner?",
+    answer: "Yes, the Selection Banner and the Special Banner share the exact same pity count. You can safely build pity on one and spend it on the other."
+  },
+  {
+    question: "Do Luck Potions increase the chance of pulling a Shiny or Secret unit?",
+    answer: "No. Super Lucky and Ultra Lucky potions only increase the chances of pulling Legendary and Mythic units. They have no impact on Secret, Vanguard, or Shiny rates."
+  },
+  {
+    question: "What is the difference between Shiny Transfer and Normalizing?",
+    answer: "Shiny Transfer moves the Shiny status to another copy of the same unit for 20,000 Gold, deleting the source unit. Normalizing removes the Shiny status entirely to give you 5 trait rerolls, keeping the unit intact."
+  },
+  {
+    question: "Is the Vanguard pity on Event Banners repeatable?",
+    answer: "No. The Vanguard pity on Event Banners is a strict one-time guarantee. Once you obtain the Vanguard unit (either through pity or a lucky natural pull), the pity is marked as reached and will not reset."
+  }
+]} />
+
+<Callout type="info" title="More Resources">
+For further details on specific unit stats and upcoming event banners, check out the official [Anime Vanguards Wiki](https://animevanguards.fandom.com/wiki/Summon) [1].
+</Callout>
+
+</Section>

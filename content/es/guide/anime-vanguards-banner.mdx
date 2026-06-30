@@ -1,0 +1,246 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Banner de Anime Vanguards: Tasas de Invocación y Guía de Banners",
+  description: "Domina el sistema de banners de Anime Vanguards en 2026. Aprende sobre las tasas de obtención, umbrales de pity, transferencia de shinies y cómo optimizar tus invocaciones.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Vanguards+Banner+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de Anime Vanguards",
+  keywords: "Anime Vanguards, banner, invocación, tasas, pity, shiny, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica Principal**: El sistema de **banner de Anime Vanguards** rota cada hora para presentar diferentes unidades que definen el meta.
+- **Umbrales de Pity (Garantía)**: Las garantías se establecen en **50 invocaciones** para Legendarios, **400 invocaciones** para Míticos y hasta **25,000 invocaciones** para unidades de Vanguardia.
+- **Requisito de Nivel**: Los jugadores deben alcanzar el **Nivel 10** para desbloquear unidades Secretas, de Vanguardia y Shinies en las invocaciones.
+- **Ventaja VIP**: Activar el VIP reduce el coste de invocación del Banner Especial de **50 Gemas a 40 Gemas**.
+- **Tienda de Normalización**: Dirigida por Valentine, esta área permite a los jugadores **transferir shinies** o intercambiarlos por **5 reintentos de rasgos (trait rerolls)**.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos con el sistema de banners de Anime Vanguards">
+
+El área de invocación es el núcleo central para expandir tu alineación en Anime Vanguards. Ubicada directamente en el vestíbulo principal, esta zona cuenta con tres tiendas distintas que los jugadores deben utilizar para construir sus equipos de defensa definitivos. Comprender cómo navegar por el sistema de **banner de Anime Vanguards** es crucial para asegurar unidades de alto nivel y optimizar tus gemas ganadas con tanto esfuerzo.
+
+**Puntos clave del video:**
+- **Invocaciones Serializadas**: Observa la increíble suerte de obtener unidades serializadas con una probabilidad de 1 entre 400 millones.
+- **Exhibición de Shinies**: Una inmersión profunda en las diferencias visuales entre los personajes shiny y los serializados.
+- **Mecánicas de Pity**: Sesiones de invocación de gran volumen y cómo funcionan las garantías de pity en tiempo real.
+
+<YouTubeEmbed videoId="4pxt5-8xTKw" title="Luckiest People EVER Anime Vanguards" />
+
+El área física de invocación se divide en tres sub-tiendas funcionales:
+
+<CardGrid cols={3}>
+  <Card title="El Banner de Invocación">
+    La interfaz principal donde los jugadores gastan Gemas o Moneda de Evento para invocar unidades Especiales, de Evento y de Selección.
+  </Card>
+  <Card title="Índice de Unidades">
+    Un registro completo que muestra tasas de obtención detalladas, estadísticas de unidades y habilidades potenciales para los banners activos.
+  </Card>
+  <Card title="Tienda de Normalización">
+    Dirigida por Valentine, esta sub-tienda se dedica a normalizar unidades shiny o transferir el estado shiny entre duplicados.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Restricción de Nivel">
+No puedes obtener unidades Secretas, de Vanguardia o Shinies hasta que tu cuenta alcance el **Nivel 10**. Si deseas omitir esta restricción de nivel para las unidades Shiny, debes comprar el Gamepass de Shiny Hunter.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Todos los tipos de banners de Anime Vanguards explicados">
+
+Para gastar tus recursos de manera eficiente, debes entender las diferencias entre los cuatro tipos principales de banners disponibles en Anime Vanguards. Cada banner opera bajo reglas de rotación, costes y sistemas de pity únicos.
+
+### Banner Especial
+Este es el banner predeterminado del juego. Las unidades destacadas rotan cada hora, permitiendo a los jugadores buscar personajes específicos a lo largo del día. Cuando una unidad aparece en el Banner Especial, la unidad del centro tiene un **50% de probabilidad** de ser obtenida al alcanzar esa rareza, mientras que las unidades de la izquierda y la derecha tienen un **20% de probabilidad** cada una. Una sola invocación cuesta **50 Gemas**, que se reduce a **40 Gemas** si tienes el gamepass VIP.
+
+### Banner de Memoria Especial
+Introducido en la Actualización 11.0, este banner funciona de manera idéntica al Banner Especial pero está dedicado exclusivamente a obtener Memorias de alto valor. Rota cada hora y comparte la misma distribución 50/20/20 para los objetos central y laterales.
+
+### Banner de Evento
+El Banner de Evento presenta unidades exclusivas de tiempo limitado (como las unidades del evento de Invierno o Primavera) y requiere una Moneda de Evento única en lugar de Gemas estándar. Los descuentos VIP no se aplican aquí. Estos banners incluyen una Unidad de Vanguardia única con una tasa de obtención increíblemente baja, pero también ofrecen una mecánica de pity de un solo uso para ayudar a los jugadores dedicados.
+
+### Banner de Selección
+Introducido por primera vez en la Actualización 6.5, el Banner de Selección es una función muy amigable para el jugador. Te permite seleccionar libremente cualquier unidad Mítica invocable para que ocupe el lugar central. Esta selección persiste durante **24 horas**, dándote un día completo para farmear una unidad específica del meta. Si no eliges una unidad central, las unidades laterales continuarán rotando cada hora de forma normal.
+
+| Tipo de Banner | Moneda Principal | Ciclo de Rotación | Característica Clave |
+| :--- | :--- | :--- | :--- |
+| **Banner Especial** | Gemas (50 base / 40 VIP) | Por hora | Adquisición estándar de unidades con descuentos VIP |
+| **Memoria Especial** | Gemas (50 base / 40 VIP) | Por hora | Banner dedicado para obtener Memorias poderosas |
+| **Banner de Evento** | Moneda de Evento | Por hora | Presenta unidades de Vanguardia exclusivas y limitadas |
+| **Banner de Selección** | Gemas (50 base / 40 VIP) | 24 Horas (Centro) | Los jugadores eligen qué unidad Mítica destacar |
+
+<Callout type="tip" title="Sistema de Pity Compartido">
+El Banner de Selección y el Banner Especial comparten exactamente el mismo contador de pity. Puedes acumular tu pity en el Banner Especial y usarlo en el Banner de Selección una vez que tu unidad Mítica deseada esté en el centro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tasas de Invocación, Shinies y Unidades Serializadas">
+
+Invocar en un **banner de Anime Vanguards** requiere comprender las probabilidades subyacentes. Las tasas de obtención base están altamente estratificadas, recompensando a los jugadores afortunados con mejoras visuales y funcionales raras.
+
+### Tasas de Invocación Base
+Según la base de datos oficial [1], las probabilidades estándar para invocar unidades y memorias se estructuran de la siguiente manera:
+
+| Clase de Rareza | Probabilidad Base | Requisito de Nivel | Características Clave |
+| :--- | :--- | :--- | :--- |
+| **Raro** | 75.496% | Ninguno | Material estándar usado principalmente para vender o evolución básica |
+| **Épico** | 20.000% | Ninguno | Utilidad moderada; ocasionalmente puede aparecer como Shiny |
+| **Legendario** | 4.000% | Ninguno | Unidades fuertes de mitad de juego; garantizado a las 50 invocaciones |
+| **Mítico / Exclusivo** | 0.500% | Ninguno | Unidades meta de alto nivel; garantizado a las 400 invocaciones |
+| **Memoria de Vanguardia** | 0.075% | Nivel 10 | Objetos extremadamente raros que mejoran estadísticas (Añadido en 10.5) |
+| **Unidad de Vanguardia** | 0.005% | Nivel 10 | Unidades de evento ultra raras; Alocard es la excepción con 0.004% |
+| **Secreto** | 0.004% | Nivel 10 | Las unidades invocables más raras en el pool estándar |
+
+### Mecánicas de Shiny y Serializados
+Cuando obtienes con éxito una unidad Épica, Legendaria, Mítica o de mayor rareza, hay una **probabilidad base del 1.5%** (aumentada al **3% con el Gamepass Shiny Hunter**) de que la unidad sea **Shiny**. Las unidades Shiny presentan estéticas visuales distintas y pueden ser normalizadas o transferidas.
+
+Además, las unidades de Vanguardia y Secretas exclusivas de eventos tienen un **0.5% de probabilidad** de aparecer como una unidad **Serializada** cuando son Shiny. Esto resulta en una tasa de obtención global de aproximadamente 1 en 400 millones para una versión serializada de unidades de evento específicas. Las unidades serializadas incluyen:
+- Un número de serie único visible al pasar el cursor sobre la unidad.
+- Un modelo cosmético personalizado 1 de 1 para las primeras 10 unidades de ese tipo obtenidas en todo el servidor.
+- Cambios en el modelo visual y numeración integrada directamente en el diseño del personaje para cualquier número de serie superior a 10.
+
+<Callout type="info" title="Clarificación sobre Pociones de Suerte">
+Comprar pociones Super Lucky o Ultra Lucky en la tienda aumenta tus posibilidades de obtener unidades Legendarias y Míticas. Sin embargo, las pociones **no** aumentan las posibilidades de obtener unidades Secretas, de Vanguardia o Shinies. Tampoco reducen tus contadores de pity.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Pity y Optimización de Venta Automática">
+
+Para proteger a los jugadores de la mala suerte, Anime Vanguards implementa un robusto sistema de pity. Este sistema rastrea tus invocaciones y garantiza la obtención de rarezas altas después de un número específico de intentos sin éxito.
+
+### Umbrales de Pity
+Los umbrales de pity difieren ligeramente según el tipo de banner y el objeto que se está invocando:
+
+| Categoría de Banner | Pity Legendario | Pity Mítico | Pity de Vanguardia | Comportamiento de Reinicio |
+| :--- | :--- | :--- | :--- | :--- |
+| **Especial y Selección** | 50 Invocaciones | 400 Invocaciones | 25,000 Invocaciones | Se reinicia al obtener esa rareza (excepto Vanguardia) |
+| **Memoria Especial** | 50 Invocaciones | 400 Invocaciones | 20,000 Invocaciones | Se reinicia al obtener esa rareza (excepto Vanguardia) |
+| **Banners de Evento** | 50 Invocaciones | 400 Invocaciones | 20,000 Invocaciones | El pity de Vanguardia es estrictamente de un solo uso |
+
+En los Banners de Evento, el Pity de Vanguardia es una **garantía de una sola vez** para jugadores de Nivel 10 o superior. Si obtienes la unidad de Vanguardia de forma natural antes de alcanzar el umbral de pity, el pity se considera consumido y no se refrescará para ese ciclo de banner específico.
+
+### Configuración de Venta Automática
+Para evitar que tu inventario se llene de unidades Raras y Épicas no deseadas durante sesiones masivas de invocación, debes configurar la función de **Venta Automática (Auto-Sell)**. Esta herramienta convierte automáticamente las rarezas seleccionadas en Oro inmediatamente después de la invocación.
+
+<Callout type="success" title="Red de Seguridad de Venta Automática">
+La función de Venta Automática **nunca** venderá automáticamente unidades Shiny o unidades que tengan Rasgos (Traits) personalizados. Si deseas vender automáticamente unidades que tengan Rasgos, debes habilitar manualmente esa opción en el menú de Ajustes Misceláneos. Las unidades Shiny solo pueden venderse manualmente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="La Tienda de Normalización: Transferencia y Normalización de Shinies">
+
+Valentine dirige la Tienda de Normalización, situada justo al lado del área principal de invocación. Esta tienda ofrece una utilidad crítica para gestionar tus unidades Shiny.
+
+### Transferencia de Shiny
+Si obtienes una versión Shiny de una unidad pero ya tienes una versión normal de ese mismo personaje con un nivel alto o evolucionada, puedes realizar una **Transferencia de Shiny**.
+- Este proceso transfiere el estado Shiny de la unidad "material" a tu unidad principal.
+- Ambas unidades deben ser exactamente el mismo personaje.
+- Cada transferencia cuesta **20,000 de Oro**.
+- **Advertencia**: La unidad Shiny original utilizada como fuente se eliminará permanentemente durante la transferencia.
+
+### Normalizar y Vender Shinies
+Si no quieres que una unidad siga siendo Shiny, puedes optar por **Normalizarla**. La normalización elimina el estado Shiny de la unidad. A cambio, el jugador recibe **5 reintentos de rasgos (trait rerolls)**, independientemente de la rareza de la unidad.
+
+Alternativamente, vender manualmente una unidad Shiny de tu inventario también te recompensa con **5 reintentos de rasgos**.
+
+| Tipo de Acción | Coste de Oro | Requisito de Unidad | Recompensa / Resultado |
+| :--- | :--- | :--- | :--- |
+| **Transferencia Shiny** | 20,000 Oro | Misma unidad normal y shiny | Transfiere estado shiny; elimina fuente |
+| **Normalizar Unidad** | Gratis | Cualquier unidad Shiny | Elimina estado shiny; otorga 5 rerolls |
+| **Vender Unidad Shiny** | Gratis | Cualquier unidad Shiny | Elimina la unidad; otorga 5 rerolls |
+
+<Callout type="tip" title="Restricción de Fusión">
+Fusionar una unidad Shiny con otro personaje durante la subida de nivel **no** te otorgará los 5 reintentos de rasgos. Siempre normaliza o vende tus unidades Shiny no deseadas manualmente para asegurar tus rerolls.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategia de Invocación Paso a Paso">
+
+Para aprovechar al máximo tus Gemas y maximizar tus posibilidades de obtener unidades de alto nivel del **banner de Anime Vanguards**, sigue esta progresión de invocación optimizada:
+
+<Steps>
+  <Step num="1" title="Alcanza el Nivel 10 Primero">
+    Prioriza completar las primeras etapas del Modo Historia para subir tu cuenta al Nivel 10. Esto desbloquea la capacidad de obtener unidades Secretas y de Vanguardia que cambian el juego.
+  </Step>
+  <Step num="2" title="Activa el VIP y Acumula Gemas">
+    Consigue el gamepass VIP si es posible para reducir tu coste de invocación a 40 Gemas. Acumula al menos 16,000 Gemas para garantizar alcanzar el pity Mítico de 400 invocaciones.
+  </Step>
+  <Step num="3" title="Configura tu Banner de Selección">
+    Revisa el Banner de Selección diariamente. Fija tu unidad Mítica de nivel S deseada para asegurar que, cuando alcances tu pity de 400 invocaciones, tengas un 50% de probabilidad de obtener ese personaje específico.
+  </Step>
+  <Step num="4" title="Usa Pociones de Suerte antes de Invocar">
+    Consume tus pociones Super Lucky o Ultra Lucky justo antes de comenzar tu sesión de invocación. Esto maximiza tus tasas de obtención de Legendarios y Míticos durante la ventana de 1 hora de la poción.
+  </Step>
+  <Step num="5" title="Limpieza en la Tienda de Valentine">
+    Una vez terminada tu sesión, visita a Valentine para transferir los estados shiny a tus unidades evolucionadas o normalizar los shinies duplicados para recolectar reintentos de rasgos.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Advertencia sobre Moneda de Evento">
+Recuerda que las Pociones de Suerte no aumentan las tasas de obtención de unidades de Vanguardia en los Banners de Evento, y los descuentos VIP no se aplican a las invocaciones con Moneda de Evento. Planifica tu asignación de recursos de evento en consecuencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos e Hitos de Invocación">
+
+Usa esta lista de verificación para seguir tu progresión de invocación y asegurar que tu cuenta esté optimizada para el juego de alto nivel.
+
+<Checklist
+  id="summoning-milestones"
+  title="Hitos de Invocación:"
+  items={[
+    "Alcanzar el Nivel de Cuenta 10 para desbloquear drops Secretos y de Vanguardia",
+    "Acumular 16,000 Gemas para una invocación de pity Mítico garantizada",
+    "Configurar los ajustes de Venta Automática para filtrar unidades Raras",
+    "Asegurar al menos una unidad Mítica de alto nivel mediante el Banner de Selección",
+    "Recolectar 5 reintentos de rasgos normalizando una unidad Shiny no deseada"
+  ]}
+/>
+
+<Callout type="success" title="Consejo sobre Hitos">
+Completar estos hitos garantiza que no desperdicies espacio valioso en el inventario ni Gemas en banners subóptimos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿El Banner de Selección comparte pity con el Banner Especial?",
+    answer: "Sí, el Banner de Selección y el Banner Especial comparten exactamente el mismo contador de pity. Puedes acumular pity de forma segura en uno y gastarlo en el otro."
+  },
+  {
+    question: "¿Las Pociones de Suerte aumentan la probabilidad de obtener una unidad Shiny o Secreta?",
+    answer: "No. Las pociones Super Lucky y Ultra Lucky solo aumentan las posibilidades de obtener unidades Legendarias y Míticas. No tienen impacto en las tasas de unidades Secretas, de Vanguardia o Shinies."
+  },
+  {
+    question: "¿Cuál es la diferencia entre Transferencia Shiny y Normalización?",
+    answer: "La Transferencia Shiny mueve el estado Shiny a otra copia de la misma unidad por 20,000 de Oro, eliminando la unidad de origen. La Normalización elimina el estado Shiny por completo para darte 5 reintentos de rasgos, manteniendo la unidad intacta."
+  },
+  {
+    question: "¿Es repetible el pity de Vanguardia en los Banners de Evento?",
+    answer: "No. El pity de Vanguardia en los Banners de Evento es una garantía estricta de una sola vez. Una vez que obtienes la unidad de Vanguardia (ya sea por pity o por una invocación natural afortunada), el pity se marca como alcanzado y no se reiniciará."
+  }
+]} />
+
+<Callout type="info" title="Más Recursos">
+Para obtener más detalles sobre estadísticas de unidades específicas y próximos banners de eventos, consulta la [Wiki oficial de Anime Vanguards](https://animevanguards.fandom.com/wiki/Summon) [1].
+</Callout>
+
+</Section>

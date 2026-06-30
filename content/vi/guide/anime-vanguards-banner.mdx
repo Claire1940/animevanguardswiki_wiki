@@ -1,0 +1,246 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Banner Anime Vanguards: Tỷ lệ Triệu hồi & Hướng dẫn Banner",
+  description: "Làm chủ hệ thống banner Anime Vanguards năm 2026. Tìm hiểu tỷ lệ rơi, ngưỡng bảo hiểm (pity), chuyển đổi shiny và cách tối ưu hóa các lượt triệu hồi của bạn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Vanguards+Banner+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Anime Vanguards",
+  keywords: "anime vanguards banner, tỷ lệ triệu hồi, hướng dẫn pity, shiny anime vanguards, triệu hồi đơn vị"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Cơ chế chính**: Hệ thống **banner Anime Vanguards** thay đổi mỗi giờ để giới thiệu các đơn vị định hình meta khác nhau.
+- **Ngưỡng Bảo hiểm (Pity)**: Đảm bảo nhận được đơn vị ở mức **50 lượt triệu hồi** cho Huyền thoại (Legendary), **400 lượt triệu hồi** cho Thần thoại (Mythic), và lên đến **25.000 lượt triệu hồi** cho các đơn vị Vanguard.
+- **Yêu cầu Cấp độ**: Người chơi phải đạt **Cấp 10** để mở khóa các đơn vị Secret, Vanguard và Shiny từ triệu hồi.
+- **Lợi thế VIP**: Kích hoạt VIP giúp giảm chi phí triệu hồi Banner Đặc biệt từ **50 Đá quý xuống còn 40 Đá quý**.
+- **Cửa hàng Chuẩn hóa (Normalize Shop)**: Được điều hành bởi Valentine, khu vực này cho phép người chơi **chuyển đổi shiny** hoặc đổi chúng lấy **5 lượt reroll thuộc tính**.
+</Callout>
+
+<Section icon={Map} title="Bắt đầu với Hệ thống Banner Anime Vanguards">
+
+Khu vực triệu hồi là trung tâm để mở rộng đội hình của bạn trong Anime Vanguards. Nằm trực tiếp tại sảnh chính (lobby), khu vực này có ba cửa hàng riêng biệt mà người chơi phải sử dụng để xây dựng đội hình phòng thủ tối thượng của mình. Hiểu cách điều hướng hệ thống **banner Anime Vanguards** là yếu tố then chốt để sở hữu các đơn vị cấp cao và tối ưu hóa số Đá quý vất vả kiếm được.
+
+**Điểm nhấn Video:**
+- **Lượt quay Serialized**: Xem khoảnh khắc may mắn khó tin khi quay trúng các đơn vị serialized với xác suất 1 trên 400 triệu.
+- **Trình diễn Shiny**: Tìm hiểu sâu về sự khác biệt hình ảnh giữa các nhân vật shiny và serialized.
+- **Cơ chế Bảo hiểm (Pity)**: Chứng kiến các phiên triệu hồi số lượng lớn và cách cơ chế bảo hiểm hoạt động trong thời gian thực.
+
+<YouTubeEmbed videoId="4pxt5-8xTKw" title="Những người may mắn nhất TỪ TRƯỚC ĐẾN NAY trong Anime Vanguards" />
+
+Khu vực triệu hồi vật lý được chia thành ba cửa hàng phụ chức năng:
+
+<CardGrid cols={3}>
+  <Card title="Banner Triệu hồi">
+    Giao diện chính nơi người chơi chi tiêu Đá quý hoặc Tiền tệ Sự kiện để quay các đơn vị Đặc biệt, Sự kiện và Lựa chọn.
+  </Card>
+  <Card title="Chỉ mục Đơn vị">
+    Một nhật ký toàn diện hiển thị chi tiết tỷ lệ rơi, chỉ số đơn vị và các kỹ năng tiềm năng cho các banner đang hoạt động.
+  </Card>
+  <Card title="Cửa hàng Chuẩn hóa">
+    Được điều hành bởi Valentine, cửa hàng phụ này chuyên dùng để chuẩn hóa các đơn vị shiny hoặc chuyển đổi trạng thái shiny giữa các bản sao.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Hạn chế Cấp độ">
+Bạn không thể triệu hồi các đơn vị Secret, Vanguard hoặc Shiny cho đến khi tài khoản đạt **Cấp 10**. Nếu bạn muốn bỏ qua hạn chế cấp độ này cho các đơn vị Shiny, bạn phải mua Gamepass Shiny Hunter.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Giải thích tất cả các loại Banner Anime Vanguards">
+
+Để chi tiêu tài nguyên hiệu quả, bạn phải hiểu sự khác biệt giữa bốn loại banner chính có sẵn trong Anime Vanguards. Mỗi loại banner hoạt động theo các quy tắc xoay vòng, chi phí và hệ thống bảo hiểm riêng biệt.
+
+### Banner Đặc biệt (Special Banner)
+Đây là banner mặc định trong trò chơi. Các đơn vị nổi bật thay đổi mỗi giờ, cho phép người chơi nhắm mục tiêu vào các nhân vật cụ thể trong suốt cả ngày. Khi một đơn vị xuất hiện trên Banner Đặc biệt, đơn vị ở giữa có **50% cơ hội** nhận được khi đạt đến độ hiếm đó, trong khi các đơn vị bên trái và bên phải mỗi bên có **20% cơ hội**. Một lượt triệu hồi tốn **50 Đá quý**, được giảm xuống còn **40 Đá quý** nếu bạn có gamepass VIP.
+
+### Banner Memoria Đặc biệt (Special Memoria Banner)
+Được giới thiệu trong Bản cập nhật 11.0, banner này hoạt động tương tự như Banner Đặc biệt nhưng dành riêng hoàn toàn cho việc triệu hồi các Memoria giá trị cao. Nó xoay vòng hàng giờ và chia sẻ cùng tỷ lệ phân phối 50/20/20 cho các vật phẩm nổi bật ở giữa và hai bên.
+
+### Banner Sự kiện (Event Banner)
+Banner Sự kiện giới thiệu các đơn vị giới hạn thời gian độc quyền (chẳng hạn như các đơn vị Sự kiện Mùa đông hoặc Mùa xuân) và yêu cầu Tiền tệ Sự kiện duy nhất thay vì Đá quý tiêu chuẩn. Giảm giá VIP không áp dụng tại đây. Những banner này có một Đơn vị Vanguard duy nhất với tỷ lệ rơi cực thấp, nhưng chúng cũng cung cấp cơ chế bảo hiểm một lần để hỗ trợ những người chơi tận tâm.
+
+### Banner Lựa chọn (Selection Banner)
+Lần đầu tiên được giới thiệu trong Bản cập nhật 6.5, Banner Lựa chọn là một tính năng rất thân thiện với người chơi. Nó cho phép bạn tự do chọn bất kỳ đơn vị Thần thoại (Mythic) nào có thể triệu hồi để đặt vào vị trí chính giữa. Lựa chọn này tồn tại trong **24 giờ**, cho bạn cả ngày để tập trung cày một đơn vị meta cụ thể. Nếu bạn không chọn đơn vị ở giữa, các đơn vị hai bên sẽ tiếp tục xoay vòng hàng giờ như bình thường.
+
+| Loại Banner | Tiền tệ chính | Chu kỳ xoay vòng | Tính năng chính |
+| :--- | :--- | :--- | :--- |
+| **Banner Đặc biệt** | Đá quý (50 gốc / 40 VIP) | Hàng giờ | Thu thập đơn vị tiêu chuẩn với giảm giá VIP |
+| **Memoria Đặc biệt** | Đá quý (50 gốc / 40 VIP) | Hàng giờ | Banner chuyên dụng cho các Memoria mạnh mẽ |
+| **Banner Sự kiện** | Tiền tệ Sự kiện | Hàng giờ | Có các đơn vị Vanguard giới hạn thời gian độc quyền |
+| **Banner Lựa chọn** | Đá quý (50 gốc / 40 VIP) | 24 Giờ (Giữa) | Người chơi chọn đơn vị Thần thoại nổi bật |
+
+<Callout type="tip" title="Hệ thống Bảo hiểm chung">
+Banner Lựa chọn và Banner Đặc biệt chia sẻ cùng một số lần đếm bảo hiểm (pity). Bạn có thể tích lũy pity trên Banner Đặc biệt và sử dụng nó trên Banner Lựa chọn khi đơn vị Thần thoại mong muốn của bạn được đặt ở giữa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tỷ lệ triệu hồi, Shiny và Đơn vị Serialized">
+
+Triệu hồi trên một **banner Anime Vanguards** đòi hỏi sự hiểu biết về tỷ lệ xác suất cơ bản. Tỷ lệ rơi cơ bản được phân tầng rõ rệt, thưởng cho những người chơi may mắn các bản nâng cấp hình ảnh và chức năng hiếm có.
+
+### Tỷ lệ Triệu hồi Cơ bản
+Theo cơ sở dữ liệu chính thức [1], xác suất tiêu chuẩn để triệu hồi các đơn vị và memoria được cấu trúc như sau:
+
+| Cấp độ Hiếm | Xác suất rơi cơ bản | Yêu cầu Cấp độ | Đặc điểm chính |
+| :--- | :--- | :--- | :--- |
+| **Hiếm (Rare)** | 75.496% | Không | Nguyên liệu tiêu chuẩn dùng để bán hoặc tiến hóa cơ bản |
+| **Sử thi (Epic)** | 20.000% | Không | Tiện ích trung bình; thỉnh thoảng có thể là Shiny |
+| **Huyền thoại (Legendary)** | 4.000% | Không | Các đơn vị giữa game mạnh mẽ; đảm bảo ở 50 lượt |
+| **Thần thoại / Độc quyền** | 0.500% | Không | Các đơn vị meta cấp cao; đảm bảo ở 400 lượt |
+| **Memoria Vanguard** | 0.075% | Cấp 10 | Vật phẩm tăng chỉ số cực hiếm được thêm vào Bản cập nhật 10.5 |
+| **Đơn vị Vanguard** | 0.005% | Cấp 10 | Đơn vị sự kiện cực hiếm; Alocard là ngoại lệ ở mức 0.004% |
+| **Bí mật (Secret)** | 0.004% | Cấp 10 | Các đơn vị triệu hồi hiếm nhất trong nhóm tiêu chuẩn |
+
+### Cơ chế Shiny và Serialized
+Khi bạn triệu hồi thành công một đơn vị Sử thi, Huyền thoại, Thần thoại hoặc cao hơn, có **1.5% cơ hội cơ bản** (tăng lên **3% với Gamepass Shiny Hunter**) đơn vị đó sẽ là **Shiny**. Các đơn vị Shiny có tính thẩm mỹ hình ảnh khác biệt và có thể được chuẩn hóa hoặc chuyển đổi.
+
+Hơn nữa, các đơn vị Vanguard và Secret độc quyền sự kiện có **0.5% cơ hội** trở thành đơn vị **Serialized** khi chúng là Shiny. Điều này dẫn đến tỷ lệ triệu hồi tổng thể xấp xỉ 1 trên 400 triệu cho một phiên bản serialized của các đơn vị sự kiện cụ thể. Các đơn vị Serialized có:
+- Một số series duy nhất hiển thị khi di chuột qua đơn vị.
+- Mô hình mỹ phẩm tùy chỉnh 1-of-1 cho 10 đơn vị đầu tiên thuộc loại đó được sở hữu trên toàn server.
+- Các thay đổi mô hình hình ảnh khác biệt và số thứ tự được tích hợp trực tiếp vào thiết kế nhân vật cho bất kỳ số series nào trên 10.
+
+<Callout type="info" title="Làm rõ về Thuốc May mắn">
+Mua thuốc Super Lucky hoặc Ultra Lucky từ cửa hàng sẽ tăng cơ hội triệu hồi các đơn vị Huyền thoại và Thần thoại. Tuy nhiên, thuốc **không** làm tăng cơ hội triệu hồi các đơn vị Secret, Vanguard hoặc Shiny. Chúng cũng không làm giảm số lần đếm bảo hiểm (pity) của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cơ chế Bảo hiểm và Tối ưu hóa Tự động Bán">
+
+Để bảo vệ người chơi khỏi sự xui xẻo, Anime Vanguards triển khai một hệ thống bảo hiểm (pity) mạnh mẽ. Hệ thống này theo dõi các lượt triệu hồi của bạn và đảm bảo rơi ra các vật phẩm hiếm sau một số lần thử nhất định mà không thành công.
+
+### Ngưỡng Bảo hiểm (Pity Thresholds)
+Ngưỡng bảo hiểm hơi khác nhau tùy thuộc vào loại banner và vật phẩm được triệu hồi:
+
+| Hạng mục Banner | Pity Huyền thoại | Pity Thần thoại | Pity Vanguard | Hành vi Reset Pity |
+| :--- | :--- | :--- | :--- | :--- |
+| **Đặc biệt & Lựa chọn** | 50 Lượt | 400 Lượt | 25.000 Lượt | Reset khi triệu hồi được độ hiếm đó (trừ Vanguard) |
+| **Memoria Đặc biệt** | 50 Lượt | 400 Lượt | 20.000 Lượt | Reset khi triệu hồi được độ hiếm đó (trừ Vanguard) |
+| **Banner Sự kiện** | 50 Lượt | 400 Lượt | 20.000 Lượt | Pity Vanguard chỉ áp dụng duy nhất một lần |
+
+Trên Banner Sự kiện, Pity Vanguard là một **đảm bảo duy nhất một lần** cho người chơi ở Cấp 10 trở lên. Nếu bạn triệu hồi được đơn vị Vanguard một cách tự nhiên trước khi đạt đến ngưỡng bảo hiểm, số pity đó được coi là đã sử dụng và sẽ không làm mới cho chu kỳ banner cụ thể đó.
+
+### Cấu hình Tự động Bán (Auto-Sell)
+Để ngăn kho đồ của bạn bị lấp đầy bởi các đơn vị Hiếm và Sử thi không mong muốn trong các phiên triệu hồi lớn, bạn nên cấu hình tính năng **Tự động Bán**. Công cụ này sẽ tự động chuyển đổi các độ hiếm đã chọn thành Vàng ngay khi triệu hồi.
+
+<Callout type="success" title="Lưới an toàn Tự động Bán">
+Tính năng Tự động Bán sẽ **không bao giờ** tự động bán các đơn vị Shiny hoặc các đơn vị có Thuộc tính (Traits) tùy chỉnh. Nếu bạn muốn tự động bán các đơn vị có Thuộc tính, bạn phải bật tùy chọn đó thủ công trong menu Cài đặt khác (Miscellaneous Settings). Các đơn vị Shiny chỉ có thể được bán thủ công.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cửa hàng Chuẩn hóa: Chuyển đổi & Chuẩn hóa Shiny">
+
+Valentine điều hành Cửa hàng Chuẩn hóa (Normalize Shop), nằm ngay cạnh khu vực triệu hồi chính. Cửa hàng này cung cấp các tiện ích quan trọng để quản lý các đơn vị Shiny của bạn.
+
+### Chuyển đổi Shiny (Shiny Transfer)
+Nếu bạn triệu hồi được phiên bản Shiny của một đơn vị nhưng đã có một phiên bản thường được nâng cấp cấp độ hoặc tiến hóa cao của chính đơn vị đó, bạn có thể thực hiện **Chuyển đổi Shiny**.
+- Quá trình này chuyển trạng thái Shiny từ đơn vị nguyên liệu sang đơn vị chính của bạn.
+- Cả hai đơn vị phải là cùng một nhân vật chính xác.
+- Mỗi lần chuyển đổi tốn **20.000 Vàng**.
+- **Cảnh báo**: Đơn vị Shiny gốc được sử dụng làm nguồn sẽ bị xóa vĩnh viễn trong quá trình chuyển đổi.
+
+### Chuẩn hóa và Bán Shiny
+Nếu bạn không muốn một đơn vị giữ trạng thái Shiny, bạn có thể chọn **Chuẩn hóa (Normalize)** nó. Chuẩn hóa sẽ loại bỏ trạng thái Shiny khỏi đơn vị. Đổi lại, người chơi được tặng **5 lượt reroll thuộc tính**, bất kể độ hiếm của đơn vị.
+
+Ngoài ra, việc bán thủ công một đơn vị Shiny từ kho đồ cũng tặng bạn **5 lượt reroll thuộc tính**.
+
+| Loại hành động | Chi phí Vàng | Yêu cầu đơn vị | Phần thưởng / Đầu ra |
+| :--- | :--- | :--- | :--- |
+| **Chuyển đổi Shiny** | 20.000 Vàng | Cùng đơn vị thường & shiny | Chuyển trạng thái shiny; xóa đơn vị nguồn |
+| **Chuẩn hóa đơn vị** | Miễn phí | Bất kỳ đơn vị Shiny nào | Loại bỏ trạng thái shiny; tặng 5 lượt reroll |
+| **Bán đơn vị Shiny** | Miễn phí | Bất kỳ đơn vị Shiny nào | Xóa hoàn toàn đơn vị; tặng 5 lượt reroll |
+
+<Callout type="tip" title="Hạn chế Hợp nhất (Fusing)">
+Hợp nhất một đơn vị Shiny vào một nhân vật khác trong quá trình lên cấp sẽ **không** tặng bạn 5 lượt reroll thuộc tính. Luôn chuẩn hóa hoặc bán các đơn vị Shiny không mong muốn một cách thủ công để đảm bảo nhận được lượt reroll.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Chiến lược Triệu hồi Từng bước">
+
+Để tận dụng tối đa Đá quý và tăng cơ hội triệu hồi các đơn vị hàng đầu từ **banner Anime Vanguards**, hãy làm theo tiến trình triệu hồi tối ưu này:
+
+<Steps>
+  <Step num="1" title="Đạt Cấp 10 trước tiên">
+    Ưu tiên hoàn thành các màn Chế độ Cốt truyện (Story Mode) sớm để cày tài khoản lên Cấp 10. Điều này mở khóa khả năng triệu hồi các đơn vị Secret và Vanguard thay đổi cuộc chơi.
+  </Step>
+  <Step num="2" title="Kích hoạt VIP và Tích lũy Đá quý">
+    Sở hữu gamepass VIP nếu có thể để giảm chi phí triệu hồi xuống còn 40 Đá quý. Tích lũy ít nhất 16.000 Đá quý để đảm bảo đạt được bảo hiểm Thần thoại 400 lượt.
+  </Step>
+  <Step num="3" title="Thiết lập Banner Lựa chọn của bạn">
+    Kiểm tra Banner Lựa chọn hàng ngày. Khóa đơn vị Thần thoại bậc S mong muốn để đảm bảo khi bạn đạt mức bảo hiểm 400 lượt, bạn có 50% cơ hội nhận được nhân vật cụ thể đó.
+  </Step>
+  <Step num="4" title="Sử dụng Thuốc May mắn trước khi Triệu hồi">
+    Sử dụng thuốc Super Lucky hoặc Ultra Lucky ngay trước khi bắt đầu phiên triệu hồi. Điều này tối đa hóa tỷ lệ rơi Huyền thoại và Thần thoại trong cửa sổ 1 giờ của thuốc.
+  </Step>
+  <Step num="5" title="Dọn dẹp tại Cửa hàng của Valentine">
+    Sau khi phiên triệu hồi kết thúc, hãy ghé thăm Valentine để chuyển đổi trạng thái shiny sang các đơn vị đã tiến hóa của bạn, hoặc chuẩn hóa các đơn vị shiny trùng lặp để thu thập lượt reroll thuộc tính.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Cảnh báo Tiền tệ Sự kiện">
+Hãy nhớ rằng Thuốc May mắn không làm tăng tỷ lệ rơi của các đơn vị Vanguard trên Banner Sự kiện, và giảm giá VIP không áp dụng cho các lượt triệu hồi bằng Tiền tệ Sự kiện. Hãy lập kế hoạch phân bổ tài nguyên sự kiện cho phù hợp.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mục tiêu và Cột mốc Triệu hồi">
+
+Sử dụng danh sách kiểm tra này để theo dõi tiến trình triệu hồi của bạn và đảm bảo tài khoản được tối ưu hóa cho các trận đấu cấp cao.
+
+<Checklist
+  id="summoning-milestones"
+  title="Các Cột mốc Triệu hồi:"
+  items={[
+    "Đạt Cấp độ tài khoản 10 để mở khóa rơi Secret và Vanguard",
+    "Tích lũy 16.000 Đá quý cho một lượt triệu hồi bảo hiểm Thần thoại chắc chắn",
+    "Cấu hình cài đặt Tự động Bán để tự động lọc các đơn vị Hiếm",
+    "Sở hữu ít nhất một đơn vị Thần thoại cấp cao thông qua Banner Lựa chọn",
+    "Thu thập 5 lượt reroll thuộc tính bằng cách chuẩn hóa một đơn vị Shiny không mong muốn"
+  ]}
+/>
+
+<Callout type="success" title="Mẹo về Cột mốc">
+Hoàn thành các cột mốc này đảm bảo bạn không lãng phí không gian kho đồ hoặc Đá quý vào các banner không tối ưu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi Thường gặp">
+
+<FAQ items={[
+  {
+    question: "Banner Lựa chọn có chia sẻ bảo hiểm (pity) với Banner Đặc biệt không?",
+    answer: "Có, Banner Lựa chọn và Banner Đặc biệt chia sẻ cùng một số lần đếm bảo hiểm. Bạn có thể tích lũy pity trên banner này và sử dụng trên banner kia một cách an toàn."
+  },
+  {
+    question: "Thuốc May mắn có tăng cơ hội triệu hồi đơn vị Shiny hoặc Secret không?",
+    answer: "Không. Thuốc Super Lucky và Ultra Lucky chỉ tăng cơ hội triệu hồi các đơn vị Huyền thoại và Thần thoại. Chúng không có tác động đến tỷ lệ Secret, Vanguard hoặc Shiny."
+  },
+  {
+    question: "Sự khác biệt giữa Chuyển đổi Shiny và Chuẩn hóa là gì?",
+    answer: "Chuyển đổi Shiny di chuyển trạng thái Shiny sang một bản sao khác của cùng một đơn vị với giá 20.000 Vàng, đồng thời xóa đơn vị nguồn. Chuẩn hóa loại bỏ hoàn toàn trạng thái Shiny để tặng bạn 5 lượt reroll thuộc tính, trong khi vẫn giữ lại đơn vị đó."
+  },
+  {
+    question: "Bảo hiểm Vanguard trên Banner Sự kiện có thể lặp lại không?",
+    answer: "Không. Bảo hiểm Vanguard trên Banner Sự kiện là một đảm bảo nghiêm ngặt chỉ một lần duy nhất. Khi bạn đã nhận được đơn vị Vanguard (dù thông qua pity hay triệu hồi tự nhiên may mắn), mức bảo hiểm đó sẽ được đánh dấu là đã đạt và không reset."
+  }
+]} />
+
+<Callout type="info" title="Thêm Tài nguyên">
+Để biết thêm chi tiết về chỉ số đơn vị cụ thể và các banner sự kiện sắp tới, hãy xem [Wiki Anime Vanguards](https://animevanguards.fandom.com/wiki/Summon) chính thức [1].
+</Callout>
+
+</Section>

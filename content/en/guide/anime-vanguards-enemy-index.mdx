@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Vanguards Enemy Index: Unlock & Bounty Guide",
+  description: "Learn how to unlock the Anime Vanguards enemy index, complete map milestones, farm Trait Rerolls, and beat daily boss bounties efficiently.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Enemy+Index+Guide",
+  date: "2026-06-30",
+  author: "anime vanguards Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Unlock the anime vanguards enemy index** by defeating regular enemies (1% chance) and boss enemies (3% chance) on any map.
+- **Earn massive milestone rewards** including 20 Trait Rerolls for completing the entire index of a specific map.
+- **Complete daily boss bounties** up to 10 times per day to secure 5,000 Gems and 10 Trait Rerolls.
+- **Prepare for locked stages** in bounties by progressing through the main Story and Legend modes beforehand.
+- **Ignore the invincibility visual bug** when enemies exceed the 32-bit integer HP threshold in Sandbox or Infinite modes.
+</Callout>
+
+<Section icon={Map} title="Decoding the Anime Vanguards Enemy Index">
+
+The **anime vanguards enemy index** serves as a centralized database tracking every adversary players encounter across the game's diverse environments. Managed by an NPC inspired by the character Okabe Rintarou from the anime Steins;Gate, this system provides valuable lore, structural enemy data, and progression tracking. Accessing this system allows players to understand the specific modifiers, mechanics, and mutators that different enemies carry into battle.
+
+To fill out the index, players must actively defeat enemies in various game modes. Every time an enemy falls, there is a small probability that its index entry will unlock. This mechanic encourages repeated playthroughs of both standard stages and high-difficulty raids.
+
+| Enemy Category | Base Unlock Chance | Primary Spawn Locations |
+|---|---|---|
+| Standard Enemy | 1% Chance | All Story, Raid, and Infinite stages |
+| Boss Enemy | 3% Chance | Final waves of Story and Raid maps |
+
+<Callout type="warning" title="Patience Required">
+Because regular enemies only have a 1% chance to unlock their index entry upon death, players typically need to run stages multiple times before securing a complete map log. Using high-density waves in Infinite Mode can speed up the process for standard units.
+</Callout>
+
+Defeating these targets is not just for completionists. Unlocking all boss and standard enemy entries on a specific map grants a milestone reward of 20 Trait Rerolls. This reward is essential for mid-to-late game progression, allowing players to optimize their unit loadouts for harder content.
+
+</Section>
+
+<Section icon={Trophy} title="Daily Boss Bounties and Gem Farming">
+
+Boss Bounties represent one of the most reliable daily activities for collecting premium currency and progression items. Accessible through the index NPC, these bounties assign players specific boss targets across random maps. Completing these challenges guarantees high-value resources that are otherwise difficult to farm.
+
+Each successfully completed Boss Bounty rewards the player with 1 Trait Reroll and 500 Gems. This activity is capped at 10 completions per day, resetting daily. Maximizing this daily cap yields substantial rewards that help players sustain their summon and reroll economies.
+
+| Daily Completions | Trait Rerolls Earned | Gems Accumulated |
+|---|---|---|
+| 1 Completion | 1 Reroll | 500 Gems |
+| 5 Completions | 5 Rerolls | 2,500 Gems |
+| 10 Completions (Cap) | 10 Rerolls | 5,000 Gems |
+
+<Callout type="tip" title="Unlocking Map Requirements">
+Bounties can target maps that the player has not yet unlocked through normal progression. If a high-value bounty appears on an locked map, players must progress through the main Story or Legend stages to gain access to that stage and claim the rewards.
+</Callout>
+
+The selection of maps for daily bounties is randomized, ensuring that players face a variety of challenges. However, certain high-difficulty stages, such as the EX stage of Shining Castle (Act 4), are excluded from the daily rotation to keep the average difficulty manageable for players who have reached the endgame.
+
+</Section>
+
+<Section icon={Target} title="How to Unlock the Enemy Index Efficiently">
+
+Completing the index requires a systematic approach to farming stages. Since the unlock chances are low, optimizing clear times and focusing on the correct maps will significantly reduce the time spent grinding.
+
+Follow these steps to systematically unlock all entries in your database:
+
+<Steps>
+  <Step num="1" title="Progress the Main Story">
+    Clear all available Story and Raid maps to ensure that you have access to any stage selected by the daily Boss Bounty system.
+  </Step>
+  <Step num="2" title="Identify Missing Entries">
+    Visit the index NPC in the lobby to check which maps are close to completion. Focus on maps that only require one or two more entries to claim the 20 Trait Rerolls milestone.
+  </Step>
+  <Step num="3" title="Farm High-Density Modes">
+    For standard enemies with a 1% unlock rate, run Infinite Mode on the target map. The high volume of enemy spawns increases the likelihood of unlocking missing entries quickly.
+  </Step>
+  <Step num="4" title="Target Boss Stages">
+    For bosses with a 3% unlock rate, speedrun the specific Act where the boss spawns. Use high-damage setups to minimize the time spent per run.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Milestone Claiming">
+Once all enemies and bosses for a specific map are unlocked, remember to manually claim the 20 Trait Rerolls from the index menu. These do not automatically deliver to your inventory.
+</Callout>
+
+Farming these entries systematically ensures that you do not waste time on maps that have already yielded their milestone rewards. Keep a close eye on the map list to track your completion status.
+
+| Map Name | Map Type | Notable Challenges |
+|---|---|---|
+| Planet Namak | Story Map | Basic mechanics, entry-level bosses |
+| Sand Village | Story Map | Fast-moving units, moderate waves |
+| Double Dungeon | Story Map | High health pools, split paths |
+| Shibuya Station | Story Map | Complex lane layouts, crowd control needs |
+| Spider Forest | Raid Map | High-difficulty modifiers, unique boss mechanics |
+
+</Section>
+
+<Section icon={Shield} title="Enemy Mechanics and HP Scaling Limits">
+
+Enemies in this game come with various modifiers, mechanics, and mutators that alter how they interact with your defensive towers. Understanding these traits is critical for designing successful setups, especially on higher-difficulty Legend stages and Raids.
+
+Some units possess shields that block specific damage types, while others move at extreme speeds or disable nearby towers temporarily. Preparing a balanced team of DPS, support, and slow-inflicting units is the best way to counter these diverse threats.
+
+<CardGrid cols={3}>
+  <Card title="Damage Scaling Focus">
+    - **High DPS output**
+    - Necessary for boss targets
+    - Counters high health pools
+  </Card>
+  <Card title="Crowd Control Units">
+    - **Slow and stun mechanics**
+    - Essential for fast enemies
+    - Increases tower attack windows
+  </Card>
+  <Card title="Support & Buffs">
+    - **Range and damage boosts**
+    - Optimizes placement efficiency
+    - Maximizes gold generation
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="The 32-Bit Integer Limit Bug">
+If an enemy spawns with more than 4,294,967,295 HP (2^32 - 1), its health bar will appear visually bugged, making the enemy look invincible. This is a visual overflow issue that typically occurs in Sandbox Mode, late Infinite Mode waves, or during the Arin Boss Event. The enemy is still taking damage and can be defeated once its actual HP drops below this threshold.
+</Callout>
+
+When dealing with extreme HP scaling, players should continue targeting the enemy despite the static health bar. Utilizing percentage-based damage or stacking high-tier buffs will help bring the enemy's health down to readable levels.
+
+</Section>
+
+<Section icon={Trophy} title="Index Progression Goals">
+
+To make the most of the index system, players should set clear progression goals. Prioritizing milestone rewards early on provides the resources needed to roll top-tier traits, which in turn makes clearing daily bounties much easier.
+
+Use this checklist to track your overall progress with the index system:
+
+<Checklist
+  id="index-progression"
+  title="Index Completion Milestones:"
+  items={[
+    "Unlock the Index NPC in the main lobby",
+    "Complete the Planet Namak index for the first milestone reward",
+    "Reach the daily cap of 10 Boss Bounties in a single day",
+    "Unlock all enemy entries for at least three Story maps",
+    "Secure a full index completion for the Spider Forest Raid map"
+  ]}
+/>
+
+<Callout type="info" title="Trait Reroll Allocation">
+Save the Trait Rerolls obtained from index milestones for your Mythic and Secret units. Rolling powerful traits like Monarch or Unique on support and primary DPS units will drastically lower the difficulty of daily bounties.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock the anime vanguards enemy index NPC?",
+    answer: "The index NPC, modeled after Okabe Rintarou, is available in the main lobby area. You can interact with him at any time to view your enemy collection progress and accept daily bounties."
+  },
+  {
+    question: "Why is a Boss Bounty map locked for me?",
+    answer: "Boss Bounties select maps at random from the entire game pool. If a bounty is set on a map you have not unlocked, you must progress through the main Story mode to unlock that specific stage before you can play the bounty."
+  },
+  {
+    question: "Do Sandbox Mode defeats count toward unlocking index entries?",
+    answer: "No, defeating enemies in Sandbox Mode does not unlock index entries. You must defeat them in standard Story, Legend, Raid, or Infinite modes to trigger the unlock chance."
+  },
+  {
+    question: "What is the daily reset time for Boss Bounties?",
+    answer: "Boss Bounties reset daily along with the standard server reset time, allowing you to farm another 10 completions for 5,000 Gems and 10 Trait Rerolls."
+  }
+]} />
+
+<Callout type="tip" title="Final Tip">
+Always check the daily bounty rotation immediately after logging in. If the maps are easy, clearing all 10 runs takes minimal time and provides a massive boost to your progression economy.
+</Callout>
+
+</Section>

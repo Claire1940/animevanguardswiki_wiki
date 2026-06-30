@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Danh mục Kẻ địch Anime Vanguards: Hướng dẫn Mở khóa & Săn tiền thưởng",
+  description: "Tìm hiểu cách mở khóa danh mục kẻ địch Anime Vanguards, hoàn thành các mốc bản đồ, cày Trait Reroll và đánh bại boss săn tiền thưởng hàng ngày một cách hiệu quả.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Enemy+Index+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Anime Vanguards",
+  keywords: "anime vanguards, danh mục kẻ địch, hướng dẫn mở khóa, boss săn tiền thưởng, trait reroll"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Mở khóa danh mục kẻ địch Anime Vanguards** bằng cách đánh bại kẻ địch thông thường (1% cơ hội) và kẻ địch boss (3% cơ hội) trên bất kỳ bản đồ nào.
+- **Nhận phần thưởng mốc cực lớn** bao gồm 20 lượt Trait Reroll khi hoàn thành toàn bộ danh mục của một bản đồ cụ thể.
+- **Hoàn thành săn tiền thưởng boss hàng ngày** tối đa 10 lần mỗi ngày để nhận 5.000 Đá quý và 10 lượt Trait Reroll.
+- **Chuẩn bị cho các màn chơi bị khóa** trong nhiệm vụ săn tiền thưởng bằng cách tiến trình qua chế độ Cốt truyện (Story) và Huyền thoại (Legend) trước đó.
+- **Bỏ qua lỗi hiển thị bất tử** khi kẻ địch vượt quá ngưỡng HP số nguyên 32-bit trong chế độ Hộp cát (Sandbox) hoặc Vô hạn (Infinite).
+</Callout>
+
+<Section icon={Map} title="Giải mã Danh mục Kẻ địch Anime Vanguards">
+
+**Danh mục kẻ địch Anime Vanguards** đóng vai trò là cơ sở dữ liệu tập trung theo dõi mọi đối thủ mà người chơi gặp phải trong các môi trường đa dạng của trò chơi. Được quản lý bởi một NPC lấy cảm hứng từ nhân vật Okabe Rintarou trong bộ anime Steins;Gate, hệ thống này cung cấp cốt truyện giá trị, dữ liệu cấu trúc kẻ địch và theo dõi tiến trình. Truy cập hệ thống này cho phép người chơi hiểu các công cụ sửa đổi, cơ chế và đột biến cụ thể mà các kẻ địch khác nhau mang vào trận chiến.
+
+Để lấp đầy danh mục, người chơi phải tích cực đánh bại kẻ địch trong các chế độ chơi khác nhau. Mỗi khi một kẻ địch bị hạ gục, có một xác suất nhỏ là mục nhập của nó trong danh mục sẽ được mở khóa. Cơ chế này khuyến khích việc chơi lại nhiều lần cả các màn chơi tiêu chuẩn và các phó bản (raid) độ khó cao.
+
+| Phân loại Kẻ địch | Tỷ lệ Mở khóa Cơ bản | Vị trí Xuất hiện Chính |
+|---|---|---|
+| Kẻ địch Thông thường | 1% Cơ hội | Tất cả các màn Cốt truyện (Story), Raid và Vô hạn (Infinite) |
+| Kẻ địch Boss | 3% Cơ hội | Các đợt (wave) cuối cùng của bản đồ Cốt truyện và Raid |
+
+<Callout type="warning" title="Yêu cầu sự Kiên nhẫn">
+Vì kẻ địch thông thường chỉ có 1% cơ hội mở khóa mục danh mục của chúng khi bị hạ gục, người chơi thường cần phải chạy các màn chơi nhiều lần trước khi hoàn thành nhật ký bản đồ. Việc sử dụng các đợt lính mật độ cao trong Chế độ Vô hạn (Infinite Mode) có thể tăng tốc quá trình này cho các đơn vị tiêu chuẩn.
+</Callout>
+
+Đánh bại các mục tiêu này không chỉ dành cho những người thích sưu tầm. Việc mở khóa tất cả các mục boss và kẻ địch thông thường trên một bản đồ cụ thể sẽ trao phần thưởng mốc là 20 lượt Trait Reroll. Phần thưởng này rất cần thiết cho tiến trình giữa đến cuối game, cho phép người chơi tối ưu hóa trang bị đơn vị của họ cho các nội dung khó hơn.
+
+</Section>
+
+<Section icon={Trophy} title="Săn Tiền thưởng Boss Hàng ngày và Cày Đá quý">
+
+Săn Tiền thưởng Boss (Boss Bounties) đại diện cho một trong những hoạt động hàng ngày đáng tin cậy nhất để thu thập tiền tệ cao cấp và các vật phẩm tiến trình. Có thể truy cập thông qua NPC danh mục, những nhiệm vụ săn tiền thưởng này chỉ định cho người chơi các mục tiêu boss cụ thể trên các bản đồ ngẫu nhiên. Hoàn thành các thử thách này đảm bảo nhận được các tài nguyên giá trị cao mà nếu không thì rất khó cày cuốc.
+
+Mỗi nhiệm vụ Săn Tiền thưởng Boss hoàn thành thành công sẽ thưởng cho người chơi 1 lượt Trait Reroll và 500 Đá quý. Hoạt động này giới hạn ở mức 10 lần hoàn thành mỗi ngày, đặt lại hàng ngày. Tối đa hóa giới hạn hàng ngày này mang lại phần thưởng đáng kể giúp người chơi duy trì nền kinh tế triệu hồi và reroll của họ.
+
+| Số lần Hoàn thành Hàng ngày | Số lượt Trait Reroll Nhận được | Số Đá quý Tích lũy |
+|---|---|---|
+| 1 Lần hoàn thành | 1 Lượt Reroll | 500 Đá quý |
+| 5 Lần hoàn thành | 5 Lượt Reroll | 2.500 Đá quý |
+| 10 Lần hoàn thành (Giới hạn) | 10 Lượt Reroll | 5.000 Đá quý |
+
+<Callout type="tip" title="Mở khóa Yêu cầu Bản đồ">
+Nhiệm vụ săn tiền thưởng có thể nhắm vào các bản đồ mà người chơi chưa mở khóa thông qua tiến trình thông thường. Nếu một nhiệm vụ săn tiền thưởng giá trị cao xuất hiện trên bản đồ bị khóa, người chơi phải tiến hành qua các màn Cốt truyện (Story) hoặc Huyền thoại (Legend) chính để có quyền truy cập vào màn đó và nhận phần thưởng.
+</Callout>
+
+Việc lựa chọn bản đồ cho các nhiệm vụ săn tiền thưởng hàng ngày là ngẫu nhiên, đảm bảo rằng người chơi phải đối mặt với nhiều thử thách khác nhau. Tuy nhiên, một số màn chơi có độ khó cao, chẳng hạn như màn EX của Lâu đài Tỏa sáng (Shining Castle - Phân đoạn 4), bị loại khỏi vòng xoay hàng ngày để giữ cho độ khó trung bình ở mức dễ quản lý đối với những người chơi đã đạt đến giai đoạn cuối game.
+
+</Section>
+
+<Section icon={Target} title="Cách Mở khóa Danh mục Kẻ địch một cách Hiệu quả">
+
+Hoàn thành danh mục đòi hỏi một cách tiếp cận có hệ thống để cày các màn chơi. Vì tỷ lệ mở khóa thấp, việc tối ưu hóa thời gian dọn bàn và tập trung vào các bản đồ chính xác sẽ giảm đáng kể thời gian cày cuốc.
+
+Làm theo các bước sau để mở khóa một cách hệ thống tất cả các mục trong cơ sở dữ liệu của bạn:
+
+<Steps>
+  <Step num="1" title="Tiến triển Cốt truyện Chính">
+    Vượt ải tất cả các bản đồ Cốt truyện và Raid có sẵn để đảm bảo rằng bạn có quyền truy cập vào bất kỳ màn chơi nào được chọn bởi hệ thống Săn Tiền thưởng Boss hàng ngày.
+  </Step>
+  <Step num="2" title="Xác định các Mục còn Thiếu">
+    Gặp NPC danh mục ở sảnh để kiểm tra xem bản đồ nào sắp hoàn thành. Tập trung vào các bản đồ chỉ cần thêm một hoặc hai mục nữa để nhận mốc phần thưởng 20 lượt Trait Reroll.
+  </Step>
+  <Step num="3" title="Cày các Chế độ Mật độ Cao">
+    Đối với kẻ địch thông thường có tỷ lệ mở khóa 1%, hãy chạy Chế độ Vô hạn (Infinite Mode) trên bản đồ mục tiêu. Số lượng kẻ địch xuất hiện lớn sẽ tăng khả năng mở khóa các mục còn thiếu một cách nhanh chóng.
+  </Step>
+  <Step num="4" title="Nhắm mục tiêu các Màn Boss">
+    Đối với các boss có tỷ lệ mở khóa 3%, hãy chạy nhanh (speedrun) Phân đoạn (Act) cụ thể nơi boss xuất hiện. Sử dụng các đội hình sát thương cao để giảm thiểu thời gian cho mỗi lượt chơi.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Nhận Phần thưởng Mốc">
+Khi tất cả kẻ địch và boss của một bản đồ cụ thể đã được mở khóa, hãy nhớ nhận thủ công 20 lượt Trait Reroll từ menu danh mục. Chúng không tự động gửi vào kho đồ của bạn.
+</Callout>
+
+Cày các mục này một cách hệ thống đảm bảo rằng bạn không lãng phí thời gian vào các bản đồ đã nhận phần thưởng mốc. Hãy để ý kỹ danh sách bản đồ để theo dõi trạng thái hoàn thành của bạn.
+
+| Tên Bản đồ | Loại Bản đồ | Thử thách Đáng chú ý |
+|---|---|---|
+| Hành tinh Namak | Bản đồ Cốt truyện | Cơ chế cơ bản, boss cấp độ nhập môn |
+| Làng Cát | Bản đồ Cốt truyện | Các đơn vị di chuyển nhanh, số đợt vừa phải |
+| Hầm ngục Kép | Bản đồ Cốt truyện | Lượng máu lớn, đường đi bị chia tách |
+| Ga Shibuya | Bản đồ Cốt truyện | Bố cục làn đường phức tạp, cần kiểm soát đám đông |
+| Rừng Nhện | Bản đồ Raid | Các công cụ sửa đổi độ khó cao, cơ chế boss độc đáo |
+
+</Section>
+
+<Section icon={Shield} title="Cơ chế Kẻ địch và Giới hạn Tỷ lệ HP">
+
+Kẻ địch trong trò chơi này đi kèm với nhiều công cụ sửa đổi, cơ chế và đột biến khác nhau làm thay đổi cách chúng tương tác với các tháp phòng thủ của bạn. Hiểu các đặc điểm này là rất quan trọng để thiết kế các đội hình thành công, đặc biệt là trên các màn chơi Huyền thoại (Legend) độ khó cao và các phó bản Raid.
+
+Một số đơn vị sở hữu lá chắn chặn các loại sát thương cụ thể, trong khi những đơn vị khác di chuyển với tốc độ cực nhanh hoặc tạm thời vô hiệu hóa các tháp phòng thủ gần đó. Chuẩn bị một đội hình cân bằng gồm DPS, hỗ trợ và các đơn vị gây làm chậm là cách tốt nhất để chống lại các mối đe dọa đa dạng này.
+
+<CardGrid cols={3}>
+  <Card title="Tập trung vào Tỷ lệ Sát thương">
+    - **Lượng sát thương DPS cao**
+    - Cần thiết cho các mục tiêu boss
+    - Khắc chế lượng máu lớn
+  </Card>
+  <Card title="Đơn vị Kiểm soát Đám đông">
+    - **Cơ chế làm chậm và làm choáng**
+    - Thiết yếu cho kẻ địch nhanh
+    - Tăng thời gian tấn công của tháp
+  </Card>
+  <Card title="Hỗ trợ & Tăng sức mạnh">
+    - **Tăng tầm đánh và sát thương**
+    - Tối ưu hóa hiệu quả đặt tháp
+    - Tối đa hóa lượng vàng tạo ra
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Lỗi Giới hạn Số nguyên 32-Bit">
+Nếu một kẻ địch xuất hiện với lượng HP lớn hơn 4.294.967.295 (2^32 - 1), thanh máu của nó sẽ hiển thị bị lỗi, khiến kẻ địch trông như bất tử. Đây là lỗi tràn hiển thị thường xảy ra trong Chế độ Hộp cát (Sandbox Mode), các đợt Chế độ Vô hạn (Infinite Mode) về sau, hoặc trong Sự kiện Boss Arin. Kẻ địch vẫn đang nhận sát thương và có thể bị đánh bại khi HP thực tế của nó giảm xuống dưới ngưỡng này.
+</Callout>
+
+Khi đối phó với tỷ lệ HP cực lớn, người chơi nên tiếp tục nhắm mục tiêu vào kẻ địch bất kể thanh máu bị đứng yên. Việc sử dụng sát thương theo phần trăm hoặc cộng dồn các bùa lợi cấp cao sẽ giúp đưa máu của kẻ địch xuống mức có thể đọc được.
+
+</Section>
+
+<Section icon={Trophy} title="Mục tiêu Tiến trình Danh mục">
+
+Để tận dụng tối đa hệ thống danh mục, người chơi nên đặt ra các mục tiêu tiến trình rõ ràng. Việc ưu tiên các phần thưởng mốc sớm sẽ cung cấp các tài nguyên cần thiết để quay các thiên phú hàng đầu, từ đó giúp việc hoàn thành các nhiệm vụ săn tiền thưởng hàng ngày trở nên dễ dàng hơn nhiều.
+
+Sử dụng danh sách kiểm tra này để theo dõi tiến trình tổng thể của bạn với hệ thống danh mục:
+
+<Checklist
+  id="index-progression"
+  title="Các mốc Hoàn thành Danh mục:"
+  items={[
+    "Mở khóa NPC Danh mục ở sảnh chính",
+    "Hoàn thành danh mục Hành tinh Namak để nhận phần thưởng mốc đầu tiên",
+    "Đạt giới hạn hàng ngày 10 nhiệm vụ Săn Tiền thưởng Boss trong một ngày",
+    "Mở khóa tất cả các mục kẻ địch cho ít nhất ba bản đồ Cốt truyện",
+    "Hoàn thành toàn bộ danh mục cho bản đồ Raid Rừng Nhện"
+  ]}
+/>
+
+<Callout type="info" title="Phân bổ Trait Reroll">
+Hãy tiết kiệm các lượt Trait Reroll có được từ các mốc danh mục cho các đơn vị Thần thoại (Mythic) và Bí mật (Secret) của bạn. Việc quay được các thiên phú mạnh mẽ như Quân vương (Monarch) hoặc Độc nhất (Unique) trên các đơn vị hỗ trợ và DPS chính sẽ giảm đáng kể độ khó của các nhiệm vụ săn tiền thưởng hàng ngày.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi Thường gặp">
+
+<FAQ items={[
+  {
+    question: "Làm cách nào để mở khóa NPC danh mục kẻ địch Anime Vanguards?",
+    answer: "NPC danh mục, được mô phỏng theo Okabe Rintarou, có sẵn ở khu vực sảnh chính. Bạn có thể tương tác với anh ta bất cứ lúc nào để xem tiến trình thu thập kẻ địch của mình và nhận các nhiệm vụ săn tiền thưởng hàng ngày."
+  },
+  {
+    question: "Tại sao bản đồ Săn Tiền thưởng Boss lại bị khóa đối với tôi?",
+    answer: "Săn Tiền thưởng Boss chọn ngẫu nhiên các bản đồ từ toàn bộ danh sách của trò chơi. Nếu một nhiệm vụ săn tiền thưởng được đặt trên một bản đồ bạn chưa mở khóa, bạn phải tiến hành qua chế độ Cốt truyện chính để mở khóa màn chơi cụ thể đó trước khi có thể chơi nhiệm vụ săn tiền thưởng."
+  },
+  {
+    question: "Việc đánh bại kẻ địch trong Chế độ Hộp cát (Sandbox Mode) có được tính vào việc mở khóa các mục danh mục không?",
+    answer: "Không, đánh bại kẻ địch trong Chế độ Hộp cát không mở khóa các mục danh mục. Bạn phải đánh bại chúng trong các chế độ Cốt truyện (Story), Huyền thoại (Legend), Raid hoặc Vô hạn (Infinite) tiêu chuẩn để kích hoạt cơ hội mở khóa."
+  },
+  {
+    question: "Thời gian đặt lại hàng ngày cho Săn Tiền thưởng Boss là khi nào?",
+    answer: "Săn Tiền thưởng Boss đặt lại hàng ngày cùng với thời gian đặt lại máy chủ tiêu chuẩn, cho phép bạn cày thêm 10 lần hoàn thành nữa để nhận 5.000 Đá quý và 10 lượt Trait Reroll."
+  }
+]} />
+
+<Callout type="tip" title="Mẹo Cuối cùng">
+Luôn kiểm tra vòng xoay săn tiền thưởng hàng ngày ngay sau khi đăng nhập. Nếu các bản đồ dễ, việc hoàn thành cả 10 lượt chạy chỉ tốn rất ít thời gian và mang lại cú hích lớn cho nền kinh tế tiến trình của bạn.
+</Callout>
+
+</Section>

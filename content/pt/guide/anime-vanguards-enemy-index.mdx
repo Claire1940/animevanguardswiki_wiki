@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Índice de Inimigos de Vanguardas de Anime: Guia de Desbloqueio e Caçadas",
+  description: "Saiba como desbloquear o índice de inimigos de Vanguardas de Anime, completar marcos de mapas, farmar Rerolls de Características e vencer caçadas diárias de chefes com eficiência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Enemy+Index+Guide",
+  date: "2026-06-30",
+  author: "Equipe da Wiki de Vanguardas de Anime"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Desbloqueie o índice de inimigos de Vanguardas de Anime** derrotando inimigos comuns (1% de chance) e chefes (3% de chance) em qualquer mapa.
+- **Ganhe recompensas massivas de marcos**, incluindo 20 Rerolls de Características (Trait Rerolls) ao completar todo o índice de um mapa específico.
+- **Complete caçadas diárias de chefes** até 10 vezes por dia para garantir 5.000 Gemas e 10 Rerolls de Características.
+- **Prepare-se para fases bloqueadas** nas caçadas progredindo nos modos História e Lenda com antecedência.
+- **Ignore o bug visual de invencibilidade** quando os inimigos excederem o limite de HP de número inteiro de 32 bits nos modos Sandbox ou Infinito.
+</Callout>
+
+<Section icon={Map} title="Decifrando o Índice de Inimigos de Vanguardas de Anime">
+
+O **índice de inimigos de Vanguardas de Anime** serve como um banco de dados centralizado que rastreia todos os adversários que os jogadores encontram nos diversos ambientes do jogo. Gerenciado por um NPC inspirado no personagem Okabe Rintarou do anime Steins;Gate, este sistema fornece uma rica história (lore), dados estruturais dos inimigos e rastreamento de progresso. Acessar este sistema permite que os jogadores entendam os modificadores, mecânicas e mutadores específicos que diferentes inimigos trazem para a batalha.
+
+Para preencher o índice, os jogadores devem derrotar ativamente os inimigos em vários modos de jogo. Cada vez que um inimigo cai, há uma pequena probabilidade de que sua entrada no índice seja desbloqueada. Essa mecânica incentiva a jogar repetidamente tanto as fases padrão quanto as incursões (raids) de alta dificuldade.
+
+| Categoria de Inimigo | Chance Base de Desbloqueio | Locais Principais de Spawn |
+|---|---|---|
+| Inimigo Comum | 1% de Chance | Todas as fases de História, Raid e Infinito |
+| Chefe | 3% de Chance | Ondas finais dos mapas de História e Raid |
+
+<Callout type="warning" title="Paciência Necessária">
+Como os inimigos comuns têm apenas 1% de chance de desbloquear sua entrada no índice ao morrer, os jogadores geralmente precisam jogar as fases várias vezes antes de garantir um registro completo do mapa. Usar ondas de alta densidade no Modo Infinito pode acelerar o processo para unidades comuns.
+</Callout>
+
+Derrotar esses alvos não é apenas para os colecionadores. Desbloquear todas as entradas de chefes e inimigos comuns em um mapa específico concede uma recompensa de marco de 20 Rerolls de Características. Essa recompensa é essencial para a progressão do meio ao fim do jogo (mid-to-late game), permitindo que os jogadores otimizem as builds de suas unidades para conteúdos mais difíceis.
+
+</Section>
+
+<Section icon={Trophy} title="Caçadas Diárias de Chefes e Farm de Gemas">
+
+As Caçadas de Chefes (Boss Bounties) representam uma das atividades diárias mais confiáveis para coletar moedas premium e itens de progressão. Acessíveis através do NPC do índice, essas caçadas designam alvos específicos de chefes para os jogadores em mapas aleatórios. Concluir esses desafios garante recursos de alto valor que, de outra forma, seriam difíceis de farmar.
+
+Cada Caçada de Chefe concluída com sucesso recompensa o jogador com 1 Reroll de Característica e 500 Gemas. Esta atividade é limitada a 10 conclusões por dia, reiniciando diariamente. Maximizar esse limite diário rende recompensas substanciais que ajudam os jogadores a sustentar suas economias de invocação e reroll.
+
+| Conclusões Diárias | Rerolls de Características Ganhos | Gemas Acumuladas |
+|---|---|---|
+| 1 Conclusão | 1 Reroll | 500 Gemas |
+| 5 Conclusões | 5 Rerolls | 2.500 Gemas |
+| 10 Conclusões (Limite) | 10 Rerolls | 5.000 Gemas |
+
+<Callout type="tip" title="Desbloqueando Requisitos de Mapa">
+As caçadas podem ter como alvo mapas que o jogador ainda não desbloqueou na progressão normal. Se uma caçada de alto valor aparecer em um mapa bloqueado, os jogadores deverão progredir nas fases principais de História ou Lenda para obter acesso a essa fase e resgatar as recompensas.
+</Callout>
+
+A seleção de mapas para as caçadas diárias é aleatória, garantindo que os jogadores enfrentem uma variedade de desafios. No entanto, certas fases de alta dificuldade, como a fase EX do Castelo Brilhante (Shining Castle) (Ato 4), são excluídas da rotação diária para manter a dificuldade média gerenciável para os jogadores que chegaram ao endgame.
+
+</Section>
+
+<Section icon={Target} title="Como Desbloquear o Índice de Inimigos com Eficiência">
+
+Completar o índice requer uma abordagem sistemática para farmar as fases. Como as chances de desbloqueio são baixas, otimizar os tempos de conclusão e focar nos mapas corretos reduzirá significativamente o tempo gasto no grind.
+
+Siga estes passos para desbloquear sistematicamente todas as entradas em seu banco de dados:
+
+<Steps>
+  <Step num="1" title="Progredir na História Principal">
+    Limpe todos os mapas disponíveis de História e Raid para garantir que você tenha acesso a qualquer fase selecionada pelo sistema diário de Caçadas de Chefes.
+  </Step>
+  <Step num="2" title="Identificar Entradas Ausentes">
+    Visite o NPC do índice no lobby para verificar quais mapas estão próximos da conclusão. Foque nos mapas que precisam de apenas mais uma ou duas entradas para resgatar o marco de 20 Rerolls de Características.
+  </Step>
+  <Step num="3" title="Farmar Modos de Alta Densidade">
+    Para inimigos comuns com uma taxa de desbloqueio de 1%, jogue o Modo Infinito no mapa desejado. O alto volume de spawns de inimigos aumenta a probabilidade de desbloquear as entradas ausentes rapidamente.
+  </Step>
+  <Step num="4" title="Focar em Fases de Chefes">
+    Para chefes com uma taxa de desbloqueio de 3%, faça speedruns do Ato específico onde o chefe aparece. Use composições de alto dano para minimizar o tempo gasto por partida.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Resgate de Marcos">
+Assim que todos os inimigos e chefes de um mapa específico forem desbloqueados, lembre-se de resgatar manualmente os 20 Rerolls de Características no menu do índice. Eles não são entregues automaticamente no seu inventário.
+</Callout>
+
+Farmar essas entradas de forma sistemática garante que você não perca tempo em mapas que já renderam suas recompensas de marco. Fique de olho na lista de mapas para acompanhar seu progresso de conclusão.
+
+| Nome do Mapa | Tipo de Mapa | Desafios Notáveis |
+|---|---|---|
+| Planeta Namak | Mapa de História | Mecânicas básicas, chefes de nível inicial |
+| Vila da Areia | Mapa de História | Unidades rápidas, ondas moderadas |
+| Masmorra Dupla | Mapa de História | Grande quantidade de vida, caminhos divididos |
+| Estação de Shibuya | Mapa de História | Layouts de rotas complexos, necessidade de controle de grupo |
+| Floresta de Aranhas | Mapa de Raid | Modificadores de alta dificuldade, mecânicas de chefe únicas |
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Inimigos e Limites de Escalonamento de HP">
+
+Os inimigos neste jogo vêm com vários modificadores, mecânicas e mutadores que alteram a forma como interagem com suas torres defensivas. Compreender essas características é fundamental para criar composições de sucesso, especialmente em fases de Lenda de alta dificuldade e Raids.
+
+Algumas unidades possuem escudos que bloqueiam tipos específicos de dano, enquanto outras se movem em velocidades extremas ou desativam torres próximas temporariamente. Preparar uma equipe equilibrada de DPS, suporte e unidades que aplicam lentidão é a melhor maneira de combater essas diversas ameaças.
+
+<CardGrid cols={3}>
+  <Card title="Foco em Escalonamento de Dano">
+    - **Alto dano por segundo (DPS)**
+    - Necessário para alvos chefes
+    - Combate grandes quantidades de vida
+  </Card>
+  <Card title="Unidades de Controle de Grupo">
+    - **Mecânicas de lentidão e atordoamento**
+    - Essencial para inimigos rápidos
+    - Aumenta as janelas de ataque das torres
+  </Card>
+  <Card title="Suporte e Buffs">
+    - **Aumentos de alcance e dano**
+    - Otimiza a eficiência de posicionamento
+    - Maximiza a geração de ouro
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="O Bug do Limite de Inteiro de 32 Bits">
+Se um inimigo surgir com mais de 4.294.967.295 de HP (2^32 - 1), sua barra de vida parecerá visualmente bugada, fazendo com que o inimigo pareça invencível. Esse é um problema de estouro visual (overflow) que normalmente ocorre no Modo Sandbox, em ondas avançadas do Modo Infinito ou durante o Evento de Chefe do Arin. O inimigo ainda está recebendo dano e pode ser derrotado assim que seu HP real cair abaixo desse limite.
+</Callout>
+
+Ao lidar com o escalonamento extremo de HP, os jogadores devem continuar atacando o inimigo, apesar da barra de vida estática. Utilizar dano baseado em porcentagem ou acumular buffs de alto nível ajudará a reduzir a vida do inimigo para níveis legíveis.
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progressão do Índice">
+
+Para aproveitar ao máximo o sistema de índice, os jogadores devem estabelecer objetivos claros de progressão. Priorizar as recompensas de marcos desde o início fornece os recursos necessários para obter características de alto nível, o que por sua vez facilita muito a conclusão das caçadas diárias.
+
+Use esta lista para acompanhar seu progresso geral com o sistema de índice:
+
+<Checklist
+  id="index-progression"
+  title="Marcos de Conclusão do Índice:"
+  items={[
+    "Desbloquear o NPC do Índice no lobby principal",
+    "Completar o índice do Planeta Namak para obter a primeira recompensa de marco",
+    "Alcançar o limite diário de 10 Caçadas de Chefes em um único dia",
+    "Desbloquear todas as entradas de inimigos de pelo menos três mapas de História",
+    "Garantir a conclusão total do índice para o mapa de Raid Floresta de Aranhas"
+  ]}
+/>
+
+<Callout type="info" title="Alocação de Rerolls de Características">
+Guarde os Rerolls de Características obtidos nos marcos do índice para suas unidades Míticas (Mythic) e Secretas (Secret). Obter características poderosas como Monarca (Monarch) ou Único (Unique) em unidades de suporte e DPS principais reduzirá drasticamente a dificuldade das caçadas diárias.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear o NPC do índice de inimigos de Vanguardas de Anime?",
+    answer: "O NPC do índice, inspirado em Okabe Rintarou, está disponível na área do lobby principal. Você pode interagir com ele a qualquer momento para ver o progresso da sua coleção de inimigos e aceitar caçadas diárias."
+  },
+  {
+    question: "Por que um mapa de Caçada de Chefe está bloqueado para mim?",
+    answer: "As Caçadas de Chefes selecionam mapas aleatoriamente de toda a lista do jogo. Se uma caçada for definida em um mapa que você não desbloqueou, você deverá progredir no modo História principal para desbloquear essa fase específica antes de poder jogar a caçada."
+  },
+  {
+    question: "As derrotas no Modo Sandbox contam para desbloquear entradas do índice?",
+    answer: "Não, derrotar inimigos no Modo Sandbox não desbloqueia entradas no índice. Você deve derrotá-los nos modos padrão de História, Lenda, Raid ou Infinito para ativar a chance de desbloqueio."
+  },
+  {
+    question: "Qual é o horário de reinicialização diária das Caçadas de Chefes?",
+    answer: "As Caçadas de Chefes reiniciam diariamente junto com o horário padrão de reinicialização do servidor, permitindo que você farme mais 10 conclusões para obter 5.000 Gemas e 10 Rerolls de Características."
+  }
+]} />
+
+<Callout type="tip" title="Dica Final">
+Sempre verifique a rotação de caçadas diárias imediatamente após fazer login. Se os mapas forem fáceis, concluir todas as 10 partidas leva pouquíssimo tempo e fornece um grande impulso para a economia de sua progressão.
+</Callout>
+
+</Section>

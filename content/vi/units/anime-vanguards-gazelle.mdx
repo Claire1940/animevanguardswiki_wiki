@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Gazelle: Hướng dẫn tiến hóa từng bước & Chỉ số",
+  description: "Làm chủ đơn vị Gazelle trong Anime Vanguards với hướng dẫn của chúng tôi về yêu cầu tiến hóa, cách farm Trái tim Socola và cơ chế nội tại Tiệc Xác Chết.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Gazelle+Evolution+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Anime Vanguards"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anime vanguards gazelle** là một đơn vị Thần Thoại (Mythic) ban đầu có thể nhận được thông qua Cửa hàng Tình Yêu (Love Shop) trong Sự kiện Tình Yêu giới hạn thời gian.
+- **Yêu cầu tiến hóa** bao gồm việc thu thập Xương Năng Lượng (Energy Bone) từ Cổng Tình Yêu (Love Portals) và tích lũy tổng cộng 5.000 lượt hạ gục.
+- **Nội tại Tiệc Xác Chết (Corpse Party)** cho phép Gazelle hồi sinh tối đa 120 kẻ địch bị đánh bại làm đồng minh, gây ra 30% sát thương cơ bản của cô ấy.
+- **Thiên phú tốt nhất (Best Trait)** cho đơn vị này là Quân Vương (Monarch), mặc dù Thái Dương (Solar) hoặc Thiện Xạ (Deadeye) là những lựa chọn thay thế khả thi về tầm đánh và tốc độ.
+- **Vị trí chiến lược** là chìa khóa; Gazelle hoạt động tốt nhất ở gần điểm bắt đầu của đường đi để tối đa hóa việc chiêu mộ thây ma.
+</Callout>
+
+<Section icon={Map} title="Cách sở hữu Gazelle trong Anime Vanguards">
+
+Đơn vị **anime vanguards gazelle**, lấy cảm hứng từ nhân vật biểu tượng Giselle Gewelle trong loạt phim Bleach, là một sự bổ sung Thần Thoại độc đáo vào danh sách tướng. Không giống như các đơn vị thông thường tìm thấy trong cổng triệu hồi, Gazelle được giới thiệu như một phần thưởng cho Sự kiện Tình Yêu. Người chơi phải điều hướng qua các cơ chế của Cửa hàng Tình Yêu và các cổng cấp cao để sở hữu thế lực triệu hồi thây ma này.
+
+**Điểm nhấn Video:**
+- Hướng dẫn chi tiết về Sự kiện Tình Yêu và giao diện Cửa hàng Tình Yêu.
+- Chiến thuật vượt Cổng Tình Yêu Cấp 10 để tối đa hóa lượng Trái tim Socola nhận được.
+- Quá trình tiến hóa bao gồm việc rơi Xương Năng Lượng và các yêu cầu về tinh hoa.
+- Trình diễn biến thể Gazelle Lấp Lánh (Shiny) và trang phục lấy cảm hứng từ hầu gái độc đáo của cô ấy.
+
+<YouTubeEmbed videoId="A6-jKvoCDtk" title="Sở hữu 0.1% Giselle LẤP LÁNH (SHINY) Trong Anime Vanguards" />
+
+Để mua Gazelle, bạn cần farm **Trái tim Socola (Chocolate Hearts)**, loại tiền tệ độc quyền của Sự kiện Tình Yêu. Chúng chủ yếu kiếm được bằng cách hoàn thành Cổng Tình Yêu. Một điều quan trọng cần lưu ý là Cổng Tình Yêu **yêu cầu Chơi Đôi (Duo)**, nghĩa là bạn phải có ít nhất hai người chơi để bắt đầu trận đấu. Nếu bạn là người chơi đơn, sử dụng một tài khoản phụ là chiến thuật phổ biến để lách qua hạn chế này.
+
+| Phương thức sở hữu | Yêu cầu | Thời gian khả dụng |
+| :--- | :--- | :--- |
+| **Cửa hàng Tình Yêu** | 50.000 Trái tim Socola | Sự kiện giới hạn |
+| **Cổng Tình Yêu** | Hoàn thành Cấp 1-10 | Bắt buộc để kiếm tiền tệ |
+| **Giao dịch** | Đề nghị Thần Thoại giá trị cao | Người chơi với Người chơi |
+
+<Callout type="warning" title="Yêu cầu Chơi Đôi">
+Bạn không thể bắt đầu Cổng Tình Yêu một mình. Hãy đảm bảo bạn có một người bạn hoặc một tài khoản phụ trong sảnh chờ, nếu không bạn sẽ không thể farm đủ số Trái tim Socola cần thiết cho đơn vị **anime vanguards gazelle**.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hướng dẫn tiến hóa: Biến hình thành Gazelle (Zombie)">
+
+Tiến hóa **anime vanguards gazelle** của bạn thành dạng **Zombie** sẽ tăng đáng kể lượng sát thương đầu ra của cô ấy và mở khóa toàn bộ tiềm năng các kỹ năng nội tại. Quá trình tiến hóa tốn rất nhiều tài nguyên, đòi hỏi sự kết hợp của các vật phẩm sự kiện cụ thể và các loại tinh hoa khác nhau có thể chế tạo hoặc tìm thấy trong các thử thách.
+
+### Yêu cầu tiến hóa
+
+Trước khi có thể kích hoạt tiến hóa, bạn phải đạt **5.000 lượt hạ gục** với Gazelle. Cách tốt nhất để đạt được điều này là đặt cô ấy trong Chế độ Vô tận (Infinite Mode) ở các bản đồ có độ khó thấp hơn như Làng Cát (Sand Village) hoặc Hành tinh Namic (Planet Namic), nơi kẻ địch yếu và xuất hiện rất nhiều.
+
+| Tên vật phẩm | Số lượng yêu cầu | Nguồn chính |
+| :--- | :--- | :--- |
+| **Xương Năng Lượng (Energy Bone)** | 1 | Rơi từ Cổng Tình Yêu (Tỷ lệ 5%) |
+| **Tinh hoa Lục (Green Essence)** | 30 | Thử thách / Chế tạo |
+| **Tinh hoa Lam (Blue Essence)** | 20 | Thử thách / Chế tạo |
+| **Tinh hoa Tím (Purple Essence)** | 15 | Ải Huyền Thoại / Chế tạo |
+| **Tinh hoa Vàng (Yellow Essence)** | 12 | Thử thách / Chế tạo |
+| **Tinh hoa Cầu Vồng (Rainbow Essence)** | 2 | Chế tạo cấp cao / Cửa hàng |
+| **Vàng** | 15.000 | Chế độ Cốt truyện / Chế độ Vô tận |
+
+<Steps>
+  <Step num="1" title="Farm Xương Năng Lượng">
+    Tham gia Cổng Tình Yêu (ưu tiên Cấp 5 trở lên). Xương Năng Lượng có tỷ lệ rơi thấp, vì vậy thường cần phải chạy nhiều lần. Đây là một vật phẩm tiến hóa cấp Thần Thoại.
+  </Step>
+  <Step num="2" title="Hoàn thành cột mốc hạ gục">
+    Trang bị Gazelle và tham gia một trận đấu Chế độ Vô tận. Bạn cần chính xác 5.000 mạng hạ gục. Tập trung vào các đợt lính đầu trận để tích lũy số lượng nhanh chóng.
+  </Step>
+  <Step num="3" title="Thu thập Tinh hoa">
+    Sử dụng trạm Chế tạo để chuyển đổi các tinh hoa cấp thấp hơn thành các biến thể Tím và Cầu Vồng yêu cầu. Bạn sẽ cần một lượng lớn nguyên liệu cơ bản Lam và Lục.
+  </Step>
+  <Step num="4" title="Tiến hóa cuối cùng">
+    Đi tới menu Tiến hóa (Evolve) trong sảnh chờ, chọn Gazelle, và tiêu thụ các nguyên liệu cùng 15.000 Vàng để mở khóa **Gazelle (Zombie)**.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Quản lý Vàng">
+Chi phí tiến hóa có thể làm cạn kiệt tài nguyên dự trữ của bạn một cách nhanh chóng. Nếu bạn thiếu Vàng, hãy tránh các lượt triệu hồi không cần thiết và tập trung vào việc hoàn thành Nhiệm vụ Hàng ngày cũng như các lượt chạy Vô tận đạt số đợt cao.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chỉ số, Nâng cấp và Hiệu suất Chiến đấu">
+
+Sau khi tiến hóa, **anime vanguards gazelle** trở thành một đơn vị lai chuyên dụng giữa hỗ trợ và gây sát thương (support-DPS). Mặc dù sát thương thuần của cô ấy có thể không sánh bằng các đơn vị hàng đầu như Eizan (Aura), nhưng khả năng làm tắc nghẽn đường đi của cô ấy bằng các thây ma đồng minh mang lại một lớp phòng thủ độc đáo mà ít đơn vị nào khác có thể tái hiện.
+
+### So sánh dạng Thường và Tiến hóa (Cấp 1)
+
+| Chỉ số | Gazelle Thường | Gazelle (Zombie) |
+| :--- | :--- | :--- |
+| **Sát thương Cơ bản** | 250 - 313 | 986 - 1.233 |
+| **Tốc độ Đánh (SPA)** | 7.0 giây - 5.5 giây | 7.0 giây - 5.5 giây |
+| **Tầm đánh** | 15 - 18 | 15 - 18 |
+| **Giới hạn Đặt** | 3 | 3 |
+| **Kiểu Tấn công** | Đường thẳng Rộng | Đường thẳng Rộng |
+
+### Lộ trình và Chi phí Nâng cấp
+
+Gazelle có lộ trình nâng cấp tương đối ngắn so với các đơn vị Thần Thoại khác, giúp cô ấy tiết kiệm chi phí hơn để nâng cấp tối đa trong trận đấu.
+
+| Cấp nâng cấp | Chi phí | Hiệu ứng |
+| :--- | :--- | :--- |
+| **Đặt ban đầu** | 2.100 Yên | Tấn công Đường thẳng Rộng cơ bản |
+| **Nâng cấp 1** | 2.500 Yên | Tăng Sát thương và Tầm đánh |
+| **Nâng cấp 2** | 2.800 Yên | Tăng đáng kể DPS |
+| **Nâng cấp 3** | 3.200 Yên | Mở khóa Triệu hồi Thây ma |
+
+<Callout type="info" title="Cơ chế Tầm đánh">
+Gazelle sử dụng kiểu tấn công **Đường thẳng Rộng (Wide Line)**. Điều này có nghĩa là vùng ảnh hưởng hiệu quả của cô ấy lớn hơn nhiều so với đường thẳng tiêu chuẩn, giúp cô ấy cực kỳ xuất sắc ở những đoạn đường thẳng nơi kẻ địch tụ tập đông đúc.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kỹ năng Nội tại: Tiệc Xác Chết & Thuần Ác">
+
+Sức mạnh thực sự của đơn vị **anime vanguards gazelle** nằm ở hai nội tại độc đáo của cô ấy. Những kỹ năng này biến đổi chiến trường bằng cách sử dụng chính số lượng của kẻ thù để chống lại chúng.
+
+<CardGrid cols={2}>
+  <Card title="Tiệc Xác Chết! (Corpse Party!)">
+    Cứ sau mỗi 5 đòn đánh, Gazelle sẽ hồi sinh tất cả kẻ địch bị tiêu diệt bởi bất kỳ đơn vị nào trong khung thời gian đó làm đồng minh. Những thây ma này gây ra **30% sát thương của Gazelle** và có thể cộng dồn lên tới **tổng cộng 120 thây ma** cho mỗi đơn vị được đặt.
+  </Card>
+  <Card title="Thuần Ác (Pure Evil)">
+    Với mỗi thây ma đồng minh hiện có trên sân, Gazelle sẽ nhận được **bùa lợi tăng 1% sát thương**. Bùa lợi này có thể tăng tối đa lên đến **50% sát thương cộng thêm**, mang lại lợi thế lớn trong các đợt quái mật độ cao.
+  </Card>
+</CardGrid>
+
+### Ứng dụng Chiến thuật
+Để tối đa hóa bùa lợi "Thuần Ác", Gazelle nên được đặt ở nơi các đơn vị gây DPS cao khác (như Song Jinwu hoặc Gujo) đã và đang dọn dẹp bớt quái. Vì các thây ma được hồi sinh từ mạng hạ gục của *bất kỳ* đơn vị nào, việc đặt Gazelle ở giữa đường đi cho phép cô ấy thu gom những "xác chết" do các nguồn sát thương chính của bạn để lại.
+
+**Xếp hạng Thiên phú Tối ưu:**
+1. **Quân Vương (Monarch)**: Lựa chọn tuyệt đối tốt nhất cho các chỉ số và khả năng thăng tiến sức mạnh.
+2. **Thái Dương (Solar)**: Tuyệt vời cho sự ổn định trên các loại bản đồ khác nhau.
+3. **Thiện Xạ (Deadeye)**: Cần thiết nếu bạn thấy tầm đánh cơ bản của cô ấy quá hạn chế đối với một số bản đồ nhất định.
+
+<Callout type="success" title="Sự kết hợp Meta">
+Kết hợp Gazelle với các đơn vị có tốc độ đánh cao để đảm bảo nguồn mạng hạ gục liên tục cho cô ấy hồi sinh. Càng có nhiều thây ma trên sân, sát thương cá nhân của cô ấy càng cao.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Biến thể Lấp lánh và Danh sách Kiểm tra Thành thạo">
+
+Đối với những người sưu tầm, **Gazelle Lấp Lánh (Shiny)** là một trong những giải thưởng hiếm nhất trong Anime Vanguards. Với tỷ lệ rơi 0.1% từ sự kiện, phiên bản này sở hữu một ngoại hình lột xác khác biệt lấy cảm hứng từ các tác phẩm nghệ thuật của người hâm mộ về nhân vật này trong bộ trang phục hầu gái.
+
+<Checklist
+  id="gazelle-mastery"
+  title="Danh sách kiểm tra hoàn thành Gazelle:"
+  items={[
+    "Mua Gazelle từ Cửa hàng Tình Yêu",
+    "Nhận Xương Năng Lượng từ Cổng Tình Yêu",
+    "Đạt 5.000 lượt hạ gục để mở khóa Tiến hóa",
+    "Tiến hóa thành Gazelle (Zombie)",
+    "Tẩy thiên phú Quân Vương (Monarch) hoặc Thái Dương (Solar)",
+    "Đạt Cấp 60 để tối đa hóa chỉ số cơ bản",
+    "Tùy chọn: Sở hữu biến thể Lấp lánh (Shiny)"
+  ]}
+/>
+
+<Callout type="tip" title="Săn Lấp Lánh">
+Nếu bạn đang đặc biệt săn lùng biến thể Lấp lánh (Shiny), hãy tập trung chạy nhanh Cổng Tình Yêu Cấp 1. Mặc dù phần thưởng thấp hơn, nhưng thời gian hoàn thành nhanh hơn nhiều, cho phép thực hiện nhiều lượt "quay" hơn mỗi giờ.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Anime Vanguards Gazelle có còn sở hữu được vào năm 2026 không?",
+    answer: "Gazelle là một đơn vị giới hạn thời gian cho Sự kiện Tình Yêu. Nếu sự kiện không hoạt động, cô ấy chỉ có thể nhận được thông qua giao dịch với những người chơi khác có cô ấy trong kho đồ của họ."
+  },
+  {
+    question: "Các thây ma có gây sát thương dựa trên chỉ số gốc của kẻ địch không?",
+    answer: "Không. Các thây ma được hồi sinh gây sát thương dựa trên 30% chỉ số sát thương hiện tại của Gazelle của bạn, chứ không phải chỉ số của kẻ địch bị tiêu diệt."
+  },
+  {
+    question: "Bản đồ nào tốt nhất để farm 5.000 mạng hạ gục?",
+    answer: "Bản đồ Làng Cát (Sand Village) ở Chế độ Vô tận được khuyến khích cao. Bố cục bản đồ đơn giản và các đợt quái đầu có lượng máu thấp, cho phép Gazelle dễ dàng giành được mạng hạ gục."
+  },
+  {
+    question: "Tôi có thể sử dụng nhiều Gazelle để có nhiều hơn 120 thây ma không?",
+    answer: "Có. Giới hạn 120 thây ma là tính trên mỗi đơn vị Gazelle. Vì bạn có giới hạn đặt tối đa là 3 đơn vị, về mặt lý thuyết bạn có thể có tới 360 thây ma đồng minh trên đường đi cùng một lúc."
+  }
+]} />
+
+<Callout type="info" title="Đánh giá cuối cùng">
+Mặc dù **anime vanguards gazelle** có thể không phải là đơn vị có lượng DPS thuần cao nhất trong trò chơi, nhưng tính đa dụng của cô ấy trong việc chặn đường đi và nội tại tăng tiến sát thương khiến cô ấy trở thành một đơn vị hạng A vững chắc cho người chơi giai đoạn giữa game, và là một đơn vị phải có đối với những người sưu tầm đội hình chủ đề Bleach.
+</Callout>
+
+</Section>

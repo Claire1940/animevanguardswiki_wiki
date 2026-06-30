@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Índice de enemigos de Vanguardias de Anime: Guía de desbloqueo y recompensas",
+  description: "Aprende cómo desbloquear el índice de enemigos de Vanguardias de Anime, completar hitos de mapas, farmear Rerolls de Rasgos y superar recompensas diarias de jefes de manera eficiente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Enemy+Index+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de Vanguardias de Anime"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Desbloquea el índice de enemigos de Vanguardias de Anime** derrotando a enemigos comunes (1% de probabilidad) y jefes (3% de probabilidad) en cualquier mapa.
+- **Obtén enormes recompensas de hitos**, incluyendo 20 Rerolls de Rasgos (Trait Rerolls) al completar el índice entero de un mapa específico.
+- **Completa recompensas diarias de jefes** hasta 10 veces al día para asegurar 5,000 Gemas y 10 Rerolls de Rasgos.
+- **Prepárate para los escenarios bloqueados** en las recompensas progresando previamente en los modos principales de Historia y Leyenda.
+- **Ignora el error visual de invencibilidad** que ocurre cuando los enemigos superan el umbral de HP de un entero de 32 bits en los modos Sandbox o Infinito.
+</Callout>
+
+<Section icon={Map} title="Descifrando el índice de enemigos de Vanguardias de Anime">
+
+El **índice de enemigos de Vanguardias de Anime** sirve como una base de datos centralizada que registra a cada adversario que los jugadores encuentran en los diversos entornos del juego. Gestionado por un NPC inspirado en el personaje Okabe Rintarou del anime Steins;Gate, este sistema proporciona un valioso trasfondo (lore), datos estructurales de los enemigos y seguimiento de la progresión. Acceder a este sistema permite a los jugadores comprender los modificadores, mecánicas y mutadores específicos que los diferentes enemigos llevan a la batalla.
+
+Para completar el índice, los jugadores deben derrotar activamente a los enemigos en varios modos de juego. Cada vez que un enemigo cae, existe una pequeña probabilidad de que se desbloquee su entrada en el índice. Esta mecánica fomenta jugar repetidamente tanto los escenarios estándar como las incursiones (raids) de alta dificultad.
+
+| Categoría de enemigo | Probabilidad base de desbloqueo | Ubicaciones principales de aparición |
+|---|---|---|
+| Enemigo común | 1% de probabilidad | Todos los escenarios de Historia, Incursión e Infinito |
+| Enemigo jefe | 3% de probabilidad | Oleadas finales de mapas de Historia e Incursión |
+
+<Callout type="warning" title="Se requiere paciencia">
+Debido a que los enemigos comunes solo tienen un 1% de probabilidad de desbloquear su entrada en el índice al morir, los jugadores suelen necesitar completar los escenarios varias veces antes de asegurar el registro completo de un mapa. Usar oleadas de alta densidad en el Modo Infinito puede acelerar el proceso para las unidades estándar.
+</Callout>
+
+Derrotar a estos objetivos no es solo para los completacionistas. Desbloquear todas las entradas de jefes y enemigos comunes en un mapa específico otorga una recompensa de hito de 20 Rerolls de Rasgos. Esta recompensa es esencial para la progresión en el juego medio y avanzado, lo que permite a los jugadores optimizar el equipamiento de sus unidades para el contenido más difícil.
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas diarias de jefes y farmeo de gemas">
+
+Las Recompensas de Jefes (Boss Bounties) representan una de las actividades diarias más confiables para recolectar la moneda premium y objetos de progresión. Accesibles a través del NPC del índice, estas recompensas asignan a los jugadores objetivos de jefes específicos en mapas aleatorios. Completar estos desafíos garantiza recursos de gran valor que de otro modo serían difíciles de farmear.
+
+Cada Recompensa de Jefe completada con éxito premia al jugador con 1 Reroll de Rasgo y 500 Gemas. Esta actividad está limitada a 10 finalizaciones por día, restableciéndose diariamente. Maximizar este límite diario otorga recompensas sustanciales que ayudan a los jugadores a mantener sus economías de invocación y rerolls.
+
+| Completados al día | Rerolls de Rasgos obtenidos | Gemas acumuladas |
+|---|---|---|
+| 1 completado | 1 Reroll | 500 Gemas |
+| 5 completados | 5 Rerolls | 2,500 Gemas |
+| 10 completados (Límite) | 10 Rerolls | 5,000 Gemas |
+
+<Callout type="tip" title="Desbloqueo de requisitos de mapa">
+Las recompensas pueden tener como objetivo mapas que el jugador aún no ha desbloqueado a través de la progresión normal. Si aparece una recompensa de alto valor en un mapa bloqueado, los jugadores deben progresar en los escenarios principales de Historia o Leyenda para obtener acceso a esa fase y reclamar las recompensas.
+</Callout>
+
+La selección de mapas para las recompensas diarias es aleatoria, lo que garantiza que los jugadores se enfrenten a una variedad de desafíos. Sin embargo, ciertos escenarios de alta dificultad, como la fase EX de Castillo Brillante (Acto 4), están excluidos de la rotación diaria para mantener la dificultad promedio manejable para los jugadores que han alcanzado el juego avanzado.
+
+</Section>
+
+<Section icon={Target} title="Cómo desbloquear el índice de enemigos eficientemente">
+
+Completar el índice requiere un enfoque sistemático para farmear los escenarios. Dado que las probabilidades de desbloqueo son bajas, optimizar los tiempos de limpieza y enfocarse en los mapas correctos reducirá significativamente el tiempo dedicado al grindeo.
+
+Sigue estos pasos para desbloquear sistemáticamente todas las entradas en tu base de datos:
+
+<Steps>
+  <Step num="1" title="Progresa en la historia principal">
+    Completa todos los mapas de Historia e Incursión disponibles para asegurarte de tener acceso a cualquier escenario seleccionado por el sistema de Recompensas Diarias de Jefes.
+  </Step>
+  <Step num="2" title="Identifica las entradas faltantes">
+    Visita al NPC del índice en el lobby para verificar qué mapas están cerca de completarse. Enfócate en los mapas que solo requieren una o dos entradas más para reclamar el hito de 20 Rerolls de Rasgos.
+  </Step>
+  <Step num="3" title="Farmea en modos de alta densidad">
+    Para los enemigos comunes con una tasa de desbloqueo del 1%, juega el Modo Infinito en el mapa objetivo. El alto volumen de apariciones de enemigos aumenta la probabilidad de desbloquear rápidamente las entradas que te faltan.
+  </Step>
+  <Step num="4" title="Apunta a los escenarios de jefes">
+    Para los jefes con una tasa de desbloqueo del 3%, completa rápidamente el Acto específico donde aparece el jefe. Utiliza composiciones de alto daño para minimizar el tiempo dedicado por partida.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Reclamación de hitos">
+Una vez que todos los enemigos y jefes de un mapa específico estén desbloqueados, recuerda reclamar manualmente los 20 Rerolls de Rasgos desde el menú del índice. Estos no se entregan automáticamente a tu inventario.
+</Callout>
+
+Farmear estas entradas de manera sistemática garantiza que no pierdas tiempo en mapas que ya han otorgado sus recompensas de hitos. Vigila de cerca la lista de mapas para realizar un seguimiento de tu estado de finalización.
+
+| Nombre del mapa | Tipo de mapa | Desafíos notables |
+|---|---|---|
+| Planeta Namak | Mapa de Historia | Mecánicas básicas, jefes de nivel inicial |
+| Aldea de la Arena | Mapa de Historia | Unidades de movimiento rápido, oleadas moderadas |
+| Mazmorra Doble | Mapa de Historia | Grandes reservas de salud, caminos divididos |
+| Estación de Shibuya | Mapa de Historia | Diseños de carriles complejos, necesidad de control de masas |
+| Bosque de Arañas | Mapa de Incursión | Modificadores de alta dificultad, mecánicas de jefe únicas |
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de enemigos y límites de escala de HP">
+
+Los enemigos en este juego vienen con varios modificadores, mecánicas y mutadores que alteran cómo interactúan con tus torres defensivas. Comprender estos rasgos es fundamental para diseñar estrategias exitosas, especialmente en los escenarios de Leyenda de mayor dificultad y en las Incursiones.
+
+Algunas unidades poseen escudos que bloquean tipos de daño específicos, mientras que otras se mueven a velocidades extremas o desactivan temporalmente las torres cercanas. Preparar un equipo equilibrado de DPS, soporte y unidades que inflijan ralentización es la mejor manera de contrarrestar estas diversas amenazas.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque en escala de daño">
+    - **Alto rendimiento de DPS**
+    - Necesario para objetivos jefes
+    - Contrarresta grandes reservas de salud
+  </Card>
+  <Card title="Unidades de control de masas">
+    - **Mecánicas de ralentización y aturdimiento**
+    - Esenciales para enemigos rápidos
+    - Aumentan las ventanas de ataque de las torres
+  </Card>
+  <Card title="Soporte y potenciadores">
+    - **Aumentos de rango y daño**
+    - Optimizan la eficiencia de colocación
+    - Maximizan la generación de oro
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="El error del límite de entero de 32 bits">
+Si un enemigo aparece con más de 4,294,967,295 HP (2^32 - 1), su barra de salud parecerá bugeada visualmente, haciendo que el enemigo parezca invencible. Este es un problema de desbordamiento visual que suele ocurrir en el Modo Sandbox, en las oleadas avanzadas del Modo Infinito o durante el Evento del Jefe Arin. El enemigo sigue recibiendo daño y puede ser derrotado una vez que su HP real caiga por debajo de este umbral.
+</Callout>
+
+Al lidiar con una escala de HP extrema, los jugadores deben continuar atacando al enemigo a pesar de la barra de salud estática. Utilizar daño basado en porcentajes o acumular potenciadores de alto nivel ayudará a reducir la salud del enemigo a niveles legibles.
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de progresión del índice">
+
+Para aprovechar al máximo el sistema de índice, los jugadores deben establecer objetivos de progresión claros. Priorizar las recompensas de hitos desde el principio proporciona los recursos necesarios para obtener rasgos de primer nivel, lo que a su vez facilita enormemente completar las recompensas diarias.
+
+Usa esta lista de verificación para realizar un seguimiento de tu progreso general con el sistema de índice:
+
+<Checklist
+  id="index-progression"
+  title="Hitos de finalización del índice:"
+  items={[
+    "Desbloquea al NPC del índice en el lobby principal",
+    "Completa el índice del Planeta Namak para la primera recompensa de hito",
+    "Alcanza el límite diario de 10 Recompensas de Jefes en un solo día",
+    "Desbloquea todas las entradas de enemigos para al menos tres mapas de Historia",
+    "Asegura la finalización completa del índice para el mapa de Incursión del Bosque de Arañas"
+  ]}
+/>
+
+<Callout type="info" title="Asignación de Rerolls de Rasgos">
+Guarda los Rerolls de Rasgos obtenidos de los hitos del índice para tus unidades Míticas y Secretas. Conseguir rasgos poderosos como Monarca (Monarch) o Único (Unique) en unidades de soporte y DPS principales reducirá drásticamente la dificultad de las recompensas diarias.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo al NPC del índice de enemigos de Vanguardias de Anime?",
+    answer: "El NPC del índice, inspirado en Okabe Rintarou, está disponible en el área del lobby principal. Puedes interactuar con él en cualquier momento para ver el progreso de tu colección de enemigos y aceptar recompensas diarias."
+  },
+  {
+    question: "¿Por qué me aparece bloqueado un mapa de Recompensa de Jefe?",
+    answer: "Las Recompensas de Jefes seleccionan mapas al azar de todo el catálogo del juego. Si una recompensa se establece en un mapa que no has desbloqueado, debes progresar en el modo de Historia principal para desbloquear ese escenario específico antes de poder jugar la recompensa."
+  },
+  {
+    question: "¿Las derrotas en el Modo Sandbox cuentan para desbloquear entradas del índice?",
+    answer: "No, derrotar enemigos en el Modo Sandbox no desbloquea entradas del índice. Debes derrotarlos en los modos estándar de Historia, Leyenda, Incursión o Infinito para activar la probabilidad de desbloqueo."
+  },
+  {
+    question: "¿Cuál es la hora de restablecimiento diario para las Recompensas de Jefes?",
+    answer: "Las Recompensas de Jefes se restablecen diariamente junto con la hora de reinicio estándar del servidor, lo que te permite farmear otras 10 finalizaciones para obtener 5,000 Gemas y 10 Rerolls de Rasgos."
+  }
+]} />
+
+<Callout type="tip" title="Consejo final">
+Revisa siempre la rotación diaria de recompensas inmediatamente después de iniciar sesión. Si los mapas son fáciles, completar las 10 partidas te tomará un tiempo mínimo y proporcionará un impulso masivo a tu economía de progresión.
+</Callout>
+
+</Section>

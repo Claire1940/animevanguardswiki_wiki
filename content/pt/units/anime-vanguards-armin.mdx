@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Vanguards Armin: Guia de Evolução Monarch e Configuração de Buffs",
+  description: "Saiba como otimizar o Monarch Armin em Anime Vanguards. Descubra seus buffs de posicionamento, mecânicas de transformação em Gigante Nuclear e estratégia para EX Raid.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Vanguards+Armin+Guide",
+  date: "2026-06-30",
+  author: "Equipe da Wiki de Anime Vanguards"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Anime Vanguards Armin**: Evolua esta unidade para Monarch Armin para desbloquear buffs de suporte que mudam o jogo e capacidades de transformação.
+- **Buff de Posicionamento**: Oferece uma **redução de 10% no custo de upgrade** e um **aumento de 20% no dano** para unidades colocadas em seus círculos designados.
+- **Habilidade Ativa**: Transforma o jogador em um **Gigante Nuclear** que causa dano em todo o mapa com base na sua unidade de maior dano ao alcance.
+- **Utilidade em EX Raid**: Concede imunidade a efeitos de status e debuffs para a unidade que estiver recebendo o dano do Titã Colossal durante a janela ativa.
+- **Valor Estratégico**: Essencial para completar EX Raids de alta dificuldade onde unidades DPS padrão sofrem sem suporte de redução de custo.
+</Callout>
+
+<Section icon={Sparkles} title="Monarch Armin: Visão Geral da Unidade Anime Vanguards Armin">
+
+A atualização mais recente de Attack on Titan introduziu a aguardada evolução de **anime vanguards armin**, oficialmente conhecida como Monarch Armin. Esta unidade muda o meta combinando redução de custo passiva, buffs de dano bruto e uma transformação ativa massiva em todo o mapa. Ao contrário das unidades DPS padrão que dependem apenas de escalonamento bruto, o Monarch Armin atua como um multiplicador de força para toda a sua equipe.
+
+**Destaques do Vídeo:**
+- **Mecânicas de Buff de Posicionamento**: Como utilizar os círculos designados para reduzir os custos de upgrade em 10% e aumentar o dano em 20%.
+- **Transformação em Gigante Nuclear**: Uma demonstração da transformação do Titã Colossal, que causa 60% do dano da sua unidade mais forte por passo.
+- **Viabilidade em EX Raid**: Por que esta unidade é considerada obrigatória para completar o conteúdo final de jogo mais difícil.
+
+<YouTubeEmbed videoId="3dJYPyH61VU" title="MONARCH ARMIN IS ACTUALLY CRAZY?! | Anime Vanguards Showcase" />
+
+Embora o Monarch Armin não cause dano direto através de ataques padrão, sua utilidade reside em sua capacidade de manipular o campo de batalha. Ele é invendável uma vez colocado, o que significa que os jogadores devem planejar seus layouts com cuidado. Ele possui um alto custo de posicionamento inicial e caminhos de upgrade caros, mas o retorno sobre o investimento é inigualável quando combinado com unidades DPS de alto nível.
+
+<Callout type="tip" title="Dica Pro">
+Sempre coloque o Monarch Armin cedo na partida para começar a gerar círculos de posicionamento. Esses círculos são fundamentais para economizar Yen nos seus upgrades caros de DPS no final do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades e Mecânicas de Buff do Monarch Armin">
+
+O Monarch Armin opera em um conjunto único de mecânicas que o distinguem das unidades de suporte tradicionais. Em vez de buffar unidades dentro de um círculo de alcance padrão, ele cria zonas de posicionamento específicas na trilha. Entender como essas zonas interagem com sua equipe é crucial para maximizar sua configuração defensiva.
+
+### Zonas de Buff de Posicionamento
+Cada vez que você coloca o Monarch Armin ou faz um upgrade nele, ele designa um local de posicionamento perto da trilha dentro de seu alcance. Qualquer unidade colocada dentro deste círculo designado recebe dois benefícios principais:
+- **Redução de Custo de Upgrade**: Reduz o custo de upgrade da unidade colocada em **10%**.
+- **Buff de Dano**: Aumenta a produção de dano da unidade colocada em **20%**.
+
+Uma vez que uma unidade é colocada na zona designada, o círculo é consumido. Se você ativar a habilidade ativa do Monarch Armin, quaisquer zonas de posicionamento não utilizadas serão removidas do mapa.
+
+### Transformação em Gigante Nuclear
+Sua habilidade ativa, **Gigante Nuclear**, transforma o jogador em um Titã Colossal. Esta habilidade tem um **tempo de recarga de 600 segundos** e opera sob as seguintes regras:
+- **Escalonamento de Dano**: O Titã assume o atributo de dano mais alto de qualquer unidade atualmente dentro do alcance do Monarch Armin.
+- **Dano em Todo o Mapa**: Cada passo que o Titã dá causa **60%** desse atributo de dano mais alto a todos os inimigos no mapa.
+- **Imunidade a Debuff**: A unidade cujo dano é copiado torna-se completamente imune a efeitos de status e debuffs durante a duração da habilidade ativa.
+
+| Nível de Upgrade | Custo de Upgrade (Yen) | Dano Base | SPA (Segundos) | Alcance | Alcance do Buff |
+|---|---|---|---|---|---|
+| **Base Evoluído** | 1,500 | 0 | 12.0 | 1.2 | 1.5 |
+| **Upgrade 1** | 2,500 | 0 | 12.0 | 1.5 | 1.8 |
+| **Upgrade 2** | 4,000 | 0 | 11.5 | 1.8 | 2.0 |
+| **Upgrade 3** | 6,500 | 0 | 11.0 | 2.0 | 2.2 |
+| **Upgrade Máximo** | 12,000 | 0 | 10.0 | 2.5 | 2.5 |
+
+<Callout type="warning" title="Aviso Importante">
+Como a transformação em Gigante Nuclear escala diretamente com a unidade de maior dano no alcance do Monarch Armin, ativar a habilidade sem uma unidade de alto DPS por perto resultará em uma produção de dano mínima.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Requisitos de Evolução e Passos de Upgrade">
+
+Para transicionar sua unidade Armin base para sua forma Monarch, você deve coletar materiais de evolução específicos nos estágios do evento Attack on Titan e EX Raids. O processo requer uma mistura de drops exclusivos do evento e recursos de crafting padrão.
+
+<Steps>
+  <Step num="1" title="Obtenha o Armin Base">
+    Invoque a unidade Armin base nos banners de recrutamento padrão usando suas Gems. Certifique-se de trancar a unidade para evitar venda ou alimentação acidental.
+  </Step>
+  <Step num="2" title="Farme EX Raids para obter o Soro Colossal">
+    Participe dos novos estágios de EX Raid para obter o Soro Colossal. Este item é um material de evolução obrigatório e tem uma taxa de drop garantida em vitórias bem-sucedidas no modo difícil.
+  </Step>
+  <Step num="3" title="Colete Fragmentos de Titã">
+    Complete os estágios do evento Attack on Titan para coletar Fragmentos de Titã. Você precisará de um total de 50 fragmentos para completar a receita de evolução.
+  </Step>
+  <Step num="4" title="Evolua no NPC de Crafting">
+    Vá até o NPC de Evolução no lobby principal, selecione o Armin, deposite os materiais necessários junto com 15.000 de Ouro e confirme a evolução para desbloquear o Monarch Armin.
+  </Step>
+</Steps>
+
+| Nome do Material | Quantidade Necessária | Fonte Principal | Taxa de Drop |
+|---|---|---|---|
+| **Soro Colossal** | 1 | Recompensa de EX Raid | Garantido (Modo Difícil) |
+| **Fragmentos de Titã** | 50 | Estágios de Evento | Drop Comum |
+| **Cristais Vermelhos** | 10 | Desafios Diários / Crafting | Alta |
+| **Ouro** | 15,000 | Modo História / Modo Infinito | Garantido |
+
+<Callout type="info" title="Dica de Recurso">
+Se você estiver tendo dificuldades para completar a EX Raid para o Soro Colossal, junte-se a lobbies públicos com jogadores de alto nível. O Monarch Armin é muito procurado, e muitos jogadores estão dispostos a carregar setups de suporte para garantir a vitória.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Posicionamento Estratégico e Sinergia de Equipe">
+
+Implantar o Monarch Armin requer uma abordagem tática diferente em comparação com os causadores de dano padrão. Como seus círculos de posicionamento aparecem perto da trilha ao redor dele, seu próprio posicionamento dita onde suas unidades DPS buffadas devem ir.
+
+<CardGrid cols={3}>
+  <Card title="Buff de Linha de Frente">
+    Coloque o Armin perto do início da trilha para buffar seus defensores do início do jogo, permitindo que você garanta upgrades baratos durante as primeiras ondas.
+  </Card>
+  <Card title="Sinergia de Meio de Trilha">
+    Posicione o Armin em grandes interseções de trilha. Isso garante que seus círculos de posicionamento caiam em áreas onde suas unidades AoE de alto dano possam cobrir várias rotas.
+  </Card>
+  <Card title="Escalonamento de Final de Jogo">
+    Guarde sua transformação ativa para ondas de chefes. Certifique-se de que sua unidade de maior dano esteja totalmente upada e posicionada dentro do alcance do Armin antes de transformar.
+  </Card>
+</CardGrid>
+
+Ao montar uma equipe em torno do Monarch Armin, foque em combiná-lo com unidades que tenham alto escalonamento bruto, mas custos de upgrade caros. O desconto de 10% se acumula rapidamente ao fazer upgrade de unidades míticas e secretas.
+
+| Unidade Alvo | Classificação de Sinergia | Impacto do Buff | Estratégia Recomendada |
+|---|---|---|---|
+| **Gohan (Beast)** | **Excelente** | Alto escalonamento bruto amplificado em 20% | Coloque o Gohan diretamente no primeiro círculo do Armin |
+| **Song Goku** | **Boa** | Reduz upgrades caros de meio de jogo | Use o Goku para segurar a rota enquanto o Armin escala |
+| **Alucard** | **Excelente** | Maximiza o potencial de varredura em todo o mapa | Ative a transformação quando o Alucard estiver com o máximo de stacks |
+| **Suportes Padrão** | **Baixa** | Benefício mínimo de aumentos de dano | Posicione suportes fora das zonas de buff do Armin |
+
+<Callout type="success" title="Sucesso de Sinergia">
+Combinar o Monarch Armin com Gohan (Beast) permite que você ignore a curva de custo acentuada dos upgrades finais do Gohan, economizando milhares de Yen durante ondas críticas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Progressão e Objetivos">
+
+Para aproveitar ao máximo o Monarch Armin em suas partidas, tente completar os seguintes marcos de progressão. Este checklist garante que você otimizou tanto o nível dele quanto a composição da sua equipe para o conteúdo de final de jogo.
+
+<Checklist
+  id="armin-progression"
+  title="Objetivos de Otimização do Monarch Armin:"
+  items={[
+    "Evoluir o Armin base para Monarch Armin usando o NPC de Evolução",
+    "Subir o Monarch Armin para o nível máximo usando unidades de comida",
+    "Testar layouts de círculos de posicionamento no Modo Infinito para dominar o posicionamento das zonas",
+    "Cronometrar a transformação ativa em Gigante Nuclear para limpar os spawns de chefes da Onda 50",
+    "Equipar o Monarch Armin com relíquias de aumento de velocidade ou aumento de alcance"
+  ]}
+/>
+
+<Callout type="tip" title="Recomendação de Relíquia">
+Equipe relíquias de aumento de alcance no Monarch Armin. Aumentar seu alcance base expande a área onde ele pode colocar círculos de buff, dando a você mais flexibilidade em mapas apertados.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso vender o Monarch Armin durante uma partida?",
+    answer: "Não, o Monarch Armin é invendável uma vez colocado no mapa. Você deve planejar seu posicionamento com cuidado, pois não poderá reposicioná-lo mais tarde na partida."
+  },
+  {
+    question: "Como maximizo o dano da ativa do Gigante Nuclear?",
+    answer: "Certifique-se de que sua unidade de maior dano esteja posicionada dentro do círculo de alcance do Monarch Armin. A transformação copia o atributo de dano dessa unidade, portanto, fazer o upgrade do seu DPS primário antes de ativar a transformação é essencial."
+  },
+  {
+    question: "Os buffs de posicionamento se acumulam se eu tiver várias unidades Armin?",
+    answer: "Não, a redução de 10% no custo de upgrade e o buff de 20% no dano não se acumulam na mesma unidade. Uma unidade só pode se beneficiar de um círculo de posicionamento por vez."
+  },
+  {
+    question: "Como evoluo a unidade anime vanguards armin para Monarch Armin?",
+    answer: "Você deve coletar 1 Soro Colossal de EX Raids, 50 Fragmentos de Titã de estágios de evento de AoT, 10 Cristais Vermelhos e 15.000 de Ouro, e então combiná-los no NPC de Evolução."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Fique de olho no tempo de recarga de 600 segundos da habilidade ativa. Em partidas padrão, você provavelmente só conseguirá usar a transformação uma ou duas vezes, então guarde-a para as ondas finais de chefes.
+</Callout>
+
+</Section>
